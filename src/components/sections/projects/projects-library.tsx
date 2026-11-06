@@ -1,6 +1,7 @@
 "use client";
 
 import NumberFlow from "@number-flow/react";
+import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
@@ -167,40 +168,51 @@ export function ProjectsLibrary({
               transition={{ duration: 0.5, ease: EASE.out }}
               className={cn(
                 STAGES[(number - 1) % STAGES.length],
-                "border-deep flex flex-col rounded-lg border p-6 sm:p-7",
+                "border-deep flex flex-col overflow-hidden rounded-lg border",
               )}
             >
-              <p className="spec-sh text-muted flex justify-between gap-4">
-                <span>{pad(number)}</span>
-                <span>{project.ongoing ? "Ongoing" : "Supplied"}</span>
-              </p>
-              <h3 className="font-display mt-6 text-2xl leading-[1.05] text-balance sm:text-3xl">
-                {project.name}
-              </h3>
-              {project.client && (
-                <p className="text-muted mt-2">{project.client}</p>
-              )}
-              <ul className="mt-7 flex flex-wrap gap-1.5">
-                {project.products.map((product) => {
-                  const className = cn(
-                    "border-deep inline-flex min-h-9 items-center rounded-full border px-3 text-sm transition-colors duration-300",
-                    matches(product)
-                      ? "bg-deep text-chalk"
-                      : "bg-chalk/60 hover:bg-chalk",
-                  );
-                  return (
-                    <li key={product.name}>
-                      {product.href ? (
-                        <Link href={product.href} className={className}>
-                          {product.name}
-                        </Link>
-                      ) : (
-                        <span className={className}>{product.name}</span>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
+              <figure className="border-deep relative aspect-[4/3] border-b">
+                <Image
+                  src={project.picture.src}
+                  alt={project.picture.alt}
+                  fill
+                  sizes="(min-width: 64rem) 32vw, (min-width: 40rem) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </figure>
+              <div className="flex flex-1 flex-col p-6 sm:p-7">
+                <p className="spec-sh text-muted flex justify-between gap-4">
+                  <span>{pad(number)}</span>
+                  <span>{project.ongoing ? "Ongoing" : "Supplied"}</span>
+                </p>
+                <h3 className="font-display mt-6 text-2xl leading-[1.05] text-balance sm:text-3xl">
+                  {project.name}
+                </h3>
+                {project.client && (
+                  <p className="text-muted mt-2">{project.client}</p>
+                )}
+                <ul className="mt-7 flex flex-wrap gap-1.5">
+                  {project.products.map((product) => {
+                    const className = cn(
+                      "border-deep inline-flex min-h-9 items-center rounded-full border px-3 text-sm transition-colors duration-300",
+                      matches(product)
+                        ? "bg-deep text-chalk"
+                        : "bg-chalk/60 hover:bg-chalk",
+                    );
+                    return (
+                      <li key={product.name}>
+                        {product.href ? (
+                          <Link href={product.href} className={className}>
+                            {product.name}
+                          </Link>
+                        ) : (
+                          <span className={className}>{product.name}</span>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </motion.li>
           ))}
         </AnimatePresence>

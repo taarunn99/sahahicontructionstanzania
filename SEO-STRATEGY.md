@@ -185,7 +185,7 @@ gets a 301. Every level named in a breadcrumb is a real page.
 ```
 BUILT (2026-11-05)
 /                                       home
-/products                               catalogue index, all 53 products
+/products                               catalogue index: every product by name, one line and link
 /about                                  entity page
 /contact                                channels + enquiry form
 /mapei                                  brand hub - owns "Mapei Tanzania"

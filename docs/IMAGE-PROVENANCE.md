@@ -139,6 +139,44 @@ distributor is normal, but no written permission is on file (Q9).
   the back) and moved to `assets/source/bihui-3d/rejected/`; that page keeps its
   catalogue picture.
 
+## 3d. Project card pictures, 2026-11-06
+
+Built by `node scripts/build-project-pictures.mjs` from
+`assets/source/projects/` (gitignored) to `public/images/projects/`.
+
+Real photographs, credited on the card:
+
+| Project | Source | Licence |
+|---|---|---|
+| Oceans Mall | supplied by the owner (`oceans mall.jpg`, 800 x 600) | photographer not known: owner to confirm |
+| Baraza Resort & Spa | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baraza_Zanzibar.jpg), Rob from United Kingdom | CC BY 2.0 |
+| Kimbiji Beach Resort | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kimbiji_beach,_Kigamboni_MC.jpg), Mangapwani. The beach, not the resort, and the card says so | CC BY-SA 4.0 |
+| Lake Cement | [lakecement.co.tz](https://www.lakecement.co.tz/) `/images/slideshow/1.jpeg` | **no licence: Lake Cement's own photograph, used without written permission. Ask them** |
+
+Searches found no usable photograph of the other 11, so those are generated
+(Higgsfield `nano_banana_pro`, 22 credits, balance 214 to 192). They show the
+kind of work the sheet's products did and are never that site. The owner removed
+the labels from the cards on 2026-11-06; a line at the foot of `/projects` carries
+the credits and says some pictures are illustrative.
+
+| Project | Job |
+|---|---|
+| Awadha Villa | `421bf27b-3268-4a80-afd5-000a4993ed9d` |
+| Charan Construction | `95f58e9c-0213-4595-8682-ac67620796f3` |
+| Afya Wheat Flour Ltd | `f04b7d39-e7c4-4a60-bae3-d494706cf188` |
+| Aga Khan Education | `a4eadd1f-8c35-4b83-8620-914859d6dca6` |
+| Elven Agri | `7ccb018b-a756-4175-a59d-5702b1117d44` |
+| Zanzibar Crown Hotel | `f7dc1b52-823e-464f-82f8-10d7d829dab3` |
+| Estim Construction, including Kawe | `a6d74885-764b-4649-9719-ff9786572735` |
+| GCLA Toxic Room | `c0db924e-38ed-48b2-90e2-8da51fcea4cc` |
+| Beijing Construction | `2d86547f-05fc-47dc-a870-4cbd01bcc308` |
+| Africana Village | `16927e85-90eb-430d-b420-d2aca0716a70` |
+| DJV Construction | `c1b2773e-0256-4398-8693-1c8509752ac2` |
+
+When the owner supplies a real site photograph, drop it in
+`assets/source/projects/<slug>.jpg`, rebuild, and change that project's `picture`
+kind to `"site"` with a credit.
+
 ## 4. The first attempt, 2026-11-05
 
 Higgsfield refused every job that day (plan in a grace period). Nothing

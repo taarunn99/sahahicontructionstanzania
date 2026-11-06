@@ -1,0 +1,5 @@
+{
+  // The Desktop folder is a symlink to ~/dev/sahihicc, so Git reports its root
+  // outside the opened path. This lets Source Control show the repository.
+  "git.openRepositoryInParentFolders": "always"
+}

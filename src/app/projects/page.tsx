@@ -7,6 +7,7 @@ import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import {
   projectLines,
+  projectPictureCredits,
   projectRanking,
   projects,
   projectsPeriod,
@@ -117,6 +118,27 @@ export default function ProjectsPage() {
             Each entry shows the site or client and the products supplied, as
             recorded on our supply sheet for {projectsPeriod}. It does not
             describe the works carried out.
+          </p>
+          <p className="text-muted mt-3 max-w-3xl text-sm leading-relaxed">
+            Some pictures are illustrative. Photo credits:{" "}
+            {projectPictureCredits.map((credit, index) => (
+              <span key={credit.project}>
+                {index > 0 && " · "}
+                {credit.project}:{" "}
+                {credit.href ? (
+                  <a
+                    href={credit.href}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="underline underline-offset-2"
+                  >
+                    {credit.text}
+                  </a>
+                ) : (
+                  credit.text
+                )}
+              </span>
+            ))}
           </p>
         </Container>
       </section>

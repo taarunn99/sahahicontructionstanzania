@@ -78,8 +78,8 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   (`src/components/sections/contact-card.tsx`: headline, email, three
   pills, the logo's yellow sun rising from the edge), replacing the
   WhatsApp enquiry composer there (`enquiry-composer.tsx` is kept, unused).
-  No named people on the site: the director was removed at the owner's
-  request.
+  The director was removed at the owner's request, then named again later the
+  same day (see below).
 - Third round, 2026-11-06:
   - **Oriental Yuhong** hub and five product pages (`/oriental-yuhong`),
     from the owner's price list and five OYH data sheets; pack pictures
@@ -121,6 +121,21 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
     loads only on a translated page. The root `<html>` stays `lang="en"` in the
     static HTML and `main`, header and footer carry `lang="sw"`. Live tools and
     calculators carry `translate="no"`, see GOVERNANCE section 7.
+- Fourth round, 2026-11-06:
+  - **`/products`** is minimal and interactive: job tiles, brand filter, one
+    draggable shelf per line (`src/components/sections/catalogue/`). A card is
+    picture, name, one line (`src/config/product-one-liners.ts`) and Explore.
+    No technical data on that page; it lives on the product pages.
+  - **`/about`** is one magazine issue (`src/components/sections/about/magazine.tsx`,
+    GSAP and Motion): cover, contents, feature, photo essay, pinned spreads,
+    numbers, masthead.
+  - **Director named** on `/about` (Anil Sankaran, from the card): masthead,
+    Person schema, `employee` on the Organization, `siteConfig.director`. Only
+    the director. No portrait until `docs/OPEN-QUESTIONS.md` Q12 is answered.
+  - **Scroll** (`src/providers/scroll-memory.tsx`): a link opens a page at the
+    top; back, forward and reload return to where the visitor left it.
+  - `.vscode/settings.json` makes Source Control find the repo through the
+    Desktop symlink.
 - Owner decisions on 2026-11-05: the `/mapei` hub owns
   "Mapei Tanzania"; Sahihi is independent (no group mention); Mlinzi is
   parked and treated as a third-party incumbent. The launch domain is
@@ -130,6 +145,10 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   spreads; line page mastheads; About. Registry `src/config/images.ts`,
   build `npm run assets:images`, log `docs/IMAGE-PROVENANCE.md` section 3.
   They are atmosphere: never captioned as a Sahihi project or premises.
+- Project cards have pictures (`picture` in `src/config/projects.ts`, sources in
+  `docs/IMAGE-PROVENANCE.md` 3d): 4 real, 11 generated, no label on the cards (owner,
+  2026-11-06). Credits and an "illustrative" line are at the foot of `/projects`.
+  Replace generated ones with real site photographs.
 - GitHub: `taarunn99/sahahicontructionstanzania`, branch `main`, PUBLIC by the
   owner's choice on 2026-11-06, including `docs/`. `assets/source/` (price lists,
   licence, card) stays gitignored. Commit or push only when asked.

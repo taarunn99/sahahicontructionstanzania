@@ -156,6 +156,10 @@ until this is known.
 
 ### Q12. Directors and the portrait
 
+Partly answered 2026-11-06: the owner asked for the director's name on the
+About page. It is there, with Person schema. Still open: the portrait, any
+other directors, a biography.
+
 One director was supplied: Anil Sankaran. Are there others for the site?
 Short biographies? And please confirm the portrait supplied (file name
 "Elegant South Asian Executive Portrait") is the director's approved

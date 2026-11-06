@@ -74,7 +74,10 @@ export const siteConfig = {
   /** Countries named in schema areaServed. Tanzania only until the owner
    *  confirms cross-border supply (docs/OPEN-QUESTIONS.md Q4). */
   areaServed: ["TZ"],
-  // No named people on the site (owner, 2026-11-06: "remove director").
+  /** Named on /about so search engines can identify who stands behind the
+   *  company (owner, 2026-11-06, reversing the earlier "remove director").
+   *  Name and title from the business card. No portrait until Q12 is answered. */
+  director: { name: "Anil Sankaran", title: "Director" },
   /** Only routes that exist. A link in the chrome never 404s. */
   nav: [
     { label: "Home", href: "/" },

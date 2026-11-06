@@ -1,6 +1,7 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 
@@ -64,28 +65,40 @@ export function ProjectsStrip({
                 draggable={false}
                 className={cn(
                   STAGES[index % STAGES.length],
-                  "border-deep flex h-full min-h-64 flex-col justify-between rounded-lg border p-6 transition-transform duration-500 hover:-translate-y-1",
+                  "border-deep flex h-full flex-col overflow-hidden rounded-lg border transition-transform duration-500 hover:-translate-y-1",
                 )}
               >
-                <p className="spec-sh text-muted flex justify-between gap-4">
-                  <span>{pad(index + 1)}</span>
-                  <span>
-                    {countPrefix}
-                    {project.products.length}
-                    {countSuffix}
-                  </span>
-                </p>
-                <div>
-                  <p className="font-display text-2xl leading-[1.05] text-balance">
-                    {project.name}
+                <span className="border-deep relative block aspect-[4/3] border-b">
+                  <Image
+                    src={project.picture.src}
+                    alt={project.picture.alt}
+                    fill
+                    draggable={false}
+                    sizes="(min-width: 40rem) 22rem, 78vw"
+                    className="object-cover"
+                  />
+                </span>
+                <span className="flex flex-1 flex-col justify-between gap-8 p-6">
+                  <p className="spec-sh text-muted flex justify-between gap-4">
+                    <span>{pad(index + 1)}</span>
+                    <span>
+                      {countPrefix}
+                      {project.products.length}
+                      {countSuffix}
+                    </span>
                   </p>
-                  <p className="spec-sh mt-4 leading-relaxed">
-                    {project.products
-                      .slice(0, 3)
-                      .map((product) => product.name)
-                      .join(" · ")}
-                  </p>
-                </div>
+                  <div>
+                    <p className="font-display text-2xl leading-[1.05] text-balance">
+                      {project.name}
+                    </p>
+                    <p className="spec-sh mt-4 leading-relaxed">
+                      {project.products
+                        .slice(0, 3)
+                        .map((product) => product.name)
+                        .join(" · ")}
+                    </p>
+                  </div>
+                </span>
               </Link>
             </li>
           ))}

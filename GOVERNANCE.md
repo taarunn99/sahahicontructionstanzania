@@ -49,9 +49,13 @@ client-rendered loses.
 | 2026-11-06 | Palette is **solid, from the logo** (Sahihi Blue, Tick Green, Signal Yellow), replacing the pastel palette of 2026-11-05. Owner: Tanzanian buyers like colourful sites; "solid and popping just like the logo" | `src/app/globals.css` |
 | 2026-11-06 | Product pages follow the manufacturer's own product page layout, in the manufacturer's colour, with its official pack shot and a pill Download button for the data sheet. Pack shots are the manufacturer's files, never generated | `product-detail.tsx`, `scripts/build-packshots.mjs` |
 | 2026-11-06 | No named people on the site: the director's name, title, portrait and Person schema are removed (owner: "remove director") | `src/app/about/page.tsx`, `src/config/site.ts` |
+| 2026-11-06 | Reverses the row above for the director only: name and title on `/about`, with Person schema, so search engines can identify who stands behind the company (owner). Other people stay off the site; no portrait until Q12 is answered | `src/app/about/page.tsx`, `src/config/site.ts` |
+| 2026-11-06 | `/products` carries no technical data: picture, name, one line, Explore. Specifications live on the product pages (owner) | `src/app/products/page.tsx` |
+| 2026-11-06 | A link opens a page at the top; back, forward and reload return to the visitor's position (owner) | `src/providers/scroll-memory.tsx` |
 | 2026-11-06 | Nabaki (nabaki.co.tz) is the named competitor. Never mention a competitor's faults on the site | `docs/research/15-nabaki-competitor.md` |
 | 2026-11-05 | The logo is the vector extraction from the business card. It is never redrawn, restyled or AI-regenerated | owner asked for accuracy |
 | 2026-11-05 | Generated imagery is atmosphere only. Never a product pack, never presented as a Sahihi project or site | `DESIGN-CONCEPT.md` 5.2 |
+| 2026-11-06 | Exception, by the owner: generated pictures sit on the project cards with no label on the card. One line at the foot of `/projects` says some are illustrative, beside the photo credits the licences require. Swap in real site photographs as they arrive | owner: "remove these illustrative" |
 | 2026-11-05 | Cursor-only effects (WebGL button rim, magnetic pull) never load on touch devices | measured, section 4 |
 | 2026-11-05 | Calls to action are real `<a href>` links, not buttons that navigate by script | interlinking law, section 8 |
 | 2026-11-05 | Mapei product pages offer the official technical data sheet as a download. The PDFs are Mapei's, unaltered, with the edition code shown | owner |

@@ -6,6 +6,8 @@ import { useEffect, useRef } from "react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
+import { ScrollMemory } from "./scroll-memory";
+
 /**
  * Drives Lenis from the GSAP ticker instead of its own rAF loop, so smooth
  * scrolling and every ScrollTrigger run on a single frame. Two loops would
@@ -37,7 +39,15 @@ export function SmoothScrollProvider({
     };
   }, [prefersReducedMotion]);
 
-  if (prefersReducedMotion) return <>{children}</>;
+  const memory = <ScrollMemory getLenis={() => lenisRef.current?.lenis} />;
+
+  if (prefersReducedMotion)
+    return (
+      <>
+        {children}
+        {memory}
+      </>
+    );
 
   return (
     <ReactLenis
@@ -51,6 +61,7 @@ export function SmoothScrollProvider({
       }}
     >
       {children}
+      {memory}
     </ReactLenis>
   );
 }

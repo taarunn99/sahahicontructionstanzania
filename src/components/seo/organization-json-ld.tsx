@@ -47,6 +47,13 @@ export function OrganizationJsonLd() {
     // The brands this business distributes - entity clarity for
     // "<brand> distributor Tanzania" queries.
     brand: brands.map((brand) => ({ "@type": "Brand", name: brand.name })),
+    // Named on /about; the full Person node is on that page.
+    employee: {
+      "@type": "Person",
+      "@id": `${siteConfig.url}/about#director`,
+      name: siteConfig.director.name,
+      jobTitle: siteConfig.director.title,
+    },
     contactPoint: [
       {
         "@type": "ContactPoint",
