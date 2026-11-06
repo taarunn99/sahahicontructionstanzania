@@ -1,0 +1,58 @@
+{
+  "slug": "mapecoat-dw-25",
+  "titleAsPrinted": "MAPECOAT DW 25",
+  "edition": "2049-3-2026 en (IT)",
+  "description": "Two-component epoxy paint for anti-acid and nontoxic coatings on concrete surfaces, suitable for contact with drinking water",
+  "whereToUse": [
+    "Protection for concrete surfaces and cementitious render in the food and drinks industries in processing and production areas, concrete water tanks and pipes used for slightly aggressive chemical substances and storage tanks used to contain drinking water.",
+    "Lining tanks used for containing drinking water.",
+    "Coating storage tanks for foodstuffs.",
+    "Protective lining in depuration tanks."
+  ],
+  "notFor": [
+    "Do not use Mapecoat DW 25 on damp surfaces, unless treated beforehand with Triblock P.",
+    "Do not apply Mapecoat DW 25 on surfaces subject to capillary rising damp",
+    "Do not apply Mapecoat DW 25 on flexible substrates/systems.",
+    "Do not apply Mapecoat DW 25 on dusty or crumbly substrates.",
+    "Do not apply Mapecoat DW 25 on hot surfaces or surfaces exposed to direct sunlight."
+  ],
+  "standards": [
+    { "standard": "EN 1504-2", "value": "coating (C) - protection against ingress (PI) + moisture control (MC) + physical resistance/surface improvement (PR) + resistance to chemicals (RC) + increasing resistivity by limiting moisture content (IR)" },
+    { "standard": "EN 1504-9", "value": "Mapecoat DW 25 complies with the principles defined by EN 1504-9 standards" },
+    { "standard": "EU 10/2011", "value": "Mapecoat DW 25 is also certified and complies with the requirements of EU 10/2011 Regulations for materials in contact with foodstuffs." },
+    { "standard": "Italian Ministerial Decree issued 06-04-2004, No. 174", "value": "According to transfer tests contained in the Italian Ministerial Decree issued 06-04-2004, No. 174, subsection 2, article 5, Mapecoat DW 25 may be used in fixed water plants used for the capitation, treatment, adduction and treatment of water for human consumption." },
+    { "standard": "EN 13501-1", "value": "BFLs1" }
+  ],
+  "technicalData": [
+    { "label": "Colour (A+B)", "value": "white" },
+    { "label": "Mixing ratio", "value": "component A : component B = 4 : 1" },
+    { "label": "Density (A+B)", "value": "1,300 kg/m³" },
+    { "label": "Application temperature", "value": "from +5°C to +30°C" },
+    { "label": "Pot life", "value": "30'-40'" },
+    { "label": "Setting time of film", "value": "4-5 hours" },
+    { "label": "Waiting time between coats", "value": "6-24 hours" },
+    { "label": "Final hardening time", "value": "7 days" },
+    { "label": "Maximum VOC content according to Directive 2004/42/EC", "value": "160 g/l" },
+    { "label": "Abrasion resistance (TABER test)", "value": "< 600 mg" },
+    { "label": "Resistance to thermal shock (1x)", "value": "3.5 MPa" },
+    { "label": "Direct traction adherence test", "value": "3.5 MPa" }
+  ],
+  "consumption": [
+    {
+      "basis": "Total for two coats (the sheet says this corresponds to a final thickness of approximately 300-450 µm)",
+      "value": "400-600 g/m² in two coats",
+      "quote": "400-600 g/m² in two coats, which corresponds to a final thickness of approximately 300-450 µm (2 coats of product)."
+    },
+    {
+      "basis": "If just one coat is applied (the sheet requires a dry final thickness of at least 200 µm in that case)",
+      "value": "approximately 300 g/m²",
+      "quote": "If just one coat is applied, a dry final thickness of at least 200 µm (consumption of approximately 300 g/m²) is required."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Mixing ratio: component A : component B = 4 : 1",
+  "packaging": "15 kg units (12 kg of component A + 3 kg of component B) and 5 kg units (4 kg of component A + 1 kg of component B).",
+  "storage": "Mapecoat DW 25 may be stored for up to 24 months in its original packaging in a dry area at a temperature of between +5°C and +30°C away from sources of heat and naked flames.",
+  "notes": "1) This is the international sheet (edition code ends 'en (IT)', Mapei S.p.A. Milano), not a UAE edition. 2) Two consumption statements: 400-600 g/m² in total for two coats (approximately 300-450 µm final thickness), and approximately 300 g/m² if just one coat is applied (dry final thickness at least 200 µm). They are different cases rather than a contradiction, but the thickness obtained per gram is not quite the same in the two statements (400-600 g/m² for approximately 300-450 µm, versus approximately 300 g/m² for at least 200 µm). The sheet gives no per-coat figure for the two-coat case. Units are g/m², not kg/m². 3) The application text says the product 'must be applied evenly in 2 coats', while the consumption section allows for 'just one coat'. 4) The description word is split across a line break in the PDF ('non-' / 'toxic'); the reading-order text joins it as 'nontoxic', which is what is recorded. The printed intent may be 'non-toxic'. 5) Pot life is printed as 30'-40' (minute marks; the sheet's typographic marks were replaced with straight quotes as instructed). 6) Storage is +5°C to +30°C, but the recommendations also say to store the two components between +15°C and +25°C before mixing, especially in hot weather. 7) Under 'Resistance to severe chemical attack' the product performance column prints 'No variation in performance.' and also 'Bubbles with 10% acetic acid after 28 days'; relevant to the 'anti-acid' description, which the text qualifies as resistance to 'slightly aggressive acids'. 8) Damp substrates need Triblock P first; no consumption for Triblock P is given here. 9) Reaction to fire is printed 'BFLs1' (no hyphen) in this sheet. Several test-method codes in the performance table are broken across lines in the extraction and were not used as labels."
+}

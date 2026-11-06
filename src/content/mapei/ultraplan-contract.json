@@ -1,0 +1,49 @@
+{
+  "slug": "ultraplan-contract",
+  "titleAsPrinted": "ULTRAPLAN CONTRACT",
+  "edition": "4085-2-2023 (UAE)",
+  "description": "Self-levelling, ultra quickhardening smoothing compound for thicknesses from 1 to 10 mm per coat",
+  "whereToUse": [
+    "Ultraplan Contract, especially suitable for the large building site, is used in interiors for levelling and smoothing differences in thicknesses from 1 to 10 mm on new or existing substrates, preparing them to receive all kinds of flooring where high resistance to loads and traffic is required.",
+    "Levelling concrete slabs and cementitious screeds or Topcem or Topcem Pronto based screeds.",
+    "Levelling anhydrite substrates.",
+    "Levelling over underfloor heating systems.",
+    "Levelling existing concrete pavements, terrazzo, ceramic and natural stone floors."
+  ],
+  "notFor": [
+    "Do not use Ultraplan Contract for exterior applications.",
+    "Do not use Ultraplan Contract on substrates subject to continuous rising damp.",
+    "Do not apply Ultraplan Contract at temperatures below +5°C.",
+    "Do not apply Ultraplan Contract in thicknesses less than 3 mm when wooden flooring needs to be installed."
+  ],
+  "standards": [
+    {"standard": "EMICODE", "value": "EC1 Plus"}
+  ],
+  "technicalData": [
+    {"label": "Consistency", "value": "fine powder"},
+    {"label": "Colour", "value": "grey"},
+    {"label": "Mixing ratio (with water)", "value": "20-21%, - 5-5.25 L per bag"},
+    {"label": "Thickness per coat", "value": "1-10 mm per coat"},
+    {"label": "Density of mix", "value": "2000-2150 kg/m³"},
+    {"label": "Application temperature range", "value": "from +5°C to +40°C"},
+    {"label": "Pot life", "value": "20-35 min"},
+    {"label": "Set to Light Foot Traffic", "value": "min. 3 h"},
+    {"label": "Waiting time before application of the covering: - Ceramic tiles", "value": "min. 3 h"},
+    {"label": "- Resilient and wood flooring", "value": "min. 24 h"},
+    {"label": "Compressive strength: - after 1 day: - after 7 days: - after 28 days", "value": "12 MPa 20 MPa 30 MPa"},
+    {"label": "Flexural strength: - after 1 day: - after 7 days: - after 28 days", "value": "3 MPa 5 MPa 6 MPa"}
+  ],
+  "consumption": [
+    {
+      "basis": "per mm of thickness",
+      "value": "1.7 kg/m²",
+      "quote": "1.7 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "While mixing with a low-speed mixer, pour in a container containing 5-5.25 L (20-21%) of clean water a 25 kg bag of Ultraplan Contract to obtain a homogeneous, lump-free mix.",
+  "packaging": "Ultraplan Contract is available in 25 kg bags.",
+  "storage": "Ultraplan Contract in its original unopened packaging and in a dry place, can be stored for 12 months.",
+  "notes": "POT LIFE INCONSISTENCY: the technical data table gives 'Pot life: 20-35 min' while the mixing section says to prepare a quantity that can be applied within 20-30 minutes (at +23°C). STRENGTH ROWS: the compressive and flexural rows each have three sub-rows; they are copied as one label and one value string in the order printed, so compressive is 12 MPa after 1 day, 20 MPa after 7 days, 30 MPa after 28 days and flexural is 3 MPa after 1 day, 5 MPa after 7 days, 6 MPa after 28 days (these combined strings match the reading-order text file; in the layout file each value sits beside its own sub-row). The row '- Resilient and wood flooring' is a sub-row of 'Waiting time before application of the covering'. CONSUMPTION: one figure only (1.7 kg/m² per mm of thickness). For thicknesses greater than 10 mm (max. 20 mm) the sheet recommends adding approximately 20-30% of sand with a grain size of 0/4 or 0/8 but gives no consumption figure for that extended mix. The description prints 'quickhardening' as one word in both text files (probably 'quick-hardening' with the hyphen lost); copied as found. No EN 13813 class is stated in this sheet; EMICODE EC1 Plus is mentioned in the body text only, not in the table. The table gives an application temperature range up to +40°C. Minimum thickness is 3 mm when wooden flooring is to be installed. Water per bag (5-5.25 L per 25 kg) agrees with 20-21%. Primer G dilution in this sheet is 1:1 with water on dusty or particularly porous concrete."
+}

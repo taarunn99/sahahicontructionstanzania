@@ -1,0 +1,90 @@
+{
+  "slug": "lamposilex",
+  "titleAsPrinted": "LAMPOSILEX",
+  "edition": "204-01-2024 GBxAUS",
+  "description": "Ultra-fast setting and curing hydraulic binder for stopping water leaks",
+  "whereToUse": [
+    "For instant stopping of water leaks, even water under pressure.",
+    "Stopping water leaks in basements, subways and below grade structures in general.",
+    "Stopping water leaks in tanks above ground.",
+    "Waterproof sealing of rigid joints between walls and floor slabs.",
+    "Waterproof sealing of cracks and holes."
+  ],
+  "notFor": [
+    "Do not add lime, cement or gypsum to Lamposilex.",
+    "Do not leave drums of Lamposilex exposed to sunlight before using."
+  ],
+  "standards": [
+    {
+      "standard": "AS/NZS 4020:2018",
+      "value": "suitable for use in potable water. Certified to AS/NZS 4020:2018."
+    },
+    {
+      "standard": "Regulation (EC) N° 1907/2006 (REACH)",
+      "value": "The product complies with the conditions of Annex XVII to Regulation (EC) N° 1907/2006 (REACH) - All. XVII, item 47."
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Consistency",
+      "value": "fine powder"
+    },
+    {
+      "label": "Colour",
+      "value": "grey"
+    },
+    {
+      "label": "Bulk density (kg/m³)",
+      "value": "1100"
+    },
+    {
+      "label": "Mix ratio by weight",
+      "value": "100 g Lamposilex to 28 g water"
+    },
+    {
+      "label": "Mix ratio by volume",
+      "value": "2.5 parts by Lamposilex to 1 part water"
+    },
+    {
+      "label": "Minimum application temperature",
+      "value": "+5°C"
+    },
+    {
+      "label": "Pot life at +20°C",
+      "value": "approx. 1 minute"
+    },
+    {
+      "label": "Flexural strength (N/mm²)",
+      "value": "after 1/2 hour: 3"
+    },
+    {
+      "label": "Flexural strength (N/mm²)",
+      "value": "after 28 days: 9"
+    },
+    {
+      "label": "Compressive strength (N/mm²)",
+      "value": "after 1/2 hour: 17"
+    },
+    {
+      "label": "Compressive strength (N/mm²)",
+      "value": "after 28 days: 46"
+    },
+    {
+      "label": "The minimum external sizes",
+      "value": "must be about 2 cm in width and 2 cm in depth"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "per one-dm³ (cubic decimetre) of cavity volume filled",
+      "value": "1.8 kg",
+      "quote": "1.8 kg of Lamposilex will fill a one-dm³ cavity."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "While stirring, pour 1 kg of Lamposilex into a container holding 280 g of water and mix manually with trowel to obtain a smooth mix with no lumps. For dosing by volume, mix 2.5 parts Lamposilex with 1 part water.",
+  "packaging": "1 box with 4 bags of 5 kg.",
+  "storage": "Store the product in a dry place indoor for 12 months.",
+  "notes": "Consumption is given only per cavity volume (1.8 kg per dm³); the sheet gives no per-m2 or per-linear-metre figure. There are no coats or layer thicknesses for this product; the only dimensional requirement is the minimum prepared crack/hole size (about 2 cm wide and 2 cm deep), recorded as a technicalData row taken from the body text. Setting time is described as about one and a half minutes at +20°C while pot life is given as approx. 1 minute. The recommendations refer to 'drums of Lamposilex' but the packaging is a box with 4 bags of 5 kg. The table row for mix ratio by volume reads '2.5 parts by Lamposilex' (sic). Strength rows are sub-rows of the table; the values recorded keep the 'after ...' sub-row label with its figure. EN 196/1 appears only as the test method for the strength values, so it is not listed under standards. This is the Mapei Australia edition of the sheet."
+}

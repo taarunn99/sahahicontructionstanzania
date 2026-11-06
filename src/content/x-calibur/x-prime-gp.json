@@ -1,0 +1,38 @@
+{
+  "slug": "x-prime-gp",
+  "titleAsPrinted": "X-Prime GP",
+  "description": "General Purpose primer for epoxy coating and floor systems",
+  "whereToUse": [],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "SCAQMD Rule 1113",
+      "value": ""
+    },
+    {
+      "standard": "LEED NC2009 IEQ 4.2",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Volume solids",
+      "value": "90%"
+    },
+    {
+      "label": "Volatile organic content",
+      "value": "VOC = <100 g/L"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "5m² per liter at 200 microns"
+    },
+    {
+      "quote": "10m² per liter at 100 microns"
+    }
+  ],
+  "mixing": null,
+  "packaging": "18, 40 and 400 liter packs",
+  "storage": null
+}

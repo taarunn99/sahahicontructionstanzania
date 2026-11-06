@@ -1,0 +1,95 @@
+{
+  "slug": "epojet-lv",
+  "titleAsPrinted": "EPOJET LV",
+  "edition": "365-11-2024 (UAE)",
+  "description": "Two-component epoxy resins, with very low viscosity for injection in microcracks, also on wet surfaces",
+  "whereToUse": [
+    "Ideal for sealing static cracks.",
+    "Bonding steel plates to concrete (béton plaqué) by low pressure injection.",
+    "Structural repair of beams, pillars and cracked floors by low pressure injection.",
+    "Reinforcement of beams and floors by injection with the béton plaqué method, when the plates to be bonded are fitted with lateral flaps and it is therefore impossible to apply Adesilex PG1 or Adesilex PG2.",
+    "Repair of architectural concrete, wall coverings and architectural elements that are crumbly.",
+    "Structural consolidation and restoration of civil and industrial road constructions and underground works that show signs of microcracking.",
+    "Sealing of cracks in cementitious screeds.",
+    "Restoration, by injection, of concrete structures damaged by earthquakes, settlements or impacts."
+  ],
+  "notFor": [
+    "Do not use Epojet LV if the temperature is lower than +10°C.",
+    "Do not apply Epojet LV on dusty, crumbling or weak substrates.",
+    "Do not use Epojet LV for sealing expansion joints."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-5",
+      "value": "CONCRETE INJECTION"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "meets the requirements defined by EN 1504-9"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mixing ratio",
+      "value": "A : B = 3.2 : 0.8"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "very fluid liquid"
+    },
+    {
+      "label": "Colour of mix",
+      "value": "transparent yellow"
+    },
+    {
+      "label": "Density of mix (kg/l)",
+      "value": "1.1"
+    },
+    {
+      "label": "Brookfield viscosity (mPa.s)",
+      "value": "140 (shaft 1 - 50 revs)"
+    },
+    {
+      "label": "Workability time (EN ISO 9514)",
+      "value": "at +23°C 35 minutes at +30°C 15 minutes"
+    },
+    {
+      "label": "Setting time",
+      "value": "at +23°C 7-8 hours at +30°C 2-3 hours"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +10°C to +35°C"
+    },
+    {
+      "label": "Complete hardening time",
+      "value": "7 days"
+    },
+    {
+      "label": "Tensile strength (N/mm²)",
+      "value": "50 N/mm² 40 N/mm²"
+    },
+    {
+      "label": "Compressive strength (N/mm²)",
+      "value": "70 N/mm² 70 N/mm²"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "sealing cracks: per litre of cavity to be filled",
+      "value": "1.1 kg/l of cavity to be filled",
+      "quote": "Epojet LV Sealing cracks: 1.1 kg/l of cavity to be filled."
+    },
+    {
+      "basis": "bonding concrete to steel: per m² per mm of thickness",
+      "value": "1.1 kg/m² per mm of thickness",
+      "quote": "Epojet LV Bonding concrete-steel: 1.1 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "A : B = 3.2 : 0.8",
+  "packaging": "4 kg kit (component A = 3.2 kg - component B = 0.8 kg).",
+  "storage": "24 months in their original packaging stored at a temperature between +5°C and +30°C.",
+  "notes": "1) FINAL PERFORMANCE table, row 'Volumetric shrinkage (%)': the requirement is printed as '<3' and the product performance as '21'. As printed the product would fail its own requirement, so a decimal point has probably been lost in the PDF/extraction. Left out of technicalData; check the PDF before publishing any shrinkage figure. 2) The product-performance side of that table splits into two columns headed 'dry' and 'damp' at the injectability row; the rows below it (tensile strength 50 / 40 N/mm², compressive strength 70 / 70 N/mm², modulus 2900 / 2600, deformation 2.9 / 1.5) each carry two values with no heading repeated. I copied both values as printed; reading them as dry / damp is an assumption. 3) EN 1504-5 is labelled 'CONCRETE INJECTION' in the header badge, but the body text describes EN 1504-5 as 'Anchoring of reinforcing steel bar'. 4) The table has two viscosity rows for parts A/B with different figures (3000 / 200 mPa·s at +23°C to EN ISO 2555, then 300 / 25 mPa·s). 5) The mixing ratio is by weight only by implication (it equals the kit weights 3.2 kg : 0.8 kg); the row itself does not say 'by weight'. 6) No consumption formula and no consumption table are printed."
+}

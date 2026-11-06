@@ -1,0 +1,128 @@
+{
+  "slug": "mapegrout-t60",
+  "titleAsPrinted": "MAPEGROUT T60 ME",
+  "edition": "4086-10-2015 (UAE)",
+  "description": "Thixotropic, sulphate and chloride resistant, fibre-reinforced structural repair mortar.",
+  "whereToUse": [
+    "Repairs to both new and old concrete structures or reinforced concrete elements subject to aggressive atmospheric conditions including chloride and sulphate attack.",
+    "Reinstatement of cover to reinforcing steel and re-establishing structural integrity.",
+    "Repairs and reinstatement of manholes, sewerage structures and other utilities.",
+    "Repairs to industrial facilities including oil and gas, marine and other structures operating under extreme working environments.",
+    "Water retaining and excluding structures, tunnels and canal linings.",
+    "Filling of rigid joints (between base and column, cracks in floors, joints between walls, etc.).",
+    "Repair of precast concrete elements."
+  ],
+  "notFor": [
+    "Do not use Mapegrout T60 ME on smooth surfaces, roughen the surface and add rebars where necessary.",
+    "Do not add cement or admixtures to Mapegrout T60 ME.",
+    "Do not pour Mapegrout T60 ME into forms (use Mapegrout ME 06 or Mapegrout ME 05).",
+    "Do not use Mapegrout T60 ME for anchoring (use Mapefill GP ME, Mapefill SP ME or Planigrout 300 range).",
+    "Do not use damaged or previously opened bags of Mapegrout T60 ME."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-3",
+      "value": "R4"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "meets the requirements defined by EN 1504-9"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Color",
+      "value": "grey"
+    },
+    {
+      "label": "Maximum size of aggregate (mm)",
+      "value": "2.5"
+    },
+    {
+      "label": "Mixing Ratio",
+      "value": "100 parts of Mapegrout T60 ME with15 parts of water (approx. 3.75-4.25 l per 25 kg bags) and 0.25% of Mapecure SRA (one 0.25 kg bottle for 4 bags of Mapegrout T60 ME)"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "thixotropic"
+    },
+    {
+      "label": "Density of mix (kg/m³)",
+      "value": "2280"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +5°C to +50°C"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "ca. 1 hour"
+    },
+    {
+      "label": "Waiting time between each layer",
+      "value": "max 1-2 hours"
+    },
+    {
+      "label": "Compressive strength (MPa)",
+      "value": "> 20 (after 24 hours) > 50 (after 7 days) > 60 (after 28 days)"
+    },
+    {
+      "label": "Flexural strength (MPa)",
+      "value": "> 5 (after 24 hours) > 6 (after 7 days) > 8 (after 28 days)"
+    },
+    {
+      "label": "Bond strength on concrete (substrate in MC 0.40 - water/cement ratio = 0.40) according to EN 1766 (MPa)",
+      "value": ">2"
+    },
+    {
+      "label": "Drying shrinkage according to ASTM C157-93 (mad)",
+      "value": "< 500 microstrain"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "yield of mixed mortar per 25 kg bag (printed under the heading 'Yield')",
+      "value": "12.6 litres / 25 kg",
+      "quote": "12.6 litres / 25 kg"
+    },
+    {
+      "basis": "mixing water, litres per 25 kg bag, trowel application",
+      "value": "3.75-4.25",
+      "quote": "Application Litres of water per 25 kg Trowel 3.75-4.25 Spray 4.00-4.50"
+    },
+    {
+      "basis": "mixing water, litres per 25 kg bag, spray application",
+      "value": "4.00-4.50",
+      "quote": "Application Litres of water per 25 kg Trowel 3.75-4.25 Spray 4.00-4.50"
+    },
+    {
+      "basis": "mixing water per 25 kg bag as given in the technical data mixing ratio (15 parts of water per 100 parts of powder)",
+      "value": "3.75-4.25 l per 25 kg bags",
+      "quote": "100 parts of Mapegrout T60 ME with15 parts of water (approx. 3.75-4.25 l per 25 kg bags) and 0.25% of Mapecure SRA (one 0.25 kg bottle for 4 bags of Mapegrout T60 ME)"
+    },
+    {
+      "basis": "optional Mapecure SRA dosage, by weight of the mortar powder",
+      "value": "0.25% by weight of the mortar (0.25 kg to every 100 kg of Mapegrout T60 ME)",
+      "quote": "For improved open-air curing of the mortar, it is recommended to add Mapecure SRA at the end of the mixing phase at a dosage of 0.25% by weight of the mortar (0.25 kg to every 100 kg of Mapegrout T60 ME)."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Application",
+      "values": "Litres of water per 25 kg"
+    },
+    {
+      "row": "Trowel",
+      "values": "3.75-4.25"
+    },
+    {
+      "row": "Spray",
+      "values": "4.00-4.50"
+    }
+  ],
+  "mixing": "100 parts of Mapegrout T60 ME with15 parts of water (approx. 3.75-4.25 l per 25 kg bags) and 0.25% of Mapecure SRA (one 0.25 kg bottle for 4 bags of Mapegrout T60 ME)",
+  "packaging": "25 kg bags.",
+  "storage": "When stored in dry conditions in the original, unopened bags, Mapegrout T60 ME has a shelf life of 12 months. If stored at high temperature and/or high humidity conditions the shelf life may be reduced.",
+  "notes": "1) The sheet is titled 'MAPEGROUT T60 ME' (the slug is mapegrout-t60) and its edition code is dated 2015. 2) No kg/m2 per mm or per cm figure is printed; the only yield figure is '12.6 litres / 25 kg' under 'Yield' (there is no CONSUMPTION heading). 3) The water table has been flattened by the PDF extraction into one run of text in both files ('Application Litres of water per 25 kg Trowel 3.75-4.25 Spray 4.00-4.50'); pairing Trowel with 3.75-4.25 and Spray with 4.00-4.50 follows the word order and is the only sensible reading, but the table grid itself is not visible in the text. The bare values 3.75-4.25 and 4.00-4.50 carry no unit of their own; the unit is in the header 'Litres of water per 25 kg'. 4) The technical data mixing ratio says '15 parts of water' per 100 parts (= 3.75 l per 25 kg) but then gives a range 'approx. 3.75-4.25 l per 25 kg bags', and the spray range goes to 4.50; FINAL PERFORMANCE values are stated for '15% mixing water'. 5) 'with15 parts' is printed without a space in the source and is copied as printed. 6) Thickness limits are only in the prose, not in the technical data table: 'minimum thickness of 10 mm up to 60 mm in a single layer'; by trowel 'to vertical surfaces in layers up to 60 mm thick, or for overhead applications in layers up to 30 mm thick, without the use of formwork'. 7) Drying shrinkage row is labelled 'according to ASTM C157-93 (mad)' - '(mad)' is as printed and unexplained. 8) Bond strength requirement and product performance are both printed '>2' (MPa). 9) The technical data table also prints 'Type: CC' without naming a standard, so it is not listed under standards. 10) No consumption formula is printed."
+}

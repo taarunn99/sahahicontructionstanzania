@@ -1,0 +1,115 @@
+{
+  "slug": "mapegrout-me05",
+  "titleAsPrinted": "MAPEGROUT ME05",
+  "edition": "497-3-2023-I (UAE)",
+  "description": "High performance, shrinkage compensated, high-flow micro-concrete and thick section grout",
+  "whereToUse": [
+    "For pile top treatment and re-profiling, column jacketing, concrete structural repairs, and where particular thickness and void configuration requires the use of a high-flow micro-concrete or grout, for gaps up to 220 mm.",
+    "Structural reinstatement of new and old reinforced concrete elements such as beams and columns",
+    "Repair and re-profiling of piles",
+    "Particularly suitable for reinstatement of honeycombed concrete and or areas of congested reinforcement",
+    "Reinstatement of floor beams and slabs",
+    "Grouting of precast elements",
+    "Grouting of machine and turbine baseplates, bridge bearings, and crane rails"
+  ],
+  "notFor": [
+    "Do not use Mapegrout ME05 on smooth concrete surfaces; roughen such surfaces",
+    "Do not use Mapegrout ME05 for precision anchoring (use Mapefill GP ME or Mapefill SP ME)",
+    "Do not use Mapegrout ME05 for applications on vertical surfaces without formwork (use Mapegrout T60 ME or Mapegrout T80)",
+    "Do not add cement or any other additives to Mapegrout ME05",
+    "Do not add more water than the recommended dosage"
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-3",
+      "value": "R4"
+    },
+    {
+      "standard": "EN 1504-1",
+      "value": "CC"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "grey"
+    },
+    {
+      "label": "Maximum size of aggregate",
+      "value": "4 mm"
+    },
+    {
+      "label": "Composition of the mix",
+      "value": "100 kg of Mapegrout ME 05 12.4-13.2 kg of water"
+    },
+    {
+      "label": "Application thickness",
+      "value": "15 - 220 mm"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "Surrounding and substrate temperature from +5 °C to +40 °C"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approx. 1 hour (at +20°C)"
+    },
+    {
+      "label": "Mixing ratio",
+      "value": "100 parts in weight of Mapegrout ME 05 with 13% of water"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "Fluid"
+    },
+    {
+      "label": "Density of mix",
+      "value": "2200 kg/m³"
+    },
+    {
+      "label": "Compressive strength: - 1 days - 7 days - 28 days",
+      "value": "> 25 MPa > 45 MPa > 65 MPa"
+    },
+    {
+      "label": "Flexural strength: - 1 days - 7 days - 28 days",
+      "value": "6 MPa 9 MPa 10 MPa"
+    },
+    {
+      "label": "Drying shrinkage",
+      "value": "< 500 microstrain"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "the only figure under CONSUMPTION: litres per 25 kg (one bag); it reads as the yield of mixed material per bag, though the sheet does not use the word yield",
+      "value": "12.7 liters per 25 kg",
+      "quote": "12.7 liters per 25 kg."
+    },
+    {
+      "basis": "mixing water per 100 kg of powder (application table)",
+      "value": "12.4-13.2 kg of water",
+      "quote": "Composition of the mix: 100 kg of Mapegrout ME 05 12.4-13.2 kg of water"
+    },
+    {
+      "basis": "mixing water poured into the mixer (the sentence does not say per how much powder; 3.1-3.3 litres per 25 kg bag would equal the 12.4-13.2 kg per 100 kg above)",
+      "value": "3.1-3.3 Iitres",
+      "quote": "Pour 3.1-3.3 Iitres of clean potable grade water into a forced-action concrete mixer."
+    },
+    {
+      "basis": "water content used for laboratory test samples (technical data table), by weight of powder",
+      "value": "13% of water",
+      "quote": "100 parts in weight of Mapegrout ME 05 with 13% of water"
+    },
+    {
+      "basis": "optional Mapecure SRA additive dosage (the sheet does not say what the percentage is taken of)",
+      "value": "up to 0.25%",
+      "quote": "The addition of Mapecure SRA in proportions of up to 0.25% has the ability to reduce drying shrinkage by between 20% and 50%."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Composition of the mix: 100 kg of Mapegrout ME 05 12.4-13.2 kg of water",
+  "packaging": "25 kg bags.",
+  "storage": "When stored in dry conditions in the original, unopened bags, Mapegrout ME05 has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced.",
+  "notes": "1) No kg/m2 per mm or per cm figure is printed anywhere; the only consumption figure is '12.7 liters per 25 kg.' Any kg/m2 figure would have to be derived (e.g. from the printed mix density 2200 kg/m³) and is not in the sheet. 2) The water sentence is printed 'Pour 3.1-3.3 Iitres' with a capital letter I in place of the first l of 'litres' (a typo in the source); the consumption value is copied that way so that it matches the text - display it as 'litres'. The sentence does not say per bag. 3) Three water figures: 12.4-13.2 kg per 100 kg (application table), 3.1-3.3 litres (prose) and 13% (laboratory mix in the technical data table). They agree with one another if the prose figure is per 25 kg bag. 4) Product name is printed both 'Mapegrout ME05' and 'Mapegrout ME 05'. 5) Thickness: 'for gaps up to 220 mm', 'recommended for voids up to 220 mm' and table 'Application thickness: 15 - 220 mm' (printed with a long dash); greater thicknesses 'may be achieved' subject to MAPEI advice. 6) In technicalData the strength rows combine the three ages into one row (1, 7 and 28 days in that order); the EN 1504-3 R4 requirement printed beside them is '> 45 MPa' at 28 days. 7) The 'Composition of the mix' string comes from the layout file (label and values are separated in the reading-order file). 8) No consumption formula and no consumption table are printed."
+}

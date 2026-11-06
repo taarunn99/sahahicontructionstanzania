@@ -1,0 +1,51 @@
+{
+  "slug": "adesilex-pg2-tg",
+  "titleAsPrinted": "ADESILEX PG2 TG",
+  "edition": "379-12-2022-I (UAE)",
+  "description": "Two-component thixotropic epoxy adhesive for bonding Mapeband, Mapeband TPE, hypalon and structural bonding",
+  "whereToUse": [
+    "Structural repair, bonding, and reinforcement of concrete elements, natural stone, mortar, and brick.",
+    "Structural reinforcement of beams and pillars by bonding steel (beton plaqué method) or composite material (e.g. Carboplate) plates to concrete.",
+    "Non-flexible structural bonding of precast concrete elements.",
+    "Sealing injectors and surface damage before injection of Epojet LV by the low-pressure pump.",
+    "Sealing large cracks and repairing joint corners in industrial flooring subject to traffic.",
+    "Waterproofing large-size joints by bonding TPE strips (e.g. Mapeband TPE) to concrete.",
+    "General reprofiling over large areas up to 3mm.",
+    "Filling pinholes prior to overcoating with epoxy and polyurethane flooring system."
+  ],
+  "notFor": [
+    "Do not use Adesilex PG2 TG for sealing flexible joints or joints subject to movement.",
+    "Do not use Adesilex PG2 TG for shrinkage joints between fresh and hardened concrete (use Eporip).",
+    "Do not use Adesilex PG2 TG on wet surfaces.",
+    "Do not use Adesilex PG2 TG on dirty or crumbling surfaces.",
+    "Do not use Adesilex PG2 TG for bonding and grouting anti-acid ceramic tiles (use Kerapoxy)."
+  ],
+  "standards": [],
+  "technicalData": [
+    {"label": "Mixing ratio", "value": "component A : component B = 3 : 1"},
+    {"label": "Consistency of mix", "value": "thixotropic paste"},
+    {"label": "Color of mix", "value": "grey"},
+    {"label": "Mass density of mix (kg/L)", "value": "1.71"},
+    {"label": "Application temperature range", "value": "from +25°C to +50°C"},
+    {"label": "Complete hardening time", "value": "7 days"},
+    {"label": "Pot life (preconditioning +50°C) (FIP Clause 5.1)", "value": "20 minutes"},
+    {"label": "Open time (at +25°C for 24 hours and 100% R.H.) (FIP Clause 5.2)", "value": "> 60 minutes"},
+    {"label": "Shrinkage (at +50°C for 7 days) (%)", "value": "0.2"},
+    {"label": "Heat resistance", "value": "approx. 85°C"},
+    {"label": "Compressive strength at +25°C (MPa): - 12 hours: - 24 hours: - 7 days", "value": "35 82 89"},
+    {"label": "Shear strength (at +25°C for 7 days) (MPa)", "value": "27"}
+  ],
+  "consumption": [
+    {
+      "basis": "per mm of thickness",
+      "value": "1.71 kg/m²",
+      "quote": "1.71 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "The mixing ratio is: - 3 parts by weight of part A; - 1 part by weight of part B.",
+  "packaging": "6 kg kit (part A: 4.5 kg; part B: 1.5 kg).",
+  "storage": "24 months in their original packaging. Store the product at temperatures not below +10°C.",
+  "notes": "TEMPERATURE LIMIT: this sheet says the application temperature must not be below +25°C (range from +25°C to +50°C); this is a hard limit worth showing on the page. The 20 minute pot life is stated at +50°C; no pot life is given for lower temperatures. CONSUMPTION: one figure only (1.71 kg/m² per mm of thickness), equal to the printed mass density of the mix (1.71 kg/L); no per-metre or per-joint figures are given for bonding strips or plates. Thickness limits in the text: up to 1 cm in a single layer; general reprofiling over large areas up to 3mm. PERFORMANCE TABLE: it has four columns (characteristic, test method, 'Requirement of FIP', 'Performance of product'); technicalData values for shrinkage, heat resistance, compressive strength and shear strength are from the 'Performance of product' column (FIP requirements: shrinkage ≤ 0.4, heat resistance ≥ 50°C, shear strength ≥ 12). The compressive strength row has three sub-rows and is copied as one label and one value string in the order printed: 35 MPa at 12 hours, 82 MPa at 24 hours, 89 MPa at 7 days. The reading-order text file scrambles this table, so the row-to-value pairing was taken from the layout file; the combined compressive label, the open time label and the value string '35 82 89' match the reading-order file only. STANDARDS: no EN classification is stated; the sheet only compares results with FIP clause requirements (and cites ASTM D 648 Method B as the heat resistance test method), so 'standards' is empty. The sheet uses 'part A / part B' in the text and 'component A / component B' in the table for the same things. One whereToUse example was omitted to stay within eight items: 'Bonding fibre-reinforced cement slabs and pipes.' Kit contents (4.5 kg + 1.5 kg) agree with the 3 : 1 ratio."
+}

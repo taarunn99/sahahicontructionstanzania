@@ -1,0 +1,126 @@
+{
+  "slug": "mapeset",
+  "titleAsPrinted": "MAPESET",
+  "edition": "95-5-2023 (UAE)",
+  "description": "Cement based adhesive for tiles",
+  "whereToUse": [
+    "Internal and external bonding of ceramic tiles and mosaics, single-fired and double-fired tiles for floors, walls and ceilings.",
+    "Bonding of paper-faced or mesh-backed ceramic mosaics, absorbent single-fired or double-fired ceramic tiles on the following typical substrates:",
+    "Traditional render or cement mortar",
+    "Gypsum or anhydrite after having first applied Primer G or Eco Prim T Plus",
+    "Ordinary or floating reinforced, cementitious screeds, provided they are sufficiently cured and dry"
+  ],
+  "notFor": [
+    "On wood and wooden composites",
+    "On gypsum board or lightweight concrete walls without the correct preparation and treatment",
+    "On metal, rubber, PVC and linoleum surfaces",
+    "For the installation of glass mosaics",
+    "Large format tiles"
+  ],
+  "standards": [
+    {
+      "standard": "EN 12004",
+      "value": "C1"
+    },
+    {
+      "standard": "ISO 13007-1",
+      "value": "C1"
+    },
+    {
+      "standard": "ANSI A 118.1",
+      "value": "In compliance with"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "white or grey"
+    },
+    {
+      "label": "Bulk density (kg/cm³)",
+      "value": "1300"
+    },
+    {
+      "label": "Mix ratio",
+      "value": "100 parts Mapeset with 24-26 parts of water by weight for Mapeset grey and 23-25 parts of water by weight for Mapeset white"
+    },
+    {
+      "label": "Density of mix (kg/m³)",
+      "value": "1600"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Pot life",
+      "value": "6-8 hours"
+    },
+    {
+      "label": "Open time (according to EN 1346)",
+      "value": "> 20 minutes"
+    },
+    {
+      "label": "Adjustability time",
+      "value": "approx. 45 minutes"
+    },
+    {
+      "label": "Wall grouting",
+      "value": "after 4 to 8 hours depending on absorbency"
+    },
+    {
+      "label": "Floor grouting",
+      "value": "after 24 hours"
+    },
+    {
+      "label": "Ready for use",
+      "value": "14 days"
+    },
+    {
+      "label": "Adhesion according to ISO 13007-1 (N/mm²): - initial tensile adhesion strength (after 28 days)",
+      "value": "1.0"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "CONSUMPTION section - small size tiles in general, trowel No. 4 (4X4 mm)",
+      "value": "approx. 2 kg/m²",
+      "quote": "small size tiles in general (trowel No. 4; size 4X4 mm): approx. 2 kg/m²;"
+    },
+    {
+      "basis": "CONSUMPTION section - normal size tiles, trowel No. 5 (5X5 mm)",
+      "value": "2.5-3 kg/m²",
+      "quote": "normal size tiles (trowel No. 5; size: 5X5 mm): 2.5-3 kg/m²;"
+    },
+    {
+      "basis": "CONSUMPTION section - external floor and wall coverings, trowel No. 6 (6X6 mm)",
+      "value": "approx. 5 kg/m²",
+      "quote": "external floor and wall coverings (trowel No. 6; size: 6X6 mm): approx. 5 kg/m²."
+    },
+    {
+      "basis": "Application of the mix - mosaics up to 5x5 cm, MAPEI No. 4 square-toothed trowel",
+      "value": "2 kg/m²",
+      "quote": "for mosaics up to 5x5 cm, the use of MAPEI No. 4 square-toothed trowel is recommended (consumption 2 kg/m²)"
+    },
+    {
+      "basis": "Application of the mix - normal ceramic coverings, MAPEI No. 5 notched trowel",
+      "value": "2.5-3 kg/m²",
+      "quote": "for normal ceramic coverings, the use of MAPEI No. 5 notched trowel (consumption 2.5-3 kg/m²) is recommended"
+    },
+    {
+      "basis": "Application of the mix - irregular substrates or tiles with a very rough back, MAPEI No. 6 trowel",
+      "value": "5 kg/m²",
+      "quote": "for substrates that have an irregular surface or tiles with a very rough back, the use of MAPEI No. 6 or notched toothed trowel (consumption 5 kg/m²) is recommended"
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "The quantity of water to be used is 24-26 parts per 100 parts (by weight), equal to 6.0-6.5 L of water for 25 kg of Mapeset grey and 23-25 parts per 100 parts (by weight) equal to 5.75-6.25 L of water for 25 kg of Mapeset white.",
+  "packaging": "Mapeset is supplied in white and grey 25 kg bags.",
+  "storage": "When stored in dry conditions in the original, unopened bags, Mapeset has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced.",
+  "notes": "1) Bulk density is printed with the unit kg/cm³ (value 1300); this looks like a misprint for kg/m³ but is copied as printed - do not use it for calculations without checking the PDF. 2) The technical data row 'Set to light foot traffic: 24 hours' is left out of technicalData because the text extraction has an invisible soft hyphen inside the word 'traffic' (between 'tra' and 'ffic'), so it cannot be quoted cleanly; the body text separately says 'Floors are set to withstand light foot traffic after approx. 24 hours.' 3) Pot life: body text says workable 'for at least 6 hours (at +25°C)', the table says '6-8 hours'. Open time: body text says 'is 20 minutes', the table says '> 20 minutes'. 4) The sheet lists 7 'Do not use' cases; notFor holds 5. The two not included are 'On pre-cast concrete or surfaces subject to excessive movements' and 'In cases where the surface needs to be set to light traffic quickly'. 5) Consumption figures appear twice (Application of the mix and CONSUMPTION section) and agree, except that the CONSUMPTION section says 'approx.' for trowel No. 4 and No. 6 and heads all three lines 'Bonding of ceramic mosaics:'. The No. 6 figure is tied to 'external floor and wall coverings' in one place and to irregular substrates / rough-backed tiles in the other. 6) ANSI A 118.1 is listed under 'In compliance with' with no class."
+}

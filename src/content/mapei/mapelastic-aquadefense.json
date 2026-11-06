@@ -1,0 +1,89 @@
+{
+  "slug": "mapelastic-aquadefense",
+  "titleAsPrinted": "MAPELASTIC AQUADEFENSE",
+  "edition": "14224-7-2026 en (IT)",
+  "description": "Ready-to-use, ultra quick-drying, flexible liquid membrane for waterproofing interior and exterior surfaces",
+  "whereToUse": [
+    "Waterproofing before applying ceramic, stone, and mosaic coverings",
+    "bathrooms and shower cubicles",
+    "laundry rooms",
+    "saunas and damp environments in general",
+    "balconies and terraces"
+  ],
+  "notFor": [
+    "Do not apply Mapelastic AquaDefense if the temperature is lower than +5°C.",
+    "Mapelastic AquaDefense must always be covered with ceramic, mosaic or stone.",
+    "Do not apply Mapelastic AquaDefense on cementitious substrates with residual humidity higher than 3% or subject to recurring rising damp.",
+    "Do not apply Mapelastic AquaDefense on crumbly cementitious substrates, old floors that are not well bonded to the substrate or surface treatments which could affect the bond.",
+    "Do not use Mapelastic AquaDefense to cover cracks."
+  ],
+  "standards": [
+    {
+      "standard": "EN 14891",
+      "value": "Product certified according to EN 14891, waterproofing under tile"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "light blue"
+    },
+    {
+      "label": "Density",
+      "value": "1.30 g/cm³"
+    },
+    {
+      "label": "Solid content",
+      "value": "66"
+    },
+    {
+      "label": "Recommended application temperature range",
+      "value": "from +5°C to +35°C"
+    },
+    {
+      "label": "Waiting time between each coat",
+      "value": "approx. 60 minutes (when dry touch)"
+    },
+    {
+      "label": "Waiting time before application of the covering",
+      "value": "3-4 hours"
+    },
+    {
+      "label": "Complete drying of 1 mm thick layer",
+      "value": "12 hours"
+    },
+    {
+      "label": "Initial adhesion (EN 14891-A.6.2)",
+      "value": "1.7 N/mm²"
+    },
+    {
+      "label": "Crack-bridging ability at +23°C (EN 14891-A.8.2)",
+      "value": "3.2 millimeters"
+    },
+    {
+      "label": "Crack-bridging ability at -5°C (EN 14891-A.8.3)",
+      "value": "1.6 millimeters"
+    },
+    {
+      "label": "Impermeability to water under pressure (EN 14891-A.7) (1500 kPa)",
+      "value": "No penetration"
+    },
+    {
+      "label": "Mapelastic AquaDefense must be applied in",
+      "value": "two thin (approx. 0.4 mm per coat), even coats"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "per m² for 2 coats (total)",
+      "value": "1 kg/m²",
+      "quote": "1 kg/m² for 2 coats."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "3.5 kg, 7.5 kg, and 15 kg rectangular bucket.",
+  "storage": "Mapelastic AquaDefense can be stored for 24 months in its original packaging in a dry area. Protect from frost.",
+  "notes": "The only consumption figure is 1 kg/m² for 2 coats; it is not split by roller, brush or trowel and no per-coat or per-mm figure is given. The sheet requires two coats at approx. 0.4 mm per coat but states no minimum total thickness as such; the FINAL PERFORMANCE table is headed '0.55 mm thickness' and the drying row refers to a '1 mm thick layer', so three different thicknesses appear. Waiting time before tiling is given two ways: table '3-4 hours', body text 'can be laid 4 hours after the application of the second coat'. 'Solid content: 66' is printed without a unit. The EN 14891 certification is stated without a class designation. Minimum filming temperature is +5°C and the recommended application range is +5°C to +35°C. If Mapetex 50 fabric is embedded the sheet says drying times may increase and the final thickness increases, with no consumption figure for that case. No mixing ratio exists (ready-to-use, one-component), so mixing is null. The WHERE TO USE section also lists substrates (concrete; cementitious screeds; plasterboard, for application in interior only; old ceramic tiles, terrazzo, and stone material; cementitious render), not included in whereToUse. One table column header is left in Italian in the sheet ('Requisiti secondo EN 14891')."
+}

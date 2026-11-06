@@ -1,0 +1,60 @@
+{
+  "name": "sahihicc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build && node scripts/audit-image-alts.mjs && node scripts/audit-copy.mjs",
+    "assets:brand": "python3 scripts/extract-brand-svgs.py && node scripts/build-favicon.mjs",
+    "indexnow": "node scripts/indexnow-submit.mjs",
+    "test": "NODE_NO_WARNINGS=1 node scripts/test-coverage.mjs && NODE_NO_WARNINGS=1 node scripts/verify-mapei-content.mjs && node scripts/verify-brand-content.mjs",
+    "assets:tds": "python3 scripts/fetch-mapei-tds.py",
+    "assets:images": "node scripts/build-images.mjs",
+    "assets:packshots": "node scripts/build-packshots.mjs"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@number-flow/react": "^0.6.2",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "embla-carousel-wheel-gestures": "^8.1.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.25",
+    "lucide-react": "^1.29.0",
+    "motion": "^12.43.0",
+    "next": "16.2.12",
+    "ogl": "^1.0.11",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.187.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "prettier": "^3.9.6",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 128",
+    "safari >= 16.4"
+  ]
+}

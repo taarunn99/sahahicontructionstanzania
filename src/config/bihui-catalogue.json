@@ -1,0 +1,2293 @@
+[
+  {
+    "slug": "drill-position-scale",
+    "name": "Foldable Position Scale for Drilling",
+    "category": "Drill guides, workbench and repair tools",
+    "summary": "Foldable position scale for drilling, 12x17.5x2.5cm, black.",
+    "features": [
+      "Foldable",
+      "12x17.5x2.5cm",
+      "Black"
+    ],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 1,
+        "sku": "DBG6",
+        "description": "Foldable position scale for drilling 12x17.5x2.5cm black",
+        "size": "12x17.5x2.5 cm"
+      }
+    ],
+    "image": "drill-position-scale.png",
+    "imageNote": "Left picture of the first box; the two pictures in the box are not labelled, matched by shape to the row wording."
+  },
+  {
+    "slug": "metal-hole-drill-guide",
+    "name": "Metal Hole Drill Guide",
+    "category": "Drill guides, workbench and repair tools",
+    "summary": "Metal hole drill guide with a plastic suction cup and adjustable iron parts with hole location.",
+    "features": [
+      "With a plastic suction cup",
+      "Adjustable iron parts with hole location"
+    ],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 2,
+        "sku": "DBGM",
+        "description": "Metal hole drill guide, with a plastic suction cup, adjustable iron parts with hole location."
+      }
+    ],
+    "image": "metal-hole-drill-guide.png",
+    "imageNote": "Right picture of the first box; not labelled, matched by the suction cup in the row wording."
+  },
+  {
+    "slug": "tile-spirit-level",
+    "name": "Tile Spirit Level",
+    "category": "Measuring and levelling",
+    "summary": "Aluminium tile spirit level with a machined base, 0.5mm/m accuracy and three bubbles for 90°/90°/180°.",
+    "features": [
+      "Manufactured in reliable, resistant aluminium",
+      "Machined base to ensure constant accuracy",
+      "Accuracy: 0.5mm/m",
+      "Three bubbles for 90°/90°/180°",
+      "End cover black"
+    ],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 3,
+        "sku": "TSL060",
+        "description": "Tile Spirit Level,manufactured in reliable,resistant aluminium, machined base up to measures of 120cm to ensure constant accuracy, accuracy:0.5mm/m , three bubble for 90°/90°/180° 1200mm grey 432C aluminium part, 320C plastic part, end cover black",
+        "size": "1200 mm",
+        "flag": "Printed size 1200mm contradicts the SKU (060); the texts of TSL060 and TSL120 look swapped."
+      },
+      {
+        "sr": 4,
+        "sku": "TSL120",
+        "description": "Tile Spirit Level,manufactured in reliable,resistant aluminium, machined base up to measures of 120cm to ensure constant accuracy, accuracy:0.5mm/m , three bubble for 90°/90°/180° 600mm grey 432C aluminium part, 320C plastic part, end cover black",
+        "size": "600 mm",
+        "flag": "Printed size 600mm contradicts the SKU (120); the texts of TSL060 and TSL120 look swapped."
+      },
+      {
+        "sr": 5,
+        "sku": "TSL180",
+        "description": "TILE SPIRIT LEVEL 1800MM",
+        "size": "1800 mm"
+      },
+      {
+        "sr": 6,
+        "sku": "TSL240",
+        "description": "Tile Spirit Level,manufactured in reliable,resistant aluminium, machined base up to measures of 240cm to ensure constant accuracy, accuracy:0.5mm/m , three bubble for 90°/90°/180° 600mm grey 432C aluminium part, 320C plastic part, end cover black",
+        "size": "600 mm",
+        "flag": "Printed size 600mm contradicts the SKU (240) and the same row's \"up to measures of 240cm\"."
+      }
+    ],
+    "image": "tile-spirit-level.png",
+    "imageNote": "One boxed level from a row of three unlabelled level pictures; the catalogue does not say which length it shows. Long side 391 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Three of the four rows print a length that contradicts the SKU. Sizes are recorded as printed; confirm before publishing."
+    ]
+  },
+  {
+    "slug": "silicon-application-kit-2pcs",
+    "name": "Silicon Application Kit - 2pcs",
+    "nameClean": "Silicone Application Kit - 2pcs",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Silicon application kit of 2 pieces.",
+    "features": [],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 7,
+        "sku": "STAK2",
+        "description": "SILICON APPLICATION KIT - 2Pcs",
+        "size": "2 pcs"
+      }
+    ],
+    "image": "silicon-application-kit-2pcs.png",
+    "imageNote": "Picture labelled STAK2 in the catalogue. Long side 530 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "caulk-tool-set-3pcs",
+    "name": "3pcs Caulk Tool Set",
+    "category": "Grouting, silicone and sponges",
+    "summary": "3pcs caulk tool set with a grout removing knife, a grouting nozzle and a grouting smoother.",
+    "features": [
+      "1pc grout removing knife",
+      "1pc grouting nozzle",
+      "1pc grouting smoother",
+      "320C PP + Black TPR"
+    ],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 8,
+        "sku": "STARK3",
+        "description": "3pcs caulk tool set, 1pc grout removing knife, 1pc grouting nozzle, 1pc grouting smoother 320C PP + Black TPR",
+        "size": "3 pcs"
+      }
+    ],
+    "image": "caulk-tool-set-3pcs.png",
+    "imageNote": "Picture labelled STARK3 in the catalogue. Long side 579 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "silicon-application-set-4pcs",
+    "name": "4pcs Silicon Appliction Set",
+    "nameClean": "4pcs Silicone Application Set",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Silicon application set of 4 pieces.",
+    "features": [],
+    "page": 6,
+    "skus": [
+      {
+        "sr": 9,
+        "sku": "STARK4",
+        "description": "4PCS SILICON APPLICTION SET",
+        "size": "4 pcs"
+      }
+    ],
+    "image": "silicon-application-set-4pcs.png",
+    "imageNote": "Picture labelled STARK4 in the catalogue. Long side 358 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "aluminum-box-screed-set",
+    "name": "Aluminum Box Screed Set",
+    "category": "Measuring and levelling",
+    "summary": "Aluminum box screed set in 450mm, 600mm, 750mm, 900mm, 1350mm and 1800mm lengths, with straight edges and BIHUI protection ends.",
+    "features": [
+      "Straight edges with BIHUI protection ends",
+      "Accuracy: ±0.05mm/m (0.0002in/in)",
+      "Heavy duty rectangular construction",
+      "Clear anodized aluminum construction: will not rust, rot or warp and easy to clean",
+      "Used for leveling material in concrete paving and landscape work"
+    ],
+    "page": 7,
+    "skus": [
+      {
+        "sr": 10,
+        "sku": "TASES6",
+        "description": "ALUMINUM BOX SCREED SET 450mm(18\"). 600mm(24\"),750mm(30\"), 900mm(36\"). 1350mm(54\"), 1800mm(72\")",
+        "size": "450 mm (18\"), 600 mm (24\"), 750 mm (30\"), 900 mm (36\"), 1350 mm (54\"), 1800 mm (72\")"
+      }
+    ],
+    "image": "aluminum-box-screed-set.png",
+    "imageNote": "Shows the whole set nested in its carrier. The box also has a close-up of the ends, one end cap and the six bars upright.",
+    "details": [
+      "Aluminum Box Screed Set",
+      "- Straight edges with BIHUI protection ends",
+      "- Accuracy: ±0.05mm/m(0.0002in/in)",
+      "- Features a heavy duty rectangular construction which provides exceptional straightest, strength and light weight.",
+      "- Clear anodized aluminum construction guarantees it will not rust, rot or warp and easy to clean",
+      "- Used for leveling material in concrete paving and landscape work"
+    ]
+  },
+  {
+    "slug": "jumbo-trowel-set-8pcs",
+    "name": "8pcs Jumbo Trowel Set in Stainless Steel",
+    "category": "Trowels",
+    "summary": "8pcs jumbo trowel set in stainless steel with a changeable TPR handle and a plastic tool box; also listed with a closed handle.",
+    "features": [
+      "1x changeable TPR handle",
+      "1x plastic tool box",
+      "Sq notch 6, 8, 10, 12mm",
+      "10x20mm round notch and tiger notch",
+      "Closed handle version: PTSJH8"
+    ],
+    "page": 7,
+    "skus": [
+      {
+        "sr": 11,
+        "sku": "PTSJG8",
+        "description": "8pcs Jumbo Trowel set in Stainless steel, 1x changeable TPR handle, 1x plstic tool box, Sq Notch 6,8,10, 12mm,10x20mm Round Notch and Tiger notch",
+        "size": "8 pcs"
+      },
+      {
+        "sr": 11,
+        "sku": "PTSJH8",
+        "description": "8PCS JUMBO TROWEL SET IN STAINLESS STEEL-CLOSED HANDLE",
+        "size": "8 pcs, closed handle"
+      }
+    ],
+    "image": "jumbo-trowel-set-8pcs.png",
+    "imageNote": "Left of two unlabelled set photographs (the smaller second one shows a closed handle); which SKU each shows is not printed. Photographed on a grey ground, not cut out. Long side 271 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# 11 is printed on both rows."
+    ]
+  },
+  {
+    "slug": "professional-trowel-stainless-steel",
+    "name": "Professional Trowel with Smooth Soft Grip Handle, Stainless Steel #420",
+    "category": "Trowels",
+    "summary": "Professional notched trowel with a smooth soft grip handle and a #420 stainless steel blade.",
+    "features": [
+      "Stainless steel #420",
+      "Smooth soft grip handle",
+      "8 rivets",
+      "0.7mm blade",
+      "280x120mm",
+      "Logo and size engraved"
+    ],
+    "page": 7,
+    "skus": [
+      {
+        "sr": 12,
+        "sku": "PTSB03",
+        "description": "PROFESSIONAL TROWEL WITH SMOOTH SOFT GRIP HANDLE, STAINLESS STEEL #420, SQUARE NOTCH 3.2MM (1/8 INCH)",
+        "size": "Square notch 3.2 mm (1/8 inch)"
+      },
+      {
+        "sr": 13,
+        "sku": "PTSB08",
+        "description": "Professional Trowel With Smooth Soft Grip Handle, stainless steel #420, with 8 rivits, 0.7mm blade, square notch 6x6x6mm 280x120mm PP 320C +Black TPR with logo and size engraved",
+        "size": "Square notch 6x6x6 mm, 280x120 mm",
+        "flag": "Text is identical to PTSB10; both print a 6x6x6mm notch although the SKUs suggest 8 and 10."
+      },
+      {
+        "sr": 14,
+        "sku": "PTSB10",
+        "description": "Professional Trowel With Smooth Soft Grip Handle, stainless steel #420, with 8 rivits, 0.7mm blade, square notch 6x6x6mm 280x120mm PP 320C +Black TPR with logo and size engraved",
+        "size": "Square notch 6x6x6 mm, 280x120 mm",
+        "flag": "Text is identical to PTSB08; both print a 6x6x6mm notch although the SKUs suggest 8 and 10."
+      }
+    ],
+    "image": "professional-trowel-stainless-steel.png",
+    "imageNote": "The box shows one notched trowel for all six stainless and carbon steel trowels; the same picture is used for both trowel families. Resized in width to the proportions printed on the page. Long side 324 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "PTSB08 and PTSB10 carry the same description with a 6x6x6mm notch. Notch sizes are recorded as printed; confirm before publishing."
+    ]
+  },
+  {
+    "slug": "professional-trowel-carbon-steel",
+    "name": "Professional Trowel with Smooth Soft Grip Handle, Carbon Steel Blade",
+    "category": "Trowels",
+    "summary": "Professional notched trowel with a smooth soft grip handle and a 280x115mm carbon steel blade.",
+    "features": [
+      "Carbon steel blade 280x115mm",
+      "Smooth soft grip handle",
+      "Logo and size engraved"
+    ],
+    "page": 7,
+    "skus": [
+      {
+        "sr": 15,
+        "sku": "PTCB06",
+        "description": "PROFESSIONAL TROWEL CARBON STEEL BLADE 280X115MM, 6MM SQUARE NOTCH",
+        "size": "6 mm square notch"
+      },
+      {
+        "sr": 16,
+        "sku": "PTCB08",
+        "description": "Professional Trowel With Smooth Soft Grip Handle, Carbon Steel Blade 280x115mm, 8mm square notch PP 320C +Black TPR with logo and size engraved",
+        "size": "8 mm square notch"
+      },
+      {
+        "sr": 17,
+        "sku": "PTCB10",
+        "description": "Professional Trowel With Smooth Soft Grip Handle, Carbon Steel Blade 280x115mm, 10mm square notch PP 320C +Black TPR with logo and size engraved",
+        "size": "10 mm square notch"
+      }
+    ],
+    "image": "professional-trowel-carbon-steel.png",
+    "imageNote": "Same picture as the stainless steel trowel family: the box shows one notched trowel for all six rows and does not say which blade it is. Resized in width to the proportions printed on the page. Long side 324 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "putty-scraper",
+    "name": "Putty Scraper",
+    "category": "Scrapers and knives",
+    "summary": "Putty scraper in a one piece design with soft cover and a fine polished soft blade in #420 stainless steel.",
+    "features": [
+      "One piece design with soft cover",
+      "#420 stainless steel",
+      "Fine polished soft blade"
+    ],
+    "page": 8,
+    "skus": [
+      {
+        "sr": 18,
+        "sku": "PTS4",
+        "description": "Putty Scraper; One piece design with soft cover; #420 Stainless steel; Fine polished soft blade 4\" Pantone 320C",
+        "size": "4\""
+      },
+      {
+        "sr": 19,
+        "sku": "PTS5",
+        "description": "Putty Scraper; One piece design with soft cover; #420 Stainless steel; Fine polished soft blade 5\" Pantone 320C",
+        "size": "5\""
+      },
+      {
+        "sr": 20,
+        "sku": "PTS6",
+        "description": "Putty Scraper; One piece design with soft cover; #420 Stainless steel; Fine polished soft blade 6\" Pantone 320C",
+        "size": "6\""
+      }
+    ],
+    "image": "putty-scraper.png",
+    "imageNote": "Picture labelled PTS4 in the catalogue; shown with its retail label on the blade, which reads \"Joint Knife\". Long side 564 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "switchable-putty-scraper-kit",
+    "name": "Switchable Putty Scraper Kit",
+    "category": "Scrapers and knives",
+    "summary": "Switchable putty scraper kit with one handle and 5 stainless steel #420 blades.",
+    "features": [
+      "One handle and 5 blades",
+      "Premium switchable handle for all blades",
+      "Strong steel hammer end",
+      "Stainless steel #420",
+      "Blades in 1.5\", 4\", 5\", 6\", 5N1"
+    ],
+    "page": 8,
+    "skus": [
+      {
+        "sr": 21,
+        "sku": "PTKSK6",
+        "description": "Switchable Putty Scraper Kit. One handle & 5 blades Premium switchable handle for all blades With strong steel hammer end Stainless steel #420 Blades in 1.5\", 4\", 5\", 6\", 5N1",
+        "size": "One handle and 5 blades"
+      }
+    ],
+    "image": "switchable-putty-scraper-kit.png",
+    "imageNote": "Picture labelled PTKSK6 in the catalogue; shows the handle with the blades fanned behind it."
+  },
+  {
+    "slug": "tile-remover",
+    "name": "Tile Remover with Soft Grip",
+    "category": "Scrapers and knives",
+    "summary": "Tile remover with soft grip, a stainless steel blade with cutting edges and a metal hammer end.",
+    "features": [
+      "Soft grip",
+      "Stainless steel blade",
+      "Cutting edges",
+      "Metal hammer end"
+    ],
+    "page": 8,
+    "skus": [
+      {
+        "sr": 22,
+        "sku": "TRSC4",
+        "description": "Tile Remover W/Soft Grip, Stainless Steel Blade, W/Cutting Edges, W/Metal Hammer End 4\" 320C PP + Black TPR",
+        "size": "4\""
+      }
+    ],
+    "image": "tile-remover.png",
+    "imageNote": "Picture labelled TRSC4 in the catalogue. Long side 215 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "taping-knife",
+    "name": "Taping Knife",
+    "category": "Scrapers and knives",
+    "summary": "Taping knife with a 2K TPR soft grip handle and a #420 stainless steel blade with rounded corner.",
+    "features": [
+      "New 2K TPR soft grip handle",
+      "#420 stainless steel blade",
+      "Rounded corner",
+      "Blade outlength 48mm",
+      "Matt finish"
+    ],
+    "page": 8,
+    "skus": [
+      {
+        "sr": 23,
+        "sku": "PTK22",
+        "description": "Taping Knife with new 2K TPR soft grip handle, #420 stainless steel blade, rounded corner. Blade outlength 48mm. 22CM matt finish",
+        "size": "22 cm"
+      },
+      {
+        "sr": 24,
+        "sku": "PTK30",
+        "description": "Taping Knife with new 2K TPR soft grip handle, #420 stainless steel blade, rounded corner. Blade outlength 48mm. 30CM matt finish",
+        "size": "30 cm"
+      },
+      {
+        "sr": 25,
+        "sku": "PTK40",
+        "description": "Taping Knife with new 2K TPR soft grip handle, #420 stainless steel blade, rounded corner. Blade outlength 48mm. 40CM matt finish",
+        "size": "40 cm"
+      },
+      {
+        "sr": 26,
+        "sku": "PTK50",
+        "description": "Taping Knife with new 2K TPR soft grip handle, #420 stainless steel blade, rounded corner. Blade outlength 48mm. 50CM matt finish",
+        "size": "50 cm"
+      },
+      {
+        "sr": 27,
+        "sku": "PTK60",
+        "description": "Taping Knife with new 2K TPR soft grip handle, #420 stainless steel blade, rounded corner. Blade outlength 48mm. 60CM matt finish",
+        "size": "60 cm"
+      }
+    ],
+    "image": "taping-knife.png",
+    "imageNote": "Picture captioned \"Professional Taping Knife\" in the catalogue; which length it shows is not printed. Long side 338 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "notched-taping-knife",
+    "name": "Notched Taping Knife",
+    "category": "Scrapers and knives",
+    "summary": "Notched taping knife with a 2K TPR soft grip handle with hanging hole and a #420 stainless steel blade.",
+    "features": [
+      "New 2K TPR soft grip handle with hanging hole",
+      "#420 stainless steel blade"
+    ],
+    "page": 8,
+    "skus": [
+      {
+        "sr": 28,
+        "sku": "PTKNQ6",
+        "description": "Notched Taping Knife with new 2K TPR soft grip handle with hanging hole, #420 stainless steel blade 60CM 432C TPR, 320C PP",
+        "size": "60 cm"
+      }
+    ],
+    "image": "notched-taping-knife.png",
+    "imageNote": "Picture labelled PTKNQ6 in the catalogue."
+  },
+  {
+    "slug": "drywall-skimming-scraper",
+    "name": "Drywall Skimming Scraper",
+    "category": "Scrapers and knives",
+    "summary": "Drywall skimming scraper with an ergonomic PVC handle and a flexible 0.3mm stainless steel blade.",
+    "features": [
+      "Ergonomic PVC handle",
+      "Flexible 0.3mm stainless steel blade"
+    ],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 29,
+        "sku": "PTKJ25",
+        "description": "Drywall Skimming Scraper,ergonomic PVC handle,Flexible 0.3mm stainless steel blade 250mm 250mm",
+        "size": "250 mm"
+      },
+      {
+        "sr": 30,
+        "sku": "PTKJ40",
+        "description": "Drywall Skimming Scraper,ergonomic PVC handle,Flexible 0.3mm stainless steel blade 400mm 400mm",
+        "size": "400 mm"
+      },
+      {
+        "sr": 31,
+        "sku": "PTKJ60",
+        "description": "Drywall Skimming Scraper,ergonomic PVC handle,Flexible 0.3mm stainless steel blade 600mm 600mm",
+        "size": "600 mm"
+      },
+      {
+        "sr": 32,
+        "sku": "PTKJ80",
+        "description": "Drywall Skimming Scraper,ergonomic PVC handle,Flexible 0.3mm stainless steel blade 800mm 800mm",
+        "size": "800 mm"
+      },
+      {
+        "sr": 33,
+        "sku": "PTKJ100",
+        "description": "Drywall Skimming Scraper,ergonomic PVC handle,Flexible 0.3mm stainless steel blade 1000mm 1000mm",
+        "size": "1000 mm"
+      }
+    ],
+    "image": "drywall-skimming-scraper.png",
+    "imageNote": "Group photograph of five scrapers in descending lengths; kept whole because it shows the size range of this one family."
+  },
+  {
+    "slug": "nylon-paint-roller",
+    "name": "Nylon Paint Roller",
+    "category": "Scrapers and knives",
+    "summary": "Nylon paint roller in 220mm.",
+    "features": [],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 34,
+        "sku": "PTKJPR",
+        "description": "Nylon paint roller in 220mm",
+        "size": "220 mm"
+      }
+    ],
+    "image": "nylon-paint-roller.png",
+    "imageNote": "Unlabelled picture in the skimming scraper box; the only roller pictured."
+  },
+  {
+    "slug": "telescope-handle",
+    "name": "Telescope Handle",
+    "category": "Scrapers and knives",
+    "summary": "Telescope handle in 1100mm.",
+    "features": [],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 35,
+        "sku": "PTKJTH",
+        "description": "Telescope handle in 1100mm",
+        "size": "1100 mm"
+      }
+    ],
+    "image": "telescope-handle.png",
+    "imageNote": "Doubtful: unlabelled. Cropped from a picture of a pole with a skimming blade mounted on it, to show the pole alone; the only pole in the box. Its lower end is cut off in the source and the top is cropped at the elbow. Long side 538 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "epoxy-grout-float-thermoplastic-rubber-pad",
+    "name": "Epoxy Grout Float with Solid 12mm Thermoplastic Rubber Pad",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Float designed for applying epoxy grout, with a solid 12mm thermoplastic rubber pad and a durable TPR handle.",
+    "features": [
+      "Designed for applying epoxy grout",
+      "Ideal for wall and uneven tiles, also delicate tiles",
+      "Allows slight flex into grout line",
+      "Solid 12mm thermoplastic rubber pad",
+      "Durable TPR handle"
+    ],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 36,
+        "sku": "CFSRS",
+        "description": "Designed for applying epoxy grout, Ideal for wall and uneven tiles, also delicate tiles, Allows slight flex into grout line, Solid 12mm thermoplastic rubber pad, Durable TPR handle, 89mm x 254mm",
+        "size": "89 mm x 254 mm"
+      }
+    ],
+    "image": "epoxy-grout-float-thermoplastic-rubber-pad.png",
+    "imageNote": "Picture labelled CFSRS in the catalogue. Long side 374 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The row prints no product name; the family name is put together from the description."
+    ]
+  },
+  {
+    "slug": "epoxy-grout-rubber-float",
+    "name": "Epoxy Grout Rubber Float with Plastic Handle",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Epoxy grout rubber float with a plastic handle.",
+    "features": [
+      "Plastic handle",
+      "Soft rubber handle"
+    ],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 37,
+        "sku": "CFHSL",
+        "description": "Epoxy Grout Rubber Float with plastic handle, soft rubber handle 320C handle, 432C base"
+      }
+    ],
+    "image": "epoxy-grout-rubber-float.png",
+    "imageNote": "Picture labelled CFHSL in the catalogue. The picture shows a cream handle on a blue pad, while the row gives colours 320C and 432C. Long side 152 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The row reads \"with plastic handle, soft rubber handle\": probably \"soft rubber\" describes the pad (the next row is the \"hard rubber\" version). Recorded as printed."
+    ]
+  },
+  {
+    "slug": "epoxy-grout-float-green-hard-rubber",
+    "name": "Epoxy Gtout Float with Plastic Handle - Green Hard Rubber",
+    "nameClean": "Epoxy Grout Float with Plastic Handle - Green Hard Rubber",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Epoxy grout float with a plastic handle and green hard rubber, 248 x 116mm.",
+    "features": [
+      "Plastic handle",
+      "Green hard rubber"
+    ],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 38,
+        "sku": "CFHRL",
+        "description": "EPOXY GTOUT FLOAT WITH PLASTIC HANDLE - GREEN HARD RUBBER., Size: 248 x 116mm",
+        "size": "248 x 116 mm"
+      }
+    ],
+    "image": "epoxy-grout-float-green-hard-rubber.png",
+    "imageNote": "Picture labelled CFHRL in the catalogue. Long side 208 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "grout-float-tpr-soft-handle",
+    "name": "Grout Float with TPR Soft Handle",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Grout float with a TPR soft handle, aluminium backing and a high density EVA and rubber pad.",
+    "features": [
+      "TPR soft handle",
+      "Aluminium backing",
+      "High density EVA and rubber pad"
+    ],
+    "page": 9,
+    "skus": [
+      {
+        "sr": 39,
+        "sku": "CFERS",
+        "description": "Grout Float with TPR soft handle with aluminium backing, high density EVA and rubber pad 240x100mm 320C and grey",
+        "size": "240x100 mm"
+      }
+    ],
+    "image": "grout-float-tpr-soft-handle.png",
+    "imageNote": "Picture labelled CFERS in the catalogue. Long side 339 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "cellulose-sponge",
+    "name": "Cellulose Sponge",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Cellulose sponge, without cutting, 185x110x54mm.",
+    "features": [
+      "Without cutting"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 40,
+        "sku": "CFCS180",
+        "description": "Cellulose Sponge, without cutting 185x110x54mm",
+        "size": "185x110x54 mm"
+      }
+    ],
+    "image": "cellulose-sponge.png",
+    "imageNote": "Picture labelled CFCS180 in the catalogue. Long side 495 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "combination-hydro-grout-sponge",
+    "name": "Combination Hydro Grout Sponge",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Combination hydro grout sponge with round polished edges, 180x110x65mm.",
+    "features": [
+      "Round polished edges"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 41,
+        "sku": "CFHC180",
+        "description": "Combination Hydro Grout Sponge, Round polished edges 180x110x65mm",
+        "size": "180x110x65 mm"
+      }
+    ],
+    "image": "combination-hydro-grout-sponge.png",
+    "imageNote": "Picture labelled CFHC180 in the catalogue. Long side 308 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "dual-combination-microfibre-sponge",
+    "name": "Dual Combination Microfibre Sponge",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Dual combination microfibre sponge with hydro grouting sponge, 190x120x50mm.",
+    "features": [
+      "Microfibre sponge with hydro grouting sponge"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 42,
+        "sku": "CFHM190",
+        "description": "Dual combination Microfibre sponge with hydro grouting sponge 190x120x50mm",
+        "size": "190x120x50 mm"
+      }
+    ],
+    "image": "dual-combination-microfibre-sponge.png",
+    "imageNote": "Picture labelled CFHM190 in the catalogue. Resized in width to the proportions printed on the page. Long side 371 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "hydro-grout-sponge",
+    "name": "Hydro Grout Sponge",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Hydro grout sponge.",
+    "features": [],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 43,
+        "sku": "CFHS165",
+        "description": "HYDRO GROUT SPONGE,190X140X51MM.",
+        "size": "190x140x51 mm",
+        "flag": "Printed size 190x140x51mm does not fit the SKU (165); the sizes of CFHS165 and CFHS190 look swapped."
+      }
+    ],
+    "image": "hydro-grout-sponge.png",
+    "imageNote": "Picture labelled CFHS165 in the catalogue. Long side 401 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The size printed for CFHS165 starts with 190 and the size printed for CFHS190 starts with 165. Recorded as printed; confirm before publishing."
+    ]
+  },
+  {
+    "slug": "pro-germany-hydro-grouting-sponge",
+    "name": "Pro Germany Hydro Grouting Sponge",
+    "category": "Grouting, silicone and sponges",
+    "summary": "Pro Germany hydro grouting sponge.",
+    "features": [],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 44,
+        "sku": "CFHS190",
+        "description": "PRO GERMANY HYDRO GROUTING SPONGE 165X110X60MM",
+        "size": "165x110x60 mm",
+        "flag": "Printed size 165x110x60mm does not fit the SKU (190); the sizes of CFHS165 and CFHS190 look swapped."
+      }
+    ],
+    "image": "pro-germany-hydro-grouting-sponge.png",
+    "imageNote": "Picture labelled CFHS190 in the catalogue. Long side 352 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The size printed for CFHS190 starts with 165 and the size printed for CFHS165 starts with 190. Recorded as printed; confirm before publishing."
+    ]
+  },
+  {
+    "slug": "levelling-spacer-post-sl",
+    "name": "Levelling Straight Threaded Spacer Post (SL)",
+    "category": "Tile levelling systems",
+    "summary": "Levelling straight threaded spacer post, 100pcs per pack, in 1mm, 1.5mm and 3mm.",
+    "features": [
+      "100pcs per pack"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 45,
+        "sku": "SL1100",
+        "description": "LEVELLING STRAIGHT THREADED SPACER POST, 100PCS PER PACK, 1MM",
+        "size": "1 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 46,
+        "sku": "SL2100",
+        "description": "LEVELLING STRAIGHT THREADED SPACER POST, 100PCS PER PACK,1.5MM",
+        "size": "1.5 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 47,
+        "sku": "SL3100",
+        "description": "LEVELLING STRAIGHT THREADED SPACER POST, 100PCS PER PACK,3MM",
+        "size": "3 mm, 100 pcs per pack"
+      }
+    ],
+    "image": "levelling-spacer-post-sl.png",
+    "imageNote": "Doubtful: the box shows four unlabelled posts (teal, white, black, dark grey). The BLT rows name white, green and black, so the dark grey post is assigned here by elimination only. Long side 337 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The catalogue prints the same product wording for the SL and the BLT posts; \"(SL)\" is added to the name only to tell the two series apart.",
+      "Sr# 45 to 48 are printed twice in this box."
+    ]
+  },
+  {
+    "slug": "spin-level-fast-clip-cap",
+    "name": "Spin Level Fast Clip Cap",
+    "category": "Tile levelling systems",
+    "summary": "Spin level fast clip cap, 100pcs per pack.",
+    "features": [
+      "100pcs per pack"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 48,
+        "sku": "BLTF100",
+        "description": "SPIN LEVEL FAST CLIP CAP - 100PCS PER PACK",
+        "size": "100 pcs per pack"
+      }
+    ],
+    "image": "spin-level-fast-clip-cap.png",
+    "imageNote": "Unlabelled picture of two caps (two views) next to a \"SPIN\" logo; matched by that logo and the row wording, not by a printed label. Long side 523 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "levelling-spacer-post-blt",
+    "name": "Levelling Straight Threaded Spacer Post (BLT)",
+    "category": "Tile levelling systems",
+    "summary": "Levelling straight threaded spacer post, 100pcs per pack, in 1mm white, 1.5mm green and 3mm black.",
+    "features": [
+      "100pcs per pack",
+      "1mm - white",
+      "1.5mm - green",
+      "3mm - black"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 45,
+        "sku": "BLT1100",
+        "description": "Levelling straight threaded spacer post, 100pcs per pack 1mm - white",
+        "size": "1 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 46,
+        "sku": "BLT2100",
+        "description": "Levelling straight threaded spacer post, 100pcs per pack 1.5mm - Green",
+        "size": "1.5 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 47,
+        "sku": "BLT3100",
+        "description": "Levelling straight threaded spacer post, 100pcs per pack 3mm Black",
+        "size": "3 mm, 100 pcs per pack"
+      }
+    ],
+    "image": "levelling-spacer-post-blt.png",
+    "imageNote": "Doubtful: shows the teal post, taken to be the 1.5mm \"Green\" one. The posts in the box are not labelled; the white and the black post are also pictured. Long side 318 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The catalogue prints the same product wording for the SL and the BLT posts; \"(BLT)\" is added to the name only to tell the two series apart.",
+      "Sr# 45 to 48 are printed twice in this box."
+    ]
+  },
+  {
+    "slug": "levelling-window-cap",
+    "name": "Levelling Window Cap",
+    "category": "Tile levelling systems",
+    "summary": "Levelling window cap, 100pcs per pack.",
+    "features": [
+      "100pcs per pack"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 48,
+        "sku": "SLC100",
+        "description": "LEVELLING WINDOW CAP, 100PCS PER PACK",
+        "size": "100 pcs per pack"
+      }
+    ],
+    "image": "levelling-window-cap.png",
+    "imageNote": "Unlabelled picture of an open-sided teal cap; matched by shape to the words \"window cap\", not by a printed label. Long side 530 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "reusable-tile-leveling-system",
+    "name": "Reusable Tile Leveling System",
+    "category": "Tile levelling systems",
+    "summary": "Reusable tile leveling system, 50pcs/pack.",
+    "features": [
+      "50pcs/pack"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 49,
+        "sku": "TQWT50",
+        "description": "REUSABLE TILE LEVELING SYSTEM 50PCS/PACK 432C",
+        "size": "50 pcs/pack"
+      }
+    ],
+    "image": "reusable-tile-leveling-system.png",
+    "imageNote": "Unlabelled picture of a cap with a T-pin and a wrench; first picture of the box, matched to the first row by position. Long side 311 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "tile-leveling-base",
+    "name": "Tile Leveling Base",
+    "category": "Tile levelling systems",
+    "summary": "Tile leveling base for 3-12mm tile, 100pcs/bag, in 1mm, 1.5mm, 2mm and 3mm.",
+    "features": [
+      "For 3-12mm tile",
+      "100pcs/bag"
+    ],
+    "page": 10,
+    "skus": [
+      {
+        "sr": 50,
+        "sku": "TQW1100",
+        "description": "Tile leveling base,100pcs/bag, 1mm for 3-12mm tile",
+        "size": "1 mm, 100 pcs/bag"
+      },
+      {
+        "sr": 51,
+        "sku": "TQW2100",
+        "description": "Tile leveling base,100pcs/bag, 1.5mm for 3-12mm tile",
+        "size": "1.5 mm, 100 pcs/bag"
+      },
+      {
+        "sr": 52,
+        "sku": "TQWN100",
+        "description": "Tile leveling base,100pcs/bag, 2mm for 3-12mm tile",
+        "size": "2 mm, 100 pcs/bag"
+      },
+      {
+        "sr": 53,
+        "sku": "TQW3100",
+        "description": "Tile leveling base,100pcs/bag, 3mm for 3-12mm tile",
+        "size": "3 mm, 100 pcs/bag"
+      }
+    ],
+    "image": "tile-leveling-base.png",
+    "imageNote": "Unlabelled picture of a white clip; which thickness it shows is not printed. Long side 130 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The four SKUs are printed broken over two lines (\"TQW110\" then \"0\"); they are joined here as TQW1100, TQW2100, TQWN100, TQW3100.",
+      "The TQW3100 row is overprinted by the page footer; its text is taken from the PDF text layer.",
+      "The box also shows a black wedge that has no row on this page."
+    ]
+  },
+  {
+    "slug": "levelling-base",
+    "name": "Levelling Base",
+    "category": "Tile levelling systems",
+    "summary": "Levelling base for 3-18mm tile in 0.5mm, 1mm, 1.5mm, 2mm and 3mm, in packs from 100 to 2000 pieces.",
+    "features": [
+      "For 3-18mm tile",
+      "0.5mm - transparent blue",
+      "1mm - transparent white",
+      "1.5mm - grey",
+      "2mm - 320C",
+      "3mm - black"
+    ],
+    "page": 11,
+    "skus": [
+      {
+        "sr": 54,
+        "sku": "BLSS100",
+        "description": "Levelling Base 0.5mm, standard size for 3-18mm tile, 100pcs per pack. 0.5mm for 3-18mm tile transparent bule 299C",
+        "size": "0.5 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 55,
+        "sku": "BLS1100",
+        "description": "Levelling Base 1mm, higher size for 3-18mm tile, 100pc per pack white 1mm for 3-18mm tile transparent white",
+        "size": "1 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 56,
+        "sku": "BLS1250",
+        "description": "Levelling Base 1mm, higher size for 3-18mm tile, 250pc per pack white 1mm for 3-18mm tile transparent white",
+        "size": "1 mm, 250 pcs per pack"
+      },
+      {
+        "sr": 57,
+        "sku": "BLS1500",
+        "description": "LEVELLING BASE 1MM, HIGHER SIZE FOR 3-18MM TILE,500PC PER PACK WHITE",
+        "size": "1 mm, 500 pcs per pack"
+      },
+      {
+        "sr": 58,
+        "sku": "BLS2100",
+        "description": "Levelling Base 1.5mm, standard size for 3-18mm tile, 100pcs per pack grey 1.5mm for 3-18mm tile grey 424C",
+        "size": "1.5 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 59,
+        "sku": "BLS2250",
+        "description": "Levelling Base 1.5mm, standard size for 3-18mm tile, 250pc per pack 1.5mm for 3-18mm tile transparent grey 432C",
+        "size": "1.5 mm, 250 pcs per pack"
+      },
+      {
+        "sr": 60,
+        "sku": "BLS21K",
+        "description": "Levelling Base 1.5mm, standard size for 3-18mm tile,1000pc per pack 1.5mm for 3-18mm tile transparent grey 432C",
+        "size": "1.5 mm, 1000 pcs per pack"
+      },
+      {
+        "sr": 61,
+        "sku": "BLSN100",
+        "description": "Levelling Base 2mm, standard size for 3-18mm tile, 100pc per pack 2mm for 3-18mm tile 320C",
+        "size": "2 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 62,
+        "sku": "BLSN250",
+        "description": "Levelling Base 2mm, standard size for 3-18mm tile, 250pc per pack 2mm for 3-18mm tile 320C",
+        "size": "2 mm, 250 pcs per pack"
+      },
+      {
+        "sr": 63,
+        "sku": "BLSN500",
+        "description": "Levelling Base 2mm, standard size for 3-18mm tile, 500pc per pack 2mm for 3-18mm tile 320C",
+        "size": "2 mm, 500 pcs per pack"
+      },
+      {
+        "sr": 64,
+        "sku": "BLSN1K",
+        "description": "Levelling Base 2mm, standard size for 3-18mm tile, 1000pc per pack 2mm for 3-18mm tile 320C",
+        "size": "2 mm, 1000 pcs per pack"
+      },
+      {
+        "sr": 65,
+        "sku": "BLSN2K",
+        "description": "Levelling Base 2mm, standard size for 3-18mm tile, 2000pcs per pack 2mm for 3-18mm tile 320C",
+        "size": "2 mm, 2000 pcs per pack"
+      },
+      {
+        "sr": 66,
+        "sku": "BLS3100",
+        "description": "Levelling Base 3mm, standard size for 3-18mm tile, 100pc per pack black 3mm for 3-18mm tile black",
+        "size": "3 mm, 100 pcs per pack"
+      },
+      {
+        "sr": 67,
+        "sku": "BLS3250",
+        "description": "Levelling Base 3mm, standard size for 3-18mm tile, 250pc per pack black 3mm for 3-18mm tile black",
+        "size": "3 mm, 250 pcs per pack"
+      }
+    ],
+    "image": "levelling-base.png",
+    "imageNote": "Shows the 2mm base (picture captioned \"Tile Level Base 2mm\"). The 0.5mm, 1mm, 1.5mm and 3mm bases are pictured separately in their own colours. Long side 244 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The 1mm rows say \"higher size\" where the other rows say \"standard size\".",
+      "BLS2100 prints grey 424C; the other two 1.5mm rows print transparent grey 432C.",
+      "BLSS100 prints \"bule\" for blue."
+    ]
+  },
+  {
+    "slug": "leveling-cap-wedges",
+    "name": "New Leveling Cap Wedges",
+    "category": "Tile levelling systems",
+    "summary": "Leveling cap wedges in packs of 100, 250 and 500 pieces.",
+    "features": [
+      "Packs of 100, 250 and 500 pieces"
+    ],
+    "page": 11,
+    "skus": [
+      {
+        "sr": 68,
+        "sku": "BLSE100",
+        "description": "New Leveling Cap Wedges 100pcs per pack 97x22x27mm 432C",
+        "size": "100 pcs per pack, 97x22x27 mm",
+        "flag": "Prints 97x22x27mm where the 250 and 500 packs print 90x22x17mm."
+      },
+      {
+        "sr": 69,
+        "sku": "BLSE250",
+        "description": "New Leveling Cap Wedges 250pcs per pack 90x22x17mm Grey 432C",
+        "size": "250 pcs per pack, 90x22x17 mm"
+      },
+      {
+        "sr": 70,
+        "sku": "BLSE500",
+        "description": "New Leveling Cap Wedges 500pcs per pack 90x22x17mm Grey 432C",
+        "size": "500 pcs per pack, 90x22x17 mm"
+      }
+    ],
+    "image": "leveling-cap-wedges.png",
+    "imageNote": "Picture captioned \"Tile Level Wedge\" in the catalogue. Long side 294 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The wedge size differs between the 100 pack (97x22x27mm) and the 250 and 500 packs (90x22x17mm)."
+    ]
+  },
+  {
+    "slug": "leveling-plier",
+    "name": "Leveling Plier for Floor Covering",
+    "category": "Tile levelling systems",
+    "summary": "Leveling plier for floor covering.",
+    "features": [],
+    "page": 11,
+    "skus": [
+      {
+        "sr": 71,
+        "sku": "BLSFP",
+        "description": "Leveling plier for floor covering 320C"
+      }
+    ],
+    "image": "leveling-plier.png",
+    "imageNote": "Unlabelled; the only plier pictured in the box. Long side 477 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "levelling-system-removal-roller",
+    "name": "Smart Levelling System Removal Roller",
+    "category": "Tile levelling systems",
+    "summary": "Smart levelling system removal roller, 1.4M long, with a handle divided into 3 parts that connect together for easier transport.",
+    "features": [
+      "Handle divided into 3 parts that connect together for easier transport",
+      "1.4M long"
+    ],
+    "page": 11,
+    "skus": [
+      {
+        "sr": 72,
+        "sku": "BLSRR",
+        "description": "Smart Levelling System Removal Roller, handle divided to 3 spare part and connect together for easier transport.grey 432C 1.4M long",
+        "size": "1.4 m long"
+      }
+    ],
+    "image": "levelling-system-removal-roller.png",
+    "imageNote": "Picture captioned \"Levelling Removal Dozer\" in the catalogue.",
+    "flags": [
+      "The row calls it \"Removal Roller\"; the picture caption calls it \"Levelling Removal Dozer\"."
+    ]
+  },
+  {
+    "slug": "electric-mixer",
+    "name": "Electric Mixer",
+    "category": "Mixing",
+    "summary": "Electric mixer in 1800W and 1200W, for mixing cement, paints, tile adhesive and glue.",
+    "features": [
+      "Paddle designed for fast and effective mixing of viscous materials",
+      "Lightweight, impact-resistant motor housing",
+      "Suitable for mixing cement, paints, tile adhesive, glue etc.",
+      "1200W: 230V/50Hz"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 73,
+        "sku": "MMB1800",
+        "description": "ELECTRIC MIXER 1800W PADDLE DESIGNED FOR FAST AND EFFECTIVE MIXING OF VISCOUS MATERIALS. LIGHTWEIGHT, IMPACT-RESISTANT MOTOR HOUSING. SUITABLE FOR MIXING CEMENT, PAINTS, TILE ADHESIVE, GLUE ETC.",
+        "size": "1800 W"
+      },
+      {
+        "sr": 73,
+        "sku": "MME1200",
+        "description": "ELECTRIC MIXER 1200W, 1200WATT MIXER, 230V/50HZ",
+        "size": "1200 W"
+      }
+    ],
+    "image": "electric-mixer.png",
+    "imageNote": "One unlabelled mixer picture for both rows; the catalogue does not say which wattage it shows. A red stamp printed across the shaft was retouched out. Long side 483 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# 73 is printed on both rows."
+    ]
+  },
+  {
+    "slug": "levelling-compound-mixing-station",
+    "name": "Levelling Compound Mixing Station",
+    "category": "Mixing",
+    "summary": "Levelling compound mixing station with a 60cm mixing bucket, two speeds and a 1900W motor.",
+    "features": [
+      "Mixing bucket 60cm height, top diameter 50cm, bottom diameter 38cm",
+      "Black powder coating",
+      "Outer diameter of dust hole 49mm",
+      "1st speed: 150-300 RPM, 2nd speed: 300-650 RPM",
+      "Paddle: 1pc H27 300x600mm",
+      "VDE plug with 4M cable, 230V/50Hz, 1900W"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 74,
+        "sku": "MS1900",
+        "description": "LEVELLING COMPOUND MIXING STATION, MIXING BUCKET 60CM HEIGHT, TOP DIAMETER 50CM, BOTTOM DIAMETER 38CM, BLACK POWDER COATING. OUTER DIAMETER OF DUST HOLE 49MM. 1ST SPEED: 150-300 RPM, 2ND SPEED: 300-650 RPM. PADDLE: 1PC H27 300×600MM. VDE PLUG WITH 4M CABLE, 230V/50HZ, 1900W,",
+        "size": "1900 W"
+      }
+    ],
+    "image": "levelling-compound-mixing-station.png",
+    "imageNote": "Unlabelled; the only station in the box, and the bucket in the picture is printed \"B-LEVEL 100\". Long side 493 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "big-spiral-mixer",
+    "name": "Big Spiral Mixer",
+    "category": "Mixing",
+    "summary": "Big spiral mixer with M14 connection and a metal hanger, golden chrome plated or chrome plated.",
+    "features": [
+      "M14",
+      "With metal hanger",
+      "Golden chrome plated (MPSC16) or chrome plated (MPSC60)"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 75,
+        "sku": "MPSC16",
+        "description": "BIG SPIRAL MIXER, M14, GOLDEN CHROME PLATED WITH METAL HANGER"
+      },
+      {
+        "sr": 76,
+        "sku": "MPSC60",
+        "description": "BIG SPIRAL MIXER, M14, CHROME PLATED WITH METAL HANGER 140XM14X600MM",
+        "size": "140XM14X600MM"
+      }
+    ],
+    "image": "big-spiral-mixer.png",
+    "imageNote": "Unlabelled golden paddle, so it fits the MPSC16 wording; MPSC60 (chrome plated) is not pictured. Long side 227 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "bucket-liner-20l",
+    "name": "20L Bucket Liner",
+    "category": "Mixing",
+    "summary": "20L bucket liner in a soft and durable material, easy to clean and reusable, for a 20L mixing bucket.",
+    "features": [
+      "Soft and durable material",
+      "Easy to clean and can be used multiple times",
+      "Suitable for 20L mixing bucket"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 77,
+        "sku": "MPBL20",
+        "description": "20L Bucket Liner Soft and durable material Easy to clean and can be used multiple times. Suitable for 20L mixing bucket 20L 320C",
+        "size": "20L"
+      }
+    ],
+    "image": "bucket-liner-20l.png",
+    "imageNote": "Unlabelled; shows the blue liner fitted in a white bucket. Long side 165 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "mixer-station-with-timer",
+    "name": "Mixer Station with Timer",
+    "category": "Mixing",
+    "summary": "Mixer station with timer, 65 litre tub and a maximum mixing capacity of 50Kg.",
+    "features": [
+      "Easy transport with 2 big wheels",
+      "Thermal protection prevents motor overload",
+      "Three pieces design for easy storage or transportation",
+      "Tub volume 65 litres",
+      "Maximum mixing capacity 50Kg"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 78,
+        "sku": "MMWT65",
+        "description": "Mixer Station with Timer -Easy Transport with 2 big wheels -Thermal protection prevents motor overload. -Three pieces design for easy storage or transportation -Tub volume 65 litres -Maximum mixing capacity 50Kg 65L",
+        "size": "65L"
+      }
+    ],
+    "image": "mixer-station-with-timer.png",
+    "imageNote": "Picture labelled MMWT65 in the catalogue. A \"new\" badge beside it was removed. Long side 197 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "portable-mortar-mixer",
+    "name": "Portable Mortar Mixer",
+    "category": "Mixing",
+    "summary": "Portable mortar mixer with a 120L drum and 100L mixing capacity, for cement, mortar, plaster and concrete.",
+    "features": [
+      "Drum capacity 120L, 100L mixing capacity",
+      "1500W, 230V",
+      "Paddle speed 1450RPM, arm speed 22rpm",
+      "CE/GS approved",
+      "Suitable for mixing a variety of substances including cement, mortar, plaster and concrete"
+    ],
+    "page": 12,
+    "skus": [
+      {
+        "sr": 79,
+        "sku": "MM1500",
+        "description": "\"Portable Mortar Mixer, drum capacity 120L, 100L mixing capacity, 1500W, 230V, paddle speed 1450RPM , arm speed: 22rpm, machine size 100x71x135mm, G.W./N.W. 1115/107KGS, CE/GS approved\" 230V/50HZ, 1500W 320C and black Suitable for mixing a variety of substances including cement, mortar, plaster and concrete",
+        "size": "Drum 120L, 100L mixing capacity",
+        "flag": "Prints \"machine size 100x71x135mm\" and \"G.W./N.W. 1115/107KGS\", neither plausible for this machine (possibly cm and 115/107). Left out of the features; recorded as printed."
+      }
+    ],
+    "image": "portable-mortar-mixer.png",
+    "imageNote": "Picture labelled MM1500 in the catalogue; the drum is printed \"B-MAX 120\". A CE mark beside it was removed. Long side 458 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Stray quotation marks around part of the row text."
+    ]
+  },
+  {
+    "slug": "concrete-grinder-1900w",
+    "name": "1900W Concrete Grinder",
+    "category": "Grinders and polishing",
+    "summary": "1900W concrete grinder with speed regulation, soft start and a removable magnetic front cover.",
+    "features": [
+      "4M cable, Euro plug",
+      "Power-off and overloading protections, speed regulation",
+      "Full wave electronics, soft start, start-current limit function",
+      "Removable front protective cover with magnetic",
+      "Self-cleaning design",
+      "Extra rubber adaptor"
+    ],
+    "page": 13,
+    "skus": [
+      {
+        "sr": 80,
+        "sku": "CG1900",
+        "description": "1900W CONCRETE GRINDER, 4M CABLE. FEATURED WITH POWER-OFF & OVERLOADING PROTECTIONS, AND SPEED REGULATION. FULL WAVE ELECTRONICS, SOFT START, AND WITH A START-CURRENT LIMIT FUNCTION. REMOVABLE FRONT PROTECTIVE COVER WITH MAGNETIC. SELF-CLEANING DESIGN, WITH AN EXTRA RUBBER ADAPTOR, EURO PLUG.",
+        "size": "1900 W"
+      }
+    ],
+    "image": "concrete-grinder-1900w.png",
+    "imageNote": "Doubtful: the two grinder pictures are not labelled. Assigned by left-to-right order only; the owner should confirm which grinder this is.",
+    "flags": [
+      "Sr# 80 is printed on CG1900, CG2000 and DCFC5."
+    ]
+  },
+  {
+    "slug": "concrete-grinder-2000w",
+    "name": "2000W Concrete Grinder",
+    "category": "Grinders and polishing",
+    "summary": "2000W concrete grinder with smart dust-free grinding and 0-3000 RPM variable speed.",
+    "features": [
+      "Smart dust-free grinding",
+      "Magnetic Corner Pro system",
+      "Aluminum alloy, metal and engineering nylon ergonomic design",
+      "0-3000 RPM variable speed",
+      "Full wave electronics + soft start",
+      "Auto shutoff + overload protection + current limiting"
+    ],
+    "page": 13,
+    "skus": [
+      {
+        "sr": 80,
+        "sku": "CG2000",
+        "description": "2000W CONCRETE GRINDER, SMART DUST-FREE GRINDING MAGNETIC CORNER PRO SYSTEM HIGH DURABILITY - ALUMINUM ALLOY, METAL AND ENGINEERING NYLON ERGONOMIC DESIGN. INCREASED BALANCE AND FLATNESS TECHNICAL POWERHOUSE 0-3000 RPM VARIABLE SPEED FULL WAVE ELECTRONICS + SOFT START AUTO SHUTOFF + OVERLOAD PROTECTION + CURRENT LIMITING",
+        "size": "2000 W"
+      }
+    ],
+    "image": "concrete-grinder-2000w.png",
+    "imageNote": "Doubtful: the two grinder pictures are not labelled. Assigned by left-to-right order only; the owner should confirm which grinder this is.",
+    "flags": [
+      "Sr# 80 is printed on CG1900, CG2000 and DCFC5."
+    ]
+  },
+  {
+    "slug": "concrete-grinder-working-stand",
+    "name": "Working Stand for 1900W Concrete Grinder",
+    "category": "Grinders and polishing",
+    "summary": "Working stand for the 1900W concrete grinder, with adjustable angle and adjustable positioner.",
+    "features": [
+      "2.5M cable",
+      "Adjustable angle and adjustable positioner",
+      "Euro plug, 230V"
+    ],
+    "page": 13,
+    "skus": [
+      {
+        "sr": 81,
+        "sku": "CGWS19",
+        "description": "Working stand for 1900W Concrete Grinder, 2.5M cable, adjustable angle and adjustable positioner, Euro plug, 230V"
+      }
+    ],
+    "image": "concrete-grinder-working-stand.png",
+    "imageNote": "Doubtful: the only stand pictured, but it carries another company's faint watermark across the base. Do not publish without a clean picture. Long side 519 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "angle-grinder",
+    "name": "Angle Grinder",
+    "category": "Grinders and polishing",
+    "summary": "Angle grinder with M14 connection, variable speed and 1200W, with soft start and 6 gears from 3,000-11,000 RPM.",
+    "features": [
+      "M14 connection, spindle thread M14",
+      "Variable speed 1200W, with constant speed, soft start",
+      "6 variable gears from 3,000-11,000 RPM",
+      "With 3M cord and power-off protection",
+      "2-position TPR side handle",
+      "Includes wrench, guard, side handle, carbon brushes"
+    ],
+    "page": 13,
+    "skus": [
+      {
+        "sr": 82,
+        "sku": "AG1200",
+        "description": "ANGLE GRINDER M14 CONNECTION, VARIABLE SPEED 1200W. WITH CONSTANT SPEED. SOFT START.SPINDLE THREAD M14. 6 VARIABLE GEARS FROM 3,000-11,000 RPM. WITH 3M CORD AND POWER-OFF PROTECTION. 2-POSITION TPR SIDE HANDLE. INCLUDES WRENCH, GUARD, SIDE HANDLE, CARBON BRUSHES.",
+        "size": "1200 W"
+      }
+    ],
+    "image": "angle-grinder.png",
+    "imageNote": "Unlabelled; the only angle grinder in the box. A close-up of the speed dial was left out. Long side 419 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "cutting-dust-extractor",
+    "name": "Cutting Dust Extractor",
+    "category": "Grinders and polishing",
+    "summary": "Cutting dust extractor.",
+    "features": [],
+    "page": 13,
+    "skus": [
+      {
+        "sr": 80,
+        "sku": "DCFC5",
+        "description": "CUTTING DUST EXTRACTOR"
+      }
+    ],
+    "image": "cutting-dust-extractor.png",
+    "imageNote": "Unlabelled; the extractor alone. The box also shows it in use. Long side 556 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# 80 is out of sequence here (it follows Sr# 82)."
+    ]
+  },
+  {
+    "slug": "laser-level-16-line",
+    "name": "16 Line Laser Level",
+    "category": "Laser levels",
+    "summary": "16 line laser level with a TFT color screen display, automatic self-levelling and built-in memory.",
+    "features": [
+      "TFT color screen display",
+      "Accurate reset function and self-levelling automatically",
+      "Built-in memory function",
+      "Supports tilting at any angle",
+      "Three levels of brightness adjustable",
+      "Professional grade waterproof and dustproof"
+    ],
+    "page": 14,
+    "skus": [
+      {
+        "sr": 83,
+        "sku": "LLG16",
+        "description": "16 Line Laser Level Equipped with TFT color screen display, Accurate reset function and self-levelling automatically, Built-in memory function, Supports tilting at any angle, Three levels of brightness adjustable, Professional grade waterproof and dustproof 1. machine 2.. 3.7V/5000mAh Li-ion battery 3. laser target plate 4. Bracket (PV9&PV6+) 5. green glasses 6. 3IN1 charger 7.Type-C USB cable 8. Remote Control"
+      }
+    ],
+    "image": "laser-level-16-line.png",
+    "imageNote": "Doubtful: the three kit pictures are not labelled. This one is assigned by inference only (largest kit, the unit appears to read 4x360). Owner to confirm. A CE mark beside it was removed.",
+    "includes": [
+      "machine",
+      "3.7V/5000mAh Li-ion battery",
+      "laser target plate",
+      "Bracket (PV9&PV6+)",
+      "green glasses",
+      "3IN1 charger",
+      "Type-C USB cable",
+      "Remote Control"
+    ]
+  },
+  {
+    "slug": "laser-level-12-line",
+    "name": "12 Line Laser Level",
+    "category": "Laser levels",
+    "summary": "Self-levelling 12 line laser level with green beams, accuracy of ±3mm/10m and an IP54 rating.",
+    "features": [
+      "Self-levelling, 12 green beams",
+      "Accuracy: H/V line ±3mm/10m",
+      "Leveling range: 3°±1°",
+      "Leveling time: ≤3s",
+      "Rating: IP54",
+      "Laser wave length: 520NM"
+    ],
+    "page": 14,
+    "skus": [
+      {
+        "sr": 84,
+        "sku": "LLG12",
+        "description": "12 Line Laser Level Self-levelling Laser Level line12 green beams, Accuracy: H/V Line ±3mm/10m;Leveling Range: 3°±1°; Leveing Time: ≤3s; ℃ Rating: IP54; Working Temp.: -10~50 ; Max power out-put: 30MW; Laser wave length: 520NM"
+      }
+    ],
+    "image": "laser-level-12-line.png",
+    "imageNote": "Doubtful: the three kit pictures are not labelled. This one is assigned by inference only. Owner to confirm.",
+    "flags": [
+      "The ℃ sign is printed on the wrong line, away from \"Working Temp.: -10~50\". \"Leveing\" is printed for \"Leveling\". Recorded as printed."
+    ]
+  },
+  {
+    "slug": "laser-level-llg05",
+    "name": "12 Line Laser Level (LLG05)",
+    "category": "Laser levels",
+    "summary": "Laser level with a 1x360° green laser line, accuracy of ±3mm/10m and an IP54 rating.",
+    "features": [
+      "1x360° green laser line",
+      "Accuracy: H/V line ±3mm/10m",
+      "Leveling range: 3°±1°",
+      "Leveling time: ≤3s",
+      "Rating: IP54",
+      "Laser wave length: 521NM"
+    ],
+    "page": 14,
+    "skus": [
+      {
+        "sr": 85,
+        "sku": "LLG05",
+        "description": "12 Line Laser Level 1x360°GREEN Laser Line Accuracy: H/V Line ±3mm/10m; Leveling Range: 3°±1°; Leveing Time: ≤3s; ℃ Rating: IP54; Working Temp.: -10~50 ; Max power out-put: 30MW;Laser wave length: 521NM",
+        "flag": "Headed \"12 Line Laser Level\" but the text describes a single 1x360° line, and the SKU suggests a smaller unit. \"(LLG05)\" is added to the name only to tell it from LLG12."
+      }
+    ],
+    "image": "laser-level-llg05.png",
+    "imageNote": "Doubtful: the three kit pictures are not labelled. This one is assigned by inference only (compact one-head unit). Owner to confirm. Resized in height to the proportions printed on the page. Long side 255 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "The ℃ sign is printed on the wrong line, away from \"Working Temp.: -10~50\". \"Leveing\" is printed for \"Leveling\". Recorded as printed."
+    ]
+  },
+  {
+    "slug": "laser-level-tripod",
+    "name": "Tripod for Laser Level",
+    "category": "Laser levels",
+    "summary": "Tripod for laser level.",
+    "features": [],
+    "page": 14,
+    "skus": [
+      {
+        "sr": 86,
+        "sku": "LLG-TRP",
+        "description": "TRIPOD FOR LASER LEVEL"
+      }
+    ],
+    "image": "laser-level-tripod.png",
+    "imageNote": "Unlabelled; the only tripod in the box. Long side 355 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "tile-gap-adjuster-with-suction-cups",
+    "name": "Tile Gap Adjustable with 2pcs 6 Inch Pump Suction Cup",
+    "category": "Suction cups and lifting",
+    "summary": "Tile gap adjuster with two 6 inch pump suction cups, for 90°, 180° and 270° alignment and tile gap adjustment.",
+    "features": [
+      "With 6\" vacuum suction cup",
+      "Work for 90° & 180° & 270° alignment and tile gap adjustment",
+      "Two buttons for adjusting tile level",
+      "Light duty and durable structure",
+      "Ideal for handling with porcelain or stone tiles and glass"
+    ],
+    "page": 15,
+    "skus": [
+      {
+        "sr": 87,
+        "sku": "LFTFV6",
+        "description": "TILE GAP ADJUSTABLE WITH 2PCS 6INCH PUMP SUCTION CUP. With 6\" vacuum suction cup Work for 90°& 180°& 270° alignment and tile gap adjustment Two buttons for adjusting tile level Light duty and durable structure Ideal for handling with porcelain or stone tiles and glass",
+        "size": "6\""
+      }
+    ],
+    "image": "tile-gap-adjuster-with-suction-cups.png",
+    "imageNote": "Top view cropped from a picture that holds two views of the same tool. The box also has three in-use photographs."
+  },
+  {
+    "slug": "tri-head-suction-cup",
+    "name": "Tri-head Suction Cup",
+    "category": "Suction cups and lifting",
+    "summary": "Tri-head suction cup with an aluminum alloy base, size 5\", capacity 110kgs, black coating.",
+    "features": [
+      "Aluminum alloy base",
+      "Size: 5\"",
+      "Capacity 110kgs",
+      "Black coating"
+    ],
+    "page": 15,
+    "skus": [
+      {
+        "sr": 88,
+        "sku": "SCDB4",
+        "description": "Tri-head suction cup, aluminum alloy base Size: 5\" Capacity 110kgs Black coating",
+        "size": "5\"",
+        "flag": "The SKU reads as \"double\" (SCD) but the row describes the tri-head cup; SCDB4 and SCTB4 look swapped."
+      }
+    ],
+    "image": "tri-head-suction-cup.png",
+    "imageNote": "Matched by its printed caption \"Mega Triple Suction Cup\". A small inset circle was removed. Long side 360 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "SCDB4 and SCTB4 look swapped. Recorded as printed; confirm before publishing."
+    ],
+    "captionInPicture": [
+      "Mega Triple Suction Cup",
+      "Lifting capacity: 110kg(243lbs)",
+      "Made of aluminium with rubber suction cup",
+      "Jumbo ergonomic handle and comfort fixing buttons",
+      "Ideal of carrying ceramic tiles, marble and glass"
+    ]
+  },
+  {
+    "slug": "double-suction-cup",
+    "name": "Double Suction Cup",
+    "category": "Suction cups and lifting",
+    "summary": "Double suction cup with an aluminum alloy base, size 5\", capacity 85kgs, black coating.",
+    "features": [
+      "Aluminum alloy base",
+      "Size: 5\"",
+      "Capacity 85kgs",
+      "Black coating"
+    ],
+    "page": 15,
+    "skus": [
+      {
+        "sr": 89,
+        "sku": "SCTB4",
+        "description": "Double suction cup, aluminum alloy base Size: 5\" Capacity 85kgs Black coating",
+        "size": "5\"",
+        "flag": "The SKU reads as \"tri\" (SCT) but the row describes the double cup; SCDB4 and SCTB4 look swapped."
+      }
+    ],
+    "image": "double-suction-cup.png",
+    "imageNote": "Matched by its printed caption \"Mega Double Suction Cup\". A small inset circle was removed. Long side 378 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "SCDB4 and SCTB4 look swapped. Recorded as printed; confirm before publishing."
+    ],
+    "captionInPicture": [
+      "Mega Double Suction Cup",
+      "Lifting capacity: 85kg ( 187lbs )",
+      "Made of aluminium with rubber suction cup",
+      "Jumbo ergonomic handle and comfort fixing buttons",
+      "Ideal of carrying ceramic tiles, marble and glass"
+    ]
+  },
+  {
+    "slug": "diamond-hand-pad",
+    "name": "Diamond Hand Pad",
+    "category": "Grinders and polishing",
+    "summary": "Diamond hand pad with electroplated finishing and a comfortable foam grip, in 60#, 120#, 200# and 400#.",
+    "features": [
+      "Electroplated finishing",
+      "Comfortable foam grip",
+      "Grits 60#, 120#, 200#, 400#"
+    ],
+    "page": 15,
+    "skus": [
+      {
+        "sr": 90,
+        "sku": "DHP060",
+        "description": "Diamond Hand Pad, electroplated finishing, comfortable foam grip 60#",
+        "size": "60#"
+      },
+      {
+        "sr": 91,
+        "sku": "DHP120",
+        "description": "Diamond Hand Pad, electroplated finishing, comfortable foam grip 120#",
+        "size": "120#"
+      },
+      {
+        "sr": 92,
+        "sku": "DHP200",
+        "description": "Diamond Hand Pad, electroplated finishing, comfortable foam grip 200#",
+        "size": "200#"
+      },
+      {
+        "sr": 93,
+        "sku": "DHP400",
+        "description": "Diamond Hand Pad, electroplated finishing, comfortable foam grip 400#",
+        "size": "400#"
+      }
+    ],
+    "image": "diamond-hand-pad.png",
+    "imageNote": "The blue pad, one of four colours pictured; the catalogue does not say which colour is which grit. Resized in height to the proportions printed on the page. Long side 194 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "dry-diamond-polishing-pad",
+    "name": "4\" Dry Diamond Polishing Pad",
+    "category": "Grinders and polishing",
+    "summary": "4\" dry diamond polishing pad, light color, sharpen and durable, in #50, #100, #200, #800 and #1500.",
+    "features": [
+      "4\"",
+      "Light color",
+      "Sharpen and durable",
+      "Grits #50, #100, #200, #800, #1500"
+    ],
+    "page": 16,
+    "skus": [
+      {
+        "sr": 94,
+        "sku": "DPP405",
+        "description": "4\" DRY DIAMOND POLISHING PAD, LIGHT COLOR, SHARPEN AND DURABLE #50",
+        "size": "4\", #50"
+      },
+      {
+        "sr": 95,
+        "sku": "DPP410",
+        "description": "4\" DRY DIAMOND POLISHING PAD, LIGHT COLOR, SHARPEN AND DURABLE #100.",
+        "size": "4\", #100"
+      },
+      {
+        "sr": 97,
+        "sku": "DPP420",
+        "description": "4\" DRY DIAMOND POLISHING PAD, LIGHT COLOR, SHARPEN AND DURABLE #200.",
+        "size": "4\", #200"
+      },
+      {
+        "sr": 98,
+        "sku": "DPP480",
+        "description": "4\" DRY DIAMOND POLISHING PAD, LIGHT COLOR, SHARPEN AND DURABLE #800",
+        "size": "4\", #800"
+      },
+      {
+        "sr": 96,
+        "sku": "DPP415",
+        "description": "4\" DRY DIAMOND POLISHING PAD, LIGHT COLOR, SHARPEN AND DURABLE #1500",
+        "size": "4\", #1500",
+        "flag": "Prints #1500 under a code that reads as 15 (the others read 5, 10, 20, 80), and its Sr# 96 is out of order."
+      }
+    ],
+    "image": "dry-diamond-polishing-pad.png",
+    "imageNote": "The pad marked 100 (front and back), one of five pictured. Long side 155 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# printed in the order 94, 95, 97, 98, 96.",
+      "The pad pictures are marked 50, 100, 200, 200 and 1500: no pad marked 800 is pictured and two are marked 200."
+    ]
+  },
+  {
+    "slug": "rubber-packing-pad",
+    "name": "Rubber Packing Pad",
+    "category": "Grinders and polishing",
+    "summary": "Rubber packing pad with velcro back and M14 connection, 4\" / 100MM.",
+    "features": [
+      "Velcro back",
+      "M14 connection"
+    ],
+    "page": 16,
+    "skus": [
+      {
+        "sr": 99,
+        "sku": "DPPH4",
+        "description": "RUBBER PACKING PAD, VELCRO BACK, M14 CONNECTION 4\" / 100MM",
+        "size": "4\" / 100 mm"
+      }
+    ],
+    "image": "rubber-packing-pad.png",
+    "imageNote": "Unlabelled; the only backer pad in the box. Shows front, back and a velcro detail. Long side 172 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "tile-repairing-kit",
+    "name": "Tile Repairing Kit",
+    "category": "Drill guides, workbench and repair tools",
+    "summary": "Tile repairing kit with 16 wax blocks in popular colors, two scrapers, a sponge, a cleaning cloth and a Type-C charging cable.",
+    "features": [
+      "16 wax blocks in most popular colors",
+      "A cleaning scraper",
+      "A textured scraper",
+      "A PU high-density sponge",
+      "A cleaning cloth",
+      "A Type-C charging cable"
+    ],
+    "page": 16,
+    "skus": [
+      {
+        "sr": 100,
+        "sku": "TRPK",
+        "description": "TILE REPAIRING KIT, WITH 16 WAX BLOCKS IN MOST POPULAR COLORS, A CLEANING SCRAPER, A TEXTURED SCRAPER, A PU HIGH-DENSITY SPONGE, A CLEANING CLOTH, AND A TYPE-C CHARGING CABLE."
+      }
+    ],
+    "image": "tile-repairing-kit.png",
+    "imageNote": "The whole kit laid out; a CE mark and a \"new\" badge were removed. Long side 165 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "measuring-tape-wide-blade",
+    "name": "Measuring Tape with Wide Blade",
+    "category": "Measuring and levelling",
+    "summary": "Measuring tape with wide blade in 5M and 8M; the 8M has a magnetic hook, automatic brake and one-button retraction.",
+    "features": [
+      "8M: powerful magnetic hook",
+      "8M: automatic brake and one-button retraction",
+      "8M: wear- and impact-resistant, with nylon coating"
+    ],
+    "page": 16,
+    "skus": [
+      {
+        "sr": 101,
+        "sku": "TMR5M",
+        "description": "MEASURING TAPE WITH WIDE BLADE, 5M",
+        "size": "5 m"
+      },
+      {
+        "sr": 101,
+        "sku": "TMR8M",
+        "description": "MEASURING TAPE WITH WIDE BLADE, 8M - EQUIPPED WITH A POWERFUL MAGNETIC HOOK, AUTOMATIC BRAKE AND ONE-BUTTON RETRACTION, WEAR- AND IMPACT-RESISTANT, WITH NYLON COATING",
+        "size": "8 m"
+      }
+    ],
+    "image": "measuring-tape-wide-blade.png",
+    "imageNote": "The 5m tape, marked 5m on its case; the 8m tape is pictured separately in the same box. Long side 481 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# 101 is printed on both rows."
+    ]
+  },
+  {
+    "slug": "measuring-ruler-rotating-shell",
+    "name": "Measuring Ruler with Rotating Shell",
+    "category": "Measuring and levelling",
+    "summary": "Measuring ruler with rotating shell.",
+    "features": [],
+    "page": 16,
+    "skus": [
+      {
+        "sr": 102,
+        "sku": "TMR30M",
+        "description": "MEASURING RULER WITH ROTATING SHELL"
+      }
+    ],
+    "image": "measuring-ruler-rotating-shell.png",
+    "imageNote": "Unlabelled; two overlapping units marked 30m, which fits the SKU. The row itself prints no length. Long side 400 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "underlayment-embedding-roller",
+    "name": "Underlayment Embedding Roller",
+    "category": "Flooring and site protection",
+    "summary": "Underlayment embedding roller used to embed the membrane full bond with mortar, with a 1.3-1.82M extension handle.",
+    "features": [
+      "Max loading: 35kg (77lb)",
+      "Extension handle to be 1.3-1.82M (51\"-71\")",
+      "Used to embed the membrane full bond with mortar",
+      "Can be easier disassembled for transport and storage",
+      "Reduces effort required to embed membrane",
+      "Also suitable for vinyl flooring"
+    ],
+    "page": 17,
+    "skus": [
+      {
+        "sr": 103,
+        "sku": "UMR330",
+        "description": "Underlayment Embedding Roller 1.3-1.82M (51\"-71\" Max loading: 35kg{77Ib) Extension handle to be 1.3-1.82M (51 \"-71 \") Used to embed the membrane full bond with mortar. Can be easier disassembled for transport and storage . Reduces effort required to embed membrane. Also suitable for vinyl flooring",
+        "size": "1.3-1.82 m (51\"-71\")"
+      }
+    ],
+    "image": "underlayment-embedding-roller.png",
+    "imageNote": "The whole tool. The box also shows a head close-up, a handle detail and a man using it.",
+    "flags": [
+      "The row prints unclosed brackets (\"(51\"-71\"\") and \"35kg{77Ib)\". Recorded as printed in the description."
+    ]
+  },
+  {
+    "slug": "extendable-floor-roller",
+    "name": "Extendable Floor Roller",
+    "category": "Flooring and site protection",
+    "summary": "Adjustable floor roller for LVT and vinyl flooring installation, with a telescope handle and 3 solid rubber rollers.",
+    "features": [
+      "Telescope handle can be adjusted from 17\" to 27\"",
+      "Roller sections are 1-1/2\" diameter",
+      "Overall width of 3 solid rubber rollers is 7-1/2\"",
+      "Aluminum die-cast",
+      "Chrome plated tubular steel with comfortable soft grip"
+    ],
+    "page": 17,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "FTFREX",
+        "description": "Achieve a smooth, secure bond during LVT and vinyl flooring installation with the Bihui Extendable Floor Roller, a high-quality adjustable floor roller. Designed for both professionals and DIY enthusiasts, this roller ensures even pressure distribution for a flawless finish. Extendable Floor Rollers *Telescope handle can be adjusted from 17\" to 27\". *Roller sections are 1-1/2\" diameter. *Overall width of 3 solid rubber rollers is 7-1/2\". *Aluminum die-cast. *Chrome plated tubular steel with comfortable soft grip. 7-1/2\"",
+        "size": "7-1/2\""
+      }
+    ],
+    "image": "extendable-floor-roller.png",
+    "imageNote": "The only picture in the box. Printed on a pale grey ground with a soft shadow, not cut out. Long side 251 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "Sr# 112 is out of sequence (between 103 and 104)."
+    ],
+    "details": [
+      "Achieve a smooth, secure bond during LVT and vinyl flooring installation with the Bihui Extendable Floor Roller, a high-quality adjustable floor roller. Designed for both professionals and DIY enthusiasts, this roller ensures even pressure distribution for a flawless finish."
+    ]
+  },
+  {
+    "slug": "spazzle",
+    "name": "Spazzle",
+    "category": "Flooring and site protection",
+    "summary": "The Spazzle is used to spread and level resin, with a variable depth gauge on each end of the head.",
+    "features": [
+      "Light weight but strong",
+      "Handle length: 1.5m",
+      "Solid alloy blade",
+      "Blade width 600mm",
+      "Blade thickness: 3mm",
+      "Adjustable depth gauges 0-70mm"
+    ],
+    "page": 17,
+    "skus": [
+      {
+        "sr": 104,
+        "sku": "FTSP600",
+        "description": "The Spazzle is used to spread and level resin, there is a variable depth gauge feature - on each end of the head there are metal plates with adjustable feet as shown in the image below (each Spazzle to include 1 x Spazzle, 2 x Plates, 2 x Feet, 4 x Fasteners): 1500 x 600 x 140mm 600mm*170mm*1550mm",
+        "size": "1500 x 600 x 140mm 600mm*170mm*1550mm",
+        "flag": "Two different size sets are printed in the same row."
+      }
+    ],
+    "image": "spazzle.png",
+    "imageNote": "The whole tool. The box also has a close-up of the head. Long side 393 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "floor-protector",
+    "name": "Floor Protector",
+    "category": "Flooring and site protection",
+    "summary": "Self-adhesive, reverse wound floor protector, 700mm x 25m, for hard surfaces.",
+    "features": [
+      "Self-adhesive and reverse wound",
+      "Protects hard surface from water, paint, stains, dust and dirt",
+      "Easy to apply and remove with no residue left behind",
+      "Suitable for use on hard surface as tiles, worktops and door"
+    ],
+    "page": 18,
+    "skus": [
+      {
+        "sr": 105,
+        "sku": "FTFP700",
+        "description": "Floor Protector - 700mm x 25m",
+        "size": "700 mm x 25 m"
+      }
+    ],
+    "image": "floor-protector.png",
+    "imageNote": "Doubtful as a product picture: no cut-out exists. Site photograph of the roll being unrolled by gloved hands, the best of three."
+  },
+  {
+    "slug": "carpet-protector",
+    "name": "Carpet Protector",
+    "category": "Flooring and site protection",
+    "summary": "Self-adhesive, reverse wound carpet protector, 700mm x 25m, for synthetic carpets only.",
+    "features": [
+      "Self-adhesive and reverse wound",
+      "Protects carpets from water, paint, stains, dust and dirt",
+      "Easy to apply and remove with no residue left behind",
+      "Suitable for use on synthetic carpets only"
+    ],
+    "page": 18,
+    "skus": [
+      {
+        "sr": 106,
+        "sku": "FTCP700",
+        "description": "Carpet Protector - 700mm x 25m 700MM X25M",
+        "size": "700 mm x 25 m"
+      }
+    ],
+    "image": "carpet-protector.png",
+    "imageNote": "Doubtful as a product picture: no cut-out exists. Site photograph of the roll held by gloved hands on carpet, the best of three."
+  },
+  {
+    "slug": "waterproof-protective-film",
+    "name": "Waterproof Protective Film",
+    "category": "Flooring and site protection",
+    "summary": "Waterproof protective film, 1M x 25M x 1.2MM, of PE waterproof film with a white PET fabric surface.",
+    "features": [
+      "Weight: 130G/M²",
+      "PE waterproof film + white PET fabric surface (with water-based adhesive)",
+      "Top layer of PE film prevents water from penetrating to the bottom layer",
+      "Back side coated with adhesive to prevent slipping",
+      "No need for additional glue",
+      "Can be reused depending on the wear level of the adhesive non-woven white backing"
+    ],
+    "page": 19,
+    "skus": [
+      {
+        "sr": 107,
+        "sku": "DCSPFW",
+        "description": "Waterproof protective film",
+        "size": "1M X 25M X 1.2MM thickness"
+      }
+    ],
+    "image": "waterproof-protective-film.png",
+    "imageNote": "The roll on white. The box also has two in-use photographs. Long side 209 px, under the 600 px aim: the PDF holds nothing larger.",
+    "details": [
+      "SIZE: 1M X 25M X 1.2MM THICKNESS",
+      "WEIGHT: 130G/M²",
+      "MATERIAL: PE WATERPROOF FILM + WHITE PET FABRIC SURFACE (WITH WATER-BASED ADHESIVE)",
+      "CHARACTERISTICS",
+      "POWERFUL PROTECTION: THE PRODUCT HAS GOOD TOUGHNESS AND HIGH STRENGTH, EFFECTIVELY PREVENTING SCRATCHES AND STAINS ON FLOORING MATERIALS.",
+      "WATERPROOF SURFACE: THE TOP LAYER IS MADE OF PE FILM, WHICH PREVENTS WATER FROM PENETRATING TO THE BOTTOM LAYER.",
+      "ANTI-SLIP: THE BACK SIDE IS COATED WITH ADHESIVE, PROVIDING A CERTAIN LEVEL OF GRIP WITH THE FLOOR TO PREVENT THE PROTECTIVE FILM FROM SLIPPING.",
+      "EASILY APPLIED: COMES WITH WATER-BASED ADHESIVE, NO NEED FOR ADDITIONAL GLUE. ITS ROLL STRUCTURE MAKES IT EASY TO INSTALL.",
+      "REUSABLE: CAN BE REUSED DEPENDING ON THE WEAR LEVEL OF THE ADHESIVE NON-WOVEN WHITE BACKING."
+    ]
+  },
+  {
+    "slug": "sticky-mat",
+    "name": "Sticky Mat",
+    "category": "Flooring and site protection",
+    "summary": "Sticky mat of 30 numbered sheets whose upper layer captures dust and debris under shoes and carts.",
+    "features": [
+      "Upper layer captures dust and debris under the shoes and carts",
+      "30 numbered sheets, easy peel off to renew",
+      "Self-adhesive makes sure no shift",
+      "Perfect for jobsite protection in sensitive areas"
+    ],
+    "page": 19,
+    "skus": [
+      {
+        "sr": 108,
+        "sku": "DCSPSM",
+        "description": "Sticky Mat - 66x115cm",
+        "size": "66x115 cm"
+      },
+      {
+        "sr": 109,
+        "sku": "DCSPSH",
+        "description": "Sticky Mat - 33x66cm",
+        "size": "33x66 cm"
+      }
+    ],
+    "image": "sticky-mat.png",
+    "imageNote": "One mat, cut out; the catalogue does not say which size it shows."
+  },
+  {
+    "slug": "mitre-jolly-cutting-system",
+    "name": "Mitre Jolly Cutting System",
+    "category": "Cutting",
+    "summary": "Mitre Jolly cutting system with a mitre cutting frame, BIHUI 5\" angle grinder and edge cutting blade in 125mm.",
+    "features": [
+      "Mitre cutting frame",
+      "BIHUI 5\" angle grinder (Euro plug)",
+      "Edge cutting blade in 125mm",
+      "1200W, 230V"
+    ],
+    "page": 20,
+    "skus": [
+      {
+        "sr": 110,
+        "sku": "LFMBF",
+        "description": "Mitre Jolly Cutting System, contains mitre cutting frame with BIHUI 5\" angle grinder(Euro plug) and edge cutting blade in 125mm 1200W, 230V Pantone 320C",
+        "size": "125 mm blade"
+      }
+    ],
+    "image": "mitre-jolly-cutting-system.png",
+    "imageNote": "Studio picture of the tool; a CE mark and an \"M14\" callout were retouched out."
+  },
+  {
+    "slug": "electric-cutting-system",
+    "name": "Electric Cutting System",
+    "category": "Cutting",
+    "summary": "Electric cutting system without the Rail System 2.0, Euro plug, 230V, for cutting tiles up to 3.2M.",
+    "features": [
+      "Compatible rails with the trade manual cutting system. Two systems, One rail",
+      "CE approved electric cutting machine, 1,500W, 230V/50Hz, 13,000RPM",
+      "Suitable for cutting tiles size upto 3.2M",
+      "Featured with 90degree and 45degree cutting",
+      "Max. Straight Cutting depth 17mm",
+      "Max. Angle Cutting depth 15mm"
+    ],
+    "page": 20,
+    "skus": [
+      {
+        "sr": 111,
+        "sku": "LFEC5",
+        "description": "Electric Cutting System except Rail System 2.0 , Euro plug, 230V",
+        "flag": "Shares one table row and one Sr# (111) with LFRS5."
+      }
+    ],
+    "image": "electric-cutting-system.png",
+    "imageNote": "The kit as pictured (case, saw, nozzle, blade, ruler, bag), matched by the \"XXL2.0\" heading above it. The heading was removed.",
+    "flags": [
+      "The feature block prints \"Compatible rails with the trade manual cutting system. Two systems, One rail\" twice."
+    ]
+  },
+  {
+    "slug": "cutting-rail-system",
+    "name": "Cutting Rail System 2.0",
+    "category": "Cutting",
+    "summary": "Cutting Rail System 2.0, 3.6M in three lengths (1.4M+1.4M+0.8M).",
+    "features": [
+      "3.6M (1.4M+1.4M+0.8M)",
+      "Compatible rails with the trade manual cutting system. Two systems, One rail"
+    ],
+    "page": 20,
+    "skus": [
+      {
+        "sr": 111,
+        "sku": "LFRS5",
+        "description": "Cutting Rail System 2.0 3.6M(1.4M+1.4M+0.8M)",
+        "size": "3.6 m (1.4 m + 1.4 m + 0.8 m)",
+        "flag": "Shares one table row and one Sr# (111) with LFEC5."
+      }
+    ],
+    "image": "cutting-rail-system.png",
+    "imageNote": "Unlabelled; the rail bag, three rails, four suction cups and two clamps, matched by the row wording."
+  },
+  {
+    "slug": "water-cooling-parts",
+    "name": "Water Cooling Parts",
+    "category": "Cutting",
+    "summary": "Water cooling parts.",
+    "features": [],
+    "page": 20,
+    "skus": [
+      {
+        "sr": 111,
+        "sku": "LFEC5-CP",
+        "description": "WATER COOLING PARTS",
+        "flag": "Sr# 111 repeated. The SKU is printed broken over two lines (\"LFEC5-\" then \"CP\")."
+      }
+    ],
+    "image": "water-cooling-parts.png",
+    "imageNote": "Doubtful: small unlabelled photograph of parts laid out on a floor, the only candidate on the page. Not a product picture; owner to confirm it shows these parts. Long side 131 px, under the 600 px aim: the PDF holds nothing larger."
+  },
+  {
+    "slug": "trade-manual-cutting-system",
+    "name": "Trade Manual Cutting System",
+    "category": "Cutting",
+    "summary": "Trade manual cutting system, with rails compatible with the electric cutting system.",
+    "features": [
+      "Compatible rails with the trade manual cutting system. Two systems, One rail",
+      "Suitable for cutting tiles size upto 3.2M",
+      "Featured with 90degree and 45degree cutting",
+      "Max. Straight Cutting depth 17mm",
+      "Max. Angle Cutting depth 15mm"
+    ],
+    "page": 20,
+    "skus": [
+      {
+        "sr": 111,
+        "sku": "LFMC5",
+        "description": "TRADE MANUAL CUTTING SYSTEM",
+        "flag": "Sr# 111 repeated."
+      }
+    ],
+    "image": "trade-manual-cutting-system.png",
+    "imageNote": "The full kit with case, rail bag, rails and suction cups. A stamp and a CE mark beside it were retouched out.",
+    "flags": [
+      "The manual system prints the same bullets as the electric one, including \"CE approved electric cutting machine, 1,500W, 230V/50Hz, 13,000RPM\", which looks copied. That line is kept in details and left out of features; confirm before publishing."
+    ],
+    "details": [
+      "Compatible rails with the trade manual cutting system. Two systems, One rail",
+      "CE approved electric cutting machine, 1,500W, 230V/50Hz, 13,000RPM",
+      "Suitable for cutting tiles size upto 3.2M",
+      "Featured with 90degree and 45degree cutting",
+      "Max. Straight Cutting depth 17mm",
+      "Max. Angle Cutting depth 15mm"
+    ]
+  },
+  {
+    "slug": "strong-manual-tile-cutter",
+    "name": "Strong Manual Tile Cutter",
+    "category": "Cutting",
+    "summary": "Strong manual tile cutter with 1200mm cutting capacity, a solid single rail and a green laser line.",
+    "features": [
+      "1200mm (47.24\") cutting capacity",
+      "Thick double layer aluminum alloy base with wheels and carrying handle",
+      "Solid single rail system with .87\" scoring wheel for easy operation and smooth cuts",
+      "Magnetic absorption breaking device",
+      "Extension legs with 45° guide for large tiles",
+      "Green laser line for precision cutting"
+    ],
+    "page": 21,
+    "skus": [
+      {
+        "sr": 1,
+        "sku": "TCP1200",
+        "description": "Strong Manual Tile Cutter - BIHUI",
+        "size": "1200 mm (47.24\")"
+      }
+    ],
+    "image": "strong-manual-tile-cutter.png",
+    "imageNote": "The only picture in the box. Printed on a pale grey ground, not cut out.",
+    "flags": [
+      "Sr# restarts at 1 on this page, repeating Sr# 1 on page 6."
+    ],
+    "video": "https://youtu.be/KBLqmU2kbsg?si=CNEiltlf-S9ulPtz"
+  },
+  {
+    "slug": "fast-tile-cutter",
+    "name": "Fast Tile Cutter",
+    "category": "Cutting",
+    "summary": "Fast tile cutter with a one piece aluminum alloy base, a solid single rail and laser line and LED light for precision cutting.",
+    "features": [
+      "One piece aluminum alloy base",
+      "Solid single rail system",
+      "Long lifetime scoring wheel Ø22mm",
+      "Suitable for 90° and 45° cutting",
+      "Laser line and LED light for precision cutting",
+      "Suitable for tiles, porcelain, ceramic, and all kinds of tiles"
+    ],
+    "page": 21,
+    "skus": [
+      {
+        "sr": 2,
+        "sku": "TCF1200",
+        "description": "Fast Tile Cutter"
+      }
+    ],
+    "image": "fast-tile-cutter.png",
+    "imageNote": "The only picture in the box. Printed on a pale grey ground, not cut out.",
+    "flags": [
+      "Sr# 2 repeats Sr# 2 on page 6."
+    ],
+    "video": "https://youtu.be/MO82Igo_WZ4?si=injCAbTC1aeWEW_G"
+  },
+  {
+    "slug": "tilers-working-bench-master",
+    "name": "Tiler's Working Bench Master",
+    "category": "Drill guides, workbench and repair tools",
+    "summary": "Tiler's working bench with foldable legs and transport wheels that works as a table or trolley, max. 200Kg.",
+    "features": [
+      "All in one design with foldable legs and transport wheels",
+      "With carry handle and height adjustment to the floor",
+      "Work as a table or trolley",
+      "Suitable for cutting, drilling, polishing jobs as well as transportation",
+      "Adjustable height in 560mm, 613mm, 665mm, 717mm and 770mm",
+      "Max. 200Kg"
+    ],
+    "page": 22,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "TWTMST",
+        "description": "Tiler's Working Bench Master, All in one design with foldable legs and transport wheels, With carry handle and height adjustment to the floor, Work as a table or trolley for fixing problems to the wall or to the car etc., Suitable for cutting, drilling, polishing jobs as well as transportation, max. 200Kg",
+        "size": "116x 61 x 14CM"
+      }
+    ],
+    "image": "tilers-working-bench-master.png",
+    "imageNote": "The whole bench. The box also has a leg detail and a view with the top lifted off.",
+    "flags": [
+      "Sr# 112 is printed on TWTMST, FTPT450 and FTC200 on this page, and again on page 17 and page 23."
+    ]
+  },
+  {
+    "slug": "resin-bound-dual-handle-trowel",
+    "name": "Resin Bound Dual Handle Trowel",
+    "category": "Trowels",
+    "summary": "Trowel for resin bound applications with dual handles, a 0.7mm blade and 12 rivets on a 303mm aluminum rail.",
+    "features": [
+      "For resin bound applications",
+      "Dual handle for greater control and comfort when used on large areas",
+      "0.7mm blade",
+      "12 rivets on 303mm aluminum rail",
+      "#402 stainless steel",
+      "Solid ergonomic handles for ultimate durability"
+    ],
+    "page": 22,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "FTPT450",
+        "description": "For Resin Bound Applications, Dual handle for greater control and comfort when used on large areas, 0.7mm blade, 12 rivets on 303mm Aluminum rail, #402 Stainless Steel. Length 300mm, Solid ergonomic handles for ultimate durability",
+        "size": "Length 300 mm",
+        "flag": "Prints \"Length 300mm\" under a code that reads as 450, and on a 303mm rail. The stainless grade #402 also differs from #420 on the other tools."
+      }
+    ],
+    "image": "resin-bound-dual-handle-trowel.png",
+    "imageNote": "Unlabelled; the two-handle trowel, matched by the words \"Dual handle\".",
+    "flags": [
+      "The row prints no product name; the family name is put together from the description."
+    ]
+  },
+  {
+    "slug": "resin-bound-pointing-trowel",
+    "name": "Resin Bound Pointing Trowel",
+    "category": "Trowels",
+    "summary": "Pointing trowel for resin bound applications with a closed handle, a 0.7mm blade and 8 rivets on a 200mm aluminum rail.",
+    "features": [
+      "For resin bound applications",
+      "Pointing trowel with closed handle",
+      "0.7mm blade",
+      "8 rivets on 200mm aluminum rail",
+      "#402 stainless steel",
+      "Solid ergonomic handles for ultimate durability"
+    ],
+    "page": 22,
+    "skus": [
+      {
+        "sr": 113,
+        "sku": "FTPT300",
+        "description": "For Resin Bound Applications, Pointing Trowel with closed handle, 0.7mm blade, 8 rivets on 200mm Aluminum rail, #402 Stainless Steel. Length 300mm, Solid ergonomic handles for ultimate durability",
+        "size": "Length 300 mm",
+        "flag": "The stainless grade #402 differs from #420 on the other tools."
+      }
+    ],
+    "image": "resin-bound-pointing-trowel.png",
+    "imageNote": "Unlabelled; the one-handle trowel with a pointed blade, matched by the words \"Pointing Trowel\".",
+    "flags": [
+      "The row prints no product name; the family name is put together from the description."
+    ]
+  },
+  {
+    "slug": "trim-cutter",
+    "name": "Trim Cutter",
+    "category": "Cutting",
+    "summary": "Trim mitre cutter for flexible plastic, rubber, wood or flat cable profiles, with angle markings along the base.",
+    "features": [
+      "For cutting flexible plastic, rubber, wood or flat cable profiles",
+      "Angle markings along the base",
+      "Angle shim: zinc alloy",
+      "Body: iron, chrome plating",
+      "Utility knife blade: SK5",
+      "Rubber sleeve: PVC"
+    ],
+    "page": 22,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "FTC200",
+        "description": "TRIM CUTTER The Bihui Trim Mitre Cutter is for cutting flexible plastic, rubber, wood or flat cable profiles. It features angle markings along the base for easy and perfect precision. Angle Shim: Zinc Alloy Body: iron, chrome plating Utility knife blade: SK5 Rubber sleeve: PVC",
+        "flag": "The same code FTC200 is printed for two different tools: this trim cutter and the multifunction trim puller on page 23."
+      }
+    ],
+    "image": "trim-cutter.png",
+    "imageNote": "The cutter open, unlabelled. The box also has a closed side view and an in-use photograph. Long side 558 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "FTC200 is printed for two different tools. Confirm which code belongs to which before publishing."
+    ]
+  },
+  {
+    "slug": "multifunction-trim-puller",
+    "name": "Multifunction Trim Puller",
+    "category": "Drill guides, workbench and repair tools",
+    "summary": "Multifunction trim puller with a plastic handle and stainless steel blade, for baseboard, trim molding, chair railing and decorative panel.",
+    "features": [
+      "Plastic handle and stainless steel blade",
+      "Light weight and compact size prevents damage to walls",
+      "Designed for baseboard, trim molding, chair railing, decorative panel",
+      "270mm x 100mm x 80mm"
+    ],
+    "page": 23,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "FTC200",
+        "description": "MULTIFUNCTION TRIM PULLER Multifunction Trim Puller With Stainless Steel Blade Plastic handle and stainless steel blade Light weight and compact size prevents damage to walls Designed for baseboard, trim molding, chair railing, decorative panel 270mm x 100mm x 80mm",
+        "size": "270 mm x 100 mm x 80 mm",
+        "flag": "The same code FTC200 is printed for two different tools: this trim puller and the trim cutter on page 22."
+      }
+    ],
+    "image": "multifunction-trim-puller.png",
+    "imageNote": "Unlabelled; left picture of the box, matched by shape to the row wording. Long side 545 px, under the 600 px aim: the PDF holds nothing larger.",
+    "flags": [
+      "FTC200 is printed for two different tools. Confirm which code belongs to which before publishing."
+    ]
+  },
+  {
+    "slug": "corner-putty-knife",
+    "name": "Corner Putty Knife",
+    "category": "Scrapers and knives",
+    "summary": "Corner putty knife with a perfectly angled blade that creates clean smooth corner seams between panels at 90 degree angles.",
+    "features": [
+      "Creates clean smooth corner seams between panels with 90 degree angles",
+      "Easy to clean up and remove cured joint sealant",
+      "Perfectly angled blade for smoothing and shaping putty into every corner"
+    ],
+    "page": 23,
+    "skus": [
+      {
+        "sr": 112,
+        "sku": "PTPCNR",
+        "description": "CORNER PUTTY KNIFE Creates clean smooth corner seams between panels with 90 degree angles. Easy to clean up and remove cured joint sealant. Achieve clean, professional-grade corners with a perfectly angled blade that makes quick work of smoothing and shaping putty into every corner."
+      }
+    ],
+    "image": "corner-putty-knife.png",
+    "imageNote": "Unlabelled; upright view. The box also shows the knife lying down.",
+    "flags": [
+      "Sr# 112 is printed on both rows of this page."
+    ]
+  }
+]

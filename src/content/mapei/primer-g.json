@@ -1,0 +1,50 @@
+{
+  "slug": "primer-g",
+  "titleAsPrinted": "PRIMER G",
+  "edition": "532-6-2025-gb",
+  "description": "Synthetic resin primer in water dispersion with a very low content of volatile organic compounds (VOC).",
+  "whereToUse": [
+    "For treating gypsum surfaces prior to installing ceramic tiles.",
+    "As an anchoring coat for gypsum-based sprayable plasters.",
+    "To improve the adhesion of smoothing compounds on cementitious or anhydrite and gypsum-based surfaces.",
+    "To provide uniform absorption in cementitious or gypsum surfaces.",
+    "Preparing cement-based surfaces prior to smoothing with self-levelling or thixotropic smoothing compounds.",
+    "Between layers of smoothing compounds once the first coat is perfectly dry.",
+    "On anhydrite surfaces prior to applying cement-based products.",
+    "On gypsum walls as a fixative for wallpaper adhesives."
+  ],
+  "notFor": [
+    "Primer G does not waterproof gypsum substrates even though it considerably reduces their porosity and absorption.",
+    "Do not apply onto magnesium substrates.",
+    "Primer G is not recommended for external applications or where rising damp is present.",
+    "Do not apply Primer G in such a quantity that it forms a surface film; dilute with water as appropriate for the absorption of the substrate."
+  ],
+  "standards": [
+    {"standard": "GEV EMICODE", "value": "EC1 Plus - very low emission"}
+  ],
+  "technicalData": [
+    {"label": "Consistency", "value": "liquid"},
+    {"label": "Colour", "value": "light blue"},
+    {"label": "Density (g/cm³)", "value": "1.01"},
+    {"label": "pH", "value": "8"},
+    {"label": "Dry solids content (%)", "value": "18"},
+    {"label": "GEV EMICODE (according to EN ISO 16000 - 3, 6, 9, 11 and CEN/TS 16516)", "value": "EC1 Plus - very low emission"},
+    {"label": "Maximum VOC according to 2004/42/EC", "value": "0 g/l"},
+    {"label": "Application temperature range", "value": "from +5°C to +35°C"},
+    {"label": "Drying time before the application of the levelling compounds or adhesive: - concrete", "value": "30 min"},
+    {"label": "- gypsum", "value": "30-60 min"}
+  ],
+  "consumption": [
+    {
+      "basis": "normal consumption; depends on the porosity and absorption of the surface",
+      "value": "between 0.08 and 0.15 kg/m²",
+      "quote": "Normal consumption is between 0.08 and 0.15 kg/m²."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "Primer G is available in 25, 10 and 5 kg plastic drums and in 1 kg bottles.",
+  "storage": "Primer G, in its original unopened packaging, can be stored for 12 months. Protect from frost.",
+  "notes": "Single-component product, so there is no mixing ratio; 'mixing' is null. Dilution with water depends on the use and is given in the Application section: neat on gypsum before ceramic tiles and on gypsum-based substrates before levelling compounds; 1:1 on cementitious substrates before self-levelling/thixotropic smoothing compounds and between smoothing layers; 1:2 as an anchoring coat for gypsum plasters; 1:3 as a primer for wallpaper adhesives. The sheet does not say whether these ratios are by weight or by volume. The consumption range (0.08 to 0.15 kg/m²) is not broken down by use or dilution, and the sheet does not say whether it refers to neat product or to the diluted mix, nor whether it is per coat. In the technical data, the last row ('- gypsum', 30-60 min) is a sub-row of the 'Drying time before the application of the levelling compounds or adhesive' row above it; in the layout file the values 30 min and 30-60 min sit half a line above their '- concrete' and '- gypsum' labels. Other sheets in this batch quote different Primer G dilutions for the same job (Ultraplan EC20 sheet: 1 part Primer G with 3 parts of water on dusty or very porous concrete; Ultraplan Contract sheet: 1:1), so use the dilution from the sheet of the product being applied on top. The sheet prints 'alluminates' (sic) in the technical characteristics."
+}

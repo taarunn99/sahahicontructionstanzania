@@ -1,0 +1,42 @@
+{
+  "slug": "ultracare-stain-protector-w-plus",
+  "titleAsPrinted": "ULTRACARE STAIN PROTECTOR W PLUS",
+  "edition": "11016-2-2026 (UAE)",
+  "description": "Water-based, natural effect sealer with oil, stain, water resistant properties",
+  "whereToUse": [
+    "UltraCare Stain Protector W Plus is used for stain-resistant treatment of natural stone, marble and granite (including with polished finish), brickwork, cementine tiles and engineered stone, both in internal and external surroundings.",
+    "The product reduces the amount of water, oil and grease absorbed by the surfaces, making them easier to maintain and clean.",
+    "It is suitable for application on food contact surfaces and can be used on floors and coatings, work surfaces, kitchen tops and bathrooms."
+  ],
+  "notFor": [
+    "Do not apply the product on surfaces exposed to direct sunlight or if rain is forecast within the next few hours after application.",
+    "Avoid application on very cold or very hot surfaces (below +5 °C or above +35 °C)."
+  ],
+  "standards": [
+    {"standard": "EMICODE", "value": "EC1 Plus - very low emissions"}
+  ],
+  "technicalData": [
+    {"label": "Consistency", "value": "homogeneous liquid"},
+    {"label": "Colour", "value": "colourless"},
+    {"label": "pH (at +20°C) neat product", "value": "7.5"},
+    {"label": "Density at +20°C", "value": "1.01 g/cm³"},
+    {"label": "EMICODE", "value": "EC1 Plus - very low emissions"},
+    {"label": "Dilution ratio", "value": "ready to use"},
+    {"label": "Surface drying", "value": "2 hours"},
+    {"label": "Set to light foot traffic", "value": "2 hours"},
+    {"label": "Application temperature range", "value": "+5°C to +35°C"}
+  ],
+  "consumption": [
+    {
+      "basis": "coverage per 1 litre, one coat, according to the absorption level and surface finish of the material",
+      "value": "30 m2 of surface using 1 litre",
+      "quote": "30 m2 of surface using 1 litre of UltraCare Stain Protector W Plus (one coat), according to the absorption level and surface finish of the material."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "UltraCare Stain Protector W Plus is supplied in 1 litre jerrycans.",
+  "storage": "UltraCare Stain Protector W Plus may be stored for 3 years in its original packaging.",
+  "notes": "The only figure is a coverage figure (30 m2 per 1 litre, one coat), not a kg/m2 or l/m2 rate, and the sheet gives it as a single number with no range while also stating that yield is heavily influenced by the absorbency and surface finish of the substrate. The sheet allows a second coat on highly absorbent surfaces (2 hours after the first) but gives no separate figure for it. It also says that on particularly absorbent substrates the use of UltraCare Stain Protector W (a different product) is recommended. The product is ready to use, so there is no mixing ratio (the table row is 'Dilution ratio: ready to use'). The sheet writes the area unit as 'm2' (no superscript). No classification standard other than EMICODE is stated."
+}

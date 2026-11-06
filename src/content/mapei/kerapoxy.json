@@ -1,0 +1,229 @@
+{
+  "slug": "kerapoxy",
+  "titleAsPrinted": "KERAPOXY",
+  "edition": "141-9-2026 en (IT)",
+  "description": "Two-component acid-resistant epoxy grout for joints of at least 1 mm. Can also be used as an adhesive",
+  "whereToUse": [
+    "Indoor and outdoor grouting of ceramic tile and natural stone floors and walls.",
+    "Grouting floors and walls in the food industry (dairies, abattoirs, breweries, wine cellars, conserved-food plants, etc.), shops and areas where hygiene is required (ice-cream shops, butchers, fish vendors, etc.).",
+    "Grouting industrial floors and walls (electrical industries, tanneries, battery rooms, paper mills, etc.), where high mechanical resistance and resistance to acid attack is required.",
+    "Grouting swimming pools; particularly suitable for basins containing salt or thermal water.",
+    "Grouting tanks containing aggressive chemicals (purification plants, etc.).",
+    "Grouting ceramic tiles on laboratory benches, kitchen work surfaces, etc.",
+    "Acid-resistant bonding of tiles (used as an adhesive in compliance with class R2T specification according to EN 12004 standard).",
+    "Bonding marble doorsteps and window sills."
+  ],
+  "notFor": [
+    "Do not use Kerapoxy for grouting terracotta tiles because they are difficult to clean.",
+    "Kerapoxy does not ensure perfect adhesion when used for grouting tiles with wet edges or contaminated with cement, dust, oil, grease, etc.",
+    "For flexible expansion joints or joints subject to movement, use an elastic sealant from the MAPEI line (e.g. Mapesil AC, Mapesil LM).",
+    "Unglazed klinker tiles should be grouted with the same colour tone Kerapoxy. All other colours should be used only with glazed tiles.",
+    "Do not add water or any solvents to Kerapoxy to make it more fluid."
+  ],
+  "standards": [
+    {
+      "standard": "EN 13888",
+      "value": "RG"
+    },
+    {
+      "standard": "EN 12004",
+      "value": "R2T"
+    },
+    {
+      "standard": "ISO 13007",
+      "value": "R2T"
+    },
+    {
+      "standard": "ISO 13007",
+      "value": "RG"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mix ratio",
+      "value": "component A : component B = 9 : 1"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "thick paste"
+    },
+    {
+      "label": "Density of mix (kg/m³)",
+      "value": "1,550"
+    },
+    {
+      "label": "Pot life",
+      "value": "45 mins."
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +12°C to +30°C"
+    },
+    {
+      "label": "Open time (as an adhesive)",
+      "value": "30 mins."
+    },
+    {
+      "label": "Adjustability time (as an adhesive)",
+      "value": "60 mins."
+    },
+    {
+      "label": "Set to ligh foot traffic",
+      "value": "24 h"
+    },
+    {
+      "label": "Ready for use",
+      "value": "4 days (10 days for basins and swimming pools). Times may vary according to the temperature."
+    },
+    {
+      "label": "Flexural strength (N/mm²)",
+      "value": "31"
+    },
+    {
+      "label": "Compressive strength (N/mm²)",
+      "value": "55"
+    },
+    {
+      "label": "Temperature in use",
+      "value": "from -20°C to +100°C"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "when used as an adhesive (no trowel size or thickness stated)",
+      "value": "2-4 kg/m²",
+      "quote": "When Kerapoxy is used as an adhesive, consumption is 2-4 kg/m²."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Size of tile (mm)",
+      "values": "3 5 8 10"
+    },
+    {
+      "row": "75x150x6",
+      "values": "0.6 1.0 1.5 1.9"
+    },
+    {
+      "row": "100x100x7",
+      "values": "0.7 1.1 1.8 2.2"
+    },
+    {
+      "row": "100x100x9",
+      "values": "0.9 1.4 2.3 2.9"
+    },
+    {
+      "row": "150x150x6",
+      "values": "0.4 0.6 1.0 1.3"
+    },
+    {
+      "row": "200x200x7",
+      "values": "0.3 0.6 0.9 1.1"
+    },
+    {
+      "row": "200x200x9",
+      "values": "0.4 0.7 1.2 1.4"
+    },
+    {
+      "row": "300x300x10",
+      "values": "0.3 0.5 0.9 1.1"
+    },
+    {
+      "row": "300x300x20",
+      "values": "0.6 1.1 1.7 2.1"
+    },
+    {
+      "row": "300x600x10",
+      "values": "0.2 0.4 0.6 0.8"
+    },
+    {
+      "row": "400x400x10",
+      "values": "0.2 0.4 0.6 0.8"
+    },
+    {
+      "row": "500x500x10",
+      "values": "0.2 0.3 0.5 0.6"
+    },
+    {
+      "row": "600x600x10",
+      "values": "0.2 0.3 0.4 0.5"
+    },
+    {
+      "row": "750x750x10",
+      "values": "0.1 0.2 0.3 0.4"
+    },
+    {
+      "row": "100x600x9",
+      "values": "0.5 0.8 1.3 1.7"
+    },
+    {
+      "row": "150x600x9",
+      "values": "0.4 0.6 1.0 1.2"
+    },
+    {
+      "row": "150x900x9",
+      "values": "0.3 0.6 0.9 1.1"
+    },
+    {
+      "row": "150x1200x10",
+      "values": "0.4 0.6 1.0 1.2"
+    },
+    {
+      "row": "225x450x9",
+      "values": "0.3 0.5 0.8 1.0"
+    },
+    {
+      "row": "225x900x9",
+      "values": "0.2 0.4 0.6 0.8"
+    },
+    {
+      "row": "250x900x9",
+      "values": "0.2 0.4 0.6 0.7"
+    },
+    {
+      "row": "250x1200x10",
+      "values": "0.2 0.4 0.6 0.8"
+    },
+    {
+      "row": "600x600x5",
+      "values": "0.1 0.1 0.2 0.3"
+    },
+    {
+      "row": "600x600x3",
+      "values": "0.1 0.1 0.2"
+    },
+    {
+      "row": "1000x500x5",
+      "values": "0.1 0.1 0.2 0.2"
+    },
+    {
+      "row": "1000x500x3",
+      "values": "0.1 0.1 0.1"
+    },
+    {
+      "row": "1000x1000x5",
+      "values": "0.1 0.1 0.2"
+    },
+    {
+      "row": "1000x1000x3",
+      "values": "0.1 0.1"
+    },
+    {
+      "row": "3000x1000x5",
+      "values": "0.1 0.1 0.1"
+    },
+    {
+      "row": "3000x1000x3",
+      "values": "0.1 0.1"
+    }
+  ],
+  "mixing": "component A : component B = 9 : 1",
+  "packaging": "Kerapoxy is supplied, with mixing proportions carefully measured, in drums containing component A and bottles of component B to be mixed when using the product. The total weight of the units is: 10, 5 and 2 kg in total.",
+  "storage": "Kerapoxy can be stored 24 months in a dry place in original packaging. Store component A at a temperature of at least +10°C to avoid crystallisation which, however, can be reversed by warming.",
+  "notes": "1) HOW TO READ consumptionTable: the table is headed 'CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2)'. The first entry is the header row: its values '3 5 8 10' are the joint widths in mm ('Width of joint (mm)'). Every other entry is one tile size (length x width x thickness in mm). Rows with four values are 3 / 5 / 8 / 10 mm. Six rows have blank cells, always on the left: 600x600x3, 1000x500x3, 1000x1000x5 and 3000x1000x5 have three values = 5 / 8 / 10 mm (3 mm blank); 1000x1000x3 and 3000x1000x3 have two values = 8 / 10 mm (3 and 5 mm blank). Column membership was cross-checked against the reading-order extraction (3 mm column 23 values, 5 mm 27, 8 mm 29, 10 mm 29). 2) One cell is positionally uncertain: in row 3000x1000x5 the first '0.1' is printed slightly to the right of the 5 mm column in the layout file, and the reading-order file emits it separately after the formula heading. It is far closer to the 5 mm column than to the 8 mm column, and the 8 and 10 mm columns are already filled, so it is read as the 5 mm value - worth one look at the PDF. 3) consumptionFormula is null because the formula itself is not in the text extraction (it is evidently printed as an image). The sheet prints the heading 'FORMULA FOR THE COVERAGE CALCULATION:' and only the legend: 'A = length of tile (in mm)', 'B = width of the tile (in mm)', 'C = thickness of the tile (in mm)', 'D = width of the joint (in mm)'. The expression must be taken from the PDF itself; it was not reconstructed. 4) The description says joints of at least 1 mm, but the table starts at 3 mm; no maximum joint width is stated. Many large-format cells read 0.1, so the table's one-decimal rounding is coarse for those sizes. 5) The only prose consumption figure is for use as an adhesive (2-4 kg/m²), with no trowel size or thickness basis. 6) 'mixing' is the technical data row 'Mix ratio: component A : component B = 9 : 1'; the sheet does not say whether this is by weight or by volume. The body text says the packs are pre-proportioned and warns not to guess partial quantities. 7) The technical data row label is misprinted 'Set to ligh foot traffic' (copied as printed). The 'EMICODE (as a grout):' row has no value in the extraction (probably a logo); the body text says 'classified as Emicode EC1 Plus by GEV when used for grouting'. 8) 'Ready for use' is 4 days at +23°C; chemical attack and filling of basins/pools only after 10 days. Foot traffic time is given 'At +20°C' in the body. 9) Consistency, density, dry solids and viscosity are printed per component (A / B) and are not included in technicalData. Colours: 12. Pack sizes are printed as '10, 5 and 2 kg in total'. 10) The sheet lists more recommendations than notFor holds, including: use between +12°C and +30°C; make sample tests before grouting porcelain in a contrasting colour or porous/rough stone; Kerapoxy IEG is suggested for oleic acid and aromatic hydrocarbon exposure. The sheet's chemical resistance table is not carried into this file."
+}

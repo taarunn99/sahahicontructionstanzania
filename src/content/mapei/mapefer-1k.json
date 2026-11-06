@@ -1,0 +1,113 @@
+{
+  "slug": "mapefer-1k",
+  "titleAsPrinted": "MAPEFER 1K",
+  "edition": "1305-5-2025 en (IT)",
+  "description": "One-component, anti-corrosion cementitious mortar for steel reinforcement rods",
+  "whereToUse": [
+    "Corrosion-inhibiting protection of concrete reinforcing rods",
+    "Adhesion improver for concrete repair mortars.",
+    "Re-alkalising corrosion-inhibiting protection for reinforcing rods in the repair of concrete carried out with shrinkage-compensated mortars from the Mapegrout range or with standard cement mortars modified with synthetic based latex.",
+    "It can also be used for underground concrete construction."
+  ],
+  "notFor": [
+    "Do not further dilute Mapefer 1K with water when the product begins to set.",
+    "Do not add cement or aggregates to Mapefer 1K.",
+    "Do not apply Mapefer 1K when the temperature is below +5°C."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-7",
+      "value": "Reinforcement corrosion protection"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "meets the requirements defined by EN 1504-9"
+    },
+    {
+      "standard": "EN 15183",
+      "value": "resistant to saline fog according to EN 15183"
+    },
+    {
+      "standard": "GEV",
+      "value": "certified as EC1 Plus by the German association GEV"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Consistency",
+      "value": "powder"
+    },
+    {
+      "label": "Maximum size of aggregate",
+      "value": "0.5 mm"
+    },
+    {
+      "label": "Composition of mix",
+      "value": "5 kg of Mapefer 1K 1.0-1.1 kg of water"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "environmental and substrate temperature from +5°C to +35°C"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approx. 1 hour (at +20°C)"
+    },
+    {
+      "label": "Total thickness (2 coats)",
+      "value": "min. 2 mm"
+    },
+    {
+      "label": "Waiting time between 2 coats",
+      "value": "approx. 2 hours"
+    },
+    {
+      "label": "Waiting time before applying repair mortar",
+      "value": "6-24 hours"
+    },
+    {
+      "label": "Colour of mix",
+      "value": "blue"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "thixotropic paste"
+    },
+    {
+      "label": "Density of mix",
+      "value": "1800 kg/m³"
+    },
+    {
+      "label": "Bond strength to concrete by pull-off",
+      "value": "> 2.0 MPa"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "per metre of reinforcing rod, 8 mm diameter, with 2 mm of applied product",
+      "value": "100 g/m",
+      "quote": "100 g/m per reinforcing rod with an 8 mm diameter and 200 g/m per reinforcing rod with 16 mm (2 mm of applied product)."
+    },
+    {
+      "basis": "per metre of reinforcing rod, 16 mm diameter, with 2 mm of applied product",
+      "value": "200 g/m",
+      "quote": "100 g/m per reinforcing rod with an 8 mm diameter and 200 g/m per reinforcing rod with 16 mm (2 mm of applied product)."
+    },
+    {
+      "basis": "mixing water per 5 kg bag",
+      "value": "1.0-1.1 l of clean water",
+      "quote": "Pour 1.0-1.1 l of clean water into a clean container and, while mixing, slowly disperse 5 kg of Mapefer 1K."
+    },
+    {
+      "basis": "water content used for laboratory test samples (technical data table), per 100 parts by weight of powder",
+      "value": "20.5 % water",
+      "quote": "100 parts by weight of Mapefer 1K with 20.5 % water."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Pour 1.0-1.1 l of clean water into a clean container and, while mixing, slowly disperse 5 kg of Mapefer 1K.",
+  "packaging": "The product is available in cartons each one containing 4 bags of 5 kg.",
+  "storage": "Mapefer 1K may be stored for up to 24 months in its original packaging in a dry place at a temperature not below +5°C.",
+  "notes": "1) Consumption is given for two rod diameters only (8 mm and 16 mm, at 2 mm of applied product); there is no formula and no figure for other diameters, so anything else would be an interpolation the sheet does not print. 2) The sheet does not say whether '100 g/m' / '200 g/m' is dry powder or mixed product. 3) Water is printed as '1.0-1.1 kg of water' per 5 kg in the application table and '1.0-1.1 l of clean water' in the prose; the laboratory mix is '20.5 % water'. These agree. 4) Timings: table says waiting time between coats 'approx. 2 hours' and before repair mortar '6-24 hours'; prose says second coat 'approximately 2 hours after ... and preferably within 24 hours' and repairs 'once Mapefer 1K has dried (approximately 6 hours at +20°C)'. 5) The fourth RECOMMENDATIONS bullet is an instruction rather than a limit and is not in notFor: apply immediately after sandblasting, do not leave clean rods exposed and without protection for long periods. 6) This is the international 'en (IT)' edition issued by Mapei S.p.A. Milan, not a UAE edition. It also carries a 'CO2e FULLY OFFSET PRODUCTS' statement for the year 2026."
+}

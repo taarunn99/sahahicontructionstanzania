@@ -1,0 +1,204 @@
+{
+  "slug": "mapeflex-pu-45-ft",
+  "titleAsPrinted": "MAPEFLEX PU 45 FT",
+  "edition": "8102-11-2025 en (IT)",
+  "description": "Paintable, rapid, high modulus polyurethane sealant and adhesive",
+  "whereToUse": [
+    "Mapeflex PU 45 FT has been specially developed for sealing expansion and distribution joints in horizontal and vertical surfaces, including those which are subject to occasional chemical attack by hydrocarbons.",
+    "It is also recommended for flexible bonds between similar and different materials most commonly used in the building industry for both internal and external applications and as a replacement or to compliment mechanical fasteners.",
+    "industrial floors subject to vehicular traffic, including heavy vehicles",
+    "concrete floors for internal and external car-parks, supermarkets, shopping centres and warehouses",
+    "concrete walls and general internal and external vertical structures where the use of a thixotropic product is required",
+    "Sealing cracks.",
+    "Sealing pipe-work systems for air-conditioning and electric cables.",
+    "Sealing sheet-steel sections, such as flashing and guttering."
+  ],
+  "notFor": [
+    "Do not use on dusty or flaky surfaces.",
+    "Do not use on damp surfaces.",
+    "Do not use to seal joints in stone and marble: use Mapesil LM or Mapesil Stone Matt.",
+    "Do not use on bituminous surfaces where the bleeding of oil may be present.",
+    "Do not apply Mapeflex PU 45 FT if the temperature is below +5°C."
+  ],
+  "standards": [
+    {
+      "standard": "EN 15651-1",
+      "value": "F-EXT-INT-CC, class 20 HM"
+    },
+    {
+      "standard": "EN 15651-4",
+      "value": "PW-EXT-INT-CC, class 20 HM"
+    },
+    {
+      "standard": "ISO 11600",
+      "value": "class F20 HM"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "white, 111 grey, 113 grey, beige, brown, black"
+    },
+    {
+      "label": "Density",
+      "value": "1.39 g/cm³"
+    },
+    {
+      "label": "Recommended application temperature range",
+      "value": "from +5°C to +35°C"
+    },
+    {
+      "label": "Dust dry",
+      "value": "35 mins."
+    },
+    {
+      "label": "Final setting after",
+      "value": "3.3 mm/24 h - 5.2 mm/48 h - 8.5 mm/7 days"
+    },
+    {
+      "label": "Shore A hardness (DIN 53505)",
+      "value": "40"
+    },
+    {
+      "label": "Tensile strength (DIN 53504S3a)",
+      "value": "3.8 N/mm²"
+    },
+    {
+      "label": "Elongation at break (DIN 53504S3a)",
+      "value": "700%"
+    },
+    {
+      "label": "In service temperature",
+      "value": "from -40°C to +70°C"
+    },
+    {
+      "label": "Elongation in service continuous use",
+      "value": "20%"
+    },
+    {
+      "label": "Modulus of elasticity at +23°C (ISO 8339)",
+      "value": "0.7 N/mm²"
+    },
+    {
+      "label": "Springback",
+      "value": "90%"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 5x5 mm",
+      "value": "12",
+      "quote": "5x5 12 24"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 5x5 mm",
+      "value": "24",
+      "quote": "5x5 12 24"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 10 x 10 mm",
+      "value": "3",
+      "quote": "10 x 10 3 6"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 10 x 10 mm",
+      "value": "6",
+      "quote": "10 x 10 3 6"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 15 x 10 mm",
+      "value": "2",
+      "quote": "15 x 10 2 4"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 15 x 10 mm",
+      "value": "4",
+      "quote": "15 x 10 2 4"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 20 x 10 mm",
+      "value": "1.5",
+      "quote": "20 x 10 1.5 3"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 20 x 10 mm",
+      "value": "3",
+      "quote": "20 x 10 1.5 3"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 25 x 12.5 mm",
+      "value": "0.9",
+      "quote": "25 x 12.5 0.9 1.9"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 25 x 12.5 mm",
+      "value": "1.9",
+      "quote": "25 x 12.5 0.9 1.9"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 300 ml kit, joint size 30 x 15 mm",
+      "value": "0.6",
+      "quote": "30 x 15 0.6 1.3"
+    },
+    {
+      "basis": "Used as a sealant: linear metres per 600 ml kit, joint size 30 x 15 mm",
+      "value": "1.3",
+      "quote": "30 x 15 0.6 1.3"
+    },
+    {
+      "basis": "Joint sizing rule (not a consumption rate): depth of sealant for joint width up to 10 mm",
+      "value": "Same as width",
+      "quote": "Up to 10 mm Same as width"
+    },
+    {
+      "basis": "Joint sizing rule (not a consumption rate): depth of sealant for joint width from 11 to 20 mm",
+      "value": "10 mm in all cases",
+      "quote": "From 11 to 20 mm 10 mm in all cases"
+    },
+    {
+      "basis": "Joint sizing rule (not a consumption rate): depth of sealant for joint width more than 20 mm",
+      "value": "Half the width",
+      "quote": "More than 20 mm Half the width"
+    },
+    {
+      "basis": "Used as an adhesive on sections with a large surface area: spacing between parallel beads",
+      "value": "around 15 cm apart",
+      "quote": "When bonding sections with a large surface area, extract a series of vertical, parallel beads around 15 cm apart and press on well to spread the adhesive uniformly."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Size of the joint in mm",
+      "values": "Linear metres 300 ml kit 600 ml kit"
+    },
+    {
+      "row": "5x5",
+      "values": "12 24"
+    },
+    {
+      "row": "10 x 10",
+      "values": "3 6"
+    },
+    {
+      "row": "15 x 10",
+      "values": "2 4"
+    },
+    {
+      "row": "20 x 10",
+      "values": "1.5 3"
+    },
+    {
+      "row": "25 x 12.5",
+      "values": "0.9 1.9"
+    },
+    {
+      "row": "30 x 15",
+      "values": "0.6 1.3"
+    }
+  ],
+  "mixing": null,
+  "packaging": "Boxes of 12 (300 ml cartridges). Boxes of 20 units (600 ml cartridges).",
+  "storage": "Mapeflex PU 45 FT may be stored for 12 months in a cool, dry place in its sealed, original packaging.",
+  "notes": "consumptionTable: the first row is the printed header (columns are 'Linear metres' per '300 ml kit' and per '600 ml kit'); the six rows after it are data, values in that column order. The first joint size is printed '5x5' without spaces. The same 12 figures are repeated one per entry in consumption. The 300 ml column is not exactly half the 600 ml column in the two largest sizes (25 x 12.5: 0.9 vs 1.9; 30 x 15: 0.6 vs 1.3), so the printed figures look rounded/truncated; a calculator should use the table values as printed rather than derive one column from the other. No formula is printed. The table calls the packs '300 ml kit' / '600 ml kit' while PACKAGING and the application text call them '300 ml cartridges' / '600 ml cartridges'; the body text also says 'metal cartridges and soft cartridges'. The word 'sausage' is not used. consumption also carries three joint-depth rule rows (from the WIDTH OF JOINT / DEPTH OF SEALANT table) and the 15 cm adhesive bead spacing; these are sizing figures, not rates, and are labelled as such in basis. For adhesive use the sheet gives no consumption figure: 'According to the bonding method used (formation of a bead or spot-application).' Classification wording differs inside the sheet: the body text gives the EN 15651-1 rating as 'F-EXT-INT CC' and the EN 15651-4 rating hyphenated across a line break ('PW-EXT-INT-' / 'CC'), while the technical data table prints 'F-EXT-INT-CC, class 20 HM' and 'PW-EXT-INT-CC, class 20 HM' (table form used in standards). ISO 11600 is given in the body as 'class F20 HM'. Movement capacity is printed two ways that agree: 'Elongation in service continuous use: 20%' and 'withstands movements when in service up to 20% of the average width of the sealed joint' (for more, the sheet says to use Mapeflex PU40). The sheet states more limits than the 5 kept in notFor, including: not on surfaces dirty with oil, grease or mould-stripping compounds; do not contaminate the wet surface with alcohol; 'Do not bond with layers of product more than 3 mm thick'; primer must be overcoated no later than 6 hours after application. whereToUse is a selection (8 of the sheet's items); the three unpunctuated items are sub-bullets of 'Sealing expansion and distribution joints subject to movements up to 20% of the average width of the joint in:'. Tensile strength and elongation at break rows are printed with the sub-label 'after 28 days at 23°C and 50% R.H.', dropped from the labels here. 'Dust dry: 35 mins.' is the nearest thing to a skin time; no separate skin-formation row is printed."
+}

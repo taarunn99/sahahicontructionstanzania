@@ -1,0 +1,56 @@
+{
+  "slug": "mapeband-easy",
+  "titleAsPrinted": "MAPEBAND EASY",
+  "edition": "7631-03-I-2026 en (IT)",
+  "description": "Rubber tape sandwiched between two layers of non-woven fabric to form elastic joints in waterproofing systems",
+  "whereToUse": [
+    "Waterproofing corners between adjacent walls and between walls and floors.",
+    "Waterproof elastic control joints on terraces, balconies, pools, etc."
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Type of material",
+      "value": "rubber sandwiched between two layers of non-woven polypropylene fabric"
+    },
+    {
+      "label": "Thickness (EN 1849-2) (mm)",
+      "value": "0.68"
+    },
+    {
+      "label": "Weight (EN 1849-2) (g/m²)",
+      "value": "285"
+    },
+    {
+      "label": "Tensile strength (EN ISO 527-3) (N/15 mm)",
+      "value": "45"
+    },
+    {
+      "label": "Elongation at failure (EN ISO 527-1) (%)",
+      "value": "315"
+    },
+    {
+      "label": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Overlap allowance between different pieces of tape (not a consumption rate; adds to the tape length needed)",
+      "value": "at least 5 cm",
+      "quote": "Joints between different pieces of Mapeband Easy must overlap at least 5 cm and be bonded with the chosen waterproofing product."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "30 m long by 130 mm wide rolls. ▪ 10 m long by 130 mm wide rolls. ▪ 90° and 270° angular pieces. ▪ Templates to make through holes (200 x 200 mm and 400 x 400 mm).",
+  "storage": null,
+  "notes": "The sheet has no CONSUMPTION section and no STORAGE section. The single consumption entry is the 5 cm overlap between pieces, not a usage rate; tape need is joint/corner length plus overlaps. WHERE TO USE lists only two items, so whereToUse has 2, not 3. No limits/'do not use' statements are printed. Width (130 mm) and roll lengths (30 m, 10 m) appear only under PACKAGING; the technical data table gives thickness and weight but no width or length row. No movement capacity figure is given. The sheet says the tape is used with products from the Mapelastic range, Monolastic, Mapegum WPS, the Aquaflex Roof range and Mapeguard UM35, but gives no consumption for those. Packaging string keeps the sheet's bullet characters."
+}

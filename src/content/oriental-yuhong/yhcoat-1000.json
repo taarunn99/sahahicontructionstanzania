@@ -1,0 +1,76 @@
+{
+  "slug": "yhcoat-1000",
+  "titleAsPrinted": "YHCoat-1000",
+  "edition": "Feb. 2025",
+  "description": "YHCoat-1000 is a two-component, polymer-modified cementitious waterproofing slurry designed for effective waterproofing applications.",
+  "whereToUse": [
+    "Suitable for interior applications such as toilets, bathrooms, kitchens, balconies, floors, flat roof, and floor heating systems",
+    "Exterior non-tile and stone facade systems for building walls",
+    "It can also be used for maintaining the waterproof layer of underground foundations"
+  ],
+  "notFor": [
+    "YHCoat-1000 does not provide a traffickable finish. Protect with a leveling screed",
+    "YHCoat-1000 is not a decorative treatment",
+    "Protect freshly applied material from freezing and rain"
+  ],
+  "advantages": [
+    "Can be directly applied to wet surfaces, offering excellent impermeability",
+    "Smooth application process with fast drying, saving time and labor",
+    "Strong adhesion to the substrate, ensuring a durable bond"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D7234",
+      "value": "≥ 1.0 Mpa"
+    },
+    {
+      "standard": "ASTM C348",
+      "value": "≥ 7 Mpa"
+    },
+    {
+      "standard": "BS EN 14891, A7",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Density",
+      "value": "2.0 kg/L"
+    },
+    {
+      "label": "Mixing ratio, by weight",
+      "value": "Part A : Part B = 3 : 10"
+    },
+    {
+      "label": "Pull-off strength to concrete (ASTM D7234)",
+      "value": "≥ 1.0 Mpa"
+    },
+    {
+      "label": "Compressive strength (ASTM C109)",
+      "value": "≥ 14 Mpa"
+    },
+    {
+      "label": "Flexural strength (ASTM C348)",
+      "value": "≥ 7 Mpa"
+    },
+    {
+      "label": "Application temperature",
+      "value": "+5 °C min. / +35 °C max"
+    },
+    {
+      "label": "Pot life",
+      "value": "≈ 30 minutes (at +30°C)"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "2kg/㎡ by 2coat in wet area"
+    },
+    {
+      "quote": "3kg/㎡ by 2-3coat in other environment"
+    }
+  ],
+  "mixing": "Slowly add powder composition (B) to liquid composition (A) in a clean container and mix.",
+  "packaging": "6kg per plastic pail",
+  "storage": "Under normal transportation and storage conditions, the shelf life is a minimum of 12 months."
+}

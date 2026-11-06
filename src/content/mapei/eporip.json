@@ -1,0 +1,114 @@
+{
+  "slug": "eporip",
+  "titleAsPrinted": "EPORIP",
+  "edition": "366-2-2025 en (IT)",
+  "description": "Two component solvent-free epoxy adhesive for construction joints and for monolithic sealing of cracks in screeds",
+  "whereToUse": [
+    "Monolithic construction joints between fresh and hardened concrete.",
+    "Bonding precast concrete elements.",
+    "Bonding steel to concrete.",
+    "Filling cracks in concrete.",
+    "Construction joints for the structural reinforcement of beams and pillars.",
+    "Construction joints on decayed industrial flooring.",
+    "Rigid, waterproof construction joints (e.g. concrete bed to tank walls).",
+    "Sealing cracks in cement screeds."
+  ],
+  "notFor": [
+    "Do not apply Eporip at temperatures lower than +5°C.",
+    "Do not use Eporip on wet surfaces (even though they can be slightly damp).",
+    "Do not cast fresh concrete onto hardened Eporip.",
+    "Do not use Eporip on dusty, crumbling or loose surfaces."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-4",
+      "value": "Structural bonding"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "meets the requirements defined by EN 1504-9"
+    },
+    {
+      "standard": "EN 13501-1",
+      "value": "C-s1, d0"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mixing ratio",
+      "value": "component A : component B = 3 : 1"
+    },
+    {
+      "label": "Consistency of mix",
+      "value": "fluid paste"
+    },
+    {
+      "label": "Colour of mix",
+      "value": "grey"
+    },
+    {
+      "label": "Density of mix",
+      "value": "1.35 kg/l"
+    },
+    {
+      "label": "Workability time (EN ISO 9514)",
+      "value": "- at +10°C: 90 minutes - at +23°C: 60 minutes - at +30°C: 40 minutes"
+    },
+    {
+      "label": "Open time",
+      "value": "- at +10°C: 5-6 hours - at +23°C: 3-4 hours - at +30°C: 1 hour 30 minutes-2 hours 30 minutes"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "from +5°C to +30°C"
+    },
+    {
+      "label": "Complete hardening time",
+      "value": "7 days"
+    },
+    {
+      "label": "Concrete-steel bond strength",
+      "value": "> 3 N/mm² (failure of concrete)"
+    },
+    {
+      "label": "Shear strength",
+      "value": "9 N/mm²"
+    },
+    {
+      "label": "Compressive strength",
+      "value": "70 N/mm²"
+    },
+    {
+      "label": "Compressive modulus of elasticity",
+      "value": "3,000 N/mm²"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "construction joints with a rough substrate, per m²",
+      "value": "0.5-0.7 kg/m²",
+      "quote": "construction joints with a rough substrate: 0.5-0.7 kg/m²"
+    },
+    {
+      "basis": "construction joints with a very uneven substrate, per m²",
+      "value": "1.0-2.0 kg/m²",
+      "quote": "construction joints with a very uneven substrate: 1.0-2.0 kg/m²"
+    },
+    {
+      "basis": "sealing cracks: per litre of cavity",
+      "value": "1.35 kg/l per litre of cavity",
+      "quote": "sealing cracks: 1.35 kg/l per litre of cavity"
+    },
+    {
+      "basis": "bonding precast concrete elements or steel to concrete: per m² per mm of thickness",
+      "value": "1.35 kg/m² per mm thickness",
+      "quote": "bonding precast elements in concrete, or steel-and-concrete: 1.35 kg/m² per mm thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "component A : component B = 3 : 1",
+  "packaging": "10 kg kits (7.5 kg of component A, 2.5 kg of component B). 2 kg kits (1.5 kg of component A, 0.5 kg of component B).",
+  "storage": "24 months in original packaging. Eporip should be stored indoors in a cool, dry place where the temperature is between +5°C and +30°C.",
+  "notes": "1) The sheet prefaces its consumption figures with 'Consumption varies, depending on irregularities in the substrate and the method used in application. Generally speaking:' - they are indicative. 2) The crack-sealing figure is printed with a doubled unit: '1.35 kg/l per litre of cavity'. 3) The mixing ratio row does not say 'by weight'; that is only implied by the kit weights (7.5 kg : 2.5 kg and 1.5 kg : 0.5 kg). 4) In the FINAL PERFORMANCE table the 'STRENGTHENING USING BONDED PLATE' shear strength result is printed '50° > 35 N/mm² 60° > 37 N/mm² 70° > 34' - the last value has no unit. 5) A stray line 'no failure of steel test sample' sits between the durability and reaction-to-fire rows and cannot be tied to a row with certainty from the text. 6) technicalData rows 'Shear strength' (9 N/mm²) and 'Compressive strength' (70 N/mm²) are from the 'BONDED MORTAR OR CONCRETE' block (EN 12615 / EN 12190); a second, different 'Shear strength' row exists under the bonded-plate block. 7) The workability-time and open-time values are taken from the layout file; in the reading-order file the labels and values are separated. 8) This is the international 'en (IT)' edition issued by Mapei S.p.A. Milan, not a UAE edition. The EN 13501-1 entry under standards is the reaction-to-fire Euroclass 'C-s1, d0' from the performance table. 9) No consumption formula and no consumption table are printed."
+}

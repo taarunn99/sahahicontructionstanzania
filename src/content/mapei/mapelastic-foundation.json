@@ -1,0 +1,127 @@
+{
+  "slug": "mapelastic-foundation",
+  "titleAsPrinted": "MAPELASTIC FOUNDATION",
+  "edition": "2069-10-2025 en (IT)",
+  "description": "Two-component, flexible cementitious mortar for waterproofing concrete surfaces subject to both positive and negative water pressure",
+  "whereToUse": [
+    "Waterproofing concrete and masonry structures subject to positive or negative hydrostatic pressure.",
+    "It is recommended for foundation walls, car-parks and underground environments, basins, channels and swimming pools.",
+    "Waterproofing concrete retaining walls.",
+    "Waterproofing underground car-parks, cellars, sunken swimming pools and basins and lift pits against the counter-pressure of water.",
+    "Waterproofing breeze-block walls pre-treated with a suitable MAPEI mortar."
+  ],
+  "notFor": [
+    "Do not use Mapelastic Foundation for coatings with a high thickness (more than 2 mm per coat).",
+    "Do not apply Mapelastic Foundation at temperatures below +5°C.",
+    "Do not apply Mapelastic Foundation on substrates saturated with water (surfaces must dry off before application).",
+    "Do not add cement, aggregates or water to Mapelastic Foundation.",
+    "Protect from rain and water contact for the first 24 hours after application."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-2",
+      "value": "Complies with the requirements of EN 1504-2 Standards, PI, MC and IR principles"
+    },
+    {
+      "standard": "EN 14891",
+      "value": "EN 14891 (CM01P)"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "Mapelastic Foundation fulfils all the main criteria for the EN 1504-9 Standards"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    },
+    {
+      "standard": "EN 1062-1 (test method EN 1062-3)",
+      "value": "W < 0,07 kg/m²·h0,5 Class W3 (low water permeability) according to EN 1062-1)"
+    },
+    {
+      "standard": "EN 1062-7",
+      "value": "Class A4 (+23°C) (> 1,25 mm)"
+    },
+    {
+      "standard": "EN ISO 7783",
+      "value": "Sd < 3 m Class I (permeable to water vapour)"
+    },
+    {
+      "standard": "EN 13501-1",
+      "value": "Euroclass E"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mixing ratio",
+      "value": "component A : component B = 2.2 : 1 (one 22 kg bag of component A with one 10 kg can of component B)"
+    },
+    {
+      "label": "Layer thickness",
+      "value": "final thickness not less than 2mm"
+    },
+    {
+      "label": "Permissible application temperature",
+      "value": "room and substrate temperature from +5°C to +35°C"
+    },
+    {
+      "label": "Recommended application temperature range",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Mix density",
+      "value": "1650 kg/m³"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approx. 60 mins."
+    },
+    {
+      "label": "Manual application",
+      "value": "Mapelastic Foundation must be applied with a roller or a trowel within 60 minutes of it being mixed in at least two coats, to give a final thickness of at least 2 mm."
+    },
+    {
+      "label": "The second coat",
+      "value": "may be applied approximately 6 hours after the first coat"
+    },
+    {
+      "label": "Spray application",
+      "value": "The final thickness must be at least 2 mm. After applying the first layer, wait until it has cured (approximately 6 hours) and then apply a second layer."
+    },
+    {
+      "label": "Impermeability to water under pressure (5 bar for 3 days) of positive lift expressed as water penetration",
+      "value": "no penetration"
+    },
+    {
+      "label": "Impermeability to water under pressure (1.5 bar) of negative lift expressed as water penetration",
+      "value": "no penetration"
+    },
+    {
+      "label": "Static crack-bridging at +23 °C",
+      "value": "Class A4 (+23°C) (> 1,25 mm)"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "roller application, per m² per mm thickness",
+      "value": "1.65 kg/m² per mm thickness",
+      "quote": "Roller application: ▪ approx. 1.65 kg/m² per mm thickness."
+    },
+    {
+      "basis": "spray application with rendering machine, per m² per mm thickness, on flat surfaces",
+      "value": "1.75 kg/m² per mm thickness",
+      "quote": "Spray application with rendering machine: ▪ approx. 1.75 kg/m² per mm thickness on flat surfaces"
+    },
+    {
+      "basis": "spray application with rendering machine, per m² per mm thickness, on rough surfaces with irregularities",
+      "value": "2.1 kg/m² per mm thickness",
+      "quote": "approx. 2.1 kg/m² per mm thickness on rough surfaces with irregularities"
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "component A : component B = 2.2 : 1 (one 22 kg bag of component A with one 10 kg can of component B)",
+  "packaging": "32 kg kits: ▪ component A: 22 kg bags; ▪ component B: 10 kg tanks.",
+  "storage": "Mapelastic Foundation component A may be stored for 12 months in its original packaging in a dry place. Mapelastic Foundation component B may be stored for 24 months.",
+  "notes": "Consumption is given for roller (1.65) and for spray (1.75 flat, 2.1 rough), all per mm thickness; trowel is a listed manual application method but has no consumption figure. Required build: at least two coats, final thickness at least 2 mm, and not more than 2 mm per coat (see notFor). Two different upper application temperatures are printed: 'from +5°C to +35°C' in the application table and 'from +5°C to +40°C' in the technical data; both are recorded. In the application table the row labelled 'Mixing time' reads 'approx. 60 min. (at +20°C)', which matches the pot life ('approx. 60 mins.') and the 'within 60 minutes of it being mixed' instruction rather than a mixing duration; the actual mixing instructions are about 3 minutes, a 2 minute rest, then up to 2 more minutes. The Layer thickness row points to a section 'Applying the mortar' that does not exist under that name (the sections are 'Manual application' and 'Spray application'). The characteristics text says it may be applied 'with a roller or by spray' while Manual application says 'with a roller or a trowel'. Mixing ratio is printed '2.2 : 1' in one table and '2,2 : 1' in another, and mix density as '1650 kg/m3', '1650 kg/m³' and '1.650' (kg/m³), i.e. mixed decimal/thousands notation. Component B is called a '10 kg can' in the mixing row and '10 kg tanks' under packaging. The EN 14891 class is printed 'CM01P' in the heading sentence and 'CM O1 P' in the table header. The EN 14891 results table is headed 'Product performance with reinforcement' (crack-bridging 2.0 mm at +23°C, 1,2 mm at -5°C) but the sheet names no reinforcement product, so those values are not in technicalData; the crack-bridging row recorded is the EN 1062-7 static value, whose label is trimmed because the table cells are interleaved in the extraction. Negative pressure resistance is stated as 'up to 1.5 atm (15 m column of water)' in the text and tested at 1.5 bar in the table."
+}

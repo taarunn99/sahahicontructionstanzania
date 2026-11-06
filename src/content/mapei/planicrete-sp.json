@@ -1,0 +1,120 @@
+{
+  "slug": "planicrete-sp",
+  "titleAsPrinted": "PLANICRETE SP",
+  "edition": "700-4-2023 (UAE)",
+  "description": "Multi-purpose latex additive for mortar and cementitious mortar adhesive",
+  "whereToUse": [
+    "For the preparation of high performance mortar, screeds and renders.",
+    "Screeds and levelling compounds with high-resistance for interior and exterior use.",
+    "Cement renders for interior and exterior.",
+    "Cement slurry with high adhesion for bonding new screeds on to existing screeds and concrete.",
+    "Cement-mortar adhesive for exterior and interior bonding of ceramic tiles on walls and floors.",
+    "Modifying cement mortars that have to be applied in thin layers."
+  ],
+  "notFor": [
+    "Do not use Planicrete SP on walls and floors subject to extreme flexing or vibrations (wood board, chipboard, asbestos board and wood agglomerates etc.) for bonding tiles.",
+    "Do not use Planicrete SP as a waterproof membrane (use Mapelastic or Aquaflex).",
+    "Do not use Planicrete SP neat as a slurry: always mix with Portland cement.",
+    "Do not apply renders and screeds to the Planicrete SP slurry or previous screeds after they have completely dried (in order to avoid debonding).",
+    "Do not use as strong chemical resistant mortar."
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Type",
+      "value": "synthetic rubber latex (thick liquid form)"
+    },
+    {
+      "label": "Color",
+      "value": "greenish white"
+    },
+    {
+      "label": "Density",
+      "value": "1.01 g/cm3"
+    },
+    {
+      "label": "Dry solid content",
+      "value": "16%"
+    },
+    {
+      "label": "Mixing ratio",
+      "value": "1 part by weight of Planicrete SP 4 parts of Keracrete Powder"
+    },
+    {
+      "label": "Density of the mix",
+      "value": "1900 kg/m3"
+    },
+    {
+      "label": "Pot life",
+      "value": "90 minutes"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "from +5°C to +35°C"
+    },
+    {
+      "label": "Open time",
+      "value": "10-15 minutes"
+    },
+    {
+      "label": "Ready for traffic",
+      "value": "after 3 days"
+    },
+    {
+      "label": "Bonding strength (EN 1348): - after 28 days",
+      "value": "1.6 N/mm2"
+    },
+    {
+      "label": "Compression strength (EN13892-2)",
+      "value": "13 N/mm2"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "slurry bond coat / spatter-dash coat: kg of Planicrete SP per m2",
+      "value": "0.3 kg of Planicrete SP per m2",
+      "quote": "A. Slurry bond coat/Spatter-dash coat 0.3 kg of Planicrete SP per m2."
+    },
+    {
+      "basis": "floor screed and wall plaster: kg of Planicrete SP per m2 at 20 mm thickness",
+      "value": "1 kg of Planicrete SP - per m2 of 20 mm thickness",
+      "quote": "B. Floor screed and wall plaster 1 kg of Planicrete SP - per m2 of 20 mm thickness."
+    },
+    {
+      "basis": "tile adhesive: kg of Planicrete SP per m2",
+      "value": "0.5-1 kg of Planicrete SP per m2",
+      "quote": "C. Tile adhesive 0.5-1 kg of Planicrete SP per m2."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "PURPOSE OF USE",
+      "values": "SLURRY BOND COAT SPATTER-DASH COAT LEVELLING COAT/ FLOOR SCREED TILE ADHESIVE"
+    },
+    {
+      "row": "Planicrete SP",
+      "values": "1 1 (After diluted 1:3 with water) 1 1"
+    },
+    {
+      "row": "Portland cement",
+      "values": "1 1 2 -"
+    },
+    {
+      "row": "Dry sand",
+      "values": "- 1 6 -"
+    },
+    {
+      "row": "Keracrete Powder",
+      "values": "- - - 4"
+    },
+    {
+      "row": "Composition of the mortar: - Cement: CEM I 52.5: - Aggregate:0-3 mm sand: - Planicrete SP: - Water:",
+      "values": "900 g 2700 g 112.5 g 337.5 g"
+    }
+  ],
+  "mixing": "1 part by weight of Planicrete SP 4 parts of Keracrete Powder",
+  "packaging": "Planicrete SP is available in 5 kg and 25 kg drums.",
+  "storage": "Planicrete SP can be stored for 12 months in the original packing, in a dry and cool place not directly under the sun. Protect from frost.",
+  "notes": "1) Consumption is printed under the heading 'APPROXIMATE COVERAGE' and is kg of Planicrete SP latex only (not of the finished mortar). 2) consumptionTable rows 1-5 are the sheet's 'MIXING RATIO' table (four columns in the order slurry bond coat, spatter-dash coat, levelling coat/floor screed, tile adhesive). The table does not say whether its parts are by weight or by volume; only the tile adhesive ratio is stated elsewhere as '1 part by weight of Planicrete SP' to '4 parts of Keracrete Powder'. The remark '(After diluted 1:3 with water)' is printed in the levelling coat/floor screed column of the Planicrete SP row, i.e. that column's '1' is one part of the pre-diluted latex; the layout extraction places it loosely, so confirm against the PDF. 3) consumptionTable row 6 is not a site dosage: it is the test mortar composition printed in the technical data under 'AS LEVELLING SCREED/PLASTER'. In the layout file the values sit one line above their labels, so the pairing (cement 900 g, sand 2700 g, Planicrete SP 112.5 g, water 337.5 g, then 'Setting time: as a normal cementitious mix') is my reading of an offset table; it is consistent with the 1:3 dilution and the 1:2:6 screed column. 4) The 'mixing' field and the APPLICATION DATA / first FINAL PERFORMANCE block (pot life, open time, bonding strength EN 1348, compression strength 13 N/mm2) describe the tile adhesive mix with Keracrete Powder. The screed/plaster mix has its own separate figures (e.g. compression strength EN 13892-2 after 28 days 30 N/mm2, flexural 7.0 N/mm2, bonding strength EN 1542 2.5-3.0 N/mm2) that are not in technicalData. 5) FINAL PERFORMANCE prints durations against resistance rows ('Resistance to humidity: 3-4 h (first coat)', 'Ageing resistance: 24 h', 'Resistance to solvents and oil: 24 h', 'Resistance to acids and alkali: 24 h', 'Resistance to temperature: 24 h', 'Flexibility: 24 h'); these values do not fit their labels and look like a template error in the sheet, so they were left out. 6) The PROTECTION section says 'this material is freeze/thaw stable down to temperature of +18°C' - a plus sign as printed, which is implausible next to 'Protect from frost'; do not quote it without checking. 7) The first notFor item is trimmed at the sentence end; the sheet continues 'Use Kerabond+Isolastic, Adesilex P22 or Keralastic.' The fifth continues 'May be used for substrate preparation and levelling, but once cured and dried, it must be covered with Kerapoxy mortar and grout or Mapecoat I 24.' Two further limits were not listed: 'Do not mix Planicrete SP with hydrated or hydraulic lime.' and 'Do not use Planicrete SP if the ambient temperature is lower than +5 °C or higher than +35 °C during application.' 8) The sheet also says the quantity of Planicrete SP needs to be reduced with a coarse aggregate mix or damp sand, and that above 50 mm thickness a properly graded concrete mix should be used - no figures given. 9) No product classification standard is stated (EN 1348, EN 13892-2 and EN 1542 appear only as test methods), and no consumption formula is printed."
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "yhrepair-2516",
+  "titleAsPrinted": "YHRepair-2516",
+  "edition": null,
+  "description": "YHRepair-2516 is a ready to use, quick-setting, portland-cement-based hydraulic repair mortar that instantly stops running water through holes or cracks in concrete or masonry.",
+  "whereToUse": [
+    "It is ideal to repair non-moving (static) cracks and holes with running water or moisture seepage",
+    "underground utility tunnels, basements, retaining walls, water supply pipelines, dams, and equipment foundations",
+    "sealing internal corners of walls and floors, as well as areas around pipe penetrations, prior to applying waterproof materials in kitchens and bathrooms",
+    "It can also be used for exterior wall waterproofing"
+  ],
+  "notFor": [],
+  "advantages": [
+    "Fast setting speed, so it can stop running water and develop high strength quickly",
+    "Fully hydraulic so it can be set above or below the water"
+  ],
+  "standards": [
+    {
+      "standard": "EN 13501-1",
+      "value": "Fire rating, Classified A1"
+    },
+    {
+      "standard": "BS EN 196-3",
+      "value": ""
+    },
+    {
+      "standard": "ASTM C 109",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Dark gray powder"
+    },
+    {
+      "label": "Reaction to fire (EN 13501-1)",
+      "value": "Fire rating, Classified A1"
+    },
+    {
+      "label": "Powder to water ratio",
+      "value": "1:(0.27-0.4)"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Mix the material at a powder-to-water ratio of 1:(0.27-0.4).",
+  "packaging": "4kg×5 bags per carton",
+  "storage": null
+}

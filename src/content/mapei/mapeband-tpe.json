@@ -1,0 +1,90 @@
+{
+  "slug": "mapeband-tpe",
+  "titleAsPrinted": "MAPEBAND TPE",
+  "edition": "2033-3-2022-I-en",
+  "description": "TPE tape for flexible sealing and waterproofing expansion joints and over cracks subject to movement",
+  "whereToUse": [
+    "Waterproofing expansion joints in road-works, tunnels, hydraulic works and covering areas subject to movement up to 5 or 10 mm, using Mapeband TPE 170 or Mapeband TPE 325 respectively.",
+    "Flexible waterproofing seal of expansion joints subject to large amounts of movement in service.",
+    "Flexible waterproofing seals in tunnels, road-works, etc.",
+    "Sealing expansion joints in prefabricated panels.",
+    "Sealing structural joints in façades.",
+    "Sealing joints in hydraulic works, such as channels, basins, drains, pipe-work, etc.",
+    "Waterproofing joints in road-works.",
+    "Waterproofing expansion joints in flat covering layers (under tiles or using suitable protection such as a metallic profile)."
+  ],
+  "notFor": [
+    "Do not use Mapeband TPE if it will come into contact with mineral oil, petrol or strong solvents (ketones, esters and hydrocarbons).",
+    "Do not lay Mapeband TPE on surfaces which are not perfectly clean, dry or which are irregular.",
+    "In case of permanent contact with liquids at high temperature it is advisable to previously evaluate the application of the product and consult MAPEI Tehcnical Service Department."
+  ],
+  "standards": [
+    {
+      "standard": "EN 13501-1",
+      "value": "Reaction to fire (EN 13501-1) (Euroclass): E"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "grey"
+    },
+    {
+      "label": "Sizes available",
+      "value": "17 cm (Mapeband TPE 170) 32.5 cm (Mapeband TPE 325)"
+    },
+    {
+      "label": "Width of expansion area (mm)",
+      "value": "Mapeband TPE 170: 50"
+    },
+    {
+      "label": "Width of expansion area (mm)",
+      "value": "Mapeband TPE 325: 165"
+    },
+    {
+      "label": "Thickness (EN 1849-2) (mm)",
+      "value": "1.2"
+    },
+    {
+      "label": "Breaking load (EN 12311-2) (N/mm²)",
+      "value": "> 4.5"
+    },
+    {
+      "label": "Elongation at break (EN 12311-2) (%)",
+      "value": "> 500"
+    },
+    {
+      "label": "Low-temperature bending (EN 495-5) (°C)",
+      "value": "< -30"
+    },
+    {
+      "label": "Waterproofing level (EN 1928-B) (bar)",
+      "value": "6"
+    },
+    {
+      "label": "Resistance to temperature",
+      "value": "from -20°C to +50°C"
+    },
+    {
+      "label": "Maximum elongation of expansion zone (mm)",
+      "value": "Mapeband TPE 170: 5"
+    },
+    {
+      "label": "Maximum elongation of expansion zone (mm)",
+      "value": "Mapeband TPE 325: 10"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Overlap allowance at butt joints between two strips (not a consumption rate; adds to the tape length needed)",
+      "value": "at least 5 cm",
+      "quote": "Butt joints between two strips of Mapeband TPE must be carried out by overlapping and bonding at least 5 cm of the central part in TPE by either hot-welding or cold-welding, as illustrated previously."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "Mapeband TPE is supplied in boxes and is available in two sizes: ▪ Mapeband TPE 170 (width 17 cm): 30 m x 17 cm rolls; ▪ Mapeband TPE 325 (width 32.5 cm): 30 m x 32.5 cm rolls.",
+  "storage": null,
+  "notes": "The sheet has no CONSUMPTION section and no STORAGE section. The single consumption entry is the 5 cm butt-joint overlap, not a usage rate; tape need is joint length plus overlaps, supplied in 30 m rolls. Roll length (30 m) appears only under PACKAGING, not in the technical data table; the table gives width (Sizes available), thickness and width of expansion area. Two technicalData labels are repeated on purpose (one row per size, as the table prints a sub-row for TPE 170 and TPE 325). The tape must be bonded with Adesilex PG4; the sheet gives a layer thickness for that adhesive ('1-2 mm-thick uniform layer', then a second layer) but no adhesive consumption figure, and no quantity for the 0.5 Quartz broadcast. Mixing text in the sheet concerns Adesilex PG4, not the tape, so mixing is null. Only Euroclass E (EN 13501-1) is a classification; the other EN/SIA references in the table are test methods and are kept in the row labels. Sheet typo kept verbatim in notFor: 'Tehcnical'. Packaging string keeps the sheet's bullet characters."
+}

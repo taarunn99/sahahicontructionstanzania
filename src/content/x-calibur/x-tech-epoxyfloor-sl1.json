@@ -1,0 +1,54 @@
+{
+  "slug": "x-tech-epoxyfloor-sl1",
+  "titleAsPrinted": "X-Tech EpoxyFloor SL",
+  "description": "X-Tech EpoxyFloor SL is a three component, self smoothing epoxy floor topping that produces an extremely dense, durable, abrasion and chemically resistant floor.",
+  "whereToUse": [
+    "Food and beverage plants",
+    "Pharmaceutical facilities",
+    "Kitchens and laundries",
+    "Hospitals",
+    "Laboratories and clean rooms",
+    "Chemical handling and processing areas"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "SCAQMD Rule 1113",
+      "value": ""
+    },
+    {
+      "standard": "LEED NC2009 IEQ 4.2",
+      "value": ""
+    },
+    {
+      "standard": "FDA CFR 21 Section 175.300",
+      "value": ""
+    },
+    {
+      "standard": "DCL Green Building Regulations",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Grade",
+      "value": "X-Tech EpoxyFloor SL1, thickness: 1 to 1.5mm"
+    },
+    {
+      "label": "Volatile organic content",
+      "value": "VOC = <10g/L"
+    },
+    {
+      "label": "Compressive strength (ASTM D695)",
+      "value": ">70MPa"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "X-Tech EpoxyFloor SL1: 17m2 per 17L pack at 1mm"
+    }
+  ],
+  "mixing": null,
+  "packaging": "X-Tech EpoxyFloor SL: 17 liter packs",
+  "storage": null
+}

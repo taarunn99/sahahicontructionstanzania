@@ -1,0 +1,57 @@
+{
+  "slug": "triblock-p",
+  "titleAsPrinted": "TRIBLOCK P",
+  "edition": "2043-11-2022 gb",
+  "description": "Three-component, epoxy-cementitious primer for damp substrates",
+  "whereToUse": [
+    "Triblock P is used as a waterproofing treatment for damp substrates",
+    "old ceramic or terrazzo floor dressings on substrates with excessive residual humidity",
+    "highly-compact cementitious substrates with a residual humidity content higher than the level recommended for laying wooden, resilient and resin floors",
+    "treating damp concrete surfaces before applying protective and anti-corrosion epoxy products, or polyurethane dressing systems which are impermeable to water vapour",
+    "dressing concrete channels, drains and pipe-work",
+    "by adding 0.25 Quartz o 0.5 Quartz sand at a ratio of 1 : 0.5 for smoothing over uneven surfaces"
+  ],
+  "notFor": [
+    "Do not apply Triblock P directly on: · surfaces with free-standing water; · dusty, flaky, irregular surfaces with bleeding; · anhydrite or gypsum-based substrates; · old, cementitious or gypsum-based smoothing layers.",
+    "Do not apply Triblock P on cracks which are subject to movement, as the product is rigid and may also crack.",
+    "Do not use the product if the surrounding temperature or the temperature of the substrate is lower than +5°C."
+  ],
+  "standards": [],
+  "technicalData": [
+    {"label": "Mixing ratio", "value": "comp. A : comp. B : comp. C = 12 : 38 : 50"},
+    {"label": "Density of mix", "value": "1,800 kg/m³"},
+    {"label": "Recommended application temperature range", "value": "from +5°C to +35°C"},
+    {"label": "Pot life", "value": "from 30 to 40 minutes"},
+    {"label": "Dry to the touch", "value": "after approx. 4-6 hours"},
+    {"label": "Waiting time between first and second coat", "value": "4-6 hours"},
+    {"label": "Set to light foot traffic", "value": "24 hours"},
+    {"label": "Waiting time before further applications", "value": "from a minimum of 24 hours up to a maximum of 7 days"},
+    {"label": "Final setting time", "value": "7 days"},
+    {"label": "Bonding to ceramic", "value": "> 3.5 MPa (failure of the ceramic)"},
+    {"label": "Bonding to concrete", "value": "> 3 MPa (failure of concrete)"},
+    {"label": "In service temperature range", "value": "from -35°C to +100°C"}
+  ],
+  "consumption": [
+    {
+      "basis": "per coat on non-absorbent surfaces",
+      "value": "250-300 g/m²",
+      "quote": "250-300 g/m² per coat on non-absorbent surfaces."
+    },
+    {
+      "basis": "per coat on absorbent surfaces",
+      "value": "400-500 g/m²",
+      "quote": "400-500 g/m² per coat on absorbent surfaces."
+    },
+    {
+      "basis": "per mm of thickness for smoothing applications",
+      "value": "1.5 kg/m²",
+      "quote": "1.5 kg/m² per mm of thickness for smoothing applications."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "The mixing ratio between the three components is 12 : 38 : 50 in weight.",
+  "packaging": "5 kg kits (A + B + C): component A: 0.6 kg; component B: 1.9 kg; component C: 2.5 kg.",
+  "storage": "12 months in its original, closed containers. Protect against frost and store at a temperature of at least 5°C.",
+  "notes": "The two coating figures are per coat, and the sheet says to apply the product in two (criss-cross) coats, so the total for a normal application is twice the per-coat figure; the sheet does not print a total. The sheet does not say whether the per-coat figures refer to the mixed A+B+C product before or after the dilution water is added (water added after mixing: by brush 5-10%, by roller 10-15%, by spraying maximum of 20%). For the smoothing figure (1.5 kg/m² per mm) the sheet does not say whether it is Triblock P alone or the mortar of Triblock P plus quartz sand (the smoothing mortar is Triblock P with a maximum of 5% water and 0.25 Quartz or 0.5 Quartz at a ratio of 1 : 0.5 in weight); the printed density of the neat mix is 1,800 kg/m³, which would be 1.8 kg/m² per mm, so 1.5 is not simply the neat-mix density. Kit contents (0.6 + 1.9 + 2.5 = 5 kg) agree with the 12 : 38 : 50 ratio. The sixth whereToUse item is printed with a typo ('0.25 Quartz o 0.5 Quartz', 'o' for 'or') and is copied as printed. The first notFor item is a bulleted list in the sheet and is copied with the sheet's bullet characters. No standard or classification is stated. Floors or smoothing compound must be applied within 7 days of the primer."
+}

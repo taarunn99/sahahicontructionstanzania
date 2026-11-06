@@ -1,0 +1,53 @@
+{
+  "slug": "ultraplan-eco-20",
+  "titleAsPrinted": "ULTRAPLAN EC20",
+  "edition": "4005-10-2026 (UAE)",
+  "description": "Fast-drying self-levelling smoothing compound for thicknesses from 1 to 10 mm per layer",
+  "whereToUse": [
+    "Ultraplan EC20 is used in interiors for levelling and smoothing differences in thicknesses from 1 to 10 mm on new or existing substrates, preparing them to receive flooring where high resistance to loads and traffic is required.",
+    "Ultraplan EC20 is especially suitable for areas subject to wheeled service loads such as chairs and trolleys (a minimum of 3 mm thickness is recommended).",
+    "Typical applications would include use in hospitals, hotels, theatres, schools and shopping centres.",
+    "Levelling concrete slabs and cementitious screeds or Mapecem, Topcem, Mapecem Pronto or Topcem Pronto based screeds",
+    "Levelling anhydrite substrates (using a suitable primer such as Primer G or Eco Prim T Plus ME",
+    "Levelling underfloor cooling/heating systems",
+    "Levelling existing concrete pavements, terrazzo, ceramic, natural stone and magnesite floors"
+  ],
+  "notFor": [
+    "Avoid using Ultraplan EC20 for exterior levelling works, particularly when exposed to direct sunlight",
+    "Do not use Ultraplan EC20 on substrates subject to continuous rising dampness",
+    "Do not use Ultraplan EC20 on metal surfaces",
+    "Do not use Ultraplan EC20 when the temperature is below +5°C",
+    "Do not attempt to apply in large areas when the temperature is above +30°C"
+  ],
+  "standards": [
+    {"standard": "EN 13813", "value": "CT-C20-F5-A1FL"},
+    {"standard": "EMICODE", "value": "EC1 Plus - very low emission"}
+  ],
+  "technicalData": [
+    {"label": "Mixing ratio", "value": "24-25 parts of water per 100 parts by weight of Ultraplan EC20"},
+    {"label": "Thickness per layer", "value": "from 1 to 10 mm"},
+    {"label": "Density of the mix", "value": "2000 kg/m³"},
+    {"label": "Application temperature range", "value": "from +5°C to +40°C"},
+    {"label": "Pot life", "value": "20-30 minutes"},
+    {"label": "Setting time", "value": "45-60 minutes"},
+    {"label": "Set to light foot traffic", "value": "min. 3 h"},
+    {"label": "Waiting time before application of the covering: - ceramic tiles", "value": "min. 3 h"},
+    {"label": "- resilient and carpet", "value": "min. 24 h"},
+    {"label": "- wood flooring", "value": "min. 48 h"},
+    {"label": "Compressive strength ((N/mm²): - after 28 days", "value": "> 20.0"},
+    {"label": "Flexural strength (N/mm²): - after 28 days", "value": "> 5.0"}
+  ],
+  "consumption": [
+    {
+      "basis": "per mm of thickness",
+      "value": "1.6 kg/m²",
+      "quote": "1.6 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Slowly pour a 23 kg bag of Ultraplan EC20 into a rust-free bucket containing 5.5-5.75 litres of clean potable grade water and mix with a low-speed electric mixer fitted with a suitable mixing paddle to obtain a homogeneous, self-levelling lump-free mix.",
+  "packaging": "Ultraplan EC20 is available in 23 kg bags.",
+  "storage": "When stored in dry conditions in the original, unopened bags, Ultraplan EC20 has a shelf life of 12 months. If stored at high temperatures and/or high humidity conditions, the shelf life may be reduced.",
+  "notes": "PRODUCT NAME: the slug is 'ultraplan-eco-20' but the sheet is titled 'ULTRAPLAN EC20' and calls the product 'Ultraplan EC20' throughout; the name 'Ultraplan Eco 20' does not appear anywhere in the text. Confirm this is the intended sheet before publishing under that slug. TABLE EXTRACTION: in the reading-order text file the rows 'Mixing ratio', 'Thickness per layer' and 'Set to light foot traffic' are shuffled (it shows 'Mixing ratio: min. 3 h'); the technicalData values here follow the layout file, where Mixing ratio = 24-25 parts of water per 100 parts by weight, Thickness per layer = from 1 to 10 mm, Set to light foot traffic = min. 3 h. The rows '- resilient and carpet' and '- wood flooring' are sub-rows of 'Waiting time before application of the covering'. CONSUMPTION: one figure only (1.6 kg/m² per mm of thickness). For thicknesses greater than 10 mm (max. 20 mm) the sheet recommends adding approx. 30% by weight of 0.5 mm quartz (Quartz 0.5 ME) but gives no consumption figure for that extended mix. TEMPERATURE: the table gives an application temperature range from +5°C to +40°C while the recommendations say not to attempt large areas above +30°C. Thickness: 1 to 10 mm per layer, with a minimum of 3 mm recommended for areas subject to wheeled service loads. Primer G dilution in this sheet is 1 part Primer G with 3 parts of water (elsewhere in the same sheet '1:3 of water by volume'), which differs from the 1:1 printed in the Primer G sheet for cementitious substrates. Printing slips copied as printed: the anhydrite bullet has an unclosed bracket; the compressive strength label has a double bracket '((N/mm²)'. Water per bag (5.5-5.75 litres per 23 kg) agrees with the 24-25 parts per 100 ratio."
+}

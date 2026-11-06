@@ -1,0 +1,87 @@
+{
+  "slug": "mapelastic-easy",
+  "titleAsPrinted": "MAPELASTIC EASY",
+  "edition": "7559-2-2023 (UAE)",
+  "description": "Two-component acrylic modified cementitious, flexible waterproof coating easy to apply for waterproofing balconies, terraces, and bathrooms",
+  "whereToUse": [
+    "Mapelastic Easy is used for waterproofing wet areas, balconies, and terraces.",
+    "Waterproofing bathrooms, showers, balconies, terraces etc., before laying ceramic tiles",
+    "Waterproofing plasterboard, render or cementitious surfaces"
+  ],
+  "notFor": [
+    "Do not apply Mapelastic Easy at temperatures lower than +8°C",
+    "Do not add cement, aggregates, or water to Mapelastic Easy",
+    "Protect from rain and water spillages for the first 24 hours after application",
+    "Do not apply on lightweight substrates",
+    "Do not apply on cementitious substrates not sufficiently cured"
+  ],
+  "standards": [
+    {
+      "standard": "EN 14891",
+      "value": "in compliance with the requirements of EN 14891"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mixing ratio",
+      "value": "component A : component B = 3 : 1 (one 18 kg bag of component A with an 6 kg can of component B)"
+    },
+    {
+      "label": "Thickness applied",
+      "value": "Final thickness at least 2 mm (See product application section)"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "Surrounding and substrate temperature from +8°C to +40°C"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approx. 2 hours (at +20°C)"
+    },
+    {
+      "label": "Colour of the mix",
+      "value": "light grey"
+    },
+    {
+      "label": "Density of the mix",
+      "value": "1925 kg/m³"
+    },
+    {
+      "label": "Water impermeability - penetration depth",
+      "value": "Nil"
+    },
+    {
+      "label": "Impermeability to water, expressed as capillary absorption",
+      "value": "<0.1 kg/m2h0.5"
+    },
+    {
+      "label": "Initial adhesion",
+      "value": "≥ 1.5 N/mm²"
+    },
+    {
+      "label": "Crack-bridging ability at 23°C",
+      "value": "≥ 0.75 mm"
+    },
+    {
+      "label": "Mapelastic Easy must be applied in",
+      "value": "at least two coats by brush, trowel or with a roller within 60 minutes of it being mixed, to give a final required thickness"
+    },
+    {
+      "label": "After applying Mapelastic Easy",
+      "value": "wait at least 5 days for curing before laying ceramic tiles"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "application by trowel or roller, per m² per mm of thickness",
+      "value": "1.9 kg/m² per mm of thickness",
+      "quote": "Application by trowel or roller: Approx. 1.9 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "component A : component B = 3 : 1 (one 18 kg bag of component A with an 6 kg can of component B)",
+  "packaging": "Mapelastic Easy available in 24 kg kits. ▪ Component A: 18 kg bags ▪ Component B: 6 kg jerrycans",
+  "storage": "Mapelastic Easy component A may be stored for up to 12 months when contained in its original sealed packaging in a dry place. Mapelastic Easy component B may be stored for up to 24 months. Store Mapelastic Easy in a dry place and at a temperature of at least +5°C.",
+  "notes": "The one consumption figure (approx. 1.9 kg/m² per mm of thickness) is stated for trowel or roller; brush is also a listed application method but has no figure, and no spray figure is given. The sheet adds: 'the consumption figures indicated are for a seamless film on a flat surface and are higher if applied on uneven substrates'. Thickness is worded two ways: 'at a thickness of approximately 2 mm' in the characteristics and 'Final thickness at least 2 mm' in the application table; the application text itself only says 'a final required thickness'. Working time is inconsistent: the table gives pot life 'approx. 2 hours (at +20°C)' but the application text says it must be applied 'within 60 minutes of it being mixed'. No waiting time between coats is given. The 5-day wait before tiling may be longer in cold conditions or reduced in good weather per the sheet. Component B is called a '6 kg can' in the mixing ratio row and '6 kg jerrycans' under packaging. EN 14891 compliance is stated without a class designation. Final performance values are stated at 2.0 mm applied thickness. This is the UAE edition of the sheet."
+}

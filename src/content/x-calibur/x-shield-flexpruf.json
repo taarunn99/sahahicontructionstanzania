@@ -1,0 +1,56 @@
+{
+  "slug": "x-shield-flexpruf",
+  "titleAsPrinted": "X-Shield FlexPruf",
+  "description": "X-Shield FlexPruf is a high performance, flexible elasto-cement coating used for waterproofing of concrete and masonry.",
+  "whereToUse": [
+    "Wet area waterproofing",
+    "Roof waterproofing",
+    "Swimming pools",
+    "Tile/stone waterproof backing",
+    "Water tank coating",
+    "Concrete protection",
+    "Waterproofing protection layer",
+    "Resurfacing",
+    "Anti root membrane"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "SCAQMD Rule 1113",
+      "value": ""
+    },
+    {
+      "standard": "LEED NC2009 IEQ 4.2",
+      "value": ""
+    },
+    {
+      "standard": "ANSI A118.10",
+      "value": ""
+    },
+    {
+      "standard": "BS 6920",
+      "value": ""
+    },
+    {
+      "standard": "DCL Green Building Regulations",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Yield",
+      "value": "12.8 liters per kit"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "1L (1.7kg) per m²per coat"
+    },
+    {
+      "quote": "Normal applications require 2 coats."
+    }
+  ],
+  "mixing": null,
+  "packaging": "22kg kits",
+  "storage": null
+}

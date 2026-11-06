@@ -1,0 +1,186 @@
+{
+  "slug": "mapefix-ep-50",
+  "titleAsPrinted": "MAPEFIX EP 50",
+  "edition": "5810-7-2022 en (IT)",
+  "description": "Epoxy resin for structural chemical anchor",
+  "whereToUse": [
+    "It is specifically formulated for anchoring threaded components and rebar made from steel and galvanized steel that transmit structural loads into solid substrates such as concrete, lightweight concrete, stone, wood and sound masonry.",
+    "It is also suitable for anchoring metal bars in tension and compression zones, in cracked or non-cracked concrete.",
+    "dolly bars for second pours",
+    "immersed anchors or in damp environments",
+    "underwater anchors",
+    "rails of overhead cranes and tramways",
+    "safety barriers",
+    "street guardrails"
+  ],
+  "notFor": [
+    "Do not use on dusty and crumbling surfaces.",
+    "Do not use on surfaces which are dirty with oil, grease or stripping compounds, the bonding could be compromised or reduced.",
+    "Do not apply if the temperature of the air or substrate is lower than +5°C.",
+    "Do not apply loads until it has completely hardened (Tcure) (see Table 1)."
+  ],
+  "standards": [
+    {
+      "standard": "ETA option 1",
+      "value": "anchors in concrete in tension and compression zones"
+    },
+    {
+      "standard": "ETA REBAR",
+      "value": "anchors fr supplementary reinforcement"
+    },
+    {
+      "standard": "EAD 330499-01-0601",
+      "value": "for anchors"
+    },
+    {
+      "standard": "EAD 330087-00-0601",
+      "value": "post-installed rebar"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "thixotropic paste"
+    },
+    {
+      "label": "Colour",
+      "value": "light grey"
+    },
+    {
+      "label": "Density",
+      "value": "1.50 g/cm³"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Start setting time",
+      "value": "see Table 1"
+    },
+    {
+      "label": "Complete hardening time",
+      "value": "see Table 1"
+    },
+    {
+      "label": "Compressive strength (EN 196-1)",
+      "value": "122 N/mm²"
+    },
+    {
+      "label": "Flexural strength (EN 196-1)",
+      "value": "66 N/mm²"
+    },
+    {
+      "label": "Modulus of elasticity (EN ISO 527-2)",
+      "value": "6,300 N/mm²"
+    },
+    {
+      "label": "Service temperature",
+      "value": "-40°C to +72°C"
+    },
+    {
+      "label": "Hardness",
+      "value": "86 Shore D"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "the whole CONSUMPTION section: no figure, consumption depends on the volume of the hole to be filled",
+      "value": "According to the volume of the hole to be filled.",
+      "quote": "According to the volume of the hole to be filled."
+    },
+    {
+      "basis": "cartridge volume (from the product description and PACKAGING, not from the CONSUMPTION section)",
+      "value": "585 ml",
+      "quote": "It is available in 585 ml bi-axial cartridges."
+    },
+    {
+      "basis": "resin discarded when a mixer is started (wastage, not a consumption rate)",
+      "value": "first 3 shots of resin",
+      "quote": "Discard the first 3 shots of resin; they may not be mixed correctly."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Table 2",
+      "values": "Installation parameters for threaded rods"
+    },
+    {
+      "row": "threaded rod",
+      "values": "M8 M10 M12 M16 M20 M24 M27 M30"
+    },
+    {
+      "row": "threaded rod diameter d mm",
+      "values": "8 10 12 16 20 24 27 30"
+    },
+    {
+      "row": "hole diameter d0 mm",
+      "values": "10 12 14 18 22 28 30 35"
+    },
+    {
+      "row": "minimum edge distance cmin mm",
+      "values": "35 40 45 50 60 65 75 80"
+    },
+    {
+      "row": "minimum spacing between rods smin mm",
+      "values": "40 50 60 75 95 115 125 140"
+    },
+    {
+      "row": "hef min mm",
+      "values": "60 60 70 80 90 96 108 120"
+    },
+    {
+      "row": "hef max mm",
+      "values": "160 200 240 320 400 480 540 600"
+    },
+    {
+      "row": "substrate minimum thickness hmin mm",
+      "values": "hef + 30 mm (≥ 100 mm) hef + 2 d0"
+    },
+    {
+      "row": "maximum torque moment Tinst max Nm",
+      "values": "10 20 40 60 100 170 250 300"
+    },
+    {
+      "row": "Table 5",
+      "values": "Installation parameters for rebars"
+    },
+    {
+      "row": "rebar",
+      "values": "ɸ8 ɸ10 ɸ12 ɸ14 ɸ16 ɸ20 ɸ24 ɸ25 ɸ28 ɸ32"
+    },
+    {
+      "row": "rebar d mm",
+      "values": "8 10 12 14 16 20 24 25 28 32"
+    },
+    {
+      "row": "hole diameter d0 mm",
+      "values": "10-12 12-14 14- 18 20 25 30-32 30-32 35 40"
+    },
+    {
+      "row": "minimum edge distance",
+      "values": "cmin mm 35 40 45 50 50 60 70 70 75 85"
+    },
+    {
+      "row": "minimum spacing between rebars",
+      "values": "smin mm 40 50 60 70 75 95 120 120 130 150"
+    },
+    {
+      "row": "hef mm min",
+      "values": "60 60 70 75 80 90 96 100 112 128"
+    },
+    {
+      "row": "hef mm max",
+      "values": "160 200 240 280 320 400 480 500 560 640"
+    },
+    {
+      "row": "substrate minimum thickness",
+      "values": "hmin mm hef + 30mm) mm (≥ 100 hef + 2 d0"
+    }
+  ],
+  "mixing": null,
+  "packaging": "Boxes of twelve 585 ml cartridges with 12 static mixers with extension tube.",
+  "storage": "24 months in their original packaging at a temperature of +5° to +25°C.",
+  "notes": "1) The sheet gives NO consumption figure and NO fixings-per-cartridge table: CONSUMPTION reads only 'According to the volume of the hole to be filled.' The other two consumption entries (585 ml cartridge, first 3 shots discarded) are supporting facts from elsewhere in the sheet, not consumption rates. Any anchors-per-cartridge number has to be calculated from hole and bar geometry and is not printed. No consumption formula is printed. 2) consumptionTable holds the two installation-parameter tables: Table 2 (threaded rods M8-M30, first ten rows) and Table 5 (rebars, last nine rows). Values are in column order of the 'threaded rod' / 'rebar' header row. 3) Table 5, hole diameter for the 12 mm rebar: the cell is '14-16' but it is broken across two lines in the layout file ('14-' with '16' on the next line) and appears as '1416' in the reading-order file. The verbatim row therefore shows '14-' in third position; read it as 14-16 and confirm against the PDF. 4) Table 5 row labels are broken across lines in the extraction: 'rebar d mm' is the 'rebar diameter' row; 'hef mm min' and 'hef mm max' are the minimum and maximum 'embedment depth hef'; in Table 2 'hef min mm' / 'hef max mm' are likewise the embedment depth rows. 5) Substrate minimum thickness (hmin): Table 2 prints 'hef + 30 mm (≥ 100 mm)' for the smaller sizes and 'hef + 2 d0' for the larger ones, but the text does not show at which diameter the rule changes. In Table 5 the same cell is garbled ('hef + 30mm) mm (≥ 100' then 'hef + 2 d0') and is copied as extracted. Confirm the changeover size against the PDF. 6) Table 2 covers M8-M30 while the design-load Table 4 runs to M42; Table 5 covers 8-32 mm while Table 7 runs to 40 mm. Both load tables carry a 'not covered by the ETA' marker whose extent cannot be determined from the text. Hole diameters for the larger sizes are not given. 7) Service temperature is printed '-40°C to +72°C' in the technical data table but '-40°C/+70°C' in Table 1. 8) Setting and loading times are only in Table 1 (the data table just says 'see Table 1'), headed Substrate (temperature) / Gel time / Load time dry substrate / Load time wet substrate: +5°C 80 min., 60 h, 120 h; +10°C 60 min., 48 h, 96 h; +15°C 40 min., 24 h, 48 h; +20°C 30 min., 12 h, 24 h; +25°C 12 min., 10 h, 20 h; +35°C 8 min., 7 h, 14 h; +40°C 6 min., 4 h, 8 h. Package temperature +5°C/+25°C. The data table calls these 'Start setting time' and 'Complete hardening time', Table 1 calls them 'Gel time' and 'Load time'. 9) The data table row 'Design values of ultimate bond stress' says 'see Table' with no number (it is Table 8). Tables 3, 4, 6, 7 and 8 (bond resistance and design loads) were not extracted here; several cells in Tables 4 and 7 are scrambled in the text extraction and must be read from the PDF. 10) 'ETA REBAR (anchors fr supplementary reinforcement)' is printed with the typo 'fr'; no ETA number is given in the text. The EAD documents are cited as the test methods behind the tables. 11) 'mixing' is null because no ratio is printed: the two components are mixed in the static mixer as they are extruded. 12) This is the international 'en (IT)' edition (Mapei S.p.A. Milan), dated 2022, not a UAE edition."
+}

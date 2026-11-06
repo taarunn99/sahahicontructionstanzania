@@ -1,0 +1,122 @@
+{
+  "slug": "adesilex-p7",
+  "titleAsPrinted": "ADESILEX P7",
+  "edition": "61-12-2017 (UAE)",
+  "description": "High-performance cementitious adhesive with no vertical slip for ceramic and porcelain tiles",
+  "whereToUse": [
+    "Interior and exterior bonding of ceramic tiles, porcelain and mosaics on floors, walls and ceilings.",
+    "conventional renders or cementitious mortar on walls",
+    "interior aerated concrete block walls",
+    "gypsum or anhydrite after having first applied Primer G",
+    "cementitious screeds, as long as they are sufficiently cured and dry",
+    "interior painted walls, as long as the paint is firmly anchored",
+    "Tile on tile of existing flooring with tiles up to 900 cm²",
+    "Bonding on irregular floor substrates and renders, without levelling, to a thickness of 15 mm"
+  ],
+  "notFor": [
+    "on precast and poured concrete walls",
+    "on walls or floors subject to extreme flexing or vibration (wood, fibre-cement, etc.)",
+    "on metal surfaces"
+  ],
+  "standards": [
+    {
+      "standard": "EN 12004",
+      "value": "C2T"
+    },
+    {
+      "standard": "ISO 13007-1",
+      "value": "C2T"
+    },
+    {
+      "standard": "ANSI A118.4",
+      "value": "In compliance with"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 R PLUS - very low emission"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "grey or white"
+    },
+    {
+      "label": "Mixing ratio",
+      "value": "100 parts Adesilex P7 with 26-28 parts of water by weight for Adesilex P7"
+    },
+    {
+      "label": "Density of the mix (kg/m³)",
+      "value": "1600"
+    },
+    {
+      "label": "Pot life",
+      "value": "over 8 hours"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Open time (EN 1346)",
+      "value": "20 minutes"
+    },
+    {
+      "label": "Adjustability time",
+      "value": "approx. 60 minutes"
+    },
+    {
+      "label": "Ready for grouting on wall",
+      "value": "after 4-8 hours depending on absorbency"
+    },
+    {
+      "label": "Ready for grouting on floors",
+      "value": "after 24 hours"
+    },
+    {
+      "label": "Set to light foot traffic",
+      "value": "24 hours"
+    },
+    {
+      "label": "Ready for use",
+      "value": "14 days"
+    },
+    {
+      "label": "Bonding strength in compliance with EN 1348 (N/mm2): - initial bonding after 28 days",
+      "value": "1.4"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Bonding ceramic tiles - mosaics and small sizes in general, trowel n. 4",
+      "value": "2 kg/m²",
+      "quote": "-in general (trowel n. 4): 2 kg/m²"
+    },
+    {
+      "basis": "Bonding ceramic tiles - normal sizes, trowel n. 5",
+      "value": "2.5-3 kg/m²",
+      "quote": "-normal sizes (trowel n. 5): 2.5-3 kg/m²"
+    },
+    {
+      "basis": "Bonding ceramic tiles - large sizes, exterior floors, trowel n. 6",
+      "value": "4 kg/m²",
+      "quote": "Large sizes, exterior floors (trowel n. 6): 4 kg/m²"
+    },
+    {
+      "basis": "Spot-bonding insulation materials - foam, etc.",
+      "value": "approx. 0.5-0.8 kg/m²",
+      "quote": "-Foam, etc.: approx. 0.5-0.8 kg/m²"
+    },
+    {
+      "basis": "Spot-bonding insulation materials - gypsum board panels, foamed concrete",
+      "value": "approx. 1.5 kg/m²",
+      "quote": "-Gypsum board panels, foamed concrete: approx. 1.5 kg/m²"
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Use 26-28 parts of water for every 100 parts by weight of Adesilex P7, which is equal to 6.5-7.0 L of water for every 25 kg of Adesilex P7.",
+  "packaging": "Adesilex P7 white and grey are available in 25 kg bags.",
+  "storage": "Adesilex P7 can be stored 12 months in a normal environment in original packaging.",
+  "notes": "1) This is an old edition (61-12-2017). 2) Consumption list layout is ambiguous: the line 'Mosaics and small sizes' is followed by two dashed lines, '-in general (trowel n. 4): 2 kg/m²' and '-normal sizes (trowel n. 5): 2.5-3 kg/m²', so 'normal sizes' is printed as if it were a sub-item of 'Mosaics and small sizes'. The basis text in consumption reflects the most natural reading (small sizes = trowel 4, normal sizes = trowel 5). 3) Pot life: body text says 'approximately 8 hours', the table says 'over 8 hours'. 4) The mixing ratio row in the table reads oddly as printed ('...26-28 parts of water by weight for Adesilex P7'); copied as is. 5) Primer naming differs inside the sheet: 'Primer G' in the application examples, 'Primer G or Ecoprim T' in substrate preparation. 6) The sheet says bonding is possible 'to a thickness of 15 mm' but gives no thickness row in the technical data and no per-mm consumption. 7) The WHERE TO USE paragraph also covers wet areas and spot bonding of insulating materials (expanded polystyrene, rock and glass wool, Eraclit wood-cement panels, sound-deadening panels); that sentence is not in whereToUse because the extraction breaks 'wood-cement' across a line. The application example 'gypsum board' is also not in whereToUse (8-item cap). 8) ANSI A118.4 is listed under 'In compliance with' with no class. VOC is printed as 0 g/l."
+}

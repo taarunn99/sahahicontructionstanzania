@@ -1,0 +1,71 @@
+{
+  "slug": "yhcoat-2060",
+  "titleAsPrinted": "YHCoat-2060",
+  "edition": null,
+  "description": "YHCoat-2060 is a one-component waterproofing coating formulated with a highly active polymer emulsion as its primary film-forming agent.",
+  "whereToUse": [
+    "Suitable for new construction and refurbishment projects with waterproof requirements",
+    "especially suitable for wet rooms, such as kitchens, bathrooms, pools, and other areas with high moisture exposure"
+  ],
+  "notFor": [],
+  "advantages": [
+    "The unique keyed finish enhances the bonding strength with tile system",
+    "Water-based, safe, environmentally friendly, and low VOC",
+    "Excellent long-term water resistance",
+    "Ready to use after opening the pail"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D412",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D7234",
+      "value": ""
+    },
+    {
+      "standard": "ASTM C836",
+      "value": ""
+    },
+    {
+      "standard": "BS EN 12390-8",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Viscous liquid"
+    },
+    {
+      "label": "Colour",
+      "value": "Blue"
+    },
+    {
+      "label": "Density",
+      "value": "1.5-1.7 kg/L"
+    },
+    {
+      "label": "Solid content by weight",
+      "value": "78-81 %"
+    },
+    {
+      "label": "Ambient air temperature",
+      "value": "5 ℃ min / +40℃ max"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "≈2.0kg/ m², 12.5 m² / set@1mm dry film"
+    },
+    {
+      "quote": "1.0mm dry film by 2 coats"
+    },
+    {
+      "quote": "apply a 3rd coat at 1.0 kg/m²"
+    }
+  ],
+  "mixing": null,
+  "packaging": "25 kg per plastic pail",
+  "storage": null
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "keraflex-maxi-s1",
+  "titleAsPrinted": "KERAFLEX MAXI S1",
+  "edition": "56-7-2026 (UAE)",
+  "description": "High-performance, deformable cementitious grey or white adhesive, with extended open time and no vertical slip, very low emission of volatile organic compounds and with fully offset residual Greenhouse Gas emissions. Especially suitable for the installation of large-size porcelain tiles and natural stone",
+  "whereToUse": [
+    "Bonding all types and sizes of ceramic tiles (double-fired, single-fired, porcelain tiles, klinker, terracotta, etc.) at thickness up to 15 mm on irregular internal and external substrates and render without skimming the surface prior to bonding",
+    "Bonding stone on internal and external surfaces (stable stone, not sensitive to humidity)",
+    "Bonding all types of mosaic on interior and exterior surfaces, also in swimming pools",
+    "Overlaying ceramic and stone on existing floors (ceramic, marble, etc.).",
+    "Bonding floors subjected to intense traffic.",
+    "Bonding tiles and strips with profiled or hollow backs (porcelain tiles, klinker, single-fired, and terracotta) on internal and external surfaces.",
+    "Installing tiles on precast concrete walls and concrete substrates.",
+    "Bonding tiles in swimming pools and tanks."
+  ],
+  "notFor": [
+    "on not sufficiently cured concrete",
+    "on wood or wooden conglomerates",
+    "on metal, rubber, PVC, and linoleum surfaces",
+    "for slabs of marble and natural stone which are subject to efflorescence or staining",
+    "with natural stone or composite slabs subject to movements caused by dampness"
+  ],
+  "standards": [
+    {
+      "standard": "EN 12004",
+      "value": "C2TES1"
+    },
+    {
+      "standard": "ISO 13007-1",
+      "value": "C2TES1"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "grey and white"
+    },
+    {
+      "label": "Mixing ratio",
+      "value": "100 parts in weight of Keraflex Maxi S1 with 28-30 parts in weight of water"
+    },
+    {
+      "label": "Density of mix",
+      "value": "1600 kg/m³"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "more than 8 hours"
+    },
+    {
+      "label": "Application temperature",
+      "value": "+5°C to +40°C"
+    },
+    {
+      "label": "Open time",
+      "value": "> 30 minutes"
+    },
+    {
+      "label": "Adjustment time",
+      "value": "approximately 45 minutes"
+    },
+    {
+      "label": "Grouting joints in wall tiles",
+      "value": "after 4-8 hours"
+    },
+    {
+      "label": "Grouting joints in floor tiles",
+      "value": "after 24 hours"
+    },
+    {
+      "label": "Set to foot traffic",
+      "value": "24 hours"
+    },
+    {
+      "label": "Ready for service",
+      "value": "14 days"
+    },
+    {
+      "label": "Deformability according to ISO 13007-1 and EN 12004",
+      "value": "S1 - deformable (> 2.5 mm, < 5 mm)"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "per mm of thickness",
+      "value": "1.2 kg/m² per mm of thickness",
+      "quote": "1.2 kg/m² per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Use approximately 7-7.5 litres of water for each 25 kg bag of powder of Keraflex Maxi S1.",
+  "packaging": "Keraflex Maxi S1 is supplied in grey and white 25 kg bags.",
+  "storage": "Keraflex Maxi S1 may be stored for 12 months in its original packaging in a dry place.",
+  "notes": "1) The title is printed on two lines ('KERAFLEX' / 'MAXI S1'). 2) Consumption is given only per mm of thickness; the sheet gives no trowel-size figures. The maximum thickness (up to 15 mm) appears in the benefits list and WHERE TO USE, not in the technical data table; no minimum thickness is stated. 3) Pot life: body text says the mix 'lasts approximately 8 hours', the table says 'more than 8 hours'. Open time: body text 'at least 30 minutes', table '> 30 minutes'. 4) The sheet lists 6 'Do not use' cases; notFor holds 5. Not included: 'when floors need to be put back into service quickly'. 5) Swimming pools/basins: 'may be filled up 21 days after the application', versus 14 days for normal service. 6) Colour is printed 'grey and white' in the table and 'grey or white' in the description."
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "kerabond-t",
+  "titleAsPrinted": "KERABOND T",
+  "edition": "78-8-2026 en (IT)",
+  "description": "Cementitious adhesive with no vertical slip for ceramic tiles",
+  "whereToUse": [
+    "Indoor and outdoor fixing of ceramic tiles and mosaics of all types on floors and walls.",
+    "Paper-faced or mesh-backed mosaics and all types of ceramic tiles (quarry tiles, single fired and klinker tiles, etc.), on the following substrates:",
+    "conventional renders or cement mortar walls",
+    "cement screeds, made with products of damp earth consistency or self-levelling",
+    "gypsum substrates and anhydrite screeds as long as they are dry and first treated with a primer, such as Primer G or Eco Prim T Plus."
+  ],
+  "notFor": [
+    "on wood and wood conglomerates",
+    "on gypsum board walls",
+    "on metal, rubber, PVC and linoleum surfaces",
+    "for laying tiles which require a layer of adhesive more than 5 mm thick",
+    "for the installation of non-absorbent tiles (porcelain tiles, single-fired tiles, klinker tiles, etc.) on other non-absorbent wall and floor substrates."
+  ],
+  "standards": [
+    {
+      "standard": "EN 12004",
+      "value": "C1T"
+    },
+    {
+      "standard": "EN 12004",
+      "value": "C2ES2 (if mixed with Isolastic)"
+    },
+    {
+      "standard": "ISO 13007-1",
+      "value": "C1T"
+    },
+    {
+      "standard": "ISO 13007-1",
+      "value": "C2ES2 (if mixed with Isolastic)"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emissions"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "white or grey"
+    },
+    {
+      "label": "Mix ratio",
+      "value": "100 parts Kerabond T grey or white with approx. 25-27 parts by weight of water"
+    },
+    {
+      "label": "Density of mix",
+      "value": "1450 kg/m³"
+    },
+    {
+      "label": "Pot life",
+      "value": "over 8 hours"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Open time",
+      "value": "20 minutes"
+    },
+    {
+      "label": "Adjustability time",
+      "value": "approx. 45 minutes"
+    },
+    {
+      "label": "Wall grouting",
+      "value": "after 4-8 hours"
+    },
+    {
+      "label": "Floor grouting",
+      "value": "after 24 hours"
+    },
+    {
+      "label": "Set to light foot traffic",
+      "value": "24 hours"
+    },
+    {
+      "label": "Ready for use",
+      "value": "14 days"
+    },
+    {
+      "label": "Adhesion strength: - initial adhesion strength (after 28 days)",
+      "value": "1.4 N/mm²"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "CONSUMPTION section - single range, no trowel size or thickness stated",
+      "value": "2-5 kg/m²",
+      "quote": "2-5 kg/m²."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "The quantity of water to be used is approx. 25-27 parts per 100 parts (by weight) of Kerabond T (equal to approx. 6.3-6.8 litres of water for 25 kg of powder).",
+  "packaging": "Kerabond T is supplied in white and grey in 25 kg paper bags.",
+  "storage": "12 months when stored in a normal environment and original packaging.",
+  "notes": "1) Consumption is given only as the range '2-5 kg/m²' with no trowel size, tile size or bed thickness attached, so the sheet gives no basis for picking a point in the range. 2) Open time: body text says '20-30 minutes', the technical data table says '20 minutes'. 3) The sheet lists 7 'Do not use' cases; notFor holds 5. Not included: 'where the surface must be set to light foot traffic rapidly' and 'on floors and coverings that are subject to strong movement or vibrations.' The sheet also says to use Kerabond T mixed with Isolastic (not water) on foamed concrete walls, pre-cast or cast-concrete structures, underfloor heating, large-size tiles, glass mosaics and stable, moisture-proof stone. 4) Class C2ES2 applies only when mixed with Isolastic; the sheet says the technical data for that mix are on the Isolastic sheet, so all figures here are for the water mix (C1T). 5) In the .txt extraction the fifth notFor item is broken across a line as 'non-' / 'absorbent'; it is written here joined as 'non-absorbent'."
+}

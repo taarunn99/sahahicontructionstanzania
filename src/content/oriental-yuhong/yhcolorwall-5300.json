@@ -1,0 +1,73 @@
+{
+  "slug": "yhcolorwall-5300",
+  "titleAsPrinted": "YHColorWall-5300",
+  "edition": null,
+  "description": "YHColorWall-5300 is a cold-applied, one-component waterborne liquid waterproofing membrane.",
+  "whereToUse": [
+    "It is suitable for waterproofing projects in both new construction and refurbishment",
+    "covering new and old exterior wall and roof surfaces, such as concrete, stucco, unit masonry, steel, or compatible cementitious substrate"
+  ],
+  "notFor": [],
+  "advantages": [
+    "High strength and high elasticity",
+    "Seamless waterproofing membrane",
+    "UV resistant and UV stable",
+    "Highly elastic and crack-bridging",
+    "Easy to apply, one component, ready to use"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D412",
+      "value": ""
+    },
+    {
+      "standard": "BS EN 1542",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E903",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E1980",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Density",
+      "value": "1.35kg/L"
+    },
+    {
+      "label": "Solid contents by weight",
+      "value": "65%"
+    },
+    {
+      "label": "Solid contents by volume",
+      "value": "60%"
+    },
+    {
+      "label": "Product colour",
+      "value": "White/Blue/Grey/Red/Green"
+    },
+    {
+      "label": "Substrate moisture content",
+      "value": "≤ 4%"
+    },
+    {
+      "label": "Applied product ready for use",
+      "value": "72 hours at +30°C"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "for wall: 2kg/ m²"
+    },
+    {
+      "quote": "for roof: 3kg/ m²"
+    }
+  ],
+  "mixing": null,
+  "packaging": "20 kg pail",
+  "storage": null
+}

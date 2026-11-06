@@ -1,0 +1,29 @@
+{
+  "slug": "quartz-sand",
+  "titleAsPrinted": "QUARTZ ME",
+  "edition": "181/9302/9303/9304-9-2024 ( UAE)",
+  "description": "Quartz sand for use with epoxy and polyurethane resin",
+  "whereToUse": [
+    "To make resin mortar for screeds or repairing floors.",
+    "To make self-levelling resin mortar and skimming mortar for cementitious surfaces.",
+    "Broadcasting the surface of resin in multi-layered coating systems or to create keying layers for resin or cementitious products.",
+    "To create non-slip surface finishes."
+  ],
+  "notFor": [],
+  "standards": [],
+  "technicalData": [
+    { "label": "COLOUR", "value": "Off-white." },
+    { "label": "TYPES OF MIX AVAILABLE", "value": "Quartz 0.25 ME" },
+    { "label": "TYPES OF MIX AVAILABLE", "value": "Quartz 0.5 ME" },
+    { "label": "TYPES OF MIX AVAILABLE", "value": "Quartz 0.9 ME" },
+    { "label": "TYPES OF MIX AVAILABLE", "value": "Quartz 1.2 ME" },
+    { "label": "TYPES OF MIX AVAILABLE", "value": "Quartz 1.9 ME" }
+  ],
+  "consumption": [],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "25 kg bags.",
+  "storage": "Store the product in its original packaging in a dry area. The product may be stored for 24 months.",
+  "notes": "1) The sheet gives NO consumption figure. The CONSUMPTION section reads only 'Dependant on type of use.' and the application text refers the reader to the data sheet of the resin or cementitious product being applied for sand choice and consumption rates. Any calculator figure for sand must come from the resin product's own sheet. 2) The sheet has no technical data table: no grain-size distribution, bulk density, moisture or hardness figures. The technicalData rows were taken from the COLOUR section and the TYPES OF MIX AVAILABLE list (five grades: Quartz 0.25 ME, 0.5 ME, 0.9 ME, 1.2 ME, 1.9 ME), because nothing else is printed. The numbers in the grade names are not explained in this sheet (it calls them 'particle sizes' without a unit). 3) The sheet title is 'QUARTZ ME' and the grades carry the 'ME' suffix, while the other Mapei sheets in this set refer to 'Quartz 0.25', 'Quartz 0.5', 'Quartz 0.9', 'Quartz 1.2' without the suffix. 4) The edition code is printed with a space inside the bracket, '( UAE)', and lists four product codes for five grades. 5) No limits (do not use on...), no standards and no mixing ratio are stated."
+}

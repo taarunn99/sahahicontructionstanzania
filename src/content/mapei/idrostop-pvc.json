@@ -1,0 +1,84 @@
+{
+  "slug": "idrostop-pvc",
+  "titleAsPrinted": "IDROSTOP PVC BI BE ME",
+  "edition": "2138-8-2023 (UAE)",
+  "description": "PVC waterstop for sealing expansion and cold joints",
+  "whereToUse": [
+    "For waterproofing expansion and cold joints in new or existing civil, industrial, and hydraulic constructions."
+  ],
+  "notFor": [],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "BEC 20",
+      "value": "200 15 4"
+    },
+    {
+      "label": "BEC 25",
+      "value": "250 15 4"
+    },
+    {
+      "label": "BIC 20",
+      "value": "200 15 4"
+    },
+    {
+      "label": "BIC 25",
+      "value": "250 15 4"
+    },
+    {
+      "label": "BEC 32",
+      "value": "320 15 3"
+    },
+    {
+      "label": "BEC 32T",
+      "value": "320 10 4"
+    },
+    {
+      "label": "BEC 400",
+      "value": "400 10 4"
+    },
+    {
+      "label": "BEE 20",
+      "value": "200 15 4"
+    },
+    {
+      "label": "BEE 25",
+      "value": "250 15 4"
+    },
+    {
+      "label": "BIE 20",
+      "value": "200 15 4"
+    },
+    {
+      "label": "BIE 25",
+      "value": "250 15 4"
+    },
+    {
+      "label": "Hardness",
+      "value": "Shore A >80"
+    },
+    {
+      "label": "Weight density",
+      "value": "G/cc 1.31±0.03"
+    },
+    {
+      "label": "Tensile strength",
+      "value": "N/mm2 14"
+    },
+    {
+      "label": "Breaking strain",
+      "value": "% min 300"
+    },
+    {
+      "label": "Operational temperature",
+      "value": "-30ºC to +70ºC"
+    }
+  ],
+  "consumption": [],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "Idrostop PVC ME is supplied in rolls.",
+  "storage": "Store in a dry place at a temperature of between +10°C and +40°C.",
+  "notes": "No consumption, coverage or overlap figure is printed; the only quantity data are the roll lengths in the profile table. technicalData profile rows: label is the profile Type and the value is the three table columns in printed order - Width (mm), Roll Length (m), Normal thickness (middle of the profile) (mm) - so 'BEC 20: 200 15 4' means 200 mm wide, 15 m roll, 4 mm thick. All 11 profile rows are kept, which takes technicalData to 16 rows (over the 12 asked for). Table 'Use' column, not carried in the rows: BEC 20/25 External-Construction Joints; BIC 20/25 Internal-Construction Joints; BEC 32 and BEC 32T 'Compartment PVC system'; BEC 400 'Compartment PVC system'; BEE 20/25 External-Expansion Joint; BIE 20/25 Internal-Expansion Joint. Roll length is 15 m except BEC 32T and BEC 400 (10 m). BEC 32 is the only profile printed at 3 mm thickness (all others 4 mm, including BEC 32T) - worth checking against the PDF. For the property rows the value is the unit column followed by the result column as printed (e.g. 'N/mm2 14'); test methods printed alongside are ISO 868 ASTM D2240 (hardness), ISO 1183 ASTM D792 (weight density), ISO 527 ASTM D638 (tensile strength, breaking strain). These are test methods, not classifications, so standards is empty. Density unit is printed 'G/cc'. The sheet also lists prefabricated junctions (Three-way Flat Junction and Four-way Flat Junction, each for BEC 25, BEC 32, BEC 400, BIC 25, BIE 25) with no dimensions. WHERE TO USE has a single sentence, so whereToUse has 1 item, not 3. No limits/'do not use' statements are printed. Naming is inconsistent: title is 'IDROSTOP PVC BI BE ME', body text says 'Idrostop PVC ME', 'Idrostop PVC BIC/BIE ME' and 'Idrostop PVC BEC/BEE ME'. This is the UAE edition (refers to www.mapei.ae)."
+}

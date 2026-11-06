@@ -1,0 +1,57 @@
+{
+  "slug": "primer-sn",
+  "titleAsPrinted": "PRIMER SN",
+  "edition": "2901-5-2023 (UAE)",
+  "description": "Two-component fillerized epoxy primer",
+  "whereToUse": [
+    "Adhesion promoter for epoxy and polyurethane coating products in general",
+    "Adhesion promoter for self-levelling and/or multi-layered coating products",
+    "Adhesion promoter for flooring made from the synthetic mortar",
+    "Adhesion promoter for coatings from the Ultratop, Ultratop Living and Ultratop Loft ranges",
+    "Fluid adhesive to seal cracks and make structural bonds"
+  ],
+  "notFor": [
+    "Do not apply Primer SN on substrates with rising damp if they are going to be coated with an epoxy or polyurethane system",
+    "Do not dilute Primer SN with solvent or water",
+    "Do not apply Primer SN on dusty, crumbling, or weak substrates",
+    "Do not apply Primer SN on substrates with oil or grease stains or stains in general",
+    "Do not apply the product directly on substrates with moisture content higher than 4% and/or with capillary rising damp"
+  ],
+  "standards": [
+    { "standard": "EN 13501-1", "value": "BFL-s1" },
+    { "standard": "DIN ISO/TS 11665-13", "value": "Compliant with DIN ISO/TS 11665-13 standards, verified and certified by the IAF accredited laboratory for radionuclide analysis." },
+    { "standard": "DIN ISO/TS 11665-13", "value": "R>3" }
+  ],
+  "technicalData": [
+    { "label": "Colour of mix", "value": "neutral" },
+    { "label": "Mixing ratio", "value": "component A : component B = 80 : 20" },
+    { "label": "Density of mix (EN ISO 2811-1) (kg/m³)", "value": "1500" },
+    { "label": "Workability time at +20°C", "value": "30 min" },
+    { "label": "Application temperature", "value": "from +8°C to +35°C" },
+    { "label": "Waiting time between coats at +23°C and 50% R.H.: - on Primer SN without a dry-shake finish of quartz sand", "value": "min. 12 h max. 48 h" },
+    { "label": "- on Primer SN with a dry-shake finish of quartz sand", "value": "min. 12 h no maximum limit*" },
+    { "label": "Hardening time at +23°C and 50% R.H.: - dust dry", "value": "approx. 6 hours" },
+    { "label": "- set to foot traffic", "value": "approx. 24 hours" },
+    { "label": "- full hardening time", "value": "approx. 7 days" },
+    { "label": "Adhesion strength (N/mm²)", "value": "3.20" },
+    { "label": "Compressive strength (N/mm²)", "value": "63 (7 days at +23°C)" }
+  ],
+  "consumption": [
+    {
+      "basis": "Primer SN (A+B) per coat, range depending on substrate roughness, absorbency, temperature",
+      "value": "0.3-0.70 kg/m² per coat",
+      "quote": "0.3-0.70 kg/m² per coat depending on the characteristics of the substrate such as roughness, absorbency, temperature, etc."
+    },
+    {
+      "basis": "Quartz sand that may be mixed into Primer SN to even out rough surfaces, maximum proportion by weight",
+      "value": "up to 50% by weight of quartz sand",
+      "quote": "Add Mapecolor Paste if required and up to 50% by weight of quartz sand according to the room temperature (to even out rough surfaces)."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Mixing ratio: component A : component B = 80 : 20",
+  "packaging": "20 kg kits: component A = 16 kg; component B = 4 kg.",
+  "storage": "Primer SN must be stored in its original packaging in a dry place at a temperature of between +5°C and +30°C. Max. 24 months.",
+  "notes": "1) The only consumption figure is 0.3-0.70 kg/m² per coat (printed exactly like that, '0.3-0.70'). The sheet gives NO rate for the Quartz 0.5 broadcast (or the 1.2 mm quartz broadcast used under Ultratop) and no separate figure for the sand-filled scratch coat; 'up to 50% by weight of quartz sand' is the only filler figure and the sheet does not say what the percentage is taken of. 2) Other sheets in this set quote different Primer SN rates: Mapefloor FC 200 ME says 0.15-0.25 kg/m²; Mapefloor I 300 SL ME says 0.3 kg/m² with 20% by weight of Quartz 0.5 and a light broadcast of 0.7-1.0 kg/m². 3) Moisture wording pulls in two directions: the sheet says Primer SN 'may even be applied on moderately damp surfaces' and that the substrate should be 'preferably dry or slightly damp', but also says not to apply directly on substrates with moisture content higher than 4% and that substrate moisture must be a maximum of 4%. 4) The final performance table compares adhesion strength (3.20 N/mm²) with the EN 13813 requirement for synthetic resin-based screeds (≥ 1.5), but the sheet does not state an EN 13813 classification or compliance for the product, so none is listed; only the reaction to fire class and the radon standard are recorded. 5) The 'no maximum limit*' waiting time carries the footnote '*surfaces must be dry with no dust'. 6) technicalData labels that begin with '-' are sub-rows as printed: '- on Primer SN with a dry-shake finish of quartz sand' sits under 'Waiting time between coats at +23°C and 50% R.H.', and '- set to foot traffic' / '- full hardening time' sit under 'Hardening time at +23°C and 50% R.H.'."
+}

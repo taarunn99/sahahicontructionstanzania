@@ -1,0 +1,64 @@
+{
+  "slug": "mapefibre-ns-12",
+  "titleAsPrinted": "MAPEFIBRE NS 12",
+  "edition": "751-06-2026-EN",
+  "description": "12 mm monofilament polypropylene microfibres for concrete",
+  "whereToUse": [
+    "Mapefibre NS 12 are recommended to improve the resistance of concrete to cracks caused by plastic shrinkage as well as the fire resistance properties and the durability of concrete.",
+    "production of concrete used for industrial floors, airport forecourts and multi-storey car-parks",
+    "production of precast reinforced concrete panels and pipes and concrete elements",
+    "production of fire-resistant concrete"
+  ],
+  "notFor": [
+    "The use of Mapefibre NS 12 does not offer any advantage from a structural point of view, and may not be considered as an alternative solution to metal reinforcement.",
+    "The use of this product is allowed only at industrial sites (derogation 4a) and if during the intended end-use synthetic polymer microparticles result as permanently incorporated into a solid matrix (5c)."
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Length of fibres (mm)",
+      "value": "12"
+    },
+    {
+      "label": "Diameter (µm)",
+      "value": "32 ± 1.6"
+    },
+    {
+      "label": "Density (g/cm³)",
+      "value": "0.91"
+    },
+    {
+      "label": "Flame point",
+      "value": "+400°C"
+    },
+    {
+      "label": "Melting point",
+      "value": "+160°C-170°C"
+    },
+    {
+      "label": "Water absorption",
+      "value": "none"
+    },
+    {
+      "label": "Resistance to alkalis, acids and salts",
+      "value": "high"
+    },
+    {
+      "label": "Tensile strength (N/mm²)",
+      "value": "400-500"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "normal dosage per m³ of concrete",
+      "value": "600 g/m³",
+      "quote": "The normal dosage of Mapefibre NS 12 is 600 g/m³, usually added to the concrete."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "Mapefibre NS 12 are supplied in boxes with 30 degradable/pulpable paper bags, 600 grams each.",
+  "storage": "Mapefibre NS 12 may be stored for 36 months in their sealed bags. Protect from direct sunlight and rain.",
+  "notes": "1) Only one dosage figure is printed (600 g/m³). The sheet adds 'Higher dosage can be used for special applications such as shotcrete or fire resistance.' with no figure. 2) One bag is 600 grams, i.e. the same as the normal dose for 1 m³; the sheet does not itself state 'one bag per m³'. 3) The title is printed over two lines ('MAPEFIBRE NS' / '12'); photo captions write it 'Mapefibre NS12'. 4) The safety text cites 'Reg. 1906/2007/CE - REACH' in one sentence and 'Regulation (EC) No 1907/2006' in another - inconsistent regulation numbers as printed. 5) No product standard or classification is stated, and there is no mixing ratio; the HOW TO USE text only says to add the fibres in the mixer with all the other ingredients and mix until homogenous, so 'mixing' is null. 6) The second notFor item is a regulatory restriction from the safety section (microplastics), not from RECOMMENDATIONS. 7) Edition code '751-06-2026-EN'; issued by Mapei S.p.A. Milan, not a UAE edition."
+}

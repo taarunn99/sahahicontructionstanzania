@@ -1,0 +1,105 @@
+{
+  "slug": "mapefloor-fc-200-me",
+  "titleAsPrinted": "MAPEFLOOR FC 200 ME",
+  "edition": "6782-8-2023 (UAE)",
+  "description": "High build epoxy resin floor coating",
+  "whereToUse": [
+    "Chemical and pharmaceutical industries",
+    "Foodstuffs industry",
+    "Car Parks",
+    "Aseptic rooms",
+    "Warehouses",
+    "Shopping centers",
+    "Factories, hangars, workshop and garages"
+  ],
+  "notFor": [
+    "Do not apply the product directly on substrates with moisture content higher than 4% and/or with capillary rising damp",
+    "Do not apply Mapefloor FC 200 ME on dusty substrates.",
+    "Do not apply Mapefloor FC 200 ME on substrates with oil or grease stains or stains in general.",
+    "Do not dilute Mapefloor FC 200 ME with solvent or water",
+    "The air's relative humidity should not be greater than 75%"
+  ],
+  "standards": [],
+  "technicalData": [
+    { "label": "Colour", "value": "RAL colours" },
+    { "label": "Mixing Ratio", "value": "Component A: Component B = 22: 3.5" },
+    { "label": "Mix Density (A+B) (g/cm3)", "value": "1.50" },
+    { "label": "Pot life", "value": "35-45 min" },
+    { "label": "Overcoating time", "value": "20 h" },
+    { "label": "Set to foot traffic", "value": "24 h" },
+    { "label": "Set to vehicular traffic", "value": "48 h" },
+    { "label": "Application temperature range", "value": "from +5°C to +35°C" },
+    { "label": "Compressive strength (ASTM C 579 - 01/B) (N/mm²)", "value": ">80" },
+    { "label": "Compressive strength (EN 196-1) (N/mm²)", "value": "40" },
+    { "label": "Bond strength (ASTM D4541) (N/mm²)", "value": "≥ 1.5" },
+    { "label": "Taber test (CS17 wheel; 1000g; 1000 cycles) (ASTM D 4060-10)", "value": "95" }
+  ],
+  "consumption": [
+    {
+      "basis": "System 1 (multi-layered roll coat / structured finish): primer coat of Primer SN (A+B), only if a primer is required",
+      "value": "0.15-0.25 kg/m²",
+      "quote": "Primer: (if required) Primer SN (A+B): 0.15-0.25 kg/m² (depending on the substrate condition)."
+    },
+    {
+      "basis": "System 1 (multi-layered roll coat / structured finish): 1st coat of Mapefloor FC 200 ME (A+B)",
+      "value": "0.32 kg/m²",
+      "quote": "1st coat: Mapefloor FC 200 ME (A+B ): 0.32 kg/m²"
+    },
+    {
+      "basis": "System 1 (multi-layered roll coat / structured finish): finishing coat of Mapefloor FC 200 ME (A+B)",
+      "value": "0.32 kg/m²",
+      "quote": "Finishing coat: Mapefloor FC 200 ME (A+B): 0.32 kg/m²"
+    },
+    {
+      "basis": "System 2 (multi-layered non-slip coating): primer coat of Primer SN (A+B), only if a primer is required",
+      "value": "0.15-0.25 kg/m²",
+      "quote": "Primer: (if required) Primer SN (A+B): 0.15-0.25 kg/m² (depending on the substrate condition)."
+    },
+    {
+      "basis": "System 2 (multi-layered non-slip coating): 1st coat of Mapefloor FC 200 ME (A+B), before broadcasting",
+      "value": "0.35-0.40 kg/m²",
+      "quote": "1st coat: Mapefloor FC 200 ME (A+B ): 0.35-0.40 kg/m²."
+    },
+    {
+      "basis": "System 2 (multi-layered non-slip coating): Quartz 0.5 broadcast onto the wet 1st coat",
+      "value": "0.5-1.0 kg/m²",
+      "quote": "Broadcast with Quartz 0.5 at 0.5-1.0 kg/m²."
+    },
+    {
+      "basis": "System 2 (multi-layered non-slip coating): finishing coat of Mapefloor FC 200 ME (A+B) over the broadcast Quartz 0.5",
+      "value": "0.35-0.40 kg/m²",
+      "quote": "Finishing coat: Mapefloor FC 200 ME (A+B): 0.35-0.40 kg/m²."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "1. Multi-layered, roll coat/ structured finish coating Primer: (if required) Primer SN (A+B):",
+      "values": "0.15-0.25 kg/m² (depending on the substrate condition)."
+    },
+    {
+      "row": "1st coat: Mapefloor FC 200 ME (A+B ):",
+      "values": "0.32 kg/m²"
+    },
+    {
+      "row": "Finishing coat: Mapefloor FC 200 ME (A+B):",
+      "values": "0.32 kg/m²"
+    },
+    {
+      "row": "2. Multi-layered non-slip coating Primer: (if required) Primer SN (A+B):",
+      "values": "0.15-0.25 kg/m² (depending on the substrate condition)."
+    },
+    {
+      "row": "1st coat: Mapefloor FC 200 ME (A+B ):",
+      "values": "0.35-0.40 kg/m². Broadcast with Quartz 0.5 at 0.5-1.0 kg/m²."
+    },
+    {
+      "row": "Finishing coat: Mapefloor FC 200 ME (A+B):",
+      "values": "0.35-0.40 kg/m²."
+    }
+  ],
+  "mixing": "Mixing Ratio: Component A: Component B = 22: 3.5",
+  "packaging": "25.5 kg kits (component A = 22 kg; component B = 3.5 kg) in containers.",
+  "storage": "The product must be stored in its original packaging in a dry place at a temperature of between +5°C and +35°C. Maximum 24 months.",
+  "notes": "1) The sheet gives consumption per coat for two systems (roll coat/structured: 0.32 kg/m² per coat; non-slip: 0.35-0.40 kg/m² per coat) but states no film thickness and no coverage per kit. The consumptionTable repeats the same two row labels (1st coat, Finishing coat) for system 1 and system 2, in that order. 2) The sheet says the rates are theoretical, calculated using Quartz 0.5, and that a larger sand will raise the consumption of the next coat; no figure is given for larger sand. 3) The application text says 'Fully broadcast with Quartz 0.5' while the consumption section gives 0.5-1.0 kg/m² for that broadcast. 4) Primer SN is quoted here at 0.15-0.25 kg/m², which differs from the Primer SN sheet (0.3-0.70 kg/m² per coat) and from the Mapefloor I 300 SL ME sheet (0.3 kg/m²). Priming is described as 'not normally required'. 5) Pot life reference temperature is inconsistent: the table heading says application data are at +23°C and 50% R.H., the body text says the pot life in the table refers to +25°C. 6) The technicalData 'Colour' value is the component A column (component B is printed as 'clear, light yellow'). 7) The Taber test value 95 is printed with no unit. 8) In the reading-order text file the final-performance values are detached from their labels; values were taken from the layout file. 9) No EN classification or CE standard is stated; only ASTM/EN test methods are cited in the data table, so standards is empty."
+}

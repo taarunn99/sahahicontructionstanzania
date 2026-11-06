@@ -1,0 +1,91 @@
+{
+  "slug": "mapefloor-pu-410",
+  "titleAsPrinted": "MAPEFLOOR PU 410",
+  "edition": "2065-5-2026 en (IT)",
+  "description": "Two-component, self-levelling, polyurethane binder",
+  "whereToUse": [
+    "Mapefloor PU 410 is used as layer broadcast in excess with quartz sand in elastic and waterproof resin systems for floors of parking areas",
+    "Mapefloor Parking System HE, for indoor and outdoor areas compliant with the requirements of class OS11a",
+    "Mapefloor Parking System ID, for indoor areas compliant with the requirements of the class OS 13"
+  ],
+  "notFor": [
+    "Do not apply Mapefloor PU 410 on cementitious substrates with a moisture content higher than 4% or with capillary rising damp",
+    "Do not dilute Mapefloor PU 410 with solvents or water.",
+    "Do not apply Mapefloor PU 410 on dusty or crumbling substrates.",
+    "Do not apply Mapefloor PU 410 on substrates with oil or grease stains or stains in general.",
+    "Do not apply Mapefloor PU 410 on substrates that have not been treated with Primer SN, or with another specific primer, or that have not been prepared as specified."
+  ],
+  "standards": [
+    { "standard": "EN 13813", "value": "complies with the requirements according to EN 13813" },
+    { "standard": "EN 13813", "value": "≥ B1.5" },
+    { "standard": "EN 13813", "value": "AR0.5" },
+    { "standard": "EN 13813", "value": "IR4" },
+    { "standard": "EN 13501-1", "value": "BFL-s1" },
+    { "standard": "EN 1504-2", "value": "coating (C) according to the PI, MC, PR and IR principles" },
+    { "standard": "EN 1504-9", "value": "complies with the principles defined in EN 1504-9" },
+    { "standard": "EN 1062-7", "value": "static at -10°C: Class A3" },
+    { "standard": "EN 1062-7", "value": "static at +23°C: Class A3" },
+    { "standard": "EN 1062-7", "value": "dynamic at -10°C: Class B2" },
+    { "standard": "EN 1062-7", "value": "Dynamic at +23°C: class B2" }
+  ],
+  "technicalData": [
+    { "label": "Colour of mix", "value": "neutral" },
+    { "label": "Mixing ratio by weight", "value": "component A : component B = 16 : 3.9" },
+    { "label": "Density of mix", "value": "1,300 kg/m³" },
+    { "label": "Pot-life at +20°C", "value": "30 min." },
+    { "label": "Application temperature (refers to the ambient, material and substrate)", "value": "from +10°C to +30°C" },
+    { "label": "Dust dry", "value": "2-4 h" },
+    { "label": "Set to light foot traffic", "value": "24 hours" },
+    { "label": "Complete hardening time", "value": "7 days" },
+    { "label": "Elongation to break fillerized with 30% b.w. of Quartz 0.25 (7 days) (DIN 53505)", "value": "80%" },
+    { "label": "Shore A hardness fillerized with 30% b.w. of Quartz 0.25 (7 days) (DIN 53505)", "value": "90" },
+    { "label": "Tear strength fillerized with 30% b.w. of Quartz 0.25 (7 days) (DIN 53515)", "value": "27 N/mm" },
+    { "label": "Tensile strength fillerized with 30% b.w. of Quartz 0.25 (7 days) (DIN 53504)", "value": "6.5 N/mm²" }
+  ],
+  "consumption": [
+    {
+      "basis": "Mapefloor PU 410 binder (A + B + Mapecolor Paste) for the layer applied in approx. 1 mm thickness, as protective and wearing layer for Mapefloor Parking System HE or as waterproof wear resistant membrane layer for Mapefloor Parking System ID",
+      "value": "1.0 kg/m²",
+      "quote": "Mapefloor PU 410 + (A + B + Mapecolor Paste): 1.0 kg/m²"
+    },
+    {
+      "basis": "Quartz 0.25 mixed into that same layer as filler (same two systems)",
+      "value": "0.3 kg/m²",
+      "quote": "Quartz 0.25: 0.3 kg/m²"
+    },
+    {
+      "basis": "Quartz sand broadcast in excess onto the wet layer (same two systems)",
+      "value": "4.0 kg/m²",
+      "quote": "Broadcast in excess with Quartz 0.5 or Quartz 0.9 or Quartz 1.2: 4.0 kg/m²"
+    },
+    {
+      "basis": "Mapecolor Paste added to the mix when preparing the product, as a proportion by weight",
+      "value": "approx. 7% by weight",
+      "quote": "Stir the component A, then add the content of the component B and approx. 7% by weight of Mapecolor Paste and briefly mix all together."
+    },
+    {
+      "basis": "Quartz 0.25 added to the mix when preparing the product, as a proportion by weight",
+      "value": "30% by weight",
+      "quote": "Then add 30% by weight of Quartz 0.25 and mix with a suitable low-speed electric mixer (300-400 rpm) for at least 2 minutes until a homogeneous mixture is achieved."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Mapefloor PU 410 + (A + B + Mapecolor Paste):",
+      "values": "1.0 kg/m²"
+    },
+    {
+      "row": "Quartz 0.25:",
+      "values": "0.3 kg/m²"
+    },
+    {
+      "row": "Broadcast in excess with Quartz 0.5 or Quartz 0.9 or Quartz 1.2:",
+      "values": "4.0 kg/m²"
+    }
+  ],
+  "mixing": "component A : component B = 16 : 3.9",
+  "packaging": "19.9 kg units: component A = 16 kg; component B = 3.9 kg.",
+  "storage": "12 months in its original sealed packaging, in a covered, dry place, at temperature between +10°C and +30°C. Protect from frost.",
+  "notes": "1) This is the international sheet (edition code ends 'en (IT)', Mapei S.p.A. Milano), not a UAE edition. 2) The consumption table applies to one layer applied in 'approx. 1 mm thickness' (figure from the application text); no per-mm rate or other thickness is printed. The row label 'Mapefloor PU 410 + (A + B + Mapecolor Paste)' is printed with that odd '+'; it reads as the tinted binder at 1.0 kg/m², with Quartz 0.25 at 0.3 kg/m² on top of that (consistent with the '30% by weight' filler instruction). 3) The product is unpigmented and must be tinted with Mapecolor Paste (approx. 7% by weight) and filled with 30% by weight of Quartz 0.25; the sheet does not say explicitly what the percentages are taken of (A+B is the natural reading). The mixing ratio covers A and B only. 4) Broadcast sand grade differs by system: the application text for Parking System HE names Quartz 0.9 or Quartz 1.2 only, for Parking System ID Quartz 0.5 or 0.9 or 1.2; the consumption table lists all three for both, at 4.0 kg/m². 5) Consumption of the other layers in those systems (Mapefloor PU 400 LV base layer, Primer SN broadcast with Quartz 0.5, topcoats Mapefloor Finish 451 / Mapefloor Finish 415) is not given here; the sheet refers to their own data sheets. Classes OS11a and OS 13 are stated for the parking systems, not for this product alone. 6) 'Elongation to break fillerized' cites DIN 53505 while the neat elongation row cites DIN 53504; copied as printed, possibly a misprint. 7) In standards, the EN 13813 entries B1.5 / AR0.5 / IR4 are the 'Typical values' column of the table headed 'Requirements according to EN 13813 for synthetic resin-based screeds' (bond strength, BCA wear resistance, impact resistance); the sheet prints no combined designation string. Crack-bridging classes are printed twice (main table in lower case 'class', technical specification as 'Class')."
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "antipluviol",
+  "titleAsPrinted": "ANTIPLUVIOL",
+  "edition": "326-7-2026 en (IT)",
+  "description": "Water-based water-repellent protective coating, ideal for very absorbent surfaces",
+  "whereToUse": [
+    "Colourless, water-repellent surface treatment for the protection of absorbent substrates-such as brick, aerated concrete, cementitious and/or lime-based renders and skim coats, and natural and artificial stone-from rainwater and atmospheric moisture.",
+    "Protective treatment against rainwater and atmospheric moisture for walls coated with renders and/or covered with absorbent materials.",
+    "Colourless water-repellent protection for existing façades, including those of historical or architectural value.",
+    "Water-repellent treatment of exposed brick and/or natural and artificial stone masonry."
+  ],
+  "notFor": [
+    "horizontal surfaces, such as terraces and flat roofs (use UltraCare Stain Protector W or UltraCare Stain Protector S)",
+    "walls subject to rising damp with salt transport",
+    "basements affected by negative-side moisture",
+    "elevator pits or any type of structures subject to water under pressure",
+    "basins or reservoirs containing water"
+  ],
+  "standards": [
+    {
+      "standard": "EN 1062-3",
+      "value": "According to norm EN 1062-3, when W24 is below 0.1, the product falls into Class III, corresponding to low water absorption"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Consistency",
+      "value": "liquid"
+    },
+    {
+      "label": "Colour",
+      "value": "transparent"
+    },
+    {
+      "label": "Density",
+      "value": "approx. 1.02 g/cm³"
+    },
+    {
+      "label": "Solid content by weight",
+      "value": "approx. 5%"
+    },
+    {
+      "label": "Brookfield viscosity",
+      "value": "approx. 10 mPa·s (rotor 1 - 100 rpm)"
+    },
+    {
+      "label": "Dilution rate",
+      "value": "ready to use"
+    },
+    {
+      "label": "Drying time",
+      "value": "1-2 hours"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +5°C to +35°C"
+    },
+    {
+      "label": "Water absorption coefficient by capillarity W24 (EN 1062-3) [kg/(m²·h0.5)]",
+      "value": "- cladding bricks: 0.04 (15.60 saturation)* - traditional render: 0.05 (10.40 saturation)* - tuff-type stone: 0.07 (6.80 saturation)* - cementitious skimming coat: 0.38 (15.60 saturation)*"
+    },
+    {
+      "label": "Application of the product",
+      "value": "Continue the application until the surface is fully saturated, applying multiple coats continuously, wet-on-wet."
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "overall range, depending on the absorbency of the substrate",
+      "value": "0.2 to 1 L/m²",
+      "quote": "The consumption ranges approximately from 0.2 to 1 L/m², depending on the absorbency of the substrate."
+    },
+    {
+      "basis": "exposed brickwork, per single coat",
+      "value": "0.30-1.0 L/m²",
+      "quote": "Exposed brickwork: 0.30-1.0 L/m²"
+    },
+    {
+      "basis": "render or skim coat, per single coat",
+      "value": "0.20-0.80 L/m²",
+      "quote": "Render or skim coat: 0.20-0.80 L/m²"
+    },
+    {
+      "basis": "stone (tuff), per single coat",
+      "value": "0.50-1.00 L/m²",
+      "quote": "Stone (tuff): 0.50-1.00 L/m²"
+    },
+    {
+      "basis": "aerated concrete, per single coat",
+      "value": "0.20-0.60 L/m2",
+      "quote": "Aerated concrete: 0.20-0.60 L/m2"
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Antipluviol is ready to use and must not be diluted with water.",
+  "packaging": "Antipluviol is available in the following package sizes: ▪ 5 L jerrycans ▪ 25 L jerrycans",
+  "storage": "24 months in a dry place away from sources of heat at a temperature of between +5°C and +35°C. Protect from frost.",
+  "notes": "Consumption is ambiguous on coats: the general figure (0.2 to 1 L/m²) is not tied to a number of coats, the per-material list is stated 'per single coat', and the application text requires 'multiple coats' applied wet-on-wet until the surface is saturated without saying how many; the sheet gives no total for a finished treatment. No minimum thickness applies (the product does not form a film). The per-material figures are a bulleted list, not a table, so consumptionTable is empty. The sheet lists seven 'not suitable for' cases; notFor holds five, and the two left out are 'gypsum surfaces' and 'synthetic renders or surfaces finished with synthetic coatings'. Class III under EN 1062-3 is stated conditionally (when W24 is below 0.1): the sheet's own W24 value for cementitious skimming coat is 0.38, which is not below 0.1, and its untreated figure (15.60) is identical to the one printed for cladding bricks. No mixing ratio exists (ready to use); the mixing field holds the do-not-dilute sentence. The aerated concrete line is printed 'L/m2' while the other lines are printed 'L/m²'. The source text uses a non-breaking hyphen (U+2011) in 'water-repellent', 'wet-on-wet' and 'EN 1062-3' in some sentences; those strings keep that character exactly as extracted."
+}

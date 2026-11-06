@@ -1,0 +1,62 @@
+{
+  "slug": "mapenet-150",
+  "titleAsPrinted": "MAPENET 150",
+  "edition": "914-5-2023-I-gb",
+  "description": "Alkali-resistant glass fibre mesh (in compliance with the ETAG 004 guide) for reinforcing protective waterproofing layers, anti-fracture membranes and thermal insulation systems",
+  "whereToUse": [
+    "Mapelastic, Mapelastic Smart, Mapelastic Turbo or Monolastic used for waterproofing terraces, balconies, swimming pools, baths, shower cubicles, etc. with ceramic tile or stone finishes",
+    "protective, flexible smoothing layers of Mapelastic, Mapelastic Smart, Mapelastic Turbo or Monolastic applied on internal and external cementitious substrates with micro cracks",
+    "products of the Plastimul range when applied on substrates with micro cracks",
+    "cementitious skim coats in general"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ETAG 004",
+      "value": "in compliance with the ETAG 004 guide"
+    },
+    {
+      "standard": "ETAG 004, paragraph 5.6.7.1",
+      "value": "The mesh is made of glass fibres treated with a special coating that provides resistance to alkalis (as specified in ETAG 004, paragraph 5.6.7.1)."
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "blue"
+    },
+    {
+      "label": "Weight (g/m²)",
+      "value": "150"
+    },
+    {
+      "label": "Mesh size (mm)",
+      "value": "4 x 4.5"
+    },
+    {
+      "label": "Resistant to alkalis",
+      "value": "yes (according to ETAG 004 test, paragraph 5.6.7.1)"
+    },
+    {
+      "label": "Breaking strength of mesh (ETAG 004 CI.5.6.7.1.1)",
+      "value": "warp > 32 N/mm (1600 N/5 cm) weft > 32 N/mm (1600 N/5 cm)"
+    },
+    {
+      "label": "Breaking strength after ageing alkaline solution (ETAG 004 CI 5.6.7.1.2)",
+      "value": "warp ≥ 20 N/mm (1000 N/5 cm) weft ≥ 20 N/mm (1000 N/5 cm), always > 50% of the value as is"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Overlap allowance between pieces of mesh (not a consumption rate; adds to the mesh area needed)",
+      "value": "at least 5 cm",
+      "quote": "Overlap each piece of Mapenet 150 by at least 5 cm."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "50 metre rolls, 1 m wide.",
+  "storage": "The product may be stored for limitless time if stored in a clean and dry place.",
+  "notes": "The sheet has no CONSUMPTION section; the only quantity figure is the 5 cm overlap between pieces. No m2-per-roll figure is printed (only '50 metre rolls, 1 m wide'). There is no separate STORAGE heading: the storage sentence is printed inside the PACKAGING section and has been split out into storage. whereToUse items a) to d) are printed under the lead-in 'Reinforced strengthening for:'; the list letters and trailing semicolons are trimmed. Roll width and length appear only under PACKAGING; the technical data table has no width, length or thickness row (mesh size and weight only). The description mentions thermal insulation systems and anti-fracture membranes but the WHERE TO USE list does not. No limits/'do not use' statements are printed."
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "yhpuseal-2925",
+  "titleAsPrinted": "YHPUseal-2925",
+  "edition": null,
+  "description": "YHPUseal-2925 is a single-component, moisture-curing, high solid content, polyurethane elastic joint sealant.",
+  "whereToUse": [
+    "YHPUseal-2925 is used for sealing and weatherproofing joints in the building envelope where reliability and durability is required",
+    "Typical applications include joints in concrete panel and wall systems, around window and door frame, flashing, common roofing detail applications"
+  ],
+  "notFor": [],
+  "advantages": [
+    "Low VOC, high solid contents",
+    "Easy to extrude and tool",
+    "Movement capability of ± 25 %",
+    "Good adhesion to many construction materials",
+    "Bubble-free curing"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM C719",
+      "value": "±25%"
+    },
+    {
+      "standard": "ASTM D412",
+      "value": ""
+    },
+    {
+      "standard": "ASTM C794",
+      "value": ""
+    },
+    {
+      "standard": "ASTM C639",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Pasty"
+    },
+    {
+      "label": "Colour",
+      "value": "Grey"
+    },
+    {
+      "label": "Solid content by weight",
+      "value": "99%"
+    },
+    {
+      "label": "Service temperature",
+      "value": "-40℃-90℃"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months"
+    },
+    {
+      "label": "Packaging form",
+      "value": "Soft pack, cartridge"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "For movement joints, the width must be at least 8 mm and should not exceed 40 mm"
+    },
+    {
+      "quote": "In all cases joints must be at least 8 mm deep"
+    }
+  ],
+  "mixing": null,
+  "packaging": "600ml",
+  "storage": null
+}

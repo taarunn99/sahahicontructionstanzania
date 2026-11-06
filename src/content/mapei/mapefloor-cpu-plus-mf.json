@@ -1,0 +1,96 @@
+{
+  "slug": "mapefloor-cpu-plus-mf",
+  "titleAsPrinted": "MAPEFLOOR CPU+/MF",
+  "edition": "8990-11-2023-I en (IT)",
+  "description": "High-performance self-smoothing polyurethane cement mortar from 3 to 6 mm",
+  "whereToUse": [
+    "Mapefloor CPU+/MF is mainly used to create smooth polyurethane-cement based systems",
+    "as base layer for rough multi-layer systems (Mapefloor System CPU+/DP) for industrial floors",
+    "Mapefloor CPU+/MF is typically used in the chemical and pharmaceutical, textile and tanning industries",
+    "canning in general, sugar refineries, dairies, wineries and beverage companies in general",
+    "meat and fish processing",
+    "production and storage areas of food companies in general",
+    "commercial and industrial kitchens",
+    "freezing rooms and wherever high mechanical and chemical spillages and contact to hot liquids resistances are requested."
+  ],
+  "notFor": [
+    "Do not apply Mapefloor CPU+/MF on wet substrates or on concrete younger than 7 days.",
+    "Do not dilute Mapefloor CPU+/MF with solvents or water.",
+    "Do not apply Mapefloor CPU+/MF on dusty or crumbly substrates.",
+    "Do not apply Mapefloor CPU+/MF on substrates contaminated by oil, grease, or dirt in general.",
+    "Do not apply Mapefloor CPU+/MF on ceramic substrates or stone materials in general with no appropriate specific preparation of the laying surface."
+  ],
+  "standards": [
+    { "standard": "EN 13813", "value": "complies with the requirements according to EN 13813" },
+    { "standard": "EN 13813", "value": "AR0.5" },
+    { "standard": "EN 13813", "value": "C50" },
+    { "standard": "EN 13813", "value": "F15" },
+    { "standard": "EN 13501-1", "value": "BFL-s1" },
+    { "standard": "EN 1504-2", "value": "coating (C), according to PI, MC, PR, RC, IR principles" },
+    { "standard": "EN 1504-9", "value": "complies with the principles defined in EN 1504-9" },
+    { "standard": "ISO 846", "value": "Resistant to fungi and bacteria, certified according to ISO 846." },
+    { "standard": "ISO 4628-1", "value": "Hygienic and sanitizable; certified according to ISO 4628-1 Riboflavin test for cleaning validation." },
+    { "standard": "EN 1186, EN 13130 and prCEN/TS 14234", "value": "Complies with standards applied in the foodstuffs sector EN 1186, EN 13130 and prCEN/TS 14234" },
+    { "standard": "Indoor Air Comfort Gold", "value": "Complies with all Indoor Air Comfort Gold emission requirements for indoor flooring systems" },
+    { "standard": "HACCP", "value": "Fulfills HACCP requirements." }
+  ],
+  "technicalData": [
+    { "label": "Colour of the mix", "value": "Grey, beige, red, green, ochre, blue, orange" },
+    { "label": "Mixing ratio", "value": "2xA / 2xB / 1xC / 2xMapecolor CPU+: 2x2.0 / 2x2.16 / 1x20 / 2x0.23" },
+    { "label": "Density of the mix", "value": "1700 kg/m3" },
+    { "label": "Pot life at +23°C", "value": "15 min" },
+    { "label": "Temperature of the surface", "value": "From +10°C to +30°C" },
+    { "label": "Tack free", "value": "2-4 h" },
+    { "label": "Ready for traffic at 23°C", "value": "Recoating: 12 h" },
+    { "label": "Ready for traffic at 23°C", "value": "Light traffic: 24 h" },
+    { "label": "Complete hardening", "value": "4-5 days" },
+    { "label": "Shore D hardness after 28 days", "value": "83" },
+    { "label": "Slip resistance (EN 13036-4)", "value": "Class I (wet indoor surfaces) Class II (dry indoor surfaces)" },
+    { "label": "Adhesion strength (EN 13892-8)", "value": "≥ 2 N/mm2" }
+  ],
+  "consumption": [
+    {
+      "basis": "Mapefloor CPU+/MF used as a scratch coat on rough surfaces, 1 mm thickness",
+      "value": "approx. 1.7 kg/m2",
+      "quote": "As scratch coat 1 mm thickness: Mapefloor CPU+/MF: approx. 1.7 kg/m2"
+    },
+    {
+      "basis": "Mapefloor CPU+/MF as self-smoothing layer at 3 mm thickness",
+      "value": "approx. 5.5 kg/m2",
+      "quote": "Mapefloor CPU+/MF 3 mm: approx. 5.5 kg/m2"
+    },
+    {
+      "basis": "Mapefloor CPU+/MF as self-smoothing layer at 4 mm thickness",
+      "value": "approx. 7 kg/m2",
+      "quote": "Mapefloor CPU+/MF 4 mm: approx. 7 kg/m2"
+    },
+    {
+      "basis": "Mapefloor CPU+/MF as self-smoothing layer at 6 mm thickness",
+      "value": "approx. 10 kg/m2",
+      "quote": "Mapefloor CPU+/MF 6 mm: approx. 10 kg/m2"
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "As scratch coat 1 mm thickness: Mapefloor CPU+/MF:",
+      "values": "approx. 1.7 kg/m2"
+    },
+    {
+      "row": "As self-smoothing layer: Mapefloor CPU+/MF 3 mm:",
+      "values": "approx. 5.5 kg/m2"
+    },
+    {
+      "row": "Mapefloor CPU+/MF 4 mm:",
+      "values": "approx. 7 kg/m2"
+    },
+    {
+      "row": "Mapefloor CPU+/MF 6 mm:",
+      "values": "approx. 10 kg/m2"
+    }
+  ],
+  "mixing": "2xA / 2xB / 1xC / 2xMapecolor CPU+: 2x2.0 / 2x2.16 / 1x20 / 2x0.23",
+  "packaging": "Mapefloor CPU+ Component A: 2 kg pack Mapefloor CPU+ Component B: 2.16 kg pack Mapefloor CPU+/MF Component C: 20 kg bag Mapecolor CPU+: 0.23 kg pack. Warning: Product consists of two packs of component A plus two packs of component B plus one sack of component C and two packs of Mapecolor CPU+.",
+  "storage": "12 months in the original sealed packaging and kept in a dry and sheltered place at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/MF part C is sensitive to humidity.",
+  "notes": "1) This is the international sheet (edition code ends 'en (IT)', Mapei S.p.A. Milano, website mapei.com), not a UAE edition. 2) Consumption is given only at four fixed points (scratch coat 1 mm, and 3, 4 and 6 mm) and is NOT linear per mm: approx. 1.7 kg/m2 at 1 mm, but 5.5 / 7 / 10 kg/m2 at 3 / 4 / 6 mm. No figure is printed for 5 mm and no per-mm formula is printed. The printed mix density is 1700 kg/m3. 3) No total kit weight is printed. The kit is 2 packs A (2 kg each) + 2 packs B (2.16 kg each) + 1 bag C (20 kg) + 2 packs Mapecolor CPU+ (0.23 kg each); summing those printed sizes gives 28.78 kg, but that total is my arithmetic, not a printed figure. The mixing ratio row prints component A as 2x2.0 and packaging as '2 kg pack'. 4) Primer consumption is not given: the sheet requires a preliminary layer of Mapefloor CPU+/Primer (or Primer SN fully broadcast with Quartz 0.9 on fully cured dry substrates with humidity < 4% and no thermal shock) and refers to those products' own data sheets. 5) Temperature statements differ by context: the description says thermal shock resistance up to +80°C and operating temperatures from -20°C to +70°C depending on thickness; the characteristics list gives 3 mm: -10°C up to +60°C, 4 mm: -15°C up to +70°C, 6 mm: -25°C up to +80°C. 6) Slip resistance is printed as 'Class I (wet indoor surfaces)' and 'Class II (dry indoor surfaces)' with no further values. 7) The Shore D row is printed as 'Shore D hardness after 28 days (DIN 53505)' with the value 83 landing inside the label in the text extraction, so the label was trimmed before '(DIN'. 8) In standards, AR0.5 / C50 / F15 are the 'Typical values' column of the table headed 'Requirements according to EN 13813 for cement screeds' (abrasion resistance BCA, compressive strength, flexural strength) and BFL-s1 is the reaction to fire class; the sheet does not print a combined EN 13813 designation string. 9) Product must be coloured with Mapecolor CPU+ pigment (grey, beige, red, green, ochre, blue, orange); only whole packs may be mixed."
+}

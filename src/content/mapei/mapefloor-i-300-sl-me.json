@@ -1,0 +1,84 @@
+{
+  "slug": "mapefloor-i-300-sl-me",
+  "titleAsPrinted": "MAPEFLOOR I 300 SL ME",
+  "edition": "6797-6-2019 (UAE)",
+  "description": "Three-component multi-purpose coloured epoxy formulate for industrial floor coatings from 1 to 4 mm thick.",
+  "whereToUse": [
+    "Coating floors in the chemical and pharmaceutical industries.",
+    "Coating floors in the foodstuffs industry.",
+    "Coating floors in laboratories, sterile rooms, and hospitals.",
+    "Coating floors in aseptic rooms.",
+    "Coating floors in mechanized warehouses.",
+    "Coating floors in shopping centers.",
+    "Coating floors in nuclear plants."
+  ],
+  "notFor": [
+    "Do not apply Mapefloor I 300 SL ME on damp substrates or on substrates with capillary rising damp",
+    "Do not dilute Mapefloor I 300 SL ME with solvent or water.",
+    "Do not apply Mapefloor I 300 SL ME on dusty or crumbling substrates.",
+    "Do not apply Mapefloor I 300 SL ME on substrates with oil or grease stains or stains in general.",
+    "Do not apply Mapefloor I 300 SL ME on substrates that have not been treated with Primer SN or that have not been prepared as specified."
+  ],
+  "standards": [],
+  "technicalData": [
+    { "label": "Colour of mix", "value": "RAL colours" },
+    { "label": "Density of mix (kg/m³)", "value": "1.85" },
+    { "label": "Workability time at +20°C", "value": "35 min" },
+    { "label": "Application temperature", "value": "from +8°C to +35°C (refers to the surroundings, material and substrate)" },
+    { "label": "Waiting time between coats: - on Primer SN with fully broadcast quartz sand", "value": "min. 12 h; no maximum limit" },
+    { "label": "- on Primer SN with a light broadcast of quartz sand", "value": "min. 18 h; max. 24 h" },
+    { "label": "Hardening time: - dust dry", "value": "2-4 hours" },
+    { "label": "- set to foot traffic", "value": "approx. 24 hours." },
+    { "label": "- full hardening time", "value": "approx. 7 days" },
+    { "label": "Compressive strength (ASTM C579-01) (N/mm²)", "value": "50" },
+    { "label": "Flexural strength (BS6319-3 ) (N/mm²)", "value": "28" },
+    { "label": "Abrasion resistance - Taber abrasion test (ASTM D4060- 1,000 g / 1,000 rev / CS17) (g): - after 7 days", "value": "58" }
+  ],
+  "consumption": [
+    {
+      "basis": "Mapefloor I 300 SL ME, smooth self-levelling system at an average thickness of 2 mm (CONSUMPTION section)",
+      "value": "3.7 kg/m²",
+      "quote": "Mapefloor I300 SL ME: 3.7 kg/m²."
+    },
+    {
+      "basis": "Primer SN (A+B) under the smooth self-levelling system at an average thickness of 2 mm (CONSUMPTION section)",
+      "value": "0.3 kg/m²",
+      "quote": "Primer SN (A+B) : 0.3 kg/m²."
+    },
+    {
+      "basis": "Mapefloor I 300 SL ME, recommended total consumption stated in the application procedure (a different figure from the CONSUMPTION section; no thickness is attached to it)",
+      "value": "at least 2.5-3.5 kg/m2",
+      "quote": "The recommended total consumption of Mapefloor I 300 SL ME must be at least 2.5-3.5 kg/m2."
+    },
+    {
+      "basis": "Quartz 0.5 mixed into the Primer SN (A+B) primer coat, as a proportion by weight",
+      "value": "20% by weight",
+      "quote": "Apply a kit of Primer SN (A+B) mixed by a straight trowel with 20% by weight of Quartz 0.5 then lightly broadcast with the same sand at a rate of 0.7-1.0 kg/m²."
+    },
+    {
+      "basis": "Quartz 0.5 light broadcast onto the wet Primer SN primer coat",
+      "value": "0.7-1.0 kg/m²",
+      "quote": "Apply a kit of Primer SN (A+B) mixed by a straight trowel with 20% by weight of Quartz 0.5 then lightly broadcast with the same sand at a rate of 0.7-1.0 kg/m²."
+    },
+    {
+      "basis": "Yield (volume of mixed material) from one 47 kg kit of Mapefloor I 300 SL ME",
+      "value": "25.4 liters",
+      "quote": "47 kg units will yield 25.4 liters of mixed materials."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Smooth self-levelling average thickness 2 mm. Primer SN (A+B) :",
+      "values": "0.3 kg/m²."
+    },
+    {
+      "row": "Mapefloor I300 SL ME:",
+      "values": "3.7 kg/m²."
+    }
+  ],
+  "mixing": null,
+  "packaging": "47 kg kits (component A = 17 kg; component B = 5 kg; component C = 25 kg).",
+  "storage": "The product must be+ stored in its original packaging in a dry place at a temperature of between +5°C and +35°C. Maximum 24 months.",
+  "notes": "1) TWO DIFFERENT CONSUMPTION FIGURES for the product: the CONSUMPTION section gives 3.7 kg/m² at an average thickness of 2 mm, while the application procedure says the recommended total consumption 'must be at least 2.5-3.5 kg/m2' with no thickness attached. Both are recorded. The printed yield (47 kg kit gives 25.4 liters) and the printed mix density (1.85) agree arithmetically with 3.7 kg/m² at 2 mm, not with 2.5-3.5. 2) Thickness range is inconsistent: the description under the title says 'from 1 to 4 mm thick', the technical characteristics say 'layers from 2 to 4 mm thick'. No per-mm consumption figure is printed. 3) The sheet prints no mixing ratio row; the A:B:C proportions are only implied by the kit sizes in PACKAGING (17 kg / 5 kg / 25 kg), so mixing is null. 4) 'Density of mix' is printed as 1.85 under the unit (kg/m³); the unit label looks wrong for that number. 5) The Taber abrasion result 58 is printed under the unit (g). 6) The product identification table heads its three columns 'Component A, Component A, Component B' (liquid / liquid / powder). 7) Primer broadcast is described two ways: 'Application of the Primer' says fully broadcast with Quartz 0.5 (no rate given), 'Application of the product' says lightly broadcast at 0.7-1.0 kg/m²; the waiting times between coats differ for the two cases. The sheet also says the amount of sand added to Primer SN may vary with temperature. 8) Primer SN is quoted here at 0.3 kg/m²; the Primer SN sheet gives 0.3-0.70 kg/m² per coat. 9) The storage sentence is printed with a stray '+' ('must be+ stored') and the consumption line prints the name as 'Mapefloor I300 SL ME'; both copied as printed. 10) technicalData labels that begin with '-' are sub-rows as printed: '- on Primer SN with a light broadcast of quartz sand' sits under 'Waiting time between coats', and '- set to foot traffic' / '- full hardening time' sit under 'Hardening time'. The waiting-time rows carry the printed footnote '*surfaces must be dry with no dust'. 11) No EN classification is stated; only ASTM/BS test methods are cited, so standards is empty."
+}

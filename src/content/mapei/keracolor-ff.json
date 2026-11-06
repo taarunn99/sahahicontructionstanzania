@@ -1,0 +1,192 @@
+{
+  "slug": "keracolor-ff",
+  "titleAsPrinted": "KERACOLOR FF",
+  "edition": "131-12-2025 (UAE)",
+  "description": "High-performance, polymer-modified, water-repellent, cementitious grout with DropEffect® technology for joints up to 6 mm",
+  "whereToUse": [
+    "Grouting interior and exterior floor and wall tiling (single-fired, double-fired, klinker, porcelain tile, etc.), stone material (natural stones, marble, granite, agglomerates, etc.), glass and marble mosaics.",
+    "Grouting floor and wall ceramic tiles in interiors",
+    "Grouting swimming pools",
+    "Grouting particularly smooth and glossy floor surfaces (smooth and polished porcelain, pre-smoothened and polished marble, glazed tiles)",
+    "Grouting ceramic tile industrial flooring where resistance to chemical agents is not required (garages, warehouses, etc.)"
+  ],
+  "notFor": [
+    "Expansion joints and movement joints in floors and walls should never be filled with Keracolor FF, but with the appropriate flexible MAPEI sealant",
+    "Do not mix Keracolor FF with cement or any other products.",
+    "Never add water to the mixture that is beginning to set",
+    "Never mix Keracolor FF with saline or dirty water",
+    "After filling the joints, do not sprinkle Keracolor powder onto the grout, as this can cause uneven colour and reduce the mechanical strength"
+  ],
+  "standards": [
+    {
+      "standard": "EN 13888-1",
+      "value": "CG2WA"
+    },
+    {
+      "standard": "ISO 13007-3",
+      "value": "CG2WA"
+    },
+    {
+      "standard": "ANSI A118.6",
+      "value": "In compliance with"
+    },
+    {
+      "standard": "EMICODE",
+      "value": "EC1 Plus - very low emission"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Type",
+      "value": "fine powder"
+    },
+    {
+      "label": "Colour",
+      "value": "16 colours from the MAPEI range"
+    },
+    {
+      "label": "Mixing ratio",
+      "value": "100 parts of Keracolor FF with 23-25 parts of water by weight depending on the colour"
+    },
+    {
+      "label": "Density of the mix",
+      "value": "2000 kg/m³"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approx. 2 hours"
+    },
+    {
+      "label": "Application temperature",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Grouting after installation: - on walls bonded with normal setting adhesive",
+      "value": "4-8 hours"
+    },
+    {
+      "label": "- on floors bonded with normal setting adhesive",
+      "value": "24 hours"
+    },
+    {
+      "label": "Waiting time for finishing",
+      "value": "10-20 minutes"
+    },
+    {
+      "label": "Set to light foot traffic",
+      "value": "24 hours"
+    },
+    {
+      "label": "Ready for use",
+      "value": "3 days (7 days for tanks and swimming pools)"
+    },
+    {
+      "label": "Resistance to temperature",
+      "value": "from -30°C to +80°C"
+    }
+  ],
+  "consumption": [],
+  "consumptionFormula": null,
+  "consumptionTable": [
+    {
+      "row": "Size of the tile (mm)",
+      "values": "2 3 5"
+    },
+    {
+      "row": "75x150x6",
+      "values": "0.4 0.5 0.9"
+    },
+    {
+      "row": "100x100x7",
+      "values": "0.4 0.6 1.1"
+    },
+    {
+      "row": "100x100x9",
+      "values": "0.5 0.8 1.4"
+    },
+    {
+      "row": "150x150x6",
+      "values": "0.2 0.4 0.6"
+    },
+    {
+      "row": "200x200x7",
+      "values": "0.2 0.3 0.5"
+    },
+    {
+      "row": "200x200x9",
+      "values": "0.3 0.4 0.7"
+    },
+    {
+      "row": "300x300x10",
+      "values": "0.3 0.5"
+    },
+    {
+      "row": "300x300x20",
+      "values": "0.6 1.0"
+    },
+    {
+      "row": "300x600x10",
+      "values": "0.2 0.4"
+    },
+    {
+      "row": "400x400x10",
+      "values": "0.2 0.4"
+    },
+    {
+      "row": "500x500x10",
+      "values": "0.3"
+    },
+    {
+      "row": "600x600x10",
+      "values": "0.3"
+    },
+    {
+      "row": "750x750x10",
+      "values": "0.2"
+    },
+    {
+      "row": "100x600x9",
+      "values": "0.8"
+    },
+    {
+      "row": "150x600x9",
+      "values": "0.6"
+    },
+    {
+      "row": "150x900x9",
+      "values": "0.5"
+    },
+    {
+      "row": "150x1200x10",
+      "values": "0.6"
+    },
+    {
+      "row": "225x450x9",
+      "values": "0.5"
+    },
+    {
+      "row": "225x900x9",
+      "values": "0.4"
+    },
+    {
+      "row": "250x900x9",
+      "values": "0.3"
+    },
+    {
+      "row": "250x1200x10",
+      "values": "0.4"
+    },
+    {
+      "row": "600x600x5",
+      "values": "0.1"
+    },
+    {
+      "row": "600x600x3",
+      "values": "0.1"
+    }
+  ],
+  "mixing": "While stirring, pour Keracolor FF into a clean, rust-free container containing 23-25% by weight, depending on grout colour, of clean, potable-grade water or Fugolastic (if required in the application).",
+  "packaging": "20 kg paper bags and 4x5 kg alupacks.",
+  "storage": "When stored in dry conditions in the original, unopened bags, Keracolor FF has a shelf life of 12 months for 20 kg and 24 months for 4x5 kg alupack boxes. Always refer to what is written on the packaging.",
+  "notes": "1) HOW TO READ consumptionTable: the table is headed 'CONSUMPTION TABLE DEPENDING ON THE SIZE OF THE TILE AND WIDTH OF THE JOINTS (kg/m²)'. The first entry is the header row: its values '2 3 5' are the joint widths in mm ('Width of the joint (mm)'). Every other entry is one tile size (length x width x thickness in mm). Many cells are blank in the sheet, and blank cells are always on the left: a row with three values is 2 / 3 / 5 mm; a row with two values is 3 / 5 mm (2 mm blank); a row with one value is 5 mm only (2 and 3 mm blank). Column membership was cross-checked against the reading-order extraction (2 mm column has 6 values, 3 mm has 10, 5 mm has 23). 2) consumptionFormula is null because the formula itself is not in the text extraction (it is evidently printed as an image). The sheet prints the heading 'CONSUMPTION CALCULATION FORMULA:' and only the legend: 'A = length of tile (in mm)', 'B = width of the tile (in mm)', 'C = thickness of the tile (in mm)', 'D = width of the joint (in mm)'. The expression must be taken from the PDF itself; it was not reconstructed. 3) The CONSUMPTION section gives no figure in prose ('Consumption of Keracolor FF varies depending on the width of the joints, the size and thickness of the tiles. Please refer to the product calculator...'), so consumption is empty and all figures are in consumptionTable. 4) The description says joints up to 6 mm, but the table only covers 2, 3 and 5 mm joints; there is no 6 mm column and no stated minimum joint width. 5) The FINAL PERFORMANCE strength, abrasion, shrinkage and water absorption rows carry no numbers, only 'In compliance with ISO 13007-3 as CG2WA and with European Norm EN 13888-1 as CG2WA'. 6) The mixing sentence says '23-25% by weight' of water or Fugolastic; the table says '23-25 parts of water by weight' per 100 parts, depending on the colour. No litres-per-bag figure is given. 7) In the .txt extraction the description reads 'waterrepellent' (hyphen lost at a line break); the layout file shows 'water-' / 'repellent', so it is written here as 'water-repellent'. 8) The classification heading cites 'ISO 13007 AND EN 13888'; the technical data cite 'EN 13888-1' and 'ISO 13007-3'. ANSI A118.6 is listed with no class. 9) notFor items are taken from RECOMMENDATIONS; the sheet has no 'do not use on' list. The temperature limit there is 'Use the product in temperatures between +5°C and +40°C'."
+}

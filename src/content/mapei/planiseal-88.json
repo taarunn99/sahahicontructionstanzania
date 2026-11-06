@@ -1,0 +1,112 @@
+{
+  "slug": "planiseal-88",
+  "titleAsPrinted": "PLANISEAL 88",
+  "edition": "1148-01-2020 (AUS)",
+  "description": "Osmotic cementitious mortar suitable for contact with drinking water, for waterproofing masonry and concrete structures",
+  "whereToUse": [
+    "Repairing underground masonries subject to water and moisture seepage in situations with negative pressure up to 1 atmosphere.",
+    "Waterproofing basins, reservoirs, concrete or masonry tanks and pipes containing drinking water.",
+    "Waterproofing concrete or masonry tanks containing sewage water",
+    "interior and exterior cellar walls",
+    "swimming-pools",
+    "lift-rooms",
+    "foundation walls",
+    "irrigation channels"
+  ],
+  "notFor": [
+    "Do not use Planiseal 88 for solving internal condensation problems (use de-humidifying renders, improve ventilation to the area or provide adequate insulation).",
+    "Do not use on plasters, plasterboards, painted walls, plywood, chipboard, asbestos cement.",
+    "Do not use on surfaces subject to dynamic stresses",
+    "In no case should Planiseal 88 be applied to a substrate that shows signs of standing water on the surface",
+    "Even though Planiseal 88 is resistant to abrasion and wear from solids normally present in liquids flowing in hydraulic structures, it must not be exposed to traffic."
+  ],
+  "standards": [
+    {
+      "standard": "EN 1504-2",
+      "value": "conforms to the requirements of EN 1504-2 coating (C) according to the MC and IR principles"
+    },
+    {
+      "standard": "EN 1504-9",
+      "value": "Planiseal 88 corresponds to the principles defined in EN 1504-9"
+    },
+    {
+      "standard": "AS/NZS 4020:2018",
+      "value": "Planiseal 88 is certified to AS/NZS 4020:2018 for use with potable water."
+    },
+    {
+      "standard": "EN 1062-1 (test method EN 1062-3)",
+      "value": "W < 0.05 Class III (low permeability)"
+    },
+    {
+      "standard": "EN ISO 7783-1",
+      "value": "SD < 1 Class I"
+    },
+    {
+      "standard": "EN 13501-1",
+      "value": "Euroclass E"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Colour",
+      "value": "grey"
+    },
+    {
+      "label": "Mixing water",
+      "value": "21-23% (4.2 - 4.6) per 20 kg bag"
+    },
+    {
+      "label": "Density of the mix (kg/m³)",
+      "value": "1,800"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "from +5°C to +35°C"
+    },
+    {
+      "label": "Pot life of mix",
+      "value": "approximately 1 hour"
+    },
+    {
+      "label": "Application of successive coat",
+      "value": "after 5 hours, and no later than 24 hours"
+    },
+    {
+      "label": "Waiting time before putting into service",
+      "value": "7 days"
+    },
+    {
+      "label": "Bond strength on concrete (substrate in MC 0.40 water/cement ratio = 0.40) according to EN 1766 (MPa)",
+      "value": "≥ 2 (after 28 days)"
+    },
+    {
+      "label": "Impermeability expressed as coefficient of permeability to free water (kg/m²·h0.5)",
+      "value": "W < 0.05 Class III (low permeability)"
+    },
+    {
+      "label": "the final thickness of Planiseal 88",
+      "value": "must be approximately 2-3 mm"
+    },
+    {
+      "label": "Application by brush",
+      "value": "requires 2-3 coats"
+    },
+    {
+      "label": "When spraying",
+      "value": "apply the mix by spray in two layers"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "per m2 per mm of thickness (no application method specified)",
+      "value": "1.5 kg/m2 per mm of thickness",
+      "quote": "approx. 1.5 kg/m2 per mm of thickness."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Pour 4.2 - 4.6 litres of water into a suitable container and slowly add the Planiseal 88 while blending with a mechanical mixer.",
+  "packaging": "20 kg bags.",
+  "storage": "Planiseal 88 may be stored for up to 12 months in its original packaging in a dry, elevated area.",
+  "notes": "The sheet gives one consumption figure only (approx. 1.5 kg/m2 per mm of thickness), not split by brush, trowel or spray, and gives no total per m2; the required final thickness is 'approximately 2-3 mm' in all cases. Coats: brush 2-3 coats, spray two layers; for trowel no number of coats is stated, only that a first coat by brush is recommended. Waiting time between coats is worded two ways: body text 'generally 5-6 hours ... not to exceed 24 hours', table 'after 5 hours, and no later than 24 hours'. The mixing sentence gives 4.2 - 4.6 litres of water without saying per bag; the table row gives '21-23% (4.2 - 4.6) per 20 kg bag' without a unit on the 4.2 - 4.6. Final performance figures are stated for 22% mixing water at 2.5 mm thickness. The bond strength label is printed 'MC 0.40 - water/cement ratio' in the layout extraction and without the dash in the reading-order extraction; the label recorded follows the reading-order text. Performance-table cells are split across lines in both extractions, so the vapour permeability value is recorded only as 'SD < 1 Class I'. The limit 'it can only be used for rigid waterproofing' and the requirement to protect floors with a 4-5 cm thick cementitious screed are in the sheet but not in notFor (five-item cap). This is the Mapei Australia edition of the sheet."
+}

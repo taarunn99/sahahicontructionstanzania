@@ -1,0 +1,43 @@
+{
+  "slug": "mapefloor-finish-450-me",
+  "titleAsPrinted": "MAPEFLOOR FINISH 450 ME",
+  "edition": "8913-10-2022-I (UAE)",
+  "description": "Two-component, aliphatic, elastic coloured polyurethane finish resistant to wear and UV rays",
+  "whereToUse": [
+    "Mapefloor Finish 450 ME is recommended as a protective finish for surfaces coated with Mapefloor PU 410 and for protecting surfaces for outdoor car parks floors (Mapefloor Parking System HD, Mapefloor Parking System ED and Mapefloor Parking System WD)",
+    "Protective, wear-resistant finish for external waterproof systems made using Mapefloor Finish 415 ME or Mapefloor PU 400 or Mapefloor PU 400 LV preliminary broadcast with quartz sand.",
+    "Coloured finish for bridges and walkways after applying flexible polyurethane waterproofing membranes."
+  ],
+  "notFor": [
+    "Do not apply Mapefloor Finish 450 ME if the moisture content in the substrate is higher than 4%.",
+    "Only apply Mapefloor Finish 450 ME if the temperature of the substrate is at least 3°C higher than the dew-point temperature."
+  ],
+  "standards": [],
+  "technicalData": [
+    { "label": "Colour of mix", "value": "RAL colours" },
+    { "label": "Mixing ratio", "value": "comp. A:comp. B = 84:16" },
+    { "label": "Density of mix (kg/m³)", "value": "1,250" },
+    { "label": "Pot life", "value": "4 hours" },
+    { "label": "Application temperature", "value": "from +10°C to +35°C" },
+    { "label": "Set to foot traffic", "value": "24 h" },
+    { "label": "Final hardening time", "value": "3 days" },
+    { "label": "Shore A hardness (ASTM D2240)", "value": "85" },
+    { "label": "Tear strength after 7 days at +23°C + 14 days at +50°C (ASTM D624) (N/mm)", "value": "65" },
+    { "label": "Tensile strength after 7 days at +23°C + 14 days at +50°C (ASTM D412) (N/mm²)", "value": "13" },
+    { "label": "Taber abrasion resistance (CS17 disk - 1000 g - 1000 revs) after 7 days at +23°C (ASTM D4060)(mg)", "value": "130 mg" },
+    { "label": "Elongation (ASTM D412) (%)", "value": ">50" }
+  ],
+  "consumption": [
+    {
+      "basis": "Theoretical consumption of the finish (applied in a single coat), range depending on the selected system; stated for a substrate temperature between +15°C and +35°C",
+      "value": "0.2-0.5 kg/m²",
+      "quote": "0.2-0.5 kg/m² depending on the selected system (we recommend carrying out preliminary tests to verify the true consumption rates of the product)."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "Mixing ratio: comp. A:comp. B = 84:16",
+  "packaging": "Component A: 18.90 kg. Component B: 3.60 kg.",
+  "storage": "Store the product in a covered, dry place at a temperature of between +15°C and +35°C. The product may be stored for 12 months in such conditions.",
+  "notes": "1) POT LIFE IS INTERNALLY INCONSISTENT: the application data table prints 'Pot life: 4 hours', while the 'Preparation of the product' text says to prepare only the quantity that can be applied 'within the pot life (approximately 40 minutes at +23°C)'. The table value is recorded in technicalData; treat it with caution. 2) Only one consumption figure is given, a range of 0.2-0.5 kg/m² 'depending on the selected system', with no breakdown per system, per coat or per tool. The sheet says the product 'may be applied in a single coat', that a rubber trowel gives lower consumption and a rougher surface, that the figures are for a substrate between +15°C and +35°C, and that lower temperatures increase consumption. No film thickness is stated. 3) No total kit weight is printed (components are 18.90 kg and 3.60 kg; 22.50 kg is my arithmetic). 4) The Taber row label already carries the unit (mg) and the value is printed again as '130 mg'. 5) This sheet recommends Finish 450 ME over Mapefloor PU 410; the Mapefloor PU 410 sheet itself names Mapefloor Finish 451 and Mapefloor Finish 415 as its topcoats. 6) Substrate preparation is described only for substrates with a polyurethane elastic membrane; no primer or direct-to-concrete application is described. 7) No EN classification is stated; only ASTM test methods are cited, so standards is empty."
+}

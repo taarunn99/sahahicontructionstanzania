@@ -1,0 +1,46 @@
+{
+  "slug": "lignobond",
+  "titleAsPrinted": "LIGNOBOND",
+  "edition": "271-4-2016-gb",
+  "description": "Two-component, water and solvent-free epoxypolyurethane adhesive for laying parquet. Suitable for laying any size and type of wood on all substrates. Ideal for heated screeds.",
+  "whereToUse": [
+    "Bonding all types and shapes of parquet.",
+    "Lignobond is used for bonding lamparquet, solid hardwood strips, planks and all types of parquet on cementitious screeds, anhydrite screeds, screeds made using Mapecem, Mapecem Pronto, Topcem, Topcem Pronto and similar products, old wooden, ceramic, marble, terrazzo etc. floors and metal sheets.",
+    "Also suitable for heated substrates."
+  ],
+  "notFor": [
+    "Do not lay on screeds which are not protected against the risk of rising damp",
+    "Do not lay in rooms if the doors and windows have not been installed.",
+    "Do not lay on asphalt which has not been sufficiently cured (minimum 15-20 days).",
+    "Do not lay if the temperature is lower than +10°C or higher than +30°C.",
+    "Floors must not be laid on bitumen with a low melting point or which may bleed oil."
+  ],
+  "standards": [],
+  "technicalData": [
+    {"label": "Mixing ratio", "value": "A : B = 90 : 10"},
+    {"label": "Pot life of mix", "value": "60 minutes"},
+    {"label": "Application temperature range", "value": "from +10°C to +30°C"},
+    {"label": "Open time", "value": "60 minutes"},
+    {"label": "Adjustment time", "value": "< 2 hours"},
+    {"label": "Time to start of setting", "value": "< 7 hours"},
+    {"label": "Time to end of setting", "value": "< 8 hours"},
+    {"label": "Set to foot traffic", "value": "after 24 hours"},
+    {"label": "Sanding", "value": "after approximately 3 days (according to the surrounding temperature)"},
+    {"label": "Tensile bond strength EN 14293 (N/mm²): - after 7 days a +23°C", "value": "> 2.0"},
+    {"label": "Shear resistance EN 14293 (N/mm²): - after 3 days a +23°C", "value": "> 3.0"},
+    {"label": "In-service temperature range", "value": "from -40°C to +100°C"}
+  ],
+  "consumption": [
+    {
+      "basis": "with a MAPEI trowel for wood according to the type of substrate",
+      "value": "800-1000 g/m²",
+      "quote": "800-1000 g/m² with a MAPEI trowel for wood according to the type of substrate."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": "The two components which make up Lignobond are supplied in separate pre-dosed tubs: ▪ component A: 9 parts by weight; ▪ component B: 1 part by weight.",
+  "packaging": "5 and 10 kg kits.",
+  "storage": "Lignobond remains stable for at least 24 months if stored in its original, sealed packaging in a normal environment.",
+  "notes": "DESCRIPTION SPELLING: the reading-order text file prints 'epoxypolyurethane' as one word, and that is what is copied here so the string matches the file; the layout file shows the word broken across two lines as 'epoxy-' / 'polyurethane', and the body text uses 'epoxy-polyurethane', so the printed word is almost certainly 'epoxy-polyurethane' and the hyphen was lost in extraction. Decide which form to publish. CONSUMPTION: one figure only (800-1000 g/m²); the sheet names 'a MAPEI trowel for wood' but gives no trowel number or notch size and no breakdown by substrate or parquet format. UNIT INCONSISTENCY: the table row 'Density of mix (kg/m³)' has the value 1.46, which cannot be kg/m³ (the components are given as 1.5 and 1.2 g/cm³), so it was left out of technicalData. COLOUR: the COLOUR section says 'Brown and beige.' while the identity table gives component A as 'light brown' / 'dark brown' and component B as 'brown'. The setting-time table (30/25/20/15/10/5 °C = 3/5/8/11/18/34 hours) includes 5°C although the sheet says never to use the product below +10°C; it is a setting-time table, not a consumption table, so consumptionTable is empty. EN 14293 is cited only as the test method for the tensile bond and shear values; the sheet states no classification, so 'standards' is empty. The tensile bond and shear rows have further sub-rows not listed here (tensile: after 28 days > 2.0, after hot cycle > 2.0; shear: after hot cycle > 3.5). The mixing string is copied with the sheet's bullet characters. This is an old edition (2016)."
+}

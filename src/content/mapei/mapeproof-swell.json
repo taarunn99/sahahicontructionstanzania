@@ -1,0 +1,101 @@
+{
+  "slug": "mapeproof-swell",
+  "titleAsPrinted": "MAPEPROOF SWELL",
+  "edition": "2063-1-2024 en (IT)",
+  "description": "Hydro-expansive, rubber-based hydrophilic sealant paste in tubes, applied using an extrusion gun",
+  "whereToUse": [
+    "Mapeproof Swell has been specially developed to form flexible, waterproof seals in cracked reinforced concrete or in prefabricated elements with infiltration of water.",
+    "Sealing pipe-work which passes through concrete.",
+    "Sealing spacers in formwork.",
+    "Sealing cold joints in reinforced concrete structures.",
+    "Sealing where water seeps through cracks in reinforced concrete structures.",
+    "Bonding various types of joints.",
+    "Sealing lights and drainage outlets in swimming pools and tanks.",
+    "Sealing construction joints in concrete walls."
+  ],
+  "notFor": [
+    "Do not apply Mapeproof Swell if the surface on which it is to be applied is highly contaminated with acid or solvents.",
+    "Do not use Mapeproof Swell on dirty or weak surfaces.",
+    "This product is not suitable for surface only application, and must always be confined.",
+    "The substrate may be damp, but there must be no water on the surface."
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Consistency",
+      "value": "thixotropic paste"
+    },
+    {
+      "label": "Colour",
+      "value": "light grey"
+    },
+    {
+      "label": "Density",
+      "value": "1.25-1.30 g/cm³"
+    },
+    {
+      "label": "Recommended application temperature range",
+      "value": "from +5°C to +40°C"
+    },
+    {
+      "label": "Volumetric expansion in water",
+      "value": "minimum 100%"
+    },
+    {
+      "label": "Formation of surface skin",
+      "value": "after 180-200 minutes"
+    },
+    {
+      "label": "Polymerisation time",
+      "value": "2 mm every 9 hours"
+    },
+    {
+      "label": "Consumption",
+      "value": "approximately 320 ml per 3 linear metres"
+    },
+    {
+      "label": "Shore A hardness (DIN 53505)",
+      "value": "32"
+    },
+    {
+      "label": "Elongation (DIN 53504)",
+      "value": "> 700%"
+    },
+    {
+      "label": "Load at break (DIN 53504)",
+      "value": "2.5 N/mm²"
+    },
+    {
+      "label": "Sealing of water",
+      "value": "1 ATM"
+    }
+  ],
+  "consumption": [
+    {
+      "basis": "Linear metres of bead per single cartridge, for a bead with a diameter of from 6 to 13 mm (APPLICATION PROCEDURE)",
+      "value": "approximately 3 metres",
+      "quote": "With a single cartridge, approximately 3 metres of bead with a diameter of from 6 to 13 mm may be formed."
+    },
+    {
+      "basis": "Linear metres per cartridge (CONSUMPTION section)",
+      "value": "approximately 3 metres",
+      "quote": "Each cartridge forms approximately 3 metres of Mapeproof Swell."
+    },
+    {
+      "basis": "Volume of product per linear metres of bead (technical data table)",
+      "value": "approximately 320 ml per 3 linear metres",
+      "quote": "Consumption: approximately 320 ml per 3 linear metres"
+    },
+    {
+      "basis": "Normal bead size (diameter of the extruded bead; not a consumption rate)",
+      "value": "from 6 to 13 mm",
+      "quote": "The normal size of the bead is from 6 to 13 mm."
+    }
+  ],
+  "consumptionFormula": null,
+  "consumptionTable": [],
+  "mixing": null,
+  "packaging": "Boxes containing 6 cartridges 320 ml each.",
+  "storage": "Mapeproof Swell may be stored for up to 12 months in a dry place and at a temperature between +15°C and +25°C.",
+  "notes": "The sheet gives one coverage figure only - approximately 3 metres per 320 ml cartridge - stated three times (application text, CONSUMPTION section, technical data table) and consistently. It is tied to a bead-diameter RANGE of 6 to 13 mm, not to one bead size, and no table of metres versus bead size is printed, so a calculator cannot vary yield by bead diameter from this sheet; use 3 m per cartridge. (My own arithmetic, not in the sheet: 320 ml over 3 m is a section of about 107 mm2, which matches the upper end of that range, so a thin 6 mm bead would not be limited to 3 m.) Temperature wording conflicts: TECHNICAL CHARACTERISTICS says the product 'may be used at any temperature', while the table prints 'Recommended application temperature range: from +5°C to +40°C'. The description says 'paste in tubes'; PACKAGING and the text say 320 ml cartridges. Other dimensions in the application text that are not consumption figures: cracks/joints broken out 'to a depth of at least 6 cm', and a confining boundary of 'at least 5 cm' when applied either side of a Lamposilex plug. Expansion is printed as 'Volumetric expansion in water: minimum 100%' and hydrostatic resistance as 'Sealing of water: 1 ATM'. No standards or classifications are stated (DIN/ISO references in the table are test methods, kept in the labels)."
+}
