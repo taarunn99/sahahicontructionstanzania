@@ -177,6 +177,17 @@ When the owner supplies a real site photograph, drop it in
 `assets/source/projects/<slug>.jpg`, rebuild, and change that project's `picture`
 kind to `"site"` with a credit.
 
+## 3e. CMCI line pictures, 2026-11-07
+
+| File | Source |
+|---|---|
+| `public/images/cmci/petrochemical.webp` | Picture inside the source data sheet of the range, unaltered but resized |
+| `public/images/cmci/commercial.webp` | Same |
+| `public/images/cmci/tunnels.webp` | Generated, Higgsfield `gpt_image_2_6`, job 21a0f382-9acf-4cfd-90b4-ab58b6e8e1b3, master in `assets/source/cmci-images/` |
+
+Atmosphere only, with a line at the foot of `/cmci`. No pack shots. The source site's
+tunnel picture was not used because it is captioned as another project.
+
 ## 4. The first attempt, 2026-11-05
 
 Higgsfield refused every job that day (plan in a grace period). Nothing

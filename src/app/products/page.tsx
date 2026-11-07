@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 import { ModelViewer } from "@/components/media/model-viewer";
+import { ProductCardShell } from "@/components/sections/catalogue/product-card";
 import { Reveal } from "@/components/motion/reveal";
 import {
   BrandBand,
@@ -25,6 +25,7 @@ import {
   bihuiPicture,
 } from "@/config/bihui";
 import { brandBySlug, brands, type BrandSlug } from "@/config/brands";
+import { cmciHref, cmciInLine, cmciLines, cmciProducts } from "@/config/cmci";
 import {
   lineHref,
   lines,
@@ -39,7 +40,7 @@ import {
   productIllustrations,
   productOneLiners,
 } from "@/config/product-one-liners";
-import { siteConfig, whatsappLink } from "@/config/site";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 const TITLE = "Mapei & X-Calibur Products in Tanzania - Full Catalogue";
@@ -136,52 +137,6 @@ const SHELVES: Record<
     alt: "A sealed joint in concrete",
   },
 };
-
-function ProductCardShell({
-  href,
-  name,
-  line,
-  picture,
-  alt,
-}: {
-  href: string;
-  name: string;
-  line: string;
-  picture: { src: string; width: number; height: number };
-  alt: string;
-}) {
-  return (
-    <li className="w-[68vw] max-w-[17rem] shrink-0 sm:w-[17rem]">
-      <article className="bg-chalk border-deep group flex h-full flex-col overflow-hidden rounded-2xl border">
-        <Link
-          href={href}
-          draggable={false}
-          tabIndex={-1}
-          aria-hidden
-          className="relative block aspect-square overflow-hidden bg-white"
-        >
-          <Image
-            src={picture.src}
-            alt={alt}
-            fill
-            draggable={false}
-            sizes="(min-width: 40rem) 17rem, 68vw"
-            className="object-contain p-6 transition-transform duration-700 ease-out group-hover:scale-110 group-hover:-rotate-3"
-          />
-        </Link>
-        <div className="flex flex-1 flex-col p-5">
-          <h4 className="font-display text-xl leading-tight text-balance">
-            {name}
-          </h4>
-          <p className="text-muted mt-2 mb-5 text-sm leading-relaxed">{line}</p>
-          <FlowButton href={href} size="sm" className="mt-auto self-start">
-            Explore<span className="sr-only"> {name}</span>
-          </FlowButton>
-        </div>
-      </article>
-    </li>
-  );
-}
 
 function ProductCard({ product }: { product: Product }) {
   const pack = packshot(product.brand, product.slug);
@@ -312,13 +267,17 @@ export default function ProductsPage() {
     {
       value: "all",
       label: "All",
-      count: products.length + bihuiFamilies.length,
+      count: products.length + bihuiFamilies.length + cmciProducts.length,
     },
     ...brands.map((brand) => ({
       value: brand.slug,
       label: brand.name,
       count:
-        brand.slug === "bihui" ? bihuiFamilies.length : countOf(brand.slug),
+        brand.slug === "bihui"
+          ? bihuiFamilies.length
+          : brand.slug === "cmci"
+            ? cmciProducts.length
+            : countOf(brand.slug),
     })),
   ];
 
@@ -466,17 +425,37 @@ export default function ProductsPage() {
           </BrandBand>
 
           <BrandBand brand="cmci" id="cmci">
-            <BrandTitle slug="cmci" />
-            <section className="bg-surface py-14 sm:py-20">
-              <Container className="flex flex-wrap items-center justify-between gap-6">
-                <p className="font-display text-phi-2 max-w-2xl leading-[1.05] text-balance">
-                  The CMCI range is supplied to project requirement.
-                </p>
-                <FlowButton href={whatsappLink("the CMCI range")}>
-                  Ask about CMCI
-                </FlowButton>
-              </Container>
-            </section>
+            <BrandTitle slug="cmci" explore="/cmci" />
+            {cmciLines.map((line, index) => (
+              <Band key={line.slug} stage={line.stage}>
+                <Reveal className="min-w-0">
+                  <p className="spec-sh">
+                    {String(index + 1).padStart(2, "0")} ·{" "}
+                    {cmciInLine(line.slug).length} products
+                  </p>
+                  <h3 className="font-display text-phi-2 mt-3 leading-[1.05] text-balance">
+                    {line.label}
+                  </h3>
+                  <p className="mt-3 max-w-md leading-relaxed">{line.line}</p>
+                  <FlowButton href={`/cmci#${line.slug}`} className="mt-6">
+                    Explore
+                  </FlowButton>
+                </Reveal>
+                <ProductShelf label={`CMCI ${line.label}`}>
+                  {cmciInLine(line.slug).map((item) => (
+                    <ProductCardShell
+                      key={item.slug}
+                      href={cmciHref(item)}
+                      name={item.name}
+                      line={item.oneLine}
+                      picture={line.picture}
+                      alt={`${line.label} fireproofing, for ${item.name}`}
+                      cover
+                    />
+                  ))}
+                </ProductShelf>
+              </Band>
+            ))}
           </BrandBand>
         </div>
       </CatalogueProvider>
@@ -485,7 +464,7 @@ export default function ProductsPage() {
         <Container>
           <p className="text-muted max-w-3xl text-sm leading-relaxed">
             3D models and some pictures are illustrative. Product names are
-            trademarks of their manufacturers.
+            trademarks of their owners.
           </p>
         </Container>
       </section>

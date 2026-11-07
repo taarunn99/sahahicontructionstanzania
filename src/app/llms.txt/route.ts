@@ -55,6 +55,7 @@ export function GET() {
     `- [Mapei nchini Tanzania](${base}/sw/mapei): the Mapei hub in Swahili, with a Swahili home page at ${base}/sw`,
     `- [Oriental Yuhong in Tanzania](${base}/oriental-yuhong): waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug`,
     `- [X-Calibur in Tanzania](${base}/x-calibur): epoxy flooring, primer, waterproof coating and joint sealant`,
+    `- [CMCI in Tanzania](${base}/cmci): cementitious fireproofing for petrochemical plant, commercial buildings and tunnels`,
     `- [BIHUI in Tanzania](${base}/bihui): tiling tools, levelling systems, trowels, mixers, grinders, laser levels and cutters`,
     `- [Blog](${base}/blog): guides to waterproofing, tiling, flooring and concrete repair in Tanzania`,
     `- [Products](${base}/products): all ${products.length} catalogued products with classification, consumption and pack size`,

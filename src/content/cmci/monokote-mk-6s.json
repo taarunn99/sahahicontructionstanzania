@@ -1,0 +1,94 @@
+{
+  "slug": "monokote-mk-6s",
+  "titleAsPrinted": "Monokote Type MK-6s",
+  "description": "Type MK-6s is spray applied directly to structural steel and steel decking, providing up to 4 hours of fire resistance. Type MK-6s is well suited for projects where access to substrate is limited, mobilization times need to be minimized and overall project size is small.",
+  "whereToUse": [
+    "structural steel",
+    "steel decking"
+  ],
+  "advantages": [
+    "Factory Pre-Mixed: Ready to use. No job site proportioning required.",
+    "Permanent: When set and dry, Type MK-6s is a fully passive fire protection.",
+    "Durable: Its hardness and durability help resist accidental physical damage."
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM E 605",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 736",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 761",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 859",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 84",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 1354",
+      "value": ""
+    },
+    {
+      "standard": "ASTM G 21",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density",
+      "value": "305 kg/m3"
+    },
+    {
+      "label": "Bond strength, to galvanized steel",
+      "value": "29.3 kPa (612 psf)"
+    },
+    {
+      "label": "Compressive strength at 10% deformation",
+      "value": "117 kPa (2451 psf)"
+    },
+    {
+      "label": "Corrosion",
+      "value": "Does not contribute to corrosion"
+    },
+    {
+      "label": "Bond impact",
+      "value": "No cracking, spalling or delamination"
+    },
+    {
+      "label": "Deflection",
+      "value": "No cracking, spalling or delamination"
+    },
+    {
+      "label": "Resistance to mold growth",
+      "value": "No growth after 60 days"
+    },
+    {
+      "label": "Combustibility",
+      "value": "Less than 5 M J/m2 total, 20 kW/m2 peak heat release"
+    },
+    {
+      "label": "Minimum air substrate temperature",
+      "value": "4.4°C (40°F)"
+    },
+    {
+      "label": "Color",
+      "value": "Off-white"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "2.6m2 at 25mm thickness (28 bd ft/bag)"
+    }
+  ],
+  "mixing": "Target density of 640-690 kg/m3 (40-43 pcf)",
+  "storage": "The material shall be kept dry until ready for use."
+}

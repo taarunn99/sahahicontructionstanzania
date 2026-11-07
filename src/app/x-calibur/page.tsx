@@ -29,7 +29,7 @@ import { pad } from "@/lib/utils";
 
 const TITLE = "X-Calibur Tanzania - Epoxy Floors, Waterproofing, Sealants";
 const DESCRIPTION =
-  "Sahihi supplies X-Calibur epoxy flooring, primers, elasto-cement waterproofing and polysulphide joint sealants in Dar es Salaam, with official data sheets.";
+  "Sahihi supplies X-Calibur epoxy flooring, primers, SBR bonding agent, elasto-cement waterproofing and polysulphide joint sealants in Dar es Salaam, with data sheets.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -51,8 +51,13 @@ const SYSTEMS = [
     name: "Epoxy floor",
     steps: ["x-prime-gp", "x-tech-epoxyfloor-sl1"],
   },
+  {
+    name: "Epoxy floor, second primer",
+    steps: ["x-prime-gp2", "x-tech-epoxyfloor-sl1"],
+  },
+  { name: "Bonding new to old concrete", steps: ["x-tech-sbr-bond"] },
   { name: "Wet area and roof waterproofing", steps: ["x-shield-flexpruf"] },
-  { name: "Joint sealing", steps: ["x-seal-primer", "x-seal-pg"] },
+  { name: "Joint sealing", steps: ["x-seal-universal-primer", "x-seal-ps800"] },
 ];
 
 const faq: FaqItem[] = [
@@ -147,9 +152,9 @@ export default function XCaliburPage() {
           <div className="mt-10 grid gap-10 lg:grid-cols-[1.618fr_1fr] lg:items-end">
             <p className="text-phi-1 max-w-3xl leading-snug font-light">
               {siteConfig.brandName} supplies X-Calibur in Tanzania: a
-              self-levelling epoxy floor and its primer, an elasto-cement
-              waterproof coating, and a polysulphide joint sealant with its
-              primer, held in Dar es Salaam.
+              self-levelling epoxy floor and two primers, an SBR bonding agent,
+              an elasto-cement waterproof coating, and a polysulphide joint
+              sealant with its primer, held in Dar es Salaam.
             </p>
             <dl className="border-deep grid grid-cols-3 border-t">
               {[

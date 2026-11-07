@@ -11,13 +11,10 @@ import type { CoverageModel } from "@/lib/coverage";
  * SERVER ONLY (reads the content files from disk at build time).
  *
  * Content: src/content/x-calibur/<slug>.json, built from X-Calibur's own
- * technical data sheets (x-calibur.us); every string was checked to be in
- * the PDF. Identity notes are in docs/research/06-xcalibur-cmci.md:
- *  - "X-Seal PG" on the owner's list is not an official name. It matches
- *    X-Seal PS800, pouring grade, on three points; the page carries that
- *    data sheet and says so. The owner should confirm from the can.
- *  - "X-Seal Primer" is matched to X-Seal PS800 Primer the same way.
- *  - "X-Tech Bond" has no official data sheet: it is on request.
+ * technical data sheets; every string was checked to be in the PDF. The owner
+ * supplied the seven sheets on 2026-11-07, which settled three price-list names:
+ * X-Tech Bond is X-Tech SBR Bond, X-Seal PG is X-Seal PS800 in pouring grade,
+ * and X-Seal Primer is X-Seal Universal Primer.
  */
 
 export const xcaliburProducts = products.filter(
@@ -45,9 +42,9 @@ export const xcaliburTds = tdsManifest as Record<
 export const xcaliburAlsoKnownAs: Record<string, string> = {
   "x-tech-epoxyfloor-sl1":
     "X-Tech EpoxyFloor SL (grade SL1, 1 to 1.5 mm), X Tech SL1",
-  "x-seal-pg": "X-Seal PS800 pouring grade, X Seal PG",
-  "x-seal-primer": "X-Seal PS800 Primer",
-  "x-tech-bond": "Xtech Bond",
+  "x-seal-ps800": "X-Seal PG (pouring grade), X Seal PG",
+  "x-seal-universal-primer": "X-Seal Primer",
+  "x-tech-sbr-bond": "X-Tech Bond, Xtech Bond",
 };
 
 /**
@@ -82,19 +79,37 @@ export const xcaliburCoverage: Record<string, CoverageModel> = {
     source: "1L (1.7kg) per m²per coat",
     note: "Normal applications require 2 coats.",
   },
-  "x-seal-pg": {
+  "x-seal-ps800": {
     kind: "joint",
     unit: "ml",
     packs: [{ label: "4 litre pack", size: 4000 }],
     source: "Litres per metre run",
     note: "X-Calibur's guide to quantities is the joint's width times its depth: a 25 x 15 mm joint takes 0.37 litres per metre run.",
   },
-  "x-seal-primer": {
+  "x-seal-universal-primer": {
     kind: "area-per-unit",
     unit: "litres",
     rates: [{ label: "Joint faces primed", min: 15, max: 15 }],
-    packs: [{ label: "1 litre can", size: 1 }],
-    source: "X-Seal PS800 Primer - 15m² per liter.",
+    packs: [{ label: "1 litre pack", size: 1 }],
+    source: "X-Seal Universal Primer - 15m² per liter.",
+  },
+  "x-prime-gp2": {
+    kind: "area-per-unit",
+    unit: "litres",
+    rates: [
+      { label: "100 microns wet film", min: 10, max: 10 },
+      { label: "200 microns wet film", min: 5, max: 5 },
+    ],
+    packs: [{ label: "18 litre pack", size: 18 }],
+    source: "5m² per liter at 200 microns",
+  },
+  "x-tech-sbr-bond": {
+    kind: "area-per-unit",
+    unit: "litres",
+    rates: [{ label: "Priming coat", min: 8, max: 8 }],
+    packs: [{ label: "20 litre drum", size: 20 }],
+    source: "Typically 8m² per liter",
+    note: "Coverage will vary depending on surface profile and porosity.",
   },
 };
 

@@ -1,0 +1,83 @@
+{
+  "slug": "monokote-z-106-hy",
+  "titleAsPrinted": "Monokote Type Z-106/HY®",
+  "description": "Monokote Z-106/HY® is Portland cement based cementitious fireproofing designed to meet specific commercial and industrial fire protection requirements on structural steel members, floor/ ceiling and roof/ceiling assemblies.",
+  "whereToUse": [
+    "Special use areas in commercial buildings",
+    "Transportation terminals",
+    "Convention centers",
+    "Stairwells",
+    "Parking garages",
+    "Elevator shafts",
+    "Light manufacturing areas and facilities",
+    "Mechanical rooms",
+    "Gymnasiums and pool areas",
+    "Correctional facilities"
+  ],
+  "advantages": [
+    "Durability",
+    "Moisture Resistant",
+    "Quick Set",
+    "Applicator Friendly"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM E605",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E736",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E761",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E759",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E760",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E859",
+      "value": ""
+    },
+    {
+      "standard": "ASTM G21",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Minimum density",
+      "value": "22 pcf (352 kg/m³)"
+    },
+    {
+      "label": "Minimum bond strength",
+      "value": "2,000 psf (94.5 kN/m²)"
+    },
+    {
+      "label": "Minimum compressive strength",
+      "value": "100 psi (680 kPa)"
+    },
+    {
+      "label": "Air erosion",
+      "value": "0.000 gr/ft2 (0.000 gr/m2)"
+    },
+    {
+      "label": "Minimum air and substrate temperature",
+      "value": "40°F (4.4°C)"
+    },
+    {
+      "label": "Standard color",
+      "value": "Gray"
+    }
+  ],
+  "consumption": [],
+  "mixing": "a mixer density of 38-43 pcf (610-690 kg/m3)",
+  "storage": "The material shall be kept dry until ready for use."
+}

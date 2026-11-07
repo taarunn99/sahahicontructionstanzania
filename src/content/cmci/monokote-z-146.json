@@ -1,0 +1,102 @@
+{
+  "slug": "monokote-z-146",
+  "titleAsPrinted": "Monokote Type Z-146",
+  "description": "Type Z-146 may be used in parking garages, exterior exposure, mechanical rooms and other areas where a highly durable product is required.",
+  "whereToUse": [
+    "parking garages",
+    "exterior exposure",
+    "mechanical rooms",
+    "clean room environments"
+  ],
+  "advantages": [
+    "up to 4 hours of fire resistance",
+    "Factory Pre-Mixed: Ready to use. No job site proportioning required.",
+    "Attractive Finishes: Type Z-146 may be sprayed and/or trowelled to various textures.",
+    "Durable: Its hardness and durability help resist accidental physical damage.",
+    "Weatherable: The Portland cement base affords excellent fire protection characteristics in areas subjected to high humidity."
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM E 605",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 761",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 84 (UL 723)",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 937",
+      "value": ""
+    },
+    {
+      "standard": "ASTM G 21",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 1354",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density",
+      "value": "Min. 640 kg/m3 (40 pcf)"
+    },
+    {
+      "label": "Bond strength, laboratory value",
+      "value": "609 kN/m2 (12,765 psf)"
+    },
+    {
+      "label": "Compressive strength at 10% deformation",
+      "value": "3.79 MPa (550 psi)"
+    },
+    {
+      "label": "Hardness",
+      "value": "40"
+    },
+    {
+      "label": "Surface burning, flame spread",
+      "value": "0"
+    },
+    {
+      "label": "Surface burning, smoke developed",
+      "value": "0"
+    },
+    {
+      "label": "Corrosion resistance",
+      "value": "No corrosion"
+    },
+    {
+      "label": "Fungal resistance",
+      "value": "No fungal growth"
+    },
+    {
+      "label": "Sound absorption",
+      "value": "NRC 0.6-0.80 at 25mm thickness"
+    },
+    {
+      "label": "Combustion",
+      "value": "Not combustible"
+    },
+    {
+      "label": "Minimum air and substrate temperature",
+      "value": "4.5°C (40°F)"
+    },
+    {
+      "label": "Color",
+      "value": "Natural Concrete Gray"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "1.55 m2 at 25mm"
+    }
+  ],
+  "mixing": "a mixer density of 833 to 945 kg/m3 (52 to 59 pcf)",
+  "storage": "The material shall be kept dry until ready for use."
+}

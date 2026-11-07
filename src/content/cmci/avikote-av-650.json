@@ -1,0 +1,79 @@
+{
+  "slug": "avikote-av-650",
+  "titleAsPrinted": "Avikote AV 650",
+  "description": "Avikote AV 650 is a Portland cement-based spray and/or trowel applied product. Only the addition of water at the job site is required for application.",
+  "whereToUse": [
+    "petrochemical",
+    "chemical processing",
+    "gas processing",
+    "refinery facilities",
+    "specialty utility applications"
+  ],
+  "advantages": [
+    "Fire Tested: Tested in accordance with Underwriters Laboratories, Inc. UL 1709 and ASTM E 119 (UL 263); investigated by UL for exterior use, and BS 476 (Part 20)",
+    "Durability: Avikote AV 650 has been tested for Bond Strength, Hardness, and other properties in accordance with API Guidelines (Publication 2218) and ASTM test procedures.",
+    "Pumping equipment - Moyno, Rotor Stator, Piston or Hydraulic",
+    "conforms to UL 1709 with corrosion inhibitors for the protection of the steel and metal lath."
+  ],
+  "notFor": [
+    "Operating temperatures in excess of 93°C (200°F)",
+    "Use on aluminum or other non-steel surfaces",
+    "Use as a refractory cement"
+  ],
+  "standards": [
+    {
+      "standard": "UL 1709",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 119 (UL 263)",
+      "value": ""
+    },
+    {
+      "standard": "BS 476 (Part 20)",
+      "value": ""
+    },
+    {
+      "standard": "API Guidelines (Publication 2218)",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density (ASTM E 605)",
+      "value": "640 kg/m3 (40 pcf)"
+    },
+    {
+      "label": "Minimum average dry, in-place density",
+      "value": "660 kg/m3 (41 pcf)"
+    },
+    {
+      "label": "Bond strength (ASTM E 736)",
+      "value": "478 kN/m2 (10000 psf)"
+    },
+    {
+      "label": "Compressive strength (ASTM E 761)",
+      "value": "3780 kN/m2 (550 psi)"
+    },
+    {
+      "label": "Hardness, Shore D (ASTM D 2240)",
+      "value": "40"
+    },
+    {
+      "label": "Minimum air and substrate temperature",
+      "value": "4°C (38°F)"
+    },
+    {
+      "label": "Color",
+      "value": "Grey"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "Each mm thickness requires 0.603kg"
+    }
+  ],
+  "mixing": "approximately 15 litres (4 US gals) per bag",
+  "packaging": "22.27 kg/bag (49 lbs/bag)",
+  "storage": "The material shall be kept dry until ready for use."
+}

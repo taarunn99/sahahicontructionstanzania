@@ -136,6 +136,15 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
     top; back, forward and reload return to where the visitor left it.
   - `.vscode/settings.json` makes Source Control find the repo through the
     Desktop symlink.
+- Fifth round, 2026-11-07:
+  - **X-Calibur** now seven products from the owner's seven data sheets. Renamed
+    from the price list: X-Tech Bond is X-Tech SBR Bond, X-Seal PG is X-Seal PS800,
+    X-Seal Primer is X-Seal Universal Primer. X-Prime GP2 is new.
+  - **CMCI**: `/cmci` and eight product pages (`src/config/cmci.ts`,
+    `src/content/cmci/`), three lines only: petrochemical, commercial, tunnels.
+    CMCI is never worded as the maker (GOVERNANCE). Each page offers the
+    manufacturer's data sheet as an unaltered PDF from `public/tds/cmci/` (owner,
+    2026-11-07). The sheets print the manufacturer's name; page copy does not.
 - Owner decisions on 2026-11-05: the `/mapei` hub owns
   "Mapei Tanzania"; Sahihi is independent (no group mention); Mlinzi is
   parked and treated as a third-party incumbent. The launch domain is

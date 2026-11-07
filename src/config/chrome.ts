@@ -7,6 +7,7 @@ import {
   productsInLine,
 } from "@/config/catalogue";
 import { bihuiFamilies, bihuiHref, bihuiName } from "@/config/bihui";
+import { cmciHref, cmciProducts } from "@/config/cmci";
 import { searchEntry, type SearchEntry } from "@/lib/search";
 
 /**
@@ -37,7 +38,13 @@ const lineLink = (line: (typeof lines)[number]): ChromeLink => ({
 });
 
 /** Brand hubs that exist; the rest are anchors on /products for now. */
-const HUBS = new Set(["mapei", "x-calibur", "oriental-yuhong", "bihui"]);
+const HUBS = new Set([
+  "mapei",
+  "x-calibur",
+  "oriental-yuhong",
+  "bihui",
+  "cmci",
+]);
 const brandHref = (slug: string) =>
   HUBS.has(slug) ? `/${slug}` : `/products#${slug}`;
 
@@ -55,9 +62,11 @@ export const chromeNav: ChromeNav = {
     sub:
       brand.slug === "bihui"
         ? `${bihuiFamilies.length} tools`
-        : brand.catalogued
-          ? count(products.filter((p) => p.brand === brand.slug).length)
-          : "Range on request",
+        : brand.slug === "cmci"
+          ? count(cmciProducts.length)
+          : brand.catalogued
+            ? count(products.filter((p) => p.brand === brand.slug).length)
+            : "Range on request",
   })),
   footerBrands: brands.map((brand) => ({
     label: brand.name,
@@ -84,6 +93,22 @@ export const searchIndex: SearchEntry[] = [
     "/x-calibur",
     "Pages",
     "xcalibur x calibur",
+  ),
+  searchEntry(
+    "CMCI in Tanzania",
+    "Cementitious fireproofing: petrochemical, commercial, tunnels",
+    "/cmci",
+    "Pages",
+    "fireproofing fire protection",
+  ),
+  ...cmciProducts.map((product) =>
+    searchEntry(
+      product.name,
+      product.type,
+      cmciHref(product),
+      "CMCI",
+      product.alsoKnownAs,
+    ),
   ),
   searchEntry(
     "Oriental Yuhong in Tanzania",

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { lineHref, lines, productHref, products } from "@/config/catalogue";
 import { bihuiFamilies, bihuiHref } from "@/config/bihui";
+import { cmciHref, cmciProducts } from "@/config/cmci";
 import { blogCategories, posts, postsInCategory } from "@/config/blog";
 import { siteConfig } from "@/config/site";
 import { enTwin, swTwin, swTwins } from "@/config/sw-routes";
@@ -19,6 +20,7 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "", modified: "2026-11-05", priority: 1 },
   { path: "/mapei", modified: "2026-11-05", priority: 0.9 },
   { path: "/bihui", modified: "2026-11-06", priority: 0.8 },
+  { path: "/cmci", modified: "2026-11-07", priority: 0.8 },
   { path: "/products", modified: "2026-11-05", priority: 0.8 },
   { path: "/projects", modified: "2026-11-05", priority: 0.7 },
   { path: "/blog", modified: "2026-11-06", priority: 0.7 },
@@ -62,6 +64,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  const fireproofing = cmciProducts.map((product) => ({
+    path: cmciHref(product),
+    modified: "2026-11-07",
+    priority: 0.5,
+  }));
+
   // The real Swahili pages, each paired with its English twin by hreflang.
   const swahili = swTwins.map(([, path]) => ({
     path,
@@ -69,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "/sw" ? 0.8 : 0.6,
   }));
 
-  return [...CORE, ...pillars, ...items, ...tools, ...blog, ...swahili].map(
+  return [...CORE, ...pillars, ...items, ...tools, ...fireproofing, ...blog, ...swahili].map(
     (route) => {
       const path = route.path === "" ? "/" : route.path;
       const english = enTwin(path) ?? (swTwin(path) ? path : undefined);

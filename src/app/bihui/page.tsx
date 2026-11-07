@@ -171,6 +171,7 @@ export default function BihuiPage() {
                   model={bihuiModel(mixer) ?? "/models/blog/mortar-mixer.glb"}
                   poster={mixerPicture}
                   alt={`BIHUI ${bihuiName(mixer)}`}
+                  preload
                 />
                 <figcaption className="spec-sh border-deep/15 border-t px-5 py-3 text-center leading-relaxed">
                   {bihuiName(mixer)}. Turn it any way round.

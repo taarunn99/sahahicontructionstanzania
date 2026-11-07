@@ -10,7 +10,10 @@
     "Laboratories and clean rooms",
     "Chemical handling and processing areas"
   ],
-  "notFor": [],
+  "notFor": [
+    "Will change color when exposed to direct sunlight.",
+    "Do not use solvent to finish the surface."
+  ],
   "standards": [
     {
       "standard": "SCAQMD Rule 1113",
@@ -31,16 +34,36 @@
   ],
   "technicalData": [
     {
-      "label": "Grade",
-      "value": "X-Tech EpoxyFloor SL1, thickness: 1 to 1.5mm"
+      "label": "Compressive strength (ASTM D695)",
+      "value": ">70MPa"
+    },
+    {
+      "label": "Compressive modulus (ASTM D695)",
+      "value": ">5000MPa"
+    },
+    {
+      "label": "Impact resistance (ASTM D2794)",
+      "value": ">5 Joules"
+    },
+    {
+      "label": "Abrasion resistance (ASTM D4060)",
+      "value": "<50 mg"
+    },
+    {
+      "label": "Application temperature range",
+      "value": "5 to 35C"
+    },
+    {
+      "label": "Pot life at 25C",
+      "value": "75 minutes"
+    },
+    {
+      "label": "Service temperature",
+      "value": "0 to 60C"
     },
     {
       "label": "Volatile organic content",
       "value": "VOC = <10g/L"
-    },
-    {
-      "label": "Compressive strength (ASTM D695)",
-      "value": ">70MPa"
     }
   ],
   "consumption": [
@@ -50,5 +73,12 @@
   ],
   "mixing": null,
   "packaging": "X-Tech EpoxyFloor SL: 17 liter packs",
-  "storage": null
+  "storage": "12 months when stored between 10 to 35C under shade in dry conditions.",
+  "advantages": [
+    "Meets SCAQMD Rule 1113 & LEED VOC Limits",
+    "Formaldehyde free",
+    "High impact and abrasion resistance",
+    "Fast application",
+    "Easy to clean finish"
+  ]
 }

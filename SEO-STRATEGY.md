@@ -213,9 +213,9 @@ PHASE 2 - solution pillars (generic queries, brand-agnostic)
 /solutions/underground-construction     needs stock list first (Q11)
 
 PHASE 3 - the other brands
-/x-calibur + /x-calibur/<item>          6 item pages
+/x-calibur + /x-calibur/<item>          7 item pages
 /oriental-yuhong                        needs stock list (Q10)
-/cmci  /bihui                           need stock lists and appointment wording (Q2, Q10)
+/cmci + /cmci/<item>                    8 item pages (built 2026-11-07)
 
 PHASE 4 - authority
 /training                               applicator training + CPD
@@ -251,9 +251,9 @@ distributor that also appoints applicators.
 | Sahihi Construction Chemicals | `/about` | E | Sahihi CC, Sahihi Construction Chemicals Limited. The bare word "sahihi" is Swahili for correct and is not winnable; always use the full name |
 | Mapei projects Tanzania | `/projects` | E (inf) | Mapei projects Dar es Salaam, Mapei waterproofing projects Tanzania, where Mapei is used in Tanzania. Thin until projects carry detail (Q5) |
 | Mapei price list Tanzania | `/price-list` | M | Mapei price Tanzania, bei ya Mapei |
-| X-Calibur Tanzania (BUILT 2026-11-06, with six item pages at `/x-calibur/<item>`) | `/x-calibur` | E | X-Calibur construction chemicals Tanzania, X-Calibur distributor Tanzania |
+| X-Calibur Tanzania (BUILT 2026-11-06, with seven item pages at `/x-calibur/<item>`) | `/x-calibur` | E | X-Calibur construction chemicals Tanzania, X-Calibur distributor Tanzania |
 | Oriental Yuhong Tanzania | `/oriental-yuhong` | E | OYH waterproofing Tanzania, Yuhong membrane, Oriental Yuhong East Africa / Kenya |
-| CMCI Tanzania | `/cmci` | E | Construction Material Chemical Industries Tanzania |
+| CMCI Tanzania (BUILT 2026-11-07, with eight item pages at `/cmci/<item>`) | `/cmci` | E | CMCI fireproofing Tanzania, cementitious fireproofing Tanzania, Monokote Tanzania, Avikote Tanzania |
 | BIHUI Tanzania | `/bihui` | E | BIHUI tile tools Tanzania (BIHUI is a tiling tools brand, not adhesives) |
 
 ### 5.2 Mapei line pillars and items

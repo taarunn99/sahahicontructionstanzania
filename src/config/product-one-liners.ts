@@ -71,12 +71,13 @@ export const productOneLiners: Record<string, string> = {
   "mapeproof-swell": "Expansive hydrophilic sealant paste in tubes.",
   "idrocrete-kr-1000": "Crystallizing admixture for waterproof concrete.",
 
-  "x-tech-bond": "SBR bonding agent.",
+  "x-tech-sbr-bond": "Multi purpose bonding agent for concrete.",
   "x-tech-epoxyfloor-sl1": "Self-levelling epoxy floor.",
   "x-prime-gp": "Primer for epoxy systems.",
   "x-shield-flexpruf": "Waterproofing coat for wet areas.",
-  "x-seal-pg": "Pourable polysulphide sealant for joints.",
-  "x-seal-primer": "Primer for joint sealant.",
+  "x-seal-ps800": "Polysulphide sealant for joints.",
+  "x-seal-universal-primer": "Primer for joint sealant.",
+  "x-prime-gp2": "Primer for epoxy coatings and floors.",
 
   "yhcoat-1000": "Polymer-modified cementitious waterproofing slurry.",
   "yhcolorwall-5300":
@@ -95,10 +96,11 @@ export const productIllustrations: Record<string, string> = {
   "mapei-gun-585-2k": "base-plate",
   "mapefloor-finish-450-me": "epoxy-section",
   "quartz-sand": "epoxy-section",
-  "x-tech-bond": "screed-section",
+  "x-tech-sbr-bond": "screed-section",
   "x-tech-epoxyfloor-sl1": "epoxy-section",
   "x-prime-gp": "epoxy-section",
   "x-shield-flexpruf": "tile-bed",
-  "x-seal-pg": "sealant-joint",
-  "x-seal-primer": "sealant-joint",
+  "x-seal-ps800": "sealant-joint",
+  "x-seal-universal-primer": "sealant-joint",
+  "x-prime-gp2": "epoxy-section",
 };

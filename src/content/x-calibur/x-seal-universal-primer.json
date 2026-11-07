@@ -1,0 +1,52 @@
+{
+  "slug": "x-seal-universal-primer",
+  "titleAsPrinted": "X-Seal Universal Primer",
+  "description": "X-Seal Universal Primer is a single component high penetration primer for use with X-Seal FR200 joint sealant.",
+  "whereToUse": [
+    "X-Seal FR200 and PS800 Sealant"
+  ],
+  "advantages": [
+    "Low viscosity",
+    "Penetrating",
+    "Enhances bond"
+  ],
+  "notFor": [
+    "Avoid excessive application.",
+    "Do not smoke."
+  ],
+  "standards": [
+    {
+      "standard": "DCL Green Building Regulations",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Specific gravity",
+      "value": "1.00 ± 0.05"
+    },
+    {
+      "label": "Touch dry",
+      "value": "10 minutes at 30C (86F)"
+    },
+    {
+      "label": "Recoat time",
+      "value": "24 hours at 30C (86F)"
+    },
+    {
+      "label": "Volatile organic content",
+      "value": "VOC <400 g/L"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "X-Seal Universal Primer - 15m² per liter."
+    },
+    {
+      "quote": "1 Liter of X-Seal Universal Primer is sufficient for approx. 225lm of 10mm joint."
+    }
+  ],
+  "mixing": null,
+  "packaging": "1 liter packs",
+  "storage": "12 months when stored below 30C (86F) under shade in a dry environment."
+}

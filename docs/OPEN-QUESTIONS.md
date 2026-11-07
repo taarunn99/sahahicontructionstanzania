@@ -145,6 +145,27 @@ tiling *tools* brand (cutters, lifters, levelling systems), not adhesives.
 CMCI is Construction Material Chemical Industries of Dammam, Saudi
 Arabia, with 207 products. What does Sahihi actually hold of each?
 
+### Q20. CMCI data sheets (raised 2026-11-07)
+
+ANSWERED 2026-11-07: the owner wants the manufacturer's own sheets on the pages, as
+they are. They are in `public/tds/cmci/`, unaltered.
+
+Still open for this range:
+- Fire approvals: the sheets say bags carry the manufacturer's name and UL labels.
+  Does CMCI have the right to supply under these approvals and product names?
+- Monokote Z-156T's sheet is the one written for tunnels, but it is listed under
+  Commercial, as on the owner's source. Should it also show under Tunnels?
+- Avikote AV 650's sheet prints 640 kg/m3 in its table and 660 kg/m3 minimum in
+  place. Both are shown as printed. Bag sizes for the six Monokote products are not
+  on their sheets.
+
+### X-Calibur, raised 2026-11-07
+
+- X-Seal PS800's sheet tells you to prime with X-Seal PS800 Primer; the owner
+  supplied X-Seal Universal Primer, whose sheet covers PS800. Which is on the shelf?
+- X-Prime GP2 is not on the 2026 price list. Pack is shown as 18 litres: confirm.
+- X-Calibur pack photographs: none in the data sheets or brochures. Owner to supply.
+
 ### Q11. What sits behind sports flooring, SPC/LVT and mining?
 
 The letter lists sports coatings, EPDM, synthetic grass, SPC and LVT

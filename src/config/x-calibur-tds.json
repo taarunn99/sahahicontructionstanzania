@@ -23,20 +23,36 @@
     "fetched": "2026-11-06",
     "sourceUrl": "https://www.x-calibur.us/public/uploads/data_sheets/technical_data_sheets/X-Shield_FlexPruf.pdf"
   },
-  "x-seal-pg": {
-    "file": "/tds/x-calibur/x-seal-pg.pdf",
+  "x-prime-gp2": {
+    "file": "/tds/x-calibur/x-prime-gp2.pdf",
+    "title": "X-Prime GP2",
+    "pages": 2,
+    "bytes": 428231,
+    "fetched": "2026-11-07",
+    "sourceUrl": "Supplied by the owner, 2026-11-07"
+  },
+  "x-tech-sbr-bond": {
+    "file": "/tds/x-calibur/x-tech-sbr-bond.pdf",
+    "title": "X-Tech SBR Bond",
+    "pages": 2,
+    "bytes": 273675,
+    "fetched": "2026-11-07",
+    "sourceUrl": "Supplied by the owner, 2026-11-07"
+  },
+  "x-seal-ps800": {
+    "file": "/tds/x-calibur/x-seal-ps800.pdf",
     "title": "X-Seal PS800",
     "pages": 2,
-    "bytes": 368985,
-    "fetched": "2026-11-06",
-    "sourceUrl": "https://www.x-calibur.us/public/uploads/data_sheets/technical_data_sheets/X-Seal_PS8001.pdf"
+    "bytes": 505681,
+    "fetched": "2026-11-07",
+    "sourceUrl": "Supplied by the owner, 2026-11-07"
   },
-  "x-seal-primer": {
-    "file": "/tds/x-calibur/x-seal-primer.pdf",
-    "title": "X-Seal PS800 Primer",
+  "x-seal-universal-primer": {
+    "file": "/tds/x-calibur/x-seal-universal-primer.pdf",
+    "title": "X-Seal Universal Primer",
     "pages": 2,
-    "bytes": 402548,
-    "fetched": "2026-11-06",
-    "sourceUrl": "https://www.x-calibur.us/public/uploads/data_sheets/technical_data_sheets/X-Seal_PS800_Primer.pdf"
+    "bytes": 222189,
+    "fetched": "2026-11-07",
+    "sourceUrl": "Supplied by the owner, 2026-11-07"
   }
 }

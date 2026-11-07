@@ -1,0 +1,101 @@
+{
+  "slug": "x-seal-ps800",
+  "titleAsPrinted": "X-Seal PS800",
+  "description": "X-Seal PS800 is a high performance polysulphide sealant for use in a variety of applications. It has excellent adhesion to most substrates and can be used in immersed conditions.",
+  "whereToUse": [
+    "High movement joints",
+    "General purpose joint sealing",
+    "Highway structures",
+    "Water retaining and excluding structures",
+    "Basement cladding",
+    "Floors",
+    "Subways"
+  ],
+  "advantages": [
+    "Meets SCAQMD Rule 1168 & LEED VOC Limits",
+    "Formaldehyde free",
+    "Can be used in immersed conditions",
+    "Durable resilient seal",
+    "High early movement accommodation",
+    "Excellent application characteristics",
+    "Can be used in contact with potable water",
+    "Available in gun and pouring grades"
+  ],
+  "notFor": [
+    "Do not part mix.",
+    "Do not use in contact with asphalt.",
+    "Do not expose to aggressive chemicals."
+  ],
+  "standards": [
+    {
+      "standard": "SCAQMD Rule 1168",
+      "value": ""
+    },
+    {
+      "standard": "LEED NC2009 IEQ 4.1",
+      "value": ""
+    },
+    {
+      "standard": "Estidama LBi-2.1",
+      "value": ""
+    },
+    {
+      "standard": "British Standard BS 4254",
+      "value": ""
+    },
+    {
+      "standard": "British Standard BS 6920",
+      "value": ""
+    },
+    {
+      "standard": "DCL Green Building Regulations",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1149 (Ozone Resistance)",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Movement accommodation (BS6093)",
+      "value": "Butt joints: 25%"
+    },
+    {
+      "label": "Movement accommodation (BS6093)",
+      "value": "Lap joints: 50%"
+    },
+    {
+      "label": "Application temperature",
+      "value": "0 to 60C"
+    },
+    {
+      "label": "Pot life",
+      "value": "2 hours at 35C"
+    },
+    {
+      "label": "Initial cure",
+      "value": "24 hours at 25C"
+    },
+    {
+      "label": "Full cure",
+      "value": "7 days at 25C"
+    },
+    {
+      "label": "Service temperature",
+      "value": "-35 to 120C"
+    },
+    {
+      "label": "Volatile organic content, pouring grade",
+      "value": "VOC = Pouring Grade - 42 g/L"
+    },
+    {
+      "label": "Volatile organic content, gun grade",
+      "value": "VOC = Gun Grade - 36 g/L"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Add the entire contents of Part A (curing agent) to Part B (base component)",
+  "packaging": "Pouring grade: 4 liter pack comprising separate base and curing agent.",
+  "storage": "12 months when stored below 25°C under shade in a dry environment."
+}

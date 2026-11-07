@@ -35,7 +35,9 @@ export type LineSlug =
   | "resin-flooring"
   | "waterproofing"
   | "x-calibur"
-  | "oriental-yuhong";
+  | "oriental-yuhong"
+  // CMCI lives in src/config/cmci.ts, like BIHUI in its own config.
+  | "cmci";
 
 export type Line = {
   slug: LineSlug;
@@ -760,15 +762,18 @@ export const products: Product[] = [
 
   // ---- [X] X-CALIBUR -------------------------------------------------------
   {
-    slug: "x-tech-bond",
+    slug: "x-tech-sbr-bond",
     brand: "x-calibur",
     line: "x-calibur",
-    name: "X-Tech Bond",
+    name: "X-Tech SBR Bond",
+    // The price list prints 10 m² per litre and 20 kg; the data sheet the owner
+    // supplied on 2026-11-07 says 8 m² per litre and 20 litre drums.
     sourceName: "XTECH BOND 20L",
     type: "Bonding agent",
-    summary: "SBR bonding agent.",
-    consumption: "10 m² per litre",
-    packs: ["20 kg"],
+    summary:
+      "Multi purpose bonding agent for concrete and cementitious substrates.",
+    consumption: "8 m² per litre",
+    packs: ["20 litres"],
     ref: "X1",
   },
   {
@@ -812,27 +817,40 @@ export const products: Product[] = [
     ref: "X4",
   },
   {
-    slug: "x-seal-pg",
+    slug: "x-seal-ps800",
     brand: "x-calibur",
     line: "x-calibur",
-    name: "X-Seal PG",
+    name: "X-Seal PS800",
     sourceName: "X SEAL PG 4L",
     type: "Joint sealant",
-    summary: "Polysulphide pourable sealant for joints.",
+    summary:
+      "High performance polysulphide joint sealant, stocked in pouring grade.",
     consumption: "2.7 m per litre for a 25 x 15 mm joint",
     packs: ["4 litres"],
     ref: "X5",
   },
   {
-    slug: "x-seal-primer",
+    slug: "x-seal-universal-primer",
     brand: "x-calibur",
     line: "x-calibur",
-    name: "X-Seal Primer",
+    name: "X-Seal Universal Primer",
     sourceName: "X SEAL PRIMER 1L",
     type: "Sealant primer",
-    summary: "Primer for joint sealant.",
+    summary: "High performance primer for X-Seal FR200 and PS800 sealant.",
     packs: ["1 litre"],
     ref: "X6",
+  },
+  {
+    slug: "x-prime-gp2",
+    brand: "x-calibur",
+    line: "x-calibur",
+    name: "X-Prime GP2",
+    // Not on the 2026 price list: added from the owner's data sheet, 2026-11-07.
+    sourceName: "X-Prime GP2",
+    type: "Epoxy primer",
+    summary: "General purpose primer for epoxy coating and floor systems.",
+    packs: ["18 litres"],
+    ref: "X7",
   },
 ];
 

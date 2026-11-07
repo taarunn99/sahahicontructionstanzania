@@ -5,7 +5,7 @@
  * the PDF that the page offers for download. Part of `npm test`.
  */
 import { execFileSync } from "node:child_process";
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 
 const norm = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "");
 const pdfText = (file) =>
@@ -20,14 +20,20 @@ const pdfText = (file) =>
 
 let checked = 0;
 const failures = [];
-for (const brand of ["x-calibur", "oriental-yuhong"]) {
+for (const brand of ["x-calibur", "oriental-yuhong", "cmci"]) {
   const config = readFileSync(`src/config/${brand}.ts`, "utf8");
   for (const name of readdirSync(`src/content/${brand}`)) {
     const slug = name.replace(".json", "");
     const content = JSON.parse(
       readFileSync(`src/content/${brand}/${name}`, "utf8"),
     );
-    const text = norm(pdfText(`public/tds/${brand}/${slug}.pdf`));
+    // One CMCI sheet is a scan: its OCR text, read against the page by eye, is
+    // in scripts/fixtures.
+    const sheet = `public/tds/${brand}/${slug}`;
+    const ocr = `scripts/fixtures/${slug}.ocr.txt`;
+    const text = norm(
+      existsSync(ocr) ? readFileSync(ocr, "utf8") : pdfText(`${sheet}.pdf`),
+    );
     const strings = [
       content.titleAsPrinted,
       content.description,
@@ -38,6 +44,7 @@ for (const brand of ["x-calibur", "oriental-yuhong"]) {
       ...content.standards.map((entry) => entry.standard),
       ...content.technicalData.map((entry) => entry.value),
       ...content.consumption.map((entry) => entry.quote),
+      ...(brand === "cmci" ? [content.mixing, content.storage] : []),
     ].filter(Boolean);
     const block = config.slice(config.indexOf(`"${slug}": {\n    kind`));
     const source = /source: "([^"]+)"/.exec(block)?.[1];

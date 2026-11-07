@@ -13,7 +13,12 @@
     "Resurfacing",
     "Anti root membrane"
   ],
-  "notFor": [],
+  "notFor": [
+    "Do not add water to the mixed coating.",
+    "Do not apply to substrates that have free water on them.",
+    "Not suitable for use with acids.",
+    "Avoid excessive thickness as this could cause cracking."
+  ],
   "standards": [
     {
       "standard": "SCAQMD Rule 1113",
@@ -38,8 +43,36 @@
   ],
   "technicalData": [
     {
-      "label": "Yield",
-      "value": "12.8 liters per kit"
+      "label": "Elongation",
+      "value": ">100%"
+    },
+    {
+      "label": "Tensile strength",
+      "value": ">1.5 MPa"
+    },
+    {
+      "label": "Crack bridgability",
+      "value": ">2mm"
+    },
+    {
+      "label": "Pull off strength",
+      "value": ">0.7 MPa"
+    },
+    {
+      "label": "Shear strength",
+      "value": ">3 MPa"
+    },
+    {
+      "label": "Reduction in chloride ion permeability",
+      "value": "98%"
+    },
+    {
+      "label": "Water permeability",
+      "value": "> 10 bar"
+    },
+    {
+      "label": "Volatile organic content",
+      "value": "VOC = <50g/L"
     }
   ],
   "consumption": [
@@ -52,5 +85,17 @@
   ],
   "mixing": null,
   "packaging": "22kg kits",
-  "storage": null
+  "storage": "12 months when stored below 35C (95F) under shade in a dry environment.",
+  "advantages": [
+    "Meets SCAQMD Rule 1113 & LEED VOC Limits",
+    "Formaldehyde free",
+    "Waterproof",
+    "Highly flexible",
+    "Bridges crack",
+    "UV stable",
+    "Can be used above and below grade",
+    "Breathable",
+    "Can be applied to one day old concrete",
+    "Can be used in contact with potable water"
+  ]
 }

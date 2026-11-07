@@ -1,0 +1,75 @@
+{
+  "slug": "avikote-av-800",
+  "titleAsPrinted": "Avikote AV 800",
+  "description": "The Avikote AV 800 is a Portland cement-based, spray and/or trowel applied product. Only the addition of water at the jobsite is required for application.",
+  "whereToUse": [
+    "petrochemical",
+    "chemical processing",
+    "gas processing",
+    "refinery facilities",
+    "specialty utility applications"
+  ],
+  "advantages": [
+    "Fire Tested: Tested in accordance with Underwriters Laboratories, Inc. UL 1709 and ASTM E 119 (UL 263); investigated by UL for exterior use.",
+    "Durability: Avikote AV 800 has been tested for Coefficient of Thermal Expansion, Compressive Strength, Hardness, and other properties in accordance with API Guidelines (Publication 2218) and ASTM procedures.",
+    "Pumping equipment - Moyno, Rotor Stator, Piston or Hydraulic",
+    "Weatherability: Avikote AV 800 is formulated with ingredients that enhance its ability to resist weather and freeze thaw cycling."
+  ],
+  "notFor": [
+    "Operating temperatures in excess of 93°C (200°F)",
+    "Use on aluminum or other non-steel surfaces",
+    "Use as a refractory cement"
+  ],
+  "standards": [
+    {
+      "standard": "UL 1709",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 119 (UL 263)",
+      "value": ""
+    },
+    {
+      "standard": "API Guidelines (Publication 2218)",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density (ASTM E 605)",
+      "value": "800 kg/m³ - 880 kg/m³"
+    },
+    {
+      "label": "Bond strength (ASTM E 736, modified)",
+      "value": "478 kN/m2 (10,000 psf)"
+    },
+    {
+      "label": "Compressive strength (ASTM E 761)",
+      "value": "6675 kN/m2 (1000 psi)"
+    },
+    {
+      "label": "Hardness, Shore D (ASTM D 2240)",
+      "value": "44"
+    },
+    {
+      "label": "Minimum average dry, in-place density",
+      "value": "800 kg/m3 (50 pcf)"
+    },
+    {
+      "label": "Minimum air and substrate temperature",
+      "value": "4°C (38°F)"
+    },
+    {
+      "label": "Color",
+      "value": "Natural Concrete Gray"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "0.743 kg gives 1mm thickness"
+    }
+  ],
+  "mixing": "approximately 11.5 liters (3 US gals) per bag",
+  "packaging": "22.3 kg/bag (49 lbs/bag)",
+  "storage": "The material shall be kept dry until ready for use."
+}

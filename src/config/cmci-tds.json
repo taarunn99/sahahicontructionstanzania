@@ -1,0 +1,42 @@
+{
+  "avikote-av-650": {
+    "file": "/tds/cmci/avikote-av-650.pdf",
+    "pages": 2,
+    "bytes": 795411
+  },
+  "avikote-av-800": {
+    "file": "/tds/cmci/avikote-av-800.pdf",
+    "pages": 2,
+    "bytes": 812487
+  },
+  "monokote-mk-6-hy": {
+    "file": "/tds/cmci/monokote-mk-6-hy.pdf",
+    "pages": 2,
+    "bytes": 603716
+  },
+  "monokote-mk-6s": {
+    "file": "/tds/cmci/monokote-mk-6s.pdf",
+    "pages": 2,
+    "bytes": 213856
+  },
+  "monokote-z-106-hy": {
+    "file": "/tds/cmci/monokote-z-106-hy.pdf",
+    "pages": 2,
+    "bytes": 293272
+  },
+  "monokote-z-106": {
+    "file": "/tds/cmci/monokote-z-106.pdf",
+    "pages": 3,
+    "bytes": 318788
+  },
+  "monokote-z-146": {
+    "file": "/tds/cmci/monokote-z-146.pdf",
+    "pages": 3,
+    "bytes": 304940
+  },
+  "monokote-z-156": {
+    "file": "/tds/cmci/monokote-z-156.pdf",
+    "pages": 2,
+    "bytes": 966301
+  }
+}

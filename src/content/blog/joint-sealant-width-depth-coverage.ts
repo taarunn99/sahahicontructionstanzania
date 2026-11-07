@@ -6,7 +6,7 @@ export const content: PostContent = {
   sections: [
     {
       h2: "What width to depth ratio does joint sealant need?",
-      body: "The ratio to use is the one printed on the sheet of the sealant in the gun, and the three we stock print three different rules.\n\nTake a joint 20 mm wide. With [Mapeflex PU 45 FT](/mapei/waterproofing/mapeflex-pu-45-ft) the sealant is 10 mm deep. With [YHPUseal-2925](/oriental-yuhong/yhpuseal-2925) it is 10 mm deep in a facade (20 x 0.5) and 16 mm in a floor (20 x 0.8). With [X-Seal PG](/x-calibur/x-seal-pg), which X-Calibur's sheet calls X-Seal PS800, the 2:1 ratio also gives 10 mm, but a traffic or hydrostatic joint needs 20 mm. Minimums override ratios: a 12 mm facade joint in YHPUseal-2925 works out at 6 mm, and the 8 mm minimum applies instead.\n\nDepth matters because the bead has to stretch and squeeze with the joint. Too deep and the strain goes to the bond line, so the sealant peels off one face. Too shallow and too little sealant holds each face.",
+      body: "The ratio to use is the one printed on the sheet of the sealant in the gun, and the three we stock print three different rules.\n\nTake a joint 20 mm wide. With [Mapeflex PU 45 FT](/mapei/waterproofing/mapeflex-pu-45-ft) the sealant is 10 mm deep. With [YHPUseal-2925](/oriental-yuhong/yhpuseal-2925) it is 10 mm deep in a facade (20 x 0.5) and 16 mm in a floor (20 x 0.8). With [X-Seal PS800](/x-calibur/x-seal-ps800), the 2:1 ratio also gives 10 mm, but a traffic or hydrostatic joint needs 20 mm. Minimums override ratios: a 12 mm facade joint in YHPUseal-2925 works out at 6 mm, and the 8 mm minimum applies instead.\n\nDepth matters because the bead has to stretch and squeeze with the joint. Too deep and the strain goes to the bond line, so the sealant peels off one face. Too shallow and too little sealant holds each face.",
       table: {
         caption: "Joint sizing rules printed on each sealant's data sheet",
         head: ["Sealant", "Joint width", "Depth of sealant", "Movement"],
@@ -24,7 +24,7 @@ export const content: PostContent = {
             "±25%",
           ],
           [
-            "X-Seal PG (polysulphide)",
+            "X-Seal PS800 (polysulphide)",
             "5 to 60 mm",
             "10 to 25 mm, at 2:1. Minimum 5 mm impervious, 10 mm porous, 20 mm traffic and hydrostatic",
             "25% butt, 50% lap",
@@ -44,7 +44,7 @@ export const content: PostContent = {
     },
     {
       h2: "How many metres does one pack of sealant fill?",
-      body: "Divide the pack volume in millilitres by the joint's width times its depth in millimetres. Volume is width x depth x length, and a joint 1 mm by 1 mm in section holds 1 ml per metre.\n\nWorked once: a joint 20 mm wide and 10 mm deep holds 20 x 10 = 200 ml per metre, so a 600 ml pack fills 600 / 200 = 3 metres and a 4 litre pack fills 4,000 / 200 = 20 metres.\n\nThe same sum reproduces the printed tables: Mapei prints 6, 3 and 1.3 metres per 600 ml for 10 x 10, 20 x 10 and 30 x 15 mm joints, and X-Calibur prints 10 metres per litre at 10 x 10 mm. X-Seal PG must not be part mixed and has a pot life of 2 hours at 35°C, so have about 10 metres of 20 x 20 mm joint primed before opening a pack. The calculator on each product page does this sum for any size and length.",
+      body: "Divide the pack volume in millilitres by the joint's width times its depth in millimetres. Volume is width x depth x length, and a joint 1 mm by 1 mm in section holds 1 ml per metre.\n\nWorked once: a joint 20 mm wide and 10 mm deep holds 20 x 10 = 200 ml per metre, so a 600 ml pack fills 600 / 200 = 3 metres and a 4 litre pack fills 4,000 / 200 = 20 metres.\n\nThe same sum reproduces the printed tables: Mapei prints 6, 3 and 1.3 metres per 600 ml for 10 x 10, 20 x 10 and 30 x 15 mm joints, and X-Calibur prints 10 metres per litre at 10 x 10 mm. X-Seal PS800 must not be part mixed and has a pot life of 2 hours at 35°C, so have about 10 metres of 20 x 20 mm joint primed before opening a pack. The calculator on each product page does this sum for any size and length.",
       table: {
         caption:
           "Metres of joint per pack, calculated as pack volume / (width x depth), before wastage",
@@ -65,13 +65,13 @@ export const content: PostContent = {
           ["40 x 20", "800 ml", "0.75", "5.0"],
         ],
         source:
-          "Our arithmetic from the pack sizes stocked: 600 ml (Mapeflex PU 45 FT, YHPUseal-2925) and 4 litres (X-Seal PG). Check each size against the sealant's own depth rule before using it.",
+          "Our arithmetic from the pack sizes stocked: 600 ml (Mapeflex PU 45 FT, YHPUseal-2925) and 4 litres (X-Seal PS800). Check each size against the sealant's own depth rule before using it.",
       },
       note: "These are volumes of a clean, rectangular joint and exclude wastage; a ragged arris or a rod set too deep uses more. Oriental Yuhong prints no quantity table, so the 600 ml figures for YHPUseal-2925 are our calculation, not the maker's.",
     },
     {
       h2: "Does a joint need primer before sealing?",
-      body: "It depends on the sealant: the polysulphide is designed around a primer, the two polyurethanes are not, and all three need a dry, clean joint face.\n\nX-Calibur's sheet says joint edges must be primed for maximum performance. [X-Seal Primer](/x-calibur/x-seal-primer) is brushed onto the joint sides, and the sealant sheet says to apply between 1 and 3 hours after priming, or prime again. The primer's own sheet allows up to 24 hours, so keep to the shorter time. One litre is sufficient for 225 linear metres of 10 mm joint, as a theoretical figure.\n\nMapei's sheet says Mapeflex PU 45 FT bonds well without a primer on substrates that are solid, free of dust, clean and dry. Oriental Yuhong's says to apply a primer if necessary.\n\nDryness is the shared condition: X-Seal PS800 must not be applied in rain or wet conditions, and Mapeflex PU 45 FT not on damp surfaces. In the masika and vuli rains that means waiting, because a joint that looks dry an hour after a shower can still be wet at the rod.",
+      body: "It depends on the sealant: the polysulphide is designed around a primer, the two polyurethanes are not, and all three need a dry, clean joint face.\n\nX-Calibur's sheet says joint edges must be primed for maximum performance. [X-Seal Primer](/x-calibur/x-seal-universal-primer) is brushed onto the joint sides, and the sealant sheet says to apply between 1 and 3 hours after priming, or prime again. The primer's own sheet allows up to 24 hours, so keep to the shorter time. One litre is sufficient for 225 linear metres of 10 mm joint, as a theoretical figure.\n\nMapei's sheet says Mapeflex PU 45 FT bonds well without a primer on substrates that are solid, free of dust, clean and dry. Oriental Yuhong's says to apply a primer if necessary.\n\nDryness is the shared condition: X-Seal PS800 must not be applied in rain or wet conditions, and Mapeflex PU 45 FT not on damp surfaces. In the masika and vuli rains that means waiting, because a joint that looks dry an hour after a shower can still be wet at the rod.",
     },
     {
       h2: "Which sealant for floors, facades and water tanks?",
@@ -79,7 +79,7 @@ export const content: PostContent = {
       list: [
         "**Trafficked floors:** Mapeflex PU 45 FT, a high modulus polyurethane (Shore A 40) whose sheet lists industrial floors and car parks.",
         "**Facades and frames:** YHPUseal-2925, a softer polyurethane (Shore A about 30) for wall joints and around window and door frames.",
-        "**Water-retaining structures:** X-Seal PG, a two-part polysulphide for immersed conditions and contact with potable water, at least 20 mm deep in hydrostatic joints.",
+        "**Water-retaining structures:** X-Seal PS800, a two-part polysulphide for immersed conditions and contact with potable water, at least 20 mm deep in hydrostatic joints.",
       ],
     },
   ],
@@ -112,13 +112,13 @@ export const content: PostContent = {
     },
     {
       label:
-        "X-Seal PS800 technical data sheet, X-Calibur (stocked as X-Seal PG, pouring grade)",
-      url: "/x-calibur/x-seal-pg",
+        "X-Seal PS800 technical data sheet, X-Calibur (stocked in pouring grade)",
+      url: "/x-calibur/x-seal-ps800",
     },
     {
       label:
-        "X-Seal PS800 Primer technical data sheet, X-Calibur (stocked as X-Seal Primer)",
-      url: "/x-calibur/x-seal-primer",
+        "X-Seal Universal Primer technical data sheet, X-Calibur",
+      url: "/x-calibur/x-seal-universal-primer",
     },
   ],
 };

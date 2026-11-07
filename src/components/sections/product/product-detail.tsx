@@ -64,7 +64,7 @@ export type ProductDocument = {
 
 export type ProductDetailProps = {
   brand: {
-    slug: "mapei" | "x-calibur" | "oriental-yuhong";
+    slug: "mapei" | "x-calibur" | "oriental-yuhong" | "cmci";
     name: string;
   };
   product: Product;
@@ -221,7 +221,11 @@ export function ProductDetail({
     },
   ].filter(Boolean) as { label: string; value: string }[];
 
-  const sheetName = `${product.name} - ${brand.name} technical data sheet.pdf`;
+  // CMCI's pages are never worded as if CMCI made the product.
+  const isMaker = brand.slug !== "cmci";
+  const sheetName = isMaker
+    ? `${product.name} - ${brand.name} technical data sheet.pdf`
+    : `${product.name.replace("/", "-")} technical data sheet.pdf`;
   const sheetMeta = document
     ? [
         document.edition && `Edition ${document.edition}`,
@@ -249,8 +253,13 @@ export function ProductDetail({
             name: product.name,
             description: product.summary,
             category: product.type,
-            brand: { "@type": "Brand", name: brand.name },
-            manufacturer: { "@type": "Organization", name: brand.name },
+            brand: {
+              "@type": "Brand",
+              name: isMaker ? brand.name : product.name.split(" ")[0],
+            },
+            ...(isMaker && {
+              manufacturer: { "@type": "Organization", name: brand.name },
+            }),
             url: `${siteConfig.url}${url}`,
             ...(image && { image: `${siteConfig.url}${image.src}` }),
             // No `offers`: prices are quoted, never published.
@@ -502,10 +511,11 @@ export function ProductDetail({
           </ul>
           {document && (
             <p className="text-muted mx-auto mt-6 max-w-4xl text-sm leading-relaxed">
-              {brand.name}&apos;s own document, unaltered
+              {isMaker ? `${brand.name}'s` : "The manufacturer's"} own document,
+              unaltered
               {document.fetched && `, saved on ${document.fetched}`}.{" "}
-              {brand.name} revises its data sheets: ask us for the current
-              edition before you specify.
+              {isMaker ? brand.name : "The manufacturer"} revises its data
+              sheets: ask us for the current edition before you specify.
             </p>
           )}
         </Container>
@@ -582,8 +592,9 @@ export function ProductDetail({
                   Where it is used.
                 </SplitHeading>
                 <p className="text-muted mt-6 max-w-sm leading-relaxed">
-                  In {brand.name}&apos;s own words, from the technical data
-                  sheet.
+                  {isMaker
+                    ? `In ${brand.name}'s own words, from the technical data sheet.`
+                    : "In the words of the technical data sheet."}
                 </p>
               </div>
               <div>
@@ -668,11 +679,17 @@ export function ProductDetail({
               ))}
             </dl>
             <p className="text-muted mt-6 max-w-3xl text-sm leading-relaxed">
-              Typical values as {brand.name} prints them
-              {document?.edition &&
-                ` in data sheet edition ${document.edition}`}
-              . They are not a specification for your project: the current{" "}
-              {brand.name} data sheet is.
+              {isMaker ? (
+                <>
+                  Typical values as {brand.name} prints them
+                  {document?.edition &&
+                    ` in data sheet edition ${document.edition}`}
+                  . They are not a specification for your project: the current{" "}
+                  {brand.name} data sheet is.
+                </>
+              ) : (
+                "Values as the technical data sheet prints them. They are not a specification for your project: the current data sheet and the tested fire design are."
+              )}
             </p>
           </Container>
         </section>
@@ -694,7 +711,9 @@ export function ProductDetail({
                 </div>
                 {content?.packaging && (
                   <div className="border-deep/15 grid gap-2 border-b py-5 sm:grid-cols-[10rem_1fr] sm:gap-6">
-                    <dt className={SECTION_LABEL}>{brand.name} packaging</dt>
+                    <dt className={SECTION_LABEL}>
+                      {isMaker ? `${brand.name} packaging` : "Packaging"}
+                    </dt>
                     <dd className="leading-relaxed">
                       {tidy(content.packaging)}
                     </dd>
@@ -805,7 +824,7 @@ export function ProductDetail({
       <CtaBand
         label={`${product.name} in Tanzania`}
         heading="Tell us the area. We will quote the job."
-        body={`Sahihi is an authorized ${brand.name} distributor in Dar es Salaam. Send the quantity of ${product.name} you need, or describe the job and we will work it out with you.`}
+        body={`${isMaker ? `Sahihi is an authorized ${brand.name} distributor in Dar es Salaam.` : `Sahihi supplies the ${brand.name} range in Dar es Salaam.`} Send the quantity of ${product.name} you need, or describe the job and we will work it out with you.`}
         topic={product.name}
       />
     </main>

@@ -1,0 +1,81 @@
+{
+  "slug": "monokote-z-106",
+  "titleAsPrinted": "Monokote Type Z-106",
+  "description": "Type Z-106 is spray applied directly to structural steel (beams and columns) and steel decking, providing up to 4 hours of fire resistance.",
+  "whereToUse": [
+    "parking garages",
+    "mechanical rooms",
+    "elevator shafts",
+    "swimming pool areas"
+  ],
+  "advantages": [
+    "Factory Pre-Mixed: Ready to use. No job site proportioning required.",
+    "Re-Spray: Type Z-106 is UL Classified for use with post-removal lock down encapsulates on columns, beams and galvanized fluted deck.",
+    "Moisture Resistant: The Portland cement base affords excellent fire protection characteristics in areas subjected to high humidity.",
+    "Durability: Its hardness and durability help resist accidental physical damage."
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM E 605",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 736",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 761",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 84",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density",
+      "value": "352 kg/m3 (22 pcf)"
+    },
+    {
+      "label": "Bond strength, minimum average",
+      "value": "4,882 kg/m² (1000 psf)"
+    },
+    {
+      "label": "Air erosion",
+      "value": "0.000 gm/m² (0.000 gm/ft²)"
+    },
+    {
+      "label": "Compressive strength at 10% deformation",
+      "value": "0.48 Mpa (70 psi)"
+    },
+    {
+      "label": "Hardness (Shore D)",
+      "value": "10"
+    },
+    {
+      "label": "Surface burning, flame spread",
+      "value": "0"
+    },
+    {
+      "label": "Surface burning, smoke developed",
+      "value": "0"
+    },
+    {
+      "label": "Minimum air substrate temperature",
+      "value": "4.4°C (40°F)"
+    },
+    {
+      "label": "Color",
+      "value": "Grey/beige"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "2.32m2 at 25mm thickness (25 bd ft/bag)"
+    }
+  ],
+  "mixing": "a mixer density of 610-690 kg/m3 (38-43 pcf)",
+  "storage": null
+}

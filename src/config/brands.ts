@@ -71,10 +71,11 @@ export const brands: Brand[] = [
     slug: "cmci",
     name: "CMCI",
     origin: "Saudi Arabia",
-    blurb: "Construction Material Chemical Industries.",
+    blurb: "Cementitious fireproofing for plant, buildings and tunnels.",
     authorization: "Brand partner",
-    authorizationSource: "Director's business card (logo only)",
-    catalogued: false,
+    authorizationSource:
+      "Director's business card; range finalised by the owner, 2026-11-07",
+    catalogued: true,
     logo: { src: "/brands/cmci.svg", width: 229, height: 84, display: 38 },
   },
   {

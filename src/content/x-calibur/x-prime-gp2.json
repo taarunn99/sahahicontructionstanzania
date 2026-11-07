@@ -1,0 +1,68 @@
+{
+  "slug": "x-prime-gp2",
+  "titleAsPrinted": "X-Prime GP2",
+  "description": "X-Prime GP2 is a high penetration primer",
+  "whereToUse": [
+    "Epoxy coating and floor systems"
+  ],
+  "advantages": [
+    "Meets SCAQMD Rule 1113 & LEED VOC Limits",
+    "Formaldehyde free",
+    "High solids",
+    "Penetrating",
+    "Enhances bond",
+    "Stops out gassing",
+    "Damp tolerant"
+  ],
+  "notFor": [
+    "Will not accommodate movement cracks.",
+    "Avoid excessive application."
+  ],
+  "standards": [
+    {
+      "standard": "SCAQMD Rule 1113",
+      "value": ""
+    },
+    {
+      "standard": "LEED NC2009 IEQ 4.2",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Volume solids",
+      "value": "100%"
+    },
+    {
+      "label": "Specific gravity",
+      "value": "1.2 ± 0.05"
+    },
+    {
+      "label": "Pot life",
+      "value": "50 mins at 25C"
+    },
+    {
+      "label": "Touch dry",
+      "value": "3 to 4 hours at 25C"
+    },
+    {
+      "label": "Recoat time",
+      "value": "6 to 24 hours at 25C"
+    },
+    {
+      "label": "Volatile organic content",
+      "value": "VOC = <100 g/L"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "5m² per liter at 200 microns"
+    },
+    {
+      "quote": "10m² per liter at 100 microns"
+    }
+  ],
+  "mixing": "Add the hardener ‘Part B’ into the base ‘Part A’ and mix using a slow speed drill (500 rpm)",
+  "packaging": "18, 40 and 400 liter packs",
+  "storage": "18 months when stored below 30C under shade in a dry environment."
+}

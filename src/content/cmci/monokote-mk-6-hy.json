@@ -1,0 +1,95 @@
+{
+  "slug": "monokote-mk-6-hy",
+  "titleAsPrinted": "Monokote Type MK-6/HY",
+  "description": "Monokote® Type MK-6/HY is a single component, millmixed fireproofing plaster which requires only the addition of water on the job site to form a consistent, pumpable slurry. Type MK-6/HY is designed for use on structural steel columns, beams, joists, trusses and floor and roof decking.",
+  "whereToUse": [
+    "structural steel columns",
+    "beams",
+    "joists",
+    "trusses",
+    "floor and roof decking"
+  ],
+  "advantages": [
+    "Proven in-place performance",
+    "Low in-place cost",
+    "Fast, efficient application",
+    "UL tested and factory inspected",
+    "Universal Building code compliance (ICBO, SBCCI, BOCA, NBCC)"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM E 605",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 736",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 761",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 859",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 84",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E 1354",
+      "value": ""
+    },
+    {
+      "standard": "ASTM G 21",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Dry density, minimum average",
+      "value": "240 kg/m3 (15 pcf)"
+    },
+    {
+      "label": "Bond strength",
+      "value": "16.2 KPa (339 psf)"
+    },
+    {
+      "label": "Compressive strength at 10% deformation",
+      "value": "68.9 KPa (1,440 psf)"
+    },
+    {
+      "label": "High velocity air erosion",
+      "value": "No continued erosion after 4 hours"
+    },
+    {
+      "label": "Corrosion",
+      "value": "Does not contribute to corrosion"
+    },
+    {
+      "label": "Bond impact",
+      "value": "No cracking, spalling or delamination"
+    },
+    {
+      "label": "Deflection",
+      "value": "No cracking, spalling or delamination"
+    },
+    {
+      "label": "Resistance to mold growth",
+      "value": "No growth after 60 days"
+    },
+    {
+      "label": "Combustibility",
+      "value": "Less than 5 M J/m2 total, 20 kW/m2 peak heat release"
+    },
+    {
+      "label": "Minimum air and substrate temperature",
+      "value": "4.4°C (40°F)"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Target density of 688 ±16 kg/m3 (43 ±1 pcf)",
+  "storage": "The material shall be kept dry until ready for use."
+}

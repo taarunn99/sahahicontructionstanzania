@@ -412,3 +412,12 @@ Launch checklist: `docs/DEPLOY-CHECKLIST.md`.
   owner approved unlimited use for this setup session only.)
 - One commit per risky visual change.
 - Write decisions into these files so the next session inherits them.
+
+## CMCI wording (owner, 2026-11-07)
+
+The CMCI range is three lines: petrochemical, commercial, tunnels. Say "the CMCI
+range" and "Sahihi supplies". Never write that CMCI makes a product, and never set
+CMCI as `manufacturer` in schema. Page copy, schema and repo docs do not name the company
+behind the data sheets. Technical values must match those sheets (`npm test`). The
+owner ruled on 2026-11-07 that each page offers the sheet itself: published
+unaltered in `public/tds/cmci/`, with the maker's name as printed. Never edit one.

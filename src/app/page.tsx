@@ -50,7 +50,7 @@ import { pad } from "@/lib/utils";
 export const metadata: Metadata = { alternates: pairAlternates("/") };
 
 /** Short names for the dial, where the full label would not fit the arc. */
-const DIAL_SHORT: Record<LineSlug, string> = {
+const DIAL_SHORT: Record<Exclude<LineSlug, "cmci">, string> = {
   "tile-adhesives-grouts": "Tile adhesives",
   "primers-levelling": "Levelling",
   "concrete-repair": "Concrete repair",
@@ -64,7 +64,7 @@ const dialItems: DialItem[] = lines.map((line) => {
   const items = productsInLine(line.slug);
   return {
     slug: line.slug,
-    short: DIAL_SHORT[line.slug],
+    short: DIAL_SHORT[line.slug as keyof typeof DIAL_SHORT],
     label: line.label,
     brand: brandBySlug[line.brand].name,
     blurb: line.blurb,

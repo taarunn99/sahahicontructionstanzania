@@ -1,0 +1,47 @@
+{
+  "slug": "x-tech-sbr-bond",
+  "titleAsPrinted": "X-Tech SBR Bond",
+  "description": "X-Tech SBR Bond is a ready for use, single component bonding agent. It is based on a synthetic latex polymer and has excellent bond properties.",
+  "whereToUse": [
+    "Concrete and cementitious substrates"
+  ],
+  "advantages": [
+    "Easy to use",
+    "Improves adhesion of concrete substrates",
+    "Ready to use",
+    "Excellent resistance to water"
+  ],
+  "notFor": [
+    "Do not allow the bond coat to dry out",
+    "Do not use in permanently immersed conditions",
+    "Avoid excessive application."
+  ],
+  "standards": [
+    {
+      "standard": "ASTM C1059 Type II",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Density",
+      "value": "1.02 ± 0.02"
+    },
+    {
+      "label": "Viscosity",
+      "value": "20 ± 5 cps"
+    },
+    {
+      "label": "Color",
+      "value": "Milky White"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "Typically 8m² per liter"
+    }
+  ],
+  "mixing": null,
+  "packaging": "20 and 200 liter drums",
+  "storage": "A minimum of 12 months when stored below 35°C under shade in a dry environment."
+}
