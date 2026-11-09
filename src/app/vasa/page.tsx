@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import { RelatedLinks } from "@/components/sections/related-links";
+import { ModelCta } from "@/components/sections/model-cta";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -182,6 +184,7 @@ export default function VasaPage() {
               }))}
             />
           </div>
+          <ModelCta className="mt-6" topic="Vasa SPC flooring" />
         </Container>
       </section>
 
@@ -276,6 +279,47 @@ export default function VasaPage() {
       </section>
 
       <Faq items={faq} heading="Vasa in Tanzania, in short." />
+
+      <RelatedLinks
+        links={[
+          { label: "Vasa flooring", href: "/vasa", sub: "The brand hub" },
+          {
+            label: "SPC flooring",
+            href: "/vasa/spc-flooring",
+            sub: "Rigid core click planks",
+          },
+          {
+            label: "LVT flooring",
+            href: "/vasa/lvt-flooring",
+            sub: "2 mm luxury vinyl tile",
+          },
+          {
+            label: "Wall panels",
+            href: "/vasa/wall-panels",
+            sub: "Film and digital panels",
+          },
+          {
+            label: "Primers and levelling",
+            href: "/mapei/primers-levelling",
+            sub: "Mapei, for the floor underneath",
+          },
+          {
+            label: "Sports flooring",
+            href: "/oriental-yuhong/sports-flooring",
+            sub: "Oriental Yuhong tracks, courts, turf",
+          },
+          {
+            label: "Flooring guides",
+            href: "/blog/category/flooring",
+            sub: "From our blog",
+          },
+          {
+            label: "All products",
+            href: "/products",
+            sub: "Every brand and line",
+          },
+        ].filter((link) => link.href !== "/vasa")}
+      />
 
       <CtaBand
         label="Vasa in Tanzania"

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { RelatedLinks } from "@/components/sections/related-links";
+import { ModelCta } from "@/components/sections/model-cta";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -56,6 +58,46 @@ export async function generateMetadata({
   };
 }
 
+const TILE = {
+  label: "Tile adhesives and grouts",
+  href: "/mapei/tile-adhesives-grouts",
+  sub: "Mapei",
+};
+const LEVEL = {
+  label: "Primers and levelling",
+  href: "/mapei/primers-levelling",
+  sub: "Mapei",
+};
+const RESIN = {
+  label: "Resin flooring",
+  href: "/mapei/resin-flooring",
+  sub: "Mapei",
+};
+const REPAIR = {
+  label: "Concrete repair",
+  href: "/mapei/concrete-repair",
+  sub: "Mapei",
+};
+
+/** Which Mapei line each BIHUI category is used with. */
+const BIHUI_TO_LINE: Record<
+  string,
+  { label: string; href: string; sub: string }[]
+> = {
+  "Grouting, silicone and sponges": [TILE],
+  "Tile levelling systems": [TILE],
+  "Scrapers and knives": [TILE, REPAIR],
+  "Grinders and polishing": [RESIN, LEVEL],
+  Cutting: [TILE],
+  "Flooring and site protection": [RESIN],
+  Mixing: [LEVEL, TILE],
+  "Drill guides, workbench and repair tools": [TILE, REPAIR],
+  Trowels: [TILE, LEVEL],
+  "Measuring and levelling": [LEVEL],
+  "Laser levels": [LEVEL, TILE],
+  "Suction cups and lifting": [TILE],
+};
+
 export default async function BihuiItemPage({ params }: { params: Params }) {
   const { item } = await params;
   const family = bihuiFamilyBySlug[item];
@@ -106,37 +148,42 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
         <Container>
           <Breadcrumb items={crumbs} />
           <div className="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-14">
-            <figure className="border-deep/15 self-start overflow-hidden rounded-[2rem] border bg-white">
-              {picture && model ? (
-                <ModelViewer
-                  model={model}
-                  poster={picture}
-                  alt={`BIHUI ${name}`}
-                  preload
-                />
-              ) : picture ? (
-                <div className="relative aspect-square">
-                  <Image
-                    src={picture.src}
+            <div className="self-start">
+              <figure className="border-deep/15 overflow-hidden rounded-[2rem] border bg-white">
+                {picture && model ? (
+                  <ModelViewer
+                    model={model}
+                    poster={picture}
                     alt={`BIHUI ${name}`}
-                    fill
                     preload
-                    sizes="(min-width: 64rem) 42vw, 100vw"
-                    className="object-contain p-6 sm:p-10"
                   />
-                </div>
-              ) : (
-                <p className="text-muted p-10 leading-relaxed">
-                  Ask us for a photograph of this tool.
-                </p>
+                ) : picture ? (
+                  <div className="relative aspect-square">
+                    <Image
+                      src={picture.src}
+                      alt={`BIHUI ${name}`}
+                      fill
+                      preload
+                      sizes="(min-width: 64rem) 42vw, 100vw"
+                      className="object-contain p-6 sm:p-10"
+                    />
+                  </div>
+                ) : (
+                  <p className="text-muted p-10 leading-relaxed">
+                    Ask us for a photograph of this tool.
+                  </p>
+                )}
+                {model && (
+                  <figcaption className="spec-sh text-muted border-deep/15 border-t px-5 py-3 text-center leading-relaxed">
+                    3D model generated from the maker&apos;s catalogue
+                    photograph: the far side is an estimate.
+                  </figcaption>
+                )}
+              </figure>
+              {picture && model && (
+                <ModelCta className="mt-5" topic={`BIHUI ${name}`} />
               )}
-              {model && (
-                <figcaption className="spec-sh text-muted border-deep/15 border-t px-5 py-3 text-center leading-relaxed">
-                  3D model generated from the maker&apos;s catalogue photograph:
-                  the far side is an estimate.
-                </figcaption>
-              )}
-            </figure>
+            </div>
 
             <div>
               <p className="label-sh text-muted leading-relaxed">
@@ -254,6 +301,29 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
           </Link>
         </Container>
       </section>
+
+      <RelatedLinks
+        label="Use it with"
+        heading="The products it works with."
+        links={[
+          ...(BIHUI_TO_LINE[family.category] ?? []),
+          {
+            label: "All BIHUI tools",
+            href: "/bihui",
+            sub: "Tools for the trade",
+          },
+          {
+            label: "All products",
+            href: "/products",
+            sub: "Every brand and line",
+          },
+          {
+            label: "Guides for the trade",
+            href: "/blog/category/tools-and-technique",
+            sub: "From our blog",
+          },
+        ]}
+      />
 
       <CtaBand
         label="Tools for your team"

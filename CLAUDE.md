@@ -156,6 +156,36 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
     `useLazyScene` starts these on scroll, on phones too.
   - **Tanzanite Bridge** is the first project. Open items: `docs/OPEN-QUESTIONS.md` Q21.
   - Higgsfield floor: keep 100 credits, 80 at the very least.
+- 2026-11-09: sports manual cut into five per-system PDFs (`public/tds/oriental-yuhong/sports/`);
+  Tanzanite Bridge = OYH bitumen membrane; PMH, Vasa and sports held in Dar es Salaam. Four OYH
+  products have 3D models (`src/config/oyh-models.json`, viewer `frontOnly`), 45 credits,
+  132.75 left. Sealant model rejected.
+- 2026-11-09, owner's "Nazrul" folder: `/oriental-yuhong/sports-flooring` gained an acrylic
+  court (seven systems), a "which one where" chooser, OYH's three construction films with
+  steps (`sports-films.tsx`, loops play only in view; full film loads on play), a material
+  calculator in kg and packs (`src/config/oyh-sports.ts`, prices dropped from the xlsx),
+  site and drying data from the two guides, and the brochure and guides as downloads.
+  Owner answers (Q22): PSV-201; acrylic, EPDM and turf ordered per job, 3-5 days.
+- Same day: one page per sports system, `/oriental-yuhong/sports-flooring/<system>` (seven,
+  `[system]/page.tsx`); data in `src/config/oyh-sports-systems.ts` (moved out of the hub).
+- Seventh round, 2026-11-09 (not yet reviewed by the owner):
+  - **3D call to action** (`src/components/sections/model-cta.tsx`) under every 3D model and
+    layer build-up; a **sports flooring shelf** on `/products`.
+  - **Interlinking:** `RelatedLinks` blocks on Vasa, HDPE, contact, about, blog categories,
+    BIHUI tools and the sports pages; "Systems" in the desktop mega panel, the phone menu
+    and the footer; brands added to the phone menu; a contents list on phone blog posts.
+    Cards are `PeekLink` (`src/components/ui/peek-link.tsx`): a round picture on every card,
+    a popup circle that follows the mouse (pictures by href in `src/config/link-pictures.ts`).
+  - **Footer** columns side by side; the fixed reveal runs only when the footer fits the
+    window, otherwise it scrolls in flow.
+  - **404** with the logo's tick and sun as the "0" (`lost-mark.tsx`), two buttons only.
+  - **Deploy files:** `error.tsx`, `global-error.tsx`, `manifest.ts`, `/sitemap.txt`, 301s and
+    security and cache headers in `next.config.ts`, Meta Pixel off until
+    `NEXT_PUBLIC_META_PIXEL_ID` is set (`src/components/analytics/meta-pixel.tsx`). No
+    `loading.tsx`: it caused CLS 0.6; the route transition is the loader.
+  - **OYH East Africa:** `/oriental-yuhong` targets "OYH East Africa" (SEO-STRATEGY 5.1).
+  - **Company profile** as a flip book on home and `/products` (`profile-book.tsx`), PDF in
+    `public/tds/`.
 - Owner decisions on 2026-11-05: the `/mapei` hub owns
   "Mapei Tanzania"; Sahihi is independent (no group mention); Mlinzi is
   parked and treated as a third-party incumbent. The launch domain is

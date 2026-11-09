@@ -15,8 +15,13 @@ scripts/lighthouse.sh    # mobile, applied throttling
       accessibility 100, best practices 100
 - [ ] Every sitemap route returns 200 (`npm start`, then curl each)
 - [ ] `/no-such-page` returns a real 404 with the branded page
-- [ ] robots.txt, sitemap.xml, llms.txt, search-index.json, favicon.ico,
-      icon.svg, apple-icon.png, opengraph-image.jpg: 200
+- [ ] robots.txt, sitemap.xml, sitemap.txt, llms.txt, manifest.webmanifest,
+      search-index.json, favicon.ico, icon.svg, apple-icon.png,
+      opengraph-image.jpg: 200
+- [ ] 301s from next.config.ts (`/price-list`, `/contact-us`, `/home` ...) land on live pages
+- [ ] Security headers on `/` (nosniff, Referrer-Policy, X-Frame-Options, HSTS,
+      Permissions-Policy); Cache-Control on `/videos`, `/models`, `/tds`
+- [ ] Every page at 390 px: no sideways scroll, no console error (2026-11-09: 214 of 214)
 - [ ] Every internal link on every page resolves (no anchor to a slug
       that no longer exists)
 - [ ] Every JSON-LD block parses; types match the table in
@@ -72,6 +77,9 @@ with Lighthouse at 100 in all four categories on every route.
 - [ ] Canonical host: apex 301 to www (or the reverse, once), HTTPS, HSTS
 - [ ] Production env: `NEXT_PUBLIC_SITE_URL`, `RESEND_API_KEY`,
       `CONTACT_FROM`; verify the sending domain in Resend
+- [ ] Meta Pixel: set `NEXT_PUBLIC_META_PIXEL_ID` (digits) to switch it on; empty = off
+- [ ] Vercel domains: www.sahihicc.com primary, sahihicc.com redirects to it (next.config
+      also 308s the bare host, as a backstop)
 - [ ] FormSubmit fallback: its first submission sends a one-time
       activation email to info@sahihicc.com that must be clicked
 - [ ] Confirm the production deployment is not a preview adding

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ProfileSection } from "@/components/sections/profile-section";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -362,6 +363,8 @@ export default function HomePage() {
       </section>
 
       <Faq items={homeFaq} />
+
+      <ProfileSection className="bg-background" />
 
       <ContactCard />
     </main>

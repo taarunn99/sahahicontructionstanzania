@@ -305,3 +305,12 @@ Published as described unless the owner says otherwise:
 - **Tanzanite Bridge:** the owner says OYH supplied it, products not named. The card says
   "Oriental Yuhong range". ANSWERED 2026-11-09: OYH bitumen membrane, for the waterproofing.
   Open: should an OYH bitumen membrane get a product page? Its data sheet is needed.
+
+### Q22. OYH sports, second round (raised 2026-11-09, answered the same day)
+
+- **Elastic layer code:** PSV-201 (owner). The price list and the guide print PSV-202.
+- **Stock:** acrylic court, 13 mm EPDM and turf are ordered per job, 3 to 5 days
+  lead time (owner). Tracks and silicon PU stay "held in Dar es Salaam".
+- **Other systems** (prefabricated tracks and court, PVC, wood, tiles): "ask us" is
+  fine (owner). No pages.
+- Still open: is there a separate English file of the track film (taken from the pptx)?

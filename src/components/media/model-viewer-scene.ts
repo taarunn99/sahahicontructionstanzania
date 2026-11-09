@@ -22,6 +22,10 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
  * pinch or the wheel. Soft studio light from a generated room, no
  * shadows. It renders ON DEMAND: a frame is drawn only while the visitor
  * is moving the model or its inertia is settling.
+ *
+ * `frontOnly`: for a pack generated from one front picture (OYH), the back is
+ * a mirror of the front. The model is turned to face the camera (Tripo puts the
+ * picture's front on +x) and the drag stops 60 degrees either side of it.
  */
 
 export type ModelViewerController = { dispose: () => void };
@@ -29,6 +33,7 @@ export type ModelViewerController = { dispose: () => void };
 export async function mountModelViewer(
   canvas: HTMLCanvasElement,
   url: string,
+  { frontOnly = false }: { frontOnly?: boolean } = {},
 ): Promise<ModelViewerController> {
   const renderer = new WebGLRenderer({ canvas, antialias: true, alpha: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -49,6 +54,10 @@ export async function mountModelViewer(
   loader.setMeshoptDecoder(MeshoptDecoder);
   const gltf = await loader.loadAsync(url);
   const model = gltf.scene;
+  if (frontOnly) {
+    model.rotation.y = -Math.PI / 2;
+    model.updateMatrixWorld(true);
+  }
 
   // Centre the model and step the camera back far enough to see all of it.
   const box = new Box3().setFromObject(model);
@@ -58,7 +67,11 @@ export async function mountModelViewer(
   scene.add(model);
   const radius = Math.max(size.x, size.y, size.z) / 2 || 1;
   const distance = radius / Math.sin((camera.fov * Math.PI) / 360);
-  camera.position.set(distance * 0.75, distance * 0.45, distance * 1.05);
+  if (frontOnly) {
+    camera.position.set(distance * 0.5, distance * 0.35, distance * 1.2);
+  } else {
+    camera.position.set(distance * 0.75, distance * 0.45, distance * 1.05);
+  }
   camera.near = distance / 100;
   camera.far = distance * 10;
 
@@ -70,6 +83,13 @@ export async function mountModelViewer(
   controls.maxDistance = distance * 2.2;
   controls.rotateSpeed = 0.9;
   controls.target.set(0, 0, 0);
+  if (frontOnly) {
+    const arc = Math.PI / 3;
+    controls.minAzimuthAngle = -arc;
+    controls.maxAzimuthAngle = arc;
+    controls.minPolarAngle = Math.PI * 0.2;
+    controls.maxPolarAngle = Math.PI * 0.58;
+  }
 
   let frame = 0;
   let settle = 0;

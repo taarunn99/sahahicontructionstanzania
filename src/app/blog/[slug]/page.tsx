@@ -134,12 +134,41 @@ export default async function PostPage({ params }: { params: Params }) {
           </Container>
         </header>
 
-        <Container className="grid gap-12 py-14 sm:py-20 lg:grid-cols-[minmax(0,68ch)_1fr] lg:gap-16">
+        <Container className="grid grid-cols-1 gap-12 py-14 sm:py-20 lg:grid-cols-[minmax(0,68ch)_1fr] lg:gap-16">
           <div>
             {/* The direct answer: plain prose, first */}
             <p className="text-phi-1 leading-snug font-light">
               <Inline text={content.answer} />
             </p>
+
+            {/* Phones get the same contents list, folded, at the top. */}
+            <details className="border-deep/20 group mt-8 rounded-xl border bg-white lg:hidden">
+              <summary className="label-sh flex min-h-12 cursor-pointer items-center justify-between px-4">
+                In this guide
+                <span
+                  aria-hidden
+                  className="transition-transform group-open:rotate-45"
+                >
+                  +
+                </span>
+              </summary>
+              <ol className="border-deep/15 border-t px-4">
+                {content.sections.map((section, index) => (
+                  <li
+                    key={section.h2}
+                    className="border-deep/10 border-b last:border-b-0"
+                  >
+                    <a
+                      href={`#${slugify(section.h2)}`}
+                      className="grid min-h-11 grid-cols-[2rem_1fr] items-center gap-2 py-2 text-sm leading-snug"
+                    >
+                      <span className="spec-sh text-muted">{index + 1}</span>
+                      {section.h2}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </details>
 
             {content.sections.map((section) => (
               <section

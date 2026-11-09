@@ -1,47 +1,36 @@
-import Link from "next/link";
-
+import { LostMark } from "@/components/sections/lost-mark";
 import { Container } from "@/components/ui/container";
-import { BrandButton } from "@/components/ui/brand-button";
+import { FlowButton } from "@/components/ui/flow-button";
 
 /**
- * Branded 404. Next serves this with a real 404 status, so search
- * engines drop dead URLs while people get somewhere useful to go.
+ * Branded 404 (owner, 2026-11-09: more creative, the logo animated, and two
+ * buttons only). The "0" is the logo's tick and sun, looking for the page.
+ * Next serves it with a real 404 status and noindex.
  */
 export default function NotFound() {
   return (
     <main className="theme-light bg-background text-foreground flex-1">
-      <section className="flex min-h-[70vh] items-center pt-40 pb-24">
-        <Container>
-          <p className="label-sh text-muted">404 - Page not found</p>
-          <h1 className="font-display text-phi-4 mt-4 max-w-2xl tracking-tight text-balance">
-            That page is not in the catalogue.
-          </h1>
-          <p className="text-muted mt-6 max-w-xl leading-relaxed">
-            The address may have changed or never existed. Everything we stock
-            is one step from here.
+      <section className="flex min-h-[78vh] items-center pt-32 pb-20">
+        <Container className="text-center">
+          <p className="label-sh text-muted">Page not found</p>
+          <p
+            aria-label="404"
+            className="font-display text-deep mt-6 flex items-center justify-center gap-[0.04em] text-[clamp(6rem,26vw,17rem)] leading-none tracking-tight"
+          >
+            <span aria-hidden>4</span>
+            <LostMark />
+            <span aria-hidden>4</span>
           </p>
-          <div className="mt-10 flex flex-wrap items-center gap-4">
-            <BrandButton href="/" size="md" variant="light">
-              Back to the home page
-            </BrandButton>
-            <Link
-              href="/products"
-              className="chip-sh border-deep inline-flex min-h-11 items-center rounded-full border px-5 text-sm"
-            >
-              Browse products
-            </Link>
-            <Link
-              href="/about"
-              className="chip-sh border-deep inline-flex min-h-11 items-center rounded-full border px-5 text-sm"
-            >
-              About the company
-            </Link>
-            <Link
-              href="/contact"
-              className="chip-sh border-deep inline-flex min-h-11 items-center rounded-full border px-5 text-sm"
-            >
-              Contact us
-            </Link>
+          <h1 className="font-display text-phi-3 mx-auto mt-8 max-w-2xl tracking-tight text-balance">
+            Our tick looked everywhere. This page isn&apos;t here.
+          </h1>
+          <p className="text-muted mx-auto mt-4 max-w-md leading-relaxed">
+            The address may have changed. Start again from the home page, or
+            tell us what you were after.
+          </p>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <FlowButton href="/">Back to the home page</FlowButton>
+            <FlowButton href="/contact">Contact us</FlowButton>
           </div>
         </Container>
       </section>

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+
+import oyhModels from "@/config/oyh-models.json";
 import { notFound } from "next/navigation";
 
 import { ProductDetail } from "@/components/sections/product/product-detail";
@@ -80,6 +82,7 @@ export default async function OyhItemPage({ params }: { params: Params }) {
       back={{ href: "/oriental-yuhong", label: "Oriental Yuhong" }}
       position={{ number: index + 1, count }}
       image={packshot("oriental-yuhong", product.slug)}
+      model={(oyhModels as Record<string, string>)[product.slug] ?? null}
       content={oyhContent(product.slug)}
       document={oyhTds[product.slug] ?? null}
       coverage={oyhCoverage[product.slug]}

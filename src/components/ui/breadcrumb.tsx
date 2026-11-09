@@ -26,7 +26,7 @@ export function Breadcrumb({ items }: { items: Crumb[] }) {
        scroll box cannot widen the page, and its scrollbar is hidden. */
     <nav
       aria-label="Breadcrumb"
-      className="label-sh text-muted flex [scrollbar-width:none] items-center gap-x-2 gap-y-2 py-1 leading-relaxed max-sm:overflow-x-auto max-sm:whitespace-nowrap sm:flex-wrap [&::-webkit-scrollbar]:hidden"
+      className="label-sh text-muted flex max-w-full min-w-0 [scrollbar-width:none] items-center gap-x-2 gap-y-2 py-1 leading-relaxed max-sm:overflow-x-auto max-sm:whitespace-nowrap sm:flex-wrap [&::-webkit-scrollbar]:hidden"
     >
       {items.map((item, i) => (
         <Fragment key={item.href}>

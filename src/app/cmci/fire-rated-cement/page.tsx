@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ModelCta } from "@/components/sections/model-cta";
 import Link from "next/link";
 
 import { Reveal } from "@/components/motion/reveal";
@@ -172,6 +173,11 @@ export default function FireRatedCementPage() {
             move the slider.
           </p>
           <FireBeam />
+          <ModelCta
+            className="mt-6"
+            topic="fire rated cement"
+            line="Seen the beam take the heat? Ask us for the right thickness."
+          />
         </Container>
       </section>
 

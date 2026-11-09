@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Manrope, Montserrat } from "next/font/google";
 
+import { MetaPixel } from "@/components/analytics/meta-pixel";
 import { RouteTransition } from "@/components/layout/route-transition";
 import { ScrollMark } from "@/components/layout/scroll-mark";
 import { SiteFooter } from "@/components/layout/site-footer";
@@ -121,6 +122,7 @@ export default function RootLayout({
           <ScrollMark />
         </SmoothScrollProvider>
         <RouteTransition />
+        <MetaPixel />
       </body>
     </html>
   );

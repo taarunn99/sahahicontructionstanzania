@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { ModelCta } from "@/components/sections/model-cta";
 import Link from "next/link";
 
+import { ModelViewer } from "@/components/media/model-viewer";
 import { Reveal } from "@/components/motion/reveal";
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
@@ -89,6 +91,8 @@ export type ProductDetailProps = {
   alsoKnownAs?: string;
   /** An interactive section for this product, after the jump chips. */
   feature?: React.ReactNode;
+  /** A GLB generated from the pack picture; the picture stays the first paint. */
+  model?: string | null;
 };
 
 const SECTION_LABEL = "label-sh text-muted";
@@ -183,6 +187,7 @@ export function ProductDetail({
   next,
   alsoKnownAs,
   feature,
+  model,
 }: ProductDetailProps) {
   const standards = (content?.standards ?? []).filter(
     (entry, index, all) =>
@@ -303,35 +308,53 @@ export function ProductDetail({
           </Link>
 
           <div className="mt-4 grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16">
-            <figure className="lg:sticky lg:top-28">
-              <div className="border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white">
-                {image ? (
-                  <Image
-                    src={image.src}
-                    alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: the pack`}
-                    fill
-                    preload
-                    sizes="(min-width: 64rem) 42vw, 100vw"
-                    className="object-contain p-6 sm:p-10"
-                  />
-                ) : (
-                  <div className="flex h-full flex-col items-center justify-center gap-4 p-8 text-center">
-                    <p className="text-brand text-3xl leading-tight font-semibold tracking-tight uppercase">
-                      {product.name}
-                    </p>
-                    <p className="spec-sh text-muted">
-                      {brand.name} · {product.packs.join(" · ")}
-                    </p>
-                  </div>
+            <div className="lg:sticky lg:top-28">
+              <figure>
+                <div className="border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white">
+                  {image && model ? (
+                    <ModelViewer
+                      model={model}
+                      poster={image}
+                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: the pack`}
+                      preload
+                      frontOnly
+                    />
+                  ) : image ? (
+                    <Image
+                      src={image.src}
+                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: the pack`}
+                      fill
+                      preload
+                      sizes="(min-width: 64rem) 42vw, 100vw"
+                      className="object-contain p-6 sm:p-10"
+                    />
+                  ) : (
+                    <div className="flex h-full flex-col items-center justify-center gap-4 p-8 text-center">
+                      <p className="text-brand text-3xl leading-tight font-semibold tracking-tight uppercase">
+                        {product.name}
+                      </p>
+                      <p className="spec-sh text-muted">
+                        {brand.name} · {product.packs.join(" · ")}
+                      </p>
+                    </div>
+                  )}
+                </div>
+                {image && (
+                  <figcaption className="spec-sh text-muted mt-3 leading-relaxed">
+                    {brand.name}&apos;s own picture
+                    {model &&
+                      ", turned into a 3D model you can turn across its front"}
+                    . The pack we stock: {product.packs.join(" · ")}.
+                  </figcaption>
                 )}
-              </div>
-              {image && (
-                <figcaption className="spec-sh text-muted mt-3 leading-relaxed">
-                  {brand.name}&apos;s own picture. The pack we stock:{" "}
-                  {product.packs.join(" · ")}.
-                </figcaption>
+              </figure>
+              {model && (
+                <ModelCta
+                  className="mt-5"
+                  topic={`${brand.name} ${product.name}`}
+                />
               )}
-            </figure>
+            </div>
 
             <div>
               <p className="label-sh text-muted flex flex-wrap gap-x-4 gap-y-2 leading-relaxed">

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
 import { Faq } from "@/components/sections/faq";
+import { RelatedLinks } from "@/components/sections/related-links";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
@@ -21,20 +22,28 @@ import {
 import { packshot } from "@/config/packshots";
 import { siteConfig } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
+import {
+  SPORTS_PATH,
+  SYSTEMS as SPORTS_SYSTEMS,
+} from "@/config/oyh-sports-systems";
 import { pad } from "@/lib/utils";
 
 /**
- * ORIENTAL YUHONG HUB - owns "Oriental Yuhong Tanzania"
- * (SEO-STRATEGY.md 5.1). The site's shell in OYH's reds (the
+ * ORIENTAL YUHONG HUB - owns "OYH East Africa", "OYH products in East Africa"
+ * (owner, 2026-11-09: #1 is the goal) and "Oriental Yuhong Tanzania"
+ * (SEO-STRATEGY.md 5.1). Authorization wording comes from brands.ts only.
+ * East Africa: Sahihi is in Dar es Salaam and quotes for projects elsewhere in
+ * East Africa on request; no office or stock outside Tanzania is claimed. OYH's
+ * own East African projects are quoted from OYH's 2018 FOCAC press release. The site's shell in OYH's reds (the
  * `brand-oriental-yuhong` palette). Server component. Every statement
  * about a product is read from the catalogue, the coverage models or the
  * data sheet content, all of which quote OYH's own technical data sheets.
  * The application photographs are OYH's, from those data sheets.
  */
 
-const TITLE = "Oriental Yuhong Tanzania - OYH HDPE and Waterproofing";
+const TITLE = "OYH East Africa - Oriental Yuhong Tanzania | Sahihi";
 const DESCRIPTION =
-  "Sahihi supplies Oriental Yuhong (OYH) in Tanzania: HDPE membrane, waterproofing coatings, a joint sealant, a waterplug and sports flooring, with data sheets.";
+  "OYH products in East Africa from Sahihi, Oriental Yuhong's authorized distributor in Dar es Salaam: HDPE membrane, waterproofing coatings and sports flooring.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -70,6 +79,28 @@ const JOBS = [
 ];
 
 const faq: FaqItem[] = [
+  {
+    q: "Who supplies OYH products in East Africa?",
+    lead: `${siteConfig.brandName}, an ${brand.authorization.toLowerCase()} of Oriental Yuhong, in Dar es Salaam, Tanzania.`,
+    points: [
+      "Every product with Oriental Yuhong's own data sheet",
+      "Quotations by WhatsApp, phone or email from the Dar es Salaam office",
+      "Prices are not published on this site",
+    ],
+  },
+  {
+    q: "Which OYH products are available in East Africa?",
+    lead: "Waterproofing coatings, a sealant and a waterplug, HDPE membrane and seven sports flooring systems.",
+    points: [
+      "HDPE pre-applied membrane, PMH-3080 Plus",
+      "Running tracks, silicon PU and acrylic courts, artificial turf and EPDM",
+    ],
+  },
+  {
+    q: "Can Sahihi supply OYH outside Tanzania?",
+    lead: "Ask us. Send the country, the products and the quantities, and we quote from Dar es Salaam.",
+    points: [],
+  },
   {
     q: "Which Oriental Yuhong products does Sahihi stock in Tanzania?",
     lead: `${oyhProducts.length} products, supplied from Dar es Salaam.`,
@@ -121,6 +152,20 @@ export default function OrientalYuhongPage() {
             name: TITLE,
             description: DESCRIPTION,
             url: `${siteConfig.url}/oriental-yuhong`,
+            about: {
+              "@type": "Brand",
+              name: "Oriental Yuhong",
+              alternateName: ["OYH", "Yuhong"],
+            },
+            provider: {
+              "@type": "Organization",
+              name: siteConfig.legalName,
+              url: siteConfig.url,
+              areaServed: [
+                { "@type": "Country", name: "Tanzania" },
+                { "@type": "Place", name: "East Africa" },
+              ],
+            },
             mainEntity: {
               "@type": "ItemList",
               numberOfItems: oyhProducts.length,
@@ -142,7 +187,7 @@ export default function OrientalYuhongPage() {
           <Breadcrumb items={crumbs} />
           <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
             <p className="label-sh leading-relaxed">
-              {brand.authorization} · Tanzania
+              {brand.authorization} · Dar es Salaam · East Africa
             </p>
             <span className="inline-flex rounded-full bg-white px-5 py-3">
               <img
@@ -155,14 +200,15 @@ export default function OrientalYuhongPage() {
             </span>
           </div>
           <h1 className="font-display mt-6 text-[clamp(2rem,7.4vw,5.25rem)] leading-[1.02] uppercase">
-            Oriental Yuhong in Tanzania.
+            OYH in East Africa.
           </h1>
           <div className="mt-10 grid gap-10 lg:grid-cols-[1.618fr_1fr] lg:items-end">
             <p className="text-phi-1 max-w-3xl leading-snug font-light">
-              {siteConfig.brandName} supplies Oriental Yuhong (OYH) in Tanzania:
-              HDPE waterproofing membrane, coatings for wet rooms, roofs, walls
-              and floors, a polyurethane joint sealant, a rapid-setting
-              waterplug and sports flooring, from Dar es Salaam.
+              {siteConfig.brandName} is an {brand.authorization.toLowerCase()}{" "}
+              of Oriental Yuhong (OYH), in Dar es Salaam, Tanzania. OYH products
+              in East Africa from one office: HDPE waterproofing membrane,
+              coatings for wet rooms, roofs, walls and floors, a polyurethane
+              joint sealant, a rapid-setting waterplug and sports flooring.
             </p>
             <dl className="border-deep grid grid-cols-3 border-t">
               {[
@@ -368,10 +414,73 @@ export default function OrientalYuhongPage() {
         </Container>
       </section>
 
-      <Faq items={faq} heading="Oriental Yuhong, in short." />
+      {/* ---- OYH in East Africa: every OYH page, and the projects ---------- */}
+      <section className="bg-accent py-16 sm:py-24">
+        <Container>
+          <p className="label-sh">OYH East Africa</p>
+          <h2 className="font-display text-phi-3 mt-5 max-w-3xl tracking-tight text-balance">
+            OYH products in East Africa, from Dar es Salaam.
+          </h2>
+          <div className="mt-8 grid gap-10 lg:grid-cols-2">
+            <div className="space-y-4 leading-relaxed">
+              <p>
+                {siteConfig.brandName} is an {brand.authorization.toLowerCase()}{" "}
+                of Oriental Yuhong. We hold the coatings, the HDPE membrane, the
+                running tracks and the silicon PU courts in Dar es Salaam.
+                Acrylic courts, EPDM and turf are ordered per job, ready in 3 to
+                5 days.
+              </p>
+              <p>
+                For a project elsewhere in East Africa, send the country, the
+                products and the quantities. We quote from Dar es Salaam.
+              </p>
+            </div>
+            <ul className="space-y-3 leading-relaxed">
+              <li className="border-l-4 border-white/60 pl-4">
+                <Link href="/projects" className="font-bold underline">
+                  Tanzanite Bridge, Dar es Salaam
+                </Link>
+                : Oriental Yuhong bitumen waterproofing membrane, supplied by{" "}
+                {siteConfig.brandName}.
+              </li>
+              <li className="border-l-4 border-white/60 pl-4">
+                Oriental Yuhong lists the Mombasa-Nairobi Railway in Kenya and
+                the Kigamboni sea-crossing bridge in Dar es Salaam among its own
+                projects (OYH press release, 2018).
+              </li>
+            </ul>
+          </div>
+        </Container>
+      </section>
+
+      <RelatedLinks
+        label="Every OYH page"
+        heading="The whole OYH range, one click away."
+        links={[
+          ...oyhProducts.map((item) => ({
+            label: item.name,
+            href: productHref(item),
+            sub: item.type,
+            picture: packshot("oriental-yuhong", item.slug)?.src,
+          })),
+          {
+            label: "HDPE waterproofing",
+            href: "/oriental-yuhong/hdpe-waterproofing",
+            sub: "Pre-applied membrane, in 3D",
+          },
+          ...SPORTS_SYSTEMS.map((system) => ({
+            label: system.name,
+            href: `${SPORTS_PATH}/${system.slug}`,
+            sub: "OYH sports flooring",
+            picture: system.picture.src,
+          })),
+        ]}
+      />
+
+      <Faq items={faq} heading="OYH in East Africa, in short." />
 
       <CtaBand
-        label="Oriental Yuhong in Tanzania"
+        label="OYH in East Africa"
         heading="Send the area and the surface. We will name the coating."
         body="Tell us whether it is a wet room, a roof, a wall or a leak, and the area. You get a product recommendation and a written quotation from our Dar es Salaam office."
         topic="Oriental Yuhong products"

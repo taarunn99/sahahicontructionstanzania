@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { Logo } from "@/components/layout/logo";
 import { Container } from "@/components/ui/container";
 import type { ChromeNav } from "@/config/chrome";
+import { cn } from "@/lib/utils";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { isSwPath, swChromeLink, swNav } from "@/config/sw-routes";
 import { useMagneticShineGroup } from "@/hooks/use-magnetic-shine";
@@ -95,16 +96,32 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
   }, []);
 
   // The fixed footer occupies no flow space; the spacer mirrors its height
-  // so the page scrolls exactly far enough to reveal it.
+  // so the page scrolls exactly far enough to reveal it. The links are
+  // measured, not the min-height box, so "does it fit" is honest.
+  const [fits, setFits] = useState(true);
   useEffect(() => {
     const footer = footerRef.current;
+    const inner = innerRef.current?.firstElementChild as HTMLElement | null;
     if (!footer) return;
-    const sync = () => setHeight(footer.offsetHeight);
+    const sync = () => {
+      setHeight(footer.offsetHeight);
+      // Owner, 2026-11-09: a fixed footer taller than the window traps the
+      // scroll. Reveal only when the whole footer fits; otherwise it scrolls
+      // in normal flow, like on phones.
+      setFits(
+        (inner?.offsetHeight ?? footer.offsetHeight) <= window.innerHeight - 80,
+      );
+    };
     sync();
     const ro = new ResizeObserver(sync);
     ro.observe(footer);
-    return () => ro.disconnect();
+    window.addEventListener("resize", sync);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", sync);
+    };
   }, []);
+  const reveal = isDesktop && fits;
 
   useEffect(() => {
     const spacer = spacerRef.current;
@@ -127,6 +144,7 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
       if (!spacerRef.current || !innerRef.current) return;
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
       if (!window.matchMedia("(min-width: 1024px)").matches) return;
+      if (!reveal) return;
 
       gsap.fromTo(
         innerRef.current,
@@ -146,7 +164,7 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
         },
       );
     },
-    { scope: footerRef, dependencies: [height] },
+    { scope: footerRef, dependencies: [height, reveal], revertOnUpdate: true },
   );
 
   // ScrollTrigger measures against the spacer, whose document position
@@ -170,17 +188,20 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
     <>
       <div
         ref={spacerRef}
-        style={{ height }}
+        style={{ height: reveal ? height : 0 }}
         aria-hidden
         className="pointer-events-none hidden lg:block"
       />
       <footer
         ref={footerRef}
         lang={sw ? "sw" : undefined}
-        className="bg-deep text-chalk grain-sh on-dark relative z-0 overflow-hidden lg:fixed lg:inset-x-0 lg:bottom-0"
+        className={cn(
+          "bg-deep text-chalk grain-sh on-dark relative z-0 overflow-hidden",
+          reveal && "lg:fixed lg:inset-x-0 lg:bottom-0",
+        )}
         style={{
           perspective: "1200px",
-          visibility: !isDesktop || nearBottom ? "visible" : "hidden",
+          visibility: !reveal || nearBottom ? "visible" : "hidden",
         }}
       >
         {/* min-height fills the screen up to the fixed header so no strip
@@ -188,9 +209,9 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
         <div
           ref={innerRef}
           style={{ transformOrigin: "50% 0%" }}
-          className="flex min-h-[calc(100svh-4rem)] flex-col sm:min-h-[calc(100svh-5rem)]"
+          className={cn("flex flex-col", reveal && "min-h-[calc(100svh-5rem)]")}
         >
-          <Container className="relative z-10 my-auto w-full pt-16 pb-8 sm:pt-20">
+          <Container className="relative z-10 my-auto w-full pt-12 pb-6 sm:pt-14">
             {/* Lockup + icon-first contact, one line each side */}
             <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
               <Link
@@ -237,12 +258,12 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
               {siteConfig.address.countryName}
             </p>
 
-            <div className="border-chalk/15 mt-10 grid gap-10 border-t pt-10 sm:grid-cols-[1fr_2fr]">
+            <div className="border-chalk/15 mt-8 grid grid-cols-2 gap-x-8 gap-y-8 border-t pt-8 sm:grid-cols-3 lg:grid-cols-[1fr_1fr_1fr_2fr]">
               <div>
                 <p className="label-sh text-accent">
                   {sw ? "Menyu" : "Navigate"}
                 </p>
-                <ul className="mt-4 space-y-2.5">
+                <ul className="mt-3 space-y-2 text-sm">
                   {(sw ? swNav : siteConfig.nav).map((item) => (
                     <li key={item.href}>
                       <Link href={item.href} className="u-line text-chalk/80">
@@ -251,12 +272,29 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
                     </li>
                   ))}
                 </ul>
+              </div>
 
-                <p className="label-sh text-accent mt-8">
+              <div>
+                <p className="label-sh text-accent">
                   {sw ? "Chapa" : "Brands"}
                 </p>
-                <ul className="mt-4 space-y-2.5">
+                <ul className="mt-3 space-y-2 text-sm">
                   {chrome.footerBrands.map((item) => (
+                    <li key={item.href}>
+                      <Link href={item.href} className="u-line text-chalk/80">
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div>
+                <p className="label-sh text-accent">
+                  {sw ? "Mifumo" : "Systems"}
+                </p>
+                <ul className="mt-3 space-y-2 text-sm">
+                  {chrome.systems.map((item) => (
                     <li key={item.href}>
                       <Link href={item.href} className="u-line text-chalk/80">
                         {item.label}
@@ -268,11 +306,11 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
 
               {/* ONE numbered ordered list flowing across two aligned
                   columns - reads as a single systematic category. */}
-              <div>
+              <div className="col-span-2 sm:col-span-3 lg:col-span-1">
                 <p className="label-sh text-accent">
                   {sw ? "Bidhaa" : "Products"}
                 </p>
-                <ol className="mt-4 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+                <ol className="mt-3 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
                   {(sw ? chrome.all.map(swChromeLink) : chrome.all).map(
                     (line, index) => (
                       <li key={line.href} className="flex items-baseline gap-3">
@@ -292,7 +330,7 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
               </div>
             </div>
 
-            <div className="border-chalk/15 mt-10 flex flex-col gap-3 border-t pt-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="border-chalk/15 mt-8 flex flex-col gap-3 border-t pt-5 sm:flex-row sm:items-center sm:justify-between">
               <p className="label-sh text-chalk/60 leading-relaxed">
                 © {new Date().getFullYear()} {siteConfig.legalName}
               </p>

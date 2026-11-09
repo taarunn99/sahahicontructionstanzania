@@ -27,6 +27,7 @@ export function ModelViewer({
   alt,
   className,
   preload = false,
+  frontOnly = false,
 }: {
   /** Public path of the GLB file. */
   model: string;
@@ -35,6 +36,8 @@ export function ModelViewer({
   className?: string;
   /** True when the photograph is the first screen's largest paint. */
   preload?: boolean;
+  /** Turn only across the front (a pack whose generated back is mirrored). */
+  frontOnly?: boolean;
 }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const controller = useRef<ModelViewerController | null>(null);
@@ -56,7 +59,9 @@ export function ModelViewer({
     setState("loading");
     try {
       const { mountModelViewer } = await import("./model-viewer-scene");
-      controller.current = await mountModelViewer(canvas, model);
+      controller.current = await mountModelViewer(canvas, model, {
+        frontOnly,
+      });
       setState("model");
     } catch {
       setState("failed");

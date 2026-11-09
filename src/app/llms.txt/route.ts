@@ -6,6 +6,7 @@ import {
   products,
   productsInLine,
 } from "@/config/catalogue";
+import { SYSTEMS as SPORTS_SYSTEMS } from "@/config/oyh-sports-systems";
 import { siteConfig } from "@/config/site";
 
 /**
@@ -53,7 +54,7 @@ export function GET() {
     "",
     `- [Mapei in Tanzania](${base}/mapei): the Mapei hub, five product lines`,
     `- [Mapei nchini Tanzania](${base}/sw/mapei): the Mapei hub in Swahili, with a Swahili home page at ${base}/sw`,
-    `- [Oriental Yuhong in Tanzania](${base}/oriental-yuhong): waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug`,
+    `- [OYH East Africa: Oriental Yuhong in Tanzania](${base}/oriental-yuhong): Sahihi is an authorized distributor of Oriental Yuhong (OYH) in Dar es Salaam; HDPE membrane, sports flooring, waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug`,
     `- [X-Calibur in Tanzania](${base}/x-calibur): epoxy flooring, primer, waterproof coating and joint sealant`,
     `- [CMCI in Tanzania](${base}/cmci): cementitious fireproofing for petrochemical plant, commercial buildings and tunnels`,
     `- [Fire rated cement in Tanzania](${base}/cmci/fire-rated-cement): cementitious fireproofing for structural steel, explained, with the products and data sheets`,
@@ -61,7 +62,12 @@ export function GET() {
     `- [SPC flooring in Tanzania](${base}/vasa/spc-flooring): Vasa 5 mm and 8 mm rigid core click flooring`,
     `- [LVT flooring in Tanzania](${base}/vasa/lvt-flooring): Vasa 2 mm luxury vinyl tile`,
     `- [HDPE waterproofing in Tanzania](${base}/oriental-yuhong/hdpe-waterproofing): OYH PMH-3080 Plus pre-applied membrane, data sheet and method statement`,
-    `- [Sports flooring in Tanzania](${base}/oriental-yuhong/sports-flooring): OYH running tracks, sports courts and synthetic turf`,
+    `- [Sports flooring in Tanzania](${base}/oriental-yuhong/sports-flooring): OYH running tracks, sports courts and synthetic turf, with a system chooser, construction films and a material calculator`,
+    ...SPORTS_SYSTEMS.map(
+      (system) =>
+        `  - [${system.name}](${base}/oriental-yuhong/sports-flooring/${system.slug}): ${system.buildUp}`,
+    ),
+    `- [Wall panels in Tanzania](${base}/vasa/wall-panels): Vasa film and digital wall panels`,
     `- [BIHUI in Tanzania](${base}/bihui): tiling tools, levelling systems, trowels, mixers, grinders, laser levels and cutters`,
     `- [Blog](${base}/blog): guides to waterproofing, tiling, flooring and concrete repair in Tanzania`,
     `- [Products](${base}/products): all ${products.length} catalogued products with classification, consumption and pack size`,

@@ -12,7 +12,7 @@ import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 type Connection = { saveData?: boolean; effectiveType?: string };
 
-function constrained() {
+export function constrained() {
   const nav = navigator as Navigator & {
     connection?: Connection;
     deviceMemory?: number;

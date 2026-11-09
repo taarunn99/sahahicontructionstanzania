@@ -1,17 +1,30 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 import { CtaBand } from "@/components/sections/cta-band";
 import { Faq } from "@/components/sections/faq";
-import {
-  SportsExplorer,
-  type SportsSystem,
-} from "@/components/sections/oyh/sports-explorer";
+import { SportsExplorer } from "@/components/sections/oyh/sports-explorer";
+import { RelatedLinks } from "@/components/sections/related-links";
+import { SportsCalculator } from "@/components/sections/oyh/sports-calculator";
+import { SportsChooser } from "@/components/sections/oyh/sports-chooser";
+import { SportsFilms } from "@/components/sections/oyh/sports-films";
 import { Downloads } from "@/components/sections/vasa/decor-grid";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
+import { dryingTimes, sportsBoms, sportsVideos } from "@/config/oyh-sports";
+import {
+  EXTRA_DOWNLOADS,
+  LEAD_TIME,
+  SITE,
+  SPORTS_ONE_LINERS,
+  SPORTS_PATH,
+  STAGES,
+  STEPS,
+  SYSTEMS,
+} from "@/config/oyh-sports-systems";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 
@@ -22,13 +35,16 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
  * and no test values, so none is shown. Each system's spread of the manual is a
  * download in public/tds/oriental-yuhong/sports, cut by page, never edited.
  * Held in Dar es Salaam (owner, 2026-11-09).
+ * Second round (owner's "Nazrul" folder, 2026-11-09): OYH's sports brochure, the
+ * Silicone PU and Elastic Acrylic construction guides, four system lists (used
+ * for consumption and packs only, prices dropped) and three construction films.
+ * Data in src/config/oyh-sports.ts.
  */
 
 const TITLE = "Sports Flooring Tanzania - Tracks, Courts, Turf | OYH";
 const DESCRIPTION =
   "Sports flooring in Tanzania from Sahihi and Oriental Yuhong: plastic running tracks, silicon PU sports courts, artificial turf and EPDM surfaces, in 3D.";
-const PATH = "/oriental-yuhong/sports-flooring";
-const TDS = "/tds/oriental-yuhong/sports";
+const PATH = SPORTS_PATH;
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -43,397 +59,10 @@ const crumbs = [
   { label: "Sports flooring", href: PATH },
 ];
 
-const pic = (name: string, width: number, height: number, alt: string) => ({
-  src: `/images/oriental-yuhong/sports/${name}.webp`,
-  width,
-  height,
-  alt,
-});
-
-type Layer = SportsSystem["layers"][number];
-const SUBSTRATE: Layer = {
-  label: "Base",
-  color: "#6b6e70",
-  height: 0.34,
-  pattern: "concrete",
-  note: "Asphalt or concrete, more than 28 days old, flat to 5 mm per 3 m, with a pull-off strength above 2 MPa.",
-};
-const BOTTOM: Layer = {
-  label: "Bottom layer",
-  color: "#2d2a26",
-  height: 0.06,
-  note: "PSV-101 universal sealing adhesive, or PSV-102 asphalt concrete base sealing adhesive.",
-};
-const MARKING: Layer = {
-  label: "Marking paint",
-  color: "#ffffff",
-  height: 0.03,
-  note: "PSV-701/702 sports field marking paint.",
-};
-
-const SYSTEMS: SportsSystem[] = [
-  {
-    slug: "all-plastic-track",
-    name: "All plastic track",
-    aka: "full polyurethane track",
-    buildUp:
-      "A special bottom adhesive, an elastic polyurethane middle layer and a wear-resistant surface layer.",
-    suits:
-      "For schools, kindergartens and sports venues: track and field runways, semi-circular areas, auxiliary areas, fitness paths, indoor training runways and playgrounds.",
-    advantages: [
-      "Safety",
-      "Weathering resistance",
-      "Shock absorption at 0-50 ℃",
-      "Anti nail shoe scratch",
-    ],
-    picture: pic(
-      "full-pu",
-      1020,
-      462,
-      "A school running track seen from the air",
-    ),
-    layers: [
-      MARKING,
-      {
-        label: "Surface layer",
-        color: "#b5432c",
-        height: 0.12,
-        pattern: "granule",
-        note: "PSV-301 self textured surface layer, or PSV-302 particle adhesive with PSV-401/402 plastic particles.",
-      },
-      {
-        label: "Middle layer",
-        color: "#e8b9a8",
-        height: 0.28,
-        note: "PSV-201 plastic runway elastic layer.",
-      },
-      BOTTOM,
-      SUBSTRATE,
-    ],
-    download: {
-      file: `${TDS}/all-plastic-track.pdf`,
-      pages: 2,
-      size: "2.1 MB",
-    },
-  },
-  {
-    slug: "breathable-track",
-    name: "Breathable track",
-    aka: "permeable rubber track",
-    buildUp:
-      "A special bottom adhesive, a middle layer of EPDM elastic particles mixed with an environmentally friendly adhesive, and an EPDM particle wear-resistant surface layer.",
-    suits:
-      "For schools, kindergartens, parks, communities and sports venues: tracks, semi-circular areas, auxiliary areas, fitness paths and playgrounds.",
-    advantages: [
-      "Economy",
-      "Moderate elasticity",
-      "Permeability: heavy rain does not produce standing water",
-    ],
-    picture: pic(
-      "permeable",
-      870,
-      416,
-      "A red running track beside a green pitch",
-    ),
-    layers: [
-      MARKING,
-      {
-        label: "Surface layer",
-        color: "#b5432c",
-        height: 0.12,
-        pattern: "granule",
-        note: "PSV-302 particle adhesive with PSV-401/402 plastic particles.",
-      },
-      {
-        label: "Middle layer",
-        color: "#e5a58e",
-        height: 0.28,
-        pattern: "granule",
-        note: "PSV-303 EPDM particle surface adhesive with PSV 401-406 plastic particles.",
-      },
-      BOTTOM,
-      SUBSTRATE,
-    ],
-    download: { file: `${TDS}/breathable-track.pdf`, pages: 2, size: "1.8 MB" },
-  },
-  {
-    slug: "hybrid-track",
-    name: "Hybrid track",
-    aka: "hybrid rubber track",
-    buildUp:
-      "A special primer, a middle layer of elastic polyurethane mixed with EPDM rubber particles, and a wear-resistant surface.",
-    suits:
-      "For schools, kindergartens and professional stadiums: track and field, semi-circle and auxiliary areas, fitness paths, indoor training tracks and playgrounds.",
-    advantages: [
-      "Cost performance",
-      "Shock absorption at 0-50 ℃",
-      "Anti nail shoe scratch",
-    ],
-    picture: pic("hybrid", 560, 338, "Lanes of a red running track"),
-    layers: [
-      MARKING,
-      {
-        label: "Surface layer",
-        color: "#a93c2a",
-        height: 0.12,
-        pattern: "granule",
-        note: "PSV-301 self textured surface layer, or PSV-302 particle adhesive with PSV-401/402 plastic particles.",
-      },
-      {
-        label: "Middle layer",
-        color: "#d98e78",
-        height: 0.28,
-        pattern: "granule",
-        note: "PSV-201 plastic runway elastic layer with PSV-401-406 plastic particles.",
-      },
-      BOTTOM,
-      SUBSTRATE,
-    ],
-    download: { file: `${TDS}/hybrid-track.pdf`, pages: 2, size: "5.0 MB" },
-  },
-  {
-    slug: "silicon-pu-court",
-    name: "Silicon PU court",
-    aka: "silicon PU sports court",
-    buildUp:
-      "A specialized bottom glue, a high elasticity, high strength polyurethane middle layer and an organic silicon modified polyurethane surface layer.",
-    suits:
-      "For basketball, tennis and badminton courts, indoor and outdoor leisure areas, gyms and health activity centers.",
-    advantages: [
-      "Comfortable elasticity",
-      "Stain resistant",
-      "Super wear-resistant",
-      "Durable and long-lasting",
-    ],
-    picture: pic(
-      "court",
-      947,
-      530,
-      "Basketball courts in green and red, with white lines",
-    ),
-    layers: [
-      MARKING,
-      {
-        label: "Surface layer",
-        color: "#16784a",
-        height: 0.08,
-        note: "Silicone PU water-based topcoat.",
-      },
-      {
-        label: "Interface layer",
-        color: "#5aa57f",
-        height: 0.06,
-        note: "PSV-304 Silicon PU plastic stadium interface agent.",
-      },
-      {
-        label: "Elastic layer",
-        color: "#9fc9b2",
-        height: 0.2,
-        note: "PSV-201 silicone PU plastic stadium elastic layer.",
-      },
-      BOTTOM,
-      SUBSTRATE,
-    ],
-    download: { file: `${TDS}/silicon-pu-court.pdf`, pages: 2, size: "3.5 MB" },
-  },
-  {
-    slug: "artificial-turf",
-    name: "Artificial turf",
-    aka: "synthetic turf",
-    buildUp:
-      "Artificial turf, quartz sand, rubber particles and a shock-absorbing pad, on a concrete base layer.",
-    suits:
-      "For football fields, basketball courts, tennis courts, hockey fields and golf courses.",
-    advantages: [
-      "Environmental friendliness",
-      "Security: no slipping or scratches",
-      "Durable and weather resistant",
-      "Lays on asphalt, cement and hard sand",
-    ],
-    picture: pic("turf", 753, 502, "Close view of synthetic grass fibres"),
-    layers: [
-      {
-        label: "Artificial grass",
-        color: "#3c8f3a",
-        height: 0.24,
-        note: "Laid with special glue. Fibres of polypropylene, or of polyethylene and polypropylene, with UV absorbers.",
-      },
-      {
-        label: "Rubber particles",
-        color: "#2c7a44",
-        height: 0.12,
-        pattern: "granule",
-        note: "PSV-407 granules.",
-      },
-      {
-        label: "Quartz sand",
-        color: "#e2d7c2",
-        height: 0.12,
-        pattern: "sand",
-      },
-      {
-        label: "Shock-absorbing pad",
-        color: "#c7a884",
-        height: 0.16,
-        pattern: "foam",
-        note: "PSV-104 shock pad.",
-      },
-      {
-        label: "Concrete base layer",
-        color: "#6b6e70",
-        height: 0.34,
-        pattern: "concrete",
-      },
-    ],
-    download: { file: `${TDS}/artificial-turf.pdf`, pages: 3, size: "6.9 MB" },
-  },
-  {
-    slug: "epdm-walking-track",
-    name: "EPDM walking track",
-    buildUp:
-      "A specialty primer, an EPDM granules base layer and an anti-slip, wear-resistant surface layer.",
-    suits: "For fitness trails, walkways and general ground protection.",
-    advantages: [
-      "Good permeability",
-      "Easy to construct and maintain",
-      "Versatile application",
-    ],
-    picture: pic(
-      "walking",
-      401,
-      404,
-      "A colourful EPDM play surface in blue, yellow and red",
-    ),
-    layers: [
-      {
-        label: "Surface layer",
-        color: "#1f6fb5",
-        height: 0.12,
-        pattern: "granule",
-        note: "EPDM granules of different colours, 5 mm, spread to make the patterns.",
-      },
-      {
-        label: "Elastic base layer",
-        color: "#39383a",
-        height: 0.26,
-        pattern: "granule",
-        note: "Trowel spread, 8 to 10 mm.",
-      },
-      {
-        label: "Specialty primer",
-        color: "#2d2a26",
-        height: 0.06,
-        note: "Spread with elastic granules, to enhance the adhesion with the substrate.",
-      },
-      SUBSTRATE,
-    ],
-  },
-];
-
-const STAGES = [
-  {
-    title: "Running track",
-    steps: [
-      "Foundation construction",
-      "Primer coating",
-      "Intermediate coating",
-      "Surface layer",
-      "Runway marking",
-    ],
-  },
-  {
-    title: "Sports court",
-    steps: [
-      "Foundation construction",
-      "Primer coating",
-      "Intermediate coating",
-      "Interface layer",
-      "Surface layer",
-      "Marking",
-    ],
-  },
-  {
-    title: "Artificial turf",
-    steps: [
-      "Positioning and laying out",
-      "Laying",
-      "Gluing",
-      "Adhesive",
-      "Compression",
-      "Solidifying",
-      "Sand filling",
-      "Filling elastic particles",
-    ],
-  },
-];
-
-const STEPS = [
-  {
-    title: "Substrate verification",
-    text: "Asphalt or concrete, more than 28 days old, flatness of 5 mm or better per 3 m, pull-off strength above 2 MPa.",
-    picture: pic(
-      "step-primer",
-      535,
-      399,
-      "A worker checking and preparing the substrate",
-    ),
-  },
-  {
-    title: "Primer and elastic granules",
-    text: "The primer is trowel spread, with elastic granules spread into it to enhance the adhesion.",
-    picture: pic(
-      "step-base",
-      693,
-      524,
-      "Two workers spreading a green elastic layer",
-    ),
-  },
-  {
-    title: "Elastic base layer",
-    text: "Trowelled and ironed with an electric trowel, 8 to 10 mm thick.",
-    picture: pic(
-      "step-iron",
-      680,
-      513,
-      "A worker smoothing the layer with an electric trowel",
-    ),
-  },
-  {
-    title: "Positioning and layout",
-    text: "All the patterns are drawn out as required.",
-    picture: pic(
-      "step-layout",
-      693,
-      506,
-      "A coloured play surface marked out in a school yard",
-    ),
-  },
-  {
-    title: "Surface layer",
-    text: "EPDM granules of different colours make the patterns, 5 mm thick.",
-    picture: pic(
-      "step-pattern",
-      959,
-      488,
-      "Workers laying coloured patterns of EPDM granules",
-    ),
-  },
-  {
-    title: "Spread, trowel, finish",
-    text: "The surface granules are spread, trowelled and finished with soapy water.",
-    picture: pic(
-      "step-finish",
-      1100,
-      619,
-      "Blue granules being finished with a power trowel",
-    ),
-  },
-];
-
 const faq: FaqItem[] = [
   {
     q: "Which sports flooring systems does Oriental Yuhong offer?",
-    lead: "Three plastic running tracks, a silicon PU court, artificial turf and an EPDM walking surface.",
+    lead: "Three plastic running tracks, a silicon PU court, an acrylic court, artificial turf and an EPDM surface.",
     points: SYSTEMS.map((item) => `${item.name}: ${item.buildUp}`),
   },
   {
@@ -449,14 +78,25 @@ const faq: FaqItem[] = [
     q: "What does the base need to be?",
     lead: "Asphalt or concrete, more than 28 days old.",
     points: [
+      "Concrete of C25 strength, laid to a 0.5 to 0.7% fall so the court drains",
+      "Under a 3 m straightedge, water less than 3 mm deep at 90% of the points",
       "Flatness: 5 mm or better per 3 m",
       "Pull-off strength: above 2 MPa",
       "On asphalt, the bottom layer is PSV-102 asphalt concrete base sealing adhesive",
     ],
   },
   {
+    q: "Who makes Oriental Yuhong sports flooring?",
+    lead: "Oriental Yuhong, the Chinese building materials group founded in 1995. Its sports flooring range dates from 2020.",
+    points: [
+      "Oriental Yuhong reports 1,500,000 m² of sports surfacing completed by 2025",
+      "Its brochure lists ISO three-system, World Athletics, China Athletics Association and Ten Rings certification",
+      "It also makes semi-prefabricated and prefabricated tracks and a prefabricated court: ask us about them",
+    ],
+  },
+  {
     q: "Is sports flooring available in Tanzania?",
-    lead: "Yes. Sahihi holds Oriental Yuhong sports flooring in Dar es Salaam.",
+    lead: `Yes. Sahihi holds the running tracks and silicon PU courts in Dar es Salaam. Acrylic courts, EPDM and turf are ${LEAD_TIME}.`,
     points: [
       "Send the area, the sport and the base for a written quotation",
       "Prices are not published on this site",
@@ -503,26 +143,42 @@ export default function SportsFlooringPage() {
             Sports flooring in Tanzania.
           </h1>
           <p className="text-phi-1 mt-7 max-w-3xl leading-snug font-light">
-            Oriental Yuhong running tracks, sports courts and artificial turf,
-            held by {siteConfig.brandName} in Dar es Salaam.
+            Oriental Yuhong running tracks, sports courts and artificial turf
+            from {siteConfig.brandName}. Tracks and silicon PU courts are held
+            in Dar es Salaam; acrylic courts, EPDM and turf are {LEAD_TIME}.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <FlowButton href={whatsappLink("OYH sports flooring")}>
               Request a quote
             </FlowButton>
-            <FlowButton href="#manual">Download the manual pages</FlowButton>
+            <FlowButton href="#materials">Work out the materials</FlowButton>
           </div>
         </Container>
       </section>
 
       <section className="py-14 sm:py-20">
         <Container>
-          <p className="label-sh text-muted">Six systems</p>
+          <p className="label-sh text-muted">Seven systems</p>
           <h2 className="font-display text-phi-3 mt-4 tracking-tight text-balance">
             Pick a system. Pull it apart.
           </h2>
           <div className="mt-8">
             <SportsExplorer systems={SYSTEMS} />
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-accent py-14 sm:py-20">
+        <Container>
+          <p className="label-sh">Which one where</p>
+          <h2 className="font-display text-phi-3 mt-4 tracking-tight text-balance">
+            Tell us the place. See the fit.
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed">
+            Oriental Yuhong&apos;s own selection table, one place at a time.
+          </p>
+          <div className="mt-8 max-w-3xl">
+            <SportsChooser />
           </div>
         </Container>
       </section>
@@ -536,10 +192,13 @@ export default function SportsFlooringPage() {
             {SYSTEMS.map((item) => (
               <div
                 key={item.slug}
-                className="border-deep/20 grid gap-2 border-b py-4 md:grid-cols-[17rem_1fr]"
+                id={`system-${item.slug}`}
+                className="border-deep/20 grid scroll-mt-28 gap-2 border-b py-4 md:grid-cols-[17rem_1fr]"
               >
                 <dt className="font-bold">
-                  {item.name}
+                  <Link href={`${PATH}/${item.slug}`} className="underline">
+                    {item.name}
+                  </Link>
                   {item.aka && (
                     <span className="text-muted block text-sm font-normal">
                       Also called {item.aka}
@@ -558,6 +217,22 @@ export default function SportsFlooringPage() {
               </div>
             ))}
           </dl>
+        </Container>
+      </section>
+
+      <section className="py-14 sm:py-20">
+        <Container>
+          <p className="label-sh text-muted">Oriental Yuhong&apos;s films</p>
+          <h2 className="font-display text-phi-3 mt-4 tracking-tight text-balance">
+            Watch one go down, step by step.
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed">
+            A track, a court and a turf pitch, from bare base to line marking.
+            Jump to any step.
+          </p>
+          <div className="mt-8">
+            <SportsFilms videos={sportsVideos} />
+          </div>
         </Container>
       </section>
 
@@ -588,6 +263,83 @@ export default function SportsFlooringPage() {
                 </ol>
               </div>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section
+        id="materials"
+        className="bg-surface scroll-mt-28 py-14 sm:py-20"
+      >
+        <Container>
+          <p className="label-sh text-muted">Materials</p>
+          <h2 className="font-display text-phi-3 mt-4 tracking-tight text-balance">
+            What your area takes.
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed">
+            Pick the system, the build-up and the base, enter the area. Every
+            product, in kg and in packs.
+          </p>
+          <div className="mt-8">
+            <SportsCalculator boms={sportsBoms} />
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-14 sm:py-20">
+        <Container>
+          <p className="label-sh text-muted">From the construction guides</p>
+          <h2 className="font-display text-phi-3 mt-4 tracking-tight text-balance">
+            Before the first coat.
+          </h2>
+          <div className="mt-8 grid gap-10 lg:grid-cols-2">
+            <div>
+              <h3 className="font-display text-xl">The site</h3>
+              <ul className="mt-4 space-y-3 leading-relaxed">
+                {SITE.map((item) => (
+                  <li key={item} className="border-deep/15 border-l-4 pl-4">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="space-y-8">
+              {Object.entries(dryingTimes).map(([system, rows]) => (
+                <div key={system}>
+                  <h3 className="font-display text-xl">{system}: drying</h3>
+                  <table className="mt-4 w-full text-left text-sm">
+                    <thead>
+                      <tr className="border-deep border-b">
+                        <th scope="col" className="py-2 font-bold">
+                          Layer
+                        </th>
+                        <th scope="col" className="py-2 font-bold">
+                          Surface dry
+                        </th>
+                        <th scope="col" className="py-2 font-bold">
+                          Next coat
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {rows.map(([layer, dry, recoat]) => (
+                        <tr key={layer} className="border-deep/15 border-b">
+                          <th scope="row" className="py-2 font-semibold">
+                            {layer}
+                          </th>
+                          <td className="spec-sh py-2">{dry}</td>
+                          <td className="spec-sh py-2">{recoat}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ))}
+              <p className="text-muted text-sm">
+                At 23°C and 50% relative humidity. Cooler or more humid days
+                take longer.
+              </p>
+            </div>
           </div>
         </Container>
       </section>
@@ -630,29 +382,50 @@ export default function SportsFlooringPage() {
         <Container>
           <p className="label-sh text-muted">Downloads</p>
           <h2 className="font-display text-phi-3 mt-4 tracking-tight">
-            The manual, one system at a time.
+            The brochure, the guides, the manual.
           </h2>
           <Downloads
-            items={SYSTEMS.flatMap((item) =>
-              item.download
-                ? [
-                    {
-                      file: item.download.file,
-                      label: `${item.name}, Oriental Yuhong`,
-                      pages: item.download.pages,
-                      note: item.download.size,
-                    },
-                  ]
-                : [],
-            )}
+            items={[
+              ...EXTRA_DOWNLOADS,
+              ...SYSTEMS.flatMap((item) =>
+                item.download
+                  ? [
+                      {
+                        file: item.download.file,
+                        label: `${item.name}, Oriental Yuhong`,
+                        pages: item.download.pages,
+                        note: item.download.size,
+                      },
+                    ]
+                  : [],
+              ),
+            ]}
           />
           <p className="text-muted mt-5 max-w-3xl text-sm leading-relaxed">
-            Each file is that system&apos;s pages of Oriental Yuhong&apos;s
-            Sports Floor Product Manual, with the construction stages,
-            unaltered. For the EPDM walking track, ask us.
+            Oriental Yuhong&apos;s own documents, unaltered: the brochure, the
+            two court construction guides, and each system&apos;s pages of the
+            Sports Floor Product Manual. For the EPDM surface, ask us.
           </p>
         </Container>
       </section>
+
+      <RelatedLinks
+        label="One page per system"
+        heading="Open a system."
+        links={[
+          ...SYSTEMS.map((item) => ({
+            label: item.name,
+            href: `${PATH}/${item.slug}`,
+            sub: SPORTS_ONE_LINERS[item.slug],
+            picture: item.picture.src,
+          })),
+          {
+            label: "OYH products in East Africa",
+            href: "/oriental-yuhong",
+            sub: "Every Oriental Yuhong product",
+          },
+        ]}
+      />
 
       <Faq items={faq} heading="Sports flooring, in short." />
 

@@ -229,6 +229,25 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
                               </li>
                             ))}
                           </ul>
+                          <p className="label-sh text-muted mt-5">Systems</p>
+                          <ul className="mt-3 space-y-0.5">
+                            {chrome.systems.map((brand) => (
+                              <li key={brand.href}>
+                                <Link
+                                  href={brand.href}
+                                  tabIndex={productsOpen ? 0 : -1}
+                                  className="hover:bg-surface/60 block rounded-md px-2 py-1.5 transition-colors"
+                                >
+                                  <span className="block text-sm">
+                                    {brand.label}
+                                  </span>
+                                  <span className="text-muted block text-xs">
+                                    {brand.sub}
+                                  </span>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       </div>
                       <Link
@@ -427,7 +446,40 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
                 menuOpen ? "opacity-100 delay-500" : "opacity-0 delay-0",
               )}
             >
-              <p className="label-sh text-muted">
+              <p className="label-sh text-muted">{sw ? "Chapa" : "Brands"}</p>
+              <ul className="mt-4">
+                {[
+                  { label: chrome.lead.label, href: chrome.lead.href },
+                  ...chrome.brands,
+                ].map((brand) => (
+                  <li key={brand.href}>
+                    <Link
+                      href={brand.href}
+                      tabIndex={menuOpen ? 0 : -1}
+                      className="block py-2.5 text-base"
+                    >
+                      {brand.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <p className="label-sh text-muted mt-8">
+                {sw ? "Mifumo" : "Systems"}
+              </p>
+              <ul className="mt-4">
+                {chrome.systems.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      tabIndex={menuOpen ? 0 : -1}
+                      className="block py-2.5 text-base"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <p className="label-sh text-muted mt-8">
                 {sw ? "Bidhaa" : "Products"}
               </p>
               <ul className="mt-4">

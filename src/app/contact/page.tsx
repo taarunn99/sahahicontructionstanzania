@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { RelatedLinks } from "@/components/sections/related-links";
 import { ContactForm } from "@/components/sections/contact-form";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
@@ -139,6 +140,46 @@ export default function ContactPage() {
           </div>
         </Container>
       </section>
+      <RelatedLinks
+        label="Before you write"
+        heading="Find the product first."
+        className="bg-surface"
+        links={[
+          {
+            label: "All products",
+            href: "/products",
+            sub: "Sorted by the job",
+          },
+          { label: "Mapei", href: "/mapei", sub: "Authorized distributor" },
+          {
+            label: "Oriental Yuhong",
+            href: "/oriental-yuhong",
+            sub: "Waterproofing and sports flooring",
+          },
+          {
+            label: "X-Calibur",
+            href: "/x-calibur",
+            sub: "Bonding, sealants, floors",
+          },
+          { label: "BIHUI tools", href: "/bihui", sub: "Tools for the trade" },
+          {
+            label: "CMCI fireproofing",
+            href: "/cmci",
+            sub: "Fire rated cement",
+          },
+          {
+            label: "Vasa flooring",
+            href: "/vasa",
+            sub: "SPC, LVT, wall panels",
+          },
+          {
+            label: "Projects",
+            href: "/projects",
+            sub: "Where our products went",
+          },
+          { label: "About Sahihi", href: "/about", sub: "Who we are" },
+        ]}
+      />
     </main>
   );
 }

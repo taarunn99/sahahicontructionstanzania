@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { RelatedLinks } from "@/components/sections/related-links";
+import { ModelCta } from "@/components/sections/model-cta";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -263,6 +265,7 @@ export default function HdpePage() {
           <div className="mt-8">
             <LayerStack layers={LAYERS} />
           </div>
+          <ModelCta className="mt-6" topic="OYH HDPE waterproofing" />
         </Container>
       </section>
 
@@ -395,6 +398,41 @@ export default function HdpePage() {
       </section>
 
       <Faq items={faq} heading="HDPE waterproofing, in short." />
+
+      <RelatedLinks
+        links={[
+          {
+            label: "PMH-3080 Plus",
+            href: "/oriental-yuhong/pmh-3080-plus",
+            sub: "The membrane's own page",
+          },
+          {
+            label: "OYH products in East Africa",
+            href: "/oriental-yuhong",
+            sub: "The Oriental Yuhong hub",
+          },
+          {
+            label: "Mapei waterproofing",
+            href: "/mapei/waterproofing",
+            sub: "Membranes for roofs, wet rooms, tanks",
+          },
+          {
+            label: "Projects",
+            href: "/projects",
+            sub: "Including the Tanzanite Bridge",
+          },
+          {
+            label: "Waterproofing guides",
+            href: "/blog/category/waterproofing",
+            sub: "From our blog",
+          },
+          {
+            label: "Sports flooring",
+            href: "/oriental-yuhong/sports-flooring",
+            sub: "Oriental Yuhong",
+          },
+        ]}
+      />
 
       <CtaBand
         label="HDPE waterproofing in Tanzania"

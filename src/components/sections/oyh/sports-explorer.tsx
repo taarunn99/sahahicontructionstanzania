@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 import { LayerStack, type StackLayer } from "@/components/three-d/layer-stack";
@@ -79,6 +80,14 @@ export function SportsExplorer({ systems }: { systems: SportsSystem[] }) {
               </li>
             ))}
           </ul>
+          <p className="mt-5">
+            <Link
+              href={`/oriental-yuhong/sports-flooring/${system.slug}`}
+              className="font-bold underline"
+            >
+              The full {system.name.toLowerCase()} page
+            </Link>
+          </p>
           {system.download && (
             <FlowButton
               href={system.download.file}

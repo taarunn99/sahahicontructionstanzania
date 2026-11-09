@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { RelatedLinks } from "@/components/sections/related-links";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -462,6 +463,34 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
+
+      <RelatedLinks
+        label="What we supply"
+        links={[
+          {
+            label: "All products",
+            href: "/products",
+            sub: "Sorted by the job",
+          },
+          { label: "Mapei", href: "/mapei", sub: "Authorized distributor" },
+          {
+            label: "Oriental Yuhong",
+            href: "/oriental-yuhong",
+            sub: "Waterproofing and sports flooring",
+          },
+          {
+            label: "Projects",
+            href: "/projects",
+            sub: "Where our products went",
+          },
+          {
+            label: "Blog",
+            href: "/blog",
+            sub: "Guides for builders in Tanzania",
+          },
+          { label: "Contact", href: "/contact", sub: "Dar es Salaam office" },
+        ]}
+      />
 
       <CtaBand
         label="Work with us"

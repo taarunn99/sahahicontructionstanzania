@@ -267,9 +267,18 @@ distributor that also appoints applicators.
 | `/vasa/wall-panels` | wall panels Tanzania | Film and digital panels |
 | `/oriental-yuhong/hdpe-waterproofing` | HDPE waterproofing Tanzania, HDPE membrane Tanzania | 3D layers, water path, documents |
 | `/oriental-yuhong/pmh-3080-plus` | PMH-3080 Plus | Product page |
-| `/oriental-yuhong/sports-flooring` | sports flooring Tanzania, running track, sports court | Six systems in 3D, no data sheets yet |
+| `/oriental-yuhong/sports-flooring` | sports flooring Tanzania, running track, sports court, acrylic court | Seven systems in 3D, chooser, OYH films with steps, material calculator (no prices), guides and brochure |
+| `/oriental-yuhong/sports-flooring/all-plastic-track` | running track Tanzania, polyurethane running track | System page: 3D, film, stages |
+| `/oriental-yuhong/sports-flooring/breathable-track` | breathable running track, permeable track Tanzania | System page: 3D, film, stages |
+| `/oriental-yuhong/sports-flooring/hybrid-track` | hybrid running track Tanzania | System page: 3D, film, stages |
+| `/oriental-yuhong/sports-flooring/silicon-pu-court` | silicon PU court Tanzania, basketball court flooring | System page: 3D, film, calculator, drying, guide |
+| `/oriental-yuhong/sports-flooring/acrylic-court` | acrylic tennis court Tanzania, acrylic sports court | System page: 3D, calculator, drying, guide |
+| `/oriental-yuhong/sports-flooring/artificial-turf` | artificial turf Tanzania, artificial grass football pitch | System page: 3D, film, calculator |
+| `/oriental-yuhong/sports-flooring/epdm-walking-track` | EPDM flooring Tanzania, rubber flooring playground | System page: 3D, calculator, site steps |
 
 `/cmci` now also targets "CMCI authorized dealer Tanzania".
+
+`/oriental-yuhong` now leads with **"OYH East Africa"** and **"OYH products in East Africa"** (owner, 2026-11-09, #1 the goal): title, H1, description, an East Africa section, three FAQ entries, `provider.areaServed` (Tanzania, East Africa) in JSON-LD, anchor text "OYH products in East Africa" from the HDPE and sports pages, the search index, llms.txt, and the 301s `/oyh-east-africa` and `/oriental-yuhong-east-africa`. It keeps "Oriental Yuhong Tanzania" in the title. No navbar change (owner). No office or stock outside Tanzania is claimed.
 
 ### 5.2 Mapei line pillars and items
 

@@ -4,6 +4,7 @@ import { lineHref, lines, productHref, products } from "@/config/catalogue";
 import { bihuiFamilies, bihuiHref } from "@/config/bihui";
 import { cmciHref, cmciProducts } from "@/config/cmci";
 import { blogCategories, posts, postsInCategory } from "@/config/blog";
+import { SYSTEMS as SPORTS_SYSTEMS } from "@/config/oyh-sports-systems";
 import { siteConfig } from "@/config/site";
 import { enTwin, swTwin, swTwins } from "@/config/sw-routes";
 
@@ -33,9 +34,14 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   },
   {
     path: "/oriental-yuhong/sports-flooring",
-    modified: "2026-11-07",
+    modified: "2026-11-09",
     priority: 0.8,
   },
+  ...SPORTS_SYSTEMS.map((system) => ({
+    path: `/oriental-yuhong/sports-flooring/${system.slug}`,
+    modified: "2026-11-09",
+    priority: 0.8,
+  })),
   { path: "/products", modified: "2026-11-05", priority: 0.8 },
   { path: "/projects", modified: "2026-11-05", priority: 0.7 },
   { path: "/blog", modified: "2026-11-06", priority: 0.7 },

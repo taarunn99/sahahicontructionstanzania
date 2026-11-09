@@ -205,3 +205,46 @@ None generated, 0 Higgsfield credits.
   CC BY-SA 4.0, credited at the foot of `/projects`. Source:
   https://commons.wikimedia.org/wiki/File:Tanzanite_Bridge,_From_Msasani_Ward_in_Kinondoni_District_to_Kivukoni_ward_in_Ilala_District.jpg
 - All 3D models and diagrams on these pages are built in house in Three.js and SVG.
+
+## 3g. OYH product models (Higgsfield, 2026-11-09)
+
+Tripo H3.1 image to 3D, 9 credits each, 45 credits (177.75 before, 132.75 after). Source:
+each product's OYH pack picture in `public/products/oriental-yuhong/`. Raw GLBs (about 43 MB)
+in `assets/source/oyh-3d/`, published simplified to about 28,000 triangles and 1024 px
+textures (280 to 340 KB) in `public/models/oriental-yuhong/`.
+
+| Product | Job |
+|---|---|
+| yhcoat-1000 | f2f7cf61-1763-4857-8616-235847ad3059 |
+| yhcoat-2060 | 3ecdc9cd-f57e-4f07-b1d9-5f2f2a5a8df6 |
+| yhcolorwall-5300 | 55b1e495-1e48-4429-8a5f-a7f51a6e08ef |
+| yhrepair-2516 | 937c8964-c6ff-45dc-9f12-1244bfca8736 |
+| yhpuseal-2925 (REJECTED: grey patch on the side, in `assets/source/oyh-3d/rejected/`) | 30f447cb-5a81-462e-b996-c9893999dfb3 |
+
+The generated back of each pack is a mirror of its front, so the viewer runs `frontOnly`:
+the model faces the camera and turns 60 degrees either side. PMH-3080 Plus was not
+modelled: its only picture is a factory photograph, and its page has the layer model.
+
+## 3h. OYH sports films, brochure and guides (owner's "Nazrul" folder, 2026-11-09)
+
+- Films in `public/videos/oyh-sports/`: Oriental Yuhong's own construction films
+  (track, from the "Sports Flooring Products" pptx; Silicone PU court; artificial
+  turf). Re-encoded without sound (music only; the steps are captioned in the
+  picture): AV1 first, H.264 fallback, a 6 s silent loop of each and a WebP poster.
+  Not edited otherwise. Chapter times read from the burned-in captions.
+- `public/images/oriental-yuhong/sports/acrylic.webp`: the acrylic court layer
+  drawing from the OYH sports brochure, page 12, with its own transparency.
+- `public/tds/oriental-yuhong/sports/`: the brochure, the Silicone PU and the Elastic
+  Acrylic construction guides, copied unaltered. Checked: no prices in them.
+- The four system price lists (xlsx) stay in `assets/source/oyh-sports/nazrul/`
+  (gitignored). Only product, layer, pack and consumption are used
+  (`src/config/oyh-sports.ts`); every price column is dropped.
+
+## 3i. Company profile 2026 (owner, 2026-11-09)
+
+- `public/images/profile/page-01..24.webp`: the pages of the owner's "Tanzania profile.pdf",
+  rendered at 110 dpi and resized to 820 px wide. Not edited.
+- `public/tds/sahihi-company-profile-2026.pdf`: the same document through Ghostscript
+  `/ebook` (12.4 MB to 2.9 MB). Original in `assets/source/profile/` (gitignored).
+- Checked: no prices. It names the director (already public on /about) and lists CMCI's
+  page with "manufacturer since 1984": that is the owner's own document, published as is.

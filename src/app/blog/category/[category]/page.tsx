@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { RelatedLinks } from "@/components/sections/related-links";
 import { notFound } from "next/navigation";
 
 import { PostCard } from "@/components/blog/post-card";
@@ -56,6 +57,54 @@ export async function generateMetadata({
     openGraph: { title, description, url },
   };
 }
+
+const CATEGORY_LINKS: Record<
+  string,
+  { label: string; href: string; sub?: string }[]
+> = {
+  waterproofing: [
+    { label: "Mapei waterproofing", href: "/mapei/waterproofing" },
+    {
+      label: "HDPE waterproofing",
+      href: "/oriental-yuhong/hdpe-waterproofing",
+    },
+    { label: "Oriental Yuhong", href: "/oriental-yuhong" },
+    { label: "X-Calibur sealants", href: "/x-calibur" },
+  ],
+  tiling: [
+    {
+      label: "Tile adhesives and grouts",
+      href: "/mapei/tile-adhesives-grouts",
+    },
+    { label: "Primers and levelling", href: "/mapei/primers-levelling" },
+    { label: "BIHUI tiling tools", href: "/bihui" },
+  ],
+  flooring: [
+    { label: "Resin flooring", href: "/mapei/resin-flooring" },
+    { label: "Primers and levelling", href: "/mapei/primers-levelling" },
+    { label: "Vasa SPC and LVT", href: "/vasa" },
+    { label: "Sports flooring", href: "/oriental-yuhong/sports-flooring" },
+  ],
+  "concrete-repair": [
+    { label: "Mapei concrete repair", href: "/mapei/concrete-repair" },
+    { label: "X-Calibur", href: "/x-calibur" },
+    { label: "Fire rated cement", href: "/cmci/fire-rated-cement" },
+  ],
+  "tools-and-technique": [
+    { label: "BIHUI tools", href: "/bihui" },
+    {
+      label: "Tile adhesives and grouts",
+      href: "/mapei/tile-adhesives-grouts",
+    },
+    { label: "All products", href: "/products" },
+  ],
+  "building-in-tanzania": [
+    { label: "All products", href: "/products" },
+    { label: "Projects", href: "/projects" },
+    { label: "Mapei", href: "/mapei" },
+    { label: "Oriental Yuhong", href: "/oriental-yuhong" },
+  ],
+};
 
 export default async function BlogCategoryPage({ params }: { params: Params }) {
   const { category: slug } = await params;
@@ -133,6 +182,12 @@ export default async function BlogCategoryPage({ params }: { params: Params }) {
           </ul>
         </Container>
       </section>
+      <RelatedLinks
+        label="The products behind these guides"
+        heading="Where to get them."
+        className="bg-surface"
+        links={CATEGORY_LINKS[category.slug] ?? []}
+      />
     </main>
   );
 }

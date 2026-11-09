@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ProfileSection } from "@/components/sections/profile-section";
 import Image from "next/image";
 
 import { ModelViewer } from "@/components/media/model-viewer";
@@ -42,6 +43,11 @@ import {
   productIllustrations,
   productOneLiners,
 } from "@/config/product-one-liners";
+import {
+  SPORTS_ONE_LINERS,
+  SPORTS_PATH,
+  SYSTEMS as SPORTS_SYSTEMS,
+} from "@/config/oyh-sports-systems";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -273,7 +279,8 @@ export default function ProductsPage() {
         products.length +
         bihuiFamilies.length +
         cmciProducts.length +
-        vasaCollections.length,
+        vasaCollections.length +
+        SPORTS_SYSTEMS.length,
     },
     ...brands.map((brand) => ({
       value: brand.slug,
@@ -285,7 +292,9 @@ export default function ProductsPage() {
             ? cmciProducts.length
             : brand.slug === "vasa"
               ? vasaCollections.length
-              : countOf(brand.slug),
+              : brand.slug === "oriental-yuhong"
+                ? countOf(brand.slug) + SPORTS_SYSTEMS.length
+                : countOf(brand.slug),
     })),
   ];
 
@@ -389,6 +398,34 @@ export default function ProductsPage() {
           <BrandBand brand="oriental-yuhong" id="oriental-yuhong">
             <BrandTitle slug="oriental-yuhong" explore="/oriental-yuhong" />
             {yuhong && shelf(yuhong)}
+            <Band stage="bg-accent" id="sports-flooring">
+              <Reveal className="min-w-0">
+                <p className="spec-sh">{SPORTS_SYSTEMS.length} systems</p>
+                <h3 className="font-display text-phi-2 mt-3 leading-[1.05] text-balance">
+                  Sports flooring
+                </h3>
+                <p className="mt-3 max-w-md leading-relaxed">
+                  Running tracks, sports courts, artificial turf and EPDM, each
+                  in 3D with a material calculator.
+                </p>
+                <FlowButton href={SPORTS_PATH} className="mt-6">
+                  Explore sports flooring
+                </FlowButton>
+              </Reveal>
+              <ProductShelf label="Oriental Yuhong sports flooring">
+                {SPORTS_SYSTEMS.map((system) => (
+                  <ProductCardShell
+                    key={system.slug}
+                    href={`${SPORTS_PATH}/${system.slug}`}
+                    name={system.name}
+                    line={SPORTS_ONE_LINERS[system.slug] ?? system.suits}
+                    picture={system.picture}
+                    alt={system.picture.alt}
+                    cover
+                  />
+                ))}
+              </ProductShelf>
+            </Band>
           </BrandBand>
 
           <BrandBand brand="x-calibur" id="x-calibur">
@@ -539,6 +576,8 @@ export default function ProductsPage() {
           </BrandBand>
         </div>
       </CatalogueProvider>
+
+      <ProfileSection className="bg-surface" />
 
       <section className="py-8">
         <Container>

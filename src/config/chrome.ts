@@ -1,3 +1,4 @@
+import { SYSTEMS as SPORTS_SYSTEMS } from "@/config/oyh-sports-systems";
 import { brands } from "@/config/brands";
 import {
   lineHref,
@@ -27,6 +28,8 @@ export type ChromeNav = {
   footerBrands: { label: string; href: string }[];
   /** Every product line, in catalogue order (mobile menu, footer list). */
   all: ChromeLink[];
+  /** System pages that are not a product line: menus on desktop and phone, footer. */
+  systems: ChromeLink[];
 };
 
 const count = (n: number) => `${n} ${n === 1 ? "product" : "products"}`;
@@ -76,6 +79,26 @@ export const chromeNav: ChromeNav = {
     href: brandHref(brand.slug),
   })),
   all: lines.map(lineLink),
+  systems: [
+    {
+      label: "Sports flooring",
+      href: "/oriental-yuhong/sports-flooring",
+      sub: `Oriental Yuhong · ${SPORTS_SYSTEMS.length} systems`,
+    },
+    {
+      label: "HDPE waterproofing",
+      href: "/oriental-yuhong/hdpe-waterproofing",
+      sub: "Oriental Yuhong",
+    },
+    {
+      label: "Fire rated cement",
+      href: "/cmci/fire-rated-cement",
+      sub: "CMCI",
+    },
+    { label: "SPC flooring", href: "/vasa/spc-flooring", sub: "Vasa" },
+    { label: "LVT flooring", href: "/vasa/lvt-flooring", sub: "Vasa" },
+    { label: "Wall panels", href: "/vasa/wall-panels", sub: "Vasa" },
+  ],
 };
 
 /**
@@ -153,6 +176,15 @@ export const searchIndex: SearchEntry[] = [
     "Pages",
     "rubber track epdm silicon pu court artificial grass",
   ),
+  ...SPORTS_SYSTEMS.map((system) =>
+    searchEntry(
+      `${system.name}, Oriental Yuhong`,
+      "Sports flooring in Tanzania",
+      `/oriental-yuhong/sports-flooring/${system.slug}`,
+      "Pages",
+      `${system.aka ?? ""} sports flooring`,
+    ),
+  ),
   ...cmciProducts.map((product) =>
     searchEntry(
       product.name,
@@ -163,11 +195,11 @@ export const searchIndex: SearchEntry[] = [
     ),
   ),
   searchEntry(
-    "Oriental Yuhong in Tanzania",
-    "Waterproofing coatings, joint sealant, waterplug",
+    "OYH East Africa: Oriental Yuhong",
+    "HDPE, waterproofing coatings, sealant, sports flooring",
     "/oriental-yuhong",
     "Pages",
-    "oyh yuhong",
+    "oyh yuhong east africa tanzania kenya uganda",
   ),
   searchEntry(
     "BIHUI in Tanzania",
