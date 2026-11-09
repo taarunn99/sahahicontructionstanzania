@@ -1005,3 +1005,56 @@ font[style],
     transform: rotateY(var(--leaf-to));
   }
 }
+
+/* ---- Print: the product sheet (owner, 2026-11-09) -------------------------
+   A product page prints as a clean sheet in Sahihi's name: the site chrome
+   goes, the print-only letterhead and footer appear, and anything an
+   animation left hidden or moved is shown in place. */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+  html {
+    font-size: 10.5px;
+  }
+  body {
+    background: #fff !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  header,
+  footer,
+  .progress-sh,
+  .scroll-mark {
+    display: none !important;
+  }
+  .print-sheet,
+  .print-sheet * {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  * {
+    box-shadow: none !important;
+  }
+  .print-sheet,
+  .print-sheet section {
+    background: #fff !important;
+  }
+  .print-sheet section {
+    padding-block: 5mm !important;
+    break-inside: auto;
+  }
+  .print-sheet h2 {
+    font-size: 2.2rem !important;
+  }
+  .print-sheet h2,
+  .print-sheet h3 {
+    break-after: avoid;
+  }
+  .print-sheet dl > div,
+  .print-sheet li {
+    break-inside: avoid;
+  }
+}

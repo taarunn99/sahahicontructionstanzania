@@ -7,6 +7,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
 import { BoqClause } from "@/components/sections/product/boq-clause";
+import { PrintSheetButton } from "@/components/sections/product/print-sheet";
 import { CoverageCalculator } from "@/components/sections/product/coverage-calculator";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
@@ -262,9 +263,33 @@ export function ProductDetail({
     <main
       className={cn(
         `brand-${brand.slug}`,
-        "theme-light bg-background text-foreground flex-1",
+        "theme-light bg-background text-foreground print-sheet flex-1",
       )}
     >
+      {/* ---- Print only: the letterhead of the product sheet --------------- */}
+      <Container className="hidden print:block">
+        <div className="border-deep mb-4 flex items-end justify-between gap-6 border-b-2 pb-3">
+          <Image
+            src="/brand/sahihi-logo.svg"
+            alt={siteConfig.legalName}
+            width={168}
+            height={47}
+            unoptimized
+            loading="eager"
+            className="h-12 w-auto"
+          />
+          <p className="text-right text-sm leading-snug">
+            {siteConfig.legalName}
+            <br />
+            {siteConfig.address.street}, {siteConfig.address.city}
+            <br />
+            {siteConfig.contact.phone} · {siteConfig.contact.email}
+            <br />
+            {siteConfig.url.replace(/^https?:\/\//, "")}
+            {url} · Prices quoted on request
+          </p>
+        </div>
+      </Container>
       <JsonLd
         graph={[
           breadcrumbJsonLd(crumbs),
@@ -310,17 +335,19 @@ export function ProductDetail({
 
       {/* ---- The product: pack shot left, the name and what it is right --- */}
       <section className="bg-white">
-        <Container className="pt-28 pb-14 sm:pt-32 sm:pb-20">
-          <Breadcrumb items={crumbs} />
+        <Container className="pt-28 pb-14 sm:pt-32 sm:pb-20 print:!p-0">
+          <div className="print:hidden">
+            <Breadcrumb items={crumbs} />
+          </div>
           <Link
             href={back.href}
-            className="label-sh mt-8 inline-flex min-h-11 items-center gap-2.5 leading-relaxed"
+            className="label-sh mt-8 inline-flex min-h-11 items-center gap-2.5 leading-relaxed print:hidden"
           >
             <span aria-hidden>&larr;</span>
             <span className="u-line">Back to {back.label}</span>
           </Link>
 
-          <div className="mt-4 grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16">
+          <div className="mt-4 grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16 print:mt-0 print:grid-cols-[32%_1fr] print:gap-8">
             <div className="lg:sticky lg:top-28">
               <figure>
                 <div className="border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white">
@@ -353,7 +380,7 @@ export function ProductDetail({
                   )}
                 </div>
                 {image && (
-                  <figcaption className="spec-sh text-muted mt-3 leading-relaxed">
+                  <figcaption className="spec-sh text-muted mt-3 leading-relaxed print:hidden">
                     {brand.name}&apos;s own picture
                     {model &&
                       ", turned into a 3D model you can turn across its front"}
@@ -363,7 +390,7 @@ export function ProductDetail({
               </figure>
               {model && (
                 <ModelCta
-                  className="mt-5"
+                  className="mt-5 print:hidden"
                   topic={`${brand.name} ${product.name}`}
                 />
               )}
@@ -395,7 +422,13 @@ export function ProductDetail({
               )}
 
               {ticks.length > 0 && (
-                <ul className="mt-7 space-y-2.5">
+                <ul
+                  className={cn(
+                    "mt-7 space-y-2.5",
+                    // On paper the uses print once, in full, further down.
+                    advantages.length === 0 && "print:hidden",
+                  )}
+                >
                   {ticks.slice(0, TICKS).map((use, index) => (
                     <li
                       key={index}
@@ -416,7 +449,7 @@ export function ProductDetail({
                 </a>
               )}
 
-              <div className="mt-9 flex flex-wrap items-center gap-3">
+              <div className="mt-9 flex flex-wrap items-center gap-3 print:hidden">
                 <FlowButton href={whatsappLink(product.name)}>
                   Request a quote
                 </FlowButton>
@@ -453,7 +486,7 @@ export function ProductDetail({
       {/* ---- Jump chips: real anchors ------------------------------------- */}
       <nav
         aria-label="On this page"
-        className="border-deep/15 bg-background border-y"
+        className="border-deep/15 bg-background border-y print:hidden"
       >
         <Container>
           <ul className="flex flex-wrap gap-2.5 py-5">
@@ -471,10 +504,13 @@ export function ProductDetail({
         </Container>
       </nav>
 
-      {feature}
+      {feature && <div className="print:hidden">{feature}</div>}
 
       {/* ---- Related documentation: rows with a pill Download ------------- */}
-      <section id="documents" className="scroll-mt-24 py-16 sm:py-24">
+      <section
+        id="documents"
+        className="scroll-mt-24 py-16 sm:py-24 print:hidden"
+      >
         <Container>
           <h2 className="font-display text-phi-2 text-center tracking-tight">
             Related documentation
@@ -549,6 +585,24 @@ export function ProductDetail({
                 Request
               </a>
             </li>
+            <li className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6">
+              <SheetIcon />
+              <div>
+                <h3 className="leading-snug font-bold">Product sheet</h3>
+                <p className="spec-sh text-muted mt-1">
+                  This page on A4, with the BOQ clause · Print or save as PDF
+                </p>
+              </div>
+              <span className="border-deep/15 spec-sh hidden rounded-full border px-4 py-2 sm:inline-block">
+                English
+              </span>
+              <PrintSheetButton
+                className={cn(
+                  PILL,
+                  "border-deep col-span-2 justify-self-start border sm:col-span-1",
+                )}
+              />
+            </li>
           </ul>
           {document && (
             <p className="text-muted mx-auto mt-6 max-w-4xl text-sm leading-relaxed">
@@ -566,7 +620,7 @@ export function ProductDetail({
       {coverage && (
         <section
           id="calculator"
-          className="bg-accent relative scroll-mt-24 py-20 sm:py-28"
+          className="bg-accent relative scroll-mt-24 py-20 sm:py-28 print:hidden"
         >
           <Container className="relative z-10">
             <div className="grid gap-8 lg:grid-cols-[1.618fr_1fr] lg:items-end">
@@ -815,7 +869,7 @@ export function ProductDetail({
 
       {/* ---- Related products: cards with the pack ------------------------- */}
       {related.length > 0 && (
-        <section className="border-deep border-t py-20 sm:py-24">
+        <section className="border-deep border-t py-20 sm:py-24 print:hidden">
           <Container>
             <div className="flex flex-wrap items-end justify-between gap-6">
               <div>
@@ -873,7 +927,7 @@ export function ProductDetail({
       {/* ---- Previous / next in catalogue order ---------------------------- */}
       <nav
         aria-label={`More ${brand.name} products`}
-        className="border-deep border-t"
+        className="border-deep border-t print:hidden"
       >
         <Container className="grid sm:grid-cols-2">
           <Link
@@ -897,12 +951,14 @@ export function ProductDetail({
         </Container>
       </nav>
 
-      <CtaBand
-        label={`${product.name} in Tanzania`}
-        heading="Tell us the area. We will quote the job."
-        body={`${isMaker ? `Sahihi is an authorized ${brand.name} distributor in Dar es Salaam.` : `Sahihi supplies the ${brand.name} range in Dar es Salaam.`} Send the quantity of ${product.name} you need, or describe the job and we will work it out with you.`}
-        topic={product.name}
-      />
+      <div className="print:hidden">
+        <CtaBand
+          label={`${product.name} in Tanzania`}
+          heading="Tell us the area. We will quote the job."
+          body={`${isMaker ? `Sahihi is an authorized ${brand.name} distributor in Dar es Salaam.` : `Sahihi supplies the ${brand.name} range in Dar es Salaam.`} Send the quantity of ${product.name} you need, or describe the job and we will work it out with you.`}
+          topic={product.name}
+        />
+      </div>
     </main>
   );
 }

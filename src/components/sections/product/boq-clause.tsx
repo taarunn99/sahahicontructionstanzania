@@ -48,7 +48,7 @@ export function BoqClause({
           {clause}
         </p>
       </div>
-      <div className="mt-6 flex flex-wrap items-center gap-3">
+      <div className="mt-6 flex flex-wrap items-center gap-3 print:hidden">
         <button
           type="button"
           onClick={copy}

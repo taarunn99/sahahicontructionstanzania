@@ -96,7 +96,7 @@ export function ModelViewer({
           type="button"
           onClick={open}
           disabled={state === "loading"}
-          className="bg-deep text-chalk absolute bottom-4 left-1/2 inline-flex min-h-11 -translate-x-1/2 items-center gap-2.5 rounded-full px-5 text-sm font-semibold whitespace-nowrap"
+          className="bg-deep text-chalk absolute bottom-4 left-1/2 inline-flex min-h-11 -translate-x-1/2 items-center gap-2.5 rounded-full px-5 text-sm font-semibold whitespace-nowrap print:hidden"
         >
           <svg
             viewBox="0 0 20 20"

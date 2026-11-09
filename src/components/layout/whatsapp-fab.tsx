@@ -26,7 +26,7 @@ export function WhatsAppFab() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`Chat on WhatsApp - ${siteConfig.contact.phone}`}
-      className="group on-dark fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 flex items-center gap-0 sm:right-7 sm:bottom-7"
+      className="group on-dark fixed right-4 print:hidden bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 flex items-center gap-0 sm:right-7 sm:bottom-7"
     >
       <span className="bg-deep text-chalk flex size-14 items-center justify-center rounded-full shadow-2xl transition-transform duration-300 group-hover:scale-105 sm:size-16">
         <svg
