@@ -28,3 +28,6 @@ next-env.d.ts
 # generated-image 4K masters. Never committed - the price lists must not leak.
 /assets/source/
 .lighthouse/
+
+research_notes/
+reports/

@@ -6,6 +6,7 @@ import { ModelViewer } from "@/components/media/model-viewer";
 import { Reveal } from "@/components/motion/reveal";
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
+import { BoqClause } from "@/components/sections/product/boq-clause";
 import { CoverageCalculator } from "@/components/sections/product/coverage-calculator";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
@@ -17,6 +18,7 @@ import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import type { Product } from "@/config/catalogue";
 import { siteConfig, whatsappLink } from "@/config/site";
+import { boqClause, boqCsv } from "@/lib/boq";
 import type { CoverageModel } from "@/lib/coverage";
 import { cn, pad } from "@/lib/utils";
 
@@ -244,6 +246,17 @@ export function ProductDetail({
         .filter(Boolean)
         .join(" · ")
     : null;
+
+  // The clause a QS pastes into a bill: data sheet facts only, no rate.
+  const clause = boqClause({
+    maker: isMaker ? brand.name : null,
+    name: product.name,
+    type: product.type,
+    standards,
+    consumption: product.consumption,
+    edition: document?.edition,
+  });
+  if (clause) sections.push({ id: "boq-clause", label: "BOQ clause" });
 
   return (
     <main
@@ -718,6 +731,41 @@ export function ProductDetail({
               ) : (
                 "Values as the technical data sheet prints them. They are not a specification for your project: the current data sheet and the tested fire design are."
               )}
+            </p>
+          </Container>
+        </section>
+      )}
+
+      {/* ---- BOQ clause: paste-ready for a bill of quantities -------------- */}
+      {clause && (
+        <section
+          id="boq-clause"
+          className="border-deep bg-surface scroll-mt-24 border-t py-20 sm:py-28"
+        >
+          <Container>
+            <div className="grid gap-8 lg:grid-cols-[1.618fr_1fr] lg:items-end">
+              <div>
+                <p className={SECTION_LABEL}>For quantity surveyors</p>
+                <SplitHeading as="h2" className={H2}>
+                  BOQ clause.
+                </SplitHeading>
+              </div>
+              <p className="text-muted leading-relaxed">
+                Ready to paste into a bill of quantities or a specification. It
+                names {product.name} as one compliant product, &ldquo;or
+                approved equivalent&rdquo;, against the standards the data sheet
+                states. Unit, quantity and rate are yours to set.
+              </p>
+            </div>
+            <BoqClause
+              clause={clause}
+              csv={boqCsv(clause)}
+              fileBase={product.name.replace(/[\\/:*?"<>|]/g, "-")}
+            />
+            <p className="text-muted mt-6 max-w-3xl text-sm leading-relaxed">
+              Built from {isMaker ? `${brand.name}'s` : "the manufacturer's"}{" "}
+              technical data sheet. Check the clause against the current edition
+              before the bill is issued.
             </p>
           </Container>
         </section>
