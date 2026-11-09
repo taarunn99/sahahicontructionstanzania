@@ -27,6 +27,7 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "/vasa/spc-flooring", modified: "2026-11-07", priority: 0.9 },
   { path: "/vasa/lvt-flooring", modified: "2026-11-07", priority: 0.9 },
   { path: "/vasa/wall-panels", modified: "2026-11-07", priority: 0.7 },
+  { path: "/solutions/waterproofing", modified: "2026-11-09", priority: 0.9 },
   {
     path: "/oriental-yuhong/hdpe-waterproofing",
     modified: "2026-11-07",

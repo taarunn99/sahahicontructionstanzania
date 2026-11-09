@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
+import { RelatedLinks } from "@/components/sections/related-links";
 import { Faq } from "@/components/sections/faq";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
@@ -272,6 +273,16 @@ export default function XCaliburPage() {
       </section>
 
       <Faq items={faq} heading="X-Calibur, in short." />
+
+      <RelatedLinks
+        links={[
+          {
+            label: "Waterproofing selector",
+            href: "/solutions/waterproofing",
+            sub: "X-Calibur, Mapei and OYH by part of the building",
+          },
+        ]}
+      />
 
       <CtaBand
         label="X-Calibur in Tanzania"

@@ -14,7 +14,7 @@
     "check": "npm run typecheck && npm run lint && npm run test && npm run build && node scripts/audit-image-alts.mjs && node scripts/audit-copy.mjs",
     "assets:brand": "python3 scripts/extract-brand-svgs.py && node scripts/build-favicon.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
-    "test": "NODE_NO_WARNINGS=1 node scripts/test-coverage.mjs && NODE_NO_WARNINGS=1 node scripts/verify-mapei-content.mjs && node scripts/verify-brand-content.mjs",
+    "test": "NODE_NO_WARNINGS=1 node scripts/test-coverage.mjs && NODE_NO_WARNINGS=1 node scripts/verify-mapei-content.mjs && node scripts/verify-brand-content.mjs && node scripts/verify-waterproofing-selector.mjs",
     "assets:tds": "python3 scripts/fetch-mapei-tds.py",
     "assets:images": "node scripts/build-images.mjs",
     "assets:packshots": "node scripts/build-packshots.mjs"

@@ -470,6 +470,11 @@ export default function OrientalYuhongPage() {
             href: "/oriental-yuhong/hdpe-waterproofing",
             sub: "Pre-applied membrane, in 3D",
           },
+          {
+            label: "Waterproofing selector",
+            href: "/solutions/waterproofing",
+            sub: "Which product for which part of the building",
+          },
           ...SPORTS_SYSTEMS.map((system) => ({
             label: system.name,
             href: `${SPORTS_PATH}/${system.slug}`,

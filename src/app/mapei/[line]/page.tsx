@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 
 import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
+import { RelatedLinks } from "@/components/sections/related-links";
 import { Faq } from "@/components/sections/faq";
 import { LineSignature } from "@/components/sections/signature/line-signature";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -288,6 +289,18 @@ export default async function MapeiLinePage({ params }: { params: Params }) {
           </ul>
         </Container>
       </section>
+
+      {line.slug === "waterproofing" && (
+        <RelatedLinks
+          links={[
+            {
+              label: "Waterproofing selector",
+              href: "/solutions/waterproofing",
+              sub: "Mapei, OYH and X-Calibur by part of the building",
+            },
+          ]}
+        />
+      )}
 
       <CtaBand
         label={`Mapei ${line.label.toLowerCase()} in Tanzania`}

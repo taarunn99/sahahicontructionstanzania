@@ -81,6 +81,11 @@ export const chromeNav: ChromeNav = {
   all: lines.map(lineLink),
   systems: [
     {
+      label: "Waterproofing selector",
+      href: "/solutions/waterproofing",
+      sub: "By part of the building",
+    },
+    {
       label: "Sports flooring",
       href: "/oriental-yuhong/sports-flooring",
       sub: `Oriental Yuhong · ${SPORTS_SYSTEMS.length} systems`,
@@ -161,6 +166,13 @@ export const searchIndex: SearchEntry[] = [
     "/vasa/wall-panels",
     "Pages",
     "spc wpc wall panel",
+  ),
+  searchEntry(
+    "Waterproofing in Tanzania",
+    "Which product for roofs, wet rooms, basements, tanks, pools",
+    "/solutions/waterproofing",
+    "Pages",
+    "waterproof roof bathroom basement water tank swimming pool leak kuzuia maji",
   ),
   searchEntry(
     "HDPE waterproofing in Tanzania",
