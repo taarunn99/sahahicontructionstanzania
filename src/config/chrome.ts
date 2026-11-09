@@ -44,6 +44,7 @@ const HUBS = new Set([
   "oriental-yuhong",
   "bihui",
   "cmci",
+  "vasa",
 ]);
 const brandHref = (slug: string) =>
   HUBS.has(slug) ? `/${slug}` : `/products#${slug}`;
@@ -62,11 +63,13 @@ export const chromeNav: ChromeNav = {
     sub:
       brand.slug === "bihui"
         ? `${bihuiFamilies.length} tools`
-        : brand.slug === "cmci"
-          ? count(cmciProducts.length)
-          : brand.catalogued
-            ? count(products.filter((p) => p.brand === brand.slug).length)
-            : "Range on request",
+        : brand.slug === "vasa"
+          ? "SPC, LVT, wall panels"
+          : brand.slug === "cmci"
+            ? count(cmciProducts.length)
+            : brand.catalogued
+              ? count(products.filter((p) => p.brand === brand.slug).length)
+              : "Range on request",
   })),
   footerBrands: brands.map((brand) => ({
     label: brand.name,
@@ -99,7 +102,56 @@ export const searchIndex: SearchEntry[] = [
     "Cementitious fireproofing: petrochemical, commercial, tunnels",
     "/cmci",
     "Pages",
-    "fireproofing fire protection",
+    "fireproofing fire protection authorized dealer",
+  ),
+  searchEntry(
+    "Fire rated cement in Tanzania",
+    "Cementitious fireproofing for structural steel",
+    "/cmci/fire-rated-cement",
+    "Pages",
+    "fire resistant cement fireproof cement fire proofing",
+  ),
+  searchEntry(
+    "Vasa authorized dealer in Tanzania",
+    "SPC flooring, LVT flooring and wall panels",
+    "/vasa",
+    "Pages",
+    "vasa floor vinyl",
+  ),
+  searchEntry(
+    "SPC flooring in Tanzania",
+    "Vasa rigid core click flooring, 5 mm and 8 mm",
+    "/vasa/spc-flooring",
+    "Pages",
+    "stone plastic composite vinyl click floor",
+  ),
+  searchEntry(
+    "LVT flooring in Tanzania",
+    "Vasa luxury vinyl tile, wood, stone and carpet looks",
+    "/vasa/lvt-flooring",
+    "Pages",
+    "luxury vinyl tile plank",
+  ),
+  searchEntry(
+    "Vasa wall panels in Tanzania",
+    "Colored film and digital wall panels",
+    "/vasa/wall-panels",
+    "Pages",
+    "spc wpc wall panel",
+  ),
+  searchEntry(
+    "HDPE waterproofing in Tanzania",
+    "OYH pre-applied membrane for basements and tunnels",
+    "/oriental-yuhong/hdpe-waterproofing",
+    "Pages",
+    "pmh 3080 pre-applied membrane basement",
+  ),
+  searchEntry(
+    "Sports flooring in Tanzania",
+    "OYH running tracks, sports courts and synthetic turf",
+    "/oriental-yuhong/sports-flooring",
+    "Pages",
+    "rubber track epdm silicon pu court artificial grass",
   ),
   ...cmciProducts.map((product) =>
     searchEntry(

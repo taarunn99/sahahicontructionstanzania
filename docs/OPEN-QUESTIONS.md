@@ -286,3 +286,22 @@ Published as described unless the owner says otherwise:
 | D7 | Logo yellow as a small "authorized" seal colour | no |
 | D8 | "Mapei Tanzania" is owned by a `/mapei` hub (recommended) or by the home page | **`/mapei` hub - confirmed by the owner 2026-11-05** |
 | D9 | Route map and phase order in SEO-STRATEGY.md section 4 | as written |
+
+### Q21. HDPE, sports, Vasa and Tanzanite Bridge (raised 2026-11-07)
+
+- **HDPE documents:** the method statement (June 2025) is written for PMH-3080, the
+  data sheet (April 2026) for PMH-3080 Plus. Pour within 42 days (method) against 21
+  days (data sheet). The older brochure prints other values (27.6 MPa, 990 N, 880 N/m,
+  70 m, 1400 N/m). Published: the data sheet, with the 21 and 42 day note on the page.
+  Ask: does the method statement stand for Plus? ANSWERED 2026-11-09: PMH-3080 Plus is held in Dar es Salaam.
+- **Sports flooring:** only the presentation exists. No data sheets, no test values, no
+  stock list. ANSWERED 2026-11-09: held in Dar es Salaam; the owner sent the Sports Floor
+  Product Manual (EN). It prints layers with PSV codes, no test values. Each system's pages are a
+  download. The EPDM walking track is only in the deck, so it has no download.
+- **Vasa:** held in Dar es Salaam (owner, 2026-11-09); which decors is unknown, so the pages say "enquire" and never "in stock".
+  The dealer wording rests on the owner's word; there is no letter (same for CMCI, Q2).
+  The data pages carry hidden text (a PET sheet, Cfl-s1, "KINGDOMFLOOR 99/100") that is
+  not visible on the page: only visible values are used. Ask Vasa for clean data sheets.
+- **Tanzanite Bridge:** the owner says OYH supplied it, products not named. The card says
+  "Oriental Yuhong range". ANSWERED 2026-11-09: OYH bitumen membrane, for the waterproofing.
+  Open: should an OYH bitumen membrane get a product page? Its data sheet is needed.

@@ -21,6 +21,21 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "/mapei", modified: "2026-11-05", priority: 0.9 },
   { path: "/bihui", modified: "2026-11-06", priority: 0.8 },
   { path: "/cmci", modified: "2026-11-07", priority: 0.8 },
+  { path: "/cmci/fire-rated-cement", modified: "2026-11-07", priority: 0.9 },
+  { path: "/vasa", modified: "2026-11-07", priority: 0.9 },
+  { path: "/vasa/spc-flooring", modified: "2026-11-07", priority: 0.9 },
+  { path: "/vasa/lvt-flooring", modified: "2026-11-07", priority: 0.9 },
+  { path: "/vasa/wall-panels", modified: "2026-11-07", priority: 0.7 },
+  {
+    path: "/oriental-yuhong/hdpe-waterproofing",
+    modified: "2026-11-07",
+    priority: 0.9,
+  },
+  {
+    path: "/oriental-yuhong/sports-flooring",
+    modified: "2026-11-07",
+    priority: 0.8,
+  },
   { path: "/products", modified: "2026-11-05", priority: 0.8 },
   { path: "/projects", modified: "2026-11-05", priority: 0.7 },
   { path: "/blog", modified: "2026-11-06", priority: 0.7 },
@@ -77,26 +92,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "/sw" ? 0.8 : 0.6,
   }));
 
-  return [...CORE, ...pillars, ...items, ...tools, ...fireproofing, ...blog, ...swahili].map(
-    (route) => {
-      const path = route.path === "" ? "/" : route.path;
-      const english = enTwin(path) ?? (swTwin(path) ? path : undefined);
-      return {
-        url: `${siteConfig.url}${route.path}`,
-        lastModified: new Date(route.modified),
-        changeFrequency: route.path === "" ? "weekly" : "monthly",
-        priority: route.priority,
-        ...(english
-          ? {
-              alternates: {
-                languages: {
-                  en: `${siteConfig.url}${english === "/" ? "" : english}`,
-                  sw: `${siteConfig.url}${swTwin(english)}`,
-                },
+  return [
+    ...CORE,
+    ...pillars,
+    ...items,
+    ...tools,
+    ...fireproofing,
+    ...blog,
+    ...swahili,
+  ].map((route) => {
+    const path = route.path === "" ? "/" : route.path;
+    const english = enTwin(path) ?? (swTwin(path) ? path : undefined);
+    return {
+      url: `${siteConfig.url}${route.path}`,
+      lastModified: new Date(route.modified),
+      changeFrequency: route.path === "" ? "weekly" : "monthly",
+      priority: route.priority,
+      ...(english
+        ? {
+            alternates: {
+              languages: {
+                en: `${siteConfig.url}${english === "/" ? "" : english}`,
+                sw: `${siteConfig.url}${swTwin(english)}`,
               },
-            }
-          : {}),
-      };
-    },
-  );
+            },
+          }
+        : {}),
+    };
+  });
 }

@@ -9,6 +9,7 @@ import { Faq } from "@/components/sections/faq";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
+import { FlowButton } from "@/components/ui/flow-button";
 import { brandBySlug } from "@/config/brands";
 import { productHref } from "@/config/catalogue";
 import {
@@ -31,9 +32,9 @@ import { pad } from "@/lib/utils";
  * The application photographs are OYH's, from those data sheets.
  */
 
-const TITLE = "Oriental Yuhong Tanzania - OYH Waterproofing Coatings";
+const TITLE = "Oriental Yuhong Tanzania - OYH HDPE and Waterproofing";
 const DESCRIPTION =
-  "Sahihi supplies Oriental Yuhong (OYH) in Tanzania: waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug, with data sheets.";
+  "Sahihi supplies Oriental Yuhong (OYH) in Tanzania: HDPE membrane, waterproofing coatings, a joint sealant, a waterplug and sports flooring, with data sheets.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -71,7 +72,7 @@ const JOBS = [
 const faq: FaqItem[] = [
   {
     q: "Which Oriental Yuhong products does Sahihi stock in Tanzania?",
-    lead: `${oyhProducts.length} products, held in Dar es Salaam.`,
+    lead: `${oyhProducts.length} products, supplied from Dar es Salaam.`,
     points: oyhProducts.map(
       (item) => `${item.name}: ${item.type.toLowerCase()}`,
     ),
@@ -159,9 +160,9 @@ export default function OrientalYuhongPage() {
           <div className="mt-10 grid gap-10 lg:grid-cols-[1.618fr_1fr] lg:items-end">
             <p className="text-phi-1 max-w-3xl leading-snug font-light">
               {siteConfig.brandName} supplies Oriental Yuhong (OYH) in Tanzania:
-              waterproofing coatings for wet rooms, for roofs and walls and for
-              floors and foundations, a polyurethane joint sealant and a
-              rapid-setting waterplug, held in Dar es Salaam.
+              HDPE waterproofing membrane, coatings for wet rooms, roofs, walls
+              and floors, a polyurethane joint sealant, a rapid-setting
+              waterplug and sports flooring, from Dar es Salaam.
             </p>
             <dl className="border-deep grid grid-cols-3 border-t">
               {[
@@ -183,6 +184,54 @@ export default function OrientalYuhongPage() {
               ))}
             </dl>
           </div>
+        </Container>
+      </section>
+
+      {/* ---- The two systems with a page of their own -------------------- */}
+      <section className="bg-surface py-14 sm:py-20">
+        <Container>
+          <p className="label-sh">Two systems</p>
+          <ul className="mt-6 grid gap-5 md:grid-cols-2">
+            {[
+              {
+                href: "/oriental-yuhong/hdpe-waterproofing",
+                title: "HDPE waterproofing",
+                line: "A pre-applied membrane for slabs, tunnels and subways, in 3D.",
+                src: "/images/oriental-yuhong/hdpe/slab.webp",
+                alt: "A slab covered in white HDPE membrane, with piles coming through",
+              },
+              {
+                href: "/oriental-yuhong/sports-flooring",
+                title: "Sports flooring",
+                line: "Running tracks, courts and synthetic turf, in 3D.",
+                src: "/images/oriental-yuhong/sports/full-pu.webp",
+                alt: "A school running track seen from the air",
+              },
+            ].map((item) => (
+              <li key={item.href}>
+                <article className="group text-deep overflow-hidden rounded-2xl bg-white">
+                  <span className="relative block aspect-[2/1] overflow-hidden">
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      fill
+                      sizes="(min-width: 48rem) 48vw, 100vw"
+                      className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                  </span>
+                  <div className="p-5 sm:p-6">
+                    <h2 className="font-display text-phi-2 leading-tight">
+                      {item.title}
+                    </h2>
+                    <p className="mt-2 mb-5 leading-relaxed">{item.line}</p>
+                    <FlowButton href={item.href} size="sm">
+                      Explore<span className="sr-only"> {item.title}</span>
+                    </FlowButton>
+                  </div>
+                </article>
+              </li>
+            ))}
+          </ul>
         </Container>
       </section>
 

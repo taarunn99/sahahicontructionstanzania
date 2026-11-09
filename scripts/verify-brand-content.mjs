@@ -20,7 +20,7 @@ const pdfText = (file) =>
 
 let checked = 0;
 const failures = [];
-for (const brand of ["x-calibur", "oriental-yuhong", "cmci"]) {
+for (const brand of ["x-calibur", "oriental-yuhong", "cmci", "vasa"]) {
   const config = readFileSync(`src/config/${brand}.ts`, "utf8");
   for (const name of readdirSync(`src/content/${brand}`)) {
     const slug = name.replace(".json", "");

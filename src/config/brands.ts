@@ -6,13 +6,15 @@
  * leading international construction chemical brands" and names Mapei,
  * Oriental Yuhong and Xcalibur. CMCI and BIHUI appear only as logos on the
  * director's business card, so their `authorization` stays neutral until the
- * owner supplies the appointment letters (docs/OPEN-QUESTIONS.md Q2).
+ * owner supplies the appointment letters (docs/OPEN-QUESTIONS.md Q2). CMCI and
+ * Vasa say "Authorized dealer" on the owner's word of 2026-11-07, with no letter
+ * on file yet (same question).
  *
  * Logos are the vector art from the business card, in ORIGINAL colours
  * (trademark respect - the one sanctioned palette exception).
  */
 export type BrandSlug =
-  "mapei" | "oriental-yuhong" | "x-calibur" | "cmci" | "bihui";
+  "mapei" | "oriental-yuhong" | "vasa" | "x-calibur" | "cmci" | "bihui";
 
 export type Brand = {
   slug: BrandSlug;
@@ -57,6 +59,17 @@ export const brands: Brand[] = [
     logo: { src: "/brands/oyh.svg", width: 288, height: 67, display: 30 },
   },
   {
+    slug: "vasa",
+    name: "Vasa",
+    origin: "Singapore",
+    blurb:
+      "SPC and LVT flooring and wall panels, from the Oriental Yuhong group.",
+    authorization: "Authorized dealer",
+    authorizationSource: "The owner's instruction, 2026-11-07",
+    catalogued: true,
+    logo: { src: "/brands/vasa.png", width: 405, height: 145, display: 30 },
+  },
+  {
     slug: "x-calibur",
     name: "X-Calibur",
     origin: "UAE",
@@ -72,9 +85,8 @@ export const brands: Brand[] = [
     name: "CMCI",
     origin: "Saudi Arabia",
     blurb: "Cementitious fireproofing for plant, buildings and tunnels.",
-    authorization: "Brand partner",
-    authorizationSource:
-      "Director's business card; range finalised by the owner, 2026-11-07",
+    authorization: "Authorized dealer",
+    authorizationSource: "The owner's instruction, 2026-11-07",
     catalogued: true,
     logo: { src: "/brands/cmci.svg", width: 229, height: 84, display: 38 },
   },

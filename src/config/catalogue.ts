@@ -882,6 +882,20 @@ products.push(
     packs: ["26 kg set (Part A 6 kg + Part B 20 kg)"],
     ref: "O1",
   },
+  // Added 2026-11-07 from OYH's data sheet of April 2026. Not on the price list.
+  {
+    slug: "pmh-3080-plus",
+    brand: "oriental-yuhong",
+    line: "oriental-yuhong",
+    name: "PMH-3080 Plus",
+    sourceName: "PMH-3080 Plus",
+    type: "HDPE pre-applied waterproofing membrane",
+    summary:
+      "Pre-applied high density polyethylene (HDPE) waterproofing membrane for foundation slabs, tunnels and subways.",
+    consumption: "Rolls of 24 or 48 m², or customized",
+    packs: ["Roll, 1.2 m or 2.4 m wide, 20 m long"],
+    ref: "O6",
+  },
   {
     slug: "yhcolorwall-5300",
     brand: "oriental-yuhong",

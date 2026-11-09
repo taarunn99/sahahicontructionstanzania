@@ -87,6 +87,8 @@ export type ProductDetailProps = {
   next: { name: string; href: string };
   /** Other names the product is asked for by. */
   alsoKnownAs?: string;
+  /** An interactive section for this product, after the jump chips. */
+  feature?: React.ReactNode;
 };
 
 const SECTION_LABEL = "label-sh text-muted";
@@ -180,6 +182,7 @@ export function ProductDetail({
   previous,
   next,
   alsoKnownAs,
+  feature,
 }: ProductDetailProps) {
   const standards = (content?.standards ?? []).filter(
     (entry, index, all) =>
@@ -431,6 +434,8 @@ export function ProductDetail({
           </ul>
         </Container>
       </nav>
+
+      {feature}
 
       {/* ---- Related documentation: rows with a pill Download ------------- */}
       <section id="documents" className="scroll-mt-24 py-16 sm:py-24">

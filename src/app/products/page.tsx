@@ -10,6 +10,7 @@ import {
   CatalogueProvider,
 } from "@/components/sections/catalogue/catalogue-filter";
 import { ProductShelf } from "@/components/sections/catalogue/product-shelf";
+import { HeatBand } from "@/components/sections/cmci/heat";
 import { CtaBand } from "@/components/sections/cta-band";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
@@ -26,6 +27,7 @@ import {
 } from "@/config/bihui";
 import { brandBySlug, brands, type BrandSlug } from "@/config/brands";
 import { cmciHref, cmciInLine, cmciLines, cmciProducts } from "@/config/cmci";
+import { decorsIn, vasaCollections } from "@/config/vasa";
 import {
   lineHref,
   lines,
@@ -267,7 +269,11 @@ export default function ProductsPage() {
     {
       value: "all",
       label: "All",
-      count: products.length + bihuiFamilies.length + cmciProducts.length,
+      count:
+        products.length +
+        bihuiFamilies.length +
+        cmciProducts.length +
+        vasaCollections.length,
     },
     ...brands.map((brand) => ({
       value: brand.slug,
@@ -277,7 +283,9 @@ export default function ProductsPage() {
           ? bihuiFamilies.length
           : brand.slug === "cmci"
             ? cmciProducts.length
-            : countOf(brand.slug),
+            : brand.slug === "vasa"
+              ? vasaCollections.length
+              : countOf(brand.slug),
     })),
   ];
 
@@ -424,8 +432,80 @@ export default function ProductsPage() {
             </Band>
           </BrandBand>
 
+          <BrandBand brand="vasa" id="vasa">
+            <BrandTitle slug="vasa" explore="/vasa" />
+            {[
+              {
+                title: "SPC flooring",
+                line: "Rigid core click flooring, in 5 mm and 8 mm.",
+                href: "/vasa/spc-flooring",
+                stage: "bg-surface",
+                items: vasaCollections.slice(0, 2),
+              },
+              {
+                title: "LVT flooring",
+                line: "2 mm luxury vinyl tile: carpet, stone and wood looks.",
+                href: "/vasa/lvt-flooring",
+                stage: "bg-accent",
+                items: vasaCollections.slice(2, 3),
+              },
+              {
+                title: "Wall panels",
+                line: "Colored film and digital panels, 1200 x 2800 mm.",
+                href: "/vasa/wall-panels",
+                stage: "bg-line",
+                items: vasaCollections.slice(3),
+              },
+            ].map((band, index) => (
+              <Band key={band.href} stage={band.stage}>
+                <Reveal className="min-w-0">
+                  <p className="spec-sh">
+                    {String(index + 1).padStart(2, "0")} ·{" "}
+                    {band.items.reduce(
+                      (sum, item) => sum + decorsIn(item.slug).length,
+                      0,
+                    )}{" "}
+                    decors
+                  </p>
+                  <h3 className="font-display text-phi-2 mt-3 leading-[1.05] text-balance">
+                    {band.title}
+                  </h3>
+                  <p className="mt-3 max-w-md leading-relaxed">{band.line}</p>
+                  <FlowButton href={band.href} className="mt-6">
+                    Explore
+                  </FlowButton>
+                </Reveal>
+                <ProductShelf label={`Vasa ${band.title}`}>
+                  {band.items.map((item) => (
+                    <ProductCardShell
+                      key={item.slug}
+                      href={item.href}
+                      name={item.name}
+                      line={item.line}
+                      picture={item.picture}
+                      alt={item.alt}
+                      cover
+                    />
+                  ))}
+                </ProductShelf>
+              </Band>
+            ))}
+          </BrandBand>
+
           <BrandBand brand="cmci" id="cmci">
             <BrandTitle slug="cmci" explore="/cmci" />
+            <HeatBand
+              label="Fire rated cement"
+              heading="Fireproofing that takes the heat."
+            >
+              <p className="max-w-md leading-relaxed">
+                Turn up the fire on bare steel and coated steel. The data sheets
+                print up to 4 hours of fire resistance.
+              </p>
+              <FlowButton href="/cmci/fire-rated-cement" className="mt-6">
+                Fire rated cement in Tanzania
+              </FlowButton>
+            </HeatBand>
             {cmciLines.map((line, index) => (
               <Band key={line.slug} stage={line.stage}>
                 <Reveal className="min-w-0">

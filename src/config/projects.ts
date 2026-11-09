@@ -16,6 +16,9 @@ import {
  * - Product names are matched to the catalogue. A name that is not in the
  *   catalogue (Adesilex P9) is shown as plain text, without a link.
  * - The APPLICATOR column is not published: those are third parties.
+ * - Tanzanite Bridge is not on the sheet: the owner named it on 2026-11-07, and on
+ *   2026-11-09 said OYH bitumen membrane went into its waterproofing. That membrane
+ *   is not in the catalogue, so it shows as plain text.
  * - Row 5 ("Said Salim") is HELD: it may be a private individual. Add it
  *   back below once the owner confirms it is a company or has consent.
  *
@@ -79,6 +82,22 @@ type Entry = {
 };
 
 const ENTRIES: Entry[] = [
+  // Not on the sheet: named by the owner on 2026-11-07, supplied with OYH. The
+  // owner has not said which OYH products, so none is named. Commons photo,
+  // CC BY-SA 4.0, credit required.
+  {
+    name: "Tanzanite Bridge",
+    picture: picture(
+      "tanzanite-bridge",
+      "Driving across the Tanzanite Bridge in Dar es Salaam, between its concrete pylons and stay cables",
+      "site",
+      {
+        text: "Photo: Mangapwani, CC BY-SA 4.0",
+        href: "https://commons.wikimedia.org/wiki/File:Tanzanite_Bridge,_From_Msasani_Ward_in_Kinondoni_District_to_Kivukoni_ward_in_Ilala_District.jpg",
+      },
+    ),
+    products: [{ name: "Oriental Yuhong bitumen waterproofing membrane" }],
+  },
   {
     name: "Lake Cement",
     picture: picture(

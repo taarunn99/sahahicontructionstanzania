@@ -68,6 +68,7 @@ export const oyhInUse: Record<string, { src: string; alt: string }> = {
 
 /** Names the product is asked for by, where the list and the maker differ. */
 export const oyhAlsoKnownAs: Record<string, string> = {
+  "pmh-3080-plus": "HDPE membrane, pre-applied membrane, PMH 3080, PMH3080",
   "yhcoat-1000": "YH Coat 1000",
   "yhcoat-2060": "YH Coat 2060",
   "yhcolorwall-5300": "YH ColorWall 5300, Color Wall 5300",

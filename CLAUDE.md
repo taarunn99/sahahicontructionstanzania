@@ -145,6 +145,17 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
     CMCI is never worded as the maker (GOVERNANCE). Each page offers the
     manufacturer's data sheet as an unaltered PDF from `public/tds/cmci/` (owner,
     2026-11-07). The sheets print the manufacturer's name; page copy does not.
+- Sixth round, 2026-11-07 (not yet reviewed by the owner):
+  - **Fire rated cement:** `/cmci/fire-rated-cement`, heat stage, Three.js beam
+    (`src/components/three-d/fire-beam*`); `HeatBand` on `/cmci`, CMCI product pages and
+    `/products` (`src/components/sections/cmci/heat.tsx`).
+  - **Vasa:** `/vasa`, `/vasa/spc-flooring`, `/vasa/lvt-flooring`, `/vasa/wall-panels`
+    (`src/config/vasa.ts`, 71 decors), on `/products` too.
+  - **OYH:** `/oriental-yuhong/hdpe-waterproofing`, product `pmh-3080-plus`,
+    `/oriental-yuhong/sports-flooring`. Shared 3D: `src/components/three-d/layer-stack*`.
+    `useLazyScene` starts these on scroll, on phones too.
+  - **Tanzanite Bridge** is the first project. Open items: `docs/OPEN-QUESTIONS.md` Q21.
+  - Higgsfield floor: keep 100 credits, 80 at the very least.
 - Owner decisions on 2026-11-05: the `/mapei` hub owns
   "Mapei Tanzania"; Sahihi is independent (no group mention); Mlinzi is
   parked and treated as a third-party incumbent. The launch domain is

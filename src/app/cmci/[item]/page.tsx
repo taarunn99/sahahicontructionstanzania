@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { HeatBand } from "@/components/sections/cmci/heat";
 import { ProductDetail } from "@/components/sections/product/product-detail";
+import { FlowButton } from "@/components/ui/flow-button";
 import {
   cmciHref,
   cmciItemTitle,
@@ -71,6 +73,20 @@ export default async function CmciItemPage({ params }: { params: Params }) {
       content={cmciContent(product.slug)}
       document={cmciTds[product.slug] ?? null}
       alsoKnownAs={product.alsoKnownAs}
+      feature={
+        <HeatBand
+          label="What it is for"
+          heading="Fire protection for structural steel."
+        >
+          <p className="max-w-md leading-relaxed">
+            Compare bare steel with coated steel: turn up the fire and watch the
+            difference. {product.name}&apos;s own limits are on its data sheet.
+          </p>
+          <FlowButton href="/cmci/fire-rated-cement" className="mt-6">
+            Fire rated cement, explained
+          </FlowButton>
+        </HeatBand>
+      }
       related={cmciProducts
         .filter(
           (other) =>

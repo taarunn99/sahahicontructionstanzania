@@ -167,6 +167,12 @@
   --line: #0a4f27;
   --surface: #dcf2e3;
 }
+.brand-vasa {
+  --brand: #c8161d;
+  --accent: #b5161c;
+  --line: #4f4a45;
+  --surface: #efe6d6;
+}
 .brand-bihui {
   --brand: #007785;
   --accent: #007785;
@@ -745,4 +751,162 @@ font[style],
 .VIpgJd-yAWNEb-VIpgJd-fmcmfc {
   background: transparent !important;
   box-shadow: none !important;
+}
+
+/*
+ * HEAT (owner, 2026-11-07): the fire rated cement stage. CSS only, transform and
+ * opacity, so it runs on the first paint and never moves the layout.
+ */
+.heat-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: #14100d;
+  color: #fff;
+  --foreground: #fff;
+  --muted: #e9ded3;
+}
+.heat-stage::before {
+  content: "";
+  position: absolute;
+  inset: 25% -10% -35%;
+  z-index: -1;
+  background: radial-gradient(
+    60% 70% at 50% 100%,
+    #ff8a1f 0%,
+    #d9360a 32%,
+    #5b1405 62%,
+    transparent 78%
+  );
+  transform-origin: 50% 100%;
+  animation: heat-breathe 3.4s ease-in-out infinite alternate;
+}
+.ember-field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.ember {
+  position: absolute;
+  bottom: -8px;
+  border-radius: 9999px;
+  background: #ffc168;
+  box-shadow: 0 0 8px 2px #ff6a1a;
+  opacity: 0;
+  animation-name: ember-rise;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.heat-text {
+  background: linear-gradient(95deg, #ffd27a, #ff8a1f 45%, #ff4d12 70%, #ffd27a);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: heat-flow 5s linear infinite;
+}
+.heat-range {
+  accent-color: #ff6a1a;
+}
+@keyframes heat-breathe {
+  from {
+    opacity: 0.72;
+    transform: scaleY(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1.05);
+  }
+}
+@keyframes ember-rise {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  12% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(22px, -420px, 0);
+  }
+}
+@keyframes heat-flow {
+  to {
+    background-position: -220% 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .heat-stage::before,
+  .ember,
+  .heat-text {
+    animation: none;
+  }
+  .ember {
+    opacity: 0.7;
+  }
+}
+
+/* Follow the water (HDPE page). Transform and opacity only. */
+.water-drop-up {
+  animation: water-up 2.6s ease-in-out infinite;
+}
+.water-drop-run {
+  animation: water-run 2.6s ease-in-out infinite;
+}
+.water-leak {
+  animation: water-leak 2.6s ease-in-out infinite;
+}
+@keyframes water-up {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  30% {
+    opacity: 1;
+  }
+  70%,
+  100% {
+    opacity: 0;
+    transform: translateY(-34px);
+  }
+}
+@keyframes water-run {
+  0%,
+  30% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  45% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+    transform: translateX(210px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(210px);
+  }
+}
+@keyframes water-leak {
+  0%,
+  70% {
+    opacity: 0;
+  }
+  85%,
+  100% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .water-drop-up,
+  .water-drop-run,
+  .water-leak {
+    animation: none;
+  }
 }

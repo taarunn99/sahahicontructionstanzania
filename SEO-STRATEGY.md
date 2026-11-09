@@ -256,6 +256,21 @@ distributor that also appoints applicators.
 | CMCI Tanzania (BUILT 2026-11-07, with eight item pages at `/cmci/<item>`) | `/cmci` | E | CMCI fireproofing Tanzania, cementitious fireproofing Tanzania, Monokote Tanzania, Avikote Tanzania |
 | BIHUI Tanzania | `/bihui` | E | BIHUI tile tools Tanzania (BIHUI is a tiling tools brand, not adhesives) |
 
+### 5.1a Added 2026-11-07
+
+| Route | Owns | Notes |
+| --- | --- | --- |
+| `/cmci/fire-rated-cement` | fire rated cement Tanzania, fire rated cement | Steel fireproofing, says it is not refractory cement |
+| `/vasa` | vasa authorized dealer Tanzania, vasa flooring Tanzania | Brand hub |
+| `/vasa/spc-flooring` | SPC flooring Tanzania | 3D layers, decor picker |
+| `/vasa/lvt-flooring` | LVT flooring Tanzania | 3D layers, decor picker |
+| `/vasa/wall-panels` | wall panels Tanzania | Film and digital panels |
+| `/oriental-yuhong/hdpe-waterproofing` | HDPE waterproofing Tanzania, HDPE membrane Tanzania | 3D layers, water path, documents |
+| `/oriental-yuhong/pmh-3080-plus` | PMH-3080 Plus | Product page |
+| `/oriental-yuhong/sports-flooring` | sports flooring Tanzania, running track, sports court | Six systems in 3D, no data sheets yet |
+
+`/cmci` now also targets "CMCI authorized dealer Tanzania".
+
 ### 5.2 Mapei line pillars and items
 
 | Primary query | Owning page | Grade |

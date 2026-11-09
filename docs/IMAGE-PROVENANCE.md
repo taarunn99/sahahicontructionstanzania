@@ -193,3 +193,15 @@ tunnel picture was not used because it is captioned as another project.
 Higgsfield refused every job that day (plan in a grace period). Nothing
 was generated and nothing was spent. The queue ran on 2026-11-06: see
 section 3.
+
+## 3f. Vasa, HDPE, sports flooring and Tanzanite Bridge, 2026-11-07
+
+None generated, 0 Higgsfield credits.
+
+- `public/images/vasa/`: decors and room pictures taken from the Vasa PDF supplied by the owner.
+- `public/images/oriental-yuhong/hdpe/`: from Oriental Yuhong's HDPE brochure.
+- `public/images/oriental-yuhong/sports/`: from Oriental Yuhong's sports flooring presentation.
+- `public/images/projects/tanzanite-bridge.webp`: Wikimedia Commons, photo by Mangapwani,
+  CC BY-SA 4.0, credited at the foot of `/projects`. Source:
+  https://commons.wikimedia.org/wiki/File:Tanzanite_Bridge,_From_Msasani_Ward_in_Kinondoni_District_to_Kivukoni_ward_in_Ilala_District.jpg
+- All 3D models and diagrams on these pages are built in house in Three.js and SVG.

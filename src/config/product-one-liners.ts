@@ -79,6 +79,7 @@ export const productOneLiners: Record<string, string> = {
   "x-seal-universal-primer": "Primer for joint sealant.",
   "x-prime-gp2": "Primer for epoxy coatings and floors.",
 
+  "pmh-3080-plus": "HDPE membrane laid before the concrete is poured.",
   "yhcoat-1000": "Polymer-modified cementitious waterproofing slurry.",
   "yhcolorwall-5300":
     "UV-resistant waterproofing for exterior walls and roofs.",

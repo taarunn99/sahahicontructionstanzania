@@ -20,6 +20,16 @@ const HEX_ALLOWED = new Set([
   "src/components/ui/brand-button.tsx",
   "src/components/ui/specular-button/specular-button.tsx",
   "src/components/ui/specular-button/specular-button.css",
+  // Material colours of the in-house 3D models and drawings, not UI colours.
+  "src/components/three-d/fire-beam.tsx",
+  "src/components/three-d/fire-beam-scene.ts",
+  "src/components/three-d/layer-stack.tsx",
+  "src/components/three-d/layer-stack-scene.ts",
+  "src/components/sections/oyh/water-path.tsx",
+  "src/config/vasa.ts",
+  "src/app/oriental-yuhong/[item]/page.tsx",
+  "src/app/oriental-yuhong/hdpe-waterproofing/page.tsx",
+  "src/app/oriental-yuhong/sports-flooring/page.tsx",
 ]);
 const BANNED = [
   "premium quality",

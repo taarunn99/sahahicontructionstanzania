@@ -1,0 +1,124 @@
+{
+  "slug": "lvt",
+  "titleAsPrinted": "LVT",
+  "description": "",
+  "whereToUse": [],
+  "advantages": [],
+  "notFor": [],
+  "standards": [],
+  "consumption": [],
+  "technicalData": [
+    {
+      "label": "Overall thickness",
+      "value": "2.0-3.0mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.2mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.3mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.55mm"
+    },
+    {
+      "label": "Formaldehyde emission, EN 717-1",
+      "value": "E1"
+    },
+    {
+      "label": "Reaction to fire, EN 13501-1",
+      "value": "Bfl - s1"
+    },
+    {
+      "label": "Slip resistance, DIN 51130",
+      "value": "R9/R10"
+    },
+    {
+      "label": "Slip resistance, EN 13893",
+      "value": "DS"
+    },
+    {
+      "label": "Wear resistance, EN 660-2",
+      "value": "Group T"
+    },
+    {
+      "label": "Resistance to staining, ISO 26987",
+      "value": "Index 0 Not affected"
+    },
+    {
+      "label": "Light stability, ISO 105-B02",
+      "value": "≥6"
+    },
+    {
+      "label": "Peel resistance, ISO 24345",
+      "value": "65 N/50mm"
+    },
+    {
+      "label": "Flexibility, ISO 24344 Method A",
+      "value": "No cracking shown in both directions when tested with a 20mm mandrel"
+    },
+    {
+      "label": "Burning cigarette test, EN 1399 Method B",
+      "value": "Rating 3"
+    },
+    {
+      "label": "Residual indentation, ISO 24343-1",
+      "value": "~ 0,03 mm"
+    },
+    {
+      "label": "Castor chair, ISO 4918",
+      "value": "Pass"
+    },
+    {
+      "label": "Dimensional stability, ISO 23999",
+      "value": "≤0.15%"
+    },
+    {
+      "label": "Curling after exposure to heat, ISO 23999",
+      "value": "≤0.5mm"
+    },
+    {
+      "label": "Phthalate content, EN 14372",
+      "value": "Pass"
+    },
+    {
+      "label": "PCP, EN 12673",
+      "value": "Pass"
+    },
+    {
+      "label": "VOC emissions, ISO 16000",
+      "value": "A+"
+    },
+    {
+      "label": "CE",
+      "value": "Certified"
+    },
+    {
+      "label": "UKCA",
+      "value": "Certified"
+    },
+    {
+      "label": "EPD",
+      "value": "Certified"
+    },
+    {
+      "label": "Floorscore",
+      "value": "Certified"
+    },
+    {
+      "label": "Indoor Air Comfort Gold",
+      "value": "Certified"
+    },
+    {
+      "label": "TUV Profi Cert.",
+      "value": "Certified"
+    },
+    {
+      "label": "Utilization",
+      "value": "Recyclable"
+    }
+  ]
+}

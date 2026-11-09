@@ -8,10 +8,12 @@ import { CtaBand } from "@/components/sections/cta-band";
 import { ProductCardShell } from "@/components/sections/catalogue/product-card";
 import { ProductShelf } from "@/components/sections/catalogue/product-shelf";
 import { DensityLadder } from "@/components/sections/cmci/density-ladder";
+import { HeatBand } from "@/components/sections/cmci/heat";
 import { Faq } from "@/components/sections/faq";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
+import { FlowButton } from "@/components/ui/flow-button";
 import { brandBySlug } from "@/config/brands";
 import { cmciHref, cmciInLine, cmciLines, cmciProducts } from "@/config/cmci";
 import { siteConfig } from "@/config/site";
@@ -23,9 +25,9 @@ import { cn, pad } from "@/lib/utils";
  * owner finalised them on 2026-11-07. The first screen is static.
  */
 
-const TITLE = "CMCI Fireproofing Tanzania - Cementitious Fire Protection";
+const TITLE = "CMCI Authorized Dealer Tanzania - Fireproofing | Sahihi";
 const DESCRIPTION =
-  "CMCI cementitious fireproofing in Tanzania from Sahihi, Dar es Salaam: petrochemical, commercial and tunnel grades. Technical values and data sheets to download.";
+  "Sahihi is an authorized CMCI dealer in Tanzania: cementitious fireproofing for petrochemical plant, commercial buildings and tunnels, with data sheets.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -111,7 +113,7 @@ export default function CmciPage() {
           <Breadcrumb items={crumbs} />
           <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
             <p className="label-sh text-muted leading-relaxed">
-              Fireproofing · Tanzania
+              {brand.authorization} · Tanzania
             </p>
             <span className="border-deep/15 inline-flex rounded-full border bg-white px-5 py-3">
               <img
@@ -127,8 +129,9 @@ export default function CmciPage() {
             CMCI fireproofing in Tanzania.
           </h1>
           <p className="text-phi-1 mt-8 max-w-3xl leading-snug font-light">
-            {siteConfig.brandName} supplies the CMCI range of cementitious
-            fireproofing from Dar es Salaam, for plant, buildings and tunnels.
+            {siteConfig.brandName} is an authorized CMCI dealer in Tanzania,
+            supplying fire rated cementitious fireproofing from Dar es Salaam,
+            for plant, buildings and tunnels.
           </p>
           <ul className="mt-10 grid grid-cols-3 gap-2 sm:mt-12 sm:gap-4">
             {cmciLines.map((line, index) => (
@@ -156,6 +159,19 @@ export default function CmciPage() {
           </ul>
         </Container>
       </section>
+
+      <HeatBand
+        label="Fire rated cement"
+        heading="What the coating does when the fire comes."
+      >
+        <p className="max-w-md leading-relaxed">
+          Turn up the fire and compare bare steel with coated steel. Then see
+          what the data sheets print for each product.
+        </p>
+        <FlowButton href="/cmci/fire-rated-cement" className="mt-6">
+          Fire rated cement in Tanzania
+        </FlowButton>
+      </HeatBand>
 
       {/* ---- One band per line ---------------------------------------------- */}
       {cmciLines.map((line, index) => {

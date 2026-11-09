@@ -1,0 +1,108 @@
+{
+  "slug": "spc",
+  "titleAsPrinted": "SPC",
+  "description": "",
+  "whereToUse": [],
+  "advantages": [],
+  "notFor": [],
+  "standards": [],
+  "consumption": [],
+  "technicalData": [
+    {
+      "label": "Overall thickness",
+      "value": "3.5-8.0mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.2mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.3mm"
+    },
+    {
+      "label": "Wear layer",
+      "value": "0.55mm"
+    },
+    {
+      "label": "Click system",
+      "value": "UNILIN, VALINGE or I4F CLICK system"
+    },
+    {
+      "label": "Formaldehyde emission, EN 717-1",
+      "value": "E1"
+    },
+    {
+      "label": "Reaction to fire, EN 13501-1",
+      "value": "Bfl - s1"
+    },
+    {
+      "label": "Slip resistance, DIN 51130",
+      "value": "R9/R10"
+    },
+    {
+      "label": "Slip resistance, EN 13893",
+      "value": "DS"
+    },
+    {
+      "label": "Wear resistance, EN 660-2",
+      "value": "Group T"
+    },
+    {
+      "label": "Resistance to staining, ISO 26987",
+      "value": "Index 0 Not affected"
+    },
+    {
+      "label": "Light stability, ISO 105-B02",
+      "value": "≥6"
+    },
+    {
+      "label": "Residual indentation, ISO 24343-1",
+      "value": "~ 0,03 mm"
+    },
+    {
+      "label": "Castor chair, ISO 4918",
+      "value": "Pass"
+    },
+    {
+      "label": "Dimensional stability, ISO 23999",
+      "value": "≤0.1%"
+    },
+    {
+      "label": "Curling after exposure to heat, ISO 23999",
+      "value": "≤0.5mm"
+    },
+    {
+      "label": "Phthalate content, EN 14372",
+      "value": "Pass"
+    },
+    {
+      "label": "VOC emissions, ISO 16000",
+      "value": "A+"
+    },
+    {
+      "label": "CE",
+      "value": "Certified"
+    },
+    {
+      "label": "UKCA",
+      "value": "Certified"
+    },
+    {
+      "label": "Floorscore",
+      "value": "Certified"
+    },
+    {
+      "label": "Indoor Air Comfort Gold",
+      "value": "Certified"
+    },
+    {
+      "label": "TUV Profi Cert.",
+      "value": "Certified"
+    },
+    {
+      "label": "Utilization",
+      "value": "Recyclable"
+    }
+  ]
+}

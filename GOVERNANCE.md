@@ -421,3 +421,11 @@ CMCI as `manufacturer` in schema. Page copy, schema and repo docs do not name th
 behind the data sheets. Technical values must match those sheets (`npm test`). The
 owner ruled on 2026-11-07 that each page offers the sheet itself: published
 unaltered in `public/tds/cmci/`, with the maker's name as printed. Never edit one.
+
+## Vasa and dealer wording (owner, 2026-11-07)
+
+Vasa and CMCI are "authorized dealer" on the owner's word; no letter is on file (OPEN-QUESTIONS
+Q2, Q21). "Fire rated cement" is the buyers' search term: the page says it is fireproofing for
+structural steel, never refractory cement, and not every CMCI product is cement (MK-6s is gypsum
+based). Fire statements only as each data sheet prints them. No temperature or time on the 3D
+beam: it is an illustration, and says so.

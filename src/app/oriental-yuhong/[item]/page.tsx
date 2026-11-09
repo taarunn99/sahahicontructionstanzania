@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ProductDetail } from "@/components/sections/product/product-detail";
+import { LayerStack } from "@/components/three-d/layer-stack";
+import { Container } from "@/components/ui/container";
+import { FlowButton } from "@/components/ui/flow-button";
 import { productHref } from "@/config/catalogue";
 import {
   oyhAlsoKnownAs,
@@ -38,6 +41,7 @@ export async function generateMetadata({
     "Oriental Yuhong, stocked by Sahihi in Dar es Salaam.",
     "Data sheet, pack size and coverage.",
     "Authorized distributor in Tanzania.",
+    "From Sahihi, Dar es Salaam.",
   );
   const url = productHref(product);
   return {
@@ -80,6 +84,48 @@ export default async function OyhItemPage({ params }: { params: Params }) {
       document={oyhTds[product.slug] ?? null}
       coverage={oyhCoverage[product.slug]}
       alsoKnownAs={oyhAlsoKnownAs[product.slug]}
+      feature={
+        product.slug === "pmh-3080-plus" ? (
+          <section className="py-14 sm:py-20">
+            <Container>
+              <h2 className="font-display text-phi-3 tracking-tight text-balance">
+                PMH-3080 Plus, pulled apart.
+              </h2>
+              <div className="mt-8">
+                <LayerStack
+                  layers={[
+                    {
+                      label: "Weather resistance granular layer",
+                      color: "#ece8dc",
+                      height: 0.08,
+                      pattern: "sand",
+                      note: "The sanded face the concrete is poured onto.",
+                    },
+                    {
+                      label: "Pressure sensitive adhesive",
+                      color: "#d7b65a",
+                      height: 0.12,
+                      note: "With a dual lap design at the seams: adhesive to adhesive.",
+                    },
+                    {
+                      label: "Thick HDPE film",
+                      color: "#f7f7f4",
+                      height: 0.18,
+                      note: "The main waterproof layer.",
+                    },
+                  ]}
+                />
+              </div>
+              <FlowButton
+                href="/oriental-yuhong/hdpe-waterproofing"
+                className="mt-8"
+              >
+                HDPE waterproofing, explained
+              </FlowButton>
+            </Container>
+          </section>
+        ) : undefined
+      }
       related={oyhProducts
         .filter((other) => other !== product)
         .map((other) => ({

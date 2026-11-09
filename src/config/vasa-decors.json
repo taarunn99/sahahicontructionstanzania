@@ -1,0 +1,641 @@
+[
+ {
+  "code": "FW53201D",
+  "collection": "spc-5",
+  "size": "127 x 635 x 5.0 mm",
+  "look": "Wood, herringbone",
+  "src": "/images/vasa/decors/fw53201d.webp",
+  "width": 900,
+  "height": 311
+ },
+ {
+  "code": "FW53202D",
+  "collection": "spc-5",
+  "size": "127 x 635 x 5.0 mm",
+  "look": "Wood, herringbone",
+  "src": "/images/vasa/decors/fw53202d.webp",
+  "width": 900,
+  "height": 303
+ },
+ {
+  "code": "FW53203D",
+  "collection": "spc-5",
+  "size": "127 x 635 x 5.0 mm",
+  "look": "Wood, herringbone",
+  "src": "/images/vasa/decors/fw53203d.webp",
+  "width": 900,
+  "height": 307
+ },
+ {
+  "code": "FW53020E",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53020e.webp",
+  "width": 900,
+  "height": 310
+ },
+ {
+  "code": "FW53021E",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53021e.webp",
+  "width": 900,
+  "height": 313
+ },
+ {
+  "code": "FW53023E",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53023e.webp",
+  "width": 900,
+  "height": 310
+ },
+ {
+  "code": "FW53025E",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53025e.webp",
+  "width": 900,
+  "height": 304
+ },
+ {
+  "code": "FW53001B",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53001b.webp",
+  "width": 900,
+  "height": 309
+ },
+ {
+  "code": "FW53002B",
+  "collection": "spc-5",
+  "size": "198 x 1522 x 5.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw53002b.webp",
+  "width": 900,
+  "height": 318
+ },
+ {
+  "code": "FS53610C",
+  "collection": "spc-5",
+  "size": "406 x 812 x 5 mm",
+  "look": "Tile format",
+  "src": "/images/vasa/decors/fs53610c.webp",
+  "width": 480,
+  "height": 396
+ },
+ {
+  "code": "FS53611C",
+  "collection": "spc-5",
+  "size": "406 x 812 x 5 mm",
+  "look": "Tile format",
+  "src": "/images/vasa/decors/fs53611c.webp",
+  "width": 472,
+  "height": 396
+ },
+ {
+  "code": "FS53712C",
+  "collection": "spc-5",
+  "size": "406 x 812 x 5 mm",
+  "look": "Tile format",
+  "src": "/images/vasa/decors/fs53712c.webp",
+  "width": 480,
+  "height": 396
+ },
+ {
+  "code": "FS53711C",
+  "collection": "spc-5",
+  "size": "406 x 812 x 5 mm",
+  "look": "Tile format",
+  "src": "/images/vasa/decors/fs53711c.webp",
+  "width": 476,
+  "height": 396
+ },
+ {
+  "code": "FS53608C",
+  "collection": "spc-5",
+  "size": "406 x 812 x 5 mm",
+  "look": "Tile format",
+  "src": "/images/vasa/decors/fs53608c.webp",
+  "width": 476,
+  "height": 408
+ },
+ {
+  "code": "FW85001C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85001c.webp",
+  "width": 900,
+  "height": 304
+ },
+ {
+  "code": "FW85004C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85004c.webp",
+  "width": 900,
+  "height": 304
+ },
+ {
+  "code": "FW85005C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85005c.webp",
+  "width": 900,
+  "height": 310
+ },
+ {
+  "code": "FW85006C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85006c.webp",
+  "width": 900,
+  "height": 224
+ },
+ {
+  "code": "FW85011C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85011c.webp",
+  "width": 900,
+  "height": 222
+ },
+ {
+  "code": "FW85012C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85012c.webp",
+  "width": 900,
+  "height": 205
+ },
+ {
+  "code": "FW85013C",
+  "collection": "spc-8",
+  "size": "229 x 1522 x 8 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/fw85013c.webp",
+  "width": 900,
+  "height": 211
+ },
+ {
+  "code": "LC22080",
+  "collection": "lvt-2",
+  "size": "457 x 914 x 2.0 mm",
+  "look": "Carpet",
+  "src": "/images/vasa/decors/lc22080.webp",
+  "width": 900,
+  "height": 219
+ },
+ {
+  "code": "LC22082",
+  "collection": "lvt-2",
+  "size": "457 x 914 x 2.0 mm",
+  "look": "Carpet",
+  "src": "/images/vasa/decors/lc22082.webp",
+  "width": 900,
+  "height": 229
+ },
+ {
+  "code": "LC22084",
+  "collection": "lvt-2",
+  "size": "457 x 914 x 2.0 mm",
+  "look": "Carpet",
+  "src": "/images/vasa/decors/lc22084.webp",
+  "width": 900,
+  "height": 208
+ },
+ {
+  "code": "LC22086",
+  "collection": "lvt-2",
+  "size": "457 x 914 x 2.0 mm",
+  "look": "Carpet",
+  "src": "/images/vasa/decors/lc22086.webp",
+  "width": 900,
+  "height": 212
+ },
+ {
+  "code": "LS22050",
+  "collection": "lvt-2",
+  "size": "406 x 812 x 2.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ls22050.webp",
+  "width": 900,
+  "height": 218
+ },
+ {
+  "code": "LS22052",
+  "collection": "lvt-2",
+  "size": "406 x 812 x 2.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ls22052.webp",
+  "width": 900,
+  "height": 225
+ },
+ {
+  "code": "LS22055",
+  "collection": "lvt-2",
+  "size": "406 x 812 x 2.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ls22055.webp",
+  "width": 900,
+  "height": 211
+ },
+ {
+  "code": "LS22056",
+  "collection": "lvt-2",
+  "size": "406 x 812 x 2.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ls22056.webp",
+  "width": 900,
+  "height": 209
+ },
+ {
+  "code": "LW22001",
+  "collection": "lvt-2",
+  "size": "187 x 1227 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22001.webp",
+  "width": 900,
+  "height": 222
+ },
+ {
+  "code": "LW22003",
+  "collection": "lvt-2",
+  "size": "187 x 1227 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22003.webp",
+  "width": 900,
+  "height": 224
+ },
+ {
+  "code": "LW22004",
+  "collection": "lvt-2",
+  "size": "187 x 1227 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22004.webp",
+  "width": 900,
+  "height": 227
+ },
+ {
+  "code": "LW22011",
+  "collection": "lvt-2",
+  "size": "187 x 1227 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22011.webp",
+  "width": 900,
+  "height": 207
+ },
+ {
+  "code": "LW22012",
+  "collection": "lvt-2",
+  "size": "205 x 1522 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22012.webp",
+  "width": 900,
+  "height": 221
+ },
+ {
+  "code": "LW22013",
+  "collection": "lvt-2",
+  "size": "205 x 1522 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22013.webp",
+  "width": 900,
+  "height": 218
+ },
+ {
+  "code": "LW22014",
+  "collection": "lvt-2",
+  "size": "205 x 1522 x 2.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/lw22014.webp",
+  "width": 900,
+  "height": 224
+ },
+ {
+  "code": "WW43002A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/ww43002a.webp",
+  "width": 900,
+  "height": 210
+ },
+ {
+  "code": "WW43014A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/ww43014a.webp",
+  "width": 900,
+  "height": 229
+ },
+ {
+  "code": "WW43006A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/ww43006a.webp",
+  "width": 900,
+  "height": 208
+ },
+ {
+  "code": "WW41024A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/ww41024a.webp",
+  "width": 900,
+  "height": 217
+ },
+ {
+  "code": "WF43224A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Fabric",
+  "src": "/images/vasa/decors/wf43224a.webp",
+  "width": 900,
+  "height": 238
+ },
+ {
+  "code": "WF43203A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Fabric",
+  "src": "/images/vasa/decors/wf43203a.webp",
+  "width": 900,
+  "height": 225
+ },
+ {
+  "code": "WF43201A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Fabric",
+  "src": "/images/vasa/decors/wf43201a.webp",
+  "width": 900,
+  "height": 211
+ },
+ {
+  "code": "WS43110A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ws43110a.webp",
+  "width": 900,
+  "height": 242
+ },
+ {
+  "code": "WS43301A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ws43301a.webp",
+  "width": 900,
+  "height": 225
+ },
+ {
+  "code": "WS43314A",
+  "collection": "film-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Stone",
+  "src": "/images/vasa/decors/ws43314a.webp",
+  "width": 900,
+  "height": 213
+ },
+ {
+  "code": "WDP48022",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/wdp48022.webp",
+  "width": 772,
+  "height": 400
+ },
+ {
+  "code": "WDP48042",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/wdp48042.webp",
+  "width": 772,
+  "height": 420
+ },
+ {
+  "code": "WDP48035",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 x 4.0 mm",
+  "look": "Wood",
+  "src": "/images/vasa/decors/wdp48035.webp",
+  "width": 772,
+  "height": 360
+ },
+ {
+  "code": "WDP43244",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43244.webp",
+  "width": 564,
+  "height": 308
+ },
+ {
+  "code": "WDP43288",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43288.webp",
+  "width": 568,
+  "height": 320
+ },
+ {
+  "code": "WDP43289",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43289.webp",
+  "width": 568,
+  "height": 356
+ },
+ {
+  "code": "WDP43301",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43301.webp",
+  "width": 568,
+  "height": 308
+ },
+ {
+  "code": "WDP43306",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43306.webp",
+  "width": 520,
+  "height": 360
+ },
+ {
+  "code": "WDP43313",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43313.webp",
+  "width": 568,
+  "height": 356
+ },
+ {
+  "code": "WDP43327",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43327.webp",
+  "width": 568,
+  "height": 356
+ },
+ {
+  "code": "WDP43403",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43403.webp",
+  "width": 564,
+  "height": 320
+ },
+ {
+  "code": "WDP43404",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp43404.webp",
+  "width": 360,
+  "height": 272
+ },
+ {
+  "code": "WDP47002",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47002.webp",
+  "width": 560,
+  "height": 296
+ },
+ {
+  "code": "WDP47007",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47007.webp",
+  "width": 560,
+  "height": 408
+ },
+ {
+  "code": "WDP47018",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47018.webp",
+  "width": 512,
+  "height": 408
+ },
+ {
+  "code": "WDP47024",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47024.webp",
+  "width": 232,
+  "height": 308
+ },
+ {
+  "code": "WDP47026",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47026.webp",
+  "width": 500,
+  "height": 356
+ },
+ {
+  "code": "WDP47027",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47027.webp",
+  "width": 496,
+  "height": 232
+ },
+ {
+  "code": "WDP47028",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47028.webp",
+  "width": 900,
+  "height": 285
+ },
+ {
+  "code": "WDP47055",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47055.webp",
+  "width": 900,
+  "height": 488
+ },
+ {
+  "code": "WDP47078",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47078.webp",
+  "width": 900,
+  "height": 385
+ },
+ {
+  "code": "WDP47084",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47084.webp",
+  "width": 492,
+  "height": 352
+ },
+ {
+  "code": "WDP47092",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47092.webp",
+  "width": 436,
+  "height": 316
+ },
+ {
+  "code": "WDP47094",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47094.webp",
+  "width": 484,
+  "height": 264
+ },
+ {
+  "code": "WDP47097",
+  "collection": "digital-wall",
+  "size": "1200 x 2800 mm, 4 mm SPC or 9 mm WPC",
+  "look": "Digital",
+  "src": "/images/vasa/decors/wdp47097.webp",
+  "width": 508,
+  "height": 296
+ }
+]

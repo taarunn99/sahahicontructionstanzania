@@ -1,0 +1,99 @@
+{
+  "slug": "pmh-3080-plus",
+  "titleAsPrinted": "PMH-3080 Plus",
+  "description": "PMH-3080 Plus is a pre-applied high density polyethylene (HDPE) waterproofing membrane. It consists of a thick HDPE film, pressure sensitive adhesive and weather resistance granular layer.",
+  "whereToUse": [
+    "foundation slabs of underground structures",
+    "tunnels",
+    "subways"
+  ],
+  "advantages": [
+    "Unaffected by ground settlement",
+    "Easy application & reduced installation time",
+    "No lateral migration of water",
+    "Can be applied to permanent formwork, allows maximum use of confined sites",
+    "High puncture resistance, trafficable immediately after application",
+    "Efficient process and environmentally friendly, cold apply, no primer",
+    "Resistant to methane and radon gases"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ASTM D412",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E154",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D903",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D5385",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1876",
+      "value": ""
+    },
+    {
+      "standard": "ASTM C1305",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1970",
+      "value": ""
+    }
+  ],
+  "consumption": [],
+  "technicalData": [
+    {
+      "label": "Thickness (mm)",
+      "value": "1.2, 1.5"
+    },
+    {
+      "label": "Width (m)",
+      "value": "1.2, 2.4"
+    },
+    {
+      "label": "Length (m)",
+      "value": "20 or Customized"
+    },
+    {
+      "label": "Roll size (m2/roll)",
+      "value": "24,48 or Customized"
+    },
+    {
+      "label": "Tensile strength (ASTM D412)",
+      "value": "21 MPa"
+    },
+    {
+      "label": "Elongation (ASTM D412)",
+      "value": "500%"
+    },
+    {
+      "label": "Puncture resistance (ASTM E154)",
+      "value": "1000 N"
+    },
+    {
+      "label": "Peel adhesion to concrete (ASTM D903)",
+      "value": "1800N/m"
+    },
+    {
+      "label": "Resistance to hydrostatic head (ASTM D5385)",
+      "value": "71 m"
+    },
+    {
+      "label": "Peel strength in lap (ASTM D1876)",
+      "value": "1800N/m"
+    },
+    {
+      "label": "Crack cycling at -23 C, 100 cycles (ASTM C1305)",
+      "value": "No crack"
+    }
+  ],
+  "mixing": "The membrane can be directly applied on \"not fully cured concrete\" or damp substrates without standing water.",
+  "packaging": "Roll"
+}
