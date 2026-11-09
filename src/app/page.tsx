@@ -108,8 +108,8 @@ export default function HomePage() {
               · Dar es Salaam
             </p>
             <h1 className="font-display mt-6 max-w-[20ch] text-[clamp(2.1rem,6.6vw,4.4rem)] leading-[1.04] text-balance">
-              Construction chemicals in Tanzania, for buildings that have to
-              last.
+              Construction chemicals in Tanzania, for buildings that last a
+              lifetime.
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-relaxed">
               {siteConfig.brandName} supplies Tanzania with Mapei, Oriental
