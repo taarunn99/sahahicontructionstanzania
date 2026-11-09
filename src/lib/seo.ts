@@ -39,3 +39,28 @@ export function seoDescription(core: string, ...tails: string[]): string {
   }
   return out;
 }
+
+/**
+ * The share card every page starts from. A page that sets its own `openGraph`
+ * replaces the root one wholesale (Next merges metadata shallowly), so the
+ * image, site name and locale are spread in first and the page's own title,
+ * description, url (and images, where it has a better picture) follow.
+ */
+export const ogBase: {
+  type: "website";
+  siteName: string;
+  locale: string;
+  images: { url: string; width: number; height: number; alt: string }[];
+} = {
+  type: "website",
+  siteName: "Sahihi Construction Chemicals",
+  locale: "en_TZ",
+  images: [
+    {
+      url: "/opengraph-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Sahihi Construction Chemicals Limited logo with the line Enhance Your Building Life",
+    },
+  ],
+};

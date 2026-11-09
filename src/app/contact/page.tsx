@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ContactForm } from "@/components/sections/contact-form";
@@ -15,7 +16,12 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: "/contact" },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/contact" },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/contact",
+  },
 };
 
 const crumbs = [

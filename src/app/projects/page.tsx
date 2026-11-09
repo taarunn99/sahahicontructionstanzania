@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 
 import { CtaBand } from "@/components/sections/cta-band";
 import { ProjectsLibrary } from "@/components/sections/projects/projects-library";
@@ -32,7 +33,12 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: "/projects" },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/projects" },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/projects",
+  },
 };
 
 const crumbs = [

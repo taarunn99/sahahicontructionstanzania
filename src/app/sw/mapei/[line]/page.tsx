@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -53,6 +54,7 @@ export async function generateMetadata({
     description: copy.description,
     alternates: pairAlternates(lineHref(lineBySlug[line]), "sw"),
     openGraph: {
+      ...ogBase,
       title: copy.title,
       description: copy.description,
       url: `/sw/mapei/${line}`,

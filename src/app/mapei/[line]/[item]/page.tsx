@@ -14,7 +14,7 @@ import {
 } from "@/config/mapei";
 import { mapeiCoverage } from "@/config/mapei-coverage";
 import { packshot } from "@/config/packshots";
-import { seoDescription } from "@/lib/seo";
+import { seoDescription, ogBase } from "@/lib/seo";
 
 type Params = Promise<{ line: string; item: string }>;
 
@@ -53,7 +53,12 @@ export async function generateMetadata({
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url },
+    openGraph: {
+      ...ogBase,
+      title,
+      description,
+      url,
+    },
   };
 }
 

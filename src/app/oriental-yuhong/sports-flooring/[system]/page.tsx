@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import { ModelCta } from "@/components/sections/model-cta";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -64,6 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: found.page.description,
     alternates: { canonical: path },
     openGraph: {
+      ...ogBase,
       title: found.page.title,
       description: found.page.description,
       url: path,

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import { ModelCta } from "@/components/sections/model-cta";
 import Link from "next/link";
 
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: "/cmci/fire-rated-cement" },
   openGraph: {
+    ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
     url: "/cmci/fire-rated-cement",

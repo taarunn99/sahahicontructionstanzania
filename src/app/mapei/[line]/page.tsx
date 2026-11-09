@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -51,7 +52,12 @@ export async function generateMetadata({
     title: { absolute: meta.title },
     description: meta.description,
     alternates: pairAlternates(url),
-    openGraph: { title: meta.title, description: meta.description, url },
+    openGraph: {
+      ...ogBase,
+      title: meta.title,
+      description: meta.description,
+      url,
+    },
   };
 }
 

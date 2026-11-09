@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -50,7 +51,12 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: PATH },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: PATH },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: PATH,
+  },
 };
 
 const crumbs = [

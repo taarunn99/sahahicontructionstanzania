@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -49,6 +50,7 @@ export async function generateMetadata({
     description: post.description,
     alternates: { canonical: url },
     openGraph: {
+      ...ogBase,
       type: "article",
       title: post.metaTitle,
       description: post.description,

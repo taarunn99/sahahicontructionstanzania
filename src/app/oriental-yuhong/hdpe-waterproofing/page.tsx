@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ModelCta } from "@/components/sections/model-cta";
 import Image from "next/image";
@@ -35,7 +36,12 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: PATH },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: PATH },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: PATH,
+  },
 };
 
 const crumbs = [

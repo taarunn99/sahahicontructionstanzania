@@ -15,7 +15,7 @@ import {
 import { siteConfig } from "@/config/site";
 import { postContent } from "@/content/blog";
 import { wordCount } from "@/lib/blog";
-import { seoDescription, seoTitle } from "@/lib/seo";
+import { seoDescription, seoTitle, ogBase } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 type Params = Promise<{ category: string }>;
@@ -54,7 +54,12 @@ export async function generateMetadata({
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url },
+    openGraph: {
+      ...ogBase,
+      title,
+      description,
+      url,
+    },
   };
 }
 

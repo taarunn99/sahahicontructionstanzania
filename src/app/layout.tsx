@@ -78,11 +78,9 @@ export const metadata: Metadata = {
     title: `${siteConfig.brandName} - ${siteConfig.tagline}`,
     description: siteConfig.description,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: `${siteConfig.brandName} - ${siteConfig.tagline}`,
-    description: siteConfig.description,
-  },
+  // Card type only: X reads each page's og:title, og:description and
+  // og:image, so no page shows the home page's words.
+  twitter: { card: "summary_large_image" },
   robots: {
     index: true,
     follow: true,

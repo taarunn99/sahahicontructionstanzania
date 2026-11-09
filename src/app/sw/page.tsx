@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -45,6 +46,7 @@ export const metadata: Metadata = {
   description: swHome.description,
   alternates: pairAlternates("/", "sw"),
   openGraph: {
+    ...ogBase,
     title: swHome.title,
     description: swHome.description,
     url: "/sw",

@@ -13,7 +13,7 @@ import {
   xcaliburProducts,
   xcaliburTds,
 } from "@/config/x-calibur";
-import { seoDescription } from "@/lib/seo";
+import { seoDescription, ogBase } from "@/lib/seo";
 
 type Params = Promise<{ item: string }>;
 
@@ -44,7 +44,12 @@ export async function generateMetadata({
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url },
+    openGraph: {
+      ...ogBase,
+      title,
+      description,
+      url,
+    },
   };
 }
 

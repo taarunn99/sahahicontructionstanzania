@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 
 import { VasaRangePage } from "@/components/sections/vasa/vasa-range-page";
 import {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: "/vasa/wall-panels" },
   openGraph: {
+    ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
     url: "/vasa/wall-panels",

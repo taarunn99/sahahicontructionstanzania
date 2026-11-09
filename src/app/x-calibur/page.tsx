@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Link from "next/link";
 
 import { SplitHeading } from "@/components/motion/split-heading";
@@ -35,7 +36,12 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: "/x-calibur" },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/x-calibur" },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/x-calibur",
+  },
 };
 
 const crumbs = [

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ogBase } from "@/lib/seo";
 import Link from "next/link";
 
 import { PostCard } from "@/components/blog/post-card";
@@ -27,7 +28,12 @@ export const metadata: Metadata = {
     canonical: "/blog",
     types: { "application/rss+xml": "/blog/rss.xml" },
   },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/blog" },
+  openGraph: {
+    ...ogBase,
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/blog",
+  },
 };
 
 const crumbs = [
