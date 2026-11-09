@@ -3,6 +3,7 @@ import { ogBase } from "@/lib/seo";
 
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ContactForm } from "@/components/sections/contact-form";
+import { Moonrise } from "@/components/sections/moonrise";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
@@ -186,6 +187,7 @@ export default function ContactPage() {
           { label: "About Sahihi", href: "/about", sub: "Who we are" },
         ]}
       />
+      <Moonrise />
     </main>
   );
 }

@@ -248,3 +248,14 @@ modelled: its only picture is a factory photograph, and its page has the layer m
   `/ebook` (12.4 MB to 2.9 MB). Original in `assets/source/profile/` (gitignored).
 - Checked: no prices. It names the director (already public on /about) and lists CMCI's
   page with "manufacturer since 1984": that is the owner's own document, published as is.
+
+## 3j. Kilimanjaro at moonrise (owner, 2026-11-09)
+
+- Source: `mount kilimanjaro .jpg` (1080 x 742) supplied by the owner for the end of /contact;
+  original kept as `assets/source/contact/kilimanjaro-moon.jpg` (gitignored). The photographer
+  is not known: confirm the rights, or swap in a licensed or Sahihi-owned photograph.
+- `scripts/build-kilimanjaro.py` splits it: `public/images/contact/kilimanjaro-base.webp` (the
+  moon painted out with the neighbouring sky), `kilimanjaro-moon.webp` (the moon, alpha), and
+  `src/config/kilimanjaro.json` (moon box, sky polygon). Only the moon is moved; nothing is added.
+- Captioned "Tanzania · Kilimanjaro" only: no claim about where the picture was taken from or
+  that the moon and mountain were one exposure.
