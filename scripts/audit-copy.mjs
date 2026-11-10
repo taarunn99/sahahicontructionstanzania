@@ -31,6 +31,7 @@ const HEX_ALLOWED = new Set([
   "src/app/oriental-yuhong/hdpe-waterproofing/page.tsx",
   "src/app/oriental-yuhong/sports-flooring/page.tsx",
   "src/config/oyh-sports-systems.ts",
+  "src/config/selector-stacks.ts",
   "src/app/manifest.ts", // web manifest colours must be literals
   "src/app/global-error.tsx", // the root layout failed: no tokens loaded
   "src/components/sections/lost-mark.tsx", // the logo mark, its own colours

@@ -90,6 +90,8 @@ export function mountLayerStack(
   layers: StackLayer[],
   tags: () => (HTMLElement | null)[],
   onPick: (index: number) => void,
+  /** Where the explode starts: 0 builds the stack up from closed. */
+  start = 1,
 ): LayerStackController {
   const renderer = new WebGLRenderer({
     canvas,
@@ -143,7 +145,7 @@ export function mountLayerStack(
   });
   meshes.forEach((mesh) => stack.add(mesh));
 
-  let explode = 1;
+  let explode = start;
   let explodeTarget = 1;
   let active = 0;
   let yaw = -0.62;

@@ -328,6 +328,7 @@ check them in Search Console after launch.
 | car park deck coating | `.../epoxy-flooring/car-park` | H generic, E with Tanzania | high |
 | self levelling screed Tanzania | `.../epoxy-flooring/self-levelling` | E (inf) | medium |
 | concrete repair Tanzania | `/solutions/concrete-repair` | E | high |
+| BOQ clause, specification for consultants and QS | `/specifier-pack` | E | high. Built 2026-11-10 for the TBA and NHC route (reports/); no prices |
 | epoxy crack injection | `.../concrete-repair/crack-injection` | E | medium |
 | non shrink grout Tanzania | `.../concrete-repair/grouting` | E | high |
 | chemical anchor Tanzania | `.../concrete-repair/anchoring` | E | medium |

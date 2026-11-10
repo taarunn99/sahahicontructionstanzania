@@ -281,6 +281,16 @@ export default function XCaliburPage() {
             href: "/solutions/waterproofing",
             sub: "X-Calibur, Mapei and OYH by part of the building",
           },
+          {
+            label: "Concrete repair selector",
+            href: "/solutions/concrete-repair",
+            sub: "X-Tech SBR Bond and the Mapei repair line",
+          },
+          {
+            label: "Specifier pack",
+            href: "/specifier-pack",
+            sub: "Every BOQ clause in one spreadsheet",
+          },
         ]}
       />
 

@@ -3,25 +3,18 @@ import Image from "next/image";
 
 import { CtaBand } from "@/components/sections/cta-band";
 import { RelatedLinks } from "@/components/sections/related-links";
-import {
-  WaterproofingSelector,
-  type ResolvedPick,
-  type ResolvedPlace,
-} from "@/components/sections/waterproofing/selector";
+import { SolutionSelector } from "@/components/sections/solutions/selector";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
-import { brandBySlug } from "@/config/brands";
-import { productHref, products } from "@/config/catalogue";
 import { solutionPhotos } from "@/config/images";
-import { packshot } from "@/config/packshots";
 import { siteConfig, whatsappLink } from "@/config/site";
 import {
   SELECTOR_PATH,
   selectorPlaces,
-  type SelectorPick,
 } from "@/config/waterproofing-selector";
+import { resolvePlaces, selectorProductCount } from "@/lib/selector";
 import { ogBase } from "@/lib/seo";
 
 /**
@@ -53,43 +46,12 @@ const crumbs = [
   { label: "Waterproofing", href: SELECTOR_PATH },
 ];
 
-function resolve(pick: SelectorPick): ResolvedPick {
-  const product = products.find(
-    (item) => item.brand === pick.brand && item.slug === pick.slug,
-  );
-  if (!product) {
-    throw new Error(
-      `waterproofing selector: no product ${pick.brand}/${pick.slug}`,
-    );
-  }
-  return {
-    name: product.name,
-    brand: brandBySlug[pick.brand].name,
-    type: product.type,
-    href: productHref(product),
-    image: packshot(pick.brand, pick.slug)?.src ?? null,
-    quote: pick.quote,
-  };
-}
+const places = resolvePlaces(
+  selectorPlaces,
+  (place) => `waterproofing for a ${place.label.toLowerCase()}`,
+);
 
-const places: ResolvedPlace[] = selectorPlaces.map((place) => ({
-  slug: place.slug,
-  label: place.label,
-  problem: place.problem,
-  main: place.main.map(resolve),
-  details: place.details.map(resolve),
-  cautions: (place.cautions ?? []).map((caution) => ({
-    ...resolve(caution),
-    note: caution.note,
-  })),
-  whatsapp: whatsappLink(`waterproofing for a ${place.label.toLowerCase()}`),
-}));
-
-const productCount = new Set(
-  places.flatMap((place) =>
-    [...place.main, ...place.details].map((pick) => pick.href),
-  ),
-).size;
+const productCount = selectorProductCount(places);
 
 export default function WaterproofingPage() {
   const hero = solutionPhotos.waterproofing;
@@ -157,7 +119,13 @@ export default function WaterproofingPage() {
             what goes with it at the corners, joints and finish.
           </p>
           <div className="mt-10" translate="no">
-            <WaterproofingSelector places={places} />
+            <SolutionSelector
+              places={places}
+              drawing
+              groupLabel="Part of the building"
+              mainTitle="The waterproofing layer"
+              detailsTitle="With it: joints, corners, leaks, finish"
+            />
           </div>
           <p className="text-muted mt-12 max-w-3xl text-sm leading-relaxed">
             Each product is listed only where its manufacturer&apos;s data sheet

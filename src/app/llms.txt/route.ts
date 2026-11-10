@@ -62,6 +62,9 @@ export function GET() {
     `- [SPC flooring in Tanzania](${base}/vasa/spc-flooring): Vasa 5 mm and 8 mm rigid core click flooring`,
     `- [LVT flooring in Tanzania](${base}/vasa/lvt-flooring): Vasa 2 mm luxury vinyl tile`,
     `- [Waterproofing in Tanzania, part by part](${base}/solutions/waterproofing): which Mapei, OYH and X-Calibur product for roofs, wet rooms, balconies, basements, water tanks, pools, walls and leaks, each matched by its own data sheet`,
+    `- [Concrete repair in Tanzania](${base}/solutions/concrete-repair): which Mapei and X-Calibur product for spalling, structural repair, cracks, new concrete onto old, floors, anchoring and manholes, each matched by its own data sheet`,
+    `- [Tile adhesive in Tanzania](${base}/solutions/tile-installation): which Mapei adhesive, grout, primer and cleaner for ceramic, porcelain, outdoor, tile on tile, pools, kitchens and stone, each matched by its own data sheet`,
+    `- [Specifier pack](${base}/specifier-pack): every product's BOQ clause, declared standards and data sheet edition, also as one CSV spreadsheet (${base}/specifier-pack.csv); no prices`,
     `- [HDPE waterproofing in Tanzania](${base}/oriental-yuhong/hdpe-waterproofing): OYH PMH-3080 Plus pre-applied membrane, data sheet and method statement`,
     `- [Sports flooring in Tanzania](${base}/oriental-yuhong/sports-flooring): OYH running tracks, sports courts and synthetic turf, with a system chooser, construction films and a material calculator`,
     ...SPORTS_SYSTEMS.map(

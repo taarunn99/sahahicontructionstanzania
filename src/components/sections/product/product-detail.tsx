@@ -819,7 +819,14 @@ export function ProductDetail({
             <p className="text-muted mt-6 max-w-3xl text-sm leading-relaxed">
               Built from {isMaker ? `${brand.name}'s` : "the manufacturer's"}{" "}
               technical data sheet. Check the clause against the current edition
-              before the bill is issued.
+              before the bill is issued.{" "}
+              <Link
+                href="/specifier-pack"
+                className="text-foreground font-semibold underline underline-offset-4 print:hidden"
+              >
+                Every clause in one spreadsheet: the specifier pack
+              </Link>
+              <span className="print:hidden">.</span>
             </p>
           </Container>
         </section>

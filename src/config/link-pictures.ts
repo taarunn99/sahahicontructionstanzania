@@ -19,6 +19,8 @@ const PICTURES: Record<string, string> = {
   "/projects": "/images/projects/tanzanite-bridge.webp",
   [SPORTS_PATH]: solutionPhotos["sports-flooring"].src,
   "/solutions/waterproofing": solutionPhotos.waterproofing.src,
+  "/solutions/concrete-repair": linePhotos["concrete-repair"].src,
+  "/solutions/tile-installation": linePhotos["tile-adhesives-grouts"].src,
   "/oriental-yuhong/hdpe-waterproofing":
     "/images/oriental-yuhong/hdpe/basement.webp",
   "/oriental-yuhong/pmh-3080-plus": "/images/oriental-yuhong/hdpe/roll.webp",

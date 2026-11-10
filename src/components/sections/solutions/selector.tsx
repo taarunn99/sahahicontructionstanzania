@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import type { StackLayer } from "@/components/three-d/layer-stack";
+import { SelectorStack } from "@/components/three-d/selector-stack";
 import { cn } from "@/lib/utils";
 
 export type ResolvedPick = {
@@ -26,12 +28,30 @@ export type ResolvedPlace = {
 };
 
 /**
- * Pick a part of the building, on the drawing or the chips, and see which
- * products are made for it, each with the line of its own data sheet that
- * says so. The chips are the real controls; the drawing mirrors them.
- * The choice is kept in the URL hash (#roof, #basement ...).
+ * The solution selector (waterproofing, concrete repair, tile installation):
+ * pick a situation, on the chips or (waterproofing) the house drawing, and see
+ * which products are made for it, each with the line of its own data sheet
+ * that says so. The chips are the real controls; the drawing mirrors them.
+ * The choice is kept in the URL hash (#roof, #cracks ...).
  */
-export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
+export function SolutionSelector({
+  places,
+  groupLabel,
+  mainTitle,
+  detailsTitle,
+  drawing = false,
+  stacks,
+}: {
+  places: ResolvedPlace[];
+  /** What the chips choose, for screen readers: "Part of the building". */
+  groupLabel: string;
+  mainTitle: string;
+  detailsTitle: string;
+  /** The house section drawing, for the waterproofing selector. */
+  drawing?: boolean;
+  /** A 3D build-up per place slug, shown under the chips. */
+  stacks?: Record<string, StackLayer[]>;
+}) {
   const [active, setActive] = useState(places[0].slug);
 
   useEffect(() => {
@@ -53,11 +73,11 @@ export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
   return (
     <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] lg:items-start">
       <div className="lg:sticky lg:top-28">
-        <BuildingDrawing active={active} onChoose={choose} />
+        {drawing && <BuildingDrawing active={active} onChoose={choose} />}
         <div
           role="radiogroup"
-          aria-label="Part of the building"
-          className="mt-6 flex flex-wrap gap-2"
+          aria-label={groupLabel}
+          className={cn("flex flex-wrap gap-2", drawing && "mt-6")}
         >
           {places.map((item) => (
             <button
@@ -77,6 +97,15 @@ export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
             </button>
           ))}
         </div>
+        {stacks?.[place.slug] && (
+          <div className="mt-6">
+            <SelectorStack
+              key={place.slug}
+              layers={stacks[place.slug]}
+              title={place.label}
+            />
+          </div>
+        )}
       </div>
 
       <div aria-live="polite">
@@ -87,12 +116,9 @@ export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
           {place.problem}
         </p>
 
-        <PickList title="The waterproofing layer" picks={place.main} />
+        <PickList title={mainTitle} picks={place.main} />
         {place.details.length > 0 && (
-          <PickList
-            title="With it: joints, corners, leaks, finish"
-            picks={place.details}
-          />
+          <PickList title={detailsTitle} picks={place.details} />
         )}
 
         {place.cautions.length > 0 && (
@@ -109,7 +135,9 @@ export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
                   </Link>
                   : {item.note}{" "}
                   <span className="text-muted">
-                    Its data sheet: &ldquo;not for {item.quote}&rdquo;.
+                    Its data sheet: &ldquo;
+                    {notFor(item.quote)}
+                    &rdquo;.
                   </span>
                 </li>
               ))}
@@ -123,7 +151,7 @@ export function WaterproofingSelector({ places }: { places: ResolvedPlace[] }) {
           rel="noopener noreferrer"
           className="bg-brand mt-8 inline-flex min-h-11 items-center rounded-full px-6 text-sm font-semibold tracking-wide text-white uppercase transition-opacity hover:opacity-90"
         >
-          Ask us about the {place.label.toLowerCase()}
+          Ask us about this
         </a>
       </div>
     </div>
@@ -324,4 +352,14 @@ function BuildingDrawing({
       </g>
     </svg>
   );
+}
+
+/** A notFor line as a sentence: "not for ..." without doubling a word. */
+function notFor(quote: string) {
+  const text = quote.replace(/\.$/, "");
+  if (/^(do not|never|avoid|not )/i.test(text)) return text;
+  const body = /^[A-Z][a-z]/.test(text)
+    ? `${text.charAt(0).toLowerCase()}${text.slice(1)}`
+    : text;
+  return /^(for|on|in) /i.test(body) ? `not ${body}` : `not for ${body}`;
 }

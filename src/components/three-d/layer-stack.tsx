@@ -31,7 +31,7 @@ export type StackLayer = {
 export type StackDecor = { code: string; src: string; label: string };
 
 /** Isometric slab, top first, drawn from the same list as the model. */
-function Drawing({ layers }: { layers: StackLayer[] }) {
+export function Drawing({ layers }: { layers: StackLayer[] }) {
   const rowHeight = 300 / layers.length;
   return (
     <svg viewBox="0 0 400 420" className="h-full w-full" aria-hidden>

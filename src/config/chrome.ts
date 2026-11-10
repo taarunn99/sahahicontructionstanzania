@@ -86,6 +86,21 @@ export const chromeNav: ChromeNav = {
       sub: "By part of the building",
     },
     {
+      label: "Concrete repair selector",
+      href: "/solutions/concrete-repair",
+      sub: "By the damage",
+    },
+    {
+      label: "Tile installation selector",
+      href: "/solutions/tile-installation",
+      sub: "Adhesive, grout and care by job",
+    },
+    {
+      label: "Specifier pack",
+      href: "/specifier-pack",
+      sub: "BOQ clauses for consultants and QS",
+    },
+    {
       label: "Sports flooring",
       href: "/oriental-yuhong/sports-flooring",
       sub: `Oriental Yuhong · ${SPORTS_SYSTEMS.length} systems`,
@@ -173,6 +188,27 @@ export const searchIndex: SearchEntry[] = [
     "/solutions/waterproofing",
     "Pages",
     "waterproof roof bathroom basement water tank swimming pool leak kuzuia maji",
+  ),
+  searchEntry(
+    "Concrete repair in Tanzania",
+    "Which product for spalling, cracks, structure, floors, anchoring",
+    "/solutions/concrete-repair",
+    "Pages",
+    "repair spalling crack injection anchor grout manhole screed bonding",
+  ),
+  searchEntry(
+    "Tile adhesive in Tanzania",
+    "Which adhesive, grout, primer for which tiling job",
+    "/solutions/tile-installation",
+    "Pages",
+    "tile adhesive grout porcelain ceramic marble pool tile on tile gypsum",
+  ),
+  searchEntry(
+    "Specifier pack",
+    "Every BOQ clause, standard and data sheet in one spreadsheet",
+    "/specifier-pack",
+    "Pages",
+    "boq clause specification consultant quantity surveyor qs excel csv tender",
   ),
   searchEntry(
     "HDPE waterproofing in Tanzania",

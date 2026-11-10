@@ -7,30 +7,12 @@
  * `whereToUse` (or `notFor`, for the cautions) in src/content/<brand>/<slug>.json.
  * scripts/verify-waterproofing-selector.mjs fails the build on any drift.
  * There is no ranking: the order is the main coating first, then the details.
+ * Types and the fact law: src/config/selector.ts.
  */
 
-export type SelectorBrand = "mapei" | "oriental-yuhong" | "x-calibur";
+import type { SelectorPlace } from "@/config/selector";
 
-export type SelectorPick = {
-  brand: SelectorBrand;
-  slug: string;
-  quote: string;
-};
-
-export type SelectorCaution = SelectorPick & { note: string };
-
-export type SelectorPlace = {
-  slug: string;
-  label: string;
-  /** One line on what goes wrong there. Plain building sense, no product claim. */
-  problem: string;
-  /** The waterproofing layer itself. */
-  main: SelectorPick[];
-  /** Corners, joints, leaks, finishes: what goes with it. */
-  details: SelectorPick[];
-  /** Data sheet lines that rule a product out here. */
-  cautions?: SelectorCaution[];
-};
+export type { SelectorPick } from "@/config/selector";
 
 const YHCOAT_1000_INTERIOR =
   "Suitable for interior applications such as toilets, bathrooms, kitchens, balconies, floors, flat roof, and floor heating systems";

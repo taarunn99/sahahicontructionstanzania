@@ -298,6 +298,44 @@ export default async function MapeiLinePage({ params }: { params: Params }) {
               href: "/solutions/waterproofing",
               sub: "Mapei, OYH and X-Calibur by part of the building",
             },
+            {
+              label: "Specifier pack",
+              href: "/specifier-pack",
+              sub: "Every BOQ clause in one spreadsheet",
+            },
+          ]}
+        />
+      )}
+      {line.slug === "concrete-repair" && (
+        <RelatedLinks
+          links={[
+            {
+              label: "Concrete repair selector",
+              href: "/solutions/concrete-repair",
+              sub: "Which product for which damage",
+            },
+            {
+              label: "Specifier pack",
+              href: "/specifier-pack",
+              sub: "Every BOQ clause in one spreadsheet",
+            },
+          ]}
+        />
+      )}
+      {(line.slug === "tile-adhesives-grouts" ||
+        line.slug === "primers-levelling") && (
+        <RelatedLinks
+          links={[
+            {
+              label: "Tile installation selector",
+              href: "/solutions/tile-installation",
+              sub: "Adhesive, grout and care by job",
+            },
+            {
+              label: "Specifier pack",
+              href: "/specifier-pack",
+              sub: "Every BOQ clause in one spreadsheet",
+            },
           ]}
         />
       )}
