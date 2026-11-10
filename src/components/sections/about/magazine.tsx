@@ -245,7 +245,7 @@ export function SpreadRun({
       gsap
         .matchMedia()
         .add(
-          "(min-width: 64rem) and (min-height: 40rem) and (prefers-reduced-motion: no-preference)",
+          "(min-width: 64rem) and (min-height: 34rem) and (prefers-reduced-motion: no-preference)",
           () => {
             const list = track.current;
             const scroller = list?.parentElement;

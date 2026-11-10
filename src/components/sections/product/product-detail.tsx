@@ -349,7 +349,8 @@ export function ProductDetail({
 
           <div className="mt-4 grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16 print:mt-0 print:grid-cols-[32%_1fr] print:gap-8">
             <div className="lg:sticky lg:top-28">
-              <figure>
+              {/* While it sticks, the pack (or its 3D model) fits the window. */}
+              <figure className="lg:mx-auto lg:max-w-[max(18rem,calc(100svh-13rem))]">
                 <div className="border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white">
                   {image && model ? (
                     <ModelViewer

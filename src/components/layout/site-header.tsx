@@ -2,7 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import {
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 
 import {
   LanguageSwitch,
@@ -12,7 +18,7 @@ import { Logo } from "@/components/layout/logo";
 import { SiteSearch } from "@/components/layout/site-search";
 import { useMagneticShineGroup } from "@/hooks/use-magnetic-shine";
 import { BrandButton } from "@/components/ui/brand-button";
-import type { ChromeNav } from "@/config/chrome";
+import type { ChromeNav, MenuNode } from "@/config/chrome";
 import { siteConfig } from "@/config/site";
 import { isSwPath, swChromeLink, swNav } from "@/config/sw-routes";
 import { cn } from "@/lib/utils";
@@ -125,7 +131,7 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
 
         {/* Desktop nav, centered */}
         <nav
-          className="hidden items-center gap-5 lg:flex xl:gap-8 2xl:gap-10"
+          className="hidden h-full items-center gap-5 lg:flex xl:gap-8 2xl:gap-10"
           aria-label="Primary"
         >
           {nav
@@ -134,7 +140,7 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
               item.label === "Products" ? (
                 <div
                   key={item.href}
-                  className="relative"
+                  className="flex h-full items-center"
                   onPointerEnter={openProducts}
                   onPointerLeave={closeProducts}
                 >
@@ -159,105 +165,20 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
                     </span>
                   </Link>
 
-                  {/* Mega panel */}
+                  {/* Mega panel: three coloured columns (owner, 2026-11-10).
+                    Positioned against the fixed header, not the link, so it
+                    stays on screen at every desktop width. */}
                   <div
                     aria-hidden={!productsOpen}
+                    inert={!productsOpen}
                     className={cn(
-                      "absolute top-full left-1/2 -translate-x-1/2 pt-3 transition-all duration-200",
+                      "absolute top-full left-1/2 w-[min(880px,calc(100vw-2rem))] -translate-x-1/2 transition-all duration-200",
                       productsOpen
                         ? "visible translate-y-0 opacity-100"
                         : "invisible -translate-y-1 opacity-0",
                     )}
                   >
-                    <div className="bg-background text-foreground border-deep w-[600px] border shadow-2xl">
-                      <div className="grid grid-cols-[1.618fr_1fr]">
-                        {/* The lead brand and its lines, with live counts */}
-                        <div className="border-deep/15 border-r p-5">
-                          <Link
-                            href={chrome.lead.href}
-                            tabIndex={productsOpen ? 0 : -1}
-                            className="label-sh hover:text-foreground text-muted transition-colors"
-                          >
-                            {chrome.lead.label} →
-                          </Link>
-                          <ul className="mt-3 space-y-0.5">
-                            {chrome.lead.lines.map((line, index) => (
-                              <li key={line.href}>
-                                <Link
-                                  href={line.href}
-                                  tabIndex={productsOpen ? 0 : -1}
-                                  className="hover:bg-surface/60 flex items-baseline gap-3 rounded-lg p-2 transition-colors"
-                                >
-                                  <span
-                                    aria-hidden
-                                    className="spec-sh text-muted w-5 shrink-0"
-                                  >
-                                    {String(index + 1).padStart(2, "0")}
-                                  </span>
-                                  <span className="min-w-0">
-                                    <span className="font-display block text-lg leading-tight">
-                                      {line.label}
-                                    </span>
-                                    <span className="text-muted text-xs">
-                                      {line.sub}
-                                    </span>
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-
-                        {/* The other brands */}
-                        <div className="p-5">
-                          <p className="label-sh text-muted">More brands</p>
-                          <ul className="mt-3 space-y-0.5">
-                            {chrome.brands.map((brand) => (
-                              <li key={brand.href}>
-                                <Link
-                                  href={brand.href}
-                                  tabIndex={productsOpen ? 0 : -1}
-                                  className="hover:bg-surface/60 block rounded-md px-2 py-1.5 transition-colors"
-                                >
-                                  <span className="block text-sm">
-                                    {brand.label}
-                                  </span>
-                                  <span className="text-muted block text-xs">
-                                    {brand.sub}
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                          <p className="label-sh text-muted mt-5">Systems</p>
-                          <ul className="mt-3 space-y-0.5">
-                            {chrome.systems.map((brand) => (
-                              <li key={brand.href}>
-                                <Link
-                                  href={brand.href}
-                                  tabIndex={productsOpen ? 0 : -1}
-                                  className="hover:bg-surface/60 block rounded-md px-2 py-1.5 transition-colors"
-                                >
-                                  <span className="block text-sm">
-                                    {brand.label}
-                                  </span>
-                                  <span className="text-muted block text-xs">
-                                    {brand.sub}
-                                  </span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                      <Link
-                        href="/products"
-                        tabIndex={productsOpen ? 0 : -1}
-                        className="label-sh border-deep/15 hover:bg-surface/60 block border-t px-5 py-3 transition-colors"
-                      >
-                        All product lines →
-                      </Link>
-                    </div>
+                    <MegaPanel chrome={chrome} />
                   </div>
                 </div>
               ) : (
@@ -281,7 +202,7 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
         >
           <LanguageSwitch className="hidden sm:inline-flex" />
 
-          <BrandButton href="/contact" size="sm">
+          <BrandButton href="/contact" size="sm" className="whitespace-nowrap">
             {sw ? "Wasiliana nasi" : "Contact us"}
           </BrandButton>
 
@@ -390,6 +311,7 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
         id="mobile-menu"
         aria-label="Primary"
         aria-hidden={!menuOpen}
+        inert={!menuOpen}
         className={cn(
           "fixed inset-0 -z-10 overflow-x-clip lg:hidden",
           !menuOpen && "pointer-events-none",
@@ -401,7 +323,7 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
             menuOpen ? "translate-x-0" : "translate-x-full",
           )}
         >
-          <div className="container-sh pt-24 pb-12">
+          <div className="container-sh pt-24 pb-28">
             {/* Only while open: the closed panel is aria-hidden, and a button
                 inside it would still take keyboard focus. */}
             {menuOpen && <LanguageSwitch className="mb-8 sm:hidden" />}
@@ -446,61 +368,284 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
                 menuOpen ? "opacity-100 delay-500" : "opacity-0 delay-0",
               )}
             >
-              <p className="label-sh text-muted">{sw ? "Chapa" : "Brands"}</p>
-              <ul className="mt-4">
-                {[
-                  { label: chrome.lead.label, href: chrome.lead.href },
-                  ...chrome.brands,
-                ].map((brand) => (
-                  <li key={brand.href}>
-                    <Link
-                      href={brand.href}
-                      tabIndex={menuOpen ? 0 : -1}
-                      className="block py-2.5 text-base"
-                    >
-                      {brand.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <p className="label-sh text-muted mt-8">
-                {sw ? "Mifumo" : "Systems"}
-              </p>
-              <ul className="mt-4">
-                {chrome.systems.map((item) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      tabIndex={menuOpen ? 0 : -1}
-                      className="block py-2.5 text-base"
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <p className="label-sh text-muted mt-8">
-                {sw ? "Bidhaa" : "Products"}
-              </p>
-              <ul className="mt-4">
-                {(sw ? chrome.all.map(swChromeLink) : chrome.all).map(
-                  (line) => (
-                    <li key={line.href}>
-                      <Link
-                        href={line.href}
-                        tabIndex={menuOpen ? 0 : -1}
-                        className="block py-2.5 text-base"
-                      >
-                        {line.label}
-                      </Link>
-                    </li>
-                  ),
-                )}
-              </ul>
+              <MenuGroup tone="blue" title={sw ? "Chapa" : "Brands"}>
+                <MenuTree nodes={chrome.brandTree} phone />
+              </MenuGroup>
+              <MenuGroup tone="green" title={sw ? "Kwa kazi" : "Find by job"}>
+                <MenuTree nodes={chrome.jobTree} phone />
+              </MenuGroup>
+              <MenuGroup tone="yellow" title={sw ? "Mifumo" : "Systems"}>
+                <MenuTree nodes={chrome.systemTree} phone />
+              </MenuGroup>
+              <MenuGroup tone="ink" title={sw ? "Bidhaa" : "Product lines"}>
+                <MenuTree
+                  nodes={(sw ? chrome.all.map(swChromeLink) : chrome.all).map(
+                    (line) => ({ label: line.label, href: line.href }),
+                  )}
+                  phone
+                />
+              </MenuGroup>
             </div>
           </div>
         </div>
       </nav>
     </header>
+  );
+}
+
+/* ---- Products menu: one tree, used by the desktop panel and the phone -- */
+
+const HUES = ["red", "blue", "green", "yellow"] as const;
+type Hue = (typeof HUES)[number];
+// The phone menu is itself a Blue stage, so its rows never turn Blue.
+const PHONE_HUES: readonly Hue[] = ["red", "green", "yellow"];
+
+/** A new random colour for a row, never the one it had (globals.css). */
+function reHue(element: HTMLElement, palette: readonly Hue[]) {
+  const choices = palette.filter((hue) => hue !== element.dataset.hue);
+  element.dataset.hue = choices[Math.floor(Math.random() * choices.length)];
+}
+
+function Chevron({ open }: { open: boolean }) {
+  return (
+    <svg
+      aria-hidden
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={cn(
+        "transition-transform duration-300",
+        open ? "rotate-0" : "rotate-180",
+      )}
+    >
+      <path d="m3 9 4-4 4 4" />
+    </svg>
+  );
+}
+
+function MenuTree({
+  nodes,
+  depth = 0,
+  phone = false,
+}: {
+  nodes: MenuNode[];
+  depth?: number;
+  phone?: boolean;
+}) {
+  return (
+    <ul className={cn("space-y-0.5", depth > 0 && "py-1")}>
+      {nodes.map((node, index) => (
+        <MenuRow
+          key={`${node.href}|${node.label}`}
+          node={node}
+          index={index}
+          depth={depth}
+          phone={phone}
+        />
+      ))}
+    </ul>
+  );
+}
+
+/**
+ * A row: the label is a link to its page; a row with children also has an
+ * arrow that opens them in place and closes them again (owner, 2026-11-10).
+ * The panel keeps its size: the column scrolls instead.
+ */
+function MenuRow({
+  node,
+  index,
+  depth,
+  phone,
+}: {
+  node: MenuNode;
+  index: number;
+  depth: number;
+  phone: boolean;
+}) {
+  const [open, setOpen] = useState(false);
+  // Children mount the first time they open, so the closed menu stays light.
+  const [seen, setSeen] = useState(false);
+  const id = useId();
+  const palette = phone ? PHONE_HUES : HUES;
+  const kids = node.children;
+  const end = node.count ?? node.tag;
+  return (
+    <li>
+      <div
+        data-hue={palette[(index + depth) % palette.length]}
+        onPointerEnter={(event) => reHue(event.currentTarget, palette)}
+        className="hue-row group/row flex items-center rounded-md"
+      >
+        <Link
+          href={node.href}
+          className={cn(
+            "flex min-w-0 flex-1 items-center gap-3 px-3 py-1.5",
+            phone ? "min-h-11" : "min-h-10",
+            depth === 0
+              ? phone
+                ? "text-base"
+                : "text-[0.95rem] font-semibold"
+              : "text-sm font-medium",
+          )}
+        >
+          <span className="min-w-0">
+            {node.label}
+            {node.note && (
+              <span className="text-xs font-medium opacity-60 group-hover/row:opacity-90">
+                {" "}
+                {node.note}
+              </span>
+            )}
+          </span>
+          <span className="ml-auto flex shrink-0 items-center gap-2 text-xs font-medium">
+            {end && (
+              <span className="opacity-60 group-hover/row:opacity-90">
+                {end}
+              </span>
+            )}
+            {!kids && !phone && (
+              <span
+                aria-hidden
+                className="-translate-x-1 opacity-0 transition-all duration-200 group-hover/row:translate-x-0 group-hover/row:opacity-100"
+              >
+                →
+              </span>
+            )}
+          </span>
+        </Link>
+        {kids && (
+          <button
+            type="button"
+            aria-expanded={open}
+            aria-controls={id}
+            aria-label={`${open ? "Hide" : "Show"} ${node.label}`}
+            onClick={() => {
+              setSeen(true);
+              setOpen((value) => !value);
+            }}
+            className={cn(
+              "mr-1 flex shrink-0 items-center justify-center rounded-full transition-colors hover:bg-black/10",
+              phone ? "size-11" : "size-8",
+              open && "bg-black/5",
+            )}
+          >
+            <Chevron open={open} />
+          </button>
+        )}
+      </div>
+      {kids && (
+        <div
+          id={id}
+          inert={!open}
+          className={cn(
+            "grid transition-[grid-template-rows] duration-300 ease-out",
+            open ? "grid-rows-[1fr]" : "grid-rows-[0fr]",
+          )}
+        >
+          <div className="min-h-0 overflow-hidden">
+            {seen && (
+              <div className="border-deep/15 ml-4 border-l pl-1.5">
+                <MenuTree nodes={kids} depth={depth + 1} phone={phone} />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </li>
+  );
+}
+
+/* ---- Products menu, desktop: three coloured columns ------------------- */
+
+function MegaColumn({
+  band,
+  title,
+  children,
+}: {
+  band: string;
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="flex min-h-0 min-w-0 flex-col">
+      <p className={cn("label-sh shrink-0 px-5 py-3", band)}>{title}</p>
+      <div className="menu-scroll min-h-0 flex-1 overflow-y-auto overscroll-contain p-3">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function MegaPanel({ chrome }: { chrome: ChromeNav }) {
+  return (
+    // A fixed height: opening a brand scrolls its column, the panel never grows.
+    <div className="bg-background text-foreground border-deep flex h-[min(31rem,calc(100dvh-7rem))] flex-col overflow-hidden rounded-b-2xl border shadow-2xl">
+      <div className="divide-deep/10 grid min-h-0 flex-1 grid-cols-3 divide-x">
+        <MegaColumn band="bg-accent" title="Brands">
+          <MenuTree nodes={chrome.brandTree} />
+        </MegaColumn>
+        <MegaColumn band="bg-line" title="Find by job">
+          <MenuTree nodes={chrome.jobTree} />
+        </MegaColumn>
+        <MegaColumn band="bg-surface" title="Systems">
+          <MenuTree nodes={chrome.systemTree} />
+        </MegaColumn>
+      </div>
+      <Link
+        href="/products"
+        className="label-sh bg-deep hover:bg-accent group/row flex shrink-0 items-center justify-between px-5 py-3 text-white transition-colors duration-200"
+      >
+        All products
+        <span
+          aria-hidden
+          className="transition-transform duration-200 group-hover/row:translate-x-1"
+        >
+          →
+        </span>
+      </Link>
+    </div>
+  );
+}
+
+/* ---- Products menu, phone: the same groups, the same colours ---------- */
+
+// The phone menu is itself a Blue stage, so each heading is a Chalk pill with
+// a solid dot in its column's colour (a Blue pill would vanish into it).
+const PILL = {
+  blue: "bg-accent",
+  green: "bg-line",
+  yellow: "bg-surface",
+  ink: "bg-deep",
+} as const;
+
+function MenuGroup({
+  tone,
+  title,
+  children,
+}: {
+  tone: keyof typeof PILL;
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mt-8 first:mt-0">
+      <p className="label-sh bg-background inline-flex items-center gap-2 rounded-full px-3 py-1.5">
+        <span
+          aria-hidden
+          className={cn(
+            "size-2.5 rounded-full ring-1 ring-black/15",
+            PILL[tone],
+          )}
+        />
+        {title}
+      </p>
+      <div className="mt-3 -ml-3">{children}</div>
+    </div>
   );
 }

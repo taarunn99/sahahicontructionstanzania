@@ -93,7 +93,8 @@ export function SportsFilms({ videos }: { videos: SportsVideo[] }) {
       <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
         <div
           ref={stage}
-          className="bg-deep relative aspect-video overflow-hidden rounded-2xl"
+          // A film is never taller than the window: its width follows the height.
+          className="bg-deep relative mx-auto aspect-video w-full max-w-[calc((100svh-7rem)*16/9)] overflow-hidden rounded-2xl"
         >
           {full ? (
             <video

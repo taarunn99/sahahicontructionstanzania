@@ -46,7 +46,7 @@ export function FireBeam({ className }: { className?: string }) {
     <figure translate="no" className={cn("notranslate min-w-0", className)}>
       <div
         ref={stage}
-        className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-[16/9]"
+        className="stage-fit relative aspect-[4/3] w-full overflow-hidden [--stage-room:11rem] sm:aspect-[16/9]"
       >
         <div
           aria-hidden

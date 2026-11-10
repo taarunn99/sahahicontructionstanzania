@@ -265,7 +265,7 @@ export default async function PostPage({ params }: { params: Params }) {
           </div>
 
           {/* Aside: contents, and the one product page this post leads to */}
-          <aside className="lg:sticky lg:top-28 lg:self-start">
+          <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100svh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain">
             <nav aria-label="In this guide" className="hidden lg:block">
               <p className="label-sh text-muted">In this guide</p>
               <ol className="border-deep mt-4 border-t">
@@ -300,7 +300,7 @@ export default async function PostPage({ params }: { params: Params }) {
                   href={whatsappLink(post.title)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="chip-sh border-deep bg-chalk inline-flex min-h-10 items-center rounded-full border px-5 text-xs font-semibold"
+                  className="chip-sh border-deep bg-chalk inline-flex min-h-11 items-center rounded-full border px-5 text-xs font-semibold"
                 >
                   Ask on WhatsApp
                 </a>

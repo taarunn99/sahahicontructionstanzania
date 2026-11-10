@@ -2,10 +2,14 @@
  * Rebuilds every icon and the Open Graph image from the extracted brand
  * SVGs (run scripts/extract-brand-svgs.py first, or `npm run assets:brand`).
  *
- *   src/app/icon.svg        the Sahihi tick mark, vector
- *   src/app/favicon.ico     16/32/48 px layers (Google asks for a multiple of 48)
- *   src/app/icon.png        512 px raster for Google's favicon service
- *   src/app/apple-icon.png  180 px on the light ground; also the
+ * The icons live in public/ at fixed URLs, declared in layout.tsx: Next's
+ * file-convention icons get a ?dpl=<deployment> suffix that changes on every
+ * deploy, which slows Google's favicon refresh (owner, 2026-11-10: the SERP
+ * still showed Namecheap's parking-page favicon).
+ *   public/icon.svg        the Sahihi tick mark, vector
+ *   public/favicon.ico     16/32/48 px layers (Google asks for a multiple of 48)
+ *   public/icon.png        512 px raster for Google's favicon service
+ *   public/apple-icon.png  180 px on the light ground; also the
  *                           Organization schema logo (needs >= 112 px square
  *                           at a stable path)
  *   src/app/opengraph-image.jpg  1200x630 JPG (Next ignores .webp here):
@@ -19,7 +23,7 @@ import sharp from "sharp";
 const SKY = "#0078a8";
 const CHALK = "#fafbf8";
 
-await copyFile("public/brand/sahihi-mark.svg", "src/app/icon.svg");
+await copyFile("public/brand/sahihi-mark.svg", "public/icon.svg");
 const mark = await readFile("public/brand/sahihi-mark.svg");
 
 const sizes = [16, 32, 48];
@@ -44,7 +48,7 @@ for (let i = 0; i < sizes.length; i++) {
   entries.push(e);
 }
 await writeFile(
-  "src/app/favicon.ico",
+  "public/favicon.ico",
   Buffer.concat([header, ...entries, ...pngs]),
 );
 console.log(`favicon.ico ${offset} bytes`);
@@ -52,7 +56,7 @@ console.log(`favicon.ico ${offset} bytes`);
 await sharp(mark, { density: 1200 })
   .resize(512, 512)
   .png()
-  .toFile("src/app/icon.png");
+  .toFile("public/icon.png");
 console.log("icon.png 512px");
 
 // Apple icon: iOS fills transparency with black, so seat the mark on chalk.
@@ -65,7 +69,7 @@ await sharp({
 })
   .composite([{ input: appleMark, gravity: "centre" }])
   .png()
-  .toFile("src/app/apple-icon.png");
+  .toFile("public/apple-icon.png");
 console.log("apple-icon.png 180px");
 
 // Open Graph: full lockup (with tagline) on a Chalk card set in the Sky

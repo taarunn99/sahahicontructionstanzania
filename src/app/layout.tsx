@@ -64,6 +64,19 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   applicationName: siteConfig.brandName,
+  // Fixed URLs in public/, not Next's file-convention icons: those carry a
+  // ?dpl= suffix that changes on every deploy, and Google refreshes a
+  // favicon only slowly (owner, 2026-11-10: the SERP still showed the
+  // Namecheap parking favicon). Google wants a multiple of 48 px.
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+  },
   alternates: {
     canonical: "/",
     languages: { en: "/", "x-default": "/" },

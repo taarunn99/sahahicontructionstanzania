@@ -31,7 +31,7 @@ export function PostHero({ hero, stage }: { hero: Hero; stage: string }) {
           "relative overflow-hidden rounded-[2rem] px-4 pt-4 sm:px-8",
         )}
       >
-        <TileFloor className="mx-auto aspect-[4/3] max-w-3xl sm:aspect-[21/9]" />
+        <TileFloor className="stage-fit mx-auto aspect-[4/3] max-w-3xl [--stage-room:9rem] sm:aspect-[21/9]" />
         <figcaption className="spec-sh pb-4 text-center">
           Move over the floor. Tap it.
         </figcaption>
@@ -45,7 +45,7 @@ export function PostHero({ hero, stage }: { hero: Hero; stage: string }) {
           model={hero.model}
           poster={hero.poster}
           alt={hero.alt}
-          className="mx-auto aspect-[4/3] max-w-3xl sm:aspect-[16/10]"
+          className="mx-auto aspect-[4/3] max-w-3xl [--stage-room:9rem] sm:aspect-[16/10]"
         />
         <figcaption className="spec-sh text-muted border-deep/15 border-t px-5 py-3 text-center leading-relaxed">
           {hero.caption ??

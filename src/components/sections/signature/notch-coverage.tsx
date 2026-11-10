@@ -58,7 +58,11 @@ export function NotchCoverage({ data }: { data: NotchData }) {
         </p>
         <svg
           viewBox={`0 0 ${VIEW.w} ${VIEW.h}`}
-          className="mt-4 h-auto w-full"
+          className="mx-auto mt-4 block h-auto w-full"
+          style={{
+            // Never taller than the window: the width follows the height.
+            maxWidth: `max(16rem, calc((100svh - 9rem) * ${VIEW.w / VIEW.h}))`,
+          }}
           role="img"
           aria-label={`Drawn section: tile lifted above adhesive ridges combed with a number ${option.trowel} trowel, on a concrete substrate`}
           fill="none"

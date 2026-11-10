@@ -71,7 +71,14 @@ export function ModelViewer({
   const live = state === "model";
 
   return (
-    <div className={cn("relative aspect-square w-full", className)}>
+    <div
+      className={cn(
+        // stage-fit: never taller than the window, so the 3D button and the
+        // model are on screen together (owner, 2026-11-10).
+        "stage-fit relative aspect-square w-full [--stage-room:7rem]",
+        className,
+      )}
+    >
       <Image
         src={poster.src}
         alt={alt}

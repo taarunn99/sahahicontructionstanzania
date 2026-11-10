@@ -78,7 +78,7 @@ export function CatalogueFilter({
     <div
       ref={bar}
       translate="no"
-      className="notranslate border-deep bg-chalk sticky top-16 z-30 border-y sm:top-20"
+      className="notranslate border-deep bg-chalk sticky top-16 z-30 border-y sm:top-20 [@media(max-height:31rem)]:static"
     >
       <div className="container-sh flex items-center gap-5 py-2.5">
         <div

@@ -130,7 +130,7 @@ export function LayerStack({
         </p>
         <div
           ref={stage}
-          className="relative mt-3 aspect-[5/6] overflow-hidden sm:aspect-[6/5]"
+          className="stage-fit relative mt-3 aspect-[5/6] overflow-hidden sm:aspect-[6/5]"
         >
           <div
             className={cn(
@@ -178,24 +178,27 @@ export function LayerStack({
                 </span>
               </button>
             ))}
+          {/* The slider lives on the stage, so the model and its control are
+              always on screen together, whatever the window height (owner,
+              2026-11-10: cut off on an HP laptop). */}
+          {live && (
+            <label className="absolute inset-x-0 bottom-0 block px-1">
+              <span className="label-sh flex justify-between gap-4 opacity-80">
+                <span>Together</span>
+                <span>Pulled apart</span>
+              </span>
+              <input
+                type="range"
+                aria-label="Pull the layers apart"
+                min={0}
+                max={100}
+                value={explode}
+                onChange={(event) => setExplode(event.target.valueAsNumber)}
+                className="accent-brand h-11 w-full"
+              />
+            </label>
+          )}
         </div>
-        {live && (
-          <label className="mt-2 block">
-            <span className="label-sh flex justify-between gap-4 opacity-80">
-              <span>Together</span>
-              <span>Pulled apart</span>
-            </span>
-            <input
-              type="range"
-              aria-label="Pull the layers apart"
-              min={0}
-              max={100}
-              value={explode}
-              onChange={(event) => setExplode(event.target.valueAsNumber)}
-              className="accent-brand h-11 w-full"
-            />
-          </label>
-        )}
       </div>
 
       <div className="flex min-w-0 flex-col gap-6 p-5 sm:p-8">

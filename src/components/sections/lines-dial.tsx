@@ -246,24 +246,24 @@ export function LinesDial({
       ref={sectionRef}
       aria-label="Product lines"
       translate="no"
-      className="notranslate bg-background relative flex flex-col justify-center overflow-hidden py-20 sm:py-28 lg:min-h-svh lg:py-24"
+      className="notranslate bg-background relative flex flex-col justify-center overflow-hidden py-20 sm:py-28 lg:min-h-svh lg:py-24 lg:short:pt-[5.5rem] lg:short:pb-6"
     >
       <Container>
         <p className="label-sh text-muted">
           {copy.catalogue} · {items.reduce((sum, item) => sum + item.count, 0)}{" "}
           {copy.products}
         </p>
-        <h2 className="font-display text-phi-3 mt-5 tracking-tight">
+        <h2 className="font-display text-phi-3 mt-5 tracking-tight lg:short:mt-2 lg:short:text-4xl">
           {copy.heading}
         </h2>
       </Container>
 
-      <Container className="mt-8 grid items-center gap-8 lg:mt-10 lg:grid-cols-[1fr_1.1fr] lg:gap-12">
+      <Container className="mt-8 grid items-center gap-8 lg:mt-10 lg:grid-cols-[1fr_1.1fr] lg:gap-12 lg:short:mt-4">
         {/* Dial: desktop only, turned by the scroll. The pivot sits off the
             left edge; the active name lies on the horizontal. */}
         {!reduced && (
           <div
-            className="relative hidden h-[26rem] lg:block"
+            className="relative hidden h-[26rem] lg:block lg:short:h-[19rem]"
             role="listbox"
             aria-label="Product lines"
             aria-activedescendant={`dial-${active.slug}`}
@@ -348,7 +348,7 @@ export function LinesDial({
                   // Each layer carries its own stage class, so the text
                   // colour follows the stage (white on Blue and Green).
                   item.stage,
-                  "relative col-start-1 row-start-1 flex flex-col p-7 transition-opacity duration-500 sm:p-10",
+                  "relative col-start-1 row-start-1 flex flex-col p-7 transition-opacity duration-500 sm:p-10 lg:short:p-6",
                   on ? "z-10 opacity-100" : "opacity-0",
                 )}
               >
@@ -358,20 +358,20 @@ export function LinesDial({
                   </span>
                   <span>{item.brand}</span>
                 </p>
-                <p className="font-display mt-8 text-[clamp(3.24rem,9.36vw,6.12rem)] leading-[1.02]">
+                <p className="font-display mt-8 text-[clamp(3.24rem,9.36vw,6.12rem)] leading-[1.02] lg:short:mt-3 lg:short:text-[3.25rem]">
                   <NumberFlow value={on ? item.count : 0} />
                 </p>
                 <p className="label-sh text-muted mt-3">{copy.productsLabel}</p>
-                <h3 className="font-display mt-8 text-2xl leading-tight sm:text-3xl">
+                <h3 className="font-display mt-8 text-2xl leading-tight sm:text-3xl lg:short:mt-3 lg:short:text-2xl">
                   {item.label}
                 </h3>
-                <p className="text-muted mt-4 max-w-lg leading-relaxed">
+                <p className="text-muted mt-4 max-w-lg leading-relaxed lg:short:mt-2">
                   {item.blurb}
                 </p>
-                <p className="spec-sh mt-5 leading-relaxed">
+                <p className="spec-sh mt-5 leading-relaxed lg:short:mt-2">
                   {item.names.join(" · ")}
                 </p>
-                <div className="mt-9">
+                <div className="mt-9 lg:short:mt-4">
                   {/* Only the card on show gets the WebGL button: six hidden
                       ones would each open a graphics context. The others
                       keep a plain link, so every line is still in the HTML. */}

@@ -64,7 +64,8 @@ export function SelectorStack({
         </p>
         <div
           ref={stage}
-          className="relative mt-2 aspect-[6/5] overflow-hidden"
+          // Room for the header, the caption and the layer list under it.
+          className="stage-fit relative mt-2 aspect-[6/5] overflow-hidden [--stage-room:21rem]"
         >
           <div
             className={cn(

@@ -10,12 +10,12 @@ import { FlowButton } from "@/components/ui/flow-button";
 export default function NotFound() {
   return (
     <main className="theme-light bg-background text-foreground flex-1">
-      <section className="flex min-h-[78vh] items-center pt-32 pb-20">
+      <section className="flex min-h-[78vh] items-center pt-32 pb-20 short:pt-24 short:pb-12">
         <Container className="text-center">
           <p className="label-sh text-muted">Page not found</p>
           <p
             aria-label="404"
-            className="font-display text-deep mt-6 flex items-center justify-center gap-[0.04em] text-[clamp(6rem,26vw,17rem)] leading-none tracking-tight"
+            className="font-display text-deep mt-6 flex items-center justify-center gap-[0.04em] text-[clamp(5rem,min(26vw,30svh),17rem)] leading-none tracking-tight"
           >
             <span aria-hidden>4</span>
             <LostMark />

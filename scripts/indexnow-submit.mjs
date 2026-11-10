@@ -114,7 +114,9 @@ if (dryRun) {
 const res = await fetch(ENDPOINT, {
   method: "POST",
   headers: { "Content-Type": "application/json; charset=utf-8" },
-  body: JSON.stringify({ host: HOST, key, urlList }),
+  // keyLocation is optional for a root key file, but Bing's own example sends
+  // it, so the engines never have to guess where the proof is.
+  body: JSON.stringify({ host: HOST, key, keyLocation: keyUrl, urlList }),
 });
 
 const verdicts = {

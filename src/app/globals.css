@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* Short windows: laptops at 125% scaling, phones on their side (owner,
+   2026-11-10). Used as lg:short:... to tighten what must fit one screen. */
+@custom-variant short (@media (max-height: 52rem));
+
 /*
  * Palette "Bahari Solid" (owner, 2026-11-06: "drop the pastel colour idea,
  * I want solid colours ... popping just like the logo"; replaces Bahari
@@ -43,6 +47,8 @@
   /* Manufacturer colours, read from their logos. */
   --mapei: #0179c2;
   --xcalibur: #c43a31;
+  /* Products menu hover red (Oriental Yuhong's red, already on the site). */
+  --pop-red: #d7000f;
   --brand: var(--deep);
 
   /* Semantic tokens - the light ground is the default and the only theme. */
@@ -1056,5 +1062,51 @@ font[style],
   .print-sheet dl > div,
   .print-sheet li {
     break-inside: avoid;
+  }
+}
+
+/* ---- Products menu: a random solid colour per hover (owner, 2026-11-10:
+   "randomly select red blue green yellow on different tiles"). The header
+   sets data-hue on each row as the pointer enters it (site-header.tsx).
+   White on Red, Blue and Green; Ink on Yellow. --------------------------- */
+.hue-row {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.hue-row:is(:hover, :has(:focus-visible))[data-hue="red"] {
+  background-color: var(--pop-red);
+  color: var(--chalk);
+}
+.hue-row:is(:hover, :has(:focus-visible))[data-hue="blue"] {
+  background-color: var(--accent);
+  color: var(--chalk);
+}
+.hue-row:is(:hover, :has(:focus-visible))[data-hue="green"] {
+  background-color: var(--line);
+  color: var(--chalk);
+}
+.hue-row:is(:hover, :has(:focus-visible))[data-hue="yellow"] {
+  background-color: var(--surface);
+  color: var(--deep);
+}
+/* Thin scrollbars inside the menu's columns. */
+.menu-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(12, 42, 54, 0.3) transparent;
+}
+
+/* ---- A 3D or interactive stage is never taller than the window --------
+   (owner, 2026-11-10: on an HP laptop the pull-apart slider was below the
+   screen). Its height follows its width as before, but stops at the window
+   height minus the header and the room its own controls need, set per
+   stage with --stage-room. The scenes all resize with a ResizeObserver. */
+.stage-fit {
+  max-height: max(15rem, calc(100svh - var(--stage-room, 8rem)));
+}
+/* A phone on its side: a smaller floor, so the controls still fit. */
+@media (max-height: 30rem) {
+  .stage-fit {
+    max-height: max(9rem, calc(100svh - var(--stage-room, 8rem)));
   }
 }

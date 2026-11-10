@@ -231,7 +231,9 @@ function BuildingDrawing({
   return (
     <svg
       viewBox="0 0 400 300"
-      className="border-deep/15 w-full rounded-lg border bg-white"
+      // Never taller than the window allows, so the chips stay in view
+      // while this column sticks (owner, 2026-11-10).
+      className="border-deep/15 mx-auto block w-full max-w-[max(18rem,calc((100svh-17rem)*4/3))] rounded-lg border bg-white"
       aria-hidden
     >
       {/* sky line and ground */}

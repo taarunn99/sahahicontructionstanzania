@@ -49,7 +49,11 @@ export function DefectMap({ defects }: { defects: Defect[] }) {
         <div className="relative mt-4">
           <svg
             viewBox={`0 0 ${VIEW.w} ${VIEW.h}`}
-            className="h-auto w-full"
+            className="mx-auto block h-auto w-full"
+            style={{
+              // Never taller than the window: the width follows the height.
+              maxWidth: `max(16rem, calc((100svh - 9rem) * ${VIEW.w / VIEW.h}))`,
+            }}
             role="img"
             aria-label="Diagram of a concrete frame with five conditions marked: exposed steel, a microcrack, a section to recast, a construction joint and a fixing"
             fill="none"

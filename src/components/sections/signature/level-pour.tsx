@@ -62,7 +62,11 @@ export function LevelPour({ data }: { data: PourData }) {
         <svg
           ref={svgRef}
           viewBox={`0 0 ${VIEW.w} ${VIEW.h}`}
-          className="mt-4 h-auto w-full cursor-ns-resize touch-none select-none"
+          className="mx-auto mt-4 block h-auto w-full cursor-ns-resize touch-none select-none"
+          style={{
+            // Never taller than the window: the width follows the height.
+            maxWidth: `max(16rem, calc((100svh - 9rem) * ${VIEW.w / VIEW.h}))`,
+          }}
           role="img"
           aria-label={`Drawn section: ${thickness} millimetres of self-levelling compound over an uneven concrete slab`}
           fill="none"

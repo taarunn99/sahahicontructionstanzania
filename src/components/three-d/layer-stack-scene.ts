@@ -174,7 +174,12 @@ export function mountLayerStack(
       anchor.set(WIDTH / 2, 0, DEPTH / 2);
       mesh.localToWorld(anchor);
       anchor.project(camera);
-      const x = Math.round((anchor.x * 0.5 + 0.5) * w);
+      // Keep the tag inside the stage: an open tag carries the layer's name
+      // and would otherwise run past the right edge and be cut off.
+      const x = Math.min(
+        Math.round((anchor.x * 0.5 + 0.5) * w),
+        w - element.offsetWidth - 4,
+      );
       const y = Math.round((-anchor.y * 0.5 + 0.5) * h);
       element.style.transform = `translate(${x}px, ${y}px)`;
       element.style.opacity = "1";
@@ -189,7 +194,9 @@ export function mountLayerStack(
     // Fit the stack on a narrow phone as well as on a wide stage.
     const distance = camera.aspect < 1 ? 13.5 / camera.aspect ** 0.55 : 11.5;
     camera.position.set(0, distance * 0.42, distance);
-    camera.lookAt(0, 0, 0);
+    // Aim a little below the middle: the model sits higher, clear of the
+    // pull-apart slider along the bottom of the stage.
+    camera.lookAt(0, -0.7, 0);
     camera.updateProjectionMatrix();
   };
   const observer = new ResizeObserver(resize);

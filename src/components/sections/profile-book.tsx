@@ -171,7 +171,7 @@ export function ProfileBook() {
         onKeyDown={onKey}
         onPointerDown={onDown}
         onPointerUp={onUp}
-        className="focus-visible:ring-brand/40 mx-auto max-w-5xl touch-pan-y outline-none select-none [perspective:2200px] focus-visible:ring-4"
+        className="focus-visible:ring-brand/40 mx-auto max-w-5xl touch-pan-y md:max-w-[min(64rem,calc((100svh-12rem)*1.414))] max-md:max-w-[min(100%,calc((100svh-12rem)*0.707))] outline-none select-none [perspective:2200px] focus-visible:ring-4"
       >
         <div
           className={cn(
@@ -264,7 +264,7 @@ export function ProfileBook() {
                 const index = chapter.page - 1;
                 go(wide ? index + (index % 2) : index);
               }}
-              className="border-deep/25 text-deep hover:bg-surface min-h-10 rounded-full border bg-white px-4 text-sm font-semibold transition-colors"
+              className="border-deep/25 text-deep hover:bg-surface min-h-11 rounded-full border bg-white px-4 text-sm font-semibold transition-colors"
             >
               {chapter.label}
             </button>

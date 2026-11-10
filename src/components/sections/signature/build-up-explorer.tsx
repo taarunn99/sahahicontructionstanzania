@@ -148,7 +148,7 @@ export function BuildUpExplorer({
         </p>
         <div
           ref={stageRef}
-          className="relative mt-4 aspect-[5/6] sm:aspect-[6/5]"
+          className="stage-fit relative mt-4 aspect-[5/6] [--stage-room:15rem] sm:aspect-[6/5]"
         >
           <div
             className={cn(

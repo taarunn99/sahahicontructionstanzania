@@ -7,7 +7,12 @@ import {
   products,
   productsInLine,
 } from "@/config/catalogue";
-import { bihuiFamilies, bihuiHref, bihuiName } from "@/config/bihui";
+import {
+  bihuiCategories,
+  bihuiFamilies,
+  bihuiHref,
+  bihuiName,
+} from "@/config/bihui";
 import { cmciHref, cmciProducts } from "@/config/cmci";
 import { searchEntry, type SearchEntry } from "@/lib/search";
 
@@ -17,18 +22,44 @@ import { searchEntry, type SearchEntry } from "@/lib/search";
  * catalogue itself never enters the client bundle, and counts in the menus
  * can never drift from the data.
  */
-export type ChromeLink = { label: string; href: string; sub: string };
+export type ChromeLink = {
+  label: string;
+  href: string;
+  sub: string;
+  /** The live count alone ("12"), for the compact Products menu. */
+  count?: string;
+};
+
+/**
+ * One row of the Products menu tree. A row with children gets an arrow that
+ * opens them in place (owner, 2026-11-10: "an arrow which would be a
+ * dropdown"), so every brand, line, product, system and tool page can be
+ * reached from the menu.
+ */
+export type MenuNode = {
+  label: string;
+  href: string;
+  /** The live count alone ("12"). */
+  count?: string;
+  /** A short grey note after the label ("authorized distributor"). */
+  note?: string;
+  /** A tag at the row's end in place of a count (the brand of a system). */
+  tag?: string;
+  children?: MenuNode[];
+};
 
 export type ChromeNav = {
-  /** The lead brand and its lines (left column of the mega panel). */
-  lead: { label: string; href: string; lines: ChromeLink[] };
-  /** The other brands (right column of the mega panel). */
-  brands: ChromeLink[];
+  /** Every brand, with its lines, products, systems or tools beneath it. */
+  brandTree: MenuNode[];
   /** Footer brand list. */
   footerBrands: { label: string; href: string }[];
   /** Every product line, in catalogue order (mobile menu, footer list). */
   all: ChromeLink[];
-  /** System pages that are not a product line: menus on desktop and phone, footer. */
+  /** The selectors and the specifier pack: "Find by job" in the menus. */
+  jobTree: MenuNode[];
+  /** A brand's system pages (sports, HDPE, fire, Vasa): "Systems" in the menus. */
+  systemTree: MenuNode[];
+  /** jobs then brandSystems: the footer's Systems list. */
   systems: ChromeLink[];
 };
 
@@ -38,6 +69,7 @@ const lineLink = (line: (typeof lines)[number]): ChromeLink => ({
   label: line.label,
   href: lineHref(line),
   sub: count(productsInLine(line.slug).length),
+  count: String(productsInLine(line.slug).length),
 });
 
 /** Brand hubs that exist; the rest are anchors on /products for now. */
@@ -52,73 +84,152 @@ const HUBS = new Set([
 const brandHref = (slug: string) =>
   HUBS.has(slug) ? `/${slug}` : `/products#${slug}`;
 
-const [leadBrand, ...otherBrands] = brands;
+const JOBS: ChromeLink[] = [
+  {
+    label: "Waterproofing selector",
+    href: "/solutions/waterproofing",
+    sub: "By part of the building",
+  },
+  {
+    label: "Concrete repair selector",
+    href: "/solutions/concrete-repair",
+    sub: "By the damage",
+  },
+  {
+    label: "Tile installation selector",
+    href: "/solutions/tile-installation",
+    sub: "Adhesive, grout and care by job",
+  },
+  {
+    label: "Specifier pack",
+    href: "/specifier-pack",
+    sub: "BOQ clauses for consultants and QS",
+  },
+];
+
+const BRAND_SYSTEMS: ChromeLink[] = [
+  {
+    label: "Sports flooring",
+    href: "/oriental-yuhong/sports-flooring",
+    sub: `Oriental Yuhong · ${SPORTS_SYSTEMS.length} systems`,
+  },
+  {
+    label: "HDPE waterproofing",
+    href: "/oriental-yuhong/hdpe-waterproofing",
+    sub: "Oriental Yuhong",
+  },
+  {
+    label: "Fire rated cement",
+    href: "/cmci/fire-rated-cement",
+    sub: "CMCI",
+  },
+  { label: "SPC flooring", href: "/vasa/spc-flooring", sub: "Vasa" },
+  { label: "LVT flooring", href: "/vasa/lvt-flooring", sub: "Vasa" },
+  { label: "Wall panels", href: "/vasa/wall-panels", sub: "Vasa" },
+];
+
+const productNodes = (brand: string): MenuNode[] =>
+  products
+    .filter((product) => product.brand === brand)
+    .map((product) => ({ label: product.name, href: productHref(product) }));
+
+const withCount = (node: MenuNode): MenuNode => ({
+  ...node,
+  count: node.children ? String(node.children.length) : node.count,
+});
+
+/** What opens under each brand's arrow. */
+const BRAND_CHILDREN: Record<string, () => MenuNode[]> = {
+  mapei: () =>
+    lines
+      .filter((line) => line.brand === "mapei")
+      .map((line) => ({
+        label: line.label,
+        href: lineHref(line),
+        count: String(productsInLine(line.slug).length),
+        children: productsInLine(line.slug).map((product) => ({
+          label: product.name,
+          href: productHref(product),
+        })),
+      })),
+  "oriental-yuhong": () => [
+    withCount({
+      label: "Sports flooring",
+      href: "/oriental-yuhong/sports-flooring",
+      children: SPORTS_SYSTEMS.map((system) => ({
+        label: system.name,
+        href: `/oriental-yuhong/sports-flooring/${system.slug}`,
+      })),
+    }),
+    { label: "HDPE waterproofing", href: "/oriental-yuhong/hdpe-waterproofing" },
+    ...productNodes("oriental-yuhong"),
+  ],
+  vasa: () => [
+    { label: "SPC flooring", href: "/vasa/spc-flooring" },
+    { label: "LVT flooring", href: "/vasa/lvt-flooring" },
+    { label: "Wall panels", href: "/vasa/wall-panels" },
+  ],
+  "x-calibur": () => productNodes("x-calibur"),
+  cmci: () => [
+    { label: "Fire rated cement", href: "/cmci/fire-rated-cement" },
+    ...cmciProducts.map((product) => ({
+      label: product.name,
+      href: cmciHref(product),
+    })),
+  ],
+  bihui: () =>
+    bihuiCategories.map((category) => ({
+      label: category.name,
+      href: `/bihui#${category.id}`,
+      count: String(category.families.length),
+      children: category.families.map((family) => ({
+        label: bihuiName(family),
+        href: bihuiHref(family),
+      })),
+    })),
+};
+
+/** How many products a brand row counts (pages, not menu rows). */
+const BRAND_COUNT: Record<string, number> = {
+  mapei: products.filter((p) => p.brand === "mapei").length,
+  "oriental-yuhong": products.filter((p) => p.brand === "oriental-yuhong")
+    .length,
+  "x-calibur": products.filter((p) => p.brand === "x-calibur").length,
+  cmci: cmciProducts.length,
+  bihui: bihuiFamilies.length,
+};
 
 export const chromeNav: ChromeNav = {
-  lead: {
-    label: `${leadBrand.name} - ${leadBrand.authorization.toLowerCase()}`,
-    href: brandHref(leadBrand.slug),
-    lines: lines.filter((line) => line.brand === leadBrand.slug).map(lineLink),
-  },
-  brands: otherBrands.map((brand) => ({
+  brandTree: brands.map((brand, index) => ({
     label: brand.name,
     href: brandHref(brand.slug),
-    sub:
-      brand.slug === "bihui"
-        ? `${bihuiFamilies.length} tools`
-        : brand.slug === "vasa"
-          ? "SPC, LVT, wall panels"
-          : brand.slug === "cmci"
-            ? count(cmciProducts.length)
-            : brand.catalogued
-              ? count(products.filter((p) => p.brand === brand.slug).length)
-              : "Range on request",
+    note: index === 0 ? brand.authorization.toLowerCase() : undefined,
+    count:
+      brand.slug in BRAND_COUNT ? String(BRAND_COUNT[brand.slug]) : undefined,
+    children: BRAND_CHILDREN[brand.slug]?.(),
   })),
   footerBrands: brands.map((brand) => ({
     label: brand.name,
     href: brandHref(brand.slug),
   })),
   all: lines.map(lineLink),
-  systems: [
-    {
-      label: "Waterproofing selector",
-      href: "/solutions/waterproofing",
-      sub: "By part of the building",
-    },
-    {
-      label: "Concrete repair selector",
-      href: "/solutions/concrete-repair",
-      sub: "By the damage",
-    },
-    {
-      label: "Tile installation selector",
-      href: "/solutions/tile-installation",
-      sub: "Adhesive, grout and care by job",
-    },
-    {
-      label: "Specifier pack",
-      href: "/specifier-pack",
-      sub: "BOQ clauses for consultants and QS",
-    },
-    {
-      label: "Sports flooring",
-      href: "/oriental-yuhong/sports-flooring",
-      sub: `Oriental Yuhong · ${SPORTS_SYSTEMS.length} systems`,
-    },
-    {
-      label: "HDPE waterproofing",
-      href: "/oriental-yuhong/hdpe-waterproofing",
-      sub: "Oriental Yuhong",
-    },
-    {
-      label: "Fire rated cement",
-      href: "/cmci/fire-rated-cement",
-      sub: "CMCI",
-    },
-    { label: "SPC flooring", href: "/vasa/spc-flooring", sub: "Vasa" },
-    { label: "LVT flooring", href: "/vasa/lvt-flooring", sub: "Vasa" },
-    { label: "Wall panels", href: "/vasa/wall-panels", sub: "Vasa" },
-  ],
+  jobTree: JOBS.map((job) => ({
+    label: job.label.replace(/ selector$/, ""),
+    href: job.href,
+  })),
+  systemTree: BRAND_SYSTEMS.map((system) => ({
+    label: system.label,
+    href: system.href,
+    tag: system.sub.split(" · ")[0].replace("Oriental Yuhong", "OYH"),
+    children:
+      system.href === "/oriental-yuhong/sports-flooring"
+        ? SPORTS_SYSTEMS.map((sports) => ({
+            label: sports.name,
+            href: `/oriental-yuhong/sports-flooring/${sports.slug}`,
+          }))
+        : undefined,
+  })),
+  systems: [...JOBS, ...BRAND_SYSTEMS],
 };
 
 /**
