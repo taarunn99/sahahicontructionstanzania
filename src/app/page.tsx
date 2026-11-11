@@ -37,6 +37,7 @@ import { projects, projectsPeriod } from "@/config/projects";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { pairAlternates } from "@/config/sw-routes";
 import { faqJsonLd } from "@/lib/faq";
+import { ogBase, resolveOg } from "@/lib/seo";
 import { pad } from "@/lib/utils";
 
 /**
@@ -48,7 +49,19 @@ import { pad } from "@/lib/utils";
  * hero drawing only moves when the visitor scrolls or moves the pointer.
  */
 
-export const metadata: Metadata = { alternates: pairAlternates("/") };
+// Title and description come from layout.tsx and siteConfig (recorded in
+// src/config/seo/core.ts). Next replaces a parent's openGraph wholesale, so
+// the layout's share-card words are repeated here beside the home card.
+export const metadata: Metadata = {
+  alternates: pairAlternates("/"),
+  openGraph: {
+    ...ogBase,
+    title: `${siteConfig.brandName} - ${siteConfig.tagline}`,
+    description: siteConfig.description,
+    url: "/",
+    images: resolveOg("/") ?? ogBase.images,
+  },
+};
 
 /** Short names for the dial, where the full label would not fit the arc. */
 const DIAL_SHORT: Record<Exclude<LineSlug, "cmci">, string> = {

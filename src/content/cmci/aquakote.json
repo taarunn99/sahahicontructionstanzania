@@ -1,0 +1,90 @@
+{
+  "slug": "aquakote",
+  "description": "The system cures to form a weatherproof coating with high diffusion resistance to carbon dioxide making it ideal for protecting lightweight Cementitious Fireproofing, MONOKOTE Commercial grade and AVIKOTE Petrochemical grade materials. It provides protection against aggressive atmospheric pollution and chloride ions and is breathable allowing moisture vapor to pass through.",
+  "whereToUse": [
+    "Lightweight Cementitious Fireproofing",
+    "MONOKOTE Commercial grade",
+    "AVIKOTE Petrochemical grade materials"
+  ],
+  "advantages": [
+    "Cures to form an elastomeric membrane capable of facilitating movement in the substrate.",
+    "Accommodates live crack movement up to 2mm.",
+    "Breathable coating.",
+    "Fast and easy application.",
+    "High elongation and recovery rate.",
+    "Resistances to sulphate attack.",
+    "Excellent carbon dioxide diffusion resistance",
+    "High diffusion resistance to chloride ions.",
+    "Long term UV protection.",
+    "Non-hazardous - Water based acrylic formulations"
+  ],
+  "notFor": [
+    "Ensure the temperature should be 3°C above dew point while application.",
+    "Protect adjacent areas from overspray.",
+    "Opened containers should be covered always when not in use.",
+    "In high temperature, the containers should be kept closed to prevent skinning of top layer."
+  ],
+  "standards": [
+    {
+      "standard": "ASTM C642",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D412",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D4541",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Solid content by volume",
+      "value": "50%"
+    },
+    {
+      "label": "Chloride ion diffusion coefficient (60 days, Taywood method)",
+      "value": "Nil"
+    },
+    {
+      "label": "Reduction in water absorption (ASTM C642)",
+      "value": "92%"
+    },
+    {
+      "label": "Reduction in chloride ion penetration",
+      "value": "96%"
+    },
+    {
+      "label": "Elongation (ASTM D412)",
+      "value": "400%"
+    },
+    {
+      "label": "Adhesion (ASTM D4541)",
+      "value": "1 N/mm2"
+    },
+    {
+      "label": "Tensile strength (ASTM D412)",
+      "value": "3 N/mm2"
+    },
+    {
+      "label": "Overcoating time",
+      "value": "4hrs"
+    },
+    {
+      "label": "Full drying time",
+      "value": "24hrs"
+    },
+    {
+      "label": "Colours",
+      "value": "White, Grey and Beige colors"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "The recommended coverage is 0.20 liters per sq. met. per coat over troweled surface."
+    }
+  ],
+  "mixing": "It is recommended that first coat be applied thinned down 10% to 15% on dry clean surface. Full concentrated second coat shall be applied to achieve the final finish.",
+  "storage": "Store in a cool, dry conditions, away from sources of heat and naked flames, in the original unopened pails"
+}

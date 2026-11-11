@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 import { LostMark } from "@/components/sections/lost-mark";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
@@ -5,8 +7,19 @@ import { FlowButton } from "@/components/ui/flow-button";
 /**
  * Branded 404 (owner, 2026-11-09: more creative, the logo animated, and two
  * buttons only). The "0" is the logo's tick and sun, looking for the page.
- * Next serves it with a real 404 status and noindex.
+ * Next serves it with a real 404 status and noindex. Its own metadata keeps
+ * the home page's title, canonical and hreflang off it (metadata pass,
+ * 2026-11-12: the 404 carried the home title and a contradictory
+ * "index, follow" tag beside the noindex).
  */
+export const metadata: Metadata = {
+  title: "Page not found",
+  description: "This address is not on sahihicc.com. Start again from the home page or contact Sahihi Construction Chemicals in Dar es Salaam.",
+  robots: { index: false, follow: false },
+  alternates: {},
+  openGraph: undefined,
+};
+
 export default function NotFound() {
   return (
     <main className="theme-light bg-background text-foreground flex-1">

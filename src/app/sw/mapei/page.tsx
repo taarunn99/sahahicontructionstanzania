@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     description: swHub.description,
     url: "/sw/mapei",
     locale: "sw_TZ",
+    images: resolveOg("/sw/mapei") ?? ogBase.images,
   },
 };
 

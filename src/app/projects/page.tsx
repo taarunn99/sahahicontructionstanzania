@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 import { CtaBand } from "@/components/sections/cta-band";
 import { ProjectsLibrary } from "@/components/sections/projects/projects-library";
@@ -13,6 +13,7 @@ import {
   projects,
   projectsPeriod,
 } from "@/config/projects";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig } from "@/config/site";
 
 /**
@@ -25,9 +26,9 @@ import { siteConfig } from "@/config/site";
  * confirmation (docs/OPEN-QUESTIONS.md Q5, docs/DEPLOY-CHECKLIST.md).
  */
 
-const TITLE = "Mapei Projects in Tanzania - Sites We Have Supplied | Sahihi";
-const DESCRIPTION =
-  "Projects in Tanzania supplied with Mapei waterproofing, concrete repair, resin flooring and tile adhesives in 2025 and 2026. Filter by line or by product.";
+const ROW = coreRow("/projects");
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/projects",
+    images: resolveOg("/projects") ?? ogBase.images,
   },
 };
 
@@ -81,7 +83,7 @@ export default function ProjectsPage() {
         <Container className="relative z-10 pt-28 pb-16 sm:pt-36 sm:pb-24">
           <Breadcrumb items={crumbs} />
           <p className="label-sh text-muted mt-10 leading-relaxed">
-            References · {projectsPeriod}
+            Mapei projects in Tanzania · {projectsPeriod}
           </p>
           <h1 className="font-display mt-5 max-w-5xl text-[clamp(1.87rem,6.05vw,4.14rem)] leading-[1.02] tracking-tight text-balance">
             Where the products have gone.

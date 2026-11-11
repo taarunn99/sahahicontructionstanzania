@@ -17,14 +17,17 @@ import { productHref, products } from "@/config/catalogue";
  * listed by the sheet's own name, without a link.
  */
 
-type OfferItem = { name: string; href: string | null };
+type OfferItem = { name: string; href: string | null; slug: string | null };
 
 const inCatalogue = (slug: string): OfferItem => {
   const product = products.find((item) => item.slug === slug);
   if (!product) throw new Error(`offers: unknown product "${slug}"`);
-  return { name: product.name, href: productHref(product) };
+  return { name: product.name, href: productHref(product), slug };
 };
-const named = (name: string): OfferItem => ({ name, href: null });
+const named = (name: string): OfferItem => ({ name, href: null, slug: null });
+
+/** The sale page (owner, 2026-11-11): the band's call to action goes here. */
+export const offerPage = "/sale";
 
 export const offer = {
   label: "November offer",

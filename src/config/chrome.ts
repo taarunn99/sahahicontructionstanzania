@@ -13,7 +13,7 @@ import {
   bihuiHref,
   bihuiName,
 } from "@/config/bihui";
-import { cmciHref, cmciProducts } from "@/config/cmci";
+import { cmciAll, cmciHref } from "@/config/cmci";
 import { searchEntry, type SearchEntry } from "@/lib/search";
 
 /**
@@ -172,7 +172,7 @@ const BRAND_CHILDREN: Record<string, () => MenuNode[]> = {
   "x-calibur": () => productNodes("x-calibur"),
   cmci: () => [
     { label: "Fire rated cement", href: "/cmci/fire-rated-cement" },
-    ...cmciProducts.map((product) => ({
+    ...cmciAll.map((product) => ({
       label: product.name,
       href: cmciHref(product),
     })),
@@ -195,7 +195,7 @@ const BRAND_COUNT: Record<string, number> = {
   "oriental-yuhong": products.filter((p) => p.brand === "oriental-yuhong")
     .length,
   "x-calibur": products.filter((p) => p.brand === "x-calibur").length,
-  cmci: cmciProducts.length,
+  cmci: cmciAll.length,
   bihui: bihuiFamilies.length,
 };
 
@@ -344,7 +344,7 @@ export const searchIndex: SearchEntry[] = [
       `${system.aka ?? ""} sports flooring`,
     ),
   ),
-  ...cmciProducts.map((product) =>
+  ...cmciAll.map((product) =>
     searchEntry(
       product.name,
       product.type,

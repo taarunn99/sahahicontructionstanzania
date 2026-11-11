@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ProductDetail } from "@/components/sections/product/product-detail";
 import { lineBySlug, lineHref, productHref } from "@/config/catalogue";
 import {
+  itemDescription,
   itemTitle,
   mapeiContent,
   mapeiProductBySlug,
@@ -14,7 +15,7 @@ import {
 } from "@/config/mapei";
 import { mapeiCoverage } from "@/config/mapei-coverage";
 import { packshot } from "@/config/packshots";
-import { seoDescription, ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 type Params = Promise<{ line: string; item: string }>;
 
@@ -42,12 +43,7 @@ export async function generateMetadata({
   const product = find(line, item);
   if (!product) return {};
   const title = itemTitle(product);
-  const description = seoDescription(
-    product.summary,
-    "Stocked by Sahihi in Dar es Salaam.",
-    "Data sheet, pack sizes and coverage calculator.",
-    "Authorized Mapei distributor.",
-  );
+  const description = itemDescription(product);
   const url = productHref(product);
   return {
     title: { absolute: title },
@@ -58,6 +54,7 @@ export async function generateMetadata({
       title,
       description,
       url,
+      images: resolveOg(url) ?? ogBase.images,
     },
   };
 }

@@ -232,3 +232,44 @@ Map legend: "BIHUI GROUP", "BIHUI FACTORY", "BRANCH OFFICE", "DISTRIBUTOR"; note
 > DISTRIBUTORS 60+ / BIHUI TEAM 150+ / PRODUCTION BASE 2 / OFFICE 2
 
 Tanzania is in neither list, and neither page gives a date for these numbers. The map shades China and one country in South East Asia dark, with factory icons; no text names them.
+
+## Name corrections for titles, 2026-11-12
+
+Made in `titleOverride` and `typeWords` in `src/config/seo/bihui.ts` for the SERP titles only. The JSON keeps every name as printed; `nameClean` is unchanged. Page headings still use `nameClean` or the printed name.
+
+Spelling and typesetting in the source:
+
+- silicon-application-kit-2pcs: "Silicon Application Kit - 2pcs" (p6, STAK2) to "Silicone Application Kit 2pcs" ("Silicon" is a typo for silicone; the inner " - " was dropped so the title has one dash).
+- silicon-application-set-4pcs: "4pcs Silicon Appliction Set" (p6, STARK4) to "Silicone Application Set 4pcs" ("Appliction" and "Silicon" corrected; the count moved after the name).
+- epoxy-grout-float-green-hard-rubber: "Epoxy Gtout Float with Plastic Handle - Green Hard Rubber" (p9, CFHRL) to "Epoxy Grout Float - BIHUI Green Hard Rubber 248mm" ("Gtout" corrected, as `nameClean` already does).
+- dry-diamond-polishing-pad: `4" Dry Diamond Polishing Pad` (p16) to "Dry Diamond Polishing Pad - BIHUI 4 Inch, #50-1500" (the inch mark written as a word).
+- tile-gap-adjuster-with-suction-cups: "Tile Gap Adjustable with 2pcs 6 Inch Pump Suction Cup" (p15, LFTFV6) to "Tile Gap Adjuster - BIHUI Two 6 Inch Suction Cups" ("Adjustable" is the catalogue's grammar for the adjuster).
+- reusable-tile-leveling-system: "Reusable Tile Leveling System" (p10, TQWT50) to "Reusable Tile Levelling System Tanzania" (American to British spelling, to match the query "tile levelling system Tanzania"; not a typo). Other "Leveling" names (tile-leveling-base, leveling-cap-wedges, leveling-plier) keep the catalogue spelling in the title and take the British spelling only in the query.
+- aluminum-box-screed-set: "Aluminum" kept as printed in the title (American spelling, not a typo); the query and description use "aluminium".
+
+Names over the 60-character budget or misleading as headed, shortened or reordered:
+
+- professional-trowel-stainless-steel: "Professional Trowel with Smooth Soft Grip Handle, Stainless Steel #420" to "Notched Trowel Tanzania - BIHUI Stainless Steel".
+- professional-trowel-carbon-steel: "Professional Trowel with Smooth Soft Grip Handle, Carbon Steel Blade" to "Carbon Steel Notched Trowel - BIHUI 6, 8, 10mm".
+- epoxy-grout-float-thermoplastic-rubber-pad: "Epoxy Grout Float with Solid 12mm Thermoplastic Rubber Pad" to "Epoxy Grout Float - BIHUI 12mm TPR Pad, 89x254mm" (TPR is the catalogue's own abbreviation).
+- epoxy-grout-rubber-float: "Epoxy Grout Rubber Float with Plastic Handle" to "Epoxy Grout Rubber Float - BIHUI Soft Rubber".
+- levelling-spacer-post-sl and levelling-spacer-post-blt: "Levelling Straight Threaded Spacer Post (SL)" / "(BLT)" to "Levelling Spacer Post SL - BIHUI Threaded, 100 Pack" and "Levelling Spacer Post BLT - BIHUI 1mm, 1.5mm, 3mm". The SL and BLT labels are this extraction's, see page 10 above.
+- laser-level-llg05: "12 Line Laser Level (LLG05)" to "Laser Level LLG05 - BIHUI 1x360 Green Line, IP54". The catalogue heading says 12 lines; its own text describes one 360 degree line, so the title follows the text and names the code.
+- drill-position-scale: "Foldable Position Scale for Drilling" to "Drill Position Scale - BIHUI Foldable Drill Guide".
+- jumbo-trowel-set-8pcs: "8pcs Jumbo Trowel Set in Stainless Steel" to "Jumbo Trowel Set - BIHUI 8pcs Stainless Steel".
+- levelling-system-removal-roller: "Smart Levelling System Removal Roller" to "Levelling System Removal Roller - BIHUI Smart, 1.4m".
+- concrete-grinder-working-stand: "Working Stand for 1900W Concrete Grinder" to "Concrete Grinder Working Stand - BIHUI 1900W, 230V".
+- dual-combination-microfibre-sponge: "Dual Combination Microfibre Sponge" to "Microfibre Grout Sponge - BIHUI Dual Combination".
+
+Reordered so the buyer's words lead (name unchanged in substance): strong-manual-tile-cutter ("Tile Cutter Tanzania - BIHUI Strong Manual 1200mm"), fast-tile-cutter ("Manual Tile Cutter Tanzania - BIHUI Fast with Laser"), laser-level-16-line ("Laser Level Tanzania - BIHUI 16 Line, TFT Screen"), grout-float-tpr-soft-handle ("Grout Float Tanzania - BIHUI TPR Handle, 240x100mm"), hydro-grout-sponge ("Grout Sponge Tanzania - BIHUI Hydro Sponge CFHS165"), double-suction-cup ("Tile Suction Cup Tanzania - BIHUI Double Cup, 85kg"), concrete-grinder-2000w ("Concrete Grinder Tanzania - BIHUI 2000W, Dust-Free").
+
+Codes left out of titles and descriptions because the catalogue doubts them: FTC200 (printed for both the trim cutter and the trim puller); the printed sizes of CFHS165 and CFHS190, TSL060 to TSL240 and BLSE100; the 12 line heading on LLG05. The descriptions for SCDB4 and SCTB4 say the code is confirmed before ordering.
+
+Added the same day, after the site-wide title/query gate:
+
+- leveling-cap-wedges: "New Leveling Cap Wedges" to "Tile Levelling Wedges - BIHUI Cap Wedges, 100-500" ("New" dropped; British spelling to match the query).
+- leveling-plier: "Leveling Plier for Floor Covering" to "Tile Levelling Pliers - BIHUI Floor Covering, BLSFP" (British spelling and plural to match the query).
+- tilers-working-bench-master: "Tiler's Working Bench Master" to "Tilers Working Bench Master" (apostrophe dropped so the title token matches the query "tilers working bench").
+- underlayment-embedding-roller: "Underlayment Embedding Roller" to "Membrane Embedding Roller - BIHUI UMR330, 35kg" (the catalogue's own use: "embed the membrane full bond with mortar").
+- Query-led reorders, names otherwise intact: metal-hole-drill-guide ("Tile Hole Drill Guide - BIHUI Metal, Suction Cup"), cutting-dust-extractor ("Tile Cutting Dust Extractor - BIHUI DCFC5"), electric-cutting-system ("Large Format Tile Cutting Machine - BIHUI Electric"), trade-manual-cutting-system ("Manual Large Format Tile Cutter - BIHUI LFMC5"), sticky-mat ("Sticky Mat for Construction Sites - BIHUI 30 Sheets").
+- Class words only (name unchanged): putty-scraper and taping-knife "Stainless Steel", mitre-jolly-cutting-system "Tile Edge Cutter", tile-leveling-base "3-12mm Tile, 100 Per Bag", water-cooling-parts "Electric Tile Cutter".

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
+import { vasaPageMeta } from "@/config/seo/vasa";
 import { VasaRangePage } from "@/components/sections/vasa/vasa-range-page";
 import {
   decorsIn,
@@ -12,19 +13,19 @@ import {
 import content from "@/content/vasa/spc.json";
 import type { FaqItem } from "@/lib/faq";
 
-const TITLE = "SPC Flooring Tanzania - Vasa 5 mm and 8 mm | Sahihi";
-const DESCRIPTION =
-  "SPC flooring in Tanzania from Sahihi, an authorized Vasa dealer in Dar es Salaam: rigid core click planks in 5 mm and 8 mm, with decors and technical data.";
+const PATH = "/vasa/spc-flooring";
+const { title: TITLE, description: DESCRIPTION } = vasaPageMeta("spc-flooring");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/vasa/spc-flooring" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/vasa/spc-flooring",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

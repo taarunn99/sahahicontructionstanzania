@@ -1,0 +1,43 @@
+{
+  "slug": "fr-bonding-agent",
+  "description": "It is non-toxic, non-flammable and ready to use.",
+  "whereToUse": [
+    "As a bonding agent over polystyrene or urethane foam insulation prior to application of Zonolite 3306 Thermal Barrier",
+    "As a bonding agent over primed/painted structural steel (columns, beams and joists)",
+    "As a bonding agent over concrete floor and/or roof units (including slab, pan joist, hollow-core or pre-cast plant or TEE units)",
+    "As a bonding agent for use over any approved substrate prior to application of Sonotex range of products",
+    "As a surface sealer (where specified) over any of the above products."
+  ],
+  "notFor": [
+    "The fire protection product should be substantially dry prior to sealer application.",
+    "The use of a surface sealer over Sonotex 1 or any acoustical treatment may reduce the NRC value of the installed product."
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Application",
+      "value": "Graco Encapsulator II or airless spray equivalent, roller or brush."
+    },
+    {
+      "label": "Pressure",
+      "value": "2500 - 2700 PSI"
+    },
+    {
+      "label": "Tip size",
+      "value": "0.015 - 0.25 (orifice size)"
+    },
+    {
+      "label": "Coverage",
+      "value": "500 sq. ft./gal."
+    },
+    {
+      "label": "VOC content",
+      "value": "0.5g per liter"
+    },
+    {
+      "label": "Clean up",
+      "value": "Tools and drippings should be cleaned with soapy water"
+    }
+  ],
+  "consumption": []
+}

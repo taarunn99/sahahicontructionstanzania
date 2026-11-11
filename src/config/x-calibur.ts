@@ -2,9 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 
 import { products, type Product } from "@/config/catalogue";
+import { xcaliburSeo, type XCaliburSlug } from "@/config/seo/x-calibur";
 import tdsManifest from "@/config/x-calibur-tds.json";
 import type { ProductContent } from "@/components/sections/product/product-detail";
 import type { CoverageModel } from "@/lib/coverage";
+import { composeItemTitle, seoDescription } from "@/lib/seo";
 
 /**
  * Everything the X-Calibur pages need beyond the catalogue.
@@ -113,14 +115,36 @@ export const xcaliburCoverage: Record<string, CoverageModel> = {
   },
 };
 
-/** Longest candidate that fits the 60-character title budget. */
+const xcaliburSeoRow = (product: Product) =>
+  xcaliburSeo[product.slug as XCaliburSlug];
+
+/**
+ * Item title from the registry row (src/config/seo/x-calibur.ts): the
+ * override when the row has one, otherwise the one item pattern with the
+ * row's buyer type words (the catalogue type is the fallback).
+ */
 export function xcaliburItemTitle(product: Product) {
-  const type = product.type.replace(/\b[a-z]/g, (l) => l.toUpperCase());
-  const candidates = [
-    `${product.name} Tanzania - X-Calibur ${type} | Sahihi`,
-    `${product.name} Tanzania - X-Calibur ${type}`,
-    `${product.name} Tanzania - X-Calibur | Sahihi`,
-    `${product.name} Tanzania - X-Calibur`,
-  ];
-  return candidates.find((title) => title.length <= 60) ?? candidates[3];
+  const row = xcaliburSeoRow(product);
+  return (
+    row?.titleOverride ??
+    composeItemTitle(
+      product.name,
+      "X-Calibur",
+      row?.typeWords ?? product.type.toLowerCase(),
+      { geo: row?.geo },
+    )
+  );
+}
+
+/** Item description: the hand-written row, else the composed fallback. */
+export function xcaliburItemDescription(product: Product) {
+  return (
+    xcaliburSeoRow(product)?.description ??
+    seoDescription(
+      `${product.name}: ${product.summary}`,
+      "X-Calibur, stocked by Sahihi in Dar es Salaam.",
+      "Data sheet, pack sizes and coverage.",
+      "Authorized distributor in Tanzania.",
+    )
+  );
 }

@@ -8,10 +8,11 @@ import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import { REPAIR_PATH } from "@/config/repair-selector";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig } from "@/config/site";
 import { TILE_PATH } from "@/config/tile-selector";
 import { SELECTOR_PATH } from "@/config/waterproofing-selector";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import {
   SPECIFIER_CSV,
   SPECIFIER_PATH,
@@ -25,12 +26,13 @@ import {
  * src/lib/specifier-pack.ts.
  */
 
-const TITLE = "Specifier Pack - BOQ Clauses and Data Sheets, Tanzania";
-const DESCRIPTION =
-  "Every product's BOQ clause, declared standards and data sheet edition in one spreadsheet, for consultants and quantity surveyors in Tanzania. Mapei, Oriental Yuhong, X-Calibur, CMCI range.";
+// Owns "construction chemicals specification Tanzania" (src/config/seo/core.ts).
+const ROW = coreRow("/specifier-pack");
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE} | Sahihi` },
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: SPECIFIER_PATH },
   openGraph: {
@@ -38,6 +40,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: SPECIFIER_PATH,
+    images: resolveOg(SPECIFIER_PATH) ?? ogBase.images,
   },
 };
 
@@ -72,7 +75,9 @@ export default function SpecifierPackPage() {
       <section className="bg-accent">
         <Container className="pt-28 pb-14 sm:pt-36 sm:pb-20">
           <Breadcrumb items={crumbs} />
-          <p className="label-sh mt-10">For consultants and QS · Tanzania</p>
+          <p className="label-sh mt-10">
+            Construction chemicals specification · BOQ clauses · Tanzania
+          </p>
           <h1 className="font-display mt-5 max-w-5xl text-[clamp(2rem,7.4vw,5.25rem)] leading-[1.02] uppercase">
             The specifier pack.
           </h1>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -51,6 +51,7 @@ export const metadata: Metadata = {
     description: swHome.description,
     url: "/sw",
     locale: "sw_TZ",
+    images: resolveOg("/sw") ?? ogBase.images,
   },
 };
 
@@ -141,6 +142,8 @@ export default function SwahiliHomePage() {
           heading: swHome.offer.heading(offer.items.length, offer.brand),
           body: swHome.offer.body,
           button: swHome.offer.button,
+          page: swHome.offer.page,
+          flash: swHome.offer.flash,
         }}
         whatsappHref={whatsapp(swHome.offer.topic)}
       />

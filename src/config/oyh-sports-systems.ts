@@ -6,6 +6,7 @@
  * Salaam; acrylic, EPDM and turf ordered per job, 3 to 5 days (owner, 2026-11-09).
  */
 import type { SportsSystem } from "@/components/sections/oyh/sports-explorer";
+import { oyhPageMeta } from "@/config/seo/oyh";
 
 export const SPORTS_PATH = "/oriental-yuhong/sports-flooring";
 export const TDS = "/tds/oriental-yuhong/sports";
@@ -514,9 +515,7 @@ const ON_TRACK_BASE = {
 
 export const SYSTEM_PAGES: Record<string, SystemPage> = {
   "all-plastic-track": {
-    title: "Polyurethane Running Track Tanzania - All Plastic | OYH",
-    description:
-      "Oriental Yuhong all plastic polyurethane running track in Tanzania: layers in 3D, PSV codes, the build film and the manual pages, from Sahihi in Dar es Salaam.",
+    ...oyhPageMeta("sports/all-plastic-track"),
     h1: "Polyurethane running track in Tanzania.",
     stock: "held",
     film: "rubber-track",
@@ -538,9 +537,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "breathable-track": {
-    title: "Breathable Running Track Tanzania - Permeable EPDM | OYH",
-    description:
-      "Oriental Yuhong breathable running track in Tanzania: EPDM particles that let rain drain through. Layers in 3D, PSV codes and manual pages, from Sahihi.",
+    ...oyhPageMeta("sports/breathable-track"),
     h1: "Breathable running track in Tanzania.",
     stock: "held",
     film: "rubber-track",
@@ -562,9 +559,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "hybrid-track": {
-    title: "Hybrid Running Track Tanzania - PU and EPDM | OYH",
-    description:
-      "Oriental Yuhong hybrid running track in Tanzania: polyurethane with EPDM particles in the middle layer. Layers in 3D, PSV codes, manual pages, from Sahihi.",
+    ...oyhPageMeta("sports/hybrid-track"),
     h1: "Hybrid running track in Tanzania.",
     stock: "held",
     film: "rubber-track",
@@ -582,9 +577,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "silicon-pu-court": {
-    title: "Silicon PU Court Tanzania - Basketball, Tennis | OYH",
-    description:
-      "Oriental Yuhong silicon PU sports court in Tanzania: layers in 3D, the build film, a material calculator in kg and packs, drying times and the guide.",
+    ...oyhPageMeta("sports/silicon-pu-court"),
     h1: "Silicon PU sports courts in Tanzania.",
     stock: "held",
     film: "silicone-pu-court",
@@ -614,9 +607,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "acrylic-court": {
-    title: "Acrylic Tennis Court Tanzania - Hard and Elastic | OYH",
-    description:
-      "Oriental Yuhong acrylic sports court in Tanzania, hard or 5 mm elastic: layers in 3D, a material calculator in kg and packs, drying times and the guide.",
+    ...oyhPageMeta("sports/acrylic-court"),
     h1: "Acrylic sports courts in Tanzania.",
     stock: "order",
     bom: "acrylic-court",
@@ -643,9 +634,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "artificial-turf": {
-    title: "Artificial Turf Tanzania - Football Pitch Grass | OYH",
-    description:
-      "Oriental Yuhong artificial turf in Tanzania for football pitches: layers in 3D, the build film, a material calculator and the manual pages, from Sahihi.",
+    ...oyhPageMeta("sports/artificial-turf"),
     h1: "Artificial turf in Tanzania.",
     stock: "order",
     film: "artificial-turf",
@@ -672,9 +661,7 @@ export const SYSTEM_PAGES: Record<string, SystemPage> = {
     ],
   },
   "epdm-walking-track": {
-    title: "EPDM Flooring Tanzania - Rubber Granule Surface | OYH",
-    description:
-      "Oriental Yuhong EPDM rubber granule surface in Tanzania for walkways, play areas and fitness trails: layers in 3D, a calculator and the site steps.",
+    ...oyhPageMeta("sports/epdm-walking-track"),
     h1: "EPDM rubber flooring in Tanzania.",
     stock: "order",
     bom: "epdm-13mm",

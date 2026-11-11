@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import { ProfileSection } from "@/components/sections/profile-section";
 import Image from "next/image";
 
@@ -28,7 +28,7 @@ import {
   bihuiPicture,
 } from "@/config/bihui";
 import { brandBySlug, brands, type BrandSlug } from "@/config/brands";
-import { cmciHref, cmciInLine, cmciLines, cmciProducts } from "@/config/cmci";
+import { cmciAll, cmciHref, cmciInLine, cmciLines } from "@/config/cmci";
 import { decorsIn, vasaCollections } from "@/config/vasa";
 import {
   lineHref,
@@ -49,12 +49,14 @@ import {
   SPORTS_PATH,
   SYSTEMS as SPORTS_SYSTEMS,
 } from "@/config/oyh-sports-systems";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-const TITLE = "Mapei & X-Calibur Products in Tanzania - Full Catalogue";
-const DESCRIPTION =
-  "Every Mapei, Oriental Yuhong, X-Calibur and BIHUI product from Sahihi in Dar es Salaam: tile adhesives, waterproofing, resin floors, repair and tools.";
+// Owns "construction chemicals products Tanzania" (src/config/seo/core.ts).
+const ROW = coreRow("/products");
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -65,6 +67,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/products",
+    images: resolveOg("/products") ?? ogBase.images,
   },
 };
 
@@ -284,7 +287,7 @@ export default function ProductsPage() {
       count:
         products.length +
         bihuiFamilies.length +
-        cmciProducts.length +
+        cmciAll.length +
         vasaCollections.length +
         SPORTS_SYSTEMS.length,
     },
@@ -295,7 +298,7 @@ export default function ProductsPage() {
         brand.slug === "bihui"
           ? bihuiFamilies.length
           : brand.slug === "cmci"
-            ? cmciProducts.length
+            ? cmciAll.length
             : brand.slug === "vasa"
               ? vasaCollections.length
               : brand.slug === "oriental-yuhong"
@@ -359,7 +362,10 @@ export default function ProductsPage() {
       <section className="bg-surface pt-28 pb-12 sm:pt-36 sm:pb-16">
         <Container>
           <Breadcrumb items={crumbs} />
-          <h1 className="font-display text-phi-4 mt-6 tracking-tight text-balance">
+          <p className="label-sh text-muted mt-10">
+            Construction chemicals products · Tanzania
+          </p>
+          <h1 className="font-display text-phi-4 mt-5 tracking-tight text-balance">
             What&apos;s the job?
           </h1>
           <p className="text-phi-1 mt-4 max-w-2xl leading-snug">
@@ -572,7 +578,11 @@ export default function ProductsPage() {
                       name={item.name}
                       line={item.oneLine}
                       picture={line.picture}
-                      alt={`${line.label} fireproofing, for ${item.name}`}
+                      alt={
+                        line.slug === "accessories"
+                          ? `Fireproofing being sprayed, for ${item.name}`
+                          : `${line.label} fireproofing, for ${item.name}`
+                      }
                       cover
                     />
                   ))}

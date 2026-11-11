@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { oyhPageMeta } from "@/config/seo/oyh";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,19 +43,20 @@ import { pad } from "@/lib/utils";
  * The application photographs are OYH's, from those data sheets.
  */
 
-const TITLE = "OYH East Africa - Oriental Yuhong Tanzania | Sahihi";
-const DESCRIPTION =
-  "OYH products in East Africa from Sahihi, Oriental Yuhong's authorized distributor in Dar es Salaam: HDPE membrane, waterproofing coatings and sports flooring.";
+const PATH = "/oriental-yuhong";
+const { title: TITLE, description: DESCRIPTION } =
+  oyhPageMeta("oriental-yuhong");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/oriental-yuhong" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/oriental-yuhong",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

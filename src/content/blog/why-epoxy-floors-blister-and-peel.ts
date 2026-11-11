@@ -2,7 +2,7 @@ import type { PostContent } from "@/lib/blog";
 
 export const content: PostContent = {
   answer:
-    "An epoxy floor blisters or peels when water, trapped air or a weak surface gets between the resin and the slab. Damp rising through the concrete lifts blisters. Air escaping from open pores leaves pinholes. Laitance, dust or oil lets whole sheets come away. Prevention means checking slab moisture, air humidity and slab temperature against the data sheet, then preparing and priming the surface before any resin is mixed.",
+    "An epoxy floor bubbles, blisters or peels when water, trapped air or a weak surface gets between the resin and the slab. Damp rising through the concrete lifts blisters. Air escaping from open pores leaves pinholes. Laitance, dust or oil lets whole sheets come away. Prevention means checking slab moisture, air humidity and slab temperature against the data sheet, then preparing and priming the surface before any resin is mixed.",
   sections: [
     {
       h2: "What does each epoxy floor failure look like?",

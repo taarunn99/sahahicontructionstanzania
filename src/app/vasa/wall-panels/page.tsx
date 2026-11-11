@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
+import { vasaPageMeta } from "@/config/seo/vasa";
 import { VasaRangePage } from "@/components/sections/vasa/vasa-range-page";
 import {
   decorsIn,
@@ -11,19 +12,19 @@ import {
 } from "@/config/vasa";
 import type { FaqItem } from "@/lib/faq";
 
-const TITLE = "Wall Panels Tanzania - Vasa SPC Digital Panels | Sahihi";
-const DESCRIPTION =
-  "Vasa wall panels in Tanzania from Sahihi in Dar es Salaam: colored film panels in wood, fabric and stone, and digital panels in marble, murals and wood looks.";
+const PATH = "/vasa/wall-panels";
+const { title: TITLE, description: DESCRIPTION } = vasaPageMeta("wall-panels");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/vasa/wall-panels" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/vasa/wall-panels",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

@@ -259,3 +259,60 @@ modelled: its only picture is a factory photograph, and its page has the layer m
   `src/config/kilimanjaro.json` (moon box, sky polygon). Only the moon is moved; nothing is added.
 - Captioned "Tanzania · Kilimanjaro" only: no claim about where the picture was taken from or
   that the moon and mountain were one exposure.
+
+## 3k. CMCI fire pictures (Higgsfield, 2026-11-11)
+
+Generated, `gpt_image_2_6`, quality high, 2k, 3:2, 2.75 credits each, 8.25 credits
+(127.25 before). Masters `assets/source/generated/F1..F3.png` (gitignored); derivatives by
+`node scripts/build-images.mjs`; alt text in `firePhotos`, `src/config/images.ts`.
+Atmosphere only: never captioned as a Sahihi project, never presented as a CMCI product.
+
+| ID | File | Job id | Prompt (short) |
+|---|---|---|---|
+| F1 | `public/images/fire/spraying.webp` | b6dc5112-d021-4004-b6bb-e4fa45e81b63 | Applicator in coveralls, face hidden, spraying grey cementitious fireproofing onto steel beams in a tropical steel-frame building; no logos or text |
+| F2 | `public/images/fire/coated-frame.webp` | e3ef7c52-d954-4d5f-b660-90c4667e1f27 | Finished steel frame, columns, beams and fluted deck evenly coated in grey sprayed fireproofing; no people, logos or text |
+| F3 | `public/images/fire/thickness-gauge.webp` | 6736eda0-ebbd-43a5-9fdb-5bf2730425d9 | Macro of sprayed coating on an I-beam flange edge with an unmarked depth gauge pin; no hands, logos or text |
+
+No bag model was made: the only bag pictures in the owner's folder (Monokote catalogue,
+2026-11-11) are partial (a cropped, faded bag; hands emptying a bag), and a model from
+them would invent the pack. Pack shots are never generated (3b).
+
+## 3l. CMCI and X-Calibur product scenes (Higgsfield, 2026-11-11)
+
+Owner, 2026-11-11: product pages for CMCI and X-Calibur "look very boring"; spend down to a
+50 credit floor. One application scene per product, showing the use its data sheet names.
+Generated, `gpt_image_2_6`, quality high, 2k, 3:2, 2.75 credits each, 49.5 credits for 18
+(119 before, 69.5 after). Prompts asked for no logos, text, labels, packaging or faces in
+focus. Masters `assets/source/generated/P01..P18.png` (gitignored); derivatives
+`public/images/scenes/<slug>.webp` by `node scripts/build-images.mjs`; alt text in
+`src/config/product-scenes.ts`. Illustrative only: never a pack shot, never captioned as a
+Sahihi job or as the product's maker's photograph.
+
+| ID | Product | Job id | Prompt (short) |
+|---|---|---|---|
+| P01 | `avikote-av-800` | 5dbd8594-7e48-43ff-9b6f-9f83fd7ce725 | Refinery pipe rack, steel coated in grey fireproofing, yellow and red pipes, storage tanks, blue sky |
+| P02 | `avikote-av-650` | 6ac78c93-4433-444b-859e-1487a4a0fbd2 | Coastal gas plant, vessel supports and pipe bridge with trowelled grey fireproofing, palm trees |
+| P03 | `monokote-z-156` | 0fec0c92-f472-4b0c-bb5c-10f5cd6eea3a | Road tunnel under construction, lining sprayed with grey fireproofing, orange work lights, worker from behind |
+| P04 | `monokote-z-146` | 880d1683-d7a2-483a-b464-785ec94c7f3d | Multi-storey car park, steel with hard grey sprayed fireproofing, red and blue cars, palm trees |
+| P05 | `monokote-z-106-hy` | 90bb3bd5-7133-4ec9-8b73-c19bbd1333da | Airport terminal concourse under construction, coated steel trusses, glass wall, turquoise and yellow floor |
+| P06 | `monokote-z-106` | 4ae5479c-68e3-4811-be08-326526fb7f56 | Plant room, sprayed steel beams and fluted deck, red sprinkler, blue water pipes, green ducts |
+| P07 | `monokote-mk-6-hy` | e753820a-f2a6-4a28-9d83-f686692d36bd | Upper floor of a steel frame, applicator from behind spraying grey fireproofing, city and sea beyond |
+| P08 | `monokote-mk-6s` | 56cea4c0-a04f-4af8-ad7f-83722ad4bb70 | Small two-storey building, orange and yellow walls, steel frame sprayed light grey, orange scaffold |
+| P09 | `aquakote` | 3c0c03ea-d4b7-4a26-ad14-e0a5f72d4bea | Roller applying a white elastomeric topcoat over grey sprayed fireproofing on a steel column |
+| P10 | `monokote-accelerator` | ceff31a5-44c7-4b31-80b9-bd461b9e7c8e | Orange spray pump and hose feeding a steel frame, red earth site, yellow generator |
+| P11 | `fr-bonding-agent` | acba1c5a-478f-4445-aa27-9cd69fbe1169 | Airless spray gun misting a milky sealer onto a red primed steel beam |
+| P12 | `x-tech-sbr-bond` | 5b62f84b-23c6-4382-ba68-c9f7c29f7a31 | Brush working grey bonding slurry into a broken concrete beam with cleaned rebar, blue wall |
+| P13 | `x-tech-epoxyfloor-sl1` | ff317a8d-f688-4c10-97a3-60e7ea522635 | Factory floor in glossy sky blue self-levelling epoxy with yellow walkway lines |
+| P14 | `x-prime-gp` | f6967392-4d17-43b8-b5b9-36469875dc42 | Roller laying clear amber epoxy primer on ground concrete, colourful racking behind |
+| P15 | `x-shield-flexpruf` | 20082c43-65f9-41ff-9546-66be2f9ee769 | Roof terrace in Dar es Salaam, grey waterproofing coat rolled over slab and parapet, worker from behind |
+| P16 | `x-seal-ps800` | 04d90e59-c731-4833-8c8a-bc6de4165d11 | Sealant gun laying grey polysulphide bead into a masked concrete expansion joint |
+| P17 | `x-seal-universal-primer` | 2b43e576-8d4b-4c04-a5db-f5def9430028 | Brush priming the sides of a joint between concrete facade panels, backer rod in the joint |
+| P18 | `x-prime-gp2` | c87dd6e7-9b16-4c3a-96ad-a85a327f1f27 | Squeegee spreading clear epoxy primer on a workshop floor, finished emerald green epoxy behind |
+
+## 3m. Pack shot cut-outs (2026-11-11)
+
+`public/products/<brand>/cutout/<slug>.webp` are the same manufacturer files as the pack shots in section 2, resized to 640 px with their own transparency kept instead of being flattened onto white (`scripts/build-packshots.mjs`). Nothing is cut out by hand or by a model; a source without alpha (Mapei: `ultracare-stain-protector-w-plus`) keeps its white box and `packshot().cutout` is null for it. Used on `/sale` (the lineup) and by the Open Graph cards.
+
+## 3n. Open Graph cards (2026-11-12)
+
+`public/og/*.png` are composed by `scripts/build-og-cards.mjs` (`npm run assets:og`, after a build) from pictures already in the repo: the manufacturers' pack shot cut-outs in `public/products/<brand>/cutout`, BIHUI's catalogue photographs, the Journal's 3D posters and the hub photographs logged above, with the page's own title set in Montserrat. Nothing new is generated. `src/config/og-manifest.json` lists which route has a card; pages without one share the root `opengraph-image.jpg`.

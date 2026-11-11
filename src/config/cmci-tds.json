@@ -1,4 +1,9 @@
 {
+  "aquakote": {
+    "file": "/tds/cmci/aquakote.pdf",
+    "pages": 2,
+    "bytes": 135602
+  },
   "avikote-av-650": {
     "file": "/tds/cmci/avikote-av-650.pdf",
     "pages": 2,
@@ -8,6 +13,16 @@
     "file": "/tds/cmci/avikote-av-800.pdf",
     "pages": 2,
     "bytes": 812487
+  },
+  "fr-bonding-agent": {
+    "file": "/tds/cmci/fr-bonding-agent.pdf",
+    "pages": 1,
+    "bytes": 950334
+  },
+  "monokote-accelerator": {
+    "file": "/tds/cmci/monokote-accelerator.pdf",
+    "pages": 1,
+    "bytes": 41262
   },
   "monokote-mk-6-hy": {
     "file": "/tds/cmci/monokote-mk-6-hy.pdf",
@@ -19,15 +34,15 @@
     "pages": 2,
     "bytes": 213856
   },
-  "monokote-z-106-hy": {
-    "file": "/tds/cmci/monokote-z-106-hy.pdf",
-    "pages": 2,
-    "bytes": 293272
-  },
   "monokote-z-106": {
     "file": "/tds/cmci/monokote-z-106.pdf",
     "pages": 3,
     "bytes": 318788
+  },
+  "monokote-z-106-hy": {
+    "file": "/tds/cmci/monokote-z-106-hy.pdf",
+    "pages": 2,
+    "bytes": 293272
   },
   "monokote-z-146": {
     "file": "/tds/cmci/monokote-z-146.pdf",

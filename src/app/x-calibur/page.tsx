@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { xcaliburPageMeta } from "@/config/seo/x-calibur";
 import Link from "next/link";
 
 import { SplitHeading } from "@/components/motion/split-heading";
@@ -29,19 +30,19 @@ import { pad } from "@/lib/utils";
  * own data sheets.
  */
 
-const TITLE = "X-Calibur Tanzania - Epoxy Floors, Waterproofing, Sealants";
-const DESCRIPTION =
-  "Sahihi supplies X-Calibur epoxy flooring, primers, SBR bonding agent, elasto-cement waterproofing and polysulphide joint sealants in Dar es Salaam, with data sheets.";
+const PATH = "/x-calibur";
+const { title: TITLE, description: DESCRIPTION } = xcaliburPageMeta("x-calibur");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/x-calibur" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/x-calibur",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

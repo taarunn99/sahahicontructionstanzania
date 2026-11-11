@@ -10,6 +10,8 @@ import {
   type Product,
 } from "@/config/catalogue";
 import tdsManifest from "@/config/mapei-tds.json";
+import { mapeiSeo, type MapeiProductSlug } from "@/config/seo/mapei";
+import { composeItemTitle, seoDescription } from "@/lib/seo";
 
 /**
  * Everything the Mapei pages need beyond the catalogue: the content
@@ -252,18 +254,32 @@ export { lineBySlug };
 
 // ---- SEO helpers ------------------------------------------------------------
 
-const titleCase = (text: string) =>
-  text.replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
-
-/** Longest candidate that fits the 60-character title budget. */
+/**
+ * Title and description for a product page, read from the registry row in
+ * src/config/seo/mapei.ts (metadata pass, 2026-11-12). The row's buyer
+ * `typeWords` replace the catalogue's internal type label in the title; a
+ * `titleOverride` wins outright. Without a row the title falls back to the
+ * catalogue type and the description to the summary plus the stock line.
+ */
 export function itemTitle(product: Product) {
-  const type = titleCase(product.type);
-  const candidates = [
-    `${product.name} Tanzania - Mapei ${type} | Sahihi`,
-    `${product.name} Tanzania - Mapei ${type}`,
-    `${product.name} Tanzania - Mapei | Sahihi`,
-    `${product.name} Tanzania - Mapei`,
-    `${product.name} Tanzania`,
-  ];
-  return candidates.find((title) => title.length <= 60) ?? candidates[4];
+  const row = mapeiSeo[product.slug as MapeiProductSlug];
+  return (
+    row?.titleOverride ??
+    composeItemTitle(product.name, "Mapei", row?.typeWords ?? product.type, {
+      geo: row?.geo,
+    })
+  );
+}
+
+export function itemDescription(product: Product) {
+  const row = mapeiSeo[product.slug as MapeiProductSlug];
+  return (
+    row?.description ??
+    seoDescription(
+      product.summary,
+      "Stocked by Sahihi in Dar es Salaam.",
+      "Data sheet, pack sizes and coverage calculator.",
+      "Authorized Mapei distributor.",
+    )
+  );
 }

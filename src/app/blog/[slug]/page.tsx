@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -57,6 +57,7 @@ export async function generateMetadata({
       url,
       publishedTime: post.datePublished,
       modifiedTime: post.dateModified,
+      images: resolveOg(url) ?? ogBase.images,
     },
   };
 }

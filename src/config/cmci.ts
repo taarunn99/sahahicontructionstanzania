@@ -1,5 +1,7 @@
 import type { Product } from "@/config/catalogue";
 import tdsManifest from "@/config/cmci-tds.json";
+import { cmciSeo, type CmciSlug } from "@/config/seo/cmci";
+import { composeItemTitle, seoDescription } from "@/lib/seo";
 
 /**
  * CMCI: cementitious fireproofing. The owner finalised this range on
@@ -11,7 +13,11 @@ import tdsManifest from "@/config/cmci-tds.json";
  * unaltered in public/tds/cmci (owner, 2026-11-07).
  */
 
-export type CmciLineSlug = "petrochemical" | "commercial" | "tunnels";
+export type CmciLineSlug =
+  | "petrochemical"
+  | "commercial"
+  | "tunnels"
+  | "accessories";
 
 export type CmciProduct = Product & {
   lines: CmciLineSlug[];
@@ -149,6 +155,67 @@ export const cmciProducts: CmciProduct[] = [
   }),
 ];
 
+/**
+ * Accessories for the fireproofing (owner's folder, 2026-11-11, "Proposed
+ * accessories system"): a protective topcoat, a setting accelerator and a
+ * bonding agent. Not fireproofing, so no density. Kept out of
+ * `cmciProducts`, which stays the fireproofing range (the density ladder
+ * and the fire rated cement page list only fireproofing).
+ */
+export type CmciAccessory = Omit<CmciProduct, "density"> & { density?: never };
+
+const accessory = (
+  entry: Pick<
+    CmciAccessory,
+    "slug" | "name" | "type" | "summary" | "packs" | "oneLine" | "ref"
+  >,
+): CmciAccessory => ({
+  ...entry,
+  brand: "cmci",
+  line: "cmci",
+  sourceName: entry.name,
+  lines: ["accessories"],
+});
+
+export const cmciAccessories: CmciAccessory[] = [
+  accessory({
+    slug: "aquakote",
+    name: "Aquakote",
+    type: "Elastomeric anti-carbonation topcoat",
+    summary:
+      "Single component acrylic topcoat that protects cementitious fireproofing from carbon dioxide, chloride ions and weather, and lets moisture vapour pass.",
+    oneLine: "Protective topcoat over cementitious fireproofing.",
+    packs: ["Pail"],
+    ref: "C9",
+  }),
+  accessory({
+    slug: "monokote-accelerator",
+    name: "Monokote Accelerator",
+    type: "Setting accelerator",
+    summary:
+      "Aluminium sulphate granules that increase the yield and speed the set of Monokote MK-6/HY sprayed with Monokote injection machines.",
+    oneLine: "Faster set and more yield from Monokote MK-6/HY.",
+    packs: ["27.2 kg bag"],
+    ref: "C10",
+  }),
+  accessory({
+    slug: "fr-bonding-agent",
+    name: "FR Bonding Agent",
+    type: "Bonding agent and surface sealer",
+    summary:
+      "Water based styrene acrylic emulsion, used as a bonding agent under cementitious fireproofing or as a surface sealer over it.",
+    oneLine: "Bonding agent and sealer for fireproofing.",
+    packs: ["On request"],
+    ref: "C11",
+  }),
+];
+
+/** Every CMCI page: the fireproofing range, then the accessories. */
+export const cmciAll: (CmciProduct | CmciAccessory)[] = [
+  ...cmciProducts,
+  ...cmciAccessories,
+];
+
 export const cmciLines: {
   slug: CmciLineSlug;
   label: string;
@@ -185,11 +252,19 @@ export const cmciLines: {
     alt: "A road tunnel with a sprayed grey lining",
     stage: "bg-line",
   },
+  {
+    slug: "accessories",
+    label: "Accessories",
+    line: "A protective topcoat, a setting accelerator and a bonding agent for the fireproofing.",
+    picture: { src: "/images/cmci/commercial.webp", width: 1200, height: 735 },
+    alt: "An applicator spraying fireproofing onto a steel column",
+    stage: "bg-surface",
+  },
 ];
 
 export const cmciProductBySlug = Object.fromEntries(
-  cmciProducts.map((product) => [product.slug, product]),
-) as Record<string, CmciProduct>;
+  cmciAll.map((product) => [product.slug, product]),
+) as Record<string, CmciProduct | CmciAccessory>;
 
 export const cmciTds = tdsManifest as Record<
   string,
@@ -199,14 +274,33 @@ export const cmciTds = tdsManifest as Record<
 export const cmciHref = (product: { slug: string }) => `/cmci/${product.slug}`;
 
 export const cmciInLine = (line: CmciLineSlug) =>
-  cmciProducts.filter((product) => product.lines.includes(line));
+  cmciAll.filter((product) => product.lines.includes(line));
 
-/** Longest candidate that fits the 60-character title budget. */
+const cmciSeoRow = (product: Product) => cmciSeo[product.slug as CmciSlug];
+
+/**
+ * Item title from the registry row (src/config/seo/cmci.ts): the override
+ * when the row has one, otherwise the one item pattern with the row's buyer
+ * type words ("fireproofing" is the fallback).
+ */
 export function cmciItemTitle(product: Product) {
-  const candidates = [
-    `${product.name} Tanzania - CMCI Fireproofing | Sahihi`,
-    `${product.name} Tanzania - CMCI Fireproofing`,
-    `${product.name} Fireproofing Tanzania`,
-  ];
-  return candidates.find((title) => title.length <= 60) ?? candidates[2];
+  const row = cmciSeoRow(product);
+  return (
+    row?.titleOverride ??
+    composeItemTitle(product.name, "CMCI", row?.typeWords ?? "fireproofing", {
+      geo: row?.geo,
+    })
+  );
+}
+
+/** Item description: the hand-written row, else the composed fallback. */
+export function cmciItemDescription(product: Product) {
+  return (
+    cmciSeoRow(product)?.description ??
+    seoDescription(
+      `${product.name}: ${product.summary}`,
+      "Supplied by Sahihi in Dar es Salaam.",
+      "Technical values and data sheet to download.",
+    )
+  );
 }

@@ -1,0 +1,890 @@
+{
+  "/": {
+    "url": "/og/home.png",
+    "alt": "Construction Chemicals in Tanzania - Mapei Distributor, Sahihi Construction Chemicals"
+  },
+  "/about": {
+    "url": "/og/about.png",
+    "alt": "Sahihi Construction Chemicals Limited - Dar es Salaam, Sahihi Construction Chemicals"
+  },
+  "/bihui": {
+    "url": "/og/bihui.png",
+    "alt": "BIHUI Tanzania - Tile Levelling, Trowels, Mixers, Cutters, Sahihi Construction Chemicals"
+  },
+  "/bihui/aluminum-box-screed-set": {
+    "url": "/og/bihui__aluminum-box-screed-set.png",
+    "alt": "Aluminum Box Screed Set - BIHUI 6 Straight Edges, Sahihi Construction Chemicals"
+  },
+  "/bihui/angle-grinder": {
+    "url": "/og/bihui__angle-grinder.png",
+    "alt": "Angle Grinder - BIHUI 1200W Variable Speed, M14, Sahihi Construction Chemicals"
+  },
+  "/bihui/big-spiral-mixer": {
+    "url": "/og/bihui__big-spiral-mixer.png",
+    "alt": "Big Spiral Mixer - BIHUI M14 Mixing Paddle, Sahihi Construction Chemicals"
+  },
+  "/bihui/bucket-liner-20l": {
+    "url": "/og/bihui__bucket-liner-20l.png",
+    "alt": "20L Bucket Liner - BIHUI Reusable Mixing Liner, Sahihi Construction Chemicals"
+  },
+  "/bihui/carpet-protector": {
+    "url": "/og/bihui__carpet-protector.png",
+    "alt": "Carpet Protector - BIHUI Self-Adhesive, 25m Roll, Sahihi Construction Chemicals"
+  },
+  "/bihui/caulk-tool-set-3pcs": {
+    "url": "/og/bihui__caulk-tool-set-3pcs.png",
+    "alt": "3pcs Caulk Tool Set - BIHUI Knife, Nozzle, Smoother, Sahihi Construction Chemicals"
+  },
+  "/bihui/cellulose-sponge": {
+    "url": "/og/bihui__cellulose-sponge.png",
+    "alt": "Cellulose Sponge - BIHUI 185x110x54mm Grout Sponge, Sahihi Construction Chemicals"
+  },
+  "/bihui/combination-hydro-grout-sponge": {
+    "url": "/og/bihui__combination-hydro-grout-sponge.png",
+    "alt": "Combination Hydro Grout Sponge - BIHUI 180x110x65mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/concrete-grinder-1900w": {
+    "url": "/og/bihui__concrete-grinder-1900w.png",
+    "alt": "1900W Concrete Grinder - BIHUI Speed Regulation, Sahihi Construction Chemicals"
+  },
+  "/bihui/concrete-grinder-2000w": {
+    "url": "/og/bihui__concrete-grinder-2000w.png",
+    "alt": "Concrete Grinder Tanzania - BIHUI 2000W, Dust-Free, Sahihi Construction Chemicals"
+  },
+  "/bihui/concrete-grinder-working-stand": {
+    "url": "/og/bihui__concrete-grinder-working-stand.png",
+    "alt": "Concrete Grinder Working Stand - BIHUI 1900W, 230V, Sahihi Construction Chemicals"
+  },
+  "/bihui/corner-putty-knife": {
+    "url": "/og/bihui__corner-putty-knife.png",
+    "alt": "Corner Putty Knife - BIHUI 90 Degree Corner Blade, Sahihi Construction Chemicals"
+  },
+  "/bihui/cutting-dust-extractor": {
+    "url": "/og/bihui__cutting-dust-extractor.png",
+    "alt": "Tile Cutting Dust Extractor - BIHUI DCFC5, Sahihi Construction Chemicals"
+  },
+  "/bihui/cutting-rail-system": {
+    "url": "/og/bihui__cutting-rail-system.png",
+    "alt": "Cutting Rail System 2.0 Tanzania - BIHUI 3.6m Rails, Sahihi Construction Chemicals"
+  },
+  "/bihui/diamond-hand-pad": {
+    "url": "/og/bihui__diamond-hand-pad.png",
+    "alt": "Diamond Hand Pad - BIHUI 60-400 Grit, Foam Grip, Sahihi Construction Chemicals"
+  },
+  "/bihui/double-suction-cup": {
+    "url": "/og/bihui__double-suction-cup.png",
+    "alt": "Tile Suction Cup Tanzania - BIHUI Double Cup, 85kg, Sahihi Construction Chemicals"
+  },
+  "/bihui/drill-position-scale": {
+    "url": "/og/bihui__drill-position-scale.png",
+    "alt": "Drill Position Scale - BIHUI Foldable Drill Guide, Sahihi Construction Chemicals"
+  },
+  "/bihui/dry-diamond-polishing-pad": {
+    "url": "/og/bihui__dry-diamond-polishing-pad.png",
+    "alt": "Dry Diamond Polishing Pad - BIHUI 4 Inch, #50-1500, Sahihi Construction Chemicals"
+  },
+  "/bihui/drywall-skimming-scraper": {
+    "url": "/og/bihui__drywall-skimming-scraper.png",
+    "alt": "Drywall Skimming Scraper - BIHUI 250-1000mm Blades, Sahihi Construction Chemicals"
+  },
+  "/bihui/dual-combination-microfibre-sponge": {
+    "url": "/og/bihui__dual-combination-microfibre-sponge.png",
+    "alt": "Microfibre Grout Sponge - BIHUI Dual Combination, Sahihi Construction Chemicals"
+  },
+  "/bihui/electric-cutting-system": {
+    "url": "/og/bihui__electric-cutting-system.png",
+    "alt": "Large Format Tile Cutting Machine - BIHUI Electric, Sahihi Construction Chemicals"
+  },
+  "/bihui/electric-mixer": {
+    "url": "/og/bihui__electric-mixer.png",
+    "alt": "Electric Mixer - BIHUI Paddle Mixer 1800W, 1200W, Sahihi Construction Chemicals"
+  },
+  "/bihui/epoxy-grout-float-green-hard-rubber": {
+    "url": "/og/bihui__epoxy-grout-float-green-hard-rubber.png",
+    "alt": "Epoxy Grout Float - BIHUI Green Hard Rubber 248mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/epoxy-grout-float-thermoplastic-rubber-pad": {
+    "url": "/og/bihui__epoxy-grout-float-thermoplastic-rubber-pad.png",
+    "alt": "Epoxy Grout Float - BIHUI 12mm TPR Pad, 89x254mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/epoxy-grout-rubber-float": {
+    "url": "/og/bihui__epoxy-grout-rubber-float.png",
+    "alt": "Epoxy Grout Rubber Float - BIHUI Soft Rubber, Sahihi Construction Chemicals"
+  },
+  "/bihui/extendable-floor-roller": {
+    "url": "/og/bihui__extendable-floor-roller.png",
+    "alt": "Extendable Floor Roller - BIHUI LVT, Vinyl Flooring, Sahihi Construction Chemicals"
+  },
+  "/bihui/fast-tile-cutter": {
+    "url": "/og/bihui__fast-tile-cutter.png",
+    "alt": "Manual Tile Cutter Tanzania - BIHUI Fast with Laser, Sahihi Construction Chemicals"
+  },
+  "/bihui/floor-protector": {
+    "url": "/og/bihui__floor-protector.png",
+    "alt": "Floor Protector - BIHUI Self-Adhesive 700mm Roll, Sahihi Construction Chemicals"
+  },
+  "/bihui/grout-float-tpr-soft-handle": {
+    "url": "/og/bihui__grout-float-tpr-soft-handle.png",
+    "alt": "Grout Float Tanzania - BIHUI TPR Handle, 240x100mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/hydro-grout-sponge": {
+    "url": "/og/bihui__hydro-grout-sponge.png",
+    "alt": "Grout Sponge Tanzania - BIHUI Hydro Sponge CFHS165, Sahihi Construction Chemicals"
+  },
+  "/bihui/jumbo-trowel-set-8pcs": {
+    "url": "/og/bihui__jumbo-trowel-set-8pcs.png",
+    "alt": "Jumbo Trowel Set - BIHUI 8pcs Stainless Steel, Sahihi Construction Chemicals"
+  },
+  "/bihui/laser-level-12-line": {
+    "url": "/og/bihui__laser-level-12-line.png",
+    "alt": "12 Line Laser Level - BIHUI Green Beam IP54, Sahihi Construction Chemicals"
+  },
+  "/bihui/laser-level-16-line": {
+    "url": "/og/bihui__laser-level-16-line.png",
+    "alt": "Laser Level Tanzania - BIHUI 16 Line, TFT Screen, Sahihi Construction Chemicals"
+  },
+  "/bihui/laser-level-llg05": {
+    "url": "/og/bihui__laser-level-llg05.png",
+    "alt": "Laser Level LLG05 - BIHUI 1x360 Green Line, IP54, Sahihi Construction Chemicals"
+  },
+  "/bihui/laser-level-tripod": {
+    "url": "/og/bihui__laser-level-tripod.png",
+    "alt": "Tripod for Laser Level - BIHUI LLG-TRP, Sahihi Construction Chemicals"
+  },
+  "/bihui/leveling-cap-wedges": {
+    "url": "/og/bihui__leveling-cap-wedges.png",
+    "alt": "Tile Levelling Wedges - BIHUI Cap Wedges, 100-500, Sahihi Construction Chemicals"
+  },
+  "/bihui/leveling-plier": {
+    "url": "/og/bihui__leveling-plier.png",
+    "alt": "Tile Levelling Pliers - BIHUI Floor Covering, BLSFP, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-base": {
+    "url": "/og/bihui__levelling-base.png",
+    "alt": "Levelling Base - BIHUI 0.5-3mm, 3-18mm Tile, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-compound-mixing-station": {
+    "url": "/og/bihui__levelling-compound-mixing-station.png",
+    "alt": "Levelling Compound Mixing Station Tanzania - BIHUI, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-spacer-post-blt": {
+    "url": "/og/bihui__levelling-spacer-post-blt.png",
+    "alt": "Levelling Spacer Post BLT - BIHUI 1mm, 1.5mm, 3mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-spacer-post-sl": {
+    "url": "/og/bihui__levelling-spacer-post-sl.png",
+    "alt": "Levelling Spacer Post SL - BIHUI Threaded, 100 Pack, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-system-removal-roller": {
+    "url": "/og/bihui__levelling-system-removal-roller.png",
+    "alt": "Levelling System Removal Roller - BIHUI Smart, 1.4m, Sahihi Construction Chemicals"
+  },
+  "/bihui/levelling-window-cap": {
+    "url": "/og/bihui__levelling-window-cap.png",
+    "alt": "Levelling Window Cap - BIHUI 100 Per Pack, SLC100, Sahihi Construction Chemicals"
+  },
+  "/bihui/measuring-ruler-rotating-shell": {
+    "url": "/og/bihui__measuring-ruler-rotating-shell.png",
+    "alt": "Measuring Ruler with Rotating Shell - BIHUI TMR30M, Sahihi Construction Chemicals"
+  },
+  "/bihui/measuring-tape-wide-blade": {
+    "url": "/og/bihui__measuring-tape-wide-blade.png",
+    "alt": "Measuring Tape with Wide Blade - BIHUI 5m, 8m, Sahihi Construction Chemicals"
+  },
+  "/bihui/metal-hole-drill-guide": {
+    "url": "/og/bihui__metal-hole-drill-guide.png",
+    "alt": "Tile Hole Drill Guide - BIHUI Metal, Suction Cup, Sahihi Construction Chemicals"
+  },
+  "/bihui/mitre-jolly-cutting-system": {
+    "url": "/og/bihui__mitre-jolly-cutting-system.png",
+    "alt": "Mitre Jolly Cutting System - BIHUI Tile Edge Cutter, Sahihi Construction Chemicals"
+  },
+  "/bihui/mixer-station-with-timer": {
+    "url": "/og/bihui__mixer-station-with-timer.png",
+    "alt": "Mixer Station with Timer - BIHUI 65L Tub, 50kg Mix, Sahihi Construction Chemicals"
+  },
+  "/bihui/multifunction-trim-puller": {
+    "url": "/og/bihui__multifunction-trim-puller.png",
+    "alt": "Multifunction Trim Puller - BIHUI Stainless Blade, Sahihi Construction Chemicals"
+  },
+  "/bihui/notched-taping-knife": {
+    "url": "/og/bihui__notched-taping-knife.png",
+    "alt": "Notched Taping Knife - BIHUI 60cm, #420 Stainless, Sahihi Construction Chemicals"
+  },
+  "/bihui/nylon-paint-roller": {
+    "url": "/og/bihui__nylon-paint-roller.png",
+    "alt": "Nylon Paint Roller - BIHUI 220mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/portable-mortar-mixer": {
+    "url": "/og/bihui__portable-mortar-mixer.png",
+    "alt": "Portable Mortar Mixer Tanzania - BIHUI 120L, 1500W, Sahihi Construction Chemicals"
+  },
+  "/bihui/pro-germany-hydro-grouting-sponge": {
+    "url": "/og/bihui__pro-germany-hydro-grouting-sponge.png",
+    "alt": "Pro Germany Hydro Grouting Sponge - BIHUI CFHS190, Sahihi Construction Chemicals"
+  },
+  "/bihui/professional-trowel-carbon-steel": {
+    "url": "/og/bihui__professional-trowel-carbon-steel.png",
+    "alt": "Carbon Steel Notched Trowel - BIHUI 6, 8, 10mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/professional-trowel-stainless-steel": {
+    "url": "/og/bihui__professional-trowel-stainless-steel.png",
+    "alt": "Notched Trowel Tanzania - BIHUI Stainless Steel, Sahihi Construction Chemicals"
+  },
+  "/bihui/putty-scraper": {
+    "url": "/og/bihui__putty-scraper.png",
+    "alt": "Putty Scraper - BIHUI Stainless Steel, 4-6 Inch, Sahihi Construction Chemicals"
+  },
+  "/bihui/resin-bound-dual-handle-trowel": {
+    "url": "/og/bihui__resin-bound-dual-handle-trowel.png",
+    "alt": "Resin Bound Dual Handle Trowel - BIHUI 0.7mm Blade, Sahihi Construction Chemicals"
+  },
+  "/bihui/resin-bound-pointing-trowel": {
+    "url": "/og/bihui__resin-bound-pointing-trowel.png",
+    "alt": "Resin Bound Pointing Trowel - BIHUI Closed Handle, Sahihi Construction Chemicals"
+  },
+  "/bihui/reusable-tile-leveling-system": {
+    "url": "/og/bihui__reusable-tile-leveling-system.png",
+    "alt": "Reusable Tile Levelling System Tanzania - BIHUI, Sahihi Construction Chemicals"
+  },
+  "/bihui/rubber-packing-pad": {
+    "url": "/og/bihui__rubber-packing-pad.png",
+    "alt": "Rubber Packing Pad - BIHUI Velcro, M14, 100mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/silicon-application-kit-2pcs": {
+    "url": "/og/bihui__silicon-application-kit-2pcs.png",
+    "alt": "Silicone Application Kit 2pcs - BIHUI STAK2, Sahihi Construction Chemicals"
+  },
+  "/bihui/silicon-application-set-4pcs": {
+    "url": "/og/bihui__silicon-application-set-4pcs.png",
+    "alt": "Silicone Application Set 4pcs - BIHUI STARK4, Sahihi Construction Chemicals"
+  },
+  "/bihui/spazzle": {
+    "url": "/og/bihui__spazzle.png",
+    "alt": "Spazzle - BIHUI Resin Spreader, 600mm Blade, Sahihi Construction Chemicals"
+  },
+  "/bihui/spin-level-fast-clip-cap": {
+    "url": "/og/bihui__spin-level-fast-clip-cap.png",
+    "alt": "Spin Level Fast Clip Cap - BIHUI 100 Per Pack, Sahihi Construction Chemicals"
+  },
+  "/bihui/sticky-mat": {
+    "url": "/og/bihui__sticky-mat.png",
+    "alt": "Sticky Mat for Construction Sites - BIHUI 30 Sheets, Sahihi Construction Chemicals"
+  },
+  "/bihui/strong-manual-tile-cutter": {
+    "url": "/og/bihui__strong-manual-tile-cutter.png",
+    "alt": "Tile Cutter Tanzania - BIHUI Strong Manual 1200mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/switchable-putty-scraper-kit": {
+    "url": "/og/bihui__switchable-putty-scraper-kit.png",
+    "alt": "Switchable Putty Scraper Kit - BIHUI 5 Blade Kit, Sahihi Construction Chemicals"
+  },
+  "/bihui/taping-knife": {
+    "url": "/og/bihui__taping-knife.png",
+    "alt": "Taping Knife - BIHUI Stainless Steel, 22-60cm, Sahihi Construction Chemicals"
+  },
+  "/bihui/telescope-handle": {
+    "url": "/og/bihui__telescope-handle.png",
+    "alt": "Telescope Handle - BIHUI 1100mm, Sahihi Construction Chemicals"
+  },
+  "/bihui/tile-gap-adjuster-with-suction-cups": {
+    "url": "/og/bihui__tile-gap-adjuster-with-suction-cups.png",
+    "alt": "Tile Gap Adjuster - BIHUI Two 6 Inch Suction Cups, Sahihi Construction Chemicals"
+  },
+  "/bihui/tile-leveling-base": {
+    "url": "/og/bihui__tile-leveling-base.png",
+    "alt": "Tile Leveling Base - BIHUI 3-12mm Tile, 100 Per Bag, Sahihi Construction Chemicals"
+  },
+  "/bihui/tile-remover": {
+    "url": "/og/bihui__tile-remover.png",
+    "alt": "Tile Remover with Soft Grip - BIHUI 4 Inch Scraper, Sahihi Construction Chemicals"
+  },
+  "/bihui/tile-repairing-kit": {
+    "url": "/og/bihui__tile-repairing-kit.png",
+    "alt": "Tile Repairing Kit - BIHUI 16 Wax Blocks, Scrapers, Sahihi Construction Chemicals"
+  },
+  "/bihui/tile-spirit-level": {
+    "url": "/og/bihui__tile-spirit-level.png",
+    "alt": "Tile Spirit Level Tanzania - BIHUI Aluminium Level, Sahihi Construction Chemicals"
+  },
+  "/bihui/tilers-working-bench-master": {
+    "url": "/og/bihui__tilers-working-bench-master.png",
+    "alt": "Tilers Working Bench Master - BIHUI 200kg Trolley, Sahihi Construction Chemicals"
+  },
+  "/bihui/trade-manual-cutting-system": {
+    "url": "/og/bihui__trade-manual-cutting-system.png",
+    "alt": "Manual Large Format Tile Cutter - BIHUI LFMC5, Sahihi Construction Chemicals"
+  },
+  "/bihui/tri-head-suction-cup": {
+    "url": "/og/bihui__tri-head-suction-cup.png",
+    "alt": "Tri-head Suction Cup - BIHUI 5 Inch, 110kg, Sahihi Construction Chemicals"
+  },
+  "/bihui/trim-cutter": {
+    "url": "/og/bihui__trim-cutter.png",
+    "alt": "Trim Cutter - BIHUI Profile Mitre Cutter, Sahihi Construction Chemicals"
+  },
+  "/bihui/underlayment-embedding-roller": {
+    "url": "/og/bihui__underlayment-embedding-roller.png",
+    "alt": "Membrane Embedding Roller - BIHUI UMR330, 35kg, Sahihi Construction Chemicals"
+  },
+  "/bihui/water-cooling-parts": {
+    "url": "/og/bihui__water-cooling-parts.png",
+    "alt": "Water Cooling Parts - BIHUI Electric Tile Cutter, Sahihi Construction Chemicals"
+  },
+  "/bihui/waterproof-protective-film": {
+    "url": "/og/bihui__waterproof-protective-film.png",
+    "alt": "Waterproof Protective Film - BIHUI 1.2mm PE, 25m, Sahihi Construction Chemicals"
+  },
+  "/blog": {
+    "url": "/og/blog.png",
+    "alt": "Building Guides for Tanzania - Waterproofing, Tiling, Floors, Sahihi Construction Chemicals"
+  },
+  "/blog/category/building-in-tanzania": {
+    "url": "/og/blog__category__building-in-tanzania.png",
+    "alt": "Building in Tanzania Guides - Rain Calendar, CRB Classes, Sahihi Construction Chemicals"
+  },
+  "/blog/category/concrete-repair": {
+    "url": "/og/blog__category__concrete-repair.png",
+    "alt": "Concrete Repair Guides for Tanzania - Spalling, Grouting, Sahihi Construction Chemicals"
+  },
+  "/blog/category/flooring": {
+    "url": "/og/blog__category__flooring.png",
+    "alt": "Flooring Guides for Tanzania - Epoxy, Levelling, Screeds, Sahihi Construction Chemicals"
+  },
+  "/blog/category/tiling": {
+    "url": "/og/blog__category__tiling.png",
+    "alt": "Tiling Guides for Tanzania - Adhesive, Grout, Lifted Tiles, Sahihi Construction Chemicals"
+  },
+  "/blog/category/tools-and-technique": {
+    "url": "/og/blog__category__tools-and-technique.png",
+    "alt": "Tiling Tools and Technique - Trowel Notch, Mixing, Sealant, Sahihi Construction Chemicals"
+  },
+  "/blog/category/waterproofing": {
+    "url": "/og/blog__category__waterproofing.png",
+    "alt": "Waterproofing Guides for Tanzania - Roofs, Tanks, Wet Rooms, Sahihi Construction Chemicals"
+  },
+  "/blog/cementitious-vs-liquid-membrane-waterproofing": {
+    "url": "/og/blog__cementitious-vs-liquid-membrane-waterproofing.png",
+    "alt": "Cementitious vs liquid membrane waterproofing: which to use, Sahihi Construction Chemicals"
+  },
+  "/blog/construction-companies-tanzania-crb-classes": {
+    "url": "/og/blog__construction-companies-tanzania-crb-classes.png",
+    "alt": "Construction Companies in Tanzania: CRB Classes Explained, Sahihi Construction Chemicals"
+  },
+  "/blog/epoxy-floor-thickness": {
+    "url": "/og/blog__epoxy-floor-thickness.png",
+    "alt": "Epoxy floor thickness: from coating to screed, in mm, Sahihi Construction Chemicals"
+  },
+  "/blog/epoxy-grout-vs-cement-grout": {
+    "url": "/og/blog__epoxy-grout-vs-cement-grout.png",
+    "alt": "Epoxy grout vs cement grout: which goes where, Sahihi Construction Chemicals"
+  },
+  "/blog/how-to-grout-a-base-plate": {
+    "url": "/og/blog__how-to-grout-a-base-plate.png",
+    "alt": "How to grout a base plate with non-shrink grout, Sahihi Construction Chemicals"
+  },
+  "/blog/how-to-mix-tile-adhesive": {
+    "url": "/og/blog__how-to-mix-tile-adhesive.png",
+    "alt": "How to mix tile adhesive: paddle, speed, water, Sahihi Construction Chemicals"
+  },
+  "/blog/joint-sealant-width-depth-coverage": {
+    "url": "/og/blog__joint-sealant-width-depth-coverage.png",
+    "alt": "Joint Sealant Width to Depth Ratio and Metres per Pack, Sahihi Construction Chemicals"
+  },
+  "/blog/keraflex-maxi-s1-vs-adesilex-p7-vs-kerabond-t": {
+    "url": "/og/blog__keraflex-maxi-s1-vs-adesilex-p7-vs-kerabond-t.png",
+    "alt": "Keraflex Maxi S1 vs Adesilex P7, Kerabond T or Mapeset, Sahihi Construction Chemicals"
+  },
+  "/blog/mapei-waiting-times-before-tiling-grouting-walking": {
+    "url": "/og/blog__mapei-waiting-times-before-tiling-grouting-walking.png",
+    "alt": "Mapelastic drying time before tiling: Mapei waiting times, Sahihi Construction Chemicals"
+  },
+  "/blog/masika-vuli-builders-rain-calendar": {
+    "url": "/og/blog__masika-vuli-builders-rain-calendar.png",
+    "alt": "Masika and Vuli Rainy Season: A Tanzanian Builder's Calendar, Sahihi Construction Chemicals"
+  },
+  "/blog/screed-or-self-levelling-compound": {
+    "url": "/og/blog__screed-or-self-levelling-compound.png",
+    "alt": "Screed vs Self Levelling Compound: Which Does a Floor Need, Sahihi Construction Chemicals"
+  },
+  "/blog/self-levelling-compound-per-square-metre": {
+    "url": "/og/blog__self-levelling-compound-per-square-metre.png",
+    "alt": "Self levelling compound per m2: how many bags do you need, Sahihi Construction Chemicals"
+  },
+  "/blog/spalling-concrete-repair": {
+    "url": "/og/blog__spalling-concrete-repair.png",
+    "alt": "Spalling concrete repair: rusting rebar, falling concrete, Sahihi Construction Chemicals"
+  },
+  "/blog/tile-adhesive-per-square-metre": {
+    "url": "/og/blog__tile-adhesive-per-square-metre.png",
+    "alt": "How Much Tile Adhesive per Square Metre? Rates and Bags, Sahihi Construction Chemicals"
+  },
+  "/blog/tile-adhesive-vs-sand-and-cement": {
+    "url": "/og/blog__tile-adhesive-vs-sand-and-cement.png",
+    "alt": "Tile adhesive vs cement: which to use, and when, Sahihi Construction Chemicals"
+  },
+  "/blog/trowel-notch-size-for-tile-size": {
+    "url": "/og/blog__trowel-notch-size-for-tile-size.png",
+    "alt": "Trowel notch size for tile size: a metric chart, Sahihi Construction Chemicals"
+  },
+  "/blog/underground-water-tank-waterproofing": {
+    "url": "/og/blog__underground-water-tank-waterproofing.png",
+    "alt": "Underground water tank waterproofing: a practical guide, Sahihi Construction Chemicals"
+  },
+  "/blog/waterproofing-coverage-per-square-metre": {
+    "url": "/og/blog__waterproofing-coverage-per-square-metre.png",
+    "alt": "Waterproofing coverage per square metre: a kg/m² guide, Sahihi Construction Chemicals"
+  },
+  "/blog/when-to-tile-on-self-levelling-compound": {
+    "url": "/og/blog__when-to-tile-on-self-levelling-compound.png",
+    "alt": "Self levelling compound drying time: tile, vinyl, wood, Sahihi Construction Chemicals"
+  },
+  "/blog/why-epoxy-floors-blister-and-peel": {
+    "url": "/og/blog__why-epoxy-floors-blister-and-peel.png",
+    "alt": "Why epoxy floor bubbles and peels: causes and prevention, Sahihi Construction Chemicals"
+  },
+  "/blog/why-floor-tiles-pop-up": {
+    "url": "/og/blog__why-floor-tiles-pop-up.png",
+    "alt": "Why Tiles Pop Up, Lift or Sound Hollow: Causes and Fixes, Sahihi Construction Chemicals"
+  },
+  "/blog/why-hidden-roof-houses-leak": {
+    "url": "/og/blog__why-hidden-roof-houses-leak.png",
+    "alt": "Hidden roof leaking? Why it happens and the fix that lasts, Sahihi Construction Chemicals"
+  },
+  "/cmci": {
+    "url": "/og/cmci.png",
+    "alt": "CMCI Authorized Dealer Tanzania - Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/aquakote": {
+    "url": "/og/cmci__aquakote.png",
+    "alt": "Aquakote Tanzania - CMCI Fireproofing Topcoat, Sahihi Construction Chemicals"
+  },
+  "/cmci/avikote-av-650": {
+    "url": "/og/cmci__avikote-av-650.png",
+    "alt": "Avikote AV 650 Tanzania - CMCI Refinery Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/avikote-av-800": {
+    "url": "/og/cmci__avikote-av-800.png",
+    "alt": "Avikote AV 800 Tanzania - CMCI Petrochemical Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/fire-rated-cement": {
+    "url": "/og/cmci__fire-rated-cement.png",
+    "alt": "Fire Rated Cement Tanzania - CMCI Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/fr-bonding-agent": {
+    "url": "/og/cmci__fr-bonding-agent.png",
+    "alt": "FR Bonding Agent Tanzania - CMCI Fireproofing Bonding Agent, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-accelerator": {
+    "url": "/og/cmci__monokote-accelerator.png",
+    "alt": "Monokote Accelerator Tanzania - CMCI Set Accelerator, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-mk-6-hy": {
+    "url": "/og/cmci__monokote-mk-6-hy.png",
+    "alt": "Monokote MK-6/HY Tanzania - CMCI Sprayed Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-mk-6s": {
+    "url": "/og/cmci__monokote-mk-6s.png",
+    "alt": "Monokote MK-6s Tanzania - CMCI Sprayed Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-z-106": {
+    "url": "/og/cmci__monokote-z-106.png",
+    "alt": "Monokote Z-106 Tanzania - CMCI Medium Density Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-z-106-hy": {
+    "url": "/og/cmci__monokote-z-106-hy.png",
+    "alt": "Monokote Z-106/HY Tanzania - CMCI Quick Set Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-z-146": {
+    "url": "/og/cmci__monokote-z-146.png",
+    "alt": "Monokote Z-146 Tanzania - CMCI High Density Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/cmci/monokote-z-156": {
+    "url": "/og/cmci__monokote-z-156.png",
+    "alt": "Monokote Z-156T Tanzania - CMCI Tunnel Fireproofing, Sahihi Construction Chemicals"
+  },
+  "/contact": {
+    "url": "/og/contact.png",
+    "alt": "Mapei Dealer in Dar es Salaam - Contact Sahihi for a Quote, Sahihi Construction Chemicals"
+  },
+  "/mapei": {
+    "url": "/og/mapei.png",
+    "alt": "Mapei Tanzania - Authorized Distributor, Dar es Salaam, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair": {
+    "url": "/og/mapei__concrete-repair.png",
+    "alt": "Mapei Concrete Repair Tanzania - Mapegrout, Epojet, Mapefix, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/adesilex-pg2-tg": {
+    "url": "/og/mapei__concrete-repair__adesilex-pg2-tg.png",
+    "alt": "Adesilex PG2 TG Tanzania - Mapei Structural Epoxy Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/epojet-lv": {
+    "url": "/og/mapei__concrete-repair__epojet-lv.png",
+    "alt": "Epojet LV Tanzania - Mapei Crack Injection Epoxy, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/eporip": {
+    "url": "/og/mapei__concrete-repair__eporip.png",
+    "alt": "Eporip Tanzania - Mapei Construction Joint Epoxy Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapefer-1k": {
+    "url": "/og/mapei__concrete-repair__mapefer-1k.png",
+    "alt": "Mapefer 1K Tanzania - Mapei Rebar Anti-Corrosion Mortar, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapefibre-ns-12": {
+    "url": "/og/mapei__concrete-repair__mapefibre-ns-12.png",
+    "alt": "Mapefibre NS 12 Tanzania - Mapei Polypropylene Microfibres, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapefix-ep-50": {
+    "url": "/og/mapei__concrete-repair__mapefix-ep-50.png",
+    "alt": "Mapefix EP 50 Tanzania - Mapei Chemical Anchor, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapegrout-me05": {
+    "url": "/og/mapei__concrete-repair__mapegrout-me05.png",
+    "alt": "Mapegrout ME05 Tanzania - Mapei Non Shrink Grout, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapegrout-t60": {
+    "url": "/og/mapei__concrete-repair__mapegrout-t60.png",
+    "alt": "Mapegrout T60 ME - Mapei Sulphate Resistant Repair Mortar, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/mapei-gun-585-2k": {
+    "url": "/og/mapei__concrete-repair__mapei-gun-585-2k.png",
+    "alt": "Mapei Gun 585 2K Tanzania - Anchor Cartridge Gun, Sahihi Construction Chemicals"
+  },
+  "/mapei/concrete-repair/planicrete-sp": {
+    "url": "/og/mapei__concrete-repair__planicrete-sp.png",
+    "alt": "Planicrete SP Tanzania - Mapei Latex Mortar Additive, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling": {
+    "url": "/og/mapei__primers-levelling.png",
+    "alt": "Mapei Self-Levelling & Primer Tanzania - Ultraplan, Primer G, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling/lignobond": {
+    "url": "/og/mapei__primers-levelling__lignobond.png",
+    "alt": "Lignobond Tanzania - Mapei Wood Floor Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling/primer-g": {
+    "url": "/og/mapei__primers-levelling__primer-g.png",
+    "alt": "Primer G Tanzania - Mapei Water-Based Primer, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling/triblock-p": {
+    "url": "/og/mapei__primers-levelling__triblock-p.png",
+    "alt": "Triblock P Tanzania - Mapei Damp Substrate Primer, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling/ultraplan-contract": {
+    "url": "/og/mapei__primers-levelling__ultraplan-contract.png",
+    "alt": "Ultraplan Contract Tanzania - Fast Drying Self-Levelling, Sahihi Construction Chemicals"
+  },
+  "/mapei/primers-levelling/ultraplan-eco-20": {
+    "url": "/og/mapei__primers-levelling__ultraplan-eco-20.png",
+    "alt": "Ultraplan Eco 20 Tanzania - Mapei Self-Levelling Compound, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring": {
+    "url": "/og/mapei__resin-flooring.png",
+    "alt": "Mapefloor Epoxy & PU Flooring Tanzania - Mapei Systems, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapecoat-dw-25": {
+    "url": "/og/mapei__resin-flooring__mapecoat-dw-25.png",
+    "alt": "Mapecoat DW 25 Tanzania - Mapei Drinking Water Tank Coating, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-cpu-plus-mf": {
+    "url": "/og/mapei__resin-flooring__mapefloor-cpu-plus-mf.png",
+    "alt": "Mapefloor CPU+/MF Tanzania - Mapei Polyurethane Cement Floor, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-fc-200-me": {
+    "url": "/og/mapei__resin-flooring__mapefloor-fc-200-me.png",
+    "alt": "Mapefloor FC 200 ME Tanzania - Mapei Epoxy Floor Coating, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-finish-415-me": {
+    "url": "/og/mapei__resin-flooring__mapefloor-finish-415-me.png",
+    "alt": "Mapefloor Finish 415 ME Tanzania - Mapei Car Park PU Finish, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-finish-450-me": {
+    "url": "/og/mapei__resin-flooring__mapefloor-finish-450-me.png",
+    "alt": "Mapefloor Finish 450 ME - UV Resistant Polyurethane Finish, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-i-300-sl-me": {
+    "url": "/og/mapei__resin-flooring__mapefloor-i-300-sl-me.png",
+    "alt": "Mapefloor I 300 SL ME Tanzania - Mapei Self-Levelling Epoxy, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/mapefloor-pu-410": {
+    "url": "/og/mapei__resin-flooring__mapefloor-pu-410.png",
+    "alt": "Mapefloor PU 410 Tanzania - Mapei Car Park PU Binder, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/primer-sn": {
+    "url": "/og/mapei__resin-flooring__primer-sn.png",
+    "alt": "Primer SN Tanzania - Mapei Epoxy Floor Primer, Sahihi Construction Chemicals"
+  },
+  "/mapei/resin-flooring/quartz-sand": {
+    "url": "/og/mapei__resin-flooring__quartz-sand.png",
+    "alt": "Quarzo 0.5/1.2 Tanzania - Mapei Kiln-Dried Quartz Sand, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts": {
+    "url": "/og/mapei__tile-adhesives-grouts.png",
+    "alt": "Mapei Tile Adhesive Tanzania - Keraflex, Adesilex, Grout, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/adesilex-p7": {
+    "url": "/og/mapei__tile-adhesives-grouts__adesilex-p7.png",
+    "alt": "Adesilex P7 Tanzania - Mapei C2T Porcelain Tile Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/kerabond-t": {
+    "url": "/og/mapei__tile-adhesives-grouts__kerabond-t.png",
+    "alt": "Kerabond T Tanzania - Mapei C1T Wall Tile Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/keracolor-ff": {
+    "url": "/og/mapei__tile-adhesives-grouts__keracolor-ff.png",
+    "alt": "Keracolor FF Tanzania - Mapei CG2WA Cement Grout, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/keraflex-maxi-s1": {
+    "url": "/og/mapei__tile-adhesives-grouts__keraflex-maxi-s1.png",
+    "alt": "Keraflex Maxi S1 Tanzania - Mapei C2TES1 Tile Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/kerapoxy": {
+    "url": "/og/mapei__tile-adhesives-grouts__kerapoxy.png",
+    "alt": "Kerapoxy Tanzania - Mapei Epoxy Tile Grout, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/mapeset": {
+    "url": "/og/mapei__tile-adhesives-grouts__mapeset.png",
+    "alt": "Mapeset Tanzania - Mapei C1 Tile Adhesive, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/ultracare-hd-cleaner": {
+    "url": "/og/mapei__tile-adhesives-grouts__ultracare-hd-cleaner.png",
+    "alt": "UltraCare HD Cleaner Tanzania - Mapei Alkaline Tile Cleaner, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/ultracare-multicleaner": {
+    "url": "/og/mapei__tile-adhesives-grouts__ultracare-multicleaner.png",
+    "alt": "UltraCare Multicleaner Tanzania - Mapei Neutral Tile Cleaner, Sahihi Construction Chemicals"
+  },
+  "/mapei/tile-adhesives-grouts/ultracare-stain-protector-w-plus": {
+    "url": "/og/mapei__tile-adhesives-grouts__ultracare-stain-protector-w-plus.png",
+    "alt": "UltraCare Stain Protector W Plus Tanzania - Mapei, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing": {
+    "url": "/og/mapei__waterproofing.png",
+    "alt": "Mapei Waterproofing Tanzania - Mapelastic, Planiseal 88, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/antipluviol": {
+    "url": "/og/mapei__waterproofing__antipluviol.png",
+    "alt": "Antipluviol Tanzania - Mapei Water Repellent Coating, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/idrocrete-kr-1000": {
+    "url": "/og/mapei__waterproofing__idrocrete-kr-1000.png",
+    "alt": "Idrocrete KR 1000 Tanzania - Waterproof Concrete Admixture, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/idrostop-pvc": {
+    "url": "/og/mapei__waterproofing__idrostop-pvc.png",
+    "alt": "Idrostop PVC Tanzania - Mapei PVC Waterstop, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/lamposilex": {
+    "url": "/og/mapei__waterproofing__lamposilex.png",
+    "alt": "Lamposilex Tanzania - Mapei Fast-Setting Water Plug, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapeband-easy": {
+    "url": "/og/mapei__waterproofing__mapeband-easy.png",
+    "alt": "Mapeband Easy Tanzania - Mapei Waterproofing Joint Tape, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapeband-tpe": {
+    "url": "/og/mapei__waterproofing__mapeband-tpe.png",
+    "alt": "Mapeband TPE Tanzania - Mapei Expansion Joint Tape, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapeflex-pu-45-ft": {
+    "url": "/og/mapei__waterproofing__mapeflex-pu-45-ft.png",
+    "alt": "Mapeflex PU 45 FT Tanzania - Mapei Polyurethane Sealant, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapelastic-aquadefense": {
+    "url": "/og/mapei__waterproofing__mapelastic-aquadefense.png",
+    "alt": "Mapelastic AquaDefense Tanzania - Mapei Liquid Membrane, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapelastic-easy": {
+    "url": "/og/mapei__waterproofing__mapelastic-easy.png",
+    "alt": "Mapelastic Easy Tanzania - Mapei Flexible Waterproof Coating, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapelastic-foundation": {
+    "url": "/og/mapei__waterproofing__mapelastic-foundation.png",
+    "alt": "Mapelastic Foundation Tanzania - Mapei Cementitious Membrane, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapelastic-smart": {
+    "url": "/og/mapei__waterproofing__mapelastic-smart.png",
+    "alt": "Mapelastic Smart Tanzania - Mapei Waterproofing Membrane, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapenet-150": {
+    "url": "/og/mapei__waterproofing__mapenet-150.png",
+    "alt": "Mapenet 150 Tanzania - Mapei Glass Fibre Reinforcing Mesh, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/mapeproof-swell": {
+    "url": "/og/mapei__waterproofing__mapeproof-swell.png",
+    "alt": "Mapeproof Swell Tanzania - Mapei Hydrophilic Sealant, Sahihi Construction Chemicals"
+  },
+  "/mapei/waterproofing/planiseal-88": {
+    "url": "/og/mapei__waterproofing__planiseal-88.png",
+    "alt": "Planiseal 88 Tanzania - Mapei Osmotic Cementitious Coating, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong": {
+    "url": "/og/oriental-yuhong.png",
+    "alt": "OYH East Africa - Oriental Yuhong Tanzania, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/hdpe-waterproofing": {
+    "url": "/og/oriental-yuhong__hdpe-waterproofing.png",
+    "alt": "HDPE Waterproofing Tanzania - OYH PMH-3080 Plus, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/pmh-3080-plus": {
+    "url": "/og/oriental-yuhong__pmh-3080-plus.png",
+    "alt": "PMH-3080 Plus Tanzania - OYH Pre-Applied HDPE Membrane, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring": {
+    "url": "/og/oriental-yuhong__sports-flooring.png",
+    "alt": "Sports Flooring Tanzania - Tracks, Courts, Turf, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/acrylic-court": {
+    "url": "/og/oriental-yuhong__sports-flooring__acrylic-court.png",
+    "alt": "Acrylic Tennis Court Tanzania - Hard and Elastic, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/all-plastic-track": {
+    "url": "/og/oriental-yuhong__sports-flooring__all-plastic-track.png",
+    "alt": "Polyurethane Running Track Tanzania - All Plastic, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/artificial-turf": {
+    "url": "/og/oriental-yuhong__sports-flooring__artificial-turf.png",
+    "alt": "Artificial Turf Tanzania - Football Pitch Grass, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/breathable-track": {
+    "url": "/og/oriental-yuhong__sports-flooring__breathable-track.png",
+    "alt": "Breathable Running Track Tanzania - Permeable EPDM, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/epdm-walking-track": {
+    "url": "/og/oriental-yuhong__sports-flooring__epdm-walking-track.png",
+    "alt": "EPDM Flooring Tanzania - Rubber Granule Surface, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/hybrid-track": {
+    "url": "/og/oriental-yuhong__sports-flooring__hybrid-track.png",
+    "alt": "Hybrid Running Track Tanzania - PU and EPDM, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/sports-flooring/silicon-pu-court": {
+    "url": "/og/oriental-yuhong__sports-flooring__silicon-pu-court.png",
+    "alt": "Silicon PU Court Tanzania - Basketball, Tennis, OYH, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/yhcoat-1000": {
+    "url": "/og/oriental-yuhong__yhcoat-1000.png",
+    "alt": "YHCoat-1000 Tanzania - OYH Cementitious Waterproofing Slurry, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/yhcoat-2060": {
+    "url": "/og/oriental-yuhong__yhcoat-2060.png",
+    "alt": "YHCoat-2060 Tanzania - OYH Wet Room Waterproofing Coating, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/yhcolorwall-5300": {
+    "url": "/og/oriental-yuhong__yhcolorwall-5300.png",
+    "alt": "YHColorWall-5300 - OYH Liquid Waterproofing Membrane, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/yhpuseal-2925": {
+    "url": "/og/oriental-yuhong__yhpuseal-2925.png",
+    "alt": "YHPUseal-2925 Tanzania - OYH Polyurethane Joint Sealant, Sahihi Construction Chemicals"
+  },
+  "/oriental-yuhong/yhrepair-2516": {
+    "url": "/og/oriental-yuhong__yhrepair-2516.png",
+    "alt": "YHRepair-2516 Tanzania - OYH Hydraulic Repair Mortar, Sahihi Construction Chemicals"
+  },
+  "/products": {
+    "url": "/og/products.png",
+    "alt": "Construction Chemicals Products in Tanzania - Catalogue, Sahihi Construction Chemicals"
+  },
+  "/projects": {
+    "url": "/og/projects.png",
+    "alt": "Mapei Projects in Tanzania - Sites We Have Supplied, Sahihi Construction Chemicals"
+  },
+  "/sale": {
+    "url": "/og/sale.png",
+    "alt": "Mapei Offer in Tanzania - November 2026 Flash Sale, Sahihi Construction Chemicals"
+  },
+  "/solutions/concrete-repair": {
+    "url": "/og/solutions__concrete-repair.png",
+    "alt": "Concrete Repair Tanzania - Spalling, Cracks and Anchoring, Sahihi Construction Chemicals"
+  },
+  "/solutions/tile-installation": {
+    "url": "/og/solutions__tile-installation.png",
+    "alt": "Tile Adhesive Tanzania - Which Adhesive, Grout and Primer, Sahihi Construction Chemicals"
+  },
+  "/solutions/waterproofing": {
+    "url": "/og/solutions__waterproofing.png",
+    "alt": "Waterproofing Tanzania - Roofs, Basements, Tanks, Wet Areas, Sahihi Construction Chemicals"
+  },
+  "/specifier-pack": {
+    "url": "/og/specifier-pack.png",
+    "alt": "Construction Chemicals Specification Tanzania - BOQ Clauses, Sahihi Construction Chemicals"
+  },
+  "/sw": {
+    "url": "/og/home.png",
+    "alt": "Construction Chemicals in Tanzania - Mapei Distributor, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei": {
+    "url": "/og/mapei.png",
+    "alt": "Mapei Tanzania - Authorized Distributor, Dar es Salaam, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei/concrete-repair": {
+    "url": "/og/mapei__concrete-repair.png",
+    "alt": "Mapei Concrete Repair Tanzania - Mapegrout, Epojet, Mapefix, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei/primers-levelling": {
+    "url": "/og/mapei__primers-levelling.png",
+    "alt": "Mapei Self-Levelling & Primer Tanzania - Ultraplan, Primer G, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei/resin-flooring": {
+    "url": "/og/mapei__resin-flooring.png",
+    "alt": "Mapefloor Epoxy & PU Flooring Tanzania - Mapei Systems, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei/tile-adhesives-grouts": {
+    "url": "/og/mapei__tile-adhesives-grouts.png",
+    "alt": "Mapei Tile Adhesive Tanzania - Keraflex, Adesilex, Grout, Sahihi Construction Chemicals"
+  },
+  "/sw/mapei/waterproofing": {
+    "url": "/og/mapei__waterproofing.png",
+    "alt": "Mapei Waterproofing Tanzania - Mapelastic, Planiseal 88, Sahihi Construction Chemicals"
+  },
+  "/vasa": {
+    "url": "/og/vasa.png",
+    "alt": "Vasa Authorized Dealer Tanzania - SPC and LVT, Sahihi Construction Chemicals"
+  },
+  "/vasa/lvt-flooring": {
+    "url": "/og/vasa__lvt-flooring.png",
+    "alt": "LVT Flooring Tanzania - Vasa Luxury Vinyl Tile, Sahihi Construction Chemicals"
+  },
+  "/vasa/spc-flooring": {
+    "url": "/og/vasa__spc-flooring.png",
+    "alt": "SPC Flooring Tanzania - Vasa 5 mm and 8 mm, Sahihi Construction Chemicals"
+  },
+  "/vasa/wall-panels": {
+    "url": "/og/vasa__wall-panels.png",
+    "alt": "Wall Panels Tanzania - Vasa SPC Digital Panels, Sahihi Construction Chemicals"
+  },
+  "/x-calibur": {
+    "url": "/og/x-calibur.png",
+    "alt": "X-Calibur Tanzania - Epoxy Floors, Waterproofing, Sealants, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-prime-gp": {
+    "url": "/og/x-calibur__x-prime-gp.png",
+    "alt": "X-Prime GP Tanzania - X-Calibur Epoxy Primer, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-prime-gp2": {
+    "url": "/og/x-calibur__x-prime-gp2.png",
+    "alt": "X-Prime GP2 Tanzania - X-Calibur Epoxy Primer, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-seal-ps800": {
+    "url": "/og/x-calibur__x-seal-ps800.png",
+    "alt": "X-Seal PS800 Tanzania - X-Calibur Polysulphide Sealant, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-seal-universal-primer": {
+    "url": "/og/x-calibur__x-seal-universal-primer.png",
+    "alt": "X-Seal Universal Primer Tanzania - X-Calibur Sealant Primer, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-shield-flexpruf": {
+    "url": "/og/x-calibur__x-shield-flexpruf.png",
+    "alt": "X-Shield FlexPruf Tanzania - X-Calibur Elasto-Cement Coating, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-tech-epoxyfloor-sl1": {
+    "url": "/og/x-calibur__x-tech-epoxyfloor-sl1.png",
+    "alt": "X-Tech EpoxyFloor SL1 Tanzania - Self Levelling Epoxy Floor, Sahihi Construction Chemicals"
+  },
+  "/x-calibur/x-tech-sbr-bond": {
+    "url": "/og/x-calibur__x-tech-sbr-bond.png",
+    "alt": "X-Tech SBR Bond Tanzania - X-Calibur SBR Bonding Agent, Sahihi Construction Chemicals"
+  }
+}

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,6 +22,7 @@ import {
   bihuiSkuCount,
 } from "@/config/bihui";
 import { brandBySlug } from "@/config/brands";
+import { bihuiSeo } from "@/config/seo/bihui";
 import { siteConfig } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 
@@ -29,11 +30,15 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
  * BIHUI HUB - owns "BIHUI Tanzania" (SEO-STRATEGY.md 5.1). Every tool and
  * code is from the catalogue the owner supplied. In BIHUI's teal (the
  * `brand-bihui` class). Server component; the 3D viewer is the one island
- * and its picture is what loads with the page.
+ * and its picture is what loads with the page. Title and description are
+ * the hub's registry row (src/config/seo/bihui.ts, metadata pass 2026-11-12).
  */
 
-const TITLE = "BIHUI Tanzania - Tile Levelling, Trowels, Mixers, Cutters";
+const TITLE =
+  bihuiSeo.bihui?.titleOverride ??
+  "BIHUI Tanzania - Tile Levelling, Trowels, Mixers, Cutters";
 const DESCRIPTION =
+  bihuiSeo.bihui?.description ??
   "BIHUI tiling tools from Sahihi in Dar es Salaam: levelling systems, trowels, floats, mixers, grinders, lasers and cutters. Turn the tools round in 3D.";
 
 export const metadata: Metadata = {
@@ -45,6 +50,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/bihui",
+    images: resolveOg("/bihui") ?? ogBase.images,
   },
 };
 

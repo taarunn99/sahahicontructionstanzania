@@ -67,9 +67,15 @@ export function LayerStack({
   caption = "A labelled diagram, not to scale.",
   listLabel = "The layers, top to bottom",
   dark = false,
+  decorLabel = "Put a decor on the plank:",
+  decorNamed = false,
 }: {
   layers: StackLayer[];
   decors?: StackDecor[];
+  /** The heading over the decor chips. */
+  decorLabel?: string;
+  /** Print the picked decor's name after its code. */
+  decorNamed?: boolean;
   caption?: string;
   listLabel?: string;
   dark?: boolean;
@@ -242,8 +248,12 @@ export function LayerStack({
         {decors && decors.length > 0 && (
           <div>
             <p className="label-sh text-muted">
-              Put a decor on the plank:{" "}
-              <span className="text-foreground">{decor}</span>
+              {decorLabel}{" "}
+              <span className="text-foreground">
+                {decor}
+                {decorNamed &&
+                  `, ${decors.find((item) => item.code === decor)?.label ?? ""}`}
+              </span>
             </p>
             <ul className="mt-3 flex flex-wrap gap-2">
               {decors.map((item) => (

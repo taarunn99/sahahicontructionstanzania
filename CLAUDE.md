@@ -186,6 +186,28 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   - **OYH East Africa:** `/oriental-yuhong` targets "OYH East Africa" (SEO-STRATEGY 5.1).
   - **Company profile** as a flip book on home and `/products` (`profile-book.tsx`), PDF in
     `public/tds/`.
+- Eighth round, 2026-11-11:
+  - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
+    burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`
+    (`src/app/sale/`): a paced 0 to 100% loader on the Sahihi mark that opens like a shutter
+    (`sale-stage.tsx`), the packs cut out on a lit Ink row in 3D (`lineup-scene.ts`), the
+    list, a WhatsApp order composer. Cut-outs are the manufacturers' own PNG alpha
+    (`npm run assets:packshots` writes `public/products/<brand>/cutout/`). 301s from
+    `/offer`, `/offers`, `/flash-sale`. Rewrite `coreSeo["/sale"]` with the next offer.
+  - **CMCI** from the owner's folder: fire thickness calculator (UL X854), deck and beam
+    coat (UL D780, `deck-coat.tsx`), eight UL and test PDFs (`fire-documents.tsx`),
+    references, three accessories; **practical 3D** on X-Calibur and CMCI pages: sealant
+    joint calculator (`sealant-joint.tsx`), epoxy floor, FlexPruf, SBR and fireproofing
+    build-ups (`src/config/build-ups.ts`); scene pictures on CMCI and X-Calibur product
+    pages (`src/config/product-scenes.ts`, Higgsfield, logged in IMAGE-PROVENANCE 3l).
+  - **Metadata pass** (owner: "all the meta titles and meta descriptions ... keyword
+    friendly ... ethically"): one registry row per page in `src/config/seo/<family>.ts`
+    (query, buyer words, hand-written description, stock claim); titles through
+    `composeItemTitle`, cards through `resolveOg` (`src/lib/seo.ts`); Open Graph cards for
+    every page in `public/og/` (`npm run assets:og` after a build); two gates inside
+    `npm run check`: `scripts/verify-seo-registry.mjs` and `scripts/audit-metadata.mjs`
+    (writes `docs/metadata-inventory-<date>.csv`). Rules in SEO-STRATEGY 5.1b. The 404 has
+    its own metadata (noindex only). Adding a page now means adding its row first.
 - Owner decisions on 2026-11-05: the `/mapei` hub owns
   "Mapei Tanzania"; Sahihi is independent (no group mention); Mlinzi is
   parked and treated as a third-party incumbent. The launch domain is

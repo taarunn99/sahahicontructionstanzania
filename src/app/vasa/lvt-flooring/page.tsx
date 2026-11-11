@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
+import { vasaPageMeta } from "@/config/seo/vasa";
 import { VasaRangePage } from "@/components/sections/vasa/vasa-range-page";
 import {
   decorsIn,
@@ -12,19 +13,19 @@ import {
 import content from "@/content/vasa/lvt.json";
 import type { FaqItem } from "@/lib/faq";
 
-const TITLE = "LVT Flooring Tanzania - Vasa Luxury Vinyl Tile | Sahihi";
-const DESCRIPTION =
-  "LVT flooring in Tanzania from Sahihi, an authorized Vasa dealer in Dar es Salaam: 2 mm luxury vinyl tile in carpet, stone and wood looks, with technical data.";
+const PATH = "/vasa/lvt-flooring";
+const { title: TITLE, description: DESCRIPTION } = vasaPageMeta("lvt-flooring");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/vasa/lvt-flooring" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/vasa/lvt-flooring",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

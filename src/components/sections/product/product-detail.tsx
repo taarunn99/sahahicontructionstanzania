@@ -78,6 +78,12 @@ export type ProductDetailProps = {
   back: { href: string; label: string };
   position: { number: number; count: number };
   image: { src: string; width: number; height: number } | null;
+  /**
+   * Where there is no pack picture: an illustrative picture of the product
+   * in use (generated, docs/IMAGE-PROVENANCE.md). Never a pack shot and never
+   * captioned as a Sahihi job.
+   */
+  scene?: { src: string; width: number; height: number; alt: string } | null;
   content: ProductContent | null;
   document: ProductDocument | null;
   coverage?: CoverageModel;
@@ -87,6 +93,8 @@ export type ProductDetailProps = {
     href: string;
     detail: string;
     image: string | null;
+    /** In-use picture for a card with no pack picture. */
+    scene?: string | null;
   }[];
   previous: { name: string; href: string };
   next: { name: string; href: string };
@@ -182,6 +190,7 @@ export function ProductDetail({
   back,
   position,
   image,
+  scene,
   content,
   document,
   coverage,
@@ -334,7 +343,7 @@ export function ProductDetail({
       />
 
       {/* ---- The product: pack shot left, the name and what it is right --- */}
-      <section className="bg-white">
+      <section className={!image && scene ? "bg-surface" : "bg-white"}>
         <Container className="pt-28 pb-14 sm:pt-32 sm:pb-20 print:!p-0">
           <div className="print:hidden">
             <Breadcrumb items={crumbs} />
@@ -351,7 +360,13 @@ export function ProductDetail({
             <div className="lg:sticky lg:top-28">
               {/* While it sticks, the pack (or its 3D model) fits the window. */}
               <figure className="lg:mx-auto lg:max-w-[max(18rem,calc(100svh-13rem))]">
-                <div className="border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white">
+                <div
+                  className={
+                    !image && scene
+                      ? "border-brand relative aspect-square overflow-hidden rounded-2xl border-[6px] bg-white shadow-[10px_10px_0_var(--deep)]"
+                      : "border-deep/15 relative aspect-square overflow-hidden rounded-lg border bg-white"
+                  }
+                >
                   {image && model ? (
                     <ModelViewer
                       model={model}
@@ -369,6 +384,23 @@ export function ProductDetail({
                       sizes="(min-width: 64rem) 42vw, 100vw"
                       className="object-contain p-6 sm:p-10"
                     />
+                  ) : scene ? (
+                    <>
+                      <Image
+                        src={scene.src}
+                        alt={scene.alt}
+                        fill
+                        preload
+                        sizes="(min-width: 64rem) 42vw, 100vw"
+                        className="scene-zoom object-cover"
+                      />
+                      <span className="bg-brand font-display absolute bottom-4 left-4 max-w-[80%] rounded-xl px-4 py-2.5 text-lg leading-tight font-extrabold text-white uppercase shadow-xl sm:text-2xl">
+                        {product.name}
+                      </span>
+                      <span className="bg-deep/80 text-chalk absolute top-4 right-4 rounded-full px-3 py-1 text-xs">
+                        Illustration
+                      </span>
+                    </>
                   ) : (
                     <div className="flex h-full flex-col items-center justify-center gap-4 p-8 text-center">
                       <p className="text-brand text-3xl leading-tight font-semibold tracking-tight uppercase">
@@ -380,6 +412,12 @@ export function ProductDetail({
                     </div>
                   )}
                 </div>
+                {!image && scene && (
+                  <figcaption className="spec-sh text-muted mt-5 leading-relaxed print:hidden">
+                    An illustration of where it is used, not a Sahihi job. The
+                    pack we stock: {product.packs.join(" · ")}.
+                  </figcaption>
+                )}
                 {image && (
                   <figcaption className="spec-sh text-muted mt-3 leading-relaxed print:hidden">
                     {brand.name}&apos;s own picture
@@ -907,6 +945,19 @@ export function ProductDetail({
                           sizes="(min-width: 80rem) 20vw, 46vw"
                           className="object-contain p-5 transition-transform duration-700 group-hover:scale-105"
                         />
+                      ) : other.scene ? (
+                        <>
+                          <Image
+                            src={other.scene}
+                            alt={`${other.name} in use, an illustration`}
+                            fill
+                            sizes="(min-width: 80rem) 20vw, 46vw"
+                            className="object-cover transition-transform duration-700 group-hover:scale-105"
+                          />
+                          <span className="bg-brand font-display absolute bottom-3 left-3 max-w-[85%] rounded-lg px-2.5 py-1.5 text-sm leading-tight font-extrabold text-white uppercase">
+                            {other.name}
+                          </span>
+                        </>
                       ) : (
                         <span className="text-brand flex h-full items-center justify-center p-5 text-center text-lg font-semibold uppercase">
                           {other.name}

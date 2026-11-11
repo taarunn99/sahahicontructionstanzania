@@ -1,6 +1,6 @@
 import type { ProductContent } from "@/components/sections/product/product-detail";
 import { productHref, products, type Product } from "@/config/catalogue";
-import { cmciHref, cmciProducts, cmciTds } from "@/config/cmci";
+import { cmciAll, cmciHref, cmciTds } from "@/config/cmci";
 import { cmciContent } from "@/config/cmci-content";
 import { mapeiContent, mapeiTds } from "@/config/mapei";
 import { oyhContent, oyhTds } from "@/config/oriental-yuhong";
@@ -78,7 +78,7 @@ const RANGES: {
     slug: "cmci",
     label: "CMCI range",
     maker: null,
-    items: () => cmciProducts,
+    items: () => cmciAll,
     href: cmciHref,
     content: cmciContent,
     doc: (slug) => cmciTds[slug],

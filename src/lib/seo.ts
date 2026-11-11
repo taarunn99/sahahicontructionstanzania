@@ -1,12 +1,86 @@
+import ogManifest from "@/config/og-manifest.json";
+
 /**
  * SERP metadata helpers (owner rule, 2026-08-18): titles use as much of
  * the ~60-character SERP budget as their keywords honestly fill, and
- * descriptions land inside the 140-160 character window. Blog post
- * metas are exempt - locked verbatim in the content package.
+ * descriptions land inside the 120-160 character window.
+ *
+ * The metadata pass of 2026-11-12 (owner: every title and description
+ * keyword-friendly, ethically) added the registry rows in src/config/seo/,
+ * one per page, which the page templates read through `composeItemTitle`
+ * and `resolveOg` below. `scripts/audit-metadata.mjs` gates the built HTML.
+ * Blog posts are no longer exempt: they follow the same gate.
  */
 
 const TITLE_MAX = 60;
 const DESC_MAX = 160;
+
+/**
+ * One page's registry row (src/config/seo/<family>.ts). The maps are the
+ * registry of record; SEO-STRATEGY.md section 5 is regenerated from them.
+ */
+export type SeoRow = {
+  /** The one search query this page owns, as a buyer types it. Unique
+   * across the whole site (scripts/verify-seo-registry.mjs). */
+  query: string;
+  /** Plain buyer words for the product type in the title, e.g. "tile
+   * adhesive", "non shrink grout". Not the catalogue's internal label. */
+  typeWords?: string;
+  /** The meta description, hand-written, 120-160 characters, no price. */
+  description: string;
+  /** What the description may claim about stock. "held": at the Dar es
+   * Salaam warehouse per the owner's lists; "order": brought in to order;
+   * "enquire": nothing about stock (Vasa, order-in lines). */
+  stock: "held" | "order" | "enquire";
+  /** Whole title, only when the pattern cannot be used (a source typo in
+   * the name, a hub with its own shape). Still 35-60 characters. */
+  titleOverride?: string;
+  /** Put "Tanzania" in the title. On by default for products; off for
+   * BIHUI tools without a real local query (plan, 2026-11-12). */
+  geo?: boolean;
+};
+
+/**
+ * The one item-title pattern for every product family:
+ *   <Name> Tanzania - <Brand> <type words> | Sahihi
+ * Drop order when the budget is short: the "| Sahihi" suffix first, then
+ * the type words, then the geo; never a dangling dash, never a cut word.
+ */
+export function composeItemTitle(
+  name: string,
+  brand: string,
+  typeWords?: string,
+  options: { geo?: boolean } = {},
+): string {
+  const geo = options.geo === false ? "" : " Tanzania";
+  const type = typeWords
+    ? ` ${typeWords.replace(/\b[a-z]/g, (l) => l.toUpperCase())}`
+    : "";
+  const candidates = [
+    `${name}${geo} - ${brand}${type} | Sahihi`,
+    `${name}${geo} - ${brand}${type}`,
+    `${name}${geo} - ${brand} | Sahihi`,
+    `${name}${geo} - ${brand}`,
+    `${name} - ${brand}${type}`,
+    `${name} - ${brand}`,
+    name,
+  ];
+  return candidates.find((title) => title.length <= TITLE_MAX) ?? name;
+}
+
+/**
+ * The Open Graph card for a route, if scripts/build-og-cards.mjs made one
+ * (src/config/og-manifest.json, committed with the PNGs in public/og/).
+ * Pages without a card keep `ogBase` and the root opengraph-image.jpg.
+ */
+export function resolveOg(
+  route: string,
+): { url: string; width: number; height: number; alt: string }[] | undefined {
+  const card = (ogManifest as Record<string, { url: string; alt: string }>)[
+    route
+  ];
+  return card ? [{ url: card.url, width: 1200, height: 630, alt: card.alt }] : undefined;
+}
 
 /**
  * Greedy title builder. Starts from the primary-keyword base and

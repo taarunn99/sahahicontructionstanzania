@@ -11,11 +11,12 @@ import { FlowButton } from "@/components/ui/flow-button";
 import { linePhotos } from "@/config/images";
 import { REPAIR_PATH, repairPlaces } from "@/config/repair-selector";
 import { repairStacks } from "@/config/selector-stacks";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { TILE_PATH } from "@/config/tile-selector";
 import { SELECTOR_PATH } from "@/config/waterproofing-selector";
 import { resolvePlaces, selectorProductCount } from "@/lib/selector";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 /**
  * CONCRETE REPAIR, BY DAMAGE: owns "concrete repair Tanzania"
@@ -24,12 +25,13 @@ import { ogBase } from "@/lib/seo";
  * scripts/verify-waterproofing-selector.mjs). No ranking, no prices.
  */
 
-const TITLE = "Concrete Repair Tanzania - Spalling, Cracks, Anchoring";
-const DESCRIPTION =
-  "Which product for which concrete repair: spalling and rusting steel, structural repair, cracks, new onto old, floors, anchoring, manholes. Mapei and X-Calibur in Dar es Salaam.";
+// Title and description: src/config/seo/core.ts.
+const ROW = coreRow(REPAIR_PATH);
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE} | Sahihi` },
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: REPAIR_PATH },
   openGraph: {
@@ -37,6 +39,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: REPAIR_PATH,
+    images: resolveOg(REPAIR_PATH) ?? ogBase.images,
   },
 };
 

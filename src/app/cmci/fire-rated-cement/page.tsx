@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { cmciPageMeta } from "@/config/seo/cmci";
 import { ModelCta } from "@/components/sections/model-cta";
+import Image from "next/image";
 import Link from "next/link";
 
 import { Reveal } from "@/components/motion/reveal";
+import { DeckCoat } from "@/components/sections/cmci/deck-coat";
+import { FireDocuments } from "@/components/sections/cmci/fire-documents";
+import { FireReferences } from "@/components/sections/cmci/fire-references";
+import { FireThickness } from "@/components/sections/cmci/fire-thickness";
 import { Embers } from "@/components/sections/cmci/heat";
 import { CtaBand } from "@/components/sections/cta-band";
 import { Faq } from "@/components/sections/faq";
@@ -13,12 +19,14 @@ import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import {
+  cmciAccessories,
   cmciHref,
   cmciLines,
   cmciProductBySlug,
   cmciProducts,
   cmciTds,
 } from "@/config/cmci";
+import { firePhotos } from "@/config/images";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 
@@ -30,19 +38,20 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
  * product's data sheet, and `npm test` checks the sheet wording in src/content.
  */
 
-const TITLE = "Fire Rated Cement Tanzania - CMCI Fireproofing | Sahihi";
-const DESCRIPTION =
-  "Fire rated cement in Tanzania from Sahihi, Dar es Salaam: CMCI cementitious fireproofing for structural steel, with up to 4 hours printed on the data sheets.";
+const PATH = "/cmci/fire-rated-cement";
+const { title: TITLE, description: DESCRIPTION } =
+  cmciPageMeta("fire-rated-cement");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/cmci/fire-rated-cement" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/cmci/fire-rated-cement",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 
@@ -158,7 +167,7 @@ export default function FireRatedCementPage() {
             <FlowButton href={whatsappLink("CMCI fire rated cement")}>
               Send the fire design
             </FlowButton>
-            <FlowButton href="#products">See the products</FlowButton>
+            <FlowButton href="#thickness">Work out the thickness</FlowButton>
           </div>
         </Container>
       </section>
@@ -224,6 +233,17 @@ export default function FireRatedCementPage() {
               </li>
             ))}
           </ul>
+          <p className="mt-8 leading-relaxed">
+            <span className="font-semibold">Accessories:</span>{" "}
+            {cmciAccessories.map((item, index) => (
+              <span key={item.slug}>
+                {index > 0 && " · "}
+                <Link href={cmciHref(item)} className="u-line">
+                  {item.name}
+                </Link>
+              </span>
+            ))}
+          </p>
           <p className="text-muted mt-6 max-w-3xl text-sm leading-relaxed">
             A fire rating belongs to a tested design at a stated thickness:
             confirm both, and the label on the bag, before you specify. MK-6s is
@@ -231,6 +251,64 @@ export default function FireRatedCementPage() {
           </p>
         </Container>
       </section>
+
+      {/* Pictures: illustrative, never captioned as a Sahihi job. */}
+      <section aria-label="Sprayed fireproofing" className="pb-4">
+        <Container className="grid gap-3 sm:grid-cols-3">
+          {[
+            firePhotos.spraying,
+            firePhotos.coatedFrame,
+            firePhotos.thicknessGauge,
+          ].map((photo) => (
+            <figure
+              key={photo.src}
+              className="relative aspect-[3/2] overflow-hidden rounded-2xl"
+            >
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                sizes="(min-width: 40rem) 33vw, 100vw"
+                className="object-cover"
+              />
+            </figure>
+          ))}
+        </Container>
+      </section>
+
+      <section id="thickness" className="scroll-mt-28 py-14 sm:py-20">
+        <Container>
+          <p className="label-sh text-muted">For the BOQ</p>
+          <h2 className="font-display text-phi-3 mt-4 max-w-4xl tracking-tight text-balance">
+            How thick on your columns? Work it out.
+          </h2>
+          <p className="mt-4 mb-10 max-w-2xl leading-relaxed">
+            Pick the product, the hours and the steel section. The thickness
+            comes from the equation in UL Design X854, and the column shows the
+            coat at that thickness. Copy the clause into the bill of quantities.
+          </p>
+          <FireThickness />
+        </Container>
+      </section>
+
+      <section id="deck" className="bg-surface scroll-mt-28 py-14 sm:py-20">
+        <Container>
+          <p className="label-sh text-muted">For the BOQ</p>
+          <h2 className="font-display text-phi-3 mt-4 max-w-4xl tracking-tight text-balance">
+            And on the deck and the beam? Read it off the design.
+          </h2>
+          <p className="mt-4 mb-10 max-w-2xl leading-relaxed">
+            Composite floors: a fluted steel deck with concrete on top, on a
+            steel beam. UL Design D780 prints the thickness for both, by the
+            rating and the product. Pick them and the model grows the coat.
+          </p>
+          <DeckCoat />
+        </Container>
+      </section>
+
+      <FireReferences />
+
+      <FireDocuments className="py-14 sm:py-20" />
 
       <section className="bg-surface py-14 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-2">

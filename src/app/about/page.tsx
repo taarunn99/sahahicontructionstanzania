@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import { RelatedLinks } from "@/components/sections/related-links";
 import Image from "next/image";
 import Link from "next/link";
@@ -31,12 +31,14 @@ import {
   solutionPhotos,
 } from "@/config/images";
 import { projects } from "@/config/projects";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig } from "@/config/site";
 
 // /about is the brand-query landing page: the title leads with the exact
-// entity name (handoff 12.7).
-const TITLE = "Sahihi Construction Chemicals Limited - Dar es Salaam";
-const DESCRIPTION = `Sahihi Construction Chemicals Limited, Dar es Salaam: authorized distributor of Mapei, Oriental Yuhong and X-Calibur. Director: ${siteConfig.director.name}.`;
+// entity name (handoff 12.7). Title and description: src/config/seo/core.ts.
+const ROW = coreRow("/about");
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -47,6 +49,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/about",
+    images: resolveOg("/about") ?? ogBase.images,
   },
 };
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ContactForm } from "@/components/sections/contact-form";
@@ -7,11 +7,13 @@ import { Moonrise } from "@/components/sections/moonrise";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig, whatsappLink } from "@/config/site";
 
-const TITLE = "Contact Sahihi - Mapei Quotes & Supply, Dar es Salaam";
-const DESCRIPTION =
-  "Request a quotation for Mapei, Oriental Yuhong or X-Calibur products. WhatsApp, call or email Sahihi Construction Chemicals on Coca-Cola Road, Dar es Salaam.";
+// Owns "Mapei dealer Dar es Salaam" (src/config/seo/core.ts).
+const ROW = coreRow("/contact");
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -22,6 +24,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/contact",
+    images: resolveOg("/contact") ?? ogBase.images,
   },
 };
 
@@ -81,7 +84,10 @@ export default function ContactPage() {
       <section className="pt-32 pb-14 sm:pt-40">
         <Container>
           <Breadcrumb items={crumbs} />
-          <h1 className="font-display text-phi-4 mt-8 max-w-4xl tracking-tight text-balance">
+          <p className="label-sh text-muted mt-10">
+            Mapei dealer · Dar es Salaam
+          </p>
+          <h1 className="font-display text-phi-4 mt-5 max-w-4xl tracking-tight text-balance">
             Send the job. Get the system.
           </h1>
           <p className="text-phi-1 mt-8 max-w-3xl leading-relaxed font-light">

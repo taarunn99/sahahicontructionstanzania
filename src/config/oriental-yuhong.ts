@@ -4,7 +4,9 @@ import path from "node:path";
 import type { ProductContent } from "@/components/sections/product/product-detail";
 import { products, type Product } from "@/config/catalogue";
 import tdsManifest from "@/config/oriental-yuhong-tds.json";
+import { oyhSeo, type OyhSlug } from "@/config/seo/oyh";
 import type { CoverageModel } from "@/lib/coverage";
+import { composeItemTitle, seoDescription } from "@/lib/seo";
 
 /**
  * Everything the Oriental Yuhong pages need beyond the catalogue.
@@ -120,15 +122,36 @@ export const oyhCoverage: Record<string, CoverageModel> = {
   },
 };
 
-/** Longest candidate that fits the 60-character title budget. */
+const oyhSeoRow = (product: Product) => oyhSeo[product.slug as OyhSlug];
+
+/**
+ * Item title from the registry row (src/config/seo/oyh.ts): the override
+ * when the row has one, otherwise the one item pattern with the brand word
+ * "OYH" ("Oriental Yuhong" rarely fits the 60-character budget) and the
+ * row's buyer type words (the catalogue type is the fallback).
+ */
 export function oyhItemTitle(product: Product) {
-  const type = product.type.replace(/\b[a-z]/g, (l) => l.toUpperCase());
-  const candidates = [
-    `${product.name} Tanzania - Oriental Yuhong ${type}`,
-    `${product.name} Tanzania - OYH ${type} | Sahihi`,
-    `${product.name} Tanzania - OYH ${type}`,
-    `${product.name} Tanzania - Oriental Yuhong | Sahihi`,
-    `${product.name} Tanzania - Oriental Yuhong`,
-  ];
-  return candidates.find((title) => title.length <= 60) ?? candidates[4];
+  const row = oyhSeoRow(product);
+  return (
+    row?.titleOverride ??
+    composeItemTitle(
+      product.name,
+      "OYH",
+      row?.typeWords ?? product.type.toLowerCase(),
+      { geo: row?.geo },
+    )
+  );
+}
+
+/** Item description: the hand-written row, else the composed fallback. */
+export function oyhItemDescription(product: Product) {
+  return (
+    oyhSeoRow(product)?.description ??
+    seoDescription(
+      `${product.name}: ${product.summary}`,
+      "Oriental Yuhong, stocked by Sahihi in Dar es Salaam.",
+      "Data sheet, pack size and coverage.",
+      "Authorized distributor in Tanzania.",
+    )
+  );
 }

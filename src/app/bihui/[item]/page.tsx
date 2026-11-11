@@ -16,6 +16,7 @@ import {
   bihuiFamilies,
   bihuiFamilyBySlug,
   bihuiHref,
+  bihuiItemDescription,
   bihuiItemTitle,
   bihuiModel,
   bihuiName,
@@ -23,7 +24,8 @@ import {
   isDoubtfulRow,
 } from "@/config/bihui";
 import { siteConfig, whatsappLink } from "@/config/site";
-import { seoDescription, ogBase } from "@/lib/seo";
+import { bihuiSeo, type BihuiSlug } from "@/config/seo/bihui";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 type Params = Promise<{ item: string }>;
 
@@ -43,12 +45,7 @@ export async function generateMetadata({
   const family = bihuiFamilyBySlug[item];
   if (!family) return {};
   const title = bihuiItemTitle(family);
-  const description = seoDescription(
-    `BIHUI ${bihuiName(family)}: ${family.summary}`,
-    "From Sahihi in Dar es Salaam.",
-    "Codes and sizes from the catalogue.",
-    "Ask for a quotation in Tanzania.",
-  );
+  const description = bihuiItemDescription(family);
   const url = bihuiHref(family);
   return {
     title: { absolute: title },
@@ -59,6 +56,7 @@ export async function generateMetadata({
       title,
       description,
       url,
+      images: resolveOg(url) ?? ogBase.images,
     },
   };
 }
@@ -191,8 +189,10 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
             </div>
 
             <div>
+              {/* The eyebrow carries the page's query (metadata pass,
+                  2026-11-12), then the category. */}
               <p className="label-sh text-muted leading-relaxed">
-                BIHUI ·{" "}
+                {bihuiSeo[family.slug as BihuiSlug]?.query ?? "BIHUI"} ·{" "}
                 <Link href={`/bihui#${category?.id}`} className="u-line">
                   {family.category}
                 </Link>

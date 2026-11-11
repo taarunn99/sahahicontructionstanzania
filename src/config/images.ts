@@ -175,3 +175,25 @@ export const companyPhotos = {
     "Sample boards of tile, membrane and resin on a white bench with a notched trowel and a roller",
   ),
 };
+
+/** CMCI fire pages (Higgsfield, 2026-11-11, IMAGE-PROVENANCE 3k). */
+export const firePhotos = {
+  spraying: photo(
+    "fire/spraying",
+    1600,
+    1063,
+    "An applicator in white coveralls on a scaffold spraying grey fireproofing onto steel beams under a steel deck",
+  ),
+  coatedFrame: photo(
+    "fire/coated-frame",
+    1600,
+    1063,
+    "A steel frame of columns, beams and fluted deck, every member covered in a rough grey sprayed coating",
+  ),
+  thicknessGauge: photo(
+    "fire/thickness-gauge",
+    1600,
+    1063,
+    "A depth gauge pin pushed into the grey sprayed coating on the edge of a steel beam flange",
+  ),
+};

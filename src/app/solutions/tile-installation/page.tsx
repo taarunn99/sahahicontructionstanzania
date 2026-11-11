@@ -11,11 +11,12 @@ import { FlowButton } from "@/components/ui/flow-button";
 import { linePhotos } from "@/config/images";
 import { REPAIR_PATH } from "@/config/repair-selector";
 import { tileStacks } from "@/config/selector-stacks";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { TILE_PATH, tilePlaces } from "@/config/tile-selector";
 import { SELECTOR_PATH } from "@/config/waterproofing-selector";
 import { resolvePlaces, selectorProductCount } from "@/lib/selector";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 /**
  * TILE INSTALLATION, BY JOB: owns "tile adhesive Tanzania"
@@ -24,12 +25,13 @@ import { ogBase } from "@/lib/seo";
  * scripts/verify-waterproofing-selector.mjs). No ranking, no prices.
  */
 
-const TITLE = "Tile Adhesive Tanzania - Which Adhesive, Grout, Primer";
-const DESCRIPTION =
-  "Which Mapei tile adhesive, grout, primer and cleaner for which job: ceramic, porcelain and large tiles, outdoors, tile on tile, pools, kitchens, marble and stone. Dar es Salaam.";
+// Title and description: src/config/seo/core.ts.
+const ROW = coreRow(TILE_PATH);
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE} | Sahihi` },
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: TILE_PATH },
   openGraph: {
@@ -37,6 +39,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: TILE_PATH,
+    images: resolveOg(TILE_PATH) ?? ogBase.images,
   },
 };
 
@@ -77,7 +80,7 @@ export default function TileInstallationPage() {
         <Container className="grid gap-10 pt-28 pb-14 sm:pt-36 sm:pb-20 lg:grid-cols-[1.4fr_1fr] lg:items-end">
           <div>
             <Breadcrumb items={crumbs} />
-            <p className="label-sh mt-10">Tile installation · Tanzania</p>
+            <p className="label-sh mt-10">Tile adhesive · Tanzania</p>
             <h1 className="font-display mt-5 text-[clamp(2rem,7.4vw,5.25rem)] leading-[1.02] uppercase">
               Tile adhesive, job by job.
             </h1>

@@ -1,5 +1,8 @@
+import { composeItemTitle, seoDescription } from "@/lib/seo";
+
 import catalogue from "./bihui-catalogue.json";
 import models from "./bihui-models.json";
+import { bihuiSeo, type BihuiSlug } from "./seo/bihui";
 
 /**
  * BIHUI: tiling tools. The only source is the catalogue the owner supplied
@@ -91,11 +94,31 @@ export const isDoubtfulRow = (row: BihuiSku) =>
       row.flag ?? "",
     ));
 
+/** The page's registry row (src/config/seo/bihui.ts), if written. */
+const bihuiSeoRow = (family: BihuiFamily) =>
+  bihuiSeo[family.slug as BihuiSlug];
+
+/**
+ * SERP title (metadata pass, 2026-11-12): the registry's `titleOverride`
+ * where the catalogue name carries a typo or will not fit, otherwise the
+ * one item pattern. "Tanzania" only where the row says a local query exists.
+ */
 export const bihuiItemTitle = (family: BihuiFamily) => {
-  const name = bihuiName(family);
-  const long = `${name} - BIHUI Tanzania | Sahihi`;
-  if (long.length <= 60) return long;
-  const mid = `${name} - BIHUI Tanzania`;
-  if (mid.length <= 60) return mid;
-  return `${name} - BIHUI`.slice(0, 60);
+  const row = bihuiSeoRow(family);
+  return (
+    row?.titleOverride ??
+    composeItemTitle(bihuiName(family), "BIHUI", row?.typeWords, {
+      geo: row?.geo ?? false,
+    })
+  );
 };
+
+/** Meta description: the hand-written row, else the catalogue summary. */
+export const bihuiItemDescription = (family: BihuiFamily) =>
+  bihuiSeoRow(family)?.description ??
+  seoDescription(
+    `BIHUI ${bihuiName(family)}: ${family.summary}`,
+    "From Sahihi in Dar es Salaam.",
+    "Codes and sizes from the catalogue.",
+    "Ask for a quotation in Tanzania.",
+  );

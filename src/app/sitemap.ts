@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { lineHref, lines, productHref, products } from "@/config/catalogue";
 import { bihuiFamilies, bihuiHref } from "@/config/bihui";
-import { cmciHref, cmciProducts } from "@/config/cmci";
+import { cmciAll, cmciHref } from "@/config/cmci";
 import { blogCategories, posts, postsInCategory } from "@/config/blog";
 import { SYSTEMS as SPORTS_SYSTEMS } from "@/config/oyh-sports-systems";
 import { siteConfig } from "@/config/site";
@@ -20,6 +20,7 @@ import { enTwin, swTwin, swTwins } from "@/config/sw-routes";
 const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "", modified: "2026-11-05", priority: 1 },
   { path: "/mapei", modified: "2026-11-05", priority: 0.9 },
+  { path: "/sale", modified: "2026-11-11", priority: 0.8 },
   { path: "/bihui", modified: "2026-11-06", priority: 0.8 },
   { path: "/cmci", modified: "2026-11-07", priority: 0.8 },
   { path: "/cmci/fire-rated-cement", modified: "2026-11-07", priority: 0.9 },
@@ -59,6 +60,8 @@ const CORE: { path: string; modified: string; priority: number }[] = [
 
 /** Date the Mapei cluster's data (data sheets, calculators) was last set. */
 const CATALOGUE_MODIFIED = "2026-11-05";
+/** The metadata pass: every page's title, description and share card. */
+const METADATA_MODIFIED = "2026-11-11";
 
 const isRoute = (href: string) => !href.includes("#");
 
@@ -93,9 +96,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  const fireproofing = cmciProducts.map((product) => ({
+  const fireproofing = cmciAll.map((product) => ({
     path: cmciHref(product),
-    modified: "2026-11-07",
+    modified: product.lines.includes("accessories")
+      ? "2026-11-11"
+      : "2026-11-07",
     priority: 0.5,
   }));
 
@@ -117,9 +122,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((route) => {
     const path = route.path === "" ? "/" : route.path;
     const english = enTwin(path) ?? (swTwin(path) ? path : undefined);
+    // The metadata pass of 2026-11-11 changed every page's title,
+    // description and share card (docs/metadata-inventory-2026-11-11.csv),
+    // so no route is older than that day.
+    const modified =
+      route.modified > METADATA_MODIFIED ? route.modified : METADATA_MODIFIED;
     return {
       url: `${siteConfig.url}${route.path}`,
-      lastModified: new Date(route.modified),
+      lastModified: new Date(modified),
       changeFrequency: route.path === "" ? "weekly" : "monthly",
       priority: route.priority,
       ...(english

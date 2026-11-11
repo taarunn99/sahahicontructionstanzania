@@ -628,7 +628,26 @@ export const swHome = {
     label: "Ofa ya Novemba",
     body: "Kiasi ni kidogo, hadi mwisho wa Novemba. Tutumie bidhaa na kiasi, nasi tutakujibu kwa bei ya ofa.",
     button: "Pata bei ya ofa kwa WhatsApp",
+    page: "Tazama ukurasa wa ofa",
     topic: "ofa ya Novemba ya Mapei",
+    flash: {
+      tab: "Ofa kabambe",
+      bubble: {
+        word: "Ofa!",
+        line: "Bidhaa 25 za Mapei",
+        cta: "Tazama ofa",
+        close: "Funga kiputo cha ofa",
+      },
+      ticker: [
+        "Ofa kabambe",
+        "Bidhaa za Mapei kwa ofa",
+        "Kiasi ni kidogo",
+        "Inaisha 30 Novemba",
+        "Uliza bei ya ofa kwa WhatsApp",
+      ],
+      units: ["siku", "saa", "dak", "sek"] as [string, string, string, string],
+      ended: "Ofa imekwisha",
+    },
   },
 };
 

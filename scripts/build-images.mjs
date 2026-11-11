@@ -36,6 +36,29 @@ const JOBS = [
   ["M4", "materials/grout-joint.webp", 1200, 86],
   ["C1", "company/supply.webp", 1600, 86],
   ["C2", "company/training.webp", 1600, 86],
+  // CMCI fire pages, 2026-11-11 (IMAGE-PROVENANCE 3k).
+  ["F1", "fire/spraying.webp", 1600, 84],
+  ["F2", "fire/coated-frame.webp", 1600, 84],
+  ["F3", "fire/thickness-gauge.webp", 1600, 84],
+  // CMCI and X-Calibur product scenes, 2026-11-11 (IMAGE-PROVENANCE 3l).
+  ["P01", "scenes/avikote-av-800.webp", 1600, 84],
+  ["P02", "scenes/avikote-av-650.webp", 1600, 84],
+  ["P03", "scenes/monokote-z-156.webp", 1600, 84],
+  ["P04", "scenes/monokote-z-146.webp", 1600, 84],
+  ["P05", "scenes/monokote-z-106-hy.webp", 1600, 84],
+  ["P06", "scenes/monokote-z-106.webp", 1600, 84],
+  ["P07", "scenes/monokote-mk-6-hy.webp", 1600, 84],
+  ["P08", "scenes/monokote-mk-6s.webp", 1600, 84],
+  ["P09", "scenes/aquakote.webp", 1600, 84],
+  ["P10", "scenes/monokote-accelerator.webp", 1600, 84],
+  ["P11", "scenes/fr-bonding-agent.webp", 1600, 84],
+  ["P12", "scenes/x-tech-sbr-bond.webp", 1600, 84],
+  ["P13", "scenes/x-tech-epoxyfloor-sl1.webp", 1600, 84],
+  ["P14", "scenes/x-prime-gp.webp", 1600, 84],
+  ["P15", "scenes/x-shield-flexpruf.webp", 1600, 84],
+  ["P16", "scenes/x-seal-ps800.webp", 1600, 84],
+  ["P17", "scenes/x-seal-universal-primer.webp", 1600, 84],
+  ["P18", "scenes/x-prime-gp2.webp", 1600, 84],
 ];
 
 for (const [id, output, width, quality, crop = 0] of JOBS) {

@@ -275,6 +275,15 @@ distributor that also appoints applicators.
 | `/oriental-yuhong/sports-flooring/acrylic-court` | acrylic tennis court Tanzania, acrylic sports court | System page: 3D, calculator, drying, guide |
 | `/oriental-yuhong/sports-flooring/artificial-turf` | artificial turf Tanzania, artificial grass football pitch | System page: 3D, film, calculator |
 | `/oriental-yuhong/sports-flooring/epdm-walking-track` | EPDM flooring Tanzania, rubber flooring playground | System page: 3D, calculator, site steps |
+| `/sale` (added 2026-11-11) | Mapei offer Tanzania, Mapei sale Dar es Salaam, Mapei promotion Tanzania | The current offer from `src/config/offers.ts`: a loader on the Sahihi mark, the packs in a lit row in 3D, the list, a WhatsApp order composer. No prices. Says "ended" after the last day. 301s: `/offer`, `/offers`, `/flash-sale` |
+
+### 5.1b The registry of record (metadata pass, 2026-11-12)
+
+Every page now has one row in `src/config/seo/<family>.ts` (mapei, x-calibur, cmci, oyh, vasa, bihui, blog, core): the one query it owns, the buyer words for its title, a hand-written 120-160 character description, what it may say about stock, and, where the item pattern cannot be used, the whole title. The page templates read those rows (`composeItemTitle`, `resolveOg` in `src/lib/seo.ts`), so **the maps, not this file, are the registry of record**; the tables in this section stay as the history of how each query was chosen. The rows for every route, with lengths and the rejected alternatives, are in `docs/seo/2026-11-12/{mapei,brands,bihui,blog,core}.md`, and the rendered result of each build is written to `docs/metadata-inventory-<date>.csv`.
+
+Two gates run inside `npm run check`: `scripts/verify-seo-registry.mjs` (every slug has a row, no two pages share a query, lengths, dashes, prices, banned phrases) and `scripts/audit-metadata.mjs` (the built HTML: uniqueness, lengths, canonical, og:title = title, og:image file present, one H1, hreflang reciprocity on the Swahili twins, the query's words in the title and on the page, authorization wording per brand, stock wording against the row, sitemap parity). Open Graph cards for every page are rendered by `npm run assets:og` into `public/og/` (section 3n of `docs/IMAGE-PROVENANCE.md`).
+
+Rules the pass settled: "Tanzania" appears at most once in a title and only where a real local query exists (about 14 BIHUI tool families; the rest carry it in the description); the Mapei hub, not the home page, owns "Mapei Tanzania" (D8); blog posts changed only where a title missed its own query, read as cut, or a description opened with a question; no page claims "#1", "leading", "exclusive" or "official"; stock wording follows the owner's lists (Mapei, X-Calibur, OYH, Vasa and the sports tracks held in Dar es Salaam; CMCI and BIHUI to order; acrylic, EPDM and turf per job). No search volumes exist in the repo, so the grades remain the E/M/H readings of the research; nothing here is a ranking forecast.
 
 `/cmci` now also targets "CMCI authorized dealer Tanzania".
 

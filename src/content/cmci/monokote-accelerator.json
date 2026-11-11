@@ -1,0 +1,58 @@
+{
+  "slug": "monokote-accelerator",
+  "titleAsPrinted": "Monokote® Accelerator",
+  "description": "Monokote® Accelerator is used to increase the yield and accelerate the setting of Monokote MK-6/HY, when used with Monokote Injection Machines.",
+  "whereToUse": [
+    "Monokote MK-6/HY, when used with Monokote Injection Machines"
+  ],
+  "notFor": [],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Product",
+      "value": "Aluminum Sulphate"
+    },
+    {
+      "label": "Formula",
+      "value": "Al2(SO4)3 XH2O(X=10)"
+    },
+    {
+      "label": "Type",
+      "value": "White or Grey granule"
+    },
+    {
+      "label": "Size",
+      "value": "0-5mm"
+    },
+    {
+      "label": "Solubility",
+      "value": "Soluble in water"
+    },
+    {
+      "label": "Melting point",
+      "value": "86 °C"
+    },
+    {
+      "label": "Dangerous goods class",
+      "value": "None Allocated"
+    },
+    {
+      "label": "Al2O3",
+      "value": "17-18%"
+    },
+    {
+      "label": "Fe (as Fe2O3)",
+      "value": "0.02% (max)"
+    },
+    {
+      "label": "Water insoluble matter",
+      "value": "0.3%"
+    },
+    {
+      "label": "pH (1% solution)",
+      "value": "2.5-4.0"
+    }
+  ],
+  "consumption": [],
+  "packaging": "27.2 kg/bag"
+}

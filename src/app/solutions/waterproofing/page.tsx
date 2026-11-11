@@ -9,13 +9,14 @@ import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import { solutionPhotos } from "@/config/images";
+import { coreRow } from "@/config/seo/core";
 import { siteConfig, whatsappLink } from "@/config/site";
 import {
   SELECTOR_PATH,
   selectorPlaces,
 } from "@/config/waterproofing-selector";
 import { resolvePlaces, selectorProductCount } from "@/lib/selector";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 /**
  * WATERPROOFING, BY PART OF THE BUILDING: owns "waterproofing Tanzania"
@@ -25,12 +26,13 @@ import { ogBase } from "@/lib/seo";
  * scripts/verify-waterproofing-selector.mjs). No ranking, no prices.
  */
 
-const TITLE = "Waterproofing Tanzania - Roofs, Basements, Wet Areas";
-const DESCRIPTION =
-  "Which waterproofing for which part of the building: roofs, bathrooms, balconies, basements, water tanks, pools and walls. Mapei, OYH and X-Calibur in Dar es Salaam.";
+// Title and description: src/config/seo/core.ts.
+const ROW = coreRow(SELECTOR_PATH);
+const TITLE = ROW.titleOverride;
+const DESCRIPTION = ROW.description;
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE} | Sahihi` },
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: SELECTOR_PATH },
   openGraph: {
@@ -38,6 +40,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: SELECTOR_PATH,
+    images: resolveOg(SELECTOR_PATH) ?? ogBase.images,
   },
 };
 

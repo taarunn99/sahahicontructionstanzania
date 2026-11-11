@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { oyhPageMeta } from "@/config/seo/oyh";
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ModelCta } from "@/components/sections/model-cta";
 import Image from "next/image";
@@ -26,9 +27,8 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
  * See docs/OPEN-QUESTIONS.md Q21.
  */
 
-const TITLE = "HDPE Waterproofing Tanzania - OYH PMH-3080 Plus | Sahihi";
-const DESCRIPTION =
-  "HDPE waterproofing membrane in Tanzania from Sahihi: OYH PMH-3080 Plus, pre-applied under foundation slabs, tunnels and subways, with data sheet and method.";
+const { title: TITLE, description: DESCRIPTION } =
+  oyhPageMeta("hdpe-waterproofing");
 const PATH = "/oriental-yuhong/hdpe-waterproofing";
 const PRODUCT = "/oriental-yuhong/pmh-3080-plus";
 
@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

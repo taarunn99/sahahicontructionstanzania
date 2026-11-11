@@ -149,7 +149,7 @@ const entries: Entry[] = [
     title: "Why hidden roof houses leak, and the fix that lasts",
     metaTitle: "Hidden roof leaking? Why it happens and the fix that lasts",
     description:
-      "Hidden roof leaking? Find the leak point: parapet, gutter, outlets, slab or cracks. Causes, types of fix and stocked products, with data sheet figures.",
+      "Hidden roof leaking: find the leak point at the parapet, gutter, outlets, slab or cracks. Causes, types of fix and stocked products, with data sheet figures.",
     category: "waterproofing",
     kind: "pillar",
     primaryQuery: "hidden roof leaking",
@@ -231,9 +231,9 @@ const entries: Entry[] = [
   {
     slug: "cementitious-vs-liquid-membrane-waterproofing",
     title: "Cementitious, liquid or acrylic membrane: which one",
-    metaTitle: "Cementitious vs liquid membrane waterproofing: which one",
+    metaTitle: "Cementitious vs liquid membrane waterproofing: which to use",
     description:
-      "Cementitious, liquid or acrylic membrane? Compare the three families from data sheets: uses, exposure and consumption, for bathroom, roof, basement and tank.",
+      "Cementitious, liquid or acrylic membrane: the three families compared from data sheets by uses, exposure and consumption, for bathroom, roof, basement and tank.",
     category: "waterproofing",
     kind: "cluster",
     primaryQuery: "cementitious vs liquid membrane waterproofing",
@@ -535,7 +535,7 @@ const entries: Entry[] = [
     title: "Screed or self-levelling compound: which does a floor need",
     metaTitle: "Screed vs Self Levelling Compound: Which Does a Floor Need",
     description:
-      "Screed or self-levelling compound? Compare thickness, waiting time before tiles, vinyl and wood, and how each is laid, using figures from Mapei data sheets.",
+      "Screed or self-levelling compound: compare thickness, waiting time before tiles, vinyl and wood, and how each is laid, using figures from Mapei data sheets.",
     category: "flooring",
     kind: "cluster",
     primaryQuery: "screed vs self levelling compound",
@@ -733,7 +733,7 @@ const entries: Entry[] = [
   {
     slug: "masika-vuli-builders-rain-calendar",
     title: "Masika and vuli: a builder's rain calendar for Tanzania",
-    metaTitle: "Masika and Vuli: A Builder's Rain Calendar for Tanzania",
+    metaTitle: "Masika and Vuli Rainy Season: A Tanzanian Builder's Calendar",
     description:
       "When masika, vuli and msimu fall in each Tanzanian region, from TMA, and when to schedule roof waterproofing, concrete pours, terrace tiling and resin floors.",
     category: "building-in-tanzania",

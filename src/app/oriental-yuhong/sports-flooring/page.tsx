@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { oyhPageMeta } from "@/config/seo/oyh";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,9 +43,8 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
  * Data in src/config/oyh-sports.ts.
  */
 
-const TITLE = "Sports Flooring Tanzania - Tracks, Courts, Turf | OYH";
-const DESCRIPTION =
-  "Sports flooring in Tanzania from Sahihi and Oriental Yuhong: plastic running tracks, silicon PU sports courts, artificial turf and EPDM surfaces, in 3D.";
+const { title: TITLE, description: DESCRIPTION } =
+  oyhPageMeta("sports-flooring");
 const PATH = SPORTS_PATH;
 
 export const metadata: Metadata = {
@@ -56,6 +56,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

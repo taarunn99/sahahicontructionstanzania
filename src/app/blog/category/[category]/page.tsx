@@ -12,10 +12,11 @@ import {
   postsInCategory,
   type BlogCategorySlug,
 } from "@/config/blog";
+import { blogSeo, type BlogKey } from "@/config/seo/blog";
 import { siteConfig } from "@/config/site";
 import { postContent } from "@/content/blog";
 import { wordCount } from "@/lib/blog";
-import { seoDescription, seoTitle, ogBase } from "@/lib/seo";
+import { seoDescription, seoTitle, ogBase, resolveOg } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 type Params = Promise<{ category: string }>;
@@ -29,15 +30,20 @@ export function generateStaticParams() {
     .map((category) => ({ category: category.slug }));
 }
 
+/**
+ * Title and description from the registry row (src/config/seo/blog.ts,
+ * metadata pass 2026-11-12). The builder below is only the fallback for a
+ * category without a row: it is what produced the cut descriptions and the
+ * doubled suffix the pass corrected, so every category must keep its row.
+ */
 const meta = (slug: BlogCategorySlug) => {
   const category = blogCategoryBySlug[slug];
+  const row = blogSeo[`category/${slug}` as BlogKey];
   return {
-    title: seoTitle(
-      `${category.label} Guides for Tanzania`,
-      " - Sahihi Blog",
-      " | Sahihi",
-    ),
-    description: seoDescription(category.intro),
+    title:
+      row?.titleOverride ??
+      seoTitle(`${category.label} Guides for Tanzania`, " - Sahihi Blog"),
+    description: row?.description ?? seoDescription(category.intro),
   };
 };
 
@@ -59,6 +65,7 @@ export async function generateMetadata({
       title,
       description,
       url,
+      images: resolveOg(url) ?? ogBase.images,
     },
   };
 }
@@ -153,11 +160,13 @@ export default async function BlogCategoryPage({ params }: { params: Params }) {
       <section className={cn(category.stage)}>
         <Container className="pt-28 pb-14 sm:pt-36 sm:pb-20">
           <Breadcrumb items={crumbs} />
+          {/* The eyebrow carries the page's query (metadata pass, 2026-11-12). */}
           <p className="label-sh mt-10">
-            Blog · {list.length} {list.length === 1 ? "guide" : "guides"}
+            {blogSeo[`category/${category.slug}` as BlogKey]?.query ?? "Blog"}{" "}
+            · {list.length} {list.length === 1 ? "guide" : "guides"}
           </p>
           <h1 className="font-display mt-5 max-w-5xl text-[clamp(2.1rem,7vw,4.6rem)] leading-[1.03] text-balance">
-            {category.label}.
+            {`${category.label}.`}
           </h1>
           <p className="mt-7 max-w-3xl text-lg leading-relaxed">
             {category.intro}

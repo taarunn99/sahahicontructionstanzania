@@ -2,7 +2,8 @@
 import { RelatedLinks } from "@/components/sections/related-links";
 import { ModelCta } from "@/components/sections/model-cta";
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { vasaPageMeta } from "@/config/seo/vasa";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,19 +30,19 @@ import { faqJsonLd, type FaqItem } from "@/lib/faq";
 
 /** VASA HUB: owns "Vasa authorized dealer Tanzania" (SEO-STRATEGY.md 5.1). */
 
-const TITLE = "Vasa Authorized Dealer Tanzania - SPC and LVT | Sahihi";
-const DESCRIPTION =
-  "Sahihi is an authorized Vasa dealer in Tanzania: SPC flooring, LVT flooring and wall panels from the Oriental Yuhong group, supplied from Dar es Salaam.";
+const PATH = "/vasa";
+const { title: TITLE, description: DESCRIPTION } = vasaPageMeta("vasa");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/vasa" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/vasa",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 import Link from "next/link";
 
 import { PostCard } from "@/components/blog/post-card";
@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { blogCategories, posts, postsInCategory } from "@/config/blog";
+import { blogSeo } from "@/config/seo/blog";
 import { siteConfig } from "@/config/site";
 import { postContent } from "@/content/blog";
 import { wordCount } from "@/lib/blog";
@@ -17,9 +18,14 @@ import { wordCount } from "@/lib/blog";
  * here in the server HTML, and each category with posts has its own page.
  */
 
-const TITLE = "Building Guides for Tanzania - Waterproofing, Tiling, Floors";
+// Title and description come from the registry row (src/config/seo/blog.ts);
+// the literals below are the fallback should the row ever be removed.
+const TITLE =
+  blogSeo.blog?.titleOverride ??
+  "Building Guides for Tanzania - Waterproofing, Tiling, Floors";
 const DESCRIPTION =
-  "Practical guides for building in Tanzania: waterproofing, tile adhesives and grouts, resin floors, concrete repair and tools, with figures from manufacturer data sheets.";
+  blogSeo.blog?.description ??
+  "Building guides for Tanzania: waterproofing, tile adhesive and grout, resin floors, concrete repair and tiling tools, with figures from the data sheets.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -33,6 +39,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: "/blog",
+    images: resolveOg("/blog") ?? ogBase.images,
   },
 };
 

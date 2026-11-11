@@ -12,13 +12,14 @@ import {
   oyhAlsoKnownAs,
   oyhContent,
   oyhCoverage,
+  oyhItemDescription,
   oyhItemTitle,
   oyhProductBySlug,
   oyhProducts,
   oyhTds,
 } from "@/config/oriental-yuhong";
 import { packshot } from "@/config/packshots";
-import { seoDescription, ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
 
 type Params = Promise<{ item: string }>;
 
@@ -38,13 +39,7 @@ export async function generateMetadata({
   const product = oyhProductBySlug[item];
   if (!product) return {};
   const title = oyhItemTitle(product);
-  const description = seoDescription(
-    `${product.name}: ${product.summary}`,
-    "Oriental Yuhong, stocked by Sahihi in Dar es Salaam.",
-    "Data sheet, pack size and coverage.",
-    "Authorized distributor in Tanzania.",
-    "From Sahihi, Dar es Salaam.",
-  );
+  const description = oyhItemDescription(product);
   const url = productHref(product);
   return {
     title: { absolute: title },
@@ -55,6 +50,7 @@ export async function generateMetadata({
       title,
       description,
       url,
+      images: resolveOg(url) ?? ogBase.images,
     },
   };
 }

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
-import { ogBase } from "@/lib/seo";
+import { ogBase, resolveOg } from "@/lib/seo";
+import { cmciPageMeta } from "@/config/seo/cmci";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,14 +10,24 @@ import { CtaBand } from "@/components/sections/cta-band";
 import { ProductCardShell } from "@/components/sections/catalogue/product-card";
 import { ProductShelf } from "@/components/sections/catalogue/product-shelf";
 import { DensityLadder } from "@/components/sections/cmci/density-ladder";
+import { FireDocuments } from "@/components/sections/cmci/fire-documents";
 import { HeatBand } from "@/components/sections/cmci/heat";
 import { Faq } from "@/components/sections/faq";
 import { JsonLd } from "@/components/seo/json-ld";
+import { LayerStack } from "@/components/three-d/layer-stack";
+import { fireSystemStack } from "@/config/build-ups";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import { brandBySlug } from "@/config/brands";
-import { cmciHref, cmciInLine, cmciLines, cmciProducts } from "@/config/cmci";
+import {
+  cmciAccessories,
+  cmciAll,
+  cmciHref,
+  cmciInLine,
+  cmciLines,
+  cmciProducts,
+} from "@/config/cmci";
 import { siteConfig } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 import { cn, pad } from "@/lib/utils";
@@ -26,19 +37,19 @@ import { cn, pad } from "@/lib/utils";
  * owner finalised them on 2026-11-07. The first screen is static.
  */
 
-const TITLE = "CMCI Authorized Dealer Tanzania - Fireproofing | Sahihi";
-const DESCRIPTION =
-  "Sahihi is an authorized CMCI dealer in Tanzania: cementitious fireproofing for petrochemical plant, commercial buildings and tunnels, with data sheets.";
+const PATH = "/cmci";
+const { title: TITLE, description: DESCRIPTION } = cmciPageMeta("cmci");
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
-  alternates: { canonical: "/cmci" },
+  alternates: { canonical: PATH },
   openGraph: {
     ...ogBase,
     title: TITLE,
     description: DESCRIPTION,
-    url: "/cmci",
+    url: PATH,
+    images: resolveOg(PATH) ?? ogBase.images,
   },
 };
 
@@ -50,8 +61,8 @@ const crumbs = [
 const faq: FaqItem[] = [
   {
     q: "Which CMCI fireproofing products does Sahihi supply in Tanzania?",
-    lead: `${cmciProducts.length} products across three lines.`,
-    points: cmciProducts.map(
+    lead: `${cmciProducts.length} fireproofing products across three lines, and ${cmciAccessories.length} accessories.`,
+    points: cmciAll.map(
       (item) => `${item.name}: ${item.type.toLowerCase()}`,
     ),
   },
@@ -100,8 +111,8 @@ export default function CmciPage() {
             url: `${siteConfig.url}/cmci`,
             mainEntity: {
               "@type": "ItemList",
-              numberOfItems: cmciProducts.length,
-              itemListElement: cmciProducts.map((item, index) => ({
+              numberOfItems: cmciAll.length,
+              itemListElement: cmciAll.map((item, index) => ({
                 "@type": "ListItem",
                 position: index + 1,
                 name: item.name,
@@ -113,7 +124,7 @@ export default function CmciPage() {
         ]}
       />
 
-      {/* ---- Masthead, and the three lines as the way in ------------------- */}
+      {/* ---- Masthead, and the lines as the way in ------------------- */}
       <section className="bg-white">
         <Container className="pt-28 pb-14 sm:pt-36 sm:pb-20">
           <Breadcrumb items={crumbs} />
@@ -139,7 +150,7 @@ export default function CmciPage() {
             supplying fire rated cementitious fireproofing from Dar es Salaam,
             for plant, buildings and tunnels.
           </p>
-          <ul className="mt-10 grid grid-cols-3 gap-2 sm:mt-12 sm:gap-4">
+          <ul className="mt-10 grid grid-cols-2 gap-2 sm:mt-12 sm:grid-cols-4 sm:gap-4">
             {cmciLines.map((line, index) => (
               <li key={line.slug}>
                 <Link href={`#${line.slug}`} className="group block">
@@ -149,7 +160,7 @@ export default function CmciPage() {
                       alt={line.alt}
                       fill
                       preload={index === 0}
-                      sizes="33vw"
+                      sizes="(min-width: 640px) 25vw, 50vw"
                       className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </span>
@@ -207,7 +218,11 @@ export default function CmciPage() {
                     name={item.name}
                     line={item.oneLine}
                     picture={line.picture}
-                    alt={`${line.label} fireproofing, for ${item.name}`}
+                    alt={
+                      line.slug === "accessories"
+                        ? `Fireproofing being sprayed, for ${item.name}`
+                        : `${line.label} fireproofing, for ${item.name}`
+                    }
                     cover
                     as="h3"
                   />
@@ -243,6 +258,36 @@ export default function CmciPage() {
           </p>
         </Container>
       </section>
+
+      {/* ---- The system, pulled apart --------------------------------------- */}
+      <section className="bg-surface py-16 sm:py-24">
+        <Container>
+          <p className="label-sh text-muted">The system</p>
+          <h2 className="font-display text-phi-3 mt-5 max-w-3xl tracking-tight text-balance">
+            Steel to topcoat, pulled apart.
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed">
+            The fireproofing is one layer of four: the steel, a bonding agent,
+            the sprayed coat at the thickness the design gives, and a topcoat
+            that keeps carbon dioxide and weather off it. Drag to turn, slide to
+            pull apart, tap a layer for its data sheet line.
+          </p>
+          <div className="mt-10">
+            <LayerStack
+              layers={fireSystemStack}
+              listLabel="The system, top to bottom"
+            />
+          </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <FlowButton href="/cmci/fire-rated-cement#thickness">
+              Work out the thickness
+            </FlowButton>
+            <FlowButton href="/cmci/aquakote">Aquakote topcoat</FlowButton>
+          </div>
+        </Container>
+      </section>
+
+      <FireDocuments className="bg-surface-raised border-deep/10 border-t" />
 
       <Faq items={faq} heading="CMCI fireproofing, in short." />
 

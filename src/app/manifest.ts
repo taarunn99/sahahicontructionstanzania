@@ -6,8 +6,9 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteConfig.legalName,
     short_name: siteConfig.brandName,
+    // The same words as the home description (siteConfig.description).
     description:
-      "Construction chemicals in Dar es Salaam: Mapei, Oriental Yuhong, X-Calibur, BIHUI, CMCI and Vasa.",
+      "Construction chemicals in Tanzania from Sahihi, authorized Mapei distributor: tile adhesives, waterproofing, epoxy flooring and concrete repair, Dar es Salaam.",
     start_url: "/",
     display: "browser",
     background_color: "#fafbf8",
