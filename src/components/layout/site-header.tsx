@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useLenis } from "lenis/react";
 import { usePathname } from "next/navigation";
 import {
   useEffect,
@@ -86,11 +87,19 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
   // transparent over it and keeps its Ink text.
   const solid = (scrolled || searchOpen) && !menuOpen;
 
-  // Lock page scroll behind the full-screen menu.
+  // Lock page scroll behind the full-screen menu. Lenis (the smooth scroll)
+  // must stop too, or it keeps taking the wheel and touch scroll for the
+  // page instead of the menu (owner, 2026-11-10: the menu would not scroll).
+  const lenis = useLenis();
   useEffect(() => {
     document.documentElement.classList.toggle("overflow-hidden", menuOpen);
-    return () => document.documentElement.classList.remove("overflow-hidden");
-  }, [menuOpen]);
+    if (menuOpen) lenis?.stop();
+    else lenis?.start();
+    return () => {
+      document.documentElement.classList.remove("overflow-hidden");
+      lenis?.start();
+    };
+  }, [menuOpen, lenis]);
 
   // The search panel stays mounted (its entrance is a CSS grid-rows
   // transition), so focus is driven here instead of autoFocus.
@@ -318,8 +327,10 @@ export function SiteHeader({ chrome }: { chrome: ChromeNav }) {
         )}
       >
         <div
+          // Lenis leaves this box alone: it scrolls natively.
+          data-lenis-prevent
           className={cn(
-            "bg-accent text-foreground absolute inset-0 overflow-y-auto transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)]",
+            "bg-accent text-foreground absolute inset-0 overflow-y-auto overscroll-contain transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)]",
             menuOpen ? "translate-x-0" : "translate-x-full",
           )}
         >
@@ -572,13 +583,92 @@ function MegaColumn({
   title: string;
   children: React.ReactNode;
 }) {
+  const box = useRef<HTMLDivElement>(null);
+  const [room, setRoom] = useState({ up: false, down: false });
+
+  // The arrows show only where there is more to see. Re-measured on scroll
+  // and whenever a brand opens or closes (the list changes height).
+  useEffect(() => {
+    const element = box.current;
+    if (!element) return;
+    const measure = () =>
+      setRoom({
+        up: element.scrollTop > 4,
+        down:
+          element.scrollTop + element.clientHeight < element.scrollHeight - 4,
+      });
+    measure();
+    element.addEventListener("scroll", measure, { passive: true });
+    const observer = new ResizeObserver(measure);
+    observer.observe(element);
+    if (element.firstElementChild) observer.observe(element.firstElementChild);
+    return () => {
+      element.removeEventListener("scroll", measure);
+      observer.disconnect();
+    };
+  }, []);
+
+  const step = (direction: 1 | -1) =>
+    box.current?.scrollBy({
+      top: direction * box.current.clientHeight * 0.7,
+      behavior: "smooth",
+    });
+
   return (
-    <div className="flex min-h-0 min-w-0 flex-col">
+    <div className="relative flex min-h-0 min-w-0 flex-col">
       <p className={cn("label-sh shrink-0 px-5 py-3", band)}>{title}</p>
-      <div className="menu-scroll min-h-0 flex-1 overflow-y-auto overscroll-contain p-3">
-        {children}
+      {/* Lenis leaves this box alone, so the wheel scrolls the column. */}
+      <div
+        ref={box}
+        data-lenis-prevent
+        className="menu-scroll min-h-0 flex-1 overflow-y-auto overscroll-contain p-3 pb-14"
+      >
+        <div>{children}</div>
+      </div>
+      {/* Round arrows to scroll the column (owner, 2026-11-10). */}
+      <div className="pointer-events-none absolute right-3 bottom-3 flex gap-2">
+        <ScrollArrow
+          label={`Scroll ${title} up`}
+          show={room.up}
+          up
+          onClick={() => step(-1)}
+        />
+        <ScrollArrow
+          label={`Scroll ${title} down`}
+          show={room.down}
+          onClick={() => step(1)}
+        />
       </div>
     </div>
+  );
+}
+
+function ScrollArrow({
+  label,
+  show,
+  up = false,
+  onClick,
+}: {
+  label: string;
+  show: boolean;
+  up?: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      aria-label={label}
+      tabIndex={show ? 0 : -1}
+      onClick={onClick}
+      className={cn(
+        "bg-deep hover:bg-accent flex size-10 items-center justify-center rounded-full text-white shadow-lg transition-all duration-200",
+        show
+          ? "pointer-events-auto scale-100 opacity-100"
+          : "scale-75 opacity-0",
+      )}
+    >
+      <Chevron open={up} />
+    </button>
   );
 }
 

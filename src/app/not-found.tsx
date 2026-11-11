@@ -13,14 +13,17 @@ export default function NotFound() {
       <section className="flex min-h-[78vh] items-center pt-32 pb-20 short:pt-24 short:pb-12">
         <Container className="text-center">
           <p className="label-sh text-muted">Page not found</p>
-          <p
+          {/* A div, not a p: LostMark renders a div, and a div inside a p is
+              invalid HTML (React hydration error #418). */}
+          <div
+            role="img"
             aria-label="404"
             className="font-display text-deep mt-6 flex items-center justify-center gap-[0.04em] text-[clamp(5rem,min(26vw,30svh),17rem)] leading-none tracking-tight"
           >
             <span aria-hidden>4</span>
             <LostMark />
             <span aria-hidden>4</span>
-          </p>
+          </div>
           <h1 className="font-display text-phi-3 mx-auto mt-8 max-w-2xl tracking-tight text-balance">
             Our tick looked everywhere. This page isn&apos;t here.
           </h1>

@@ -265,7 +265,9 @@ export default async function PostPage({ params }: { params: Params }) {
           </div>
 
           {/* Aside: contents, and the one product page this post leads to */}
-          <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100svh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain">
+          <aside
+            data-lenis-prevent
+            className="lg:sticky lg:top-28 lg:max-h-[calc(100svh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain">
             <nav aria-label="In this guide" className="hidden lg:block">
               <p className="label-sh text-muted">In this guide</p>
               <ol className="border-deep mt-4 border-t">

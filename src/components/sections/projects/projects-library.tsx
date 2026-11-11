@@ -60,6 +60,7 @@ export function ProjectsLibrary({
       {/* ---- Filters ------------------------------------------------------ */}
       <div
         translate="no"
+        data-lenis-prevent
         className="notranslate lg:sticky lg:top-28 lg:max-h-[calc(100svh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain"
       >
         <p className="font-display text-[clamp(3.24rem,8.64vw,5.04rem)] leading-[1.02]">

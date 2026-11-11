@@ -111,7 +111,7 @@ export function SiteSearch({
 
       {query.trim().length >= 2 ? (
         results.length > 0 ? (
-          <ul className="mt-4 max-h-[50vh] divide-y divide-current/10 overflow-y-auto">
+          <ul data-lenis-prevent className="mt-4 max-h-[50vh] divide-y divide-current/10 overflow-y-auto">
             {results.map((r, i) => (
               <li key={r.href}>
                 <Link
