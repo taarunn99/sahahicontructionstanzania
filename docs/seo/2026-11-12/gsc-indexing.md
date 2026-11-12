@@ -102,3 +102,18 @@ Reports refresh days after the next crawl.
   the "offers" item on every product page) or drop (clean console, no entity
   markup).
 - "Request indexing" for a handful of priority pages a day (quota about 10).
+
+## Checked live on 2026-11-12, after the fixes went up
+
+URL Inspection (the live index, not the report) for the pages the owner
+picked for "Request indexing": `/specifier-pack`, `/cmci/aquakote`,
+`/cmci/fr-bonding-agent`, `/cmci/monokote-accelerator`, `adesilex-p7`,
+`keracolor-ff`, `x-seal-ps800`, `/solutions/concrete-repair`,
+`/solutions/tile-installation` are ALL already "URL is on Google"; so are
+`/bihui/laser-level-12-line`, `/bihui/cellulose-sponge` and
+`/bihui/hydro-grout-sponge` from the "crawled, not indexed" list. Only
+`/sale` was unknown to Google; indexing was requested for it (and, by a
+mis-click, once more for `/sale` and once for `/specifier-pack`; no
+other request was made). The Pages report of 09/11/2026 was simply days
+behind the index. IndexNow accepted 210 URLs after the deploy. Judge the
+next report by its date and by the trend, not the snapshot.
