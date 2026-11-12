@@ -186,6 +186,17 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   - **OYH East Africa:** `/oriental-yuhong` targets "OYH East Africa" (SEO-STRATEGY 5.1).
   - **Company profile** as a flip book on home and `/products` (`profile-book.tsx`), PDF in
     `public/tds/`.
+- 2026-11-12, Search Console "new reasons" emails: none was an error (see
+  `docs/seo/2026-11-12/gsc-indexing.md`, with Google's docs, practitioner practice and a
+  page audit beside it). Done: every PDF under `public/tds/` sends `Link: <its page>;
+  rel="canonical"` (`scripts/build-canonical-headers.mjs` writes
+  `src/config/canonical-headers.json`, `npm run check` fails if stale); `X-Robots-Tag:
+  noindex` on `/_next/static`, `/models`, the feed, manifest and favicon (never on HTML,
+  never robots.txt); the `vercel.app` alias 308s to www. The real indexing pattern is the
+  BIHUI template (150-300 words, 60-73% shared sentences, half indexed); "Product
+  snippets: offers/review/aggregateRating" on every product page is the known cost of
+  no prices (SEO-STRATEGY 7). Never click "Validate fix" or "Request indexing" without
+  the owner's yes.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

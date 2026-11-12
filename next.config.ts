@@ -1,5 +1,9 @@
 import type { NextConfig } from "next";
 
+import canonicals from "./src/config/canonical-headers.json";
+
+const SITE = "https://www.sahihicc.com";
+
 /**
  * 301s for addresses people type or old sites used, so none of them 404.
  * Canonical host is www.sahihicc.com (NEXT_PUBLIC_SITE_URL); the bare domain
@@ -43,6 +47,22 @@ const REDIRECTS: [string, string][] = [
 
 const LONG_CACHE = "public, max-age=2592000, stale-while-revalidate=86400";
 
+/**
+ * Files Google crawls while rendering but should never count as pages:
+ * build chunks, 3D models, the feed, the manifest and the favicon. Search
+ * Console listed 33 of them as "Crawled - currently not indexed" on
+ * 2026-11-12. X-Robots-Tag noindex keeps them fetchable for rendering (a
+ * robots.txt block would not) and out of the page report. Never widen this
+ * to a route that serves HTML.
+ */
+const NOT_PAGES = [
+  "/_next/static/:path*",
+  "/models/:path*",
+  "/blog/rss.xml",
+  "/manifest.webmanifest",
+  "/favicon.ico",
+];
+
 const nextConfig: NextConfig = {
   experimental: {
     // Inline the (single, Tailwind v4) stylesheet - removes both
@@ -65,7 +85,16 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         has: [{ type: "host", value: "sahihicc.com" }],
-        destination: "https://www.sahihicc.com/:path*",
+        destination: `${SITE}/:path*`,
+        permanent: true,
+      },
+      // The production alias on Vercel serves the whole site as a second
+      // host. Only this exact host: preview deployments keep their own URLs
+      // (Vercel already marks those noindex).
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "sahahicontructionstanzania.vercel.app" }],
+        destination: `${SITE}/:path*`,
         permanent: true,
       },
       ...REDIRECTS.map(([source, destination]) => ({
@@ -98,6 +127,21 @@ const nextConfig: NextConfig = {
         source,
         headers: [{ key: "Cache-Control", value: LONG_CACHE }],
       })),
+      ...NOT_PAGES.map((source) => ({
+        source,
+        headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+      })),
+      // Every PDF names the page that offers it as its canonical, the
+      // documented way to canonicalise a non-HTML file. Built by
+      // scripts/build-canonical-headers.mjs; `npm run check` fails if stale.
+      ...Object.entries(canonicals as Record<string, string>).map(
+        ([file, page]) => ({
+          source: file,
+          headers: [
+            { key: "Link", value: `<${SITE}${page}>; rel="canonical"` },
+          ],
+        }),
+      ),
     ];
   },
 };

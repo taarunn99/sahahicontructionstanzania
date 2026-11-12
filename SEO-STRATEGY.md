@@ -469,7 +469,15 @@ Two facts to plan around (`docs/research/13`):
   Google requires offers with a price, a review or an aggregate rating.
   Ship `Product` anyway for entity clarity and answer engines, and expect
   Search Console to list it as a non-critical issue. That is the cost of
-  the no-prices ruling, not a bug.
+  the no-prices ruling, not a bug. (Seen on 2026-11-12: "Product snippets:
+  Either 'offers', 'review' or 'aggregateRating' should be specified" on
+  every crawled product page. Indexing is unaffected.)
+- **PDFs are canonicalised to their pages by HTTP header** (2026-11-12):
+  `scripts/build-canonical-headers.mjs`, after Search Console listed the
+  Mapei sheets as duplicates of mapei.com's copies. Build chunks, models,
+  the feed, manifest and favicon carry `X-Robots-Tag: noindex`. The full
+  reading of that report, with Google's and practitioners' guidance, is in
+  `docs/seo/2026-11-12/gsc-indexing.md`.
 - **FAQ rich results were withdrawn on 2026-05-07.** `FAQPage` still
   helps extraction and answer engines; it will not expand the SERP
   listing.
