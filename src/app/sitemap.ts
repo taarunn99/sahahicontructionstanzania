@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { lineHref, lines, productHref, products } from "@/config/catalogue";
-import { bihuiFamilies, bihuiHref } from "@/config/bihui";
+import { bihuiHref, bihuiPages } from "@/config/bihui";
 import { cmciAll, cmciHref } from "@/config/cmci";
 import { blogCategories, posts, postsInCategory } from "@/config/blog";
 import { SYSTEMS as SPORTS_SYSTEMS } from "@/config/oyh-sports-systems";
@@ -90,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const tools = bihuiFamilies.map((family) => ({
+  const tools = bihuiPages.map((family) => ({
     path: bihuiHref(family),
     modified: "2026-11-06",
     priority: 0.5,

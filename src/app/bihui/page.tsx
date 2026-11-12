@@ -15,12 +15,15 @@ import {
   bihuiCategories,
   bihuiFamilies,
   bihuiHref,
+  bihuiIsFolded,
   bihuiModel,
   bihuiModelCount,
   bihuiName,
+  bihuiPages,
   bihuiPicture,
   bihuiSkuCount,
 } from "@/config/bihui";
+import { whatsappLink } from "@/config/site";
 import { brandBySlug } from "@/config/brands";
 import { bihuiSeo } from "@/config/seo/bihui";
 import { siteConfig } from "@/config/site";
@@ -111,8 +114,8 @@ export default function BihuiPage() {
             url: `${siteConfig.url}/bihui`,
             mainEntity: {
               "@type": "ItemList",
-              numberOfItems: bihuiFamilies.length,
-              itemListElement: bihuiFamilies.map((family, index) => ({
+              numberOfItems: bihuiPages.length,
+              itemListElement: bihuiPages.map((family, index) => ({
                 "@type": "ListItem",
                 position: index + 1,
                 name: bihuiName(family),
@@ -233,10 +236,19 @@ export default function BihuiPage() {
               {category.families.map((family) => {
                 const picture = bihuiPicture(family);
                 const model = bihuiModel(family);
+                // A folded tool (no page of its own): the same card, and
+                // the code goes to WhatsApp so we confirm the size first.
+                const folded = bihuiIsFolded(family);
                 return (
-                  <li key={family.slug}>
+                  <li key={family.slug} id={folded ? family.slug : undefined}>
                     <Link
-                      href={bihuiHref(family)}
+                      href={
+                        folded
+                          ? whatsappLink(
+                              `the BIHUI ${bihuiName(family)}, code ${family.skus[0]?.sku}`,
+                            )
+                          : bihuiHref(family)
+                      }
                       className="group border-deep/15 flex h-full flex-col overflow-hidden rounded-lg border bg-white transition-transform duration-500 hover:-translate-y-1"
                     >
                       <span className="relative block aspect-square">
@@ -260,9 +272,11 @@ export default function BihuiPage() {
                           {bihuiName(family)}
                         </span>
                         <span className="spec-sh text-muted mt-auto pt-3">
-                          {family.skus.length === 1
-                            ? family.skus[0].sku
-                            : `${family.skus.length} codes`}
+                          {folded
+                            ? `${family.skus[0]?.sku} · ask us for the size`
+                            : family.skus.length === 1
+                              ? family.skus[0].sku
+                              : `${family.skus.length} codes`}
                         </span>
                       </span>
                     </Link>

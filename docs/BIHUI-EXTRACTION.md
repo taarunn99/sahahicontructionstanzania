@@ -273,3 +273,28 @@ Added the same day, after the site-wide title/query gate:
 - underlayment-embedding-roller: "Underlayment Embedding Roller" to "Membrane Embedding Roller - BIHUI UMR330, 35kg" (the catalogue's own use: "embed the membrane full bond with mortar").
 - Query-led reorders, names otherwise intact: metal-hole-drill-guide ("Tile Hole Drill Guide - BIHUI Metal, Suction Cup"), cutting-dust-extractor ("Tile Cutting Dust Extractor - BIHUI DCFC5"), electric-cutting-system ("Large Format Tile Cutting Machine - BIHUI Electric"), trade-manual-cutting-system ("Manual Large Format Tile Cutter - BIHUI LFMC5"), sticky-mat ("Sticky Mat for Construction Sites - BIHUI 30 Sheets").
 - Class words only (name unchanged): putty-scraper and taping-knife "Stainless Steel", mitre-jolly-cutting-system "Tile Edge Cutter", tile-leveling-base "3-12mm Tile, 100 Per Bag", water-cooling-parts "Electric Tile Cutter".
+
+## Folded into the hub, 2026-11-12
+
+Search Console left most code-only tool pages out of the index (the page
+could say nothing but a code and "Ask us"). The owner chose to fold the
+twelve families whose EVERY row is doubtful into their category on `/bihui`:
+double-suction-cup, hydro-grout-sponge, laser-level-llg05,
+multifunction-trim-puller, portable-mortar-mixer,
+pro-germany-hydro-grouting-sponge, resin-bound-dual-handle-trowel,
+resin-bound-pointing-trowel, spazzle, trade-manual-cutting-system,
+tri-head-suction-cup, trim-cutter (`src/config/bihui-folded.json`). They
+keep their card on the hub (name, picture, code, "ask us for the size"),
+the card goes to WhatsApp, and the old URL 301s to the category section.
+The catalogue JSON is unchanged; the fact rule for doubtful rows stands.
+Families with SOME doubtful rows (tile-spirit-level,
+professional-trowel-stainless-steel, leveling-cap-wedges,
+dry-diamond-polishing-pad) keep their page: the good rows carry it.
+
+The same day every page-bearing family gained a "What it is for" note in
+`src/config/bihui-uses.json`: two or three sentences of trade use written
+for this site, the product pages the tool is used with, and the guides it
+belongs to. The notes may describe how that kind of tool is used; they may
+not state a size, material, power or compatibility that is not in the
+family's own rows. Thin inputs got honest notes that say so
+(cutting-dust-extractor, measuring-ruler-rotating-shell, water-cooling-parts).

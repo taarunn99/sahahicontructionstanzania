@@ -516,8 +516,16 @@ for (const message of registryCheck.problems)
   if (!/no row \(incomplete\)|duplicate query/.test(message))
     problems.push(`registry  ${message}`);
 {
+  // BIHUI tools folded into the hub keep their registry row (the page may
+  // come back once the catalogue row is confirmed) but have no HTML page.
+  const folded = new Set(
+    JSON.parse(readFileSync("src/config/bihui-folded.json", "utf8")).folded.map(
+      (slug) => `/bihui/${slug}`,
+    ),
+  );
   const queries = new Map();
   for (const [route, { family, key, row }] of registry.routes) {
+    if (folded.has(route)) continue;
     const q = normaliseQuery(row?.query);
     if (q) {
       if (!queries.has(q)) queries.set(q, []);

@@ -1,7 +1,9 @@
 import { composeItemTitle, seoDescription } from "@/lib/seo";
 
 import catalogue from "./bihui-catalogue.json";
+import folded from "./bihui-folded.json";
 import models from "./bihui-models.json";
+import uses from "./bihui-uses.json";
 import { bihuiSeo, type BihuiSlug } from "./seo/bihui";
 
 /**
@@ -52,17 +54,39 @@ export const bihuiFamilyBySlug = Object.fromEntries(
 export const bihuiName = (family: BihuiFamily) =>
   family.nameClean ?? family.name;
 
-export const bihuiHref = (family: BihuiFamily) => `/bihui/${family.slug}`;
+/**
+ * Folded families (2026-11-12, src/config/bihui-folded.json): every row is
+ * doubtful, so the page could say nothing but a code and "Ask us". They stay
+ * in the catalogue and on the hub, without a page of their own; their old
+ * URL redirects to the category (next.config.ts).
+ */
+const FOLDED = new Set<string>(folded.folded);
+
+export const bihuiIsFolded = (family: BihuiFamily) => FOLDED.has(family.slug);
+
+/** The families that have a page of their own. */
+export const bihuiPages = bihuiFamilies.filter(
+  (family) => !bihuiIsFolded(family),
+);
+
+export const bihuiCategoryId = (name: string) =>
+  name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+/** A folded family's link is its place on the hub. */
+export const bihuiHref = (family: BihuiFamily) =>
+  bihuiIsFolded(family)
+    ? `/bihui#${bihuiCategoryId(family.category)}`
+    : `/bihui/${family.slug}`;
 
 /** Categories in catalogue order, each with its families. */
 export const bihuiCategories = [
   ...new Set(bihuiFamilies.map((family) => family.category)),
 ].map((name) => ({
   name,
-  id: name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, ""),
+  id: bihuiCategoryId(name),
   families: bihuiFamilies.filter((family) => family.category === name),
 }));
 
@@ -81,6 +105,29 @@ export const bihuiModel = (family: BihuiFamily): string | null =>
   modelPaths[family.slug] ?? null;
 
 export const bihuiModelCount = Object.keys(modelPaths).length;
+
+/**
+ * What each tool is for (2026-11-12, src/config/bihui-uses.json): two or
+ * three sentences of trade use written for this site, the product pages the
+ * tool is used with, and the guides it belongs to. Not catalogue facts: no
+ * measurement or feature in a note goes beyond the family's rows. Written
+ * after Search Console left half the tool pages out of the index for having
+ * nothing of their own to say (docs/seo/2026-11-12/gsc-indexing.md).
+ */
+export type BihuiUse = { use: string; with: string[]; posts: string[] };
+
+const USES = uses as Record<string, BihuiUse>;
+
+export const bihuiUse = (family: BihuiFamily): BihuiUse | null =>
+  USES[family.slug] ?? null;
+
+/** The tools used with a product page, for "Tools for this job". */
+export const bihuiToolsForProduct = (route: string) =>
+  bihuiPages.filter((family) => USES[family.slug]?.with.includes(route));
+
+/** The tools a guide covers, for "Tools in this guide". */
+export const bihuiToolsForPost = (slug: string) =>
+  bihuiPages.filter((family) => USES[family.slug]?.posts.includes(slug));
 
 /** Rows the extraction report questions in the family's notes, not the row's. */
 const DOUBTFUL_CODES = new Set(["MM1500", "LFMC5", "LLG05", "BLSE100"]);

@@ -1,0 +1,667 @@
+{
+  "aluminum-box-screed-set": {
+    "use": "The Aluminum Box Screed Set is six straight edges from 450mm to 1800mm in clear anodised aluminium that will not rust, rot or warp, finished with BIHUI protection ends. A screeder draws the box across wet screed or concrete between rails to strike it level, and a tiler lays the shorter lengths on a floor to find the hollows before Ultraplan Eco 20 goes down. Accuracy is ±0.05mm/m.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/ultraplan-contract"
+    ],
+    "posts": [
+      "screed-or-self-levelling-compound",
+      "self-levelling-compound-per-square-metre"
+    ]
+  },
+  "angle-grinder": {
+    "use": "The Angle Grinder drives the diamond blades, cup wheels and polishing pads a tiler reaches for every day. Its M14 spindle takes the Rubber Packing Pad and the Dry Diamond Polishing Pads, the six speed gears drop the speed for polishing and raise it for cutting, and the soft start stops the kick on switch-on. Use it for notching around pipes, dressing a cut edge or keying a patch of concrete before a repair with Mapegrout T60.",
+    "with": [
+      "/mapei/concrete-repair/mapegrout-t60",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "spalling-concrete-repair"
+    ]
+  },
+  "big-spiral-mixer": {
+    "use": "The Big Spiral Mixer is the paddle itself, with an M14 thread that screws onto a mixing drill or electric mixer and a metal hanger to hook it on the bucket rim between batches. Its spiral lifts material up from the bottom of the bucket and folds it over, which suits stiff adhesives and repair mortars such as Mapegrout T60. Golden chrome plated or chrome plated finish.",
+    "with": [
+      "/mapei/concrete-repair/mapegrout-t60",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "how-to-mix-tile-adhesive"
+    ]
+  },
+  "bucket-liner-20l": {
+    "use": "The 20L Bucket Liner sits inside a 20L mixing bucket so that set adhesive or grout peels away with the liner instead of being chipped off the bucket wall. It is soft, washes clean and goes back in for the next batch, which keeps yesterday's hardened lumps out of today's Keracolor FF or Keraflex Maxi S1. Drop it in, mix as normal, lift it out at the end of the shift.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "how-to-mix-tile-adhesive"
+    ]
+  },
+  "carpet-protector": {
+    "use": "The Carpet Protector is the self-adhesive, reverse wound roll made for synthetic carpets only. A tiler runs it along the route from the front door to a bathroom or kitchen being tiled, so grout, adhesive dust and wet boots never reach the carpet, and lifts it at the end of the job with no residue left behind. The roll is 700mm by 25m.",
+    "with": [],
+    "posts": []
+  },
+  "caulk-tool-set-3pcs": {
+    "use": "The 3pcs Caulk Tool Set covers the three steps of renewing a sealant joint. The grout removing knife rakes old grout or failed sealant out of the joint, the grouting nozzle guides the new bead into the gap, and the grouting smoother is pulled along the bead to tool it flat and tidy against both tile edges. It suits re-sealing shower corners and skirting joints.",
+    "with": [
+      "/mapei/waterproofing/mapeflex-pu-45-ft",
+      "/oriental-yuhong/yhpuseal-2925"
+    ],
+    "posts": [
+      "joint-sealant-width-depth-coverage"
+    ]
+  },
+  "cellulose-sponge": {
+    "use": "The Cellulose Sponge is the wash sponge for grouting. Once cement grout has firmed in the joints, the tiler soaks the sponge, wrings it nearly dry and wipes diagonally across the tiles so the joints are not hollowed out, rinsing and turning it often. It is supplied without cutting, a plain full-size block that can be trimmed to the shape a job needs.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff"
+    ],
+    "posts": [
+      "mapei-waiting-times-before-tiling-grouting-walking"
+    ]
+  },
+  "combination-hydro-grout-sponge": {
+    "use": "The Combination Hydro Grout Sponge is for the wash down after grouting with Keracolor FF. The tiler wrings it until it is damp rather than wet and draws it diagonally across the joints, rinsing after each pass so the grout film is lifted rather than spread. Its round polished edges glide over the joints without digging in or scoring the fresh grout line.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff",
+      "/mapei/tile-adhesives-grouts/kerapoxy"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout",
+      "mapei-waiting-times-before-tiling-grouting-walking"
+    ]
+  },
+  "concrete-grinder-1900w": {
+    "use": "The 1900W Concrete Grinder opens up a slab before a floor goes down: it takes off laitance, old adhesive and paint and leaves a keyed surface a primer can grip. Speed regulation and the soft start let the operator ease into the grind rather than snatch, and the magnetic front cover lifts off for grinding up to a wall. Grind, vacuum, then prime with Primer SN before Mapefloor I 300 SL ME, or Primer G before Ultraplan Eco 20.",
+    "with": [
+      "/mapei/resin-flooring/primer-sn",
+      "/mapei/resin-flooring/mapefloor-i-300-sl-me",
+      "/mapei/primers-levelling/primer-g",
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": [
+      "why-epoxy-floors-blister-and-peel",
+      "epoxy-floor-thickness"
+    ]
+  },
+  "concrete-grinder-2000w": {
+    "use": "The 2000W Concrete Grinder is for surface preparation on bigger floor areas. Variable speed from 0 to 3000 RPM lets the operator slow down on a soft screed and speed up on hard concrete, and the dust-free grinding design works with extraction so the slab is ready for its primer without a long clean. The Magnetic Corner Pro system reaches the edges. Use it ahead of Primer SN under an epoxy floor or Primer G under Ultraplan Eco 20.",
+    "with": [
+      "/mapei/resin-flooring/primer-sn",
+      "/mapei/primers-levelling/primer-g",
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/resin-flooring/mapefloor-fc-200-me"
+    ],
+    "posts": [
+      "why-epoxy-floors-blister-and-peel",
+      "screed-or-self-levelling-compound"
+    ]
+  },
+  "concrete-grinder-working-stand": {
+    "use": "The Working Stand for the 1900W Concrete Grinder carries the grinder on a frame so the operator works a floor standing up instead of bent over the machine. The angle and the positioner adjust until the grinding head sits flat on the slab, and the 2.5 m cable adds reach from the socket. It is for taking down high spots and keying a screed in long passes before Ultraplan Eco 20 or Mapefloor I 300 SL ME.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/resin-flooring/mapefloor-i-300-sl-me",
+      "/mapei/primers-levelling/primer-g"
+    ],
+    "posts": [
+      "self-levelling-compound-per-square-metre",
+      "why-epoxy-floors-blister-and-peel"
+    ]
+  },
+  "corner-putty-knife": {
+    "use": "The Corner Putty Knife has a blade angled to 90 degrees so it shapes putty, filler or sealant into an internal corner in one pass, leaving a clean seam between two panels or walls. A tiler presses it into the corner and draws it down the full height to smooth both faces at once. It also lifts cured joint sealant out of a corner when a joint is redone.",
+    "with": [
+      "/mapei/waterproofing/mapeflex-pu-45-ft",
+      "/x-calibur/x-seal-ps800"
+    ],
+    "posts": [
+      "joint-sealant-width-depth-coverage"
+    ]
+  },
+  "cutting-dust-extractor": {
+    "use": "The Cutting Dust Extractor collects the dust thrown off when a tile or slab is cut dry. It sits where the cutting happens and pulls the dust away from the blade before it fills the room, which matters most when porcelain is being cut indoors or in a building people are still using. Which BIHUI cutting machines it attaches to is not recorded here, so confirm the fit with us before the job.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": []
+  },
+  "cutting-rail-system": {
+    "use": "The Cutting Rail System 2.0 is the straight edge that guides a cut across a large porcelain slab. Its three sections join to 3.6 m, long enough for a full-length slab, and the same rail takes both the manual scoring unit and the electric cutting machine, so one rail serves both jobs. Lay it along the marked line, lock it to the slab and the cut follows it from end to end.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "diamond-hand-pad": {
+    "use": "A Diamond Hand Pad finishes a cut tile edge by hand where a grinder is too much: a chipped arris, a sharp edge at a doorway, the rim of a hole cut for a pipe. The foam grip sits in the palm and the tiler works the electroplated face along the edge, starting at 60 grit to take the sharpness off and moving through 120, 200 and 400 for a smooth finish before grouting with Keracolor FF.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/keracolor-ff"
+    ],
+    "posts": []
+  },
+  "drill-position-scale": {
+    "use": "The Foldable Position Scale for Drilling helps a tiler mark where a hole will fall on a tile before it is drilled. Hold it against the pipe or fitting on the wall, read the position off the scale, then carry the same reading to the tile on the bench so the hole lands where the pipe comes through rather than where it was guessed. It folds to 12 by 17.5 cm and fits a pocket.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerabond-t",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": []
+  },
+  "dry-diamond-polishing-pad": {
+    "use": "The 4 inch Dry Diamond Polishing Pad polishes a cut or ground edge of porcelain, stone or concrete without water. It fixes to the Rubber Packing Pad on the Angle Grinder and the applicator works through the grits in order, 50 to open the surface, 100 and 200 to smooth it, 800 to bring the shine back, on a mitred edge, an exposed slab edge or a step nosing. The pads come in a light colour.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": []
+  },
+  "drywall-skimming-scraper": {
+    "use": "The Drywall Skimming Scraper carries a flexible 0.3mm stainless steel blade on an ergonomic PVC handle, in widths from 250mm to 1000mm. On a tiling job it skims filler flat across a wall or board before tiles are fixed with Kerabond T, the long flexible blade bridging low spots and shaving high ones in one sweep. The widest sizes suit ceilings and long uninterrupted runs.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerabond-t",
+      "/mapei/primers-levelling/primer-g"
+    ],
+    "posts": []
+  },
+  "dual-combination-microfibre-sponge": {
+    "use": "The Dual Combination Microfibre Sponge joins a hydro grouting sponge to a microfibre face so one tool does both stages of cleaning. The hydro side is wrung out and wiped diagonally to lift the bulk of the grout, then the microfibre side takes off the fine haze that cement grouts leave on the tile surface, saving a separate cloth pass at the end of the day.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff",
+      "/mapei/tile-adhesives-grouts/ultracare-multicleaner"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout"
+    ]
+  },
+  "electric-cutting-system": {
+    "use": "The Electric Cutting System is a rail-guided power saw for large tiles and slabs up to 3.2 m. The tiler clamps the rail on the slab, sets the head for a straight or 45 degree cut and drives the machine along the rail, so a long slab is cut in one pass instead of scored and snapped. The rail itself is the separate Cutting Rail System 2.0. Slabs cut this way usually go down in Keraflex Maxi S1.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "electric-mixer": {
+    "use": "The Electric Mixer drives the paddle that turns a bag of powder and a measured bucket of water into workable tile adhesive, cement mortar, paint or glue. Available in 1800W and 1200W, it is held with both hands and run slowly through the mix so the adhesive comes out lump free without whipping air into it. Mix Keraflex Maxi S1 or Mapegrout T60 with it, let the batch stand, then stir once more before use.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/concrete-repair/mapegrout-t60",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "how-to-mix-tile-adhesive"
+    ]
+  },
+  "epoxy-grout-float-green-hard-rubber": {
+    "use": "The Epoxy Grout Float with Plastic Handle - Green Hard Rubber is for floor joints that want firm pressure. The hard green rubber base packs epoxy grout tightly into wide floor joints and scrapes the excess cleanly off flat porcelain, where a softer pad would leave more behind. The tiler works in diagonal strokes and cleans the face before the Kerapoxy begins to set.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerapoxy"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout"
+    ]
+  },
+  "epoxy-grout-float-thermoplastic-rubber-pad": {
+    "use": "The Epoxy Grout Float with Solid 12mm Thermoplastic Rubber Pad is made for working epoxy grout such as Kerapoxy into the joints. The tiler loads the pad, holds the float at an angle and sweeps diagonally across the tiles so the grout is pressed to the bottom of each joint without being dragged back out. The slight flex in the pad follows wall tiles, uneven tiles and delicate tiles.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerapoxy"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout"
+    ]
+  },
+  "epoxy-grout-rubber-float": {
+    "use": "The Epoxy Grout Rubber Float with Plastic Handle spreads epoxy grout across a tiled area and forces it down into the joints. A tiler scoops a workable amount of Kerapoxy onto the rubber base, drives it into the joints at an angle, then turns the float on its edge to strip the surplus off the tile face before the first wash with water and a sponge.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerapoxy"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout"
+    ]
+  },
+  "extendable-floor-roller": {
+    "use": "The Extendable Floor Roller is for LVT and vinyl flooring. Once planks or sheet have been laid into adhesive over a levelled floor, the fitter runs the three solid rubber rollers across the whole area in both directions to press the covering into the adhesive and spread the pressure evenly, so edges and seams bond without lifting. The telescope handle adjusts from 17 to 27 inches.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/ultraplan-contract"
+    ],
+    "posts": [
+      "when-to-tile-on-self-levelling-compound"
+    ]
+  },
+  "fast-tile-cutter": {
+    "use": "The Fast Tile Cutter is a manual scorer and breaker for ceramic and porcelain. Set the tile against the fence, use the laser line and the LED light to put the mark under the scoring wheel, run the wheel along the single rail and snap. It handles square and 45 degree cuts and is the quick tool for trimming the last row at the edge of a room before the tiles go down in Kerabond T or Adesilex P7.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerabond-t",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": []
+  },
+  "floor-protector": {
+    "use": "The Floor Protector is a self-adhesive, reverse wound roll, 700mm by 25m, laid over finished tiles, worktops and doors to shield them from water, paint, stains, dust and dirt while other trades finish. It is unrolled straight onto the hard surface and pressed down, then peeled off at handover with no residue left behind. Use it over a newly grouted floor or a cured Mapefloor FC 200 ME coating.",
+    "with": [
+      "/mapei/resin-flooring/mapefloor-fc-200-me",
+      "/mapei/tile-adhesives-grouts/keracolor-ff"
+    ],
+    "posts": [
+      "mapei-waiting-times-before-tiling-grouting-walking"
+    ]
+  },
+  "grout-float-tpr-soft-handle": {
+    "use": "The Grout Float with TPR Soft Handle is the everyday float for cement grouts such as Keracolor FF. The high density EVA and rubber pad is pulled diagonally across the joints to fill them, then held on edge to skim off the excess, while the aluminium backing keeps the pad flat under pressure. It pairs with a hydro sponge for the wash down once the grout has firmed.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff",
+      "/mapei/tile-adhesives-grouts/kerapoxy"
+    ],
+    "posts": [
+      "epoxy-grout-vs-cement-grout",
+      "mapei-waiting-times-before-tiling-grouting-walking"
+    ]
+  },
+  "jumbo-trowel-set-8pcs": {
+    "use": "The 8pcs Jumbo Trowel Set in Stainless Steel gives a tiler square notches of 6, 8, 10 and 12mm plus a 10x20mm round notch and a tiger notch on one changeable TPR handle, carried in a plastic tool box. Pick the blade for the tile size, spread adhesive such as Keraflex Maxi S1 with the flat edge, then comb it to an even ridge in one direction. A closed handle version is also listed.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7",
+      "/mapei/tile-adhesives-grouts/kerabond-t"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "laser-level-12-line": {
+    "use": "The 12 Line Laser Level projects twelve green beams that self-level in three seconds or less, accurate to ±3mm over 10m, with an IP54 rating against site dust and splashes. Stand it on a tripod to run a horizontal line round a wet room for the tile datum or the top of a screed, then mark each wall off the beam. The beam is a 520nm green line.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/ultraplan-contract",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "screed-or-self-levelling-compound"
+    ]
+  },
+  "laser-level-16-line": {
+    "use": "The 16 Line Laser Level throws horizontal and vertical lines around the room at once, so a tiler can set the first wall course, carry a datum across a floor for Ultraplan Eco 20 and check doorway heights without a string line. It self-levels automatically, resets accurately, keeps its settings in a built-in memory, tilts to any angle for stair work, has three brightness levels and a TFT colour screen, and is waterproof and dustproof.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/ultraplan-contract",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "self-levelling-compound-per-square-metre",
+      "screed-or-self-levelling-compound"
+    ]
+  },
+  "laser-level-tripod": {
+    "use": "The Tripod for Laser Level lifts the laser off the floor to working height and holds it still, so the line it throws does not wander while a tiler marks each wall. Set it in the middle of the room, mount the laser and leave it running through the job. Paired with the 12 Line or 16 Line Laser Level, it gives the fixed datum a pour of Ultraplan Eco 20 is checked against.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": []
+  },
+  "leveling-cap-wedges": {
+    "use": "New Leveling Cap Wedges are the part you push on. With a levelling base standing in the joint, the wedge slides through the upright and is pressed home by hand or with the levelling plier until it bears down on both tiles, closing any lippage while the adhesive sets. Pull the wedges out after the floor has cured and use them again. Packs of 100, 250 and 500 pieces.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "leveling-plier": {
+    "use": "The Leveling Plier for Floor Covering drives wedges into levelling bases with the same pressure every time, which thumbs cannot manage over a long run of tiles. The tiler sets the jaws over base and wedge, squeezes until the two tile faces are flush, and moves to the next joint. On large format floors laid in Keraflex Maxi S1 it saves hands as much as time.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "levelling-base": {
+    "use": "The Levelling Base covers tiles from 3mm to 18mm thick, so it reaches thicker porcelain slabs. Pick the joint width by colour: 0.5mm transparent blue, 1mm transparent white, 1.5mm grey, then 2mm and 3mm black. The base goes under the tile edge, the wedge is driven on to pull the faces flush, and once Keraflex Maxi S1 has cured the upright is kicked off along the joint. Packs run from 100 to 2000 pieces.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "levelling-compound-mixing-station": {
+    "use": "The Levelling Compound Mixing Station mixes self-levelling compound in its own bucket so a pour can keep moving while the last batch is still being spread. The 1900W motor has two speeds, 150-300 RPM to fold powder into water and 300-650 RPM to finish, and the 60cm high bucket takes a 300x600mm paddle. Mix Ultraplan Eco 20 or Ultraplan Contract in it and carry it straight to the primed floor.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/ultraplan-contract",
+      "/mapei/primers-levelling/primer-g"
+    ],
+    "posts": [
+      "self-levelling-compound-per-square-metre",
+      "screed-or-self-levelling-compound"
+    ]
+  },
+  "levelling-spacer-post-blt": {
+    "use": "A colour-coded version of the straight threaded post: the Levelling Straight Threaded Spacer Post (BLT) is white at 1mm, green at 1.5mm and black at 3mm, so the crew can tell the joint width at a glance across a floor. Slide the foot under the tile edge, bed the neighbour against the stem, then screw a cap down to hold both faces level until Adesilex P7 or Keraflex Maxi S1 has gone off.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/adesilex-p7",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "levelling-spacer-post-sl": {
+    "use": "The Levelling Straight Threaded Spacer Post (SL) goes under the edge of a freshly bedded tile, its stem standing up through the joint. In 1mm, 1.5mm and 3mm, the post sets the joint width while a threaded cap is wound down to pull neighbouring tiles flush as the adhesive cures. Used with a deformable adhesive such as Keraflex Maxi S1 on large format floors.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "levelling-system-removal-roller": {
+    "use": "Once the adhesive has hardened, the Smart Levelling System Removal Roller knocks off the spacer uprights without the tiler bending to each joint. Roll it across the floor along the joint lines and the posts snap at the break point below the tile face, leaving the joints clear for grouting with Keracolor FF. It is 1.4m long, and the handle splits into three parts that join together for carrying.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/keracolor-ff"
+    ],
+    "posts": [
+      "mapei-waiting-times-before-tiling-grouting-walking",
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "levelling-window-cap": {
+    "use": "The Levelling Window Cap is the cap that screws down onto a straight threaded spacer post, named for the opening in its body that lets the tiler watch the joint and the two tile edges while winding it tight. Turn it until it bears on both tiles and the lippage has closed, leave it until the adhesive has set, then unscrew it and knock the post off. One hundred per pack.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "measuring-ruler-rotating-shell": {
+    "use": "The Measuring Ruler with Rotating Shell is a long measuring reel for setting out across a whole slab, a yard or a car park, where a pocket tape runs out. Hook the end at one wall, walk the line out to mark a tile course, a screed datum or a waterproofing lap, then wind it back onto the rotating shell. The catalogue lists it by name only, so ask for the length and markings before choosing it.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": [
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "measuring-tape-wide-blade": {
+    "use": "The Measuring Tape with Wide Blade is the setting-out tape for a tiling job: marking the room centrelines, checking the width of the cut at the far wall and measuring the area so the adhesive order comes out right. The wide blade holds itself out further before it folds. The 5m suits rooms; the 8m adds a magnetic hook that grips a steel profile, an automatic brake, one-button retraction and a nylon coated blade.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/keracolor-ff"
+    ],
+    "posts": [
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "metal-hole-drill-guide": {
+    "use": "The Metal Hole Drill Guide holds a core bit or hole saw steady on a glazed tile at the start of a hole, when the bit wants to skate off the glaze. The suction cup fixes the guide to the tile face, the adjustable iron parts are set to the hole position, and the bit runs in the guide until it has bitten. Tilers use it for tap holes, waste pipes and brackets on walls tiled in Kerabond T.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerabond-t",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": []
+  },
+  "mitre-jolly-cutting-system": {
+    "use": "The Mitre Jolly Cutting System cuts a mitre along the edge of a tile so two pieces meet at an external corner, a step nosing or a worktop edge without a metal trim. The frame holds the BIHUI angle grinder at the mitre angle and the tiler runs the edge cutting blade along the tile in one steady pass. Mitred large-format porcelain is then bedded in Keraflex Maxi S1.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": []
+  },
+  "mixer-station-with-timer": {
+    "use": "The Mixer Station with Timer is a wheeled tub mixer for sites that get through adhesive or mortar faster than a hand paddle can supply it. Its 65 litre tub takes up to 50kg a batch, the timer runs the mix for a set period while the operator fetches the next bag, and thermal protection stops the motor overloading. Two big wheels and a three piece design move it across site and into the pick-up.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/concrete-repair/mapegrout-t60",
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": [
+      "how-to-mix-tile-adhesive"
+    ]
+  },
+  "notched-taping-knife": {
+    "use": "The Notched Taping Knife is a 60cm blade with notches cut along its edge, used where a wide, even bed of material is wanted in a single pass, such as combing Keraflex Maxi S1 across a large floor area or keying a smooth substrate ahead of tiling. The hanging hole in the 2K TPR soft grip handle keeps it off the floor and clean between uses.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "nylon-paint-roller": {
+    "use": "The Nylon Paint Roller, in 220mm, applies liquid products to a floor or wall. On a tiling and waterproofing job it rolls out Primer G before a levelling compound goes down, or a coat of Mapelastic AquaDefense across a shower floor and walls before the tiles. The roller is dipped, worked out on a tray and laid off in one direction for an even film.",
+    "with": [
+      "/mapei/primers-levelling/primer-g",
+      "/mapei/waterproofing/mapelastic-aquadefense",
+      "/oriental-yuhong/yhcoat-2060",
+      "/mapei/waterproofing/antipluviol"
+    ],
+    "posts": [
+      "waterproofing-coverage-per-square-metre",
+      "cementitious-vs-liquid-membrane-waterproofing"
+    ]
+  },
+  "professional-trowel-carbon-steel": {
+    "use": "The Professional Trowel with Smooth Soft Grip Handle, Carbon Steel Blade comes in 6, 8 and 10mm square notches, which between them cover most wall and floor tiles laid in Adesilex P7 or Keraflex Maxi S1. Spread the adhesive with the flat edge, comb it to full-height ridges in one direction and bed the tile with a short slide across the ridges to close them. The notch size is engraved on the blade.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/adesilex-p7",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/mapeset"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "professional-trowel-stainless-steel": {
+    "use": "The Professional Trowel with Smooth Soft Grip Handle, Stainless Steel #420 has a 3.2mm square notch, the fine comb for mosaics and small wall tiles bedded in Kerabond T. The tiler keys adhesive onto the wall with the flat edge, then combs straight ridges at a steady angle so each small tile beds fully when pressed home. The 0.7mm blade is fixed to the handle with eight rivets.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/kerabond-t",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "putty-scraper": {
+    "use": "The Putty Scraper is the tiler's blade for cleaning and filling before the tiles go down. The fine polished #420 stainless steel blade lifts old adhesive, paint spots and dried grout off a screed, and presses filler into small holes and cracks ahead of a levelling compound such as Ultraplan Eco 20. The one piece design with soft cover leaves no joint for cement to collect in. Three widths are listed.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20",
+      "/mapei/primers-levelling/primer-g"
+    ],
+    "posts": []
+  },
+  "reusable-tile-leveling-system": {
+    "use": "The Reusable Tile Leveling System is for tilers who would rather keep the hardware than snap off a post at every joint. The pieces sit across the gap between freshly bedded tiles, are tightened to bring the faces flush, and are taken off once the adhesive has hardened, ready for the next bay. Fifty pieces per pack, worked with a deformable adhesive like Keraflex Maxi S1.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "mapei-waiting-times-before-tiling-grouting-walking"
+    ]
+  },
+  "rubber-packing-pad": {
+    "use": "The Rubber Packing Pad is the backing that carries a hook-and-loop polishing pad on an angle grinder. Its M14 thread screws straight onto the spindle of the Angle Grinder and the velcro face holds a 4 inch Dry Diamond Polishing Pad, so swapping from one grit to the next takes seconds. The rubber gives a little under pressure, which lets the pad follow a rounded edge or a mitre without digging in.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": []
+  },
+  "silicon-application-kit-2pcs": {
+    "use": "The Silicone Application Kit - 2pcs is for finishing sealant joints once the tiles are grouted. After a bead of Mapeflex PU 45 FT is gunned into a movement joint or the junction between wall and floor, the tiler draws the tool along the bead to shape it and lift the excess, leaving a neat, even fillet. The kit is supplied as two pieces.",
+    "with": [
+      "/mapei/waterproofing/mapeflex-pu-45-ft",
+      "/x-calibur/x-seal-ps800"
+    ],
+    "posts": [
+      "joint-sealant-width-depth-coverage"
+    ]
+  },
+  "silicon-application-set-4pcs": {
+    "use": "The 4pcs Silicone Application Set is a set of four pieces for shaping and cleaning up sealant beads around baths, basins, shower trays and the perimeter joints of a tiled floor. Once the sealant is in, a tiler picks the piece that matches the joint and runs it along the bead in one steady pass, pressing the sealant into the gap and scraping away the surplus before it skins.",
+    "with": [
+      "/mapei/waterproofing/mapeflex-pu-45-ft",
+      "/x-calibur/x-seal-ps800",
+      "/oriental-yuhong/yhpuseal-2925"
+    ],
+    "posts": [
+      "joint-sealant-width-depth-coverage"
+    ]
+  },
+  "spin-level-fast-clip-cap": {
+    "use": "The Spin Level Fast Clip Cap is the top half of a threaded levelling system. Once the tile is bedded and the post stands in the joint, the tiler clips the cap on and spins it down until it bears on both tiles, drawing them level while the adhesive sets. Next day the post is snapped off along the joint and the cap unscrewed. One hundred caps per pack.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "sticky-mat": {
+    "use": "The Sticky Mat is placed at the doorway of a room where a new floor or a fresh resin coating such as Mapefloor I 300 SL ME must stay clean, so shoes and cart wheels leave their dust and grit on the mat rather than on the surface. Each of the 30 numbered sheets peels away once it is loaded to expose a fresh one, and the self-adhesive back stops the mat shifting. Two sizes are listed.",
+    "with": [
+      "/mapei/resin-flooring/mapefloor-i-300-sl-me",
+      "/mapei/resin-flooring/mapefloor-fc-200-me"
+    ],
+    "posts": []
+  },
+  "strong-manual-tile-cutter": {
+    "use": "The Strong Manual Tile Cutter scores and snaps tiles up to 1200 mm long with no power or water. The tiler lines the tile up on the green laser line, draws the scoring wheel along the single rail once, then presses the breaker to snap it along the score. The extension legs with the 45 degree guide support a large tile for a diagonal cut. It suits site cutting of floor tiles bedded in Adesilex P7 or Keraflex Maxi S1.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/adesilex-p7",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "switchable-putty-scraper-kit": {
+    "use": "The Switchable Putty Scraper Kit puts one handle to five #420 stainless steel blades, in 1.5, 4, 5 and 6 inch widths plus a 5N1 blade. The tiler switches to a narrow blade to clean adhesive out of corners, a wide one to scrape a floor or spread filler, and uses the steel hammer end to tap down a lifted edge or close a tin of primer.",
+    "with": [
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": []
+  },
+  "taping-knife": {
+    "use": "The Taping Knife spreads and feathers skim coat, filler and jointing compound across a wall before it is tiled or painted. The wide #420 stainless steel blade is held at a low angle and drawn in long passes to leave a flat surface, and the rounded corner stops it digging a line into the fresh coat. It also smooths a cementitious coat such as Mapelastic Easy. Five widths are listed.",
+    "with": [
+      "/mapei/waterproofing/mapelastic-easy",
+      "/mapei/tile-adhesives-grouts/kerabond-t"
+    ],
+    "posts": []
+  },
+  "telescope-handle": {
+    "use": "The Telescope Handle, in 1100mm, extends the reach of a roller or a skimming scraper so a tiler can work a floor or a high wall standing upright instead of bent double. Fit the roller to it for priming a whole floor with Primer G or rolling a liquid membrane out to the far wall, then shorten it again for closer work.",
+    "with": [
+      "/mapei/primers-levelling/primer-g",
+      "/mapei/waterproofing/mapelastic-aquadefense"
+    ],
+    "posts": []
+  },
+  "tile-gap-adjuster-with-suction-cups": {
+    "use": "The Tile Gap Adjustable with two 6 inch pump suction cups pulls two large tiles into line while the adhesive is still wet. The tiler pumps one cup onto each tile, then uses the two buttons to bring the second tile level with the first and close or open the joint, working at 90, 180 or 270 degrees around a corner. It suits porcelain, stone and glass bedded in Keraflex Maxi S1, where lippage shows most.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "trowel-notch-size-for-tile-size"
+    ]
+  },
+  "tile-leveling-base": {
+    "use": "The Tile Leveling Base is the throwaway foot of a levelling system for tiles 3mm to 12mm thick. Its flat plate slides under the tile edge in the fresh adhesive and the upright stands in the joint; a wedge or cap is then pushed onto the upright to clamp the neighbouring tiles level. Comes in 1mm, 1.5mm, 2mm and 3mm joint widths, 100 to a bag; snap the upright off once Adesilex P7 has set.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/adesilex-p7",
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "tile-adhesive-per-square-metre"
+    ]
+  },
+  "tile-remover": {
+    "use": "The Tile Remover with Soft Grip is for lifting tiles without wrecking the substrate beneath. The stainless steel blade, with cutting edges, is driven under a loose or cracked tile and worked along the adhesive bed to break the bond, while the metal hammer end lets the tiler strike it with a mallet or tap a stubborn piece free. Handy when replacing popped tiles before re-fixing with Keraflex Maxi S1.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "tile-repairing-kit": {
+    "use": "The Tile Repairing Kit fills a chip or scratch in a fixed tile without lifting it. The applicator picks the wax block closest to the tile colour from the 16 supplied, melts it into the chip, levels it with the cleaning scraper and matches the surface with the textured scraper, then wipes back with the sponge and cloth; the kit charges over its Type-C cable. It is for small cosmetic damage, not for loose or hollow tiles.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keracolor-ff",
+      "/mapei/tile-adhesives-grouts/ultracare-multicleaner"
+    ],
+    "posts": []
+  },
+  "tile-spirit-level": {
+    "use": "The Tile Spirit Level is an aluminium level with a machined base and three bubbles reading 90°, 90° and 180°, accurate to 0.5mm/m. Lay it across a run of freshly set tiles to check the faces are flat and in plane, stand it against a wall for plumb, and read the fall to a floor drain in a wet room before the adhesive goes off. At 1800mm it spans several tiles at once.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up",
+      "screed-or-self-levelling-compound"
+    ]
+  },
+  "tilers-working-bench-master": {
+    "use": "The Tiler's Working Bench Master gives a tiler a flat table at working height for cutting, drilling and polishing tiles, then folds its legs and becomes a trolley for moving tiles and tools across the site. The height sets to five positions between 560 and 770 mm, it carries up to 200 kg, and the wheels and carry handle take it from the van to the room being tiled. No more working off the floor or a stack of boxes.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": []
+  },
+  "underlayment-embedding-roller": {
+    "use": "The Underlayment Embedding Roller presses a membrane into its mortar bed so it bonds fully with no air pockets. After the membrane is laid into fresh Keraflex Maxi S1, the tiler rolls from the centre outwards on the extension handle, standing upright, and lets the roller do the pushing rather than kneeling with a float. It takes a maximum load of 35kg, comes apart for transport and suits vinyl flooring too.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1",
+      "/mapei/tile-adhesives-grouts/adesilex-p7"
+    ],
+    "posts": [
+      "why-floor-tiles-pop-up"
+    ]
+  },
+  "water-cooling-parts": {
+    "use": "Water Cooling Parts are the components that feed water to the blade while a tile or slab is being cut wet. Water keeps the blade cool, holds the dust down and gives a cleaner edge on porcelain. The part code sits under the Electric Cutting System, so that is the machine they are listed for; a tiler keeps a set in the van so a split or worn part does not stop a cutting day.",
+    "with": [
+      "/mapei/tile-adhesives-grouts/keraflex-maxi-s1"
+    ],
+    "posts": []
+  },
+  "waterproof-protective-film": {
+    "use": "The Waterproof Protective Film is a PE film with a white PET fabric face, 1m wide by 25m, laid over finished floors for the rest of the build. The adhesive-coated back grips the surface so it does not slip underfoot, no extra glue is needed, and the PE top layer stops spilt water reaching the floor below. It can be reused depending on the wear of the adhesive backing.",
+    "with": [
+      "/mapei/resin-flooring/mapefloor-i-300-sl-me",
+      "/mapei/primers-levelling/ultraplan-eco-20"
+    ],
+    "posts": []
+  }
+}

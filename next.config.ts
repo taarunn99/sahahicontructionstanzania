@@ -1,8 +1,27 @@
 import type { NextConfig } from "next";
 
+import bihuiCatalogue from "./src/config/bihui-catalogue.json";
+import bihuiFolded from "./src/config/bihui-folded.json";
 import canonicals from "./src/config/canonical-headers.json";
 
 const SITE = "https://www.sahihicc.com";
+
+/**
+ * BIHUI tools folded into the hub (2026-11-12, src/config/bihui-folded.json):
+ * the old tool URL goes to its category section. The id rule matches
+ * `bihuiCategoryId` in src/config/bihui.ts.
+ */
+const FOLDED_TOOLS: [string, string][] = bihuiFolded.folded.map((slug) => {
+  const family = (bihuiCatalogue as { slug: string; category: string }[]).find(
+    (entry) => entry.slug === slug,
+  );
+  if (!family) throw new Error(`bihui-folded: unknown slug "${slug}"`);
+  const id = family.category
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  return [`/bihui/${slug}`, `/bihui#${id}`];
+});
 
 /**
  * 301s for addresses people type or old sites used, so none of them 404.
@@ -97,7 +116,7 @@ const nextConfig: NextConfig = {
         destination: `${SITE}/:path*`,
         permanent: true,
       },
-      ...REDIRECTS.map(([source, destination]) => ({
+      ...[...REDIRECTS, ...FOLDED_TOOLS].map(([source, destination]) => ({
         source,
         destination,
         permanent: true,

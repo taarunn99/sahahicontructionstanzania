@@ -15,7 +15,7 @@ import { whatsappLink } from "@/config/site";
 /** English words for the flash pieces (flash-sale.tsx). Kept in this
  * server file: a plain object exported from a "use client" module reaches
  * a server component as a reference, not as the object. */
-const FLASH_EN: FlashCopy = {
+export const FLASH_EN: FlashCopy = {
   tab: "Flash sale",
   bubble: {
     word: "Sale!",

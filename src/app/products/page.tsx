@@ -23,6 +23,7 @@ import {
   bihuiFamilies,
   bihuiFamilyBySlug,
   bihuiHref,
+  bihuiIsFolded,
   bihuiModel,
   bihuiName,
   bihuiPicture,
@@ -270,9 +271,12 @@ export default function ProductsPage() {
   const yuhong = lines.find((line) => line.brand === "oriental-yuhong");
   const xcalibur = lines.find((line) => line.brand === "x-calibur");
 
-  // Two tools from each BIHUI category, with a picture, then the whole hub.
+  // Every tool with a page and a picture, in category order (2026-11-12: the
+  // tools need a link from outside /bihui; the shelf scrolls).
   const tools = bihuiCategories.flatMap((category) =>
-    category.families.filter((family) => bihuiPicture(family)).slice(0, 2),
+    category.families.filter(
+      (family) => bihuiPicture(family) && !bihuiIsFolded(family),
+    ),
   );
   const mixer = bihuiFamilyBySlug["portable-mortar-mixer"];
   const mixerPicture = mixer && bihuiPicture(mixer);

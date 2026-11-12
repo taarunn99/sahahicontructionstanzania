@@ -12,6 +12,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
+import { bihuiHref, bihuiName, bihuiToolsForPost } from "@/config/bihui";
 import { blogCategoryBySlug, postBySlug, posts } from "@/config/blog";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { postContent } from "@/content/blog";
@@ -79,6 +80,8 @@ export default async function PostPage({ params }: { params: Params }) {
   const words = wordCount(content);
   const minutes = readMinutes(words);
   const related = post.related.map((item) => postBySlug[item]).filter(Boolean);
+  // The BIHUI tools whose notes name this guide (src/config/bihui-uses.json).
+  const tools = bihuiToolsForPost(post.slug).slice(0, 8);
   const faq = content.faq.map((item) => ({
     q: item.q,
     lead: item.a,
@@ -309,6 +312,23 @@ export default async function PostPage({ params }: { params: Params }) {
                 </a>
               </div>
             </div>
+            {tools.length > 0 && (
+              <nav aria-label="Tools in this guide" className="mt-8">
+                <p className="label-sh text-muted">Tools in this guide</p>
+                <ul className="border-deep mt-4 border-t">
+                  {tools.map((family) => (
+                    <li key={family.slug} className="border-deep/15 border-b">
+                      <Link
+                        href={bihuiHref(family)}
+                        className="hover:bg-surface block py-3 text-sm leading-snug transition-colors"
+                      >
+                        BIHUI {bihuiName(family)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
           </aside>
         </Container>
       </article>

@@ -66,3 +66,7 @@ export const offer = {
 /** True while the offer is running, at build time. */
 export const offerIsLive = () =>
   offer.items.length > 0 && new Date() <= new Date(`${offer.until}T23:59:59`);
+
+/** True for a catalogue product that is in the running offer. */
+export const isOnOffer = (slug: string) =>
+  offerIsLive() && offer.items.some((item) => item.slug === slug);

@@ -301,10 +301,13 @@ export function OfferCountdown({
   until,
   units,
   ended,
+  compact = false,
 }: {
   until: string;
   units: FlashCopy["units"];
   ended: string;
+  /** Small boxes, no top margin: the strip on product pages. */
+  compact?: boolean;
 }) {
   const end = new Date(`${until}T23:59:59+03:00`).getTime();
   const [now, setNow] = useState<number | null>(null);
@@ -320,7 +323,12 @@ export function OfferCountdown({
   }, []);
 
   const left = now === null ? null : Math.max(0, end - now);
-  if (left === 0) return <p className="mt-6 font-semibold">{ended}</p>;
+  if (left === 0)
+    return (
+      <p className={compact ? "font-semibold" : "mt-6 font-semibold"}>
+        {ended}
+      </p>
+    );
 
   const parts =
     left === null
@@ -333,16 +341,36 @@ export function OfferCountdown({
         ];
 
   return (
-    <div translate="no" className="mt-6 flex gap-2 sm:gap-3" role="timer">
+    <div
+      translate="no"
+      className={compact ? "flex gap-1.5 sm:gap-2" : "mt-6 flex gap-2 sm:gap-3"}
+      role="timer"
+    >
       {parts.map((value, i) => (
         <div
           key={units[i]}
-          className="bg-deep text-chalk flex min-w-16 flex-col items-center rounded-xl px-3 py-2 sm:min-w-20"
+          className={
+            compact
+              ? "bg-deep text-chalk flex min-w-11 flex-col items-center rounded-lg px-1.5 py-1 sm:min-w-14"
+              : "bg-deep text-chalk flex min-w-16 flex-col items-center rounded-xl px-3 py-2 sm:min-w-20"
+          }
         >
-          <span className="font-display text-2xl font-extrabold tabular-nums sm:text-3xl">
+          <span
+            className={
+              compact
+                ? "font-display text-base font-extrabold tabular-nums sm:text-xl"
+                : "font-display text-2xl font-extrabold tabular-nums sm:text-3xl"
+            }
+          >
             {value}
           </span>
-          <span className="text-[0.7rem] tracking-[0.14em] uppercase">
+          <span
+            className={
+              compact
+                ? "text-[0.55rem] tracking-[0.12em] uppercase"
+                : "text-[0.7rem] tracking-[0.14em] uppercase"
+            }
+          >
             {units[i]}
           </span>
         </div>

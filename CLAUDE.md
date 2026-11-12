@@ -196,7 +196,14 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   BIHUI template (150-300 words, 60-73% shared sentences, half indexed); "Product
   snippets: offers/review/aggregateRating" on every product page is the known cost of
   no prices (SEO-STRATEGY 7). Never click "Validate fix" or "Request indexing" without
-  the owner's yes.
+  the owner's yes. Owner's levers the same day: every BIHUI tool page gained a written
+  "What it is for" note with the products it is used with and its guides
+  (`src/config/bihui-uses.json`; Claude-written trade use, no fact beyond the catalogue
+  row), product pages gained "Tools for this job" and posts "Tools in this guide" from
+  the same file, `/products` shows every tool, and the 12 tools whose every row is
+  doubtful are folded into the hub (`src/config/bihui-folded.json`, old URLs 301 to the
+  category, `bihuiPages` is the set with pages). Product pages of items in the running
+  offer carry a yellow strip with the countdown (`offer-strip.tsx`).
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

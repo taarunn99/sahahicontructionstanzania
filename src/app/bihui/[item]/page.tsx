@@ -13,27 +13,33 @@ import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
 import {
   bihuiCategories,
-  bihuiFamilies,
   bihuiFamilyBySlug,
   bihuiHref,
+  bihuiIsFolded,
   bihuiItemDescription,
   bihuiItemTitle,
   bihuiModel,
   bihuiName,
+  bihuiPages,
   bihuiPicture,
+  bihuiUse,
   isDoubtfulRow,
 } from "@/config/bihui";
+import { posts } from "@/config/blog";
+import { productHref, products } from "@/config/catalogue";
+import { cmciAll, cmciHref } from "@/config/cmci";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { bihuiSeo, type BihuiSlug } from "@/config/seo/bihui";
 import { ogBase, resolveOg } from "@/lib/seo";
 
 type Params = Promise<{ item: string }>;
 
-// One indexed URL per tool family, all generated at build time.
+// One indexed URL per tool family with a page, all generated at build time.
+// Folded families (src/config/bihui-folded.json) redirect to the hub.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return bihuiFamilies.map((family) => ({ item: family.slug }));
+  return bihuiPages.map((family) => ({ item: family.slug }));
 }
 
 export async function generateMetadata({
@@ -43,7 +49,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { item } = await params;
   const family = bihuiFamilyBySlug[item];
-  if (!family) return {};
+  if (!family || bihuiIsFolded(family)) return {};
   const title = bihuiItemTitle(family);
   const description = bihuiItemDescription(family);
   const url = bihuiHref(family);
@@ -104,7 +110,7 @@ const BIHUI_TO_LINE: Record<
 export default async function BihuiItemPage({ params }: { params: Params }) {
   const { item } = await params;
   const family = bihuiFamilyBySlug[item];
-  if (!family) notFound();
+  if (!family || bihuiIsFolded(family)) notFound();
 
   const name = bihuiName(family);
   const url = bihuiHref(family);
@@ -113,18 +119,31 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
   const category = bihuiCategories.find(
     (entry) => entry.name === family.category,
   );
-  const position = bihuiFamilies.indexOf(family);
+  const position = bihuiPages.indexOf(family);
   const previous =
-    bihuiFamilies[(position - 1 + bihuiFamilies.length) % bihuiFamilies.length];
-  const next = bihuiFamilies[(position + 1) % bihuiFamilies.length];
+    bihuiPages[(position - 1 + bihuiPages.length) % bihuiPages.length];
+  const next = bihuiPages[(position + 1) % bihuiPages.length];
   const related = (category?.families ?? [])
-    .filter((entry) => entry.slug !== family.slug)
+    .filter((entry) => entry.slug !== family.slug && !bihuiIsFolded(entry))
     .slice(0, 4);
   const crumbs = [
     { label: "Home", href: "/" },
     { label: "BIHUI", href: "/bihui" },
     { label: name, href: url },
   ];
+  const use = bihuiUse(family);
+  // The product pages the note names, with the product's own name.
+  const pairs = (use?.with ?? [])
+    .map((route) => {
+      const product = products.find((entry) => productHref(entry) === route);
+      if (product) return { href: route, label: product.name };
+      const fire = cmciAll.find((entry) => cmciHref(entry) === route);
+      return fire ? { href: route, label: fire.name } : null;
+    })
+    .filter((pair): pair is { href: string; label: string } => pair !== null);
+  const guides = (use?.posts ?? [])
+    .map((slug) => posts.find((post) => post.slug === slug))
+    .filter((post): post is NonNullable<typeof post> => Boolean(post));
 
   return (
     <main className="brand-bihui theme-light bg-background text-foreground flex-1">
@@ -214,6 +233,26 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
                     </li>
                   ))}
                 </ul>
+              )}
+              {use && (
+                <div className="border-deep/15 mt-8 border-t pt-6">
+                  <p className="label-sh text-muted">What it is for</p>
+                  <p className="mt-3 max-w-xl leading-relaxed">{use.use}</p>
+                  {pairs.length > 0 && (
+                    <p className="mt-3 max-w-xl text-sm leading-relaxed">
+                      Use it with{" "}
+                      {pairs.map((pair, index) => (
+                        <span key={pair.href}>
+                          {index > 0 && (index === pairs.length - 1 ? " and " : ", ")}
+                          <Link href={pair.href} className="u-line font-semibold">
+                            {pair.label}
+                          </Link>
+                        </span>
+                      ))}
+                      .
+                    </p>
+                  )}
+                </div>
               )}
               <div className="mt-8 flex flex-wrap gap-3">
                 <FlowButton href={whatsappLink(`the BIHUI ${name}`)}>
@@ -311,7 +350,17 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
         label="Use it with"
         heading="The products it works with."
         links={[
+          ...pairs.slice(0, 2).map((pair) => ({
+            label: pair.label,
+            href: pair.href,
+            sub: "Used with this tool",
+          })),
           ...(BIHUI_TO_LINE[family.category] ?? []),
+          ...guides.slice(0, 1).map((post) => ({
+            label: post.title,
+            href: `/blog/${post.slug}`,
+            sub: "Guide",
+          })),
           {
             label: "All BIHUI tools",
             href: "/bihui",
@@ -322,11 +371,15 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
             href: "/products",
             sub: "Every brand and line",
           },
-          {
-            label: "Guides for the trade",
-            href: "/blog/category/tools-and-technique",
-            sub: "From our blog",
-          },
+          ...(guides.length === 0
+            ? [
+                {
+                  label: "Guides for the trade",
+                  href: "/blog/category/tools-and-technique",
+                  sub: "From our blog",
+                },
+              ]
+            : []),
         ]}
       />
 

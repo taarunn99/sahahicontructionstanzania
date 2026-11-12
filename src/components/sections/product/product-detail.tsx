@@ -9,6 +9,7 @@ import { CtaBand } from "@/components/sections/cta-band";
 import { BoqClause } from "@/components/sections/product/boq-clause";
 import { PrintSheetButton } from "@/components/sections/product/print-sheet";
 import { CoverageCalculator } from "@/components/sections/product/coverage-calculator";
+import { OfferStrip } from "@/components/sections/product/offer-strip";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
   Breadcrumb,
@@ -17,7 +18,14 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { FlowButton } from "@/components/ui/flow-button";
+import {
+  bihuiHref,
+  bihuiName,
+  bihuiPicture,
+  bihuiToolsForProduct,
+} from "@/config/bihui";
 import type { Product } from "@/config/catalogue";
+import { isOnOffer } from "@/config/offers";
 import { siteConfig, whatsappLink } from "@/config/site";
 import { boqClause, boqCsv } from "@/lib/boq";
 import type { CoverageModel } from "@/lib/coverage";
@@ -220,6 +228,8 @@ export function ProductDetail({
     content?.description && tidy(content.description) !== product.summary
       ? tidy(content.description)
       : null;
+  const onOffer = isOnOffer(product.slug);
+  const tools = bihuiToolsForProduct(url).slice(0, 6);
 
   const sections = [
     { id: "documents", label: "Documents" },
@@ -342,9 +352,18 @@ export function ProductDetail({
         ]}
       />
 
+      {/* The strip for a product in the running offer (owner, 2026-11-12). */}
+      {onOffer && <OfferStrip slug={product.slug} />}
+
       {/* ---- The product: pack shot left, the name and what it is right --- */}
       <section className={!image && scene ? "bg-surface" : "bg-white"}>
-        <Container className="pt-28 pb-14 sm:pt-32 sm:pb-20 print:!p-0">
+        <Container
+          className={
+            onOffer
+              ? "pt-10 pb-14 sm:pt-12 sm:pb-20 print:!p-0"
+              : "pt-28 pb-14 sm:pt-32 sm:pb-20 print:!p-0"
+          }
+        >
           <div className="print:hidden">
             <Breadcrumb items={crumbs} />
           </div>
@@ -1009,6 +1028,59 @@ export function ProductDetail({
           </Link>
         </Container>
       </nav>
+
+      {/* ---- Tools for this job: the BIHUI tools whose notes name this page */}
+      {tools.length > 0 && (
+        <section className="border-deep border-t py-16 sm:py-20 print:hidden">
+          <Container>
+            <div className="flex flex-wrap items-end justify-between gap-6">
+              <div>
+                <p className={SECTION_LABEL}>Tools for this job</p>
+                <h2 className={H2}>The BIHUI tools used with {product.name}.</h2>
+              </div>
+              <Link
+                href="/bihui"
+                className="chip-sh border-deep inline-flex min-h-11 items-center rounded-full border px-6 text-sm"
+              >
+                All BIHUI tools
+              </Link>
+            </div>
+            <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-6">
+              {tools.map((family) => {
+                const thumb = bihuiPicture(family);
+                return (
+                  <li key={family.slug}>
+                    <Link
+                      href={bihuiHref(family)}
+                      className="border-deep/15 flex h-full flex-col overflow-hidden rounded-lg border bg-white"
+                    >
+                      <span className="relative block aspect-square">
+                        {thumb && (
+                          <Image
+                            src={thumb.src}
+                            alt={`BIHUI ${bihuiName(family)}`}
+                            fill
+                            sizes="(min-width: 80rem) 15vw, (min-width: 48rem) 30vw, 48vw"
+                            className="object-contain p-3"
+                          />
+                        )}
+                      </span>
+                      <span className="border-deep/15 flex flex-1 flex-col border-t p-3">
+                        <span className="font-display text-sm leading-tight">
+                          {bihuiName(family)}
+                        </span>
+                        <span className="spec-sh text-muted mt-auto pt-2">
+                          {family.category}
+                        </span>
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </Container>
+        </section>
+      )}
 
       <div className="print:hidden">
         <CtaBand

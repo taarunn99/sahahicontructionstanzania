@@ -1,0 +1,17 @@
+{
+  "_why": "Tool families whose every catalogue row is doubtful (the printed size contradicts the code), so the page could only show a code and 'Ask us'. Search Console (2026-11-12) left most such pages out of the index. Owner's choice the same day: fold them into their category on /bihui; the old URL 301s there. The tools stay orderable by code. Shared by src/config/bihui.ts (pages, hrefs) and next.config.ts (redirects).",
+  "folded": [
+    "double-suction-cup",
+    "hydro-grout-sponge",
+    "laser-level-llg05",
+    "multifunction-trim-puller",
+    "portable-mortar-mixer",
+    "pro-germany-hydro-grouting-sponge",
+    "resin-bound-dual-handle-trowel",
+    "resin-bound-pointing-trowel",
+    "spazzle",
+    "trade-manual-cutting-system",
+    "tri-head-suction-cup",
+    "trim-cutter"
+  ]
+}

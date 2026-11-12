@@ -11,6 +11,7 @@ import {
   bihuiCategories,
   bihuiFamilies,
   bihuiHref,
+  bihuiIsFolded,
   bihuiName,
 } from "@/config/bihui";
 import { cmciAll, cmciHref } from "@/config/cmci";
@@ -182,10 +183,13 @@ const BRAND_CHILDREN: Record<string, () => MenuNode[]> = {
       label: category.name,
       href: `/bihui#${category.id}`,
       count: String(category.families.length),
-      children: category.families.map((family) => ({
-        label: bihuiName(family),
-        href: bihuiHref(family),
-      })),
+      // Only the tools with a page; folded ones are on the hub section.
+      children: category.families
+        .filter((family) => !bihuiIsFolded(family))
+        .map((family) => ({
+          label: bihuiName(family),
+          href: bihuiHref(family),
+        })),
     })),
 };
 
