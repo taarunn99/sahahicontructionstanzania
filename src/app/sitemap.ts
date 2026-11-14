@@ -54,7 +54,8 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "/products", modified: "2026-11-05", priority: 0.8 },
   { path: "/projects", modified: "2026-11-05", priority: 0.7 },
   { path: "/blog", modified: "2026-11-06", priority: 0.7 },
-  { path: "/about", modified: "2026-11-05", priority: 0.6 },
+  // 2026-11-14: the licence and the X-Calibur certificate, on the wall.
+  { path: "/about", modified: "2026-11-14", priority: 0.6 },
   { path: "/contact", modified: "2026-11-05", priority: 0.6 },
 ];
 

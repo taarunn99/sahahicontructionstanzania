@@ -80,6 +80,9 @@ const NOT_PAGES = [
   "/blog/rss.xml",
   "/manifest.webmanifest",
   "/favicon.ico",
+  // The business licence is view only on /about (owner, 2026-11-14):
+  // readable there, kept out of image search.
+  "/documents/sahihi-business-licence-2026.webp",
 ];
 
 const nextConfig: NextConfig = {

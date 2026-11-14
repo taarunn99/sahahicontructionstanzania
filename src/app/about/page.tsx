@@ -21,9 +21,11 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { bihuiFamilies } from "@/config/bihui";
+import { CompanyDocuments } from "@/components/sections/about/documents";
 import { brands } from "@/config/brands";
 import { products } from "@/config/catalogue";
 import { initiatives, mission, solutions, vision } from "@/config/company";
+import { businessLicence } from "@/config/company-documents";
 import { credentialForBrand } from "@/config/credentials";
 import {
   companyPhotos,
@@ -65,6 +67,7 @@ const CONTENTS = [
   { href: "#vision", label: "Where we are going" },
   { href: "#people", label: "People" },
   { href: "#brands", label: "Who we distribute" },
+  { href: "#documents", label: "On the wall" },
   { href: "#masthead", label: "The masthead" },
 ];
 
@@ -152,6 +155,18 @@ export default function AboutPage() {
             jobTitle: siteConfig.director.title,
             url: `${siteConfig.url}/about`,
             worksFor: { "@id": `${siteConfig.url}/#organization` },
+          },
+          // The licence on the wall (#documents), as the visible card states
+          // it: number and issuer only. No file URL: the licence is view
+          // only. Extends the Organization by @id.
+          {
+            "@type": "Organization",
+            "@id": `${siteConfig.url}/#organization`,
+            identifier: {
+              "@type": "PropertyValue",
+              propertyID: `${businessLicence.issuerShort} business licence`,
+              value: businessLicence.number,
+            },
           },
         ]}
       />
@@ -411,9 +426,9 @@ export default function AboutPage() {
                     {brand.blurb}
                     {credential && (
                       <span className="spec-sh text-foreground mt-2 block">
-                        {brand.authorization} for Tanzania, certified in
-                        writing to {credential.validUntilText}. The certificate
-                        is on the {brand.name} page.
+                        {brand.authorization} for Tanzania, certified in writing
+                        to {credential.validUntilText}. The certificate is on
+                        the {brand.name} page.
                       </span>
                     )}
                   </p>
@@ -451,10 +466,19 @@ export default function AboutPage() {
         </Container>
       </section>
 
+      {/* ---- On the wall: the licence and the certificate ----------------- */}
+      <CompanyDocuments
+        kicker={
+          <Kicker number={6} as="h2">
+            On the wall
+          </Kicker>
+        }
+      />
+
       {/* ---- Masthead: who the company is --------------------------------- */}
       <section id="masthead" className="scroll-mt-20 py-20 sm:py-28">
         <Container>
-          <Kicker number={6}>The masthead</Kicker>
+          <Kicker number={7}>The masthead</Kicker>
           <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_1.618fr] lg:gap-16">
             <div>
               <p className="label-sh text-muted">{siteConfig.director.title}</p>

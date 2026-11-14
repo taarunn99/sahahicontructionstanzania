@@ -200,6 +200,15 @@ manufacture planned? And is the company Tanzanian-owned? Mine procurement
 asks for a Local Content Plan and proof of ownership, which decides
 whether mining pages are worth building.
 
+> **2026-11-14:** the owner chose to show the licence as issued on
+> `/about#documents` (over a facts-only line; the risk of the TIN being
+> copied was put to him first), then asked for it to be **view only**: a
+> screen-resolution picture, no PDF, no download, drag and right-click
+> save blocked, a "view only" layer, noindex on the file. The activity
+> wording is readable on the picture; the question of planned manufacture
+> stays open. The TIN, fee and receipt number are never typed into copy,
+> alt text or schema (`src/config/company-documents.ts`).
+
 ---
 
 ## Blocking launch

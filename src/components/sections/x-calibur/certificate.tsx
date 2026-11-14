@@ -1,8 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { Reveal } from "@/components/motion/reveal";
-import { TiltCard } from "@/components/sections/x-calibur/tilt-card";
+import { DocumentCard } from "@/components/sections/document-card";
 import { Container } from "@/components/ui/container";
 import { productHref } from "@/config/catalogue";
 import { type Credential } from "@/config/credentials";
@@ -26,41 +25,6 @@ const PILL =
   "inline-flex min-h-12 items-center gap-2.5 rounded-full px-6 text-sm font-semibold tracking-wide uppercase transition-opacity hover:opacity-90";
 
 const fileSize = (bytes: number) => `${Math.round(bytes / 1024)} KB`;
-
-function RingOfText({ text }: { text: string }) {
-  return (
-    <svg
-      viewBox="0 0 200 200"
-      aria-hidden
-      className="text-surface absolute -top-10 -right-6 size-36 animate-[spin_48s_linear_infinite] motion-reduce:animate-none sm:-top-12 sm:-right-10 sm:size-44"
-    >
-      <defs>
-        <path
-          id="certificate-ring"
-          d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"
-        />
-      </defs>
-      <circle
-        cx="100"
-        cy="100"
-        r="60"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeDasharray="3 5"
-      />
-      <text
-        fill="currentColor"
-        className="font-display"
-        fontSize="17"
-        fontWeight="800"
-        letterSpacing="3.2"
-      >
-        <textPath href="#certificate-ring">{text}</textPath>
-      </text>
-    </svg>
-  );
-}
 
 export function XCaliburCertificate({
   credential,
@@ -171,24 +135,14 @@ export function XCaliburCertificate({
           </div>
 
           {/* ---- The paper itself ---------------------------------------- */}
-          <Reveal className="relative mx-auto w-full max-w-md lg:max-w-none">
-            <RingOfText text="AUTHORISED DISTRIBUTOR · TANZANIA · 2026 · " />
-            <TiltCard className="relative">
-              <figure className="rotate-[-1.5deg] rounded-md bg-white p-3 shadow-[0_30px_60px_-20px_rgba(12,42,54,0.55)] transition-transform duration-700 hover:rotate-0 sm:p-4">
-                <Image
-                  src={credential.image.src}
-                  alt={credential.image.alt}
-                  width={credential.image.width}
-                  height={credential.image.height}
-                  sizes="(min-width: 64rem) 40vw, (min-width: 40rem) 28rem, 100vw"
-                  className="h-auto w-full rounded-sm"
-                />
-                <figcaption className="spec-sh text-muted mt-3 px-1 pb-1 leading-relaxed">
-                  Issued by {credential.issuer}, {credential.issuerPlace}.
-                  Published as issued.
-                </figcaption>
-              </figure>
-            </TiltCard>
+          <Reveal className="mx-auto w-full max-w-md lg:max-w-none">
+            <DocumentCard
+              image={credential.image}
+              caption={`Issued by ${credential.issuer}, ${credential.issuerPlace}. Published as issued.`}
+              ring="AUTHORISED DISTRIBUTOR · TANZANIA · 2026 · "
+              ringId="certificate-ring"
+              ringClassName="text-surface"
+            />
           </Reveal>
         </div>
       </Container>

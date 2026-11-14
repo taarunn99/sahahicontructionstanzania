@@ -320,3 +320,5 @@ Sahihi job or as the product's maker's photograph.
 ## 3o. Documents shown as issued (2026-11-14)
 
 `public/documents/x-calibur-authorised-distributor-2026.webp` is a plain raster of the owner's PDF `public/tds/x-calibur/authorised-distributor-2026.pdf` (X-Calibur International's "Authorised Distributor" certificate, supplied 2026-11-14): `pdftoppm -r 200`, then resized to 1400 px wide as WebP. Nothing is generated, retouched, cropped or masked; the stamp and the signature are as printed. The facts the page states are in `src/config/credentials.ts`.
+
+`public/documents/sahihi-business-licence-2026.webp` is the same treatment of the BRELA business licence (the owner's file in `assets/source/owner-supplied/`, gitignored), at 900 px wide only: the owner chose on 2026-11-14 to show it whole, then view only, so no PDF is published and the raster is screen resolution. Nothing masked or retouched; the "view only" mark on the page is a CSS layer, not in the file. Facts in `src/config/company-documents.ts`.

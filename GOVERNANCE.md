@@ -61,6 +61,7 @@ client-rendered loses.
 | 2026-11-05 | Mapei product pages offer the official technical data sheet as a download. The PDFs are Mapei's, unaltered, with the edition code shown | owner |
 | 2026-11-05 | **Calculators must be exact.** Every figure and formula comes from the manufacturer's data sheet, carries the sentence it was copied from, and is tested against the tables the manufacturer prints. No figure in the data sheet means no calculator | owner |
 | 2026-11-05 | Every calculator has a wastage allowance the visitor sets. It is shown, applied once at the end, and never baked into a rate | owner |
+| 2026-11-14 | **Documents are shown as issued.** The X-Calibur authorised distributor certificate (`/x-calibur#certificate`) is the owner's file unaltered, with a plain raster for the page and the PDF to download. The BRELA business licence (`/about#documents`) is **view only** (owner: "view it but not download it"): a 900 px raster, no PDF on the site, no download, no drag or right-click save, a CSS "view only" layer over the picture, `X-Robots-Tag: noindex` on the file; the page says a screenshot is still possible. Figures on a paper that the site never prints (TIN, fees, receipt numbers, people's names) stay on the paper: not in copy, alt text or schema. Sources: `src/config/credentials.ts`, `src/config/company-documents.ts` | owner |
 
 Everything in handoff section 17 (the gcbuae owner rulings ledger) also
 applies unless this file says otherwise.

@@ -213,8 +213,14 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   stocked product under each, the paper in a card that leans to the pointer), a
   `Certification` node on the hub, one line on each X-Calibur product page and on `/about`.
   The hub title now carries "Authorized Distributor". People named on a document stay in the
-  picture only. The BRELA licence stays off the site (it prints the TIN) until the owner
-  rules; no navbar change.
+  picture only. Same day, the owner chose the full scan of the **BRELA business licence**
+  over a facts-only line, then "view it but not download it": `/about#documents` ("On the
+  wall", `src/components/sections/about/documents.tsx`, `src/config/company-documents.ts`)
+  shows the licence view only (900 px raster, no PDF, no download, drag and right-click save
+  blocked by `view-only-guard.tsx`, a CSS "view only" layer, noindex header on the file) and
+  the X-Calibur certificate with its PDF, both in the shared `DocumentCard`
+  (`src/components/sections/document-card.tsx`: white card, pointer lean, ring of text). TIN,
+  fee and receipt number are never typed anywhere. No navbar change.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`
