@@ -230,7 +230,12 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   the list; `/quote` (`src/app/quote/page.tsx`) lists all 140 products with Add, the list,
   job and sender fields, and sends on WhatsApp, by email or as copied text. `/quote` owns
   "Mapei price list Tanzania" (prices by quotation, said plainly); `/price-list`, `/pricelist`,
-  `/prices`, `/quotation`, `/request-a-quote`, `/quote-list` 301 to it.
+  `/prices`, `/quotation`, `/request-a-quote`, `/quote-list` 301 to it. The page's look is "the
+  order sheet" (solid brand blocks, hairline tile grid, yellow rail; `LOOK` in the page file
+  switches to the two other directions in `docs/QUOTE-DESIGN-OPTIONS.md`). The home page carries
+  a **quote list band** under the sale band (`src/components/sections/quote-band.tsx`: Blue
+  stage, the comic burst in CSS 3D saying "Quote list!", a blinking "New" tab, two tiles to
+  `/quote`).
 - Same day: **"Blog" left the navbar** (owner: the bar is too populated) and the blog became
   **The Journal on `/about#journal`** (`src/components/sections/about/journal.tsx`: the latest
   guide as the feature with its 3D poster in a tilt card and the turning seal, the rest as

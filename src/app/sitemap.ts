@@ -18,7 +18,8 @@ import { enTwin, swTwin, swTwins } from "@/config/sw-routes";
  * dates change on every build teaches crawlers to ignore them.
  */
 const CORE: { path: string; modified: string; priority: number }[] = [
-  { path: "", modified: "2026-11-05", priority: 1 },
+  // 2026-11-14: the quote list band under the sale band.
+  { path: "", modified: "2026-11-14", priority: 1 },
   { path: "/mapei", modified: "2026-11-05", priority: 0.9 },
   { path: "/sale", modified: "2026-11-11", priority: 0.8 },
   { path: "/quote", modified: "2026-11-14", priority: 0.8 },

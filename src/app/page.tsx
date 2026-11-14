@@ -13,6 +13,7 @@ import { TileFloor } from "@/components/sections/hero/tile-floor";
 import { LinesDial, type DialItem } from "@/components/sections/lines-dial";
 import { OfferBand } from "@/components/sections/offer-band";
 import { ProjectsStrip } from "@/components/sections/projects/projects-strip";
+import { QuoteBand } from "@/components/sections/quote-band";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BrandButton } from "@/components/ui/brand-button";
 import { BuildUpDrawing } from "@/components/ui/build-up-drawing";
@@ -112,7 +113,7 @@ export default function HomePage() {
           drawn grid in the HTML; the Three.js floor takes over after the
           first interaction (src/components/sections/hero/tile-floor.tsx). */}
       <section className="bg-accent relative overflow-hidden">
-        <Container className="relative z-10 grid items-center gap-6 pt-28 pb-10 lg:min-h-svh lg:grid-cols-[1.2fr_1fr] lg:gap-10 lg:pt-32 lg:pb-20 lg:short:pt-24 lg:short:pb-10">
+        <Container className="lg:short:pt-24 lg:short:pb-10 relative z-10 grid items-center gap-6 pt-28 pb-10 lg:min-h-svh lg:grid-cols-[1.2fr_1fr] lg:gap-10 lg:pt-32 lg:pb-20">
           <div>
             <p className="label-sh leading-relaxed">
               <Link href="/mapei" className="u-line">
@@ -120,17 +121,17 @@ export default function HomePage() {
               </Link>{" "}
               · Dar es Salaam
             </p>
-            <h1 className="font-display lg:short:max-w-[24ch] mt-6 max-w-[20ch] text-[clamp(2.1rem,min(6.6vw,7.5svh),4.4rem)] leading-[1.04] text-balance lg:short:mt-4">
+            <h1 className="font-display lg:short:max-w-[24ch] lg:short:mt-4 mt-6 max-w-[20ch] text-[clamp(2.1rem,min(6.6vw,7.5svh),4.4rem)] leading-[1.04] text-balance">
               Construction chemicals in Tanzania, for buildings that last a
               lifetime.
             </h1>
-            <p className="mt-7 max-w-xl text-lg leading-relaxed lg:short:mt-5">
+            <p className="lg:short:mt-5 mt-7 max-w-xl text-lg leading-relaxed">
               {siteConfig.brandName} supplies Tanzania with Mapei, Oriental
               Yuhong and X-Calibur: tile adhesives, waterproofing, resin
               flooring and concrete repair, backed by technical support and
               applicator training.
             </p>
-            <div className="mt-10 flex flex-wrap items-center gap-4 lg:short:mt-6">
+            <div className="lg:short:mt-6 mt-10 flex flex-wrap items-center gap-4">
               <BrandButton href="/products" size="lg" variant="solid">
                 View products
               </BrandButton>
@@ -154,6 +155,7 @@ export default function HomePage() {
       </section>
 
       <OfferBand />
+      <QuoteBand />
 
       <BrandMarquee label="Authorized distribution · Tanzania" />
 
