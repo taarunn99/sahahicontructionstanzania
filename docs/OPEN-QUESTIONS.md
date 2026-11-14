@@ -46,8 +46,14 @@ and whether it is exclusive.
   is used on the site today on the strength of the introduction letter.
   Two other parties also claim Mapei for Tanzania (Nanocube Africa in
   Nairobi; Charan, named in a 2021 article).
-- **Oriental Yuhong, X-Calibur:** named in the letter. No manufacturer
-  page lists Sahihi. X-Calibur has its own East Africa company in Nairobi.
+- **X-Calibur: answered 2026-11-14.** The owner supplied X-Calibur
+  International (FZE)'s "Authorised Distributor" certificate: Tanzania
+  region, five ranges (X-Pruf, X-Roc, X-Tech, X-Shield, X-Seal), valid to
+  31 December 2026, not worded as exclusive. Published as issued on
+  `/x-calibur#certificate` (`src/config/credentials.ts`). Still open: the
+  renewal after 31 December 2026, and x-calibur.com does not list Sahihi.
+- **Oriental Yuhong:** named in the letter. No manufacturer page lists
+  Sahihi.
 - **CMCI and BIHUI:** on the business card only, not in the letter. The
   site says "brand partner" for both until a letter says more.
 

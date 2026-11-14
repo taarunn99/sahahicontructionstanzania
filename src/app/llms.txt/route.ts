@@ -55,7 +55,7 @@ export function GET() {
     `- [Mapei in Tanzania](${base}/mapei): the Mapei hub, five product lines`,
     `- [Mapei nchini Tanzania](${base}/sw/mapei): the Mapei hub in Swahili, with a Swahili home page at ${base}/sw`,
     `- [OYH East Africa: Oriental Yuhong in Tanzania](${base}/oriental-yuhong): Sahihi is an authorized distributor of Oriental Yuhong (OYH) in Dar es Salaam; HDPE membrane, sports flooring, waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug`,
-    `- [X-Calibur in Tanzania](${base}/x-calibur): epoxy flooring, primer, waterproof coating and joint sealant`,
+    `- [X-Calibur in Tanzania](${base}/x-calibur): Sahihi is X-Calibur's authorized distributor for Tanzania, certified in writing to 31 December 2026 (the certificate is on the page, with the PDF); epoxy flooring, primers, SBR bond, waterproof coating and joint sealant`,
     `- [CMCI in Tanzania](${base}/cmci): cementitious fireproofing for petrochemical plant, commercial buildings and tunnels`,
     `- [Fire rated cement in Tanzania](${base}/cmci/fire-rated-cement): cementitious fireproofing for structural steel, explained, with the products and data sheets`,
     `- [Vasa in Tanzania](${base}/vasa): authorized Vasa dealer, SPC flooring, LVT flooring and wall panels`,

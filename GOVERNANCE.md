@@ -79,7 +79,7 @@ Sources of truth, in order:
 | What is stocked, and in which pack | the owner's price lists |
 | Technical values: description, class, consumption, limits | the manufacturer's technical data sheet, quoted as written |
 | Company facts: name, address, licence, mission | the BRELA licence, the business card, the introduction letter |
-| Authorization wording | the appointment letters (not yet supplied: Q2) |
+| Authorization wording | the appointment letters: X-Calibur's certificate is on file since 2026-11-14 (`src/config/credentials.ts`, published as issued); the rest not yet supplied: Q2 |
 
 Rules:
 
@@ -111,11 +111,14 @@ Rules:
   exact to Mapei's published figure: real consumption on site still varies
   with substrate and workmanship, and the page says so.
 - Authorization wording per brand lives in `src/config/brands.ts` and
-  nowhere else. Mapei, Oriental Yuhong and X-Calibur are "authorized
-  distributor" on the strength of the introduction letter. CMCI and BIHUI
-  appear only as logos on a business card, so they are "brand partner"
-  until the letters arrive. Never "exclusive", "sole" or "official"
-  without a document that says so.
+  nowhere else. Mapei and Oriental Yuhong are "authorized distributor" on
+  the strength of the introduction letter; X-Calibur on its own certificate
+  (2026-11-14, `src/config/credentials.ts`, shown as issued on
+  `/x-calibur#certificate`). CMCI and BIHUI appear only as logos on a
+  business card, so they are "brand partner" until the letters arrive.
+  Never "exclusive", "sole" or "official" without a document that says so.
+  A published document is the owner's file, unaltered; people it names
+  stay in the picture and out of the copy and the schema.
 - Project references: the owner asked for the projects library on
   2026-11-05, so `/projects` is built from the supplied sheet (names and
   products only, applicators left out, one row held). It must NOT go live

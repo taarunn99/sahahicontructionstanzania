@@ -13,6 +13,7 @@ import {
   sbrBondStack,
 } from "@/config/build-ups";
 import { productHref } from "@/config/catalogue";
+import { credentialForBrand, credentialHref } from "@/config/credentials";
 import { packshot } from "@/config/packshots";
 import {
   xcaliburAlsoKnownAs,
@@ -151,6 +152,7 @@ export default async function XCaliburItemPage({ params }: { params: Params }) {
   const next = xcaliburProducts[(index + 1) % count];
   const tds = xcaliburTds[product.slug];
   const url = productHref(product);
+  const credential = credentialForBrand("x-calibur");
 
   return (
     <ProductDetail
@@ -171,6 +173,12 @@ export default async function XCaliburItemPage({ params }: { params: Params }) {
       coverage={xcaliburCoverage[product.slug]}
       alsoKnownAs={xcaliburAlsoKnownAs[product.slug]}
       feature={xcaliburFeature(product.slug)}
+      credential={
+        credential && {
+          label: `Authorized distributor for Tanzania, certified by X-Calibur to ${credential.validUntilText}. See the certificate.`,
+          href: credentialHref(credential),
+        }
+      }
       related={xcaliburProducts
         .filter((other) => other !== product)
         .slice(0, 4)

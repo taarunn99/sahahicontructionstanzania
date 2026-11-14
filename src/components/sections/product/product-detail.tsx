@@ -112,6 +112,9 @@ export type ProductDetailProps = {
   feature?: React.ReactNode;
   /** A GLB generated from the pack picture; the picture stays the first paint. */
   model?: string | null;
+  /** The brand's authorization document, where the owner has supplied one
+   * (src/config/credentials.ts): one line under the name, linking to it. */
+  credential?: { label: string; href: string } | null;
 };
 
 const SECTION_LABEL = "label-sh text-muted";
@@ -208,6 +211,7 @@ export function ProductDetail({
   alsoKnownAs,
   feature,
   model,
+  credential = null,
 }: ProductDetailProps) {
   const standards = (content?.standards ?? []).filter(
     (entry, index, all) =>
@@ -467,6 +471,13 @@ export function ProductDetail({
                 {product.name}
               </h1>
               <div aria-hidden className="bg-deep/15 mt-6 h-px max-w-md" />
+              {credential && (
+                <p className="spec-sh text-muted mt-4 leading-relaxed print:hidden">
+                  <Link href={credential.href} className="u-line">
+                    {credential.label}
+                  </Link>
+                </p>
+              )}
               <p className="text-brand mt-6 text-xl leading-snug font-bold text-balance">
                 {product.summary}
               </p>

@@ -204,6 +204,17 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   doubtful are folded into the hub (`src/config/bihui-folded.json`, old URLs 301 to the
   category, `bihuiPages` is the set with pages). Product pages of items in the running
   offer carry a yellow strip with the countdown (`offer-strip.tsx`).
+- 2026-11-14, the X-Calibur certificate: the owner supplied X-Calibur International's
+  "Authorised Distributor" certificate (Tanzania region, five ranges, valid to 31 December
+  2026) and allowed it on the site. It is published as issued: the PDF under
+  `public/tds/x-calibur/` (canonical header to `/x-calibur`), a raster in `public/documents/`,
+  the facts in `src/config/credentials.ts`, the section `/x-calibur#certificate`
+  (`src/components/sections/x-calibur/certificate.tsx`, red stage, the five ranges with the
+  stocked product under each, the paper in a card that leans to the pointer), a
+  `Certification` node on the hub, one line on each X-Calibur product page and on `/about`.
+  The hub title now carries "Authorized Distributor". People named on a document stay in the
+  picture only. The BRELA licence stays off the site (it prints the TIN) until the owner
+  rules; no navbar change.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

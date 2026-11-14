@@ -251,7 +251,7 @@ distributor that also appoints applicators.
 | Sahihi Construction Chemicals | `/about` | E | Sahihi CC, Sahihi Construction Chemicals Limited. The bare word "sahihi" is Swahili for correct and is not winnable; always use the full name |
 | Mapei projects Tanzania | `/projects` | E (inf) | Mapei projects Dar es Salaam, Mapei waterproofing projects Tanzania, where Mapei is used in Tanzania. Thin until projects carry detail (Q5) |
 | Mapei price list Tanzania | `/price-list` | M | Mapei price Tanzania, bei ya Mapei |
-| X-Calibur Tanzania (BUILT 2026-11-06, with seven item pages at `/x-calibur/<item>`) | `/x-calibur` | E | X-Calibur construction chemicals Tanzania, X-Calibur distributor Tanzania |
+| X-Calibur Tanzania (BUILT 2026-11-06, with seven item pages at `/x-calibur/<item>`; since 2026-11-14 the hub carries X-Calibur International's authorised distributor certificate as issued, `#certificate`, and its title says "Authorized Distributor") | `/x-calibur` | E | X-Calibur construction chemicals Tanzania, X-Calibur distributor Tanzania, X-Calibur authorized distributor Tanzania, Xcalibur / X Calibur / Excalibur Tanzania |
 | Oriental Yuhong Tanzania | `/oriental-yuhong` | E | OYH waterproofing Tanzania, Yuhong membrane, Oriental Yuhong East Africa / Kenya |
 | CMCI Tanzania (BUILT 2026-11-07, with eight item pages at `/cmci/<item>`) | `/cmci` | E | CMCI fireproofing Tanzania, cementitious fireproofing Tanzania, Monokote Tanzania, Avikote Tanzania |
 | BIHUI Tanzania | `/bihui` | E | BIHUI tile tools Tanzania (BIHUI is a tiling tools brand, not adhesives) |
@@ -500,7 +500,11 @@ In priority order. Items 1 to 4 are ranking work.
    products, photos, hours; then add its entity URL to
    `siteConfig.social.googleBusiness`.
 4. **Listings on the other principals' sites**: X-Calibur, Oriental
-   Yuhong, CMCI, BIHUI distributor pages.
+   Yuhong, CMCI, BIHUI distributor pages. X-Calibur first: the certificate
+   of 2026-11-14 is the lever. Ask X-Calibur International to list Sahihi
+   on x-calibur.com's distributor page with a link to
+   `https://www.sahihicc.com/x-calibur`; one link from the maker's own
+   domain outweighs anything on the site for the bare "X-Calibur" query.
 5. **Search Console** domain property + sitemap; **Bing Webmaster Tools**;
    IndexNow first push (`npm run indexnow`).
 6. **ERB CPD accreditation.** The Engineers Registration Board accredits

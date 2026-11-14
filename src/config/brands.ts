@@ -76,7 +76,8 @@ export const brands: Brand[] = [
     blurb:
       "A construction solutions brand offering specialized products for the building and infrastructure sector.",
     authorization: "Authorized distributor",
-    authorizationSource: "Company introduction letter, Our Global Partners",
+    authorizationSource:
+      "Authorised Distributor certificate from X-Calibur International (FZE), Tanzania region, valid to 31 December 2026 (src/config/credentials.ts); before that, the company introduction letter",
     catalogued: true,
     logo: { src: "/brands/x-calibur.svg", width: 327, height: 59, display: 28 },
   },

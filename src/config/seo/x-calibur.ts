@@ -24,9 +24,11 @@ export type XCaliburSlug = (typeof XCALIBUR_SLUGS)[number];
 export const xcaliburSeo: Partial<Record<XCaliburSlug, SeoRow>> = {
   "x-calibur": {
     query: "X-Calibur Tanzania",
-    titleOverride: "X-Calibur Tanzania - Epoxy Floors, Waterproofing, Sealants",
+    /** The certificate of 2026-11-14 made "authorized distributor" the
+     * claim no other seller can make; it took the title's second half. */
+    titleOverride: "X-Calibur Tanzania - Authorized Distributor, Epoxy, Sealants",
     description:
-      "X-Calibur in Tanzania from Sahihi, authorized distributor in Dar es Salaam: epoxy floors, primers, SBR bond, FlexPruf and PS800 sealant. Quote on WhatsApp.",
+      "Sahihi is X-Calibur's certified authorized distributor for Tanzania, to December 2026: epoxy floors, primers, SBR bond, FlexPruf, PS800. Quote on WhatsApp.",
     stock: "held",
   },
   "x-tech-sbr-bond": {

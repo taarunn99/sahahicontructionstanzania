@@ -316,3 +316,7 @@ Sahihi job or as the product's maker's photograph.
 ## 3n. Open Graph cards (2026-11-12)
 
 `public/og/*.png` are composed by `scripts/build-og-cards.mjs` (`npm run assets:og`, after a build) from pictures already in the repo: the manufacturers' pack shot cut-outs in `public/products/<brand>/cutout`, BIHUI's catalogue photographs, the Journal's 3D posters and the hub photographs logged above, with the page's own title set in Montserrat. Nothing new is generated. `src/config/og-manifest.json` lists which route has a card; pages without one share the root `opengraph-image.jpg`.
+
+## 3o. Documents shown as issued (2026-11-14)
+
+`public/documents/x-calibur-authorised-distributor-2026.webp` is a plain raster of the owner's PDF `public/tds/x-calibur/authorised-distributor-2026.pdf` (X-Calibur International's "Authorised Distributor" certificate, supplied 2026-11-14): `pdftoppm -r 200`, then resized to 1400 px wide as WebP. Nothing is generated, retouched, cropped or masked; the stamp and the signature are as printed. The facts the page states are in `src/config/credentials.ts`.

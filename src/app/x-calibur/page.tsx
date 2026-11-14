@@ -8,11 +8,13 @@ import { SplitHeading } from "@/components/motion/split-heading";
 import { CtaBand } from "@/components/sections/cta-band";
 import { RelatedLinks } from "@/components/sections/related-links";
 import { Faq } from "@/components/sections/faq";
+import { XCaliburCertificate } from "@/components/sections/x-calibur/certificate";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { brandBySlug } from "@/config/brands";
 import { productHref } from "@/config/catalogue";
+import { credentialHref, requireCredential } from "@/config/credentials";
 import { siteConfig } from "@/config/site";
 import {
   xcaliburCoverage,
@@ -53,6 +55,10 @@ const crumbs = [
 
 const brand = brandBySlug["x-calibur"];
 
+/** The authorised distributor certificate (owner, 2026-11-14), shown as
+ * issued. Every claim of authorization on this page reads from it. */
+const credential = requireCredential("x-calibur");
+
 // Systems: the products that go down together. Names only, from the list.
 const SYSTEMS = [
   {
@@ -69,6 +75,14 @@ const SYSTEMS = [
 ];
 
 const faq: FaqItem[] = [
+  {
+    q: "Is Sahihi an authorized X-Calibur distributor in Tanzania?",
+    lead: `Yes, in writing: ${credential.issuer} certifies it for the ${credential.territory}, valid until ${credential.validUntilText}.`,
+    points: [
+      `The certificate names five ranges: ${credential.ranges.map((range) => range.name.replace(/ (Systems|Sealants)$/, "")).join(", ")}`,
+      "It is on this page as issued, with the PDF to download",
+    ],
+  },
   {
     q: "Which X-Calibur products does Sahihi stock in Tanzania?",
     lead: `${xcaliburProducts.length} products, held in Dar es Salaam.`,
@@ -96,7 +110,7 @@ const faq: FaqItem[] = [
     q: "Is it X-Calibur or Xcalibur?",
     lead: "The brand writes it X-Calibur, with a hyphen.",
     points: [
-      "It is also searched as Xcalibur and X Calibur",
+      "It is also searched as Xcalibur, X Calibur and Excalibur",
       "Send the name on your drawing or your old pail and we will match it",
     ],
   },
@@ -133,6 +147,37 @@ export default function XCaliburPage() {
             },
           },
           faqJsonLd(faq),
+          // The certificate, as the visible section states it. The
+          // Organization node of every page is extended by its @id.
+          {
+            "@type": "Certification",
+            "@id": `${siteConfig.url}${credentialHref(credential)}`,
+            name: `${credential.title} - X-Calibur, ${credential.territory}`,
+            description: `${credential.issuer} certifies ${siteConfig.legalName} as its authorised distributor for the ${credential.territory} for ${credential.ranges.map((range) => range.name).join(", ")}.`,
+            certificationStatus: "https://schema.org/CertificationActive",
+            issuedBy: {
+              "@type": "Organization",
+              name: credential.issuer,
+              address: credential.issuerPlace,
+            },
+            validIn: { "@type": "Country", name: "Tanzania" },
+            expires: credential.validUntil,
+            url: `${siteConfig.url}${credentialHref(credential)}`,
+            image: `${siteConfig.url}${credential.image.src}`,
+            subjectOf: {
+              "@type": "DigitalDocument",
+              name: `${credential.title} certificate, X-Calibur, ${credential.validUntil.slice(0, 4)}`,
+              url: `${siteConfig.url}${credential.file}`,
+              encodingFormat: "application/pdf",
+            },
+          },
+          {
+            "@type": "Organization",
+            "@id": `${siteConfig.url}/#organization`,
+            hasCertification: {
+              "@id": `${siteConfig.url}${credentialHref(credential)}`,
+            },
+          },
         ]}
       />
 
@@ -142,7 +187,10 @@ export default function XCaliburPage() {
           <Breadcrumb items={crumbs} />
           <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
             <p className="label-sh text-muted leading-relaxed">
-              {brand.authorization} · Tanzania
+              {brand.authorization} · Tanzania ·{" "}
+              <a href={`#${credential.anchor}`} className="u-line">
+                certified to {credential.validUntilText}
+              </a>
             </p>
             <span className="border-deep/15 inline-flex rounded-full border bg-white px-5 py-3">
               <img
@@ -164,15 +212,16 @@ export default function XCaliburPage() {
               an elasto-cement waterproof coating, and a polysulphide joint
               sealant with its primer, held in Dar es Salaam.
             </p>
-            <dl className="border-deep grid grid-cols-3 border-t">
+            <dl className="border-deep grid grid-cols-2 border-t sm:grid-cols-4">
               {[
+                { value: credential.ranges.length, label: "Ranges certified" },
                 { value: xcaliburProducts.length, label: "Products" },
                 { value: sheets.length, label: "Data sheets" },
                 { value: calculators.length, label: "Calculators" },
               ].map((stat) => (
                 <div
                   key={stat.label}
-                  className="border-deep/20 border-r py-5 pr-3 not-first:pl-4 last:border-r-0"
+                  className="border-deep/20 border-r py-5 pr-3 nth-[2n]:border-r-0 nth-[2n+1]:pl-0 nth-[2n]:pl-4 sm:not-first:pl-4 sm:nth-[2n]:border-r sm:last:border-r-0"
                 >
                   <dd className="font-display text-phi-3 leading-none">
                     {stat.value}
@@ -186,6 +235,9 @@ export default function XCaliburPage() {
           </div>
         </Container>
       </section>
+
+      {/* ---- The certificate: the authorization, as issued ----------------- */}
+      <XCaliburCertificate credential={credential} />
 
       {/* ---- The products: one card each ----------------------------------- */}
       <section className="py-16 sm:py-24">

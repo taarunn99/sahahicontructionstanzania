@@ -24,6 +24,7 @@ import { bihuiFamilies } from "@/config/bihui";
 import { brands } from "@/config/brands";
 import { products } from "@/config/catalogue";
 import { initiatives, mission, solutions, vision } from "@/config/company";
+import { credentialForBrand } from "@/config/credentials";
 import {
   companyPhotos,
   heroPhotos,
@@ -391,6 +392,7 @@ export default function AboutPage() {
           </Kicker>
           <ul className="border-deep mt-10 border-t">
             {brands.map((brand) => {
+              const credential = credentialForBrand(brand.slug);
               const row = (
                 <>
                   <span className="relative block h-10 w-36">
@@ -405,7 +407,16 @@ export default function AboutPage() {
                   <h3 className="font-display text-2xl transition-transform duration-500 group-hover:translate-x-2 sm:text-4xl">
                     {brand.name}
                   </h3>
-                  <p className="text-muted leading-relaxed">{brand.blurb}</p>
+                  <p className="text-muted leading-relaxed">
+                    {brand.blurb}
+                    {credential && (
+                      <span className="spec-sh text-foreground mt-2 block">
+                        {brand.authorization} for Tanzania, certified in
+                        writing to {credential.validUntilText}. The certificate
+                        is on the {brand.name} page.
+                      </span>
+                    )}
+                  </p>
                 </>
               );
               const className =

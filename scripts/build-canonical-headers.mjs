@@ -48,6 +48,8 @@ const FIXED = {
   "/tds/vasa/spc.pdf": "/vasa/spc-flooring",
   "/tds/vasa/lvt.pdf": "/vasa/lvt-flooring",
   "/tds/vasa/vasa-catalogue.pdf": "/vasa",
+  // The authorised distributor certificate is shown on the X-Calibur hub.
+  "/tds/x-calibur/authorised-distributor-2026.pdf": "/x-calibur",
   // The company profile is the flip book on the home page.
   "/tds/sahihi-company-profile-2026.pdf": "/",
 };

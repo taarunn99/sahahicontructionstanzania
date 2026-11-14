@@ -69,7 +69,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pillars = lines
     .map(lineHref)
     .filter(isRoute)
-    .map((path) => ({ path, modified: CATALOGUE_MODIFIED, priority: 0.8 }));
+    .map((path) => ({
+      path,
+      // The X-Calibur hub gained the authorised distributor certificate.
+      modified: path === "/x-calibur" ? "2026-11-14" : CATALOGUE_MODIFIED,
+      priority: 0.8,
+    }));
   const items = products
     .map(productHref)
     .filter(isRoute)
