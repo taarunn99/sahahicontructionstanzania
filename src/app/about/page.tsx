@@ -22,6 +22,7 @@ import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
 import { bihuiFamilies } from "@/config/bihui";
 import { CompanyDocuments } from "@/components/sections/about/documents";
+import { Journal } from "@/components/sections/about/journal";
 import { brands } from "@/config/brands";
 import { products } from "@/config/catalogue";
 import { initiatives, mission, solutions, vision } from "@/config/company";
@@ -66,6 +67,7 @@ const CONTENTS = [
   { href: "#work", label: "What we do" },
   { href: "#vision", label: "Where we are going" },
   { href: "#people", label: "People" },
+  { href: "#journal", label: "The Journal" },
   { href: "#brands", label: "Who we distribute" },
   { href: "#documents", label: "On the wall" },
   { href: "#masthead", label: "The masthead" },
@@ -387,6 +389,15 @@ export default function AboutPage() {
         </Container>
       </section>
 
+      {/* ---- The Journal: the blog's latest issue, in the magazine --------- */}
+      <Journal
+        kicker={
+          <Kicker number={5} as="h2">
+            The Journal
+          </Kicker>
+        }
+      />
+
       {/* ---- By the numbers ---------------------------------------------- */}
       <section className="bg-surface py-16 sm:py-20">
         <Container>
@@ -402,7 +413,7 @@ export default function AboutPage() {
       {/* ---- Brands ------------------------------------------------------- */}
       <section id="brands" className="scroll-mt-20 py-20 sm:py-28">
         <Container>
-          <Kicker number={5} as="h2">
+          <Kicker number={6} as="h2">
             Who we distribute
           </Kicker>
           <ul className="border-deep mt-10 border-t">
@@ -469,7 +480,7 @@ export default function AboutPage() {
       {/* ---- On the wall: the licence and the certificate ----------------- */}
       <CompanyDocuments
         kicker={
-          <Kicker number={6} as="h2">
+          <Kicker number={7} as="h2">
             On the wall
           </Kicker>
         }
@@ -478,7 +489,7 @@ export default function AboutPage() {
       {/* ---- Masthead: who the company is --------------------------------- */}
       <section id="masthead" className="scroll-mt-20 py-20 sm:py-28">
         <Container>
-          <Kicker number={7}>The masthead</Kicker>
+          <Kicker number={8}>The masthead</Kicker>
           <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_1.618fr] lg:gap-16">
             <div>
               <p className="label-sh text-muted">{siteConfig.director.title}</p>

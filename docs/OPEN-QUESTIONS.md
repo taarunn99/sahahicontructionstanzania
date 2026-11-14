@@ -209,6 +209,12 @@ whether mining pages are worth building.
 > stays open. The TIN, fee and receipt number are never typed into copy,
 > alt text or schema (`src/config/company-documents.ts`).
 
+> **2026-11-14, navbar:** the owner took "Blog" out of the bar ("very
+> populated ... confusing") and asked for the blog inside About. Done as
+> `/about#journal`; every blog URL stays live. If the bar still feels
+> crowded, the next candidates are his call: Projects (launch-gated, Q5)
+> or Mapei (also under Products).
+
 ---
 
 ## Blocking launch

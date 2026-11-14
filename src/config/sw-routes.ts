@@ -57,7 +57,6 @@ export const swNav = [
   { label: "Mapei", href: "/sw/mapei" },
   { label: "Bidhaa", href: "/products" },
   { label: "Miradi", href: "/projects" },
-  { label: "Blogu", href: "/blog" },
   { label: "Kuhusu", href: "/about" },
   { label: "Mawasiliano", href: "/contact" },
 ] as const;

@@ -271,6 +271,13 @@ export function SiteFooter({ chrome }: { chrome: ChromeNav }) {
                       </Link>
                     </li>
                   ))}
+                  {chrome.footerPages.map((item) => (
+                    <li key={item.href}>
+                      <Link href={item.href} className="u-line text-chalk/80">
+                        {sw ? item.swLabel : item.label}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
 

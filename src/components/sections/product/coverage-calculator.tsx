@@ -3,7 +3,9 @@
 import NumberFlow from "@number-flow/react";
 import { useId, useMemo, useState } from "react";
 
+import { AddToQuote } from "@/components/quote/add-to-quote";
 import { whatsappLink } from "@/config/site";
+import type { QuoteAdd } from "@/lib/quote";
 import {
   calculate,
   formatQuantity,
@@ -108,10 +110,13 @@ function Choice({
 export function CoverageCalculator({
   product,
   model,
+  quote,
 }: {
   /** Product name, used in the enquiry message. */
   product: string;
   model: CoverageModel;
+  /** The product's quote-list identity: adds the counted packs in one press. */
+  quote?: QuoteAdd;
 }) {
   const [input, setInput] = useState<CoverageInput>(() => ({
     area: 20,
@@ -401,18 +406,32 @@ export function CoverageCalculator({
           )}
         </dl>
 
-        <a
-          href={whatsappLink(`a quotation. ${summary}`)}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-disabled={!hasResult}
-          className={cn(
-            "bg-deep text-chalk flex min-h-12 items-center justify-center rounded-full px-6 text-center text-sm leading-snug transition-opacity hover:opacity-90",
-            !hasResult && "pointer-events-none opacity-40",
+        <div className="grid gap-3">
+          {quote && packWord && hasResult && (
+            <AddToQuote
+              key={`${result.packs.max}:${packWord}`}
+              variant="block"
+              item={{
+                ...quote,
+                pack: packWord,
+                qty: result.packs.max,
+              }}
+              label={`Add ${result.packs.max} x ${packWord} to quote list`}
+            />
           )}
-        >
-          Send this to WhatsApp for a quote
-        </a>
+          <a
+            href={whatsappLink(`a quotation. ${summary}`)}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-disabled={!hasResult}
+            className={cn(
+              "border-deep chip-sh flex min-h-12 items-center justify-center rounded-full border px-6 text-center text-sm leading-snug",
+              !hasResult && "pointer-events-none opacity-40",
+            )}
+          >
+            Or send just this to WhatsApp
+          </a>
+        </div>
       </div>
     </div>
   );

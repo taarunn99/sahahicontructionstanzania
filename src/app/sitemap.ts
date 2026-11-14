@@ -21,6 +21,7 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "", modified: "2026-11-05", priority: 1 },
   { path: "/mapei", modified: "2026-11-05", priority: 0.9 },
   { path: "/sale", modified: "2026-11-11", priority: 0.8 },
+  { path: "/quote", modified: "2026-11-14", priority: 0.8 },
   { path: "/bihui", modified: "2026-11-06", priority: 0.8 },
   { path: "/cmci", modified: "2026-11-07", priority: 0.8 },
   { path: "/cmci/fire-rated-cement", modified: "2026-11-07", priority: 0.9 },

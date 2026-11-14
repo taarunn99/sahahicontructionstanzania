@@ -24,6 +24,7 @@ export const CORE_ROUTES = [
   "/products",
   "/projects",
   "/sale",
+  "/quote",
   "/specifier-pack",
   "/solutions/waterproofing",
   "/solutions/tile-installation",
@@ -36,6 +37,17 @@ export type CoreRoute = (typeof CORE_ROUTES)[number];
 export type CoreSeoRow = SeoRow & { titleOverride: string };
 
 export const coreSeo: Partial<Record<CoreRoute, CoreSeoRow>> = {
+  "/quote": {
+    // The planned /price-list row (SEO-STRATEGY 5.1) moved here on
+    // 2026-11-14: price intent is answered by the quote list, honestly
+    // ("prices by quotation"), never by a number.
+    query: "Mapei price list Tanzania",
+    titleOverride:
+      "Mapei Price List Tanzania - Prices by Quotation on WhatsApp",
+    description:
+      "No printed Mapei price list for Tanzania: Sahihi quotes per job. Add any Mapei, X-Calibur, OYH, CMCI or BIHUI item to one list and send it on WhatsApp or email.",
+    stock: "enquire",
+  },
   "/": {
     query: "construction chemicals Tanzania",
     // Mirrors layout.tsx `title.default` and siteConfig.description.
@@ -74,7 +86,8 @@ export const coreSeo: Partial<Record<CoreRoute, CoreSeoRow>> = {
   },
   "/projects": {
     query: "Mapei projects Tanzania",
-    titleOverride: "Mapei Projects in Tanzania - Sites We Have Supplied | Sahihi",
+    titleOverride:
+      "Mapei Projects in Tanzania - Sites We Have Supplied | Sahihi",
     description:
       "Projects in Tanzania supplied with Mapei waterproofing, concrete repair, resin flooring and tile adhesives in 2025 and 2026. Filter by line or by product.",
     stock: "held",
@@ -83,7 +96,8 @@ export const coreSeo: Partial<Record<CoreRoute, CoreSeoRow>> = {
     // SEO-STRATEGY 5.1a. Dated to the offer in src/config/offers.ts: rewrite
     // this row when the next offer replaces it. Never a price.
     query: "Mapei offer Tanzania",
-    titleOverride: "Mapei Offer in Tanzania - November 2026 Flash Sale | Sahihi",
+    titleOverride:
+      "Mapei Offer in Tanzania - November 2026 Flash Sale | Sahihi",
     description:
       "Mapei products on offer until 30 November 2026 from Sahihi, Dar es Salaam: tile adhesives, grouts, floor finishes, cleaners. No price printed: ask on WhatsApp.",
     stock: "held",
@@ -92,14 +106,16 @@ export const coreSeo: Partial<Record<CoreRoute, CoreSeoRow>> = {
     // SEO-STRATEGY 5.3 and reports/: a TBA or NHC QS copies a compliant
     // BOQ clause and downloads the data sheet. "BOQ clauses" is the variant.
     query: "construction chemicals specification Tanzania",
-    titleOverride: "Construction Chemicals Specification Tanzania - BOQ Clauses",
+    titleOverride:
+      "Construction Chemicals Specification Tanzania - BOQ Clauses",
     description:
       "BOQ clauses, declared standards and data sheet editions for every product Sahihi supplies in Tanzania. One spreadsheet for consultants and quantity surveyors.",
     stock: "enquire",
   },
   "/solutions/waterproofing": {
     query: "waterproofing Tanzania",
-    titleOverride: "Waterproofing Tanzania - Roofs, Basements, Tanks, Wet Areas",
+    titleOverride:
+      "Waterproofing Tanzania - Roofs, Basements, Tanks, Wet Areas",
     description:
       "Which waterproofing for which part of the building: roofs, bathrooms, basements, tanks, pools, walls. Mapei, OYH and X-Calibur held in Dar es Salaam. Ask us.",
     stock: "held",

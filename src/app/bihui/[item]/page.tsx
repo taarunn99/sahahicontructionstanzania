@@ -9,8 +9,8 @@ import { ModelViewer } from "@/components/media/model-viewer";
 import { CtaBand } from "@/components/sections/cta-band";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
+import { AddToQuote } from "@/components/quote/add-to-quote";
 import { Container } from "@/components/ui/container";
-import { FlowButton } from "@/components/ui/flow-button";
 import {
   bihuiCategories,
   bihuiFamilyBySlug,
@@ -243,8 +243,12 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
                       Use it with{" "}
                       {pairs.map((pair, index) => (
                         <span key={pair.href}>
-                          {index > 0 && (index === pairs.length - 1 ? " and " : ", ")}
-                          <Link href={pair.href} className="u-line font-semibold">
+                          {index > 0 &&
+                            (index === pairs.length - 1 ? " and " : ", ")}
+                          <Link
+                            href={pair.href}
+                            className="u-line font-semibold"
+                          >
                             {pair.label}
                           </Link>
                         </span>
@@ -255,12 +259,28 @@ export default async function BihuiItemPage({ params }: { params: Params }) {
                 </div>
               )}
               <div className="mt-8 flex flex-wrap gap-3">
-                <FlowButton href={whatsappLink(`the BIHUI ${name}`)}>
-                  Request a quote
-                </FlowButton>
+                <AddToQuote
+                  item={{
+                    id: `bihui:${family.slug}`,
+                    name,
+                    brand: "BIHUI",
+                    href: url,
+                    packs: family.skus.map((row) => row.sku),
+                  }}
+                />
               </div>
               <p className="text-muted mt-4 text-sm leading-relaxed">
-                Lead time: 4 days after you confirm the order.
+                Lead time: 4 days after you confirm the order. Build a list
+                across tools and products and send it once, or{" "}
+                <a
+                  href={whatsappLink(`the BIHUI ${name}`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="u-line"
+                >
+                  ask on WhatsApp now
+                </a>
+                .
               </p>
             </div>
           </div>

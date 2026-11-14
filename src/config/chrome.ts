@@ -62,6 +62,9 @@ export type ChromeNav = {
   systemTree: MenuNode[];
   /** jobs then brandSystems: the footer's Systems list. */
   systems: ChromeLink[];
+  /** Pages the footer's Navigate column lists after the bar's items: the
+   * Journal (out of the bar since 2026-11-14) and the quote list. */
+  footerPages: { label: string; swLabel: string; href: string }[];
 };
 
 const count = (n: number) => `${n} ${n === 1 ? "product" : "products"}`;
@@ -162,7 +165,10 @@ const BRAND_CHILDREN: Record<string, () => MenuNode[]> = {
         href: `/oriental-yuhong/sports-flooring/${system.slug}`,
       })),
     }),
-    { label: "HDPE waterproofing", href: "/oriental-yuhong/hdpe-waterproofing" },
+    {
+      label: "HDPE waterproofing",
+      href: "/oriental-yuhong/hdpe-waterproofing",
+    },
     ...productNodes("oriental-yuhong"),
   ],
   vasa: () => [
@@ -234,6 +240,10 @@ export const chromeNav: ChromeNav = {
         : undefined,
   })),
   systems: [...JOBS, ...BRAND_SYSTEMS],
+  footerPages: [
+    { label: "Journal", swLabel: "Jarida", href: "/blog" },
+    { label: "Quote list", swLabel: "Orodha ya nukuu", href: "/quote" },
+  ],
 };
 
 /**
@@ -381,11 +391,18 @@ export const searchIndex: SearchEntry[] = [
     ),
   ),
   searchEntry(
-    "Blog",
-    "Guides for building in Tanzania",
+    "The Journal",
+    "Guides for building in Tanzania: the blog",
     "/blog",
     "Pages",
-    "journal articles guides how to",
+    "blog journal articles guides how to",
+  ),
+  searchEntry(
+    "Build your quote list",
+    "Every product, one list, sent on WhatsApp or email. Prices by quotation.",
+    "/quote",
+    "Pages",
+    "quote quotation price list basket cart enquiry bei",
   ),
   searchEntry("Products", "Every line we stock", "/products", "Pages"),
   searchEntry(

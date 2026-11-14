@@ -108,11 +108,19 @@ words on those pages sit on a solid panel, not on the photograph.
 
 | Set | Source | How |
 |---|---|---|
-| `public/products/mapei/<slug>.webp`, 44 products | Mapei's own media server, `cdnmedia.mapei.com/images/.../products-images/...`, the picture shown on each product's page on mapei.com (UAE site for 40, UK for Idrocrete KR 1000, Australia for Planiseal 88, Singapore for Idrostop PVC, South Africa for Ultraplan Eco 20). Every URL is in `assets/source/mapei-packshots/sources.txt` and in `src/config/packshots.json` | downloaded unaltered on 2026-11-06; `node scripts/build-packshots.mjs` centres each on white at 900 px, WebP, no retouching |
+| `public/products/mapei/<slug>.webp`, 44 products on 2026-11-06, 49 since 2026-11-14 | Mapei's own media server, `cdnmedia.mapei.com/images/.../products-images/...`, the picture shown on each product's page on mapei.com (UAE site for 40, UK for Idrocrete KR 1000, Australia for Planiseal 88, Singapore for Idrostop PVC, South Africa for Ultraplan Eco 20). Every URL is in `assets/source/mapei-packshots/sources.txt` and in `src/config/packshots.json` | downloaded unaltered on 2026-11-06; `node scripts/build-packshots.mjs` centres each on white at 900 px, WebP, no retouching |
 
-No official picture was found for Mapei Gun 585 2K, Quarzo 0.5/1.2 or
-Mapefloor Finish 450 ME (the site shows Finish 451, a different product,
-so it was not used). Those pages show the name in type.
+Added 2026-11-14, the same way (owner: "images for this you can get"):
+the four November offer lines that have no catalogue page, Mapefill SP ME,
+Mapegrout T80 and Planigrout 300 ME (UAE site) and Ultracolor Plus (UAE
+site), keyed by their own slugs in `packshots.json` and shown on `/sale`
+through `offer.items[].picture`; and Quarzo 0.5/1.2, pictured with Mapei
+South Africa's picture of the Quarzo 0,25 to 1,9 range bag (the product
+page says which grades we stock). 49 products now. Still no official
+picture for Mapei Gun 585 2K (no product page on mapei.com) or Mapefloor
+Finish 450 ME (its UAE page carries no picture; the site shows Finish 451,
+a different product, so it was not used): those two pages show the name
+in type until the owner photographs the packs.
 The pack in a picture can differ from the pack stocked (for example
 Antipluviol is pictured as 5 litres, Mapeflex PU 45 FT as 300 ml): each
 page says so under the picture and states the pack we stock.

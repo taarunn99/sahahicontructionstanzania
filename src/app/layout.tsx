@@ -7,6 +7,7 @@ import { ScrollMark } from "@/components/layout/scroll-mark";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { WhatsAppFab } from "@/components/layout/whatsapp-fab";
+import { QuotePill } from "@/components/quote/quote-pill";
 import { OrganizationJsonLd } from "@/components/seo/organization-json-ld";
 import { WebSiteJsonLd } from "@/components/seo/website-json-ld";
 import { chromeNav } from "@/config/chrome";
@@ -123,6 +124,7 @@ export default function RootLayout({
         <span aria-hidden className="progress-sh" />
         <SiteHeader chrome={chromeNav} />
         <WhatsAppFab />
+        <QuotePill />
         <SmoothScrollProvider>
           {/* Solid, stacked above the fixed footer so the page lifts away
               from it during the stacked reveal. */}

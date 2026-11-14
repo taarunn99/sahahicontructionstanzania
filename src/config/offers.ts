@@ -14,17 +14,30 @@ import { productHref, products } from "@/config/catalogue";
  * file's contents for the next offer, or empty `items` to remove the band.
  *
  * Four lines on the sheet are not in the catalogue yet (no page): they are
- * listed by the sheet's own name, without a link.
+ * listed by the sheet's own name, without a link, with Mapei's own pack
+ * shot (owner, 2026-11-14: "images for this you can get").
  */
 
-type OfferItem = { name: string; href: string | null; slug: string | null };
+type OfferItem = {
+  name: string;
+  href: string | null;
+  slug: string | null;
+  /** Pack shot key in src/config/packshots.json for a line with no page
+   * (Mapei's own picture, downloaded 2026-11-14, IMAGE-PROVENANCE 3b). */
+  picture: string | null;
+};
 
 const inCatalogue = (slug: string): OfferItem => {
   const product = products.find((item) => item.slug === slug);
   if (!product) throw new Error(`offers: unknown product "${slug}"`);
-  return { name: product.name, href: productHref(product), slug };
+  return { name: product.name, href: productHref(product), slug, picture: slug };
 };
-const named = (name: string): OfferItem => ({ name, href: null, slug: null });
+const named = (name: string, picture: string | null = null): OfferItem => ({
+  name,
+  href: null,
+  slug: null,
+  picture,
+});
 
 /** The sale page (owner, 2026-11-11): the band's call to action goes here. */
 export const offerPage = "/sale";
@@ -37,14 +50,14 @@ export const offer = {
   items: [
     inCatalogue("adesilex-pg2-tg"),
     inCatalogue("mapegrout-t60"),
-    named("Mapefill SP ME"),
-    named("Mapegrout T 80"),
-    named("Planigrout 300 ME"),
+    named("Mapefill SP ME", "mapefill-sp-me"),
+    named("Mapegrout T 80", "mapegrout-t80"),
+    named("Planigrout 300 ME", "planigrout-300-me"),
     inCatalogue("mapegrout-me05"),
     inCatalogue("adesilex-p7"),
     inCatalogue("kerabond-t"),
     inCatalogue("keracolor-ff"),
-    named("Ultracolor Plus"),
+    named("Ultracolor Plus", "ultracolor-plus"),
     inCatalogue("mapecoat-dw-25"),
     inCatalogue("mapefloor-fc-200-me"),
     inCatalogue("mapefloor-pu-410"),

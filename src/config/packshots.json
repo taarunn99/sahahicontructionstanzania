@@ -144,6 +144,14 @@
       "height": 900,
       "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_751-mapefibre-ns-12_dsc7175-2_3694e152dc344a0e9dca129906100433.png"
     },
+    "mapefill-sp-me": {
+      "src": "/products/mapei/mapefill-sp-me.webp",
+      "cutout": "/products/mapei/cutout/mapefill-sp-me.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapefill-sp-me-uae_fe8b545c4a974ada94109ff302862726.png"
+    },
     "mapefix-ep-50": {
       "src": "/products/mapei/mapefix-ep-50.webp",
       "cutout": "/products/mapei/cutout/mapefix-ep-50.webp",
@@ -216,6 +224,14 @@
       "height": 900,
       "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapegrout-t60-me_web_40c39dce8eb346ea828a7b0c20bbd5d2.png"
     },
+    "mapegrout-t80": {
+      "src": "/products/mapei/mapegrout-t80.webp",
+      "cutout": "/products/mapei/cutout/mapegrout-t80.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapegrout-t80-uae_da93ac5643a540329a726831df5bb6ef.png"
+    },
     "mapelastic-aquadefense": {
       "src": "/products/mapei/mapelastic-aquadefense.webp",
       "cutout": "/products/mapei/cutout/mapelastic-aquadefense.webp",
@@ -280,6 +296,14 @@
       "height": 900,
       "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_planicrete-sp-uae_90fccb8c898049ccb74fde63d5714d39.png"
     },
+    "planigrout-300-me": {
+      "src": "/products/mapei/planigrout-300-me.webp",
+      "cutout": "/products/mapei/cutout/planigrout-300-me.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_planigrout-300-me-a-b-c-big_web_61b512f977434299be89c56bb254e056.png"
+    },
     "planiseal-88": {
       "src": "/products/mapei/planiseal-88.webp",
       "cutout": "/products/mapei/cutout/planiseal-88.webp",
@@ -303,6 +327,14 @@
       "width": 900,
       "height": 900,
       "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_primersn_uae_db277f7910a54973bab65e3360e73865.png"
+    },
+    "quartz-sand": {
+      "src": "/products/mapei/quartz-sand.webp",
+      "cutout": "/products/mapei/cutout/quartz-sand.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": "https://cdnmedia.mapei.com/images/librariesprovider55/products-images/4_174-quarzo-025-05-09-12-19_bdb0a9b5c2034c3a81caf16f972a822a.png"
     },
     "triblock-p": {
       "src": "/products/mapei/triblock-p.webp",
@@ -335,6 +367,14 @@
       "width": 900,
       "height": 900,
       "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/42_ultracare-stain-protector-w-plus_61851808477146eda9842e62478d059c.jpg"
+    },
+    "ultracolor-plus": {
+      "src": "/products/mapei/ultracolor-plus.webp",
+      "cutout": "/products/mapei/cutout/ultracolor-plus.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultracolor-plus_web_a04dafc582ac430e91f311ab0219cc73.png"
     },
     "ultraplan-contract": {
       "src": "/products/mapei/ultraplan-contract.webp",

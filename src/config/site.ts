@@ -84,7 +84,9 @@ export const siteConfig = {
     { label: "Mapei", href: "/mapei" },
     { label: "Products", href: "/products" },
     { label: "Projects", href: "/projects" },
-    { label: "Blog", href: "/blog" },
+    // The Journal (the blog) left the bar on 2026-11-14 (owner: the navbar
+    // is too populated); it lives on /about#journal and in the footer.
+    // Every /blog URL stays live.
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],

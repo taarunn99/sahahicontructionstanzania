@@ -53,7 +53,8 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   the data sheet text and against the tables Mapei prints.
 - Built 2026-11-06: `/x-calibur` hub and six product pages (five with
   X-Calibur's data sheet and a calculator); 44 official Mapei pack shots
-  (`npm run assets:packshots`, never generated).
+  (`npm run assets:packshots`, never generated); 49 since 2026-11-14 (the four
+  sale-only lines and the quartz sand; the gun and Finish 450 ME still have none).
 - Not built: `/price-list`, solution pillars, the CMCI hub, training.
 - Where the files are: `~/dev/sahihicc`, reached from VS Code through the
   symlink `~/Desktop/sahihiconstructiontanzania`. Do not open other apps.
@@ -220,7 +221,22 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   blocked by `view-only-guard.tsx`, a CSS "view only" layer, noindex header on the file) and
   the X-Calibur certificate with its PDF, both in the shared `DocumentCard`
   (`src/components/sections/document-card.tsx`: white card, pointer lean, ring of text). TIN,
-  fee and receipt number are never typed anywhere. No navbar change.
+  fee and receipt number are never typed anywhere.
+- Same day: **the quote list** (owner: a buyer wants "at least five" products quoted at once).
+  `src/lib/quote.ts` keeps one list in localStorage (no price, nothing posted); "Add to quote
+  list" (`src/components/quote/add-to-quote.tsx`) replaces the single WhatsApp button on every
+  Mapei, X-Calibur, OYH, CMCI and BIHUI page and sits under every calculator ("Add N x pack");
+  the floating pill beside the WhatsApp button (`quote-pill.tsx`, never a navbar item) opens
+  the list; `/quote` (`src/app/quote/page.tsx`) lists all 140 products with Add, the list,
+  job and sender fields, and sends on WhatsApp, by email or as copied text. `/quote` owns
+  "Mapei price list Tanzania" (prices by quotation, said plainly); `/price-list`, `/pricelist`,
+  `/prices`, `/quotation`, `/request-a-quote`, `/quote-list` 301 to it.
+- Same day: **"Blog" left the navbar** (owner: the bar is too populated) and the blog became
+  **The Journal on `/about#journal`** (`src/components/sections/about/journal.tsx`: the latest
+  guide as the feature with its 3D poster in a tilt card and the turning seal, the rest as
+  fanned sheets to drag through in `journal-strip.tsx`, category chips, the archive link).
+  Every `/blog` URL, the feed and the sitemap are untouched; the footer lists "Journal" and
+  "Quote list" after the bar's items (`chromeNav.footerPages`). No redirect, no removal.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

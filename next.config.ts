@@ -40,9 +40,14 @@ const REDIRECTS: [string, string][] = [
   ["/product", "/products"],
   ["/catalogue", "/products"],
   ["/catalog", "/products"],
-  ["/price-list", "/products"],
-  ["/pricelist", "/products"],
-  ["/prices", "/products"],
+  // Price intent lands on the quote list (owner, 2026-11-14): every
+  // product, one list, prices by quotation.
+  ["/price-list", "/quote"],
+  ["/pricelist", "/quote"],
+  ["/prices", "/quote"],
+  ["/quotation", "/quote"],
+  ["/request-a-quote", "/quote"],
+  ["/quote-list", "/quote"],
   ["/about-us", "/about"],
   ["/aboutus", "/about"],
   ["/contact-us", "/contact"],

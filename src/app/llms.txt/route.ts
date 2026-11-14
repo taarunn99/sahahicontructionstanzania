@@ -64,6 +64,7 @@ export function GET() {
     `- [Waterproofing in Tanzania, part by part](${base}/solutions/waterproofing): which Mapei, OYH and X-Calibur product for roofs, wet rooms, balconies, basements, water tanks, pools, walls and leaks, each matched by its own data sheet`,
     `- [Concrete repair in Tanzania](${base}/solutions/concrete-repair): which Mapei and X-Calibur product for spalling, structural repair, cracks, new concrete onto old, floors, anchoring and manholes, each matched by its own data sheet`,
     `- [Tile adhesive in Tanzania](${base}/solutions/tile-installation): which Mapei adhesive, grout, primer and cleaner for ceramic, porcelain, outdoor, tile on tile, pools, kitchens and stone, each matched by its own data sheet`,
+    `- [Quote list](${base}/quote): every product on one page with an Add button; the visitor builds a list across brands and sends it on WhatsApp or email; prices are quoted per job, never printed (this answers "Mapei price list Tanzania")`,
     `- [Specifier pack](${base}/specifier-pack): every product's BOQ clause, declared standards and data sheet edition, also as one CSV spreadsheet (${base}/specifier-pack.csv); no prices`,
     `- [HDPE waterproofing in Tanzania](${base}/oriental-yuhong/hdpe-waterproofing): OYH PMH-3080 Plus pre-applied membrane, data sheet and method statement`,
     `- [Sports flooring in Tanzania](${base}/oriental-yuhong/sports-flooring): OYH running tracks, sports courts and synthetic turf, with a system chooser, construction films and a material calculator`,

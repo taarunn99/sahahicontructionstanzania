@@ -26,8 +26,8 @@ import { ogBase, resolveOg } from "@/lib/seo";
  * the packs and quantities already in the message.
  *
  * Pictures are the manufacturer's own pack shots (src/config/packshots.ts);
- * the five products without one are drawn as type. After the offer's last
- * day the page says so and points at the catalogue.
+ * a product without one is drawn as type. After the offer's last day the
+ * page says so and points at the catalogue.
  */
 
 // Title and description: src/config/seo/core.ts (dated to this offer; the
@@ -68,7 +68,7 @@ export default function SalePage() {
     const product = item.slug
       ? products.find((p) => p.slug === item.slug)
       : undefined;
-    const shot = item.slug ? packshot("mapei", item.slug) : null;
+    const shot = item.picture ? packshot("mapei", item.picture) : null;
     return {
       name: item.name,
       type: product?.type ?? "Mapei product",

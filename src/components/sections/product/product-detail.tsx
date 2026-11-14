@@ -10,6 +10,7 @@ import { BoqClause } from "@/components/sections/product/boq-clause";
 import { PrintSheetButton } from "@/components/sections/product/print-sheet";
 import { CoverageCalculator } from "@/components/sections/product/coverage-calculator";
 import { OfferStrip } from "@/components/sections/product/offer-strip";
+import { AddToQuote } from "@/components/quote/add-to-quote";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
   Breadcrumb,
@@ -17,7 +18,6 @@ import {
   type Crumb,
 } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
-import { FlowButton } from "@/components/ui/flow-button";
 import {
   bihuiHref,
   bihuiName,
@@ -271,6 +271,16 @@ export function ProductDetail({
         .join(" · ")
     : null;
 
+  // What the Add buttons write into the visitor's quote list: the page's
+  // own facts, no price (src/lib/quote.ts).
+  const quoteItem = {
+    id: `${brand.slug}:${product.slug}`,
+    name: product.name,
+    brand: brand.name,
+    href: url,
+    packs: product.packs,
+  };
+
   // The clause a QS pastes into a bill: data sheet facts only, no rate.
   const clause = boqClause({
     maker: isMaker ? brand.name : null,
@@ -519,9 +529,7 @@ export function ProductDetail({
               )}
 
               <div className="mt-9 flex flex-wrap items-center gap-3 print:hidden">
-                <FlowButton href={whatsappLink(product.name)}>
-                  Request a quote
-                </FlowButton>
+                <AddToQuote item={quoteItem} />
                 {document && (
                   <a
                     href={document.file}
@@ -533,6 +541,19 @@ export function ProductDetail({
                   </a>
                 )}
               </div>
+
+              <p className="text-muted mt-3 text-sm leading-relaxed print:hidden">
+                Build a list across products and send it once, or{" "}
+                <a
+                  href={whatsappLink(product.name)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="u-line"
+                >
+                  ask about {product.name} on WhatsApp now
+                </a>
+                .
+              </p>
 
               <dl className="border-deep/15 mt-10 border-t">
                 {spec.map((row) => (
@@ -707,7 +728,11 @@ export function ProductDetail({
             </div>
 
             <div className="mt-12">
-              <CoverageCalculator product={product.name} model={coverage} />
+              <CoverageCalculator
+                product={product.name}
+                model={coverage}
+                quote={quoteItem}
+              />
             </div>
 
             <div className="mt-10 grid gap-10 lg:grid-cols-[1.618fr_1fr]">
@@ -1047,7 +1072,9 @@ export function ProductDetail({
             <div className="flex flex-wrap items-end justify-between gap-6">
               <div>
                 <p className={SECTION_LABEL}>Tools for this job</p>
-                <h2 className={H2}>The BIHUI tools used with {product.name}.</h2>
+                <h2 className={H2}>
+                  The BIHUI tools used with {product.name}.
+                </h2>
               </div>
               <Link
                 href="/bihui"
