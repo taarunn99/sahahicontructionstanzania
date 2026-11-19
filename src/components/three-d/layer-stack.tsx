@@ -23,7 +23,7 @@ export type StackLayer = {
   /** Height in the model. Exaggerated on purpose. */
   height: number;
   opacity?: number;
-  pattern?: "concrete" | "sand" | "granule" | "foam" | "rebar";
+  pattern?: "concrete" | "sand" | "granule" | "foam" | "rebar" | "grid";
   /** This layer carries the decor picture. */
   decor?: boolean;
 };

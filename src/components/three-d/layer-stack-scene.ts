@@ -78,10 +78,20 @@ function patternTexture(pattern: StackLayer["pattern"], base: string) {
       ctx.fillRect(i * 32 + 12, 0, 8, size);
     }
   }
+  if (pattern === "grid") {
+    // A copper tape grid on the primed floor (X-Tech AntiStatic SLE): thin
+    // strips, three cells across, a margin at the edge of the slab.
+    ctx.fillStyle = "#b87333";
+    for (let i = 0; i < 3; i += 1) {
+      ctx.fillRect(0, i * 80 + 36, size, 5);
+      ctx.fillRect(i * 80 + 36, 0, 5, size);
+    }
+  }
   const texture = new CanvasTexture(canvas);
   texture.colorSpace = SRGBColorSpace;
   texture.wrapS = texture.wrapT = RepeatWrapping;
-  texture.repeat.set(pattern === "rebar" ? 1 : 2, pattern === "rebar" ? 1 : 2);
+  const once = pattern === "rebar" || pattern === "grid";
+  texture.repeat.set(once ? 1 : 2, once ? 1 : 2);
   return texture;
 }
 

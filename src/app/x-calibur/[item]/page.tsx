@@ -1,5 +1,6 @@
 import { productScenes } from "@/config/product-scenes";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { ProductDetail } from "@/components/sections/product/product-detail";
@@ -7,11 +8,15 @@ import { SealantJoint } from "@/components/sections/xcalibur/sealant-joint";
 import { LayerStack } from "@/components/three-d/layer-stack";
 import { Container } from "@/components/ui/container";
 import {
+  antistaticColours,
+  antistaticStack,
   epoxyColours,
   epoxyFloorStack,
   flexprufStack,
   sbrBondStack,
 } from "@/config/build-ups";
+import { PATH as ANTISTATIC_PATH } from "@/config/x-calibur-antistatic";
+import { xcaliburSeo, type XCaliburSlug } from "@/config/seo/x-calibur";
 import { productHref } from "@/config/catalogue";
 import { credentialForBrand, credentialHref } from "@/config/credentials";
 import { packshot } from "@/config/packshots";
@@ -120,6 +125,26 @@ function xcaliburFeature(slug: string) {
           listLabel="The build-up, top to bottom"
         />,
       );
+    case "x-tech-antistatic-sle":
+      return stack(
+        "Primer, copper, base coat, top coat. Pulled apart.",
+        "The sheet's three layers with the copper tape grid the method statement draws when one is specified: concrete, primer, the grid, the conductive or dissipative base coat at 150 microns, then 1.5 to 2 mm of self smoothing epoxy. Pick one of the eight listed colours; the screen is a preview, the RAL card is the truth. The resistance scale, the grounding and the full system calculator are on the antistatic and conductive flooring page.",
+        <>
+          <LayerStack
+            layers={antistaticStack("X-Prime SF")}
+            decors={antistaticColours}
+            decorLabel="Colour of the floor, preview only:"
+            decorNamed
+            listLabel="The build-up, top to bottom"
+          />
+          <p className="mt-6">
+            <Link href={ANTISTATIC_PATH} className="u-line font-semibold">
+              Antistatic and conductive floors: the whole system, earthed and
+              tested
+            </Link>
+          </p>
+        </>,
+      );
     case "x-shield-flexpruf":
       return stack(
         "Two coats on wet concrete. Pulled apart.",
@@ -192,6 +217,7 @@ export default async function XCaliburItemPage({ params }: { params: Params }) {
         }))}
       previous={{ name: previous.name, href: productHref(previous) }}
       next={{ name: next.name, href: productHref(next) }}
+      stock={xcaliburSeo[product.slug as XCaliburSlug]?.stock ?? "held"}
     />
   );
 }

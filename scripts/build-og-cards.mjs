@@ -243,6 +243,11 @@ function pictureFor(route) {
     else if (second === "sports-flooring") {
       pick = photo(`oriental-yuhong/sports/${third ? SPORTS_PHOTO[third] ?? "court" : "court"}`);
     } else pick = cutout(`public/products/oriental-yuhong/cutout/${second}.webp`);
+  } else if (head === "x-calibur") {
+    // The antistatic pages carry X-Calibur's own cutaway drawing; the other
+    // X-Calibur pages keep the plain type card.
+    if (second === "antistatic-conductive-flooring" || second === "x-tech-antistatic-sle")
+      pick = photo("x-calibur/antistatic/cutaway-square");
   } else if (head === "cmci") {
     if (!second) pick = photo("fire/spraying");
     else if (second === "fire-rated-cement") pick = photo("fire/coated-frame");

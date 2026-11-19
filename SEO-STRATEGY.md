@@ -213,7 +213,8 @@ PHASE 2 - solution pillars (generic queries, brand-agnostic)
 /solutions/underground-construction     needs stock list first (Q11)
 
 PHASE 3 - the other brands
-/x-calibur + /x-calibur/<item>          7 item pages
+/x-calibur + /x-calibur/<item>          8 item pages (X-Tech AntiStatic SLE added 2026-11-19)
+/x-calibur/antistatic-conductive-flooring   BUILT 2026-11-19: owns "antistatic flooring Tanzania" and "conductive flooring"
 /oriental-yuhong                        needs stock list (Q10)
 /cmci + /cmci/<item>                    8 item pages (built 2026-11-07)
 
@@ -252,6 +253,8 @@ distributor that also appoints applicators.
 | Mapei projects Tanzania | `/projects` | E (inf) | Mapei projects Dar es Salaam, Mapei waterproofing projects Tanzania, where Mapei is used in Tanzania. Thin until projects carry detail (Q5) |
 | Mapei price list Tanzania (BUILT 2026-11-14 as `/quote`, the quote list: every product with an Add button, one list across brands, sent on WhatsApp, by email or copied; `/price-list`, `/pricelist`, `/prices` 301 to it) | `/quote` | M | Mapei price Tanzania, bei ya Mapei, request a quotation construction chemicals Tanzania |
 | X-Calibur Tanzania (BUILT 2026-11-06, with seven item pages at `/x-calibur/<item>`; since 2026-11-14 the hub carries X-Calibur International's authorised distributor certificate as issued, `#certificate`, and its title says "Authorized Distributor") | `/x-calibur` | E | X-Calibur construction chemicals Tanzania, X-Calibur distributor Tanzania, X-Calibur authorized distributor Tanzania, Xcalibur / X Calibur / Excalibur Tanzania |
+| antistatic flooring Tanzania (BUILT 2026-11-19 from X-Calibur's data sheet, method statement and brochure: the resistance scale, the floor in 3D, the grounding on X-Calibur's cutaway as a hotspot map, the moisture ladder, a system calculator, the parts to order, nine tests, colours, site rules, three PDFs; the owner asked for "antistatic floors" and "conductive floors" on one page) | `/x-calibur/antistatic-conductive-flooring` | T | conductive flooring Tanzania, ESD flooring Tanzania, static dissipative floor, anti static epoxy flooring (research 09, query 13), conductive epoxy floor electronics clean room |
+| X-Tech AntiStatic SLE (BUILT 2026-11-19, product page in the standard template, top coat calculator, supplied to order) | `/x-calibur/x-tech-antistatic-sle` | E | X-Tech AntiStatic SLE Tanzania, X-Calibur antistatic epoxy |
 | Oriental Yuhong Tanzania | `/oriental-yuhong` | E | OYH waterproofing Tanzania, Yuhong membrane, Oriental Yuhong East Africa / Kenya |
 | CMCI Tanzania (BUILT 2026-11-07, with eight item pages at `/cmci/<item>`) | `/cmci` | E | CMCI fireproofing Tanzania, cementitious fireproofing Tanzania, Monokote Tanzania, Avikote Tanzania |
 | BIHUI Tanzania | `/bihui` | E | BIHUI tile tools Tanzania (BIHUI is a tiling tools brand, not adhesives) |

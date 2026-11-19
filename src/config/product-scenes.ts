@@ -85,4 +85,12 @@ export const productScenes: Record<string, Photo> = {
     "x-prime-gp2",
     "A squeegee spreading clear epoxy primer across a workshop floor, with a finished emerald green epoxy section behind",
   ),
+  // Not generated: X-Calibur's own cutaway drawing from its conductive floor
+  // brochure (docs/IMAGE-PROVENANCE.md 3q), the one picture of the system.
+  "x-tech-antistatic-sle": {
+    src: "/images/x-calibur/antistatic/cutaway.webp",
+    width: 1600,
+    height: 1003,
+    alt: "X-Calibur's cutaway drawing of the X-Tech AntiStatic SLE floor: concrete, a primed surface with a copper tape grid, a black conductive base coat and a red self smoothing top coat peeled back at one corner",
+  },
 };

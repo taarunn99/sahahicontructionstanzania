@@ -21,8 +21,15 @@ import {
   xcaliburProducts,
   xcaliburTds,
 } from "@/config/x-calibur";
+import {
+  PATH as ANTISTATIC_PATH,
+  cutaway,
+  grades,
+} from "@/config/x-calibur-antistatic";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 import { pad } from "@/lib/utils";
+import { FlowButton } from "@/components/ui/flow-button";
+import Image from "next/image";
 
 /**
  * X-CALIBUR HUB - owns "X-Calibur Tanzania" (SEO-STRATEGY.md 5.1).
@@ -59,8 +66,23 @@ const brand = brandBySlug["x-calibur"];
  * issued. Every claim of authorization on this page reads from it. */
 const credential = requireCredential("x-calibur");
 
-// Systems: the products that go down together. Names only, from the list.
-const SYSTEMS = [
+// Systems: the products that go down together. Names only, from the list;
+// the antistatic row's parts are the data sheet's and the method
+// statement's (2026-11-19), the system has a page of its own.
+type Step = { label: string; href?: string };
+const SYSTEMS: { name: string; href?: string; steps: (string | Step)[] }[] = [
+  {
+    name: "Antistatic and conductive floor",
+    href: ANTISTATIC_PATH,
+    steps: [
+      { label: "X-Prime SF or X-Prime MT100", href: `${ANTISTATIC_PATH}#parts` },
+      "x-tech-antistatic-sle",
+      {
+        label: "copper tape, X-Seal HD80 Conductive",
+        href: `${ANTISTATIC_PATH}#grounding`,
+      },
+    ],
+  },
   {
     name: "Epoxy floor",
     steps: ["x-prime-gp", "x-tech-epoxyfloor-sl1"],
@@ -85,10 +107,19 @@ const faq: FaqItem[] = [
   },
   {
     q: "Which X-Calibur products does Sahihi stock in Tanzania?",
-    lead: `${xcaliburProducts.length} products, held in Dar es Salaam.`,
+    lead: `${xcaliburProducts.length} products: ${xcaliburProducts.length - 1} held in Dar es Salaam, the antistatic flooring system supplied to order.`,
     points: xcaliburProducts.map(
       (item) => `${item.name}: ${item.type.toLowerCase()}`,
     ),
+  },
+  {
+    q: "Does X-Calibur make an antistatic or conductive floor?",
+    lead: "Yes: X-Tech AntiStatic SLE, a three layer epoxy system in a conductive grade and a dissipative grade.",
+    points: [
+      `Conductive grade ${grades[0].range}, dissipative grade ${grades[1].range}`,
+      "Earthed through copper strips and, when specified, a copper tape grid; tested to ASTM F150",
+      "Its own page explains the system and sizes the materials",
+    ],
   },
   {
     q: "How far does a 17 litre pack of X-Tech EpoxyFloor SL1 go?",
@@ -210,7 +241,9 @@ export default function XCaliburPage() {
               {siteConfig.brandName} supplies X-Calibur in Tanzania: a
               self-levelling epoxy floor and two primers, an SBR bonding agent,
               an elasto-cement waterproof coating, and a polysulphide joint
-              sealant with its primer, held in Dar es Salaam.
+              sealant with its primer, held in Dar es Salaam; and the
+              antistatic and conductive epoxy flooring system, supplied to
+              order.
             </p>
             <dl className="border-deep grid grid-cols-2 border-t sm:grid-cols-4">
               {[
@@ -287,6 +320,50 @@ export default function XCaliburPage() {
         </Container>
       </section>
 
+      {/* ---- Antistatic and conductive floors: the system page ------------- */}
+      <section className="bg-accent">
+        <Container className="py-16 sm:py-24">
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-center lg:gap-14">
+            <div>
+              <p className="label-sh">New on 2026-11-19 · X-Tech AntiStatic SLE</p>
+              <h2 className="font-display mt-5 text-[clamp(1.9rem,5vw,3.6rem)] leading-[1.04] uppercase">
+                Antistatic floors. Conductive floors. One system.
+              </h2>
+              <p className="mt-6 max-w-xl leading-relaxed">
+                An epoxy primer, a conductive or dissipative base coat and a
+                self smoothing top coat at 1.5 to 2 mm, earthed through copper
+                and tested to ASTM F150. Conductive grade {grades[0].range},
+                dissipative grade {grades[1].range}. The page explains the
+                system layer by layer and sizes the materials for your floor.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <FlowButton href={ANTISTATIC_PATH}>The antistatic floor</FlowButton>
+                <FlowButton href="/x-calibur/x-tech-antistatic-sle">
+                  The product page
+                </FlowButton>
+              </div>
+            </div>
+            <Link
+              href={ANTISTATIC_PATH}
+              className="block overflow-hidden rounded-2xl bg-white p-3 transition-transform duration-500 hover:-translate-y-1 sm:p-4"
+            >
+              <Image
+                src={cutaway.src}
+                alt={cutaway.alt}
+                width={cutaway.width}
+                height={cutaway.height}
+                sizes="(min-width: 64rem) 48vw, 100vw"
+                className="h-auto w-full rounded-lg"
+              />
+              <span className="spec-sh text-deep mt-3 block px-1">
+                X-Calibur&apos;s cutaway drawing: primer, copper grid, base coat,
+                top coat
+              </span>
+            </Link>
+          </div>
+        </Container>
+      </section>
+
       {/* ---- Systems: what goes down together ------------------------------ */}
       <section className="bg-surface py-16 sm:py-24">
         <Container>
@@ -304,20 +381,32 @@ export default function XCaliburPage() {
                   {pad(index + 1)}
                 </span>
                 <h3 className="font-display text-2xl leading-tight">
-                  {system.name}
+                  {system.href ? (
+                    <Link href={system.href} className="u-line">
+                      {system.name}
+                    </Link>
+                  ) : (
+                    system.name
+                  )}
                 </h3>
                 <ul className="flex flex-wrap items-center gap-2.5">
-                  {system.steps.map((slug, step) => (
-                    <li key={slug} className="flex items-center gap-2.5">
-                      {step > 0 && <span aria-hidden>+</span>}
-                      <Link
-                        href={productHref(bySlug[slug])}
-                        className="chip-sh border-deep bg-chalk inline-flex min-h-11 items-center rounded-full border px-5 text-sm"
-                      >
-                        {bySlug[slug].name}
-                      </Link>
-                    </li>
-                  ))}
+                  {system.steps.map((raw, step) => {
+                    const item: Step =
+                      typeof raw === "string"
+                        ? { label: bySlug[raw].name, href: productHref(bySlug[raw]) }
+                        : raw;
+                    return (
+                      <li key={item.label} className="flex items-center gap-2.5">
+                        {step > 0 && <span aria-hidden>+</span>}
+                        <Link
+                          href={item.href ?? ANTISTATIC_PATH}
+                          className="chip-sh border-deep bg-chalk inline-flex min-h-11 items-center rounded-full border px-5 text-sm"
+                        >
+                          {item.label}
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </li>
             ))}

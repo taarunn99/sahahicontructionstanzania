@@ -42,6 +42,12 @@ export type HotspotMapProps = {
   picture: { src: string; width: number; height: number; alt: string };
   pins: { n: number; x: number; y: number }[];
   entries: HotspotEntry[];
+  /** The line over the picture; OYH's manual by default. */
+  caption?: string;
+  /** The line under the panel. */
+  foot?: string;
+  /** The panel's words for a pin with no product under it. */
+  emptyText?: string;
 };
 
 export function HotspotMap({
@@ -51,6 +57,9 @@ export function HotspotMap({
   picture,
   pins,
   entries,
+  caption = `OYH's render · manual page ${page}`,
+  foot = "Typical values as OYH prints them · supplied to order",
+  emptyText = "Part of the structure, not an OYH product.",
 }: HotspotMapProps) {
   const [held, setHeld] = useState<number | null>(entries[0]?.n ?? null);
   const [peek, setPeek] = useState<number | null>(null);
@@ -116,7 +125,7 @@ export function HotspotMap({
       {/* ---- The render with the pins ------------------------------------ */}
       <div className="min-w-0 bg-white">
         <p className="spec-sh text-muted flex justify-between gap-4 px-4 pt-4 sm:px-5">
-          <span>OYH&apos;s render · manual page {page}</span>
+          <span>{caption}</span>
           <span>Hover or tap a number</span>
         </p>
         <div
@@ -214,9 +223,7 @@ export function HotspotMap({
               {entry.layer}
             </h3>
             {entry.products.length === 0 ? (
-              <p className="text-muted mt-4 leading-relaxed">
-                Part of the structure, not an OYH product.
-              </p>
+              <p className="text-muted mt-4 leading-relaxed">{emptyText}</p>
             ) : (
               <ul className="mt-5 space-y-5">
                 {entry.products.map((item) => (
@@ -257,9 +264,7 @@ export function HotspotMap({
             Pick a number on the render.
           </p>
         )}
-        <p className="spec-sh text-muted mt-auto pt-6">
-          Typical values as OYH prints them · supplied to order
-        </p>
+        <p className="spec-sh text-muted mt-auto pt-6">{foot}</p>
       </div>
     </div>
   );

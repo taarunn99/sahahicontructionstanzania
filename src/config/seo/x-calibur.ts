@@ -17,6 +17,8 @@ export const XCALIBUR_SLUGS = [
   "x-shield-flexpruf",
   "x-seal-ps800",
   "x-seal-universal-primer",
+  "x-tech-antistatic-sle",
+  "antistatic-conductive-flooring",
 ] as const;
 
 export type XCaliburSlug = (typeof XCALIBUR_SLUGS)[number];
@@ -81,6 +83,24 @@ export const xcaliburSeo: Partial<Record<XCaliburSlug, SeoRow>> = {
     description:
       "X-Seal Universal Primer in Tanzania: sealant primer for X-Seal PS800 and FR200 joints, 15 m² per litre. 1 litre packs held in Dar es Salaam. Ask for a quote.",
     stock: "held",
+  },
+  // 2026-11-19: the antistatic system (owner's three documents). The
+  // product page owns the product name; the system page owns the two
+  // phrases the owner asked for, "antistatic floors" and "conductive floors".
+  "x-tech-antistatic-sle": {
+    query: "X-Tech AntiStatic SLE",
+    typeWords: "conductive epoxy floor",
+    description:
+      "X-Tech AntiStatic SLE conductive epoxy floor: primer, base coat and 1.5 to 2 mm top coat, 5 x 10^4 to 1 x 10^9 ohms by grade. Supplied to order by Sahihi.",
+    stock: "order",
+  },
+  "antistatic-conductive-flooring": {
+    query: "antistatic flooring Tanzania",
+    typeWords: "conductive flooring",
+    titleOverride: "Antistatic & Conductive Floors Tanzania - X-Calibur Epoxy",
+    description:
+      "Antistatic and conductive floors in Tanzania: X-Calibur's X-Tech AntiStatic SLE epoxy system, conductive or dissipative grade, earthed and tested. To order.",
+    stock: "order",
   },
 };
 

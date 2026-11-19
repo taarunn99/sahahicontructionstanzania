@@ -45,7 +45,7 @@ export type CoverageModel =
   /** quantity = area x thickness(mm) x rate-per-mm */
   | (Base & {
       kind: "area-thickness";
-      unit: "kg";
+      unit: "kg" | "litres";
       rates: Rate[];
       thickness: {
         min: number;

@@ -56,6 +56,8 @@ export function GET() {
     `- [Mapei nchini Tanzania](${base}/sw/mapei): the Mapei hub in Swahili, with a Swahili home page at ${base}/sw`,
     `- [OYH East Africa: Oriental Yuhong in Tanzania](${base}/oriental-yuhong): Sahihi is an authorized distributor of Oriental Yuhong (OYH) in Dar es Salaam; HDPE membrane, sports flooring, waterproofing coatings for wet rooms, roofs and walls, a joint sealant and a waterplug`,
     `- [X-Calibur in Tanzania](${base}/x-calibur): Sahihi is X-Calibur's authorized distributor for Tanzania, certified in writing to 31 December 2026 (the certificate is on the page, with the PDF); epoxy flooring, primers, SBR bond, waterproof coating and joint sealant`,
+    `- [Antistatic and conductive floors in Tanzania](${base}/x-calibur/antistatic-conductive-flooring): X-Calibur's X-Tech AntiStatic SLE epoxy flooring system, conductive grade (5 x 10^4 to 1 x 10^6 ohms) or dissipative grade (5 x 10^6 to 1 x 10^9 ohms), with the primer chosen by moisture test, the copper tape grounding, the ASTM F150 test, a material calculator and the data sheet, method statement and brochure as PDFs; supplied to order`,
+    `- [X-Tech AntiStatic SLE](${base}/x-calibur/x-tech-antistatic-sle): the product page, data sheet and top coat calculator`,
     `- [CMCI in Tanzania](${base}/cmci): cementitious fireproofing for petrochemical plant, commercial buildings and tunnels`,
     `- [Fire rated cement in Tanzania](${base}/cmci/fire-rated-cement): cementitious fireproofing for structural steel, explained, with the products and data sheets`,
     `- [Vasa in Tanzania](${base}/vasa): authorized Vasa dealer, SPC flooring, LVT flooring and wall panels`,

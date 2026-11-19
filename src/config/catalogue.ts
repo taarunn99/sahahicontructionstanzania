@@ -852,6 +852,33 @@ export const products: Product[] = [
     packs: ["18 litres"],
     ref: "X7",
   },
+  {
+    slug: "x-tech-antistatic-sle",
+    brand: "x-calibur",
+    line: "x-calibur",
+    name: "X-Tech AntiStatic SLE",
+    // Not on the price list: the owner's data sheet, method statement and
+    // brochure of 2026-11-19. Supplied to order (owner, the same day). The
+    // packs are the sheet's; the primer is X-Prime SF or MT100, sized on
+    // /x-calibur/antistatic-conductive-flooring.
+    sourceName: "X-Tech AntiStatic SLE",
+    type: "Conductive epoxy floor",
+    summary:
+      "Conductive or dissipative solvent free epoxy flooring system: primer, base coat and self smoothing top coat.",
+    consumption: "1.5 litres per m² of top coat at 1.5 mm",
+    packs: ["Base coat 4.5 litres", "Base coat 18 litres", "Top coat 17 litres"],
+    colours: [
+      "RAL 7035",
+      "RAL 7042",
+      "RAL 7043",
+      "RAL 7001",
+      "RAL 1017",
+      "RAL 6017",
+      "RAL 3002",
+      "RAL 5017",
+    ],
+    ref: "X8",
+  },
 ];
 
 // ---- [O] ORIENTAL YUHONG ---------------------------------------------------

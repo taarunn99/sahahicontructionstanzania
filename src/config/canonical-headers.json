@@ -84,11 +84,14 @@
   "/tds/vasa/spc.pdf": "/vasa/spc-flooring",
   "/tds/vasa/vasa-catalogue.pdf": "/vasa",
   "/tds/x-calibur/authorised-distributor-2026.pdf": "/x-calibur",
+  "/tds/x-calibur/conductive-floor-systems.pdf": "/x-calibur/antistatic-conductive-flooring",
   "/tds/x-calibur/x-prime-gp.pdf": "/x-calibur/x-prime-gp",
   "/tds/x-calibur/x-prime-gp2.pdf": "/x-calibur/x-prime-gp2",
   "/tds/x-calibur/x-seal-ps800.pdf": "/x-calibur/x-seal-ps800",
   "/tds/x-calibur/x-seal-universal-primer.pdf": "/x-calibur/x-seal-universal-primer",
   "/tds/x-calibur/x-shield-flexpruf.pdf": "/x-calibur/x-shield-flexpruf",
+  "/tds/x-calibur/x-tech-antistatic-sle-method-statement.pdf": "/x-calibur/antistatic-conductive-flooring",
+  "/tds/x-calibur/x-tech-antistatic-sle.pdf": "/x-calibur/x-tech-antistatic-sle",
   "/tds/x-calibur/x-tech-epoxyfloor-sl1.pdf": "/x-calibur/x-tech-epoxyfloor-sl1",
   "/tds/x-calibur/x-tech-sbr-bond.pdf": "/x-calibur/x-tech-sbr-bond"
 }

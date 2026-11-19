@@ -343,3 +343,28 @@ Published as described unless the owner says otherwise:
 - **Other systems** (prefabricated tracks and court, PVC, wood, tiles): "ask us" is
   fine (owner). No pages.
 - Still open: is there a separate English file of the track film (taken from the pptx)?
+
+### Q23. X-Calibur antistatic flooring (raised 2026-11-19)
+
+The owner supplied three documents for X-Tech AntiStatic SLE (data sheet 90070918, method
+statement v5 November 2021, the "High Performance Conductive Floor Systems" brochure dated
+2016 in its metadata). Built as `/x-calibur/antistatic-conductive-flooring` and the product
+page `/x-calibur/x-tech-antistatic-sle`. Owner's answers the same day: the kit is supplied
+to order; the parts named only in the method statement (X-Prime SF, X-Prime MT100, copper
+tape, X-Tile Conductive Adhesive, X-Seal HD80 Conductive, X-Seal JointCord) are named, to
+order with the system, with Add to quote list and no pages.
+
+- **Conflicts, data sheet published:** base coat coverage 6.6 m²/L at 150 microns (sheet,
+  method) against 5 m²/L (brochure "Undercoat"); top coat 1.5 L/m² at 1.5 mm (sheet) against
+  2 L/m² at 2 mm (brochure), the same 1 L/m² per mm, so the calculator spans the sheet's 1.5
+  to 2 mm; pot life at 25C (sheet) against the 10/20/30C table (method), both shown with
+  their source. The brochure's "X-Shield SF Primer" is the sheet's X-Prime SF; its
+  "lightning" is lighting; "connectged" and "Do not be apply" are not reproduced. The
+  brochure's "no extra charge" colour line is left out (commercial term).
+- **Open:** data sheets for X-Prime SF, X-Prime MT100, X-Seal HD80 Conductive and X-Tile
+  Conductive Adhesive (each becomes a product page when it arrives, as the OYH rule); whether
+  X-Tech AntiStatic CS and X-Tech AntiStatic SLB (the brochure's "Other Products") can be
+  supplied; the date of the data sheet (the code 90070918 is the only mark); whether the
+  brochure (18.4 MB) should get a compressed web copy (the standing choice is originals
+  only); the X-Calibur certificate's "X-Tech Flooring Systems" range is taken to cover the
+  SLE (it carries the X-Tech prefix).

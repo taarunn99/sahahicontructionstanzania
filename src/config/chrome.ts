@@ -132,6 +132,11 @@ const BRAND_SYSTEMS: ChromeLink[] = [
     href: "/cmci/fire-rated-cement",
     sub: "CMCI",
   },
+  {
+    label: "Antistatic and conductive floors",
+    href: "/x-calibur/antistatic-conductive-flooring",
+    sub: "X-Calibur · ESD epoxy flooring",
+  },
   { label: "SPC flooring", href: "/vasa/spc-flooring", sub: "Vasa" },
   { label: "LVT flooring", href: "/vasa/lvt-flooring", sub: "Vasa" },
   { label: "Wall panels", href: "/vasa/wall-panels", sub: "Vasa" },
@@ -181,7 +186,13 @@ const BRAND_CHILDREN: Record<string, () => MenuNode[]> = {
     { label: "LVT flooring", href: "/vasa/lvt-flooring" },
     { label: "Wall panels", href: "/vasa/wall-panels" },
   ],
-  "x-calibur": () => productNodes("x-calibur"),
+  "x-calibur": () => [
+    {
+      label: "Antistatic and conductive floors",
+      href: "/x-calibur/antistatic-conductive-flooring",
+    },
+    ...productNodes("x-calibur"),
+  ],
   cmci: () => [
     { label: "Fire rated cement", href: "/cmci/fire-rated-cement" },
     ...cmciAll.map((product) => ({
@@ -269,6 +280,13 @@ export const searchIndex: SearchEntry[] = [
     "/x-calibur",
     "Pages",
     "xcalibur x calibur",
+  ),
+  searchEntry(
+    "Antistatic and conductive floors in Tanzania",
+    "X-Tech AntiStatic SLE: conductive or dissipative epoxy, earthed and tested",
+    "/x-calibur/antistatic-conductive-flooring",
+    "Pages",
+    "antistatic anti static esd flooring static dissipative conductive floor electronics clean room",
   ),
   searchEntry(
     "CMCI in Tanzania",

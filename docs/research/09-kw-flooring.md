@@ -62,7 +62,7 @@ Legend
 | 10 | epoxy flooring cost Tanzania | C | High | Journal J1 | INFERRED EASY |
 | 11 | 3D epoxy floor Tanzania | C | Low (decorative, residential) | Journal J13 | NOT CHECKED |
 | 12 | epoxy flooring for homes Tanzania | C | Low | Journal J13 | NOT CHECKED |
-| 13 | anti static epoxy flooring Tanzania | T | Med | Epoxy (section) - only if an ESD system is stocked | NOT CHECKED |
+| 13 | anti static epoxy flooring Tanzania | T | Med | OWNED since 2026-11-19 by `/x-calibur/antistatic-conductive-flooring` (X-Tech AntiStatic SLE, supplied to order) | NOT CHECKED |
 | 14 | epoxy primer for concrete floor | T | Med | Primer SN product page | NOT CHECKED |
 | 15 | sakafu ya epoxy (Swahili) | C | Unknown | Epoxy (Swahili FAQ block) | EASY (checked), demand unverified |
 | 16 | rangi ya sakafu / rangi ya sakafu epoxy bei (Swahili) | C | Unknown | Epoxy (Swahili FAQ block) | EASY (checked), term unverified |
@@ -595,7 +595,7 @@ Sequencing suggestion: J1, J2, J7 and J12 first. They have verified weak SERPs o
 2. Confirm the exact product name "Mapefloor CPU+/MF" against the pack label and TDS.
 3. Supply TDS PDFs for every stocked flooring product (needed for the builder and product pages).
 4. List the sports brands and systems actually stocked (acrylic coating, EPDM, turf) and the SPC/LVT brand and ranges.
-5. Confirm whether a floor hardener and an ESD epoxy system are stocked; if not, drop queries 13, 53 and 54.
+5. Confirm whether a floor hardener and an ESD epoxy system are stocked; if not, drop queries 13, 53 and 54. (2026-11-19: an ESD system exists, X-Calibur's X-Tech AntiStatic SLE, supplied to order; query 13 is owned. The floor hardener is still open.)
 6. Name the applicators Sahihi already supplies and would endorse.
 7. Ask sales staff which Swahili words customers use on WhatsApp for epoxy floors, floor paint, vinyl sheet and artificial grass.
 8. Provide three to five completed projects with city, sector, area and system for case studies.

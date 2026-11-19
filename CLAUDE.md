@@ -256,6 +256,23 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   the HDPE brochure (50 MB) and the manual (26 MB) published whole by the owner's choice;
   `DocumentList` (`src/components/sections/document-list.tsx`) is the shared download
   rows, also used by the CMCI fire documents. Pictures: IMAGE-PROVENANCE 3p.
+- 2026-11-19, X-Calibur antistatic flooring: the owner supplied X-Tech AntiStatic SLE's
+  data sheet, method statement (v5, 2021) and the conductive floor brochure, asking for
+  "antistatic floors" and "conductive floors" on one page. Built as
+  `/x-calibur/antistatic-conductive-flooring` (owns both phrases; data in
+  `src/config/x-calibur-antistatic.ts`, every string the documents'): the **resistance
+  scale** (`src/components/sections/xcalibur/resistance-scale.tsx`, a log axis with the
+  CG and DG bands and a probe), one `LayerStack` with a new `grid` pattern for the copper
+  tape (`antistaticStack` in `build-ups.ts`), the grounding on X-Calibur's own cutaway
+  drawing as a `HotspotMap` (now generic: `caption`, `foot`, `emptyText` props), the
+  moisture ladder, the **system calculator** (`antistatic-calculator.tsx`: primer by MVER
+  band, base coat, top coat at 1.5 to 2 mm, ground connections, readings, Add N x pack),
+  the seven parts "supplied to order", the nine tests, colours, site rules, three PDFs
+  under `public/tds/x-calibur/`. Plus the product page `/x-calibur/x-tech-antistatic-sle`
+  (standard template, `area-thickness` model now takes litres) and a band on the hub.
+  Conflicts between the documents are in OPEN-QUESTIONS Q23 (data sheet wins). The
+  brochure's photographs are stock pictures with watermarks and are not published; the
+  cutaway is X-Calibur's own (IMAGE-PROVENANCE 3q). Everything is to order (owner).
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

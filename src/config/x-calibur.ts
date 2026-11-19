@@ -47,6 +47,8 @@ export const xcaliburAlsoKnownAs: Record<string, string> = {
   "x-seal-ps800": "X-Seal PG (pouring grade), X Seal PG",
   "x-seal-universal-primer": "X-Seal Primer",
   "x-tech-sbr-bond": "X-Tech Bond, Xtech Bond",
+  "x-tech-antistatic-sle":
+    "antistatic epoxy floor, ESD floor, conductive epoxy floor, static dissipative floor",
 };
 
 /**
@@ -112,6 +114,24 @@ export const xcaliburCoverage: Record<string, CoverageModel> = {
     packs: [{ label: "20 litre drum", size: 20 }],
     source: "Typically 8m² per liter",
     note: "Coverage will vary depending on surface profile and porosity.",
+  },
+  // The top coat only: 1.5 L per m² at 1.5 mm is 1 L per m² per mm, over the
+  // sheet's 1.5 to 2 mm. The primer, base coat and grounding parts are sized
+  // on the system page (/x-calibur/antistatic-conductive-flooring).
+  "x-tech-antistatic-sle": {
+    kind: "area-thickness",
+    unit: "litres",
+    rates: [{ label: "Top coat, per mm", min: 1, max: 1 }],
+    thickness: {
+      min: 1.5,
+      max: 2,
+      initial: 1.5,
+      step: 0.1,
+      stated: "1.5mm to 2mm (60 to 80mils)",
+    },
+    packs: [{ label: "17 litre pack", size: 17 }],
+    source: "X-Tech AntiStatic SLE Top Coat: 1.5L per m2 at 1.5mm (60mils).",
+    note: "The top coat only. The base coat goes 6.6 m² per litre at 150 microns; the system calculator sizes the primer, the base coat and the ground connections too.",
   },
 };
 

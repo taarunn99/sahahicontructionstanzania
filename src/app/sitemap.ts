@@ -49,6 +49,12 @@ const CORE: { path: string; modified: string; priority: number }[] = [
     modified: "2026-11-19",
     priority: 0.9,
   },
+  // 2026-11-19: X-Calibur's antistatic flooring system as a page.
+  {
+    path: "/x-calibur/antistatic-conductive-flooring",
+    modified: "2026-11-19",
+    priority: 0.9,
+  },
   {
     path: "/oriental-yuhong/sports-flooring",
     modified: "2026-11-09",
@@ -81,7 +87,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .map((path) => ({
       path,
       // The X-Calibur hub gained the authorised distributor certificate.
-      modified: path === "/x-calibur" ? "2026-11-14" : CATALOGUE_MODIFIED,
+      modified: path === "/x-calibur" ? "2026-11-19" : CATALOGUE_MODIFIED,
       priority: 0.8,
     }));
   const items = products

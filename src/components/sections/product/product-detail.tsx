@@ -115,6 +115,10 @@ export type ProductDetailProps = {
   /** The brand's authorization document, where the owner has supplied one
    * (src/config/credentials.ts): one line under the name, linking to it. */
   credential?: { label: string; href: string } | null;
+  /** "held" (the default) says the packs are stocked in Dar es Salaam;
+   * anything else words the packs as supplied to order (the SEO row's
+   * stock claim, owner's word per product). */
+  stock?: "held" | "order" | "enquire";
 };
 
 const SECTION_LABEL = "label-sh text-muted";
@@ -212,7 +216,9 @@ export function ProductDetail({
   feature,
   model,
   credential = null,
+  stock = "held",
 }: ProductDetailProps) {
+  const held = stock === "held";
   const standards = (content?.standards ?? []).filter(
     (entry, index, all) =>
       all.findIndex(
@@ -246,7 +252,13 @@ export function ProductDetail({
     product.classification && { label: "Class", value: product.classification },
     product.consumption && { label: "Consumption", value: product.consumption },
     {
-      label: product.packs.length > 1 ? "Packs we stock" : "Pack we stock",
+      label: held
+        ? product.packs.length > 1
+          ? "Packs we stock"
+          : "Pack we stock"
+        : product.packs.length > 1
+          ? "Packs, to order"
+          : "Pack, to order",
       value: product.packs.join(" · "),
     },
     product.colours && {
@@ -447,8 +459,11 @@ export function ProductDetail({
                 </div>
                 {!image && scene && (
                   <figcaption className="spec-sh text-muted mt-5 leading-relaxed print:hidden">
-                    An illustration of where it is used, not a Sahihi job. The
-                    pack we stock: {product.packs.join(" · ")}.
+                    {brand.slug === "x-calibur" && !held
+                      ? "The maker's own drawing of the system, not a Sahihi job. "
+                      : "An illustration of where it is used, not a Sahihi job. "}
+                    {held ? "The pack we stock" : "Supplied to order"}:{" "}
+                    {product.packs.join(" · ")}.
                   </figcaption>
                 )}
                 {image && (
@@ -456,7 +471,8 @@ export function ProductDetail({
                     {brand.name}&apos;s own picture
                     {model &&
                       ", turned into a 3D model you can turn across its front"}
-                    . The pack we stock: {product.packs.join(" · ")}.
+                    . {held ? "The pack we stock" : "Supplied to order"}:{" "}
+                    {product.packs.join(" · ")}.
                   </figcaption>
                 )}
               </figure>
@@ -722,8 +738,9 @@ export function ProductDetail({
               </div>
               <p className="text-muted leading-relaxed">
                 The arithmetic uses {brand.name}&apos;s published consumption
-                for {product.name} and the pack sizes we stock. Set your own
-                wastage allowance.
+                for {product.name} and the pack sizes we{" "}
+                {held ? "stock" : "supply, to order"}. Set your own wastage
+                allowance.
               </p>
             </div>
 
@@ -937,7 +954,9 @@ export function ProductDetail({
               </div>
               <dl className="border-deep border-t">
                 <div className="border-deep/15 grid gap-2 border-b py-5 sm:grid-cols-[10rem_1fr] sm:gap-6">
-                  <dt className={SECTION_LABEL}>We stock</dt>
+                  <dt className={SECTION_LABEL}>
+                    {held ? "We stock" : "Supplied to order"}
+                  </dt>
                   <dd className="spec-sh">{product.packs.join(" · ")}</dd>
                 </div>
                 {content?.packaging && (

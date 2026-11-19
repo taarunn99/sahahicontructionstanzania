@@ -1,0 +1,64 @@
+{
+  "slug": "x-tech-antistatic-sle",
+  "titleAsPrinted": "X-Tech AntiStatic SLE",
+  "description": "X-Tech AntiStatic SLE is a three layer system comprising an epoxy primer, a water dispersed epoxy base coat and a self smoothing solvent free epoxy top coat that produces a conductive or dissipative floor.",
+  "whereToUse": [
+    "Electronic manufacturing and assembly plants",
+    "Hospitals",
+    "Clean rooms",
+    "Chemical handling and processing areas"
+  ],
+  "notFor": [
+    "May change color when exposed to direct sunlight.",
+    "Do not use solvent to finish the surface.",
+    "Do not apply below 10C.",
+    "Do not apply at thicknesses greater than those mentioned.",
+    "Maximum ambient relative humidity of 85%.",
+    "Do not expose the surface to water or cleaning solutions until fully cured."
+  ],
+  "standards": [
+    { "standard": "SCAQMD Rule 1113", "value": "when used with X-Prime SF" },
+    { "standard": "LEED NC2009 IEQ 4.2", "value": "when used with X-Prime SF" },
+    { "standard": "IEC/BS EN 61340", "value": "" },
+    { "standard": "ANSI/ESD S7.1", "value": "" },
+    { "standard": "EFNARC Type 5A & B", "value": "" },
+    { "standard": "ASTM F150", "value": "" },
+    { "standard": "BS 2050", "value": "" },
+    { "standard": "BS 5958", "value": "" },
+    { "standard": "DoA 385-64", "value": "" },
+    { "standard": "FeFRA Type 5 MD/HD", "value": "" }
+  ],
+  "technicalData": [
+    { "label": "Conductive grade (CG), point to point and to ground", "value": "5 x 104 to 1 x 106 Ohms" },
+    { "label": "Dissipative grade (DG), point to point and to ground", "value": "5 x 106 to 1 x 109 Ohms" },
+    { "label": "Compressive strength, 7 days", "value": ">60MPa (8700psi)" },
+    { "label": "Flexural strength, 7 days", "value": ">30MPa (4350psi)" },
+    { "label": "Tensile strength, 7 days", "value": ">20MPa (2900psi)" },
+    { "label": "Bond strength, 7 days (depends on substrate quality)", "value": ">5MPa (725psi)" },
+    { "label": "Application thickness", "value": "1.5mm to 2mm (60 to 80mils)" },
+    { "label": "Application temperature range", "value": "10 to 35C (50 to 95F)" },
+    { "label": "Pot life at 25C, X-Prime SF", "value": "75 mins" },
+    { "label": "Pot life at 25C, X-Prime MT100", "value": "120 mins" },
+    { "label": "Pot life at 25C, Base Coat", "value": "90 mins" },
+    { "label": "Pot life at 25C, Top Coat", "value": "45 mins" },
+    { "label": "Volatile organic content, X-Prime SF", "value": "0 g/L" },
+    { "label": "Volatile organic content, X-Prime MT100", "value": "<10 g/L" },
+    { "label": "Volatile organic content, Base Coat", "value": "<20 g/L" },
+    { "label": "Volatile organic content, Top Coat", "value": "<50 g/L" }
+  ],
+  "consumption": [
+    { "quote": "X-Prime SF: 10m2 (107ft2) per liter at 100 microns wft." },
+    { "quote": "X-Prime MT100: 5m2 (53ft2) per liter at 200 microns wft." },
+    { "quote": "X-Tech AntiStatic SLE Base Coat: 6.6m2 (70ft2) per liter at 150 microns wft." },
+    { "quote": "X-Tech AntiStatic SLE Top Coat: 1.5L per m2 at 1.5mm (60mils)." }
+  ],
+  "mixing": null,
+  "packaging": "X-Tech AntiStatic SLE Base Coat: 4.5 and 18L packs",
+  "storage": "18 months when stored at 35C (95F) or less in a frost-free, dry and shaded area.",
+  "advantages": [
+    "Meets SCAQMD Rule 1113 & LEED VOC Limits",
+    "Fast application",
+    "Easy to clean gloss finish",
+    "High impact and abrasion resistance"
+  ]
+}

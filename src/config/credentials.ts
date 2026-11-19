@@ -54,7 +54,11 @@ export const credentials: Credential[] = [
       { name: "X-Roc Concrete Repair Systems", products: [] },
       {
         name: "X-Tech Flooring Systems",
-        products: ["x-tech-epoxyfloor-sl1", "x-tech-sbr-bond"],
+        products: [
+          "x-tech-epoxyfloor-sl1",
+          "x-tech-sbr-bond",
+          "x-tech-antistatic-sle",
+        ],
       },
       { name: "X-Shield Coating Systems", products: ["x-shield-flexpruf"] },
       {

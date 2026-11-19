@@ -28,6 +28,10 @@ const PICTURES: Record<string, string> = {
     "/images/oriental-yuhong/below-grade/polymer-basement.webp",
   "/cmci": "/images/cmci/commercial.webp",
   "/cmci/fire-rated-cement": "/images/cmci/petrochemical.webp",
+  "/x-calibur/antistatic-conductive-flooring":
+    "/images/x-calibur/antistatic/cutaway-square.webp",
+  "/x-calibur/x-tech-antistatic-sle":
+    "/images/x-calibur/antistatic/cutaway-square.webp",
   "/vasa": "/images/vasa/rooms/spc8.webp",
   "/vasa/spc-flooring": "/images/vasa/rooms/spc5.webp",
   "/vasa/lvt-flooring": "/images/vasa/rooms/lvt.webp",

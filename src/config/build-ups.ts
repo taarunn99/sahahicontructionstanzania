@@ -62,6 +62,75 @@ export const epoxyColours: StackDecor[] = ral.map(([code, name, hex]) => ({
   src: swatch(hex),
 }));
 
+/** The eight colours the X-Tech AntiStatic SLE sheet lists, in its order. */
+const ANTISTATIC_RAL = [
+  "RAL 7035",
+  "RAL 7042",
+  "RAL 7043",
+  "RAL 7001",
+  "RAL 1017",
+  "RAL 6017",
+  "RAL 3002",
+  "RAL 5017",
+];
+export const antistaticColours: StackDecor[] = ANTISTATIC_RAL.map((code) => {
+  const found = epoxyColours.find((item) => item.code === code);
+  if (!found) throw new Error(`build-ups: no swatch for ${code}`);
+  return found;
+});
+
+/** The hex behind a swatch, for the colour chips on the antistatic page. */
+export const antistaticHex = (code: string) =>
+  ral.find(([ralCode]) => ralCode === code)?.[2] ?? CONCRETE;
+
+/**
+ * X-Tech AntiStatic SLE over X-Prime SF or MT100 on concrete, with the
+ * copper tape grid the method statement draws when one is specified. Notes
+ * from the data sheet and the method statement (v5, November 2021).
+ */
+export function antistaticStack(primer: "X-Prime SF" | "X-Prime MT100") {
+  return [
+    {
+      label: "X-Tech AntiStatic SLE Top Coat",
+      color: "#cbd0cc",
+      height: 0.2,
+      decor: true,
+      note: "Self smoothing solvent free epoxy at 1.5 to 2 mm: 1.5 litres per m² at 1.5 mm, spread with a 4 mm notched rake and a pin leveller, spiked roller within 20 minutes.",
+    },
+    {
+      label: "X-Tech AntiStatic SLE Base Coat, conductive or dissipative grade",
+      color: "#2b2b2b",
+      height: 0.08,
+      note: "Water dispersed epoxy rolled at 150 microns wet film, 6.6 m² per litre. Checked to earth before the top coat: 1 x 10^5 ohms or less (CG), 1 x 10^6 to 1 x 10^8 ohms (DG).",
+    },
+    {
+      label: "Copper tape grid, when specified",
+      color: "#f4f1e8",
+      opacity: 0.9,
+      height: 0.04,
+      pattern: "grid",
+      note: "Self adhesive conductive copper tape 10 to 12 mm wide, at least 0.7 mm thick, at maximum 3 m centres and 150 mm from the wall, over the primed surface. Optional, only required if specified.",
+    },
+    {
+      label: primer,
+      color: "#d8a541",
+      opacity: 0.85,
+      height: 0.07,
+      note:
+        primer === "X-Prime SF"
+          ? "10 m² per litre at 100 microns wet film (100 to 125 microns), on a slab whose MVER is under 3 lbs/1000ft²/24h. Base coat within 24 hours."
+          : "5 m² per litre at 200 microns wet film: one coat at 165 microns when the MVER is 3 to 5, two coats at 200 when it is 5 to 12 lbs/1000ft²/24h.",
+    },
+    {
+      label: "Concrete substrate",
+      color: CONCRETE,
+      height: 0.55,
+      pattern: "concrete",
+      note: "Captive blasted to an ICRI CSP 4 or 5 profile, bug holes filled, moisture tested to ASTM F2170 and, above 80% RH, ASTM F1869.",
+    },
+  ] satisfies StackLayer[];
+}
+
 export const flexprufStack: StackLayer[] = [
   {
     label: "X-Shield FlexPruf, second coat",

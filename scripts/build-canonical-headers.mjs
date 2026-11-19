@@ -53,6 +53,12 @@ const FIXED = {
   "/tds/vasa/vasa-catalogue.pdf": "/vasa",
   // The authorised distributor certificate is shown on the X-Calibur hub.
   "/tds/x-calibur/authorised-distributor-2026.pdf": "/x-calibur",
+  // The antistatic method statement and brochure belong to the system page;
+  // the data sheet maps to the product page by the default rule.
+  "/tds/x-calibur/x-tech-antistatic-sle-method-statement.pdf":
+    "/x-calibur/antistatic-conductive-flooring",
+  "/tds/x-calibur/conductive-floor-systems.pdf":
+    "/x-calibur/antistatic-conductive-flooring",
   // The company profile is the flip book on the home page.
   "/tds/sahihi-company-profile-2026.pdf": "/",
 };
