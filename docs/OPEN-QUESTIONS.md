@@ -326,6 +326,14 @@ Published as described unless the owner says otherwise:
 - **Tanzanite Bridge:** the owner says OYH supplied it, products not named. The card says
   "Oriental Yuhong range". ANSWERED 2026-11-09: OYH bitumen membrane, for the waterproofing.
   Open: should an OYH bitumen membrane get a product page? Its data sheet is needed.
+- **Below-grade manual (2026-11-19):** the owner supplied OYH's "Solutions for Below-Grade
+  Structures" (16 spreads) and it is a page, `/oriental-yuhong/below-grade-waterproofing`,
+  with every product marked "supplied to order" (none is on the price list except PMH-3080
+  Plus and YHRepair-2516). Open: which of its ~40 products the owner can actually order
+  and in what lead time (the bituminous membranes have no data sheets in the manual);
+  whether the HDPE brochure (50 MB) and the manual (26 MB) should get a compressed web copy
+  (the owner chose originals only); and the manual's YHColorWall-5100 against the site's
+  YHColorWall-5300 (different products, both kept).
 
 ### Q22. OYH sports, second round (raised 2026-11-09, answered the same day)
 

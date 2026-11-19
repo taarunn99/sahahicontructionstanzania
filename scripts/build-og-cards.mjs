@@ -238,6 +238,7 @@ function pictureFor(route) {
   } else if (head === "oriental-yuhong") {
     if (!second) pick = photo("oriental-yuhong/hdpe/roll");
     else if (second === "hdpe-waterproofing") pick = photo("oriental-yuhong/hdpe/roll-square");
+    else if (second === "below-grade-waterproofing") pick = photo("oriental-yuhong/below-grade/polymer-basement");
     else if (second === "pmh-3080-plus") pick = photo("oriental-yuhong/hdpe/roll");
     else if (second === "sports-flooring") {
       pick = photo(`oriental-yuhong/sports/${third ? SPORTS_PHOTO[third] ?? "court" : "court"}`);

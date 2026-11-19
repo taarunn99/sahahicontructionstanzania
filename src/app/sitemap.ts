@@ -40,7 +40,13 @@ const CORE: { path: string; modified: string; priority: number }[] = [
   { path: "/specifier-pack", modified: "2026-11-10", priority: 0.8 },
   {
     path: "/oriental-yuhong/hdpe-waterproofing",
-    modified: "2026-11-07",
+    modified: "2026-11-19",
+    priority: 0.9,
+  },
+  // 2026-11-19: OYH's below-grade manual as a page.
+  {
+    path: "/oriental-yuhong/below-grade-waterproofing",
+    modified: "2026-11-19",
     priority: 0.9,
   },
   {

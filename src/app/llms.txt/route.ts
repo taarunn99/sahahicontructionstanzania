@@ -67,6 +67,7 @@ export function GET() {
     `- [Quote list](${base}/quote): every product on one page with an Add button; the visitor builds a list across brands and sends it on WhatsApp or email; prices are quoted per job, never printed (this answers "Mapei price list Tanzania")`,
     `- [Specifier pack](${base}/specifier-pack): every product's BOQ clause, declared standards and data sheet edition, also as one CSV spreadsheet (${base}/specifier-pack.csv); no prices`,
     `- [HDPE waterproofing in Tanzania](${base}/oriental-yuhong/hdpe-waterproofing): OYH PMH-3080 Plus pre-applied membrane, data sheet and method statement`,
+    `- [Below-grade waterproofing in Tanzania](${base}/oriental-yuhong/below-grade-waterproofing): OYH's basement, tunnel and underground maintenance systems from its "Solutions for Below-Grade Structures" manual, layer by layer with the printed typical values; the manual as a PDF (${base}/tds/oriental-yuhong/below-grade-structures.pdf); products supplied to order`,
     `- [Sports flooring in Tanzania](${base}/oriental-yuhong/sports-flooring): OYH running tracks, sports courts and synthetic turf, with a system chooser, construction films and a material calculator`,
     ...SPORTS_SYSTEMS.map(
       (system) =>

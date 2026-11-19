@@ -123,6 +123,11 @@ const BRAND_SYSTEMS: ChromeLink[] = [
     sub: "Oriental Yuhong",
   },
   {
+    label: "Below-grade waterproofing",
+    href: "/oriental-yuhong/below-grade-waterproofing",
+    sub: "Oriental Yuhong · basements, tunnels, repair",
+  },
+  {
     label: "Fire rated cement",
     href: "/cmci/fire-rated-cement",
     sub: "CMCI",

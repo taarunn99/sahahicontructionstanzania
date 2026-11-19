@@ -24,6 +24,8 @@ const PICTURES: Record<string, string> = {
   "/oriental-yuhong/hdpe-waterproofing":
     "/images/oriental-yuhong/hdpe/basement.webp",
   "/oriental-yuhong/pmh-3080-plus": "/images/oriental-yuhong/hdpe/roll.webp",
+  "/oriental-yuhong/below-grade-waterproofing":
+    "/images/oriental-yuhong/below-grade/polymer-basement.webp",
   "/cmci": "/images/cmci/commercial.webp",
   "/cmci/fire-rated-cement": "/images/cmci/petrochemical.webp",
   "/vasa": "/images/vasa/rooms/spc8.webp",

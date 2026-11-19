@@ -37,6 +37,9 @@ const SPORTS = "/oriental-yuhong/sports-flooring";
 const FIXED = {
   "/tds/oriental-yuhong/pmh-3080-method-statement.pdf":
     "/oriental-yuhong/hdpe-waterproofing",
+  "/tds/oriental-yuhong/hdpe-brochure.pdf": "/oriental-yuhong/hdpe-waterproofing",
+  "/tds/oriental-yuhong/below-grade-structures.pdf":
+    "/oriental-yuhong/below-grade-waterproofing",
   "/tds/oriental-yuhong/sports/all-plastic-track.pdf": `${SPORTS}/all-plastic-track`,
   "/tds/oriental-yuhong/sports/artificial-turf.pdf": `${SPORTS}/artificial-turf`,
   "/tds/oriental-yuhong/sports/breathable-track.pdf": `${SPORTS}/breathable-track`,

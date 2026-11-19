@@ -27,6 +27,7 @@ const HEX_ALLOWED = new Set([
   "src/components/three-d/layer-stack-scene.ts",
   "src/components/sections/oyh/water-path.tsx",
   "src/config/vasa.ts",
+  "src/config/oyh-below-grade.ts",
   "src/app/oriental-yuhong/[item]/page.tsx",
   "src/app/oriental-yuhong/hdpe-waterproofing/page.tsx",
   "src/app/oriental-yuhong/sports-flooring/page.tsx",

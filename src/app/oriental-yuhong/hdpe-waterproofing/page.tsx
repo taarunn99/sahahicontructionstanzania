@@ -389,6 +389,18 @@ export default function HdpePage() {
                 pages: 7,
                 note: "June 2025",
               },
+              {
+                file: "/tds/oriental-yuhong/hdpe-brochure.pdf",
+                label: "OYH HDPE pre-applied membrane brochure",
+                pages: 14,
+                note: "50 MB, as issued",
+              },
+              {
+                file: "/tds/oriental-yuhong/below-grade-structures.pdf",
+                label: "OYH Solutions for Below-Grade Structures",
+                pages: 16,
+                note: "26 MB, the whole basement and tunnel manual",
+              },
             ]}
           />
           <p className="text-muted mt-5 max-w-3xl text-sm leading-relaxed">
@@ -412,6 +424,11 @@ export default function HdpePage() {
             label: "PMH-3080 Plus",
             href: "/oriental-yuhong/pmh-3080-plus",
             sub: "The membrane's own page",
+          },
+          {
+            label: "Below-grade waterproofing",
+            href: "/oriental-yuhong/below-grade-waterproofing",
+            sub: "The whole basement and tunnel system, layer by layer",
           },
           {
             label: "OYH products in East Africa",

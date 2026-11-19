@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check": "npm run typecheck && npm run lint && npm run test && npm run build && node scripts/audit-image-alts.mjs && node scripts/audit-copy.mjs && node scripts/build-canonical-headers.mjs --check && node scripts/verify-seo-registry.mjs && node scripts/audit-metadata.mjs",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build && node scripts/audit-image-alts.mjs && node scripts/audit-copy.mjs && node scripts/build-canonical-headers.mjs --check && node scripts/build-oyh-docs.mjs --check && node scripts/verify-seo-registry.mjs && node scripts/audit-metadata.mjs",
     "audit:metadata": "node scripts/audit-metadata.mjs",
     "verify:seo": "node scripts/verify-seo-registry.mjs",
     "assets:brand": "python3 scripts/extract-brand-svgs.py && node scripts/build-favicon.mjs",
@@ -21,7 +21,9 @@
     "assets:images": "node scripts/build-images.mjs",
     "assets:packshots": "node scripts/build-packshots.mjs",
     "assets:og": "node scripts/build-og-cards.mjs",
-    "assets:canonicals": "node scripts/build-canonical-headers.mjs"
+    "assets:canonicals": "node scripts/build-canonical-headers.mjs",
+    "assets:oyh-docs": "node scripts/build-oyh-docs.mjs",
+    "assets:oyh-below-grade": "node scripts/build-oyh-below-grade-pictures.mjs && node scripts/measure-pins.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

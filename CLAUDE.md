@@ -242,6 +242,20 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   fanned sheets to drag through in `journal-strip.tsx`, category chips, the archive link).
   Every `/blog` URL, the feed and the sitemap are untouched; the footer lists "Journal" and
   "Quote list" after the bar's items (`chromeNav.footerPages`). No redirect, no removal.
+- 2026-11-19, OYH's below-grade manual: the owner supplied "Solutions for Below-Grade
+  Structures" (16 A3 spreads). Built as `/oriental-yuhong/below-grade-waterproofing`
+  (owns "basement waterproofing Tanzania"): OYH's renders as **hotspot maps**
+  (`src/components/sections/oyh/hotspot-map.tsx`, pins measured off the PDF by
+  `scripts/measure-pins.mjs` into `oyh-below-grade-pins.json`; hover or tap a number, the
+  panel shows the layer, the product and the printed values), one `LayerStack` for the
+  slab, the "by structure" tables, every product with its typical values as printed
+  (`src/config/oyh-below-grade.ts`, all "supplied to order" with Add to quote list, the
+  two held products linking to their pages), the manual as a PDF. The OYH hub gained a
+  **Documentation** section listing all 17 OYH PDFs (`src/config/oyh-docs.ts` +
+  `oyh-docs.json` measured by `scripts/build-oyh-docs.mjs --check` in `npm run check`),
+  the HDPE brochure (50 MB) and the manual (26 MB) published whole by the owner's choice;
+  `DocumentList` (`src/components/sections/document-list.tsx`) is the shared download
+  rows, also used by the CMCI fire documents. Pictures: IMAGE-PROVENANCE 3p.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

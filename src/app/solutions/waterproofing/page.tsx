@@ -154,6 +154,11 @@ export default function WaterproofingPage() {
             sub: "OYH PMH-3080 Plus under foundation slabs",
           },
           {
+            label: "Below-grade waterproofing",
+            href: "/oriental-yuhong/below-grade-waterproofing",
+            sub: "OYH basement, tunnel and leak repair systems, layer by layer",
+          },
+          {
             label: "Oriental Yuhong",
             href: "/oriental-yuhong",
             sub: "OYH coatings, membranes and sealants",

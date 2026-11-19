@@ -15,6 +15,7 @@ import type { SeoRow } from "@/lib/seo";
 export const OYH_SLUGS = [
   "oriental-yuhong",
   "hdpe-waterproofing",
+  "below-grade-waterproofing",
   "yhcoat-1000",
   "pmh-3080-plus",
   "yhcolorwall-5300",
@@ -47,6 +48,15 @@ export const oyhSeo: Partial<Record<OyhSlug, SeoRow>> = {
     description:
       "HDPE waterproofing in Tanzania: OYH PMH-3080 Plus pre-applied membrane, 1.2 or 1.5 mm, under slabs and tunnels. Rolls held in Dar es Salaam. Ask for a quote.",
     stock: "held",
+  },
+  "below-grade-waterproofing": {
+    // OYH's "Solutions for Below-Grade Structures" manual (2026-11-19);
+    // the products are supplied to order, so no stock wording.
+    query: "basement waterproofing Tanzania",
+    titleOverride: "Basement Waterproofing Tanzania - OYH Below Grade | Sahihi",
+    description:
+      "Basement waterproofing in Tanzania: Oriental Yuhong HDPE and bituminous systems, waterstops, drainage boards, tunnel lining, layer by layer. Ask for a quote.",
+    stock: "order",
   },
   "yhcoat-1000": {
     query: "cementitious waterproofing slurry",

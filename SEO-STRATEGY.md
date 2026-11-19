@@ -328,7 +328,7 @@ check them in Search Console after launch.
 | waterproofing Tanzania | `/solutions/waterproofing` | E-M | high |
 | roof waterproofing Tanzania | `.../waterproofing/roof` | E | high. Lead with the "hidden roof" leak |
 | bathroom waterproofing | `.../waterproofing/bathroom` | E | medium |
-| basement waterproofing Tanzania | `.../waterproofing/basement` | E (inf) | high |
+| basement waterproofing Tanzania | BUILT 2026-11-19 as `/oriental-yuhong/below-grade-waterproofing` (OYH's below-grade manual as a page: hotspot renders, build-ups, typical values, products to order); a Mapei basement page would need its own query | E (inf) | high |
 | water tank waterproofing | `.../waterproofing/water-tank` | E (inf) | high |
 | swimming pool waterproofing Tanzania | `.../waterproofing/swimming-pool` | E (inf) | high, Zanzibar resorts |
 | tile adhesive Tanzania | `/solutions/tile-installation` | E | high, volume line |

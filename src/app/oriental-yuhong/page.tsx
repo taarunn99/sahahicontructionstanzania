@@ -22,6 +22,8 @@ import {
   oyhTds,
 } from "@/config/oriental-yuhong";
 import { packshot } from "@/config/packshots";
+import { DocumentList } from "@/components/sections/document-list";
+import { oyhDocCount, oyhDocGroups } from "@/config/oyh-docs";
 import { siteConfig } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 import {
@@ -214,15 +216,16 @@ export default function OrientalYuhongPage() {
               coatings for wet rooms, roofs, walls and floors, a polyurethane
               joint sealant, a rapid-setting waterplug and sports flooring.
             </p>
-            <dl className="border-deep grid grid-cols-3 border-t">
+            <dl className="border-deep grid grid-cols-2 border-t sm:grid-cols-4">
               {[
                 { value: oyhProducts.length, label: "Products" },
                 { value: sheets.length, label: "Data sheets" },
                 { value: calculators.length, label: "Calculators" },
+                { value: oyhDocCount, label: "Documents" },
               ].map((stat) => (
                 <div
                   key={stat.label}
-                  className="border-deep/20 border-r py-5 pr-3 not-first:pl-4 last:border-r-0"
+                  className="border-deep/20 border-r py-5 pr-3 nth-[2n]:border-r-0 nth-[2n]:pl-4 sm:not-first:pl-4 sm:last:border-r-0 sm:nth-[2n]:border-r"
                 >
                   <dd className="font-display text-phi-3 leading-none">
                     {stat.value}
@@ -237,11 +240,11 @@ export default function OrientalYuhongPage() {
         </Container>
       </section>
 
-      {/* ---- The two systems with a page of their own -------------------- */}
+      {/* ---- The three systems with a page of their own ------------------ */}
       <section className="bg-surface py-14 sm:py-20">
         <Container>
-          <p className="label-sh">Two systems</p>
-          <ul className="mt-6 grid gap-5 md:grid-cols-2">
+          <p className="label-sh">Three systems</p>
+          <ul className="mt-6 grid gap-5 md:grid-cols-3">
             {[
               {
                 href: "/oriental-yuhong/hdpe-waterproofing",
@@ -249,6 +252,13 @@ export default function OrientalYuhongPage() {
                 line: "A pre-applied membrane for slabs, tunnels and subways, in 3D.",
                 src: "/images/oriental-yuhong/hdpe/slab.webp",
                 alt: "A slab covered in white HDPE membrane, with piles coming through",
+              },
+              {
+                href: "/oriental-yuhong/below-grade-waterproofing",
+                title: "Below-grade waterproofing",
+                line: "Basements, tunnels and leak repair from OYH's manual, layer by layer, with the printed values.",
+                src: "/images/oriental-yuhong/below-grade/polymer-basement.webp",
+                alt: "OYH's cutaway render of a basement car park with its waterproofing layers",
               },
               {
                 href: "/oriental-yuhong/sports-flooring",
@@ -265,7 +275,7 @@ export default function OrientalYuhongPage() {
                       src={item.src}
                       alt={item.alt}
                       fill
-                      sizes="(min-width: 48rem) 48vw, 100vw"
+                      sizes="(min-width: 48rem) 32vw, 100vw"
                       className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </span>
@@ -418,6 +428,30 @@ export default function OrientalYuhongPage() {
         </Container>
       </section>
 
+      {/* ---- Documentation: every OYH PDF, to download ----------------- */}
+      <section
+        id="documents"
+        aria-labelledby="oyh-documents-heading"
+        className="bg-surface scroll-mt-24 py-16 sm:py-24"
+      >
+        <Container>
+          <p className="label-sh text-muted">Documentation</p>
+          <h2
+            id="oyh-documents-heading"
+            className="font-display text-phi-3 mt-5 max-w-3xl tracking-tight text-balance"
+          >
+            Every OYH document, as issued.
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed">
+            {oyhDocCount} PDFs from Oriental Yuhong: the data sheets of the
+            products we hold, the manuals and construction guides, and the
+            method statements. Published unaltered; download or open any of
+            them.
+          </p>
+          <DocumentList className="mt-10" groups={oyhDocGroups} />
+        </Container>
+      </section>
+
       {/* ---- OYH in East Africa: every OYH page, and the projects ---------- */}
       <section className="bg-accent py-16 sm:py-24">
         <Container>
@@ -471,6 +505,11 @@ export default function OrientalYuhongPage() {
             label: "HDPE waterproofing",
             href: "/oriental-yuhong/hdpe-waterproofing",
             sub: "Pre-applied membrane, in 3D",
+          },
+          {
+            label: "Below-grade waterproofing",
+            href: "/oriental-yuhong/below-grade-waterproofing",
+            sub: "Basements, tunnels and leak repair, layer by layer",
           },
           {
             label: "Waterproofing selector",
