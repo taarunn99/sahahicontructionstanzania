@@ -273,6 +273,13 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   Conflicts between the documents are in OPEN-QUESTIONS Q23 (data sheet wins). The
   brochure's photographs are stock pictures with watermarks and are not published; the
   cutaway is X-Calibur's own (IMAGE-PROVENANCE 3q). Everything is to order (owner).
+- 2026-11-21, OYH's posters: two of Oriental Yuhong's own posters (World Children's Day;
+  "Rain or Shine", YHColorWall-5300) posted on `/oriental-yuhong#posters` at the
+  director's request, as issued (`src/config/oyh-posters.ts`, `poster-wall.tsx`: pinned
+  sheets that lean to the pointer, tap to see whole in a native dialog, chips to the
+  products on them we hold). A 4K AI upscale was tried and rejected because it rewrote
+  the pack labels and the QR code (IMAGE-PROVENANCE 3r): **never AI-upscale a picture
+  with printed text on it.**
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

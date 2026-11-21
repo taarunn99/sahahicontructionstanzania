@@ -23,7 +23,9 @@ import {
 } from "@/config/oriental-yuhong";
 import { packshot } from "@/config/packshots";
 import { DocumentList } from "@/components/sections/document-list";
+import { PosterWall } from "@/components/sections/oyh/poster-wall";
 import { oyhDocCount, oyhDocGroups } from "@/config/oyh-docs";
+import { oyhPosters } from "@/config/oyh-posters";
 import { siteConfig } from "@/config/site";
 import { faqJsonLd, type FaqItem } from "@/lib/faq";
 import {
@@ -163,6 +165,14 @@ export default function OrientalYuhongPage() {
               name: "Oriental Yuhong",
               alternateName: ["OYH", "Yuhong"],
             },
+            image: oyhPosters.map((poster) => ({
+              "@type": "ImageObject",
+              contentUrl: `${siteConfig.url}${poster.src}`,
+              width: poster.width,
+              height: poster.height,
+              caption: poster.headline,
+              creditText: "Oriental Yuhong",
+            })),
             provider: {
               "@type": "Organization",
               name: siteConfig.legalName,
@@ -239,6 +249,9 @@ export default function OrientalYuhongPage() {
           </div>
         </Container>
       </section>
+
+      {/* ---- OYH's posters, as issued (the director, 2026-11-21) --------- */}
+      <PosterWall />
 
       {/* ---- The three systems with a page of their own ------------------ */}
       <section className="bg-surface py-14 sm:py-20">

@@ -86,8 +86,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(isRoute)
     .map((path) => ({
       path,
-      // The X-Calibur hub gained the authorised distributor certificate.
-      modified: path === "/x-calibur" ? "2026-11-19" : CATALOGUE_MODIFIED,
+      // The X-Calibur hub gained the authorised distributor certificate;
+      // the OYH hub gained OYH's posters on 2026-11-21.
+      modified:
+        path === "/x-calibur"
+          ? "2026-11-19"
+          : path === "/oriental-yuhong"
+            ? "2026-11-21"
+            : CATALOGUE_MODIFIED,
       priority: 0.8,
     }));
   const items = products
