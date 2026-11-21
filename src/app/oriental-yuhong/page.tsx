@@ -250,9 +250,6 @@ export default function OrientalYuhongPage() {
         </Container>
       </section>
 
-      {/* ---- OYH's posters, as issued (the director, 2026-11-21) --------- */}
-      <PosterWall />
-
       {/* ---- The three systems with a page of their own ------------------ */}
       <section className="bg-surface py-14 sm:py-20">
         <Container>
@@ -369,6 +366,9 @@ export default function OrientalYuhongPage() {
           </ul>
         </Container>
       </section>
+
+      {/* ---- OYH's posters, as issued (the director, 2026-11-21) --------- */}
+      <PosterWall className="border-deep/15 border-t" />
 
       {/* ---- Where each one goes -------------------------------------------- */}
       <section className="bg-surface py-16 sm:py-24">

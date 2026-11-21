@@ -18,6 +18,8 @@ import { cn } from "@/lib/utils";
  * the occasion as printed, the poster's own headline, one sentence of ours
  * and a chip to each product on it that we hold. Server component; the
  * lean and the lightbox are the client islands. Pictures as issued by OYH.
+ * Sits between the product cards and "Which one for which job" (owner,
+ * 2026-11-21), so it carries a hairline on top to part it from the cards.
  */
 export function PosterWall({ className }: { className?: string }) {
   return (
