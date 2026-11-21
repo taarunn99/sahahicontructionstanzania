@@ -342,3 +342,21 @@ Sahihi job or as the product's maker's photograph.
 ## 3r. OYH's posters (the director, 2026-11-21)
 
 `public/images/oriental-yuhong/posters/children-day.webp` (1036 x 1280) and `rain-or-shine.webp` (1031 x 1280) are two of Oriental Yuhong's own marketing posters ("For the World They're Building", World Children's Day, 20 November; "Rain or Shine. Comfort Within", YHColorWall-5300), received by the owner on WhatsApp on 2026-11-20 and posted on `/oriental-yuhong#posters` at the director's request. Published as issued: the originals (`assets/source/oriental-yuhong/posters/*.jpg`, gitignored) re-encoded to WebP by `scripts/build-oyh-posters.mjs` at their native size, no crop, no retouch, captioned as OYH's. The child on the first poster is OYH's picture, not a Sahihi photograph. A 4K upscale was tried the same day (Higgsfield, bytedance upscaler, 2 credits each, 4 in all) and REJECTED: at 3331 x 4096 the pack labels had been redrawn (YHColorWall-5300 read 8800, YHColorWall-8108 read 8105, 25 kg read 28 kg, "bituminous" was misspelt) and the QR code's modules were re-drawn, so the owner's condition that nothing change in the picture was not met. Rule from it: never AI-upscale a picture with printed text, pack labels or a QR code on it. The rejected files sit in `assets/source/oriental-yuhong/posters/rejected-4k-upscale/` (gitignored).
+
+## 3s. Blog 3D models, second set (Higgsfield, 2026-11-21)
+
+Five heroes for the five posts written for contractors, QS, engineers and architects (research in `research_notes/Contractor blog topics 2/`, gitignored). Same pipeline as 3c: a picture of a scale model of the building detail on white (gpt_image_2_6, 1:1), then Tripo H3.1 image to 3D (9 credits each). Tripo now returns about 1.5 million triangles and 2048 px textures (about 45 MB), so `scripts/compress-blog-model.sh` simplifies to about 31,000 triangles with 1024 px WebP textures and meshopt, the size of the first thirteen. Posters by `node scripts/build-blog-posters.mjs`. Illustrative, and captioned so. Balance 1,091.75 before, 1,026.75 after (images, upscale-free).
+
+| Model | Picture job | 3D job | Size | Post |
+|---|---|---|---|---|
+| `old-roof` | `a305cb0a-2fb6-4ad8-acef-ae32b1e5c6a4` | `617fceb1-3e58-4f9a-bb72-f803a0c4db17` | 352 KB | waterproofing-old-concrete-roof |
+| `bathroom-leak` | `32009471-7fa6-45d4-8bbd-dfdd82a772bc` | `bbb85a83-51a8-4f1d-a8ac-e924c79a42d2` | 432 KB | bathroom-leaking-into-floor-below |
+| `hospital-floor` | `ab214ff3-ab6c-4bd0-b09a-9710524a8b79` | `2c3d32c3-1d49-4020-86b6-5a3b3880c0b7` | 321 KB | hospital-flooring-material |
+| `fireproofed-beam` | `f45b228e-7e25-451a-97fb-5eada09178c6` | `3dceb8ad-126e-4b41-8df3-656b9f1689d4` | 393 KB | cementitious-vs-intumescent-fireproofing |
+| `boq-roof` | `cf45ab20-aa23-4dfb-b4b4-0178a887f3c5` | `700f51b6-d8db-4d90-aa18-8edf754fc05c` | 292 KB | waterproofing-boq-description |
+
+A sixth picture, `assets/source/blog-3d/src/repaired-beam.png` (job `f33423d6-cff9-4261-93d3-e9407a206079`, a beam with a broken-out area and a repaired patch), was made for an EN 1504 repair mortar post that was moved to the next round; it is not published and has no model yet.
+
+## 3t. PMH-3080 pack picture (owner, 2026-11-21)
+
+`public/products/oriental-yuhong/pmh-3080-plus.webp` (900 square, on white) and `cutout/pmh-3080-plus.webp` (alpha) are the roll printed for "PMH-3080 / PMH-3080 PLUS" on page 5 (spread 08) of OYH's "Solutions for Below-Grade Structures" manual (the same file published at `/oriental-yuhong/below-grade-waterproofing`), lifted out as embedded with `pdfimages -png` (index 11, 1254 x 585, its own transparency mask at index 12) and put through `scripts/prepare-oyh-packshots.mjs` and `scripts/build-packshots.mjs` like the other OYH pack pictures. Nothing redrawn, upscaled or retouched. The manual prints one picture for PMH-3080 and PMH-3080 PLUS, so it stands for the PLUS we hold.

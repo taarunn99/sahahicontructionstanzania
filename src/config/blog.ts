@@ -141,7 +141,10 @@ const toolModel = (name: string, alt: string): PostHero => ({
   alt,
 });
 
-type Entry = Omit<PostMeta, "datePublished" | "dateModified">;
+type Entry = Omit<PostMeta, "datePublished" | "dateModified"> & {
+  /** ISO date; posts without one were published with the Journal. */
+  published?: string;
+};
 
 const entries: Entry[] = [
   {
@@ -759,12 +762,163 @@ const entries: Entry[] = [
       "why-epoxy-floors-blister-and-peel",
     ],
   },
+  {
+    published: "2026-11-21",
+    slug: "waterproofing-old-concrete-roof",
+    title: "Waterproofing an old concrete roof without stripping it",
+    metaTitle: "Waterproofing an Old Concrete Roof Without Stripping It",
+    description:
+      "Waterproofing an old concrete roof: survey ponding, cracks, screed and outlets, decide strip or overcoat, then apply YHColorWall-5300 at 3 kg/m² in 20 kg pails.",
+    category: "waterproofing",
+    kind: "cluster",
+    primaryQuery: "waterproofing old concrete roof",
+    secondaryQueries: [
+      "how to fix a leaking flat concrete roof",
+      "waterproofing existing concrete slab",
+      "reflective roof coating heat reduction",
+    ],
+    hero: madeModel(
+      "old-roof",
+      "Model of an old flat concrete roof with parapets, half weathered and cracked, half coated white",
+    ),
+    productCta: {
+      href: "/oriental-yuhong/yhcolorwall-5300",
+      label: "YHColorWall-5300",
+      line: "Oriental Yuhong",
+    },
+    related: [
+      "why-hidden-roof-houses-leak",
+      "masika-vuli-builders-rain-calendar",
+      "spalling-concrete-repair",
+    ],
+  },
+  {
+    published: "2026-11-21",
+    slug: "bathroom-leaking-into-floor-below",
+    title:
+      "Bathroom leaking into the floor below: find the source, then fix it",
+    metaTitle: "Bathroom leaking into floor below: find it, then fix it",
+    description:
+      "Bathroom leaking into the floor below: test the pipes, trap, grout and upstand, see what can be fixed without lifting tiles, then redo the wet room step by step",
+    category: "waterproofing",
+    kind: "cluster",
+    primaryQuery: "bathroom leaking into floor below",
+    secondaryQueries: [
+      "bathroom leaking through ceiling",
+      "toilet waterproofing process step by step",
+      "can you fix a leaking shower without removing tiles",
+    ],
+    hero: madeModel(
+      "bathroom-leak",
+      "Model of a tiled shower corner cut open: blue membrane under the tiles, a damp stain on the ceiling below",
+    ),
+    productCta: {
+      href: "/mapei/waterproofing/mapelastic-aquadefense",
+      label: "Mapelastic AquaDefense",
+      line: "Waterproofing",
+    },
+    related: [
+      "cementitious-vs-liquid-membrane-waterproofing",
+      "mapei-waiting-times-before-tiling-grouting-walking",
+      "epoxy-grout-vs-cement-grout",
+    ],
+  },
+  {
+    published: "2026-11-21",
+    slug: "hospital-flooring-material",
+    title: "Hospital flooring: which material for which room",
+    metaTitle: "Hospital Flooring Material: Which Floor for Which Room",
+    description:
+      "Hospital flooring material room by room: wards, corridors, theatres, labs, kitchens and wet rooms, with seamless coving, slip, antistatic and moisture checks.",
+    category: "flooring",
+    kind: "cluster",
+    primaryQuery: "hospital flooring material",
+    secondaryQueries: [
+      "what kind of flooring do hospitals use",
+      "operating theatre flooring specification",
+      "epoxy flooring for hospitals",
+    ],
+    hero: madeModel(
+      "hospital-floor",
+      "Model of a seamless green resin floor coved up a white wall, over a concrete slab",
+    ),
+    productCta: {
+      href: "/x-calibur/x-tech-epoxyfloor-sl1",
+      label: "X-Tech EpoxyFloor SL1",
+      line: "X-Calibur",
+    },
+    related: [
+      "why-epoxy-floors-blister-and-peel",
+      "epoxy-floor-thickness",
+      "screed-or-self-levelling-compound",
+    ],
+  },
+  {
+    published: "2026-11-21",
+    slug: "cementitious-vs-intumescent-fireproofing",
+    title: "Cementitious or intumescent fireproofing for structural steel",
+    metaTitle: "Cementitious vs Intumescent Fireproofing for Steel",
+    description:
+      "Cementitious vs intumescent fireproofing for structural steel: how each works, thickness, finish, exposure, UL ratings, a worked X854 example and submittals.",
+    category: "building-in-tanzania",
+    kind: "cluster",
+    primaryQuery: "cementitious vs intumescent fireproofing",
+    secondaryQueries: [
+      "what is cementitious fireproofing",
+      "how thick is 2 hour fireproofing",
+      "fire protection of structural steel",
+    ],
+    hero: madeModel(
+      "fireproofed-beam",
+      "Model of a steel beam and column, half bare steel, half sprayed with grey cementitious fireproofing",
+    ),
+    productCta: {
+      href: "/cmci/fire-rated-cement",
+      label: "Fire rated cement",
+      line: "Fireproofing",
+    },
+    related: [
+      "construction-companies-tanzania-crb-classes",
+      "how-to-grout-a-base-plate",
+      "spalling-concrete-repair",
+    ],
+  },
+  {
+    published: "2026-11-21",
+    slug: "waterproofing-boq-description",
+    title: "Waterproofing in the BOQ: how to describe, measure and order it",
+    metaTitle: "Waterproofing description in BOQ: measure and order it",
+    description:
+      'Waterproofing description in BOQ: model items, AAQS units and measuring rules, "or approved equivalent" wording, and net BOQ area to packs from the data sheets.',
+    category: "waterproofing",
+    kind: "cluster",
+    primaryQuery: "waterproofing description in boq",
+    secondaryQueries: [
+      "boq for waterproofing work",
+      "how to calculate waterproofing quantity",
+      "or approved equivalent",
+    ],
+    hero: madeModel(
+      "boq-roof",
+      "Model of a flat roof slab with a grey waterproofing membrane turned up the parapets, two outlets and dimension lines",
+    ),
+    productCta: {
+      href: "/mapei/waterproofing",
+      label: "Mapei waterproofing",
+      line: "Waterproofing",
+    },
+    related: [
+      "waterproofing-coverage-per-square-metre",
+      "cementitious-vs-liquid-membrane-waterproofing",
+      "why-hidden-roof-houses-leak",
+    ],
+  },
 ];
 
-export const posts: PostMeta[] = entries.map((entry) => ({
+export const posts: PostMeta[] = entries.map(({ published, ...entry }) => ({
   ...entry,
-  datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  datePublished: published ?? PUBLISHED,
+  dateModified: published ?? PUBLISHED,
 }));
 
 export const postBySlug = Object.fromEntries(

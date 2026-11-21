@@ -399,6 +399,18 @@ registry; its build check refuses a duplicate primary query):
 | /blog/construction-companies-tanzania-crb-classes | construction companies in Tanzania | Building in Tanzania (pillar) |
 | /blog/masika-vuli-builders-rain-calendar | masika and vuli rainy season | Building in Tanzania |
 
+Added 2026-11-21 for contractors, quantity surveyors, engineers and architects
+on public housing, hospitals and government buildings (research in
+`research_notes/Contractor blog topics 2/`, gitignored; no client named):
+
+| Post | Primary query | Category |
+|---|---|---|
+| /blog/waterproofing-old-concrete-roof | waterproofing old concrete roof | Waterproofing |
+| /blog/bathroom-leaking-into-floor-below | bathroom leaking into floor below | Waterproofing |
+| /blog/waterproofing-boq-description | waterproofing description in boq | Waterproofing |
+| /blog/hospital-flooring-material | hospital flooring material | Flooring |
+| /blog/cementitious-vs-intumescent-fireproofing | cementitious vs intumescent fireproofing | Building in Tanzania |
+
 Brand-versus-brand comparisons (Mapei vs Sika) rank well and were used on
 gcbuae, but here the brand is a principal: clear the wording with Mapei
 before publishing one.

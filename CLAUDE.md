@@ -280,6 +280,14 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   products on them we hold). A 4K AI upscale was tried and rejected because it rewrote
   the pack labels and the QR code (IMAGE-PROVENANCE 3r): **never AI-upscale a picture
   with printed text on it.**
+- 2026-11-21, five Journal posts for contractors, QS, engineers and architects on public
+  housing, hospitals and government buildings (research in `research_notes/Contractor blog
+  topics 2/`, no client named): old concrete roof without stripping, bathroom leaking into
+  the floor below, hospital flooring by room, cementitious vs intumescent fireproofing
+  (only cementitious is sold), waterproofing in the BOQ (AAQS 2015, PPR 2024). Each has a
+  Tripo 3D hero (`scripts/compress-blog-model.sh`: Tripo now returns ~1.5 M triangles,
+  simplified to ~31,000), IMAGE-PROVENANCE 3s. Posts can carry `published` in
+  `src/config/blog.ts`; these say 2026-11-21.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

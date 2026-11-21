@@ -394,6 +394,14 @@
     }
   },
   "oriental-yuhong": {
+    "pmh-3080-plus": {
+      "src": "/products/oriental-yuhong/pmh-3080-plus.webp",
+      "cutout": "/products/oriental-yuhong/cutout/pmh-3080-plus.webp",
+      "alpha": true,
+      "width": 900,
+      "height": 900,
+      "source": null
+    },
     "yhcoat-1000": {
       "src": "/products/oriental-yuhong/yhcoat-1000.webp",
       "cutout": "/products/oriental-yuhong/cutout/yhcoat-1000.webp",

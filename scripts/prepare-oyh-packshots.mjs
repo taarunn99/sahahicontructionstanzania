@@ -68,6 +68,10 @@ async function single(slug, base, index) {
 await single("yhcoat-2060", "yhcoat-2060", 2);
 await single("yhcolorwall-5300", "yhcolorwall-5300", 4);
 await single("yhrepair-2516", "yhrepair-2516", 3);
+// PMH-3080 / PMH-3080 PLUS: the roll on page 5 (spread 08) of OYH's
+// "Solutions for Below-Grade Structures" manual, pdfimages index 11 with its
+// mask at 12 (owner, 2026-11-21). The manual prints one picture for both.
+await single("pmh-3080-plus", "pmh-3080-plus", 11);
 
 // YHPUSeal: flood-fill the black surround from the edges to transparent.
 {

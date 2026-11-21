@@ -1,5 +1,10 @@
 import type { PostContent } from "@/lib/blog";
 
+import { content as waterproofingBoqDescription } from "./waterproofing-boq-description";
+import { content as waterproofingOldConcreteRoof } from "./waterproofing-old-concrete-roof";
+import { content as hospitalFlooringMaterial } from "./hospital-flooring-material";
+import { content as cementitiousVsIntumescentFireproofing } from "./cementitious-vs-intumescent-fireproofing";
+import { content as bathroomLeakingIntoFloorBelow } from "./bathroom-leaking-into-floor-below";
 import { content as cementitiousVsLiquidMembraneWaterproofing } from "./cementitious-vs-liquid-membrane-waterproofing";
 import { content as constructionCompaniesTanzaniaCrbClasses } from "./construction-companies-tanzania-crb-classes";
 import { content as epoxyFloorThickness } from "./epoxy-floor-thickness";
@@ -57,4 +62,10 @@ export const postContent: Record<string, PostContent> = {
   "why-epoxy-floors-blister-and-peel": whyEpoxyFloorsBlisterAndPeel,
   "why-floor-tiles-pop-up": whyFloorTilesPopUp,
   "why-hidden-roof-houses-leak": whyHiddenRoofHousesLeak,
+  "bathroom-leaking-into-floor-below": bathroomLeakingIntoFloorBelow,
+  "cementitious-vs-intumescent-fireproofing":
+    cementitiousVsIntumescentFireproofing,
+  "hospital-flooring-material": hospitalFlooringMaterial,
+  "waterproofing-old-concrete-roof": waterproofingOldConcreteRoof,
+  "waterproofing-boq-description": waterproofingBoqDescription,
 };

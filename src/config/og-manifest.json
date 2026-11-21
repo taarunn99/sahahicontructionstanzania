@@ -339,6 +339,10 @@
     "url": "/og/blog.png",
     "alt": "Building Guides for Tanzania - Waterproofing, Tiling, Floors, Sahihi Construction Chemicals"
   },
+  "/blog/bathroom-leaking-into-floor-below": {
+    "url": "/og/blog__bathroom-leaking-into-floor-below.png",
+    "alt": "Bathroom leaking into floor below: find it, then fix it, Sahihi Construction Chemicals"
+  },
   "/blog/category/building-in-tanzania": {
     "url": "/og/blog__category__building-in-tanzania.png",
     "alt": "Building in Tanzania Guides - Rain Calendar, CRB Classes, Sahihi Construction Chemicals"
@@ -363,6 +367,10 @@
     "url": "/og/blog__category__waterproofing.png",
     "alt": "Waterproofing Guides for Tanzania - Roofs, Tanks, Wet Rooms, Sahihi Construction Chemicals"
   },
+  "/blog/cementitious-vs-intumescent-fireproofing": {
+    "url": "/og/blog__cementitious-vs-intumescent-fireproofing.png",
+    "alt": "Cementitious vs Intumescent Fireproofing for Steel, Sahihi Construction Chemicals"
+  },
   "/blog/cementitious-vs-liquid-membrane-waterproofing": {
     "url": "/og/blog__cementitious-vs-liquid-membrane-waterproofing.png",
     "alt": "Cementitious vs liquid membrane waterproofing: which to use, Sahihi Construction Chemicals"
@@ -378,6 +386,10 @@
   "/blog/epoxy-grout-vs-cement-grout": {
     "url": "/og/blog__epoxy-grout-vs-cement-grout.png",
     "alt": "Epoxy grout vs cement grout: which goes where, Sahihi Construction Chemicals"
+  },
+  "/blog/hospital-flooring-material": {
+    "url": "/og/blog__hospital-flooring-material.png",
+    "alt": "Hospital Flooring Material: Which Floor for Which Room, Sahihi Construction Chemicals"
   },
   "/blog/how-to-grout-a-base-plate": {
     "url": "/og/blog__how-to-grout-a-base-plate.png",
@@ -431,9 +443,17 @@
     "url": "/og/blog__underground-water-tank-waterproofing.png",
     "alt": "Underground water tank waterproofing: a practical guide, Sahihi Construction Chemicals"
   },
+  "/blog/waterproofing-boq-description": {
+    "url": "/og/blog__waterproofing-boq-description.png",
+    "alt": "Waterproofing description in BOQ: measure and order it, Sahihi Construction Chemicals"
+  },
   "/blog/waterproofing-coverage-per-square-metre": {
     "url": "/og/blog__waterproofing-coverage-per-square-metre.png",
     "alt": "Waterproofing coverage per square metre: a kg/m² guide, Sahihi Construction Chemicals"
+  },
+  "/blog/waterproofing-old-concrete-roof": {
+    "url": "/og/blog__waterproofing-old-concrete-roof.png",
+    "alt": "Waterproofing an Old Concrete Roof Without Stripping It, Sahihi Construction Chemicals"
   },
   "/blog/when-to-tile-on-self-levelling-compound": {
     "url": "/og/blog__when-to-tile-on-self-levelling-compound.png",

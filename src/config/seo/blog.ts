@@ -48,6 +48,11 @@ export const BLOG_KEYS = [
   "how-to-grout-a-base-plate",
   "construction-companies-tanzania-crb-classes",
   "masika-vuli-builders-rain-calendar",
+  "waterproofing-old-concrete-roof",
+  "bathroom-leaking-into-floor-below",
+  "hospital-flooring-material",
+  "cementitious-vs-intumescent-fireproofing",
+  "waterproofing-boq-description",
 ] as const;
 
 export type BlogKey = (typeof BLOG_KEYS)[number];
@@ -66,7 +71,8 @@ export const blogSeo: Partial<Record<BlogKey, SeoRow>> = {
   // The six categories
   "category/waterproofing": {
     query: "waterproofing guides Tanzania",
-    titleOverride: "Waterproofing Guides for Tanzania - Roofs, Tanks, Wet Rooms",
+    titleOverride:
+      "Waterproofing Guides for Tanzania - Roofs, Tanks, Wet Rooms",
     description:
       "Guides to waterproofing in Tanzania: why hidden roofs leak, sealing underground tanks, kg per m2 for each membrane and which type suits which surface.",
     stock: "enquire",
@@ -133,7 +139,8 @@ export const blogSeo: Partial<Record<BlogKey, SeoRow>> = {
   },
   "cementitious-vs-liquid-membrane-waterproofing": {
     query: "cementitious vs liquid membrane waterproofing",
-    titleOverride: "Cementitious vs liquid membrane waterproofing: which to use",
+    titleOverride:
+      "Cementitious vs liquid membrane waterproofing: which to use",
     description:
       "Cementitious, liquid or acrylic membrane: the three families compared from data sheets by uses, exposure and consumption, for bathroom, roof, basement and tank.",
     stock: "enquire",
@@ -269,9 +276,45 @@ export const blogSeo: Partial<Record<BlogKey, SeoRow>> = {
   },
   "masika-vuli-builders-rain-calendar": {
     query: "masika and vuli rainy season",
-    titleOverride: "Masika and Vuli Rainy Season: A Tanzanian Builder's Calendar",
+    titleOverride:
+      "Masika and Vuli Rainy Season: A Tanzanian Builder's Calendar",
     description:
       "When masika, vuli and msimu fall in each Tanzanian region, from TMA, and when to schedule roof waterproofing, concrete pours, terrace tiling and resin floors.",
+    stock: "enquire",
+  },
+  "waterproofing-old-concrete-roof": {
+    query: "waterproofing old concrete roof",
+    titleOverride: "Waterproofing an Old Concrete Roof Without Stripping It",
+    description:
+      "Waterproofing an old concrete roof: survey ponding, cracks, screed and outlets, decide strip or overcoat, then apply YHColorWall-5300 at 3 kg/m² in 20 kg pails.",
+    stock: "enquire",
+  },
+  "bathroom-leaking-into-floor-below": {
+    query: "bathroom leaking into floor below",
+    titleOverride: "Bathroom leaking into floor below: find it, then fix it",
+    description:
+      "Bathroom leaking into the floor below: test the pipes, trap, grout and upstand, see what can be fixed without lifting tiles, then redo the wet room step by step",
+    stock: "enquire",
+  },
+  "hospital-flooring-material": {
+    query: "hospital flooring material",
+    titleOverride: "Hospital Flooring Material: Which Floor for Which Room",
+    description:
+      "Hospital flooring material room by room: wards, corridors, theatres, labs, kitchens and wet rooms, with seamless coving, slip, antistatic and moisture checks.",
+    stock: "enquire",
+  },
+  "cementitious-vs-intumescent-fireproofing": {
+    query: "cementitious vs intumescent fireproofing",
+    titleOverride: "Cementitious vs Intumescent Fireproofing for Steel",
+    description:
+      "Cementitious vs intumescent fireproofing for structural steel: how each works, thickness, finish, exposure, UL ratings, a worked X854 example and submittals.",
+    stock: "enquire",
+  },
+  "waterproofing-boq-description": {
+    query: "waterproofing description in boq",
+    titleOverride: "Waterproofing description in BOQ: measure and order it",
+    description:
+      'Waterproofing description in BOQ: model items, AAQS units and measuring rules, "or approved equivalent" wording, and net BOQ area to packs from the data sheets.',
     stock: "enquire",
   },
 };
