@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import oyhModels from "@/config/oyh-models.json";
 import { notFound } from "next/navigation";
 
+import { PmhSystem } from "@/components/sections/oyh/pmh-system";
 import { ProductDetail } from "@/components/sections/product/product-detail";
 import { LayerStack } from "@/components/three-d/layer-stack";
 import { Container } from "@/components/ui/container";
@@ -126,6 +127,7 @@ export default async function OyhItemPage({ params }: { params: Params }) {
               >
                 HDPE waterproofing, explained
               </FlowButton>
+              <PmhSystem />
             </Container>
           </section>
         ) : undefined
