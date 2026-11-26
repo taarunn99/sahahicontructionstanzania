@@ -308,8 +308,11 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   `assets/source/owner-supplied/oyh/pictures-2026-11-26/`, IMAGE-PROVENANCE 3v) and a 3D
   model each (41 OYH models now). The 16 for which no picture exists anywhere carry an
   illustrative scene (`productScenes`, "Illustration" tag, IMAGE-PROVENANCE 3w) by the
-  owner's instruction "wherever there is no picture generate it"; still no pack shot and no
-  3D for those until OYH sends a picture.
+  owner's instruction "wherever there is no picture generate it", then, the same evening,
+  "generate 16 product images": each carries an illustrated pack (plain container or profile,
+  no logo, no label, no text; `OYH_ILLUSTRATED`, "Illustration" tag, IMAGE-PROVENANCE 3x)
+  and a 3D model of it. The six products with no data sheet get no page (owner: "no hope
+  they are coming").
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

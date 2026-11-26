@@ -2,8 +2,10 @@ import manifest from "@/config/packshots.json";
 
 /**
  * The manufacturers' own pack shots (scripts/build-packshots.mjs).
- * Never generated. A product with no official picture returns null and the
- * page shows its name in type instead.
+ * Never generated, with one exception the owner asked for: the sixteen OYH
+ * products no picture of exists carry the site's own illustration of a plain
+ * pack, tagged so (OYH_ILLUSTRATED, docs/IMAGE-PROVENANCE.md 3x). A product
+ * with no picture returns null and the page shows its name in type instead.
  */
 export type Packshot = {
   src: string;

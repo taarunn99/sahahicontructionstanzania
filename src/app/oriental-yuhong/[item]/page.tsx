@@ -25,6 +25,7 @@ import {
   oyhOtherDocuments,
   oyhSafetySheets,
   oyhStock,
+  OYH_ILLUSTRATED,
 } from "@/config/oyh-range";
 import { packshot } from "@/config/packshots";
 import { productScenes } from "@/config/product-scenes";
@@ -93,6 +94,7 @@ export default async function OyhItemPage({ params }: { params: Params }) {
       position={{ number: index + 1, count }}
       image={packshot("oriental-yuhong", product.slug)}
       scene={productScenes[product.slug] ?? null}
+      imageIllustrative={OYH_ILLUSTRATED.has(product.slug)}
       model={(oyhModels as Record<string, string>)[product.slug] ?? null}
       content={oyhContent(product.slug)}
       document={oyhTds[product.slug] ?? null}

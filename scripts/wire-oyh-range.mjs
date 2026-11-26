@@ -212,12 +212,30 @@ async function supplied(file, crop) {
     .png()
     .toBuffer();
 }
+/**
+ * The site's own illustration of a pack (owner, 2026-11-26, "generate 16
+ * product images": OYH has no picture of these). A gpt_image_2_6 render of
+ * a plain container or profile on white, no logo, no label, no text, master
+ * in assets/source/generated/<id>.png (IMAGE-PROVENANCE 3x). Trimmed to the
+ * object (the ground is near white, hence the threshold). The page tags it
+ * "Illustration" (OYH_ILLUSTRATED in src/config/oyh-range.ts).
+ */
+const generated = (id) =>
+  sharp(`assets/source/generated/${id}.png`)
+    .toColourspace("srgb")
+    .trim({ threshold: 24 })
+    .png()
+    .toBuffer();
 const picture = (pdf, spec) =>
-  spec.file
+  spec.generated
+    ? generated(spec.generated)
+    : spec.file
     ? supplied(spec.file, spec.crop)
     : cutout(pdf, spec.pdfPage, spec.imageIndex, spec.maskIndex);
 const sourceLine = (r, spec) =>
-  spec.file
+  spec.generated
+    ? `${r.slug}|site illustration of the pack, generated (Higgsfield gpt_image_2_6, job ${spec.job}, master ${spec.generated}), IMAGE-PROVENANCE 3x`
+    : spec.file
     ? `${r.slug}|OYH's own picture of ${r.name}, supplied by the owner on ${spec.supplied ?? "2026-11-26"} (${spec.file})`
     : `${r.slug}|OYH technical data sheet ${r.name}, embedded picture (page ${spec.pdfPage})`;
 

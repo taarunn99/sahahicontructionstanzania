@@ -87,6 +87,12 @@ export type ProductDetailProps = {
   position: { number: number; count: number };
   image: { src: string; width: number; height: number } | null;
   /**
+   * The pack picture is the site's own illustration of the pack, not the
+   * maker's (OYH, owner 2026-11-26, docs/IMAGE-PROVENANCE.md 3x): tagged
+   * "Illustration" and captioned so.
+   */
+  imageIllustrative?: boolean;
+  /**
    * Where there is no pack picture: an illustrative picture of the product
    * in use (generated, docs/IMAGE-PROVENANCE.md). Never a pack shot and never
    * captioned as a Sahihi job.
@@ -219,6 +225,7 @@ export function ProductDetail({
   back,
   position,
   image,
+  imageIllustrative = false,
   scene,
   content,
   document,
@@ -433,14 +440,14 @@ export function ProductDetail({
                     <ModelViewer
                       model={model}
                       poster={image}
-                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: the pack`}
+                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: ${imageIllustrative ? "an illustration of the pack" : "the pack"}`}
                       preload
                       frontOnly
                     />
                   ) : image ? (
                     <Image
                       src={image.src}
-                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: the pack`}
+                      alt={`${brand.name} ${product.name}, ${product.type.toLowerCase()}: ${imageIllustrative ? "an illustration of the pack" : "the pack"}`}
                       fill
                       preload
                       sizes="(min-width: 64rem) 42vw, 100vw"
@@ -473,6 +480,11 @@ export function ProductDetail({
                       </p>
                     </div>
                   )}
+                  {image && imageIllustrative && (
+                    <span className="bg-deep/80 text-chalk absolute top-4 right-4 z-10 rounded-full px-3 py-1 text-xs">
+                      Illustration
+                    </span>
+                  )}
                 </div>
                 {!image && scene && (
                   <figcaption className="spec-sh text-muted mt-5 leading-relaxed print:hidden">
@@ -485,7 +497,11 @@ export function ProductDetail({
                 )}
                 {image && (
                   <figcaption className="spec-sh text-muted mt-3 leading-relaxed print:hidden">
-                    {brand.name}&apos;s own picture
+                    {imageIllustrative ? (
+                      <>An illustration of the pack, not {brand.name}&apos;s picture</>
+                    ) : (
+                      <>{brand.name}&apos;s own picture</>
+                    )}
                     {model &&
                       ", turned into a 3D model you can turn across its front"}
                     . {held ? "The pack we stock" : "Supplied to order"}:{" "}

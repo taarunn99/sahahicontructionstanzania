@@ -433,7 +433,7 @@ The owner supplied 16 files in "OYH Product Pictures" (OYH's own product renders
 
 ## 3w. OYH product scenes for the sixteen with no picture at all (Higgsfield, 2026-11-26)
 
-Owner, 2026-11-26, on the sixteen OYH products for which no picture exists anywhere: "wherever there is no picture generate it". Pack shots are never generated (3b), so these follow 3l: one illustrative application scene per product, showing the use its data sheet names, shown by the product template with the "Illustration" tag and the caption "An illustration of where it is used, not a Sahihi job", and replaced by OYH's own pack picture the day one arrives. `gpt_image_2_6`, quality high, 2k, 3:2 (2048 x 1360), 16 pictures; prompts asked for no text, logos, labels or faces. Masters `assets/source/generated/P19..P34.png` (gitignored), derivatives `public/images/scenes/<slug>.webp` by `node scripts/build-images.mjs`, alt text in `src/config/product-scenes.ts`; the Open Graph card of such a page uses the scene. No 3D model: a model of an unlabelled drum or a guessed profile would invent the pack.
+Owner, 2026-11-26, on the sixteen OYH products for which no picture exists anywhere: "wherever there is no picture generate it". Pack shots are never generated (3b), so these follow 3l: one illustrative application scene per product, showing the use its data sheet names, shown by the product template with the "Illustration" tag and the caption "An illustration of where it is used, not a Sahihi job", and replaced by OYH's own pack picture the day one arrives. `gpt_image_2_6`, quality high, 2k, 3:2 (2048 x 1360), 16 pictures; prompts asked for no text, logos, labels or faces. Masters `assets/source/generated/P19..P34.png` (gitignored), derivatives `public/images/scenes/<slug>.webp` by `node scripts/build-images.mjs`, alt text in `src/config/product-scenes.ts`; the Open Graph card of such a page uses the scene. Superseded the same evening by 3x: the owner asked for product images, so these pages now carry an illustrated pack and the scenes stay as the `/quote` card fallback only.
 
 | ID | Product | Job id | Prompt (short) |
 |---|---|---|---|
@@ -453,3 +453,41 @@ Owner, 2026-11-26, on the sixteen OYH products for which no picture exists anywh
 | P32 | `oyh-r100h` | 8a350235-4dbe-4c24-b6a0-2b98f1d73cc5 | Self-compacting concrete through a dense column cage, pump hose above |
 | P33 | `oyh-s104c` | 84356705-31cd-400f-af00-821a47fcecdb | Slump test beside a truck mixer, cone lifted, tape measuring the drop, silos |
 | P34 | `oyh-s104s` | afb8fe52-b7bd-4770-b037-2f0e1e333b1e | Line of truck mixers on a hot highway beside a batching plant |
+
+## 3x. OYH illustrated packs for the sixteen with no picture (Higgsfield, 2026-11-26, evening)
+
+Owner, 2026-11-26, after seeing the scenes of 3w: "generate 16 product images". The sixteen products have no picture anywhere, and OYH's missing sheets are not coming ("I've asked but no hope"). The one rule kept: nothing on the picture is claimed as OYH's. Each is a studio render of a plain container or profile on white, **no logo, no label, no text**, shaped from the pack line of the data sheet (roll widths, pail and drum sizes, the waterbar's section, the waterstop's bulb and ribs, the IBC); the four PCE admixtures, all "1000 L IBCs", share one render. `gpt_image_2_6`, quality high, 2k, 1:1, 13 pictures. Masters `assets/source/generated/P41..P53.png` (gitignored); `packshot: { generated, job }` in each product's record, trimmed by `scripts/wire-oyh-range.mjs` and built by `scripts/build-packshots.mjs` like every pack shot (on white, no alpha). On the page the picture carries the "Illustration" tag and the caption "An illustration of the pack, not Oriental Yuhong's picture" (`OYH_ILLUSTRATED` in `src/config/oyh-range.ts`, `imageIllustrative` on the product template); `sources.txt` says "site illustration". The 3b rule stands for every manufacturer's real pack: these are the exception the owner asked for, and each is replaced by OYH's own picture the day one arrives.
+
+| ID | Product | Job id | What it shows |
+|---|---|---|---|
+| P41 | `pmh-3046` | 470f3286-3950-431a-af4d-d695d46e8a9d | White HDPE self-adhesive roll, liner lifted at the end |
+| P42 | `yhshield-7502` | feef3858-59d5-4153-95bb-f2e49704b46e | Black sanded torch-on bitumen roll |
+| P43 | `yhacgrout-2101` | 653b877d-bc02-46e6-bdfa-3a519f13ca0d | Two white 10 L pails and two small bags of powder |
+| P44 | `yhpugrout-2102` | a9786434-37e7-4a4e-a9a2-276d453240bc | White 20 kg tin-plate drum |
+| P45 | `yhepgrout-2106` | 25f27819-7cb1-458c-9cce-7d1db23e796f | Two white 10 L metal drums |
+| P46 | `yhepoxy-gr90` | 194a6255-92b3-49fd-b628-70f78d1b0fe8 | Valve bag, round pail and square tin |
+| P47 | `yhinjehose` | 90c7d843-7074-4088-ba63-bda7d066fa12 | Coil of injection hose, clear PVC tube, clips |
+| P48 | `yhswellseal` | a1bfcad2-ef47-4ad4-912c-d8cb5698287c | 600 ml cartridge with a red bead |
+| P49 | `yhswellbar` | 21c3a266-db39-4190-a70b-b3e824124f19 | Red swellable bar coiled |
+| P50 | `yhwaterstop-epdm` | dcaa0c7d-d50a-48c6-b3ff-61d16e507658 | Black ribbed centre-bulb rubber waterstop |
+| P51 | `yhwaterstop-pvc` | 79a87517-b57c-4d94-bdbd-423754dd55eb | Grey ribbed PVC waterstop |
+| P52 | `yhtape-2022hd` | cfa37bd5-3244-44db-9163-27bd7101f25d | Grey HDPE film butyl tape roll |
+| P53 | `oyh-r100`, `oyh-r100h`, `oyh-s104c`, `oyh-s104s` | 6525198b-b473-4802-bb10-7d6f8a52cd49 | 1000 L IBC in a steel cage |
+
+**3D models** (Tripo H3.1 from the trimmed renders, 9 credits each, 13 jobs; the four admixtures share the IBC model): listed in `src/config/oyh-models.json`, raw GLBs in `assets/source/oyh-3d/`. Balance 677.5 before, 534.5 after (13 pictures, 13 models). 57 OYH products have a model.
+
+| Model | Job |
+|---|---|
+| `pmh-3046` | `7f6a79e0-6075-4dde-95c2-722f5a886c24` |
+| `yhshield-7502` | `1785abf9-2351-4d13-a842-20187edec37c` |
+| `yhacgrout-2101` | `c5955a62-6e68-425c-b7d8-2e28b210a248` |
+| `yhpugrout-2102` | `d47657a5-cacd-4ce5-80fe-778e670e042e` |
+| `yhepgrout-2106` | `fd0bdfe4-d26e-4fe7-85d3-4e264aef3d5d` |
+| `yhepoxy-gr90` | `11b5c350-dce4-41aa-a624-72f2b32586da` |
+| `yhinjehose` | `67190f62-7207-439b-a229-6c4e074960d5` |
+| `yhswellseal` | `6e1960f9-61d5-4d0b-82f1-b2376ec8c515` |
+| `yhswellbar` | `d7dbcf20-dba2-4f7c-a15f-d5b4492132ce` |
+| `yhwaterstop-epdm` | `ccb2194d-f091-4794-b876-9bb97145b116` |
+| `yhwaterstop-pvc` | `14afd438-76fb-4684-baab-e074aa4cf766` |
+| `yhtape-2022hd` | `04ff5065-d02d-41b3-be2e-1113c537c33d` |
+| `oyh-ibc (oyh-r100, -r100h, -s104c, -s104s)` | `86dfe602-5401-4de3-81dd-8ebd8651a418` |

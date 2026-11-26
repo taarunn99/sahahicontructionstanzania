@@ -151,6 +151,32 @@ export const OYH_HELD = new Set([
   "yhpuseal-2925",
 ]);
 
+/**
+ * Products whose pack picture is the site's own illustration (owner,
+ * 2026-11-26: "generate 16 product images"; OYH has no picture of them).
+ * Plain containers and profiles, no logo, no label, no text: nothing on them
+ * is claimed as OYH's. Tagged "Illustration" on the page
+ * (docs/IMAGE-PROVENANCE.md 3x). Remove a slug when OYH's picture arrives.
+ */
+export const OYH_ILLUSTRATED = new Set([
+  "pmh-3046",
+  "yhshield-7502",
+  "yhacgrout-2101",
+  "yhpugrout-2102",
+  "yhepgrout-2106",
+  "yhepoxy-gr90",
+  "yhinjehose",
+  "yhswellseal",
+  "yhswellbar",
+  "yhwaterstop-epdm",
+  "yhwaterstop-pvc",
+  "yhtape-2022hd",
+  "oyh-r100",
+  "oyh-r100h",
+  "oyh-s104c",
+  "oyh-s104s",
+]);
+
 export const oyhStock = (slug: string): "held" | "order" =>
   OYH_HELD.has(slug) ? "held" : "order";
 

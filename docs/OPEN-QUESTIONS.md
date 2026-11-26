@@ -421,5 +421,9 @@ and a list of what is still missing. Built: 53 product pages (`src/config/oyh-ra
   YHEpoxy-GR90, YHInjehose, YHSwellSeal, YHSwellbar, the rubber and PVC waterstops,
   YHTape-2022HD, OYH R-100, R-100H, S-104C, S-104S) he said "wherever there is no picture
   generate it": each carries an illustrative application scene tagged "Illustration"
-  (IMAGE-PROVENANCE 3w), no pack shot and no 3D model. Still to ask OYH: a picture of each
-  of those 16.
+  (IMAGE-PROVENANCE 3w); then, the same evening, "generate 16 product images": each now
+  carries an illustrated pack (plain container or profile, no logo, no label, no text,
+  tagged "Illustration", IMAGE-PROVENANCE 3x) and a 3D model of it. Owner, same message,
+  on the six missing data sheets: "let it be, I've asked but no hope they are coming, so no
+  pages for them". CLOSED for the six; a real OYH picture of any of the 16 still replaces
+  its illustration when it comes.

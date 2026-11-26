@@ -402,6 +402,38 @@
       "height": 900,
       "source": "OYH's own picture of FUDA XPS, supplied by the owner on 2026-11-26 (FUDA XPS.jpg)"
     },
+    "oyh-r100": {
+      "src": "/products/oriental-yuhong/oyh-r100.webp",
+      "cutout": "/products/oriental-yuhong/cutout/oyh-r100.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 6525198b-b473-4802-bb10-7d6f8a52cd49, master P53), IMAGE-PROVENANCE 3x"
+    },
+    "oyh-r100h": {
+      "src": "/products/oriental-yuhong/oyh-r100h.webp",
+      "cutout": "/products/oriental-yuhong/cutout/oyh-r100h.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 6525198b-b473-4802-bb10-7d6f8a52cd49, master P53), IMAGE-PROVENANCE 3x"
+    },
+    "oyh-s104c": {
+      "src": "/products/oriental-yuhong/oyh-s104c.webp",
+      "cutout": "/products/oriental-yuhong/cutout/oyh-s104c.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 6525198b-b473-4802-bb10-7d6f8a52cd49, master P53), IMAGE-PROVENANCE 3x"
+    },
+    "oyh-s104s": {
+      "src": "/products/oriental-yuhong/oyh-s104s.webp",
+      "cutout": "/products/oriental-yuhong/cutout/oyh-s104s.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 6525198b-b473-4802-bb10-7d6f8a52cd49, master P53), IMAGE-PROVENANCE 3x"
+    },
     "pmh-3040-plus": {
       "src": "/products/oriental-yuhong/pmh-3040-plus.webp",
       "cutout": "/products/oriental-yuhong/cutout/pmh-3040-plus.webp",
@@ -425,6 +457,14 @@
       "width": 900,
       "height": 900,
       "source": "OYH's own picture of PMH-3041, supplied by the owner on 2026-11-26 (PMH-3041.png)"
+    },
+    "pmh-3046": {
+      "src": "/products/oriental-yuhong/pmh-3046.webp",
+      "cutout": "/products/oriental-yuhong/cutout/pmh-3046.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 470f3286-3950-431a-af4d-d695d46e8a9d, master P41), IMAGE-PROVENANCE 3x"
     },
     "pmh-3080-plus": {
       "src": "/products/oriental-yuhong/pmh-3080-plus.webp",
@@ -497,6 +537,14 @@
       "width": 900,
       "height": 900,
       "source": "OYH technical data sheet TDF HS Series Polypropylene Continuous Filament Geotextiles, embedded picture (page 1)"
+    },
+    "yhacgrout-2101": {
+      "src": "/products/oriental-yuhong/yhacgrout-2101.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhacgrout-2101.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 653b877d-bc02-46e6-bdfa-3a519f13ca0d, master P43), IMAGE-PROVENANCE 3x"
     },
     "yhbitucoat-4500": {
       "src": "/products/oriental-yuhong/yhbitucoat-4500.webp",
@@ -594,6 +642,22 @@
       "height": 900,
       "source": "OYH's own picture of YHDrainPro-202, supplied by the owner on 2026-11-26 (YHDrainPro-202.jpg)"
     },
+    "yhepgrout-2106": {
+      "src": "/products/oriental-yuhong/yhepgrout-2106.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhepgrout-2106.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 25f27819-7cb1-458c-9cce-7d1db23e796f, master P45), IMAGE-PROVENANCE 3x"
+    },
+    "yhepoxy-gr90": {
+      "src": "/products/oriental-yuhong/yhepoxy-gr90.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhepoxy-gr90.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 194a6255-92b3-49fd-b628-70f78d1b0fe8, master P46), IMAGE-PROVENANCE 3x"
+    },
     "yhfpopre-3210": {
       "src": "/products/oriental-yuhong/yhfpopre-3210.webp",
       "cutout": "/products/oriental-yuhong/cutout/yhfpopre-3210.webp",
@@ -601,6 +665,14 @@
       "width": 900,
       "height": 900,
       "source": "OYH technical data sheet YHFPOpre-3210, embedded picture (page 1)"
+    },
+    "yhinjehose": {
+      "src": "/products/oriental-yuhong/yhinjehose.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhinjehose.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 90c7d843-7074-4088-ba63-bda7d066fa12, master P47), IMAGE-PROVENANCE 3x"
     },
     "yhprimblock-1400": {
       "src": "/products/oriental-yuhong/yhprimblock-1400.webp",
@@ -625,6 +697,14 @@
       "width": 900,
       "height": 900,
       "source": "OYH technical data sheet YHPrimer-1000, embedded picture (page 1)"
+    },
+    "yhpugrout-2102": {
+      "src": "/products/oriental-yuhong/yhpugrout-2102.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhpugrout-2102.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job a9786434-37e7-4a4e-a9a2-276d453240bc, master P44), IMAGE-PROVENANCE 3x"
     },
     "yhpugrout-2103": {
       "src": "/products/oriental-yuhong/yhpugrout-2103.webp",
@@ -690,6 +770,14 @@
       "height": 900,
       "source": "OYH's own picture of YHShield-7501, supplied by the owner on 2026-11-26 (YHShield-7501.png)"
     },
+    "yhshield-7502": {
+      "src": "/products/oriental-yuhong/yhshield-7502.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhshield-7502.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job feef3858-59d5-4153-95bb-f2e49704b46e, master P42), IMAGE-PROVENANCE 3x"
+    },
     "yhshield-7601": {
       "src": "/products/oriental-yuhong/yhshield-7601.webp",
       "cutout": "/products/oriental-yuhong/cutout/yhshield-7601.webp",
@@ -730,6 +818,22 @@
       "height": 900,
       "source": "OYH technical data sheet YHStick-9801, embedded picture (page 1)"
     },
+    "yhswellbar": {
+      "src": "/products/oriental-yuhong/yhswellbar.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhswellbar.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 21c3a266-db39-4190-a70b-b3e824124f19, master P49), IMAGE-PROVENANCE 3x"
+    },
+    "yhswellseal": {
+      "src": "/products/oriental-yuhong/yhswellseal.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhswellseal.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job a1bfcad2-ef47-4ad4-912c-d8cb5698287c, master P48), IMAGE-PROVENANCE 3x"
+    },
     "yhtape-2022fl": {
       "src": "/products/oriental-yuhong/yhtape-2022fl.webp",
       "cutout": "/products/oriental-yuhong/cutout/yhtape-2022fl.webp",
@@ -737,6 +841,30 @@
       "width": 900,
       "height": 900,
       "source": "OYH technical data sheet YHTape-2022FL, embedded picture (page 1)"
+    },
+    "yhtape-2022hd": {
+      "src": "/products/oriental-yuhong/yhtape-2022hd.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhtape-2022hd.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job cfa37bd5-3244-44db-9163-27bd7101f25d, master P52), IMAGE-PROVENANCE 3x"
+    },
+    "yhwaterstop-epdm": {
+      "src": "/products/oriental-yuhong/yhwaterstop-epdm.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhwaterstop-epdm.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job dcaa0c7d-d50a-48c6-b3ff-61d16e507658, master P50), IMAGE-PROVENANCE 3x"
+    },
+    "yhwaterstop-pvc": {
+      "src": "/products/oriental-yuhong/yhwaterstop-pvc.webp",
+      "cutout": "/products/oriental-yuhong/cutout/yhwaterstop-pvc.webp",
+      "alpha": false,
+      "width": 900,
+      "height": 900,
+      "source": "site illustration of the pack, generated (Higgsfield gpt_image_2_6, job 79a87517-b57c-4d94-bdbd-423754dd55eb, master P51), IMAGE-PROVENANCE 3x"
     }
   }
 }
