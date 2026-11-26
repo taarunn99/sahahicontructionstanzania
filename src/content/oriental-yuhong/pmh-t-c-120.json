@@ -1,0 +1,62 @@
+{
+  "slug": "pmh-t-c-120",
+  "titleAsPrinted": "PMH-T-C120",
+  "edition": "Feb. 2026",
+  "description": "PMH-T-C120 coating cover tape is a specially formulated single-sided pressure sensitive tape. It is used for membrane end lap termination and minor membrane repair. The bottom side of the tape has a highly aggressive pressure sensitive adhesive which is designed to adhere to smooth surface pre-applied membrane.",
+  "whereToUse": [
+    "This product can be used for PMH 3040/3040PLUS and PMH 6010 membranes' end lap termination and minor repair",
+    "end lap of membrane or the T-type overlapping part"
+  ],
+  "advantages": [],
+  "notFor": [
+    "It is not advisable to use the tape when temperature is lower than 5℃ as bonding strength of the tape may be affected",
+    "Make sure that the bonding surface shall be clean & dry before using the tape",
+    "The lap side must be pressed hard to ensure a good bonding effect",
+    "It is not recommended to apply tape in rainy and snowy days",
+    "Please read the MSDS carefully before application"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel adhesion"
+    },
+    {
+      "standard": "ASTM D903",
+      "value": "Bond to Concrete"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Package",
+      "value": "8 rolls per box"
+    },
+    {
+      "label": "Specification",
+      "value": "120mm(W) x 50m (L) x 0.35mm thick"
+    },
+    {
+      "label": "Length (m)",
+      "value": "50"
+    },
+    {
+      "label": "Width (mm)",
+      "value": "120"
+    },
+    {
+      "label": "Thickness (mm)",
+      "value": "0.35"
+    },
+    {
+      "label": "Peel adhesion (N/mm), ASTM D1876",
+      "value": "0.8"
+    },
+    {
+      "label": "Bond to concrete (N/mm), ASTM D903",
+      "value": "1.0"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "8 rolls per box",
+  "storage": "Stored in well-ventilated and dry place. Storage temperature should be below 45°C. Avoid direct sunlight, rain and high temperature. Avoid contact with acids, alkalis, oils and organic solvents."
+}

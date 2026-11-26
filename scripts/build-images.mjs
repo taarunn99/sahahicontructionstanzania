@@ -59,6 +59,23 @@ const JOBS = [
   ["P16", "scenes/x-seal-ps800.webp", 1600, 84],
   ["P17", "scenes/x-seal-universal-primer.webp", 1600, 84],
   ["P18", "scenes/x-prime-gp2.webp", 1600, 84],
+  // OYH products with no picture of their own, 2026-11-26 (IMAGE-PROVENANCE 3w).
+  ["P19", "scenes/pmh-3046.webp", 1600, 84],
+  ["P20", "scenes/yhshield-7502.webp", 1600, 84],
+  ["P21", "scenes/yhacgrout-2101.webp", 1600, 84],
+  ["P22", "scenes/yhpugrout-2102.webp", 1600, 84],
+  ["P23", "scenes/yhepgrout-2106.webp", 1600, 84],
+  ["P24", "scenes/yhepoxy-gr90.webp", 1600, 84],
+  ["P25", "scenes/yhinjehose.webp", 1600, 84],
+  ["P26", "scenes/yhswellseal.webp", 1600, 84],
+  ["P27", "scenes/yhswellbar.webp", 1600, 84],
+  ["P28", "scenes/yhwaterstop-epdm.webp", 1600, 84],
+  ["P29", "scenes/yhwaterstop-pvc.webp", 1600, 84],
+  ["P30", "scenes/yhtape-2022hd.webp", 1600, 84],
+  ["P31", "scenes/oyh-r100.webp", 1600, 84],
+  ["P32", "scenes/oyh-r100h.webp", 1600, 84],
+  ["P33", "scenes/oyh-s104c.webp", 1600, 84],
+  ["P34", "scenes/oyh-s104s.webp", 1600, 84],
 ];
 
 for (const [id, output, width, quality, crop = 0] of JOBS) {

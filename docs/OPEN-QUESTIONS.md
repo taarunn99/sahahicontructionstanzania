@@ -368,3 +368,58 @@ order with the system, with Add to quote list and no pages.
   brochure (18.4 MB) should get a compressed web copy (the standing choice is originals
   only); the X-Calibur certificate's "X-Tech Flooring Systems" range is taken to cover the
   SLE (it carries the X-Tech prefix).
+
+### Q24. OYH's data sheet folder (raised 2026-11-26)
+
+The owner supplied OYH's folder "OYH Docs - TDS and MSDS" (53 data sheets, 55 safety
+sheets) and asked for a standard page for every product, a list of what does not match,
+and a list of what is still missing. Built: 53 product pages (`src/config/oyh-range.ts`,
+`scripts/wire-oyh-range.mjs`), every sheet published unaltered, the pages worded
+"supplied to order" (the ruling of 2026-11-19 for the below-grade range).
+
+- **FUDA-XPS** (the manual's "YH XPS" protective board): its only data sheet is in Chinese
+  (GB/T 10801.2-2018). On the owner's instruction the same day, Sahihi's English translation
+  (`assets/source/oyh-translations/fuda-xps-en.html`, printed to
+  `public/tds/oriental-yuhong/fuda-xps.pdf`) is the page's data sheet, marked as a
+  translation, with the Chinese original beside it as the document of record. Still ask OYH
+  or FUDA for an English issue; it replaces the translation when it arrives.
+- **Named in OYH's documents but with no data sheet in the folder** (each becomes a page
+  when its sheet arrives): YHFPOpost-3200 (FPO post-applied membrane), the slab water stop
+  ("YHWater stop", manual page 5), YHTape-2022D double-side butyl tape (the folder's
+  YHTape-2022HD is a single-sided HDPE-film tape, a different product), PME-EVA (safety
+  sheet only), BH2 coating (PMH-3040 sheet), GES 309 and SAM/TKB (PMH-3040 Plus sheet),
+  PMH-M-67 and PMH-T-B250D (PMH-6010 sheet), the "OYH leveling mortar" (YHSwellSeal
+  sheet) and the OYH primer for PMH-3041. Safety sheets missing for YHShield-7502,
+  YHStick-9302, PMH-3040, YHFPOpre-3210, YHInjehose and both YHDrainPro boards.
+- **Conflicts between the sheets and the below-grade manual (data sheet published):**
+  PMH-3040 tensile 27.6 MPa, peel to concrete 880 N/m, lap peel 1000 N/m (manual 28, 1800,
+  1800, which match the 3040 Plus sheet); PMH-3046 tensile ≥16 by EN 12311-2, tear ≥200 N,
+  crack cycling at -26 °C, WVT <0.1 perms (manual 16 MPa ASTM D412, 250 N/mm, -23 °C,
+  5.7 ng/Pa·s·m²); YHFPOpre-3210 joint peel 250 N/50 mm (manual "71 m"); YHDrainPro-201
+  elongation ≥50 (manual 500%); the rubber waterstop is "natural rubber or EPDM" (manual
+  "YHWaterstop-EPDM"); YHColorWall-5100 is a wall mastic (manual "for horizontal cracks").
+- **Doubtful values inside the sheets, published as printed and worth asking OYH:**
+  PMH-3041 prints the same luminous transmittance row as PMH-6010; YHWaterstop PVC says
+  storage life 5 years in the table and 12 months in the text, and its "O" grades may be
+  the letter or the digit; the rubber waterstop's compression set is cited to ISO 188 (an
+  ageing method) with the PVC sheet's ageing figures; YHEPgrout-2106 prints both drums
+  "10 kg / 10 L" for a 2:1 mix; YHPUgrout-2102 and -2103 print density in "g/m3";
+  YHDrainPro-201 density "0.94 kg/m3"; the YHInjehose sheet calls the product
+  "YHInjectube" three times; YHPrimBlock-1400 has no printed kit total (the page shows
+  A 1.0 + B 1.0 + C 4.0 kg at 1:1:4); YHColorWall-5100's flexural strength is ">8 MPa" in
+  the text and "≥6" in the table (table published); the OYH S-104C sheet is largely the
+  S-104S text; YHSwellSeal's file name "250" is not explained (its 250% swell is the
+  likely meaning); YHBitucoat-4500 says "do not dilute" yet primes with a 1:1 dilution.
+- **Pictures:** the pack pictures are the sheets' own, lifted with their masks; the two
+  YHBitucoat application photographs carry an AI watermark ("豆包AI生成") and are not
+  published; 19 of the pack pictures became 3D models (IMAGE-PROVENANCE 3u).
+  Later the same day the owner supplied OYH's own pictures for 15 of the 31 products
+  without one (PMH-3040, -3041, -6010, YHShield-7501, YHStick-9302, YHBituprimer-4035 and
+  -4050, YHPrimCoat-1010, YHPrimBlock-1400, YHPUgrout-2103 and -2104, TDF G, YHDrainPro-201
+  and -202, FUDA XPS): pack shots and 3D models (IMAGE-PROVENANCE 3v). For the 16 with no
+  picture anywhere (PMH-3046, YHShield-7502, YHACgrout-2101, YHPUgrout-2102, YHEPgrout-2106,
+  YHEpoxy-GR90, YHInjehose, YHSwellSeal, YHSwellbar, the rubber and PVC waterstops,
+  YHTape-2022HD, OYH R-100, R-100H, S-104C, S-104S) he said "wherever there is no picture
+  generate it": each carries an illustrative application scene tagged "Illustration"
+  (IMAGE-PROVENANCE 3w), no pack shot and no 3D model. Still to ask OYH: a picture of each
+  of those 16.

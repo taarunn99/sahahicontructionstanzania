@@ -1,0 +1,179 @@
+{
+  "slug": "tdf-g",
+  "titleAsPrinted": "TDF G Series Polyester Continuous Filament Geotextiles",
+  "edition": null,
+  "description": "TDF G Series geotextiles are needle-punched continuous filament geotextiles and made of 100% virgin polyester with excellent aging resistance. Polyester filament geotextile has good mechanical properties, adapting to uneven interface, and can maintain the original function under long-term load.",
+  "whereToUse": [
+    "Pavement construction, Reinforcing soft subgrade",
+    "Hydraulical engineering, Separation & protection",
+    "Landfill, drainage, Protecting geomembranes",
+    "Railway construction, Drainage",
+    "Environmental protection, Filtration & Erosion control",
+    "reinforcement of retaining walls and embankment"
+  ],
+  "advantages": [
+    "Polyester filament geotextiles can ensure the three-dimensional porosity of geotextiles, which is conducive to the realization of excellent hydraulical properties.",
+    "polyester filament geotextiles have better creep resistance than other geotextiles, so they have better long-term durability",
+    "polyester continuous filament geotextiles have more excellent UV resistance and are more suitable for short-term exposed construction environments and applications",
+    "the fabric surface is soft and not stiff, more convenient to lay and install, and fits the working surface better"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ISO 9864",
+      "value": "Mass per unit area"
+    },
+    {
+      "standard": "ISO 9863-1",
+      "value": "Thickness at 2 kPa"
+    },
+    {
+      "standard": "ISO 10319",
+      "value": "Tensile strength, elongation at max. load"
+    },
+    {
+      "standard": "ASTM D4632",
+      "value": "Grab strength, grab elongation"
+    },
+    {
+      "standard": "ISO 12236",
+      "value": "CBR puncture resistance"
+    },
+    {
+      "standard": "ISO 9073-4",
+      "value": "Trapezoidal tear strength"
+    },
+    {
+      "standard": "ISO 11058",
+      "value": "Permeability (50mm head)"
+    },
+    {
+      "standard": "ISO 12956",
+      "value": "Open size O90"
+    },
+    {
+      "standard": "ASTM D4355",
+      "value": "UV resistance after 500 hrs"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mass per unit area, g/m2, G100 to G800 in order (ISO 9864)",
+      "value": "100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 800"
+    },
+    {
+      "label": "G100: tensile strength, kN/m (ISO 10319)",
+      "value": "5"
+    },
+    {
+      "label": "G100: CBR puncture resistance, N (ISO 12236)",
+      "value": "1100"
+    },
+    {
+      "label": "G150: tensile strength, kN/m (ISO 10319)",
+      "value": "8.7"
+    },
+    {
+      "label": "G150: CBR puncture resistance, N (ISO 12236)",
+      "value": "1650"
+    },
+    {
+      "label": "G200: tensile strength, kN/m (ISO 10319)",
+      "value": "11.5"
+    },
+    {
+      "label": "G200: CBR puncture resistance, N (ISO 12236)",
+      "value": "2300"
+    },
+    {
+      "label": "G250: tensile strength, kN/m (ISO 10319)",
+      "value": "16"
+    },
+    {
+      "label": "G250: CBR puncture resistance, N (ISO 12236)",
+      "value": "3100"
+    },
+    {
+      "label": "G300: tensile strength, kN/m (ISO 10319)",
+      "value": "19"
+    },
+    {
+      "label": "G300: CBR puncture resistance, N (ISO 12236)",
+      "value": "3420"
+    },
+    {
+      "label": "G350: tensile strength, kN/m (ISO 10319)",
+      "value": "21"
+    },
+    {
+      "label": "G350: CBR puncture resistance, N (ISO 12236)",
+      "value": "4300"
+    },
+    {
+      "label": "G400: tensile strength, kN/m (ISO 10319)",
+      "value": "23"
+    },
+    {
+      "label": "G400: CBR puncture resistance, N (ISO 12236)",
+      "value": "5000"
+    },
+    {
+      "label": "G450: tensile strength, kN/m (ISO 10319)",
+      "value": "25"
+    },
+    {
+      "label": "G500: tensile strength, kN/m (ISO 10319)",
+      "value": "26"
+    },
+    {
+      "label": "G500: CBR puncture resistance, N (ISO 12236)",
+      "value": "6000"
+    },
+    {
+      "label": "G600: tensile strength, kN/m (ISO 10319)",
+      "value": "32"
+    },
+    {
+      "label": "G600: CBR puncture resistance, N (ISO 12236)",
+      "value": "6500"
+    },
+    {
+      "label": "G800: tensile strength, kN/m (ISO 10319)",
+      "value": "40"
+    },
+    {
+      "label": "G800: CBR puncture resistance, N (ISO 12236)",
+      "value": "7200"
+    },
+    {
+      "label": "Elongation at max. load, %, all grades, interval value (ISO 10319)",
+      "value": "50-80"
+    },
+    {
+      "label": "Grab elongation, %, all grades, interval value (ASTM D4632)",
+      "value": "50-80"
+    },
+    {
+      "label": "Permeability (50mm head), m/s, all grades, interval value (ISO 11058)",
+      "value": "0.01-0.2"
+    },
+    {
+      "label": "Open size O90, mm, all grades, interval value (ISO 12956)",
+      "value": "0.07-0.2"
+    },
+    {
+      "label": "UV resistance after 500 hrs, %, all grades (ASTM D4355)",
+      "value": "> 85"
+    },
+    {
+      "label": "Roll width, m, all grades",
+      "value": "≤7"
+    },
+    {
+      "label": "Roll length, m",
+      "value": "Customizable and Optimal Load Solution"
+    }
+  ],
+  "consumption": [],
+  "storage": null
+}

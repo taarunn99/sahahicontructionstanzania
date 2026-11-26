@@ -1,0 +1,51 @@
+{
+  "slug": "yhprimblock-1400",
+  "titleAsPrinted": "YHPrimBlock-1400",
+  "edition": "April. 2025",
+  "description": "YHPrimBlock-1400 is a three-component epoxy-cementitious system which has the capacity of sealing on damp surface to prevent blistering of resin based coatings, even if they are very smooth (ceramic tiles, porcelain, marble, etc.), and of forming a compact layer suitable for laying other coverings and coatings.",
+  "whereToUse": [
+    "It is suitable for use as a waterproofing primer coat for damp substrate",
+    "As a moisture barrier: it is suitable for substrate of high moisture substrates, even green concrete, and allowing for the application of epoxy, polyurethane and other resin coatings requiring dry substrates.",
+    "Extended with quartz sand, as a patching and repair mortar for smoothing over uneven surfaces.",
+    "It is recommended to add quartz sand (0.25mm-0.7mm) at a ratio of 1 : 0.2-0.5."
+  ],
+  "advantages": [
+    "Easy application.",
+    "Excellent bond to green or hardened concrete whether damp or dry.",
+    "Non-solvent formula, suitable for internal use.",
+    "Good dimensional stability similar to concrete.",
+    "Impervious to liquid and water vapor."
+  ],
+  "notFor": [
+    "Don't apply YHPrimBlock-1400 directly on surface with standing water or dusty, flaky, irregular surfaces with bleeding.",
+    "Don't apply YHPrimBlock-1400 on cracks which are subject to movement, as the product is rigid and may also crack."
+  ],
+  "standards": [
+    { "standard": "ASTM D7234", "value": "Pull-bond strength" }
+  ],
+  "technicalData": [
+    { "label": "Appearance, component A", "value": "White Liquid" },
+    { "label": "Appearance, component B", "value": "White liquid" },
+    { "label": "Appearance, component C", "value": "White powder" },
+    { "label": "Solid contents by weight, component A", "value": "50±2%" },
+    { "label": "Solid contents by weight, component B", "value": "38±2%" },
+    { "label": "Density of mixture", "value": "1.80-1.90kg/L" },
+    { "label": "Pot life at 23 °C", "value": "30-40min" },
+    { "label": "Set to touch time", "value": "3-6 hours" },
+    { "label": "Set to foot traffic", "value": "24 hours" },
+    { "label": "Waiting time before further application", "value": "from a minimum of 1 day up to a maximum of 7 days" },
+    { "label": "Pull-bond strength, MPa (ASTM D7234)", "value": "≥2.0" },
+    { "label": "Mixing ratio A : B : C", "value": "1: 1: 4 in weight" },
+    { "label": "Water added after mixing", "value": "(1) By brush: 5-10%; (2) By roller: 10-15%; (3) By spraying: maximum of 20%." },
+    { "label": "Second coat", "value": "The second coat may be applied after approximately 4-6 hours." },
+    { "label": "Shelf life", "value": "12 months" }
+  ],
+  "consumption": [
+    { "quote": "250-300 g/m2 per coat on non-absorbent surface" },
+    { "quote": "400-500 g/m2 per coat on absorbent surface" },
+    { "quote": "1.5 kg/m2 per mm of thickness for smoothing application" }
+  ],
+  "mixing": "The mixing ratio between the three components is 1: 1: 4 in weight.",
+  "packaging": "Packaging Size: 1.0kg / 1.0kg / 4.0kg",
+  "storage": "It should be stored in a cool, ventilated, and dry warehouse, protected from rain, frost, humidity and direct sunlight, and kept away from fire sources. The storage temperatures should be 5-35℃."
+}

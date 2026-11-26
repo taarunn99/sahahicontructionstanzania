@@ -1,0 +1,109 @@
+{
+  "slug": "yhpugrout-2104",
+  "titleAsPrinted": "YHPUgrout-2104",
+  "edition": "April. 2025",
+  "description": "YHPUgrout-2104 is a single component, self-leveling, premium grade polyurethane sealant for permanently sealing horizontal cracks.",
+  "whereToUse": [
+    "It is used to seal horizontal cracks up to 25 mm wide in concrete and cementitious slabs",
+    "driveways, garages, sidewalks, balconies, terraces, decks, walkways, steps"
+  ],
+  "advantages": [
+    "One-component, no mixing, ready-to-use.",
+    "Self-leveling.",
+    "Elastic technology allows for crack movement.",
+    "Paintable with water-based, oil-based or rubber-based paints.",
+    "Can be applied to green/new concrete 72 hours after cure."
+  ],
+  "notFor": [
+    "Allow 1 week cure at standard conditions prior to painting.",
+    "Maximum exposure level of chlorine is 5 ppm.",
+    "Maximum expansion and contraction should not exceed 25 % of average joint width.",
+    "Do not cure in the presence of curing silicone sealants.",
+    "Avoid contact with alcohol and other solvent cleaners during cure.",
+    "Do not apply when moisture-vapor-transmission condition exists from the substrate as this can cause bubbling within the sealant.",
+    "To avoid bubbling, do not apply when ambient air and substrate temperatures exceed 38℃.",
+    "Do not use in contact with bituminous / asphaltic materials.",
+    "Do not use paints which are silicone based or have a high solvent content.",
+    "Avoid solvent-based and alcohol-based primers, stains, sealers and coatings."
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D2697",
+      "value": "Solid contents ≥99%"
+    },
+    {
+      "standard": "ASTM D7234",
+      "value": "Pull-bond strength >0.8 MPa"
+    },
+    {
+      "standard": "ISO 10563",
+      "value": "Shrinkage rate <0.5%"
+    },
+    {
+      "standard": "ASTM C1184",
+      "value": "Water absorption <2.5%"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Grey liquid"
+    },
+    {
+      "label": "Solid contents, % (ASTM D2697)",
+      "value": "≥99%"
+    },
+    {
+      "label": "Viscosity, cps",
+      "value": "6000±2000"
+    },
+    {
+      "label": "Tack-free time, h",
+      "value": "1.5"
+    },
+    {
+      "label": "Full-curing time, h",
+      "value": "3"
+    },
+    {
+      "label": "Pull-bond strength, MPa (ASTM D7234)",
+      "value": ">0.8"
+    },
+    {
+      "label": "Shrinkage rate, % (ISO 10563)",
+      "value": "<0.5"
+    },
+    {
+      "label": "Water absorption, % (ASTM C1184)",
+      "value": "<2.5%"
+    },
+    {
+      "label": "Application temperature",
+      "value": "4 to 38 °C"
+    },
+    {
+      "label": "Condition sealant before use",
+      "value": "18 to 24 °C"
+    },
+    {
+      "label": "Joint size, maximum",
+      "value": "Maximum sealant depth is 12.5 mm and width is 25 mm"
+    },
+    {
+      "label": "Joint size, minimum",
+      "value": "Minimum depth is 6 mm and width is 6 mm"
+    },
+    {
+      "label": "Joint design",
+      "value": "2:1 width to depth ratio"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "13kg per pail",
+  "storage": "It should be stored in a cool, ventilated, and dry warehouse, and kept away from fire sources."
+}

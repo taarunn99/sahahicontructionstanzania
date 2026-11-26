@@ -1,0 +1,61 @@
+{
+  "slug": "pmh-t-160",
+  "titleAsPrinted": "PMH-T-160",
+  "edition": "Feb. 2026",
+  "description": "The PMH-T-160 butt joint tape is a single-sided adhesive tape. The carrier is HDPE sheet, coating with the special hot-melt pressure-sensitive adhesive, and covered with a release liner. This product features an excellent adhesive performance to enable the butt joint of the membrane to form a durable, reliable and integral waterproof system.",
+  "whereToUse": [
+    "membrane end lap termination",
+    "temporary fixing of HDPE membrane",
+    "detail treatment",
+    "It is a very important accessory to sand surface PMH 3080/PMH 3080 PLUS membrane",
+    "suitable for various underground waterproofing projects"
+  ],
+  "advantages": [],
+  "notFor": [
+    "Contractors must undergo training before starting work",
+    "During construction, it is strictly forbidden to stick the cover tape in rainy and snowy days or in winds of level 5 or higher",
+    "The environment temperature for cold application of self-adhesive membranes and tapes should not be lower than 5°C (this includes storage, construction, and the 24 hours following the completion of construction)",
+    "Prior to applying the tape to the membrane, ensure that the bonding surface is clean and free of dust, moisture, or contaminants",
+    "After completing the overlap, apply firm and uniform pressure along the seam to ensure full adhesive contact and achieve a secure, watertight bond"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D3767",
+      "value": "Thickness"
+    },
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel adhesion"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Package",
+      "value": "4 rolls per box"
+    },
+    {
+      "label": "Specification",
+      "value": "160mm (W) x 20m (L) x 1.0mm (Thickness)"
+    },
+    {
+      "label": "Thickness (mm), ASTM D3767",
+      "value": "1.0"
+    },
+    {
+      "label": "Width (mm)",
+      "value": "160"
+    },
+    {
+      "label": "Length (m)",
+      "value": "20"
+    },
+    {
+      "label": "Peel adhesion (N/mm), ASTM D1876",
+      "value": "0.8"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "4 rolls per box",
+  "storage": "Do not allow contact with acids, alkalis, oils, and organic solvents. The number of stacking layers of the packing box should not exceed four. Under normal transportation and storage conditions, the storage period is one year from the production date."
+}

@@ -1,0 +1,77 @@
+# OCR of public/tds/oriental-yuhong/yhswellbar.pdf, corrected against the page by eye, 2026-11-26.
+
+--- Page 1 ---
+YHSwellbar
+Swellable Joint Sealing Waterbar
+YUHONG
+Technical Data Sheet (TDS)
+DESCRIPTION
+YHSwellbar is a hydrophilic rubber sealing strip that swells when in contact with water.
+WHERE TO USE
+• Construction joints in water retaining or excluding structures such as water tanks, swimming pools, pumping chambers, reservoirs, tunnels, basement, culverts, cable ducts etc.
+• New-old concrete joints.
+• Pipe and steel work penetrations through concrete floors and walls.
+• Joints between floor slabs and pile caps.
+CHARACTERISTICS AND PACKAGING
+Item | Description
+Packaging | 10 m × 10 rolls per box
+Color | Red
+Width / mm | 10-50
+Thickness / mm | 10-50
+ADVANTAGES
+• Easy to install by adhesive bonding or mechanical fixation.
+• Solves detailing problems in conjunction with other kind of waterstops.
+• Swelling properties unaffected by long term wet/dry cycling.
+• Tolerant of salts in concrete a n d groundwater.
+• Sustains effective seal in wet conditions.
+• Long-term reliability tested.
+• Highly adaptable to accommodate complex join shapes.
+• Provides effective combination of waterstops maintaining network continuity.
+• No welding required.
+PROPERTIES
+Description | Test Methods | Typical Values
+Service Temperature/°C | - | -20
+Shore A Hardness | ASTM D 2240 | 45±5
+Tensile Strength / MPa | ASTM D 412 | ≥3.5
+Elongation / % | ASTM D 412 | ≥450
+Expansion volume rate / % | ASTM D 471 | ≥400
+Volume change in saline water 8% salt | ASTM D 471 Modified | ≥160
+Note: The above data were tested under standard conditions (temperature 23 °C ± 2 °C, relative humidity 50% ± 10%).
+Website: www.oyhglobal.com
+Issue Date: Feb. 2025
+
+--- Page 2 ---
+YHSwellbar
+Swellable Joint Sealing Waterbar
+Technical Data Sheet (TDS)
+APPLICATION INSTRUCTIONS
+Application
+(1) Surface preparation
+Long term durability and function can only be achieved with good preparation to ensure that water cannot by pass the water-stop.
+It is recommended that concrete substrates have a minimum compressive strength of 20 N//mm², and at least 75 mm of concrete cover in all directions of the hydrophilic water-stop.
+Ensure the concrete surfaces where the water-stop will be places are smooth, clean and free from contamination such as dust, oil, grease, organic growth & release agents.
+For fresh concrete we recommended forming a groove in the middle of the joint using a suitable timber strip. After the concrete has hardened, remove the strip to reveal the groove in which the hydrophilic waterstop can sit with minimal preparation.
+(2) Application
+Maneuver the YHSwellbar to its final position within a few minutes of bonding and remove excess material before it dries. Use nail or shot fire the hydrophilic waterstop to the concrete substrate.
+At the corners and intersections, simply butt join the waterstop together ensuring tight joint between the profiles. No welding is required for hydrophilic waterstops.
+TRANSPORTATION AND STORAGE
+The material is packed in plastic buckets and valve bags. During transportation, avoid exposure to sunlight, rain, and cold. Prevent extrusion and collision, and keep the packaging intact. YHSwellbar shall be stored in its sealed container under dry and shaded place in a temperature from 10 °C -35 °C .
+PRECAUTIONS
+• It is essential that both the hydrophilic waterstop & adhesive are kept dry prior to pouring concrete, otherwise expansion of the waterstop will take place.
+• Concrete surfaces must be clean and free of all contaminants. Remove all concrete spatter and nibs.
+• Do not use it for movement/expansion joints.
+• In a totally dry state YHSwellbar shrinks to its original dimension, but will expand again when coming in contact with water.
+• If it is to be fixed around small diameter pipes use additional mechanical fixing with tie wire or a sleeve.
+HEALTH AND SAFETY
+For information and advice on the safe handling, storage and disposal of chemical products, users shall refer to the most recent Safety Data Sheet (SDS) containing physical, ecological, toxicological and other safety-related data. Please note that as a result of specific local regulations the performance of this product may vary from country to country. Please consult the local Product Data Sheet for the exact description of the application fields.
+Website: www.oyhglobal.com
+Issue Date: Feb. 2025
+
+--- Page 3 ---
+YHSwellbar
+Swellable Joint Sealing Waterbar
+Technical Data Sheet (TDS)
+DISCLAIMER
+The above information and recommendations which are based on our experience are as for reference, they can't replace the customers' own experimental results. Since our company, our representatives or distributors can't control the transportation, storage, handling and use conditions of the products, the economic disputes and the quality accident caused by improper use can't be attributed to our suggest. In any application, the customer shall be responsible to comply with obligations of third-party intellectual property rights. Without our consent, anyone shall not provide technical information to third parties.
+Website: www.oyhglobal.com
+Issue Date: Feb. 2025

@@ -1,0 +1,93 @@
+{
+  "slug": "yhdrainpro-201",
+  "titleAsPrinted": "YHDrainPro-201 Plastic Drainage Board",
+  "edition": "Feb.2026",
+  "description": "YHDrainPro-201 Plastic Drainage Board(PBD) is a high-performance drainage and protection layer manufactured from high-density polyethylene (HDPE) through a continuous thermoforming process. The board features uniformly distributed studs that create continuous drainage channels, providing efficient collection and discharge of groundwater while protecting the waterproofing membrane from mechanical damage.",
+  "whereToUse": [
+    "Basement retaining walls",
+    "Foundation walls",
+    "Underground structures",
+    "Roof gardens and podium decks",
+    "Tunnels and cut-and-cover structures",
+    "Plaza decks",
+    "Underground parking structures",
+    "Green roofs"
+  ],
+  "advantages": [
+    "High compressive strength",
+    "Excellent drainage capacity",
+    "Efficient pressure relief",
+    "Protects waterproofing membranes against backfill damage",
+    "Chemical resistant",
+    "Resistant to bacteria, fungi, and root penetration",
+    "Lightweight and easy to install",
+    "Excellent durability and long service life",
+    "Resistant to moisture, soil chemicals, and underground environments",
+    "Environmentally friendly and recyclable"
+  ],
+  "notFor": [
+    "Ensure the waterproofing membrane has been completed and accepted prior to installation.",
+    "The substrate should be clean and free from protrusions or sharp objects that may damage the drainage board.",
+    "Avoid prolonged exposure to UV radiation before installation."
+  ],
+  "standards": [
+    {
+      "standard": "JC/T 2112-2012",
+      "value": "Plastic board for drainage and protection"
+    },
+    {
+      "standard": "GB/T 18173.1-2012",
+      "value": "Profiled sheets: polymer waterproof materials, part 1: waterproof sheet"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Roll width (mm)",
+      "value": "2750"
+    },
+    {
+      "label": "Roll thickness (mm)",
+      "value": "0.8, 1.0, 1.2 or 1.5"
+    },
+    {
+      "label": "Roll length (m)",
+      "value": "12 or customized"
+    },
+    {
+      "label": "Convex height (mm)",
+      "value": "12, 15, 18 or customized"
+    },
+    {
+      "label": "Tensile strength (MPa)",
+      "value": "≥ 16"
+    },
+    {
+      "label": "Elongation at break (%)",
+      "value": "≥ 50"
+    },
+    {
+      "label": "Compression performance: maximum strength at 20% compression (kPa)",
+      "value": "≥ 350"
+    },
+    {
+      "label": "Compression performance: limit compression phenomena",
+      "value": "No cracks"
+    },
+    {
+      "label": "Low-temperature flexibility",
+      "value": "No cracks at -10°C"
+    },
+    {
+      "label": "Water absorption, %",
+      "value": "< 0.1"
+    },
+    {
+      "label": "Longitudinal water flow rate under 150kPa side pressure (cm³/s)",
+      "value": "≥ 10"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Install the drainage board with the studs facing the waterproofing membrane. Adjacent sheets shall be overlapped in accordance with project specifications to maintain continuous drainage paths. For composite drainage systems, install the geotextile layer facing the soil.",
+  "packaging": "Roll",
+  "storage": "Store rolls vertically or horizontally on a flat surface in a dry, well-ventilated area. Protect from direct sunlight, open flames, and mechanical damage during transportation and storage. Do not stack products excessively to avoid deformation."
+}

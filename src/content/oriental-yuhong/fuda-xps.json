@@ -1,0 +1,105 @@
+{
+  "slug": "fuda-xps",
+  "titleAsPrinted": "FUDA Extruded Polystyrene Board (XPS) Technical Data Sheet (TDS)",
+  "edition": "English translation by Sahihi, 2026-11-26, of the Chinese sheet",
+  "description": "made from polystyrene resin as the main raw material, with blowing agent, flame retardant and other additives, formed by an extrusion process.",
+  "whereToUse": [
+    "building wall and roof insulation",
+    "cold stores",
+    "insulation layers under underfloor heating",
+    "road subgrade works"
+  ],
+  "advantages": [
+    "closed-cell structure, high strength, low thermal conductivity, moisture resistant, corrosion resistant",
+    "Class B1 products contain flame retardant and self-extinguish when the flame is removed",
+    "the blowing agent contains no HCFC or CFC; the flame retardant contains no HBCD",
+    "Certified to ISO 9001 / ISO 14001"
+  ],
+  "notFor": [
+    "Avoid long-term exposure to ultraviolet light (a protective layer is required)",
+    "it is not in direct contact with any solvent-based product",
+    "it is not in direct contact with products containing added plasticisers",
+    "the loads carried are within the product's strength range",
+    "keep away from sources of fire, protect from moisture, avoid heavy loads"
+  ],
+  "standards": [
+    {
+      "standard": "GB/T 10801.2-2018",
+      "value": "Standard applied (China)"
+    },
+    {
+      "standard": "GB/T 10294",
+      "value": "Thermal conductivity"
+    },
+    {
+      "standard": "GB/T 8813",
+      "value": "Compressive strength"
+    },
+    {
+      "standard": "GB/T 8810",
+      "value": "Water absorption"
+    },
+    {
+      "standard": "GB/T 8811",
+      "value": "Dimensional stability"
+    },
+    {
+      "standard": "GB 8624",
+      "value": "Fire performance"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Thermal conductivity, grade 024 (W/(m·K), GB/T 10294)",
+      "value": "≤0.024"
+    },
+    {
+      "label": "Thermal conductivity, grade 030 (W/(m·K), GB/T 10294)",
+      "value": "≤0.030"
+    },
+    {
+      "label": "Thermal conductivity, grade 034 (W/(m·K), GB/T 10294)",
+      "value": "≤0.034"
+    },
+    {
+      "label": "Compressive strength (kPa, GB/T 8813)",
+      "value": "≥150 to 1200"
+    },
+    {
+      "label": "Water absorption (% by volume, GB/T 8810)",
+      "value": "≤1.0"
+    },
+    {
+      "label": "Dimensional stability (%, GB/T 8811)",
+      "value": "≤1.5"
+    },
+    {
+      "label": "Fire performance (GB 8624)",
+      "value": "Class B1 / Class B2"
+    },
+    {
+      "label": "Service temperature range (°C)",
+      "value": "-50 to +75"
+    },
+    {
+      "label": "Thickness",
+      "value": "20 mm to 100 mm (can be customised)"
+    },
+    {
+      "label": "Size",
+      "value": "1200 mm × 600 mm / 2400 mm × 600 mm (common sizes)"
+    },
+    {
+      "label": "Colour",
+      "value": "lemon yellow"
+    },
+    {
+      "label": "Warranty period",
+      "value": "10 years under normal conditions of use"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "Thickness: 20 mm to 100 mm (can be customised)",
+  "storage": "keep away from sources of fire, protect from moisture, avoid heavy loads"
+}

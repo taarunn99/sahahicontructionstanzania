@@ -1,0 +1,68 @@
+{
+  "slug": "yhbitucoat-4500",
+  "titleAsPrinted": "YHBitucoat-4500",
+  "edition": "Feb. 2025",
+  "description": "YHBitucoat-4500 is a high-performance, self-developed emulsified asphalt coating formulated to form a highly elastic, seamless membrane with excellent crack bridging capability and low vapor permeability. Enhanced with specialized additives and graded fillers, this polymer-modified bitumen coating provides superior waterproofing protection.",
+  "whereToUse": [
+    "this coating is designed for concrete roofs",
+    "below-grade structures, such as retaining walls, basements, settlement tanks, columns, foundations and diverse architectural surfaces",
+    "in repairs, on irregularly shaped structures, and in detailed areas",
+    "Compatible with membrane systems and other coatings, it enables the development of high-performance composite waterproofing solutions"
+  ],
+  "advantages": [
+    "Fast Drying & Easy Application: The product dries quickly, and the dried film resists foot adhesion.",
+    "Smooth Construction & Strong Adhesion: It ensures smooth application, easy thickness control, and excellent adhesion.",
+    "Ready-to-Use & Eco-Friendly: A water-based, eco-friendly solution that is ready for immediate use.",
+    "High crack bridging capability.",
+    "Low water permeability.",
+    "Can be applied directly on both dry and damp surface.",
+    "Odourless and fungus resistant.",
+    "Good resistance to mild soil acids and salts."
+  ],
+  "notFor": [
+    "Once opened, the product should be used on the same day. Any remaining material must be properly sealed and used as soon as possible.",
+    "The recommended construction temperature range is 5 °C to 35 °C. Construction is prohibited during rain, snow, or if such weather is predicted within 24 hours.",
+    "Do not dilute the product with water or solvents, as this will compromise its performance.",
+    "Avoid walking on the surface before it is fully dried to prevent damage to the waterproof layer.",
+    "Subsequent construction steps, such as membrane laying, can only proceed after the coating is completely dried to ensure the stability of the composite waterproof system.",
+    "Avoid long-term exposure to humid and poorly ventilated environments."
+  ],
+  "standards": [
+    { "standard": "DIN 1048 Pt 5:1991", "value": "Depth of water penetration" },
+    { "standard": "ASTM E96/ E96M-22", "value": "Water vapor transmission rate" },
+    { "standard": "ASTM D2939", "value": "Solid content" },
+    { "standard": "ASTM C836/C836M-18", "value": "Crack bridging" },
+    { "standard": "ASTM D4541-02 METHOD A", "value": "Pull off strength" },
+    { "standard": "ASTM D412:2016", "value": "Tensile strength, elongation at break" },
+    { "standard": "BS EN 15814", "value": "Water-tightness" }
+  ],
+  "technicalData": [
+    { "label": "Physical state", "value": "Viscous liquid" },
+    { "label": "Color", "value": "Dark brown" },
+    { "label": "Drying time (23℃, 50%Rh)", "value": "(12~24) h" },
+    { "label": "Overcoat time (23℃, 50%Rh)", "value": "(4~8) h" },
+    { "label": "Consumption", "value": "(2.1~2.4) kg/m² for 1mm DFT" },
+    { "label": "Depth of water penetration [mm] (DIN 1048 Pt 5:1991)", "value": "0" },
+    { "label": "Water vapor transmission rate [g/h·m2] (ASTM E96/ E96M-22)", "value": "≤1" },
+    { "label": "Solid content [%] (ASTM D2939)", "value": "≥55" },
+    { "label": "Crack bridging [3.2mm] (ASTM C836/C836M-18)", "value": "No crack" },
+    { "label": "Pull off strength [Mpa] (ASTM D4541-02 METHOD A)", "value": "≥2.0" },
+    { "label": "Tensile strength [N/mm2] (ASTM D412:2016)", "value": "≥1.0" },
+    { "label": "Elongation at break [%] (ASTM D412:2016)", "value": "≥500" },
+    { "label": "Heat resistance [°C]", "value": "≥110" },
+    { "label": "Water-tightness (BS EN 15814)", "value": "Pass" },
+    { "label": "System: priming coat, YHBitucoat-4500 1:1 with clean water", "value": "~0.35 kg/m² (including water)" },
+    { "label": "System: 1st, 2nd and 3rd coat, YHBitucoat-4500 undiluted, each", "value": "~0.70 kg/m2" },
+    { "label": "System: reinforcement (optional), fiberglass matt", "value": "50-100g/m2" },
+    { "label": "Wet film per coat", "value": "each wet film layer not exceeding 1.0mm in thickness" },
+    { "label": "Total thickness", "value": "The total thickness of the composite coating layer should be at least 1 mm" },
+    { "label": "Storage temperature", "value": "The recommended storage temperature range is 5 °C to 35 °C" }
+  ],
+  "consumption": [
+    { "quote": "(2.1~2.4) kg/m² for 1mm DFT" },
+    { "quote": "Material consumption depends on the porosity and texture of the substrate." }
+  ],
+  "mixing": null,
+  "packaging": "20Kg per plastic pail",
+  "storage": "The shelf life is a minimum of 12 months under normal transportation and storage conditions."
+}

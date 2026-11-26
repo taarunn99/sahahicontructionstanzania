@@ -242,7 +242,12 @@ function pictureFor(route) {
     else if (second === "pmh-3080-plus") pick = photo("oriental-yuhong/hdpe/roll");
     else if (second === "sports-flooring") {
       pick = photo(`oriental-yuhong/sports/${third ? SPORTS_PHOTO[third] ?? "court" : "court"}`);
-    } else pick = cutout(`public/products/oriental-yuhong/cutout/${second}.webp`);
+    } else {
+      // The pack cut-out; a product with no picture of its own carries its
+      // illustrative scene (src/config/product-scenes.ts) instead.
+      const pack = `public/products/oriental-yuhong/cutout/${second}.webp`;
+      pick = existsSync(pack) ? cutout(pack) : photo(`scenes/${second}`);
+    }
   } else if (head === "x-calibur") {
     // The antistatic pages carry X-Calibur's own cutaway drawing; the other
     // X-Calibur pages keep the plain type card.

@@ -360,3 +360,96 @@ A sixth picture, `assets/source/blog-3d/src/repaired-beam.png` (job `f33423d6-cf
 ## 3t. PMH-3080 pack picture (owner, 2026-11-21)
 
 `public/products/oriental-yuhong/pmh-3080-plus.webp` (900 square, on white) and `cutout/pmh-3080-plus.webp` (alpha) are the roll printed for "PMH-3080 / PMH-3080 PLUS" on page 5 (spread 08) of OYH's "Solutions for Below-Grade Structures" manual (the same file published at `/oriental-yuhong/below-grade-waterproofing`), lifted out as embedded with `pdfimages -png` (index 11, 1254 x 585, its own transparency mask at index 12) and put through `scripts/prepare-oyh-packshots.mjs` and `scripts/build-packshots.mjs` like the other OYH pack pictures. Nothing redrawn, upscaled or retouched. The manual prints one picture for PMH-3080 and PMH-3080 PLUS, so it stands for the PLUS we hold.
+
+## 3u. OYH's data sheet folder: pack pictures, application photographs and 3D models (2026-11-26)
+
+The owner supplied OYH's folder "OYH Docs - TDS and MSDS" (53 data sheets, 55 safety sheets; copies in `assets/source/owner-supplied/oyh/docs-2026-11-26/`, gitignored; published unaltered under `public/tds/oriental-yuhong/` and `.../msds/`). `scripts/wire-oyh-range.mjs` lifts each product's own picture out of its data sheet as embedded (`pdfimages -png`, the page, index and mask recorded per product in `assets/source/oyh-range/<slug>.json`): 22 pack pictures to `public/products/oriental-yuhong/` (through `scripts/build-packshots.mjs`, 900 square on white, cut-outs on alpha) and 17 application photographs to `public/images/oyh/`, captioned as OYH's own. Nothing generated, redrawn or upscaled. Four sheets print one generic roll for several membranes (YHShield-7401 and -7402 share one file, -7403 and -7601 another, YHStick-9310 and -9801 another); TDF HS's roll sits on its own grey backdrop as printed. Withheld: the two YHBitucoat application photographs (watermark "豆包AI生成", AI-generated), the two geotextile photographs (extracted as masks), the rubber waterstop's 3D drawings (not photographs). Twenty-seven sheets print no product picture at all (FUDA XPS, the injection resins, admixtures, drainage boards, waterstops, PMH-3040, -3041, -3046, -6010, YHShield-7501/-7502, YHStick-9302, the bitumen primers, YHPrimCoat, YHPrimBlock, YHTape-2022HD, YHSwellSeal, YHSwellbar): those pages have no pack picture until OYH supplies one. Fifteen of them arrived the same afternoon (3v); the other sixteen carry an illustrative scene (3w).
+
+**3D models** (Higgsfield, Tripo H3.1 image to 3D, 9 credits each, 19 models, 171 credits; 1,026.75 before): one per distinct pack picture, from the 900 px pack shot on white, raw GLBs in `assets/source/oyh-3d/` (gitignored), published through `scripts/compress-blog-model.sh` (SRC_DIR/OUT_DIR) at about 31,000 triangles and 1024 px WebP textures in `public/models/oriental-yuhong/`, listed in `src/config/oyh-models.json`. The shared rolls reuse one model (7402 shows 7401's, 7601 shows 7403's, 9801 shows 9310's). PMH-3080 Plus, whose pack picture arrived on 2026-11-21 (3t), got its model in this batch.
+
+| Model | Job |
+|---|---|
+| `pmh-3080-plus` | `bde784d8-b625-4f69-ba88-98012208db11` |
+| `pmh-3040-plus` | `d6180ab4-6350-402b-bdf6-89de96d8a068` |
+| `pmh-s-600` | `5647f879-fd86-4544-91ae-57b26c1fac99` |
+| `pmh-t-160` | `af215625-6212-4242-a753-297e2fc4939f` |
+| `pmh-t-c-120` | `362f049f-3e2e-42d9-81d0-a2b117c7d8cd` |
+| `pmh-t-d80` | `16097a9f-013e-48ae-9769-a534558a872b` |
+| `pmh-t-s80` | `adade27c-a816-41e1-93a1-a0b9c9fb0f4c` |
+| `yhbitucoat-4500` | `024637e1-44e3-473c-b82c-0f540d205dc9` |
+| `yhbitucoat-4600` | `72180fbd-2564-4c10-9104-0ee2e40af61c` |
+| `yhcolorwall-5100` | `25017559-69c1-4805-b36f-ba074d8cbe35` |
+| `yhcrystal-2510` | `bf2d8de2-c51f-4a21-988a-635ffd92bcf5` |
+| `yhcrystal-2512` | `ddd6b2d8-5a46-4952-8c39-de45ade3ab59` |
+| `yhfpopre-3210` | `5fc2246a-5407-449d-9726-3751322a89b1` |
+| `yhprimer-1000` | `c7697227-946c-4cb4-aa5c-a9ce863b6d41` |
+| `yhshield-7401` | `f30a81fd-0c2c-48b4-918e-4af3ef4f3f79` |
+| `yhshield-7403` | `d3b94ba4-dd1b-40dc-94e8-0e670b33107a` |
+| `yhstick-9301` | `4acdb46e-068b-480d-b447-18bc41a62e3c` |
+| `yhstick-9310` | `2bddfc4d-b7d4-41af-9c5d-583d969d553c` |
+| `yhtape-2022fl` | `d8433741-abbd-4ba2-b99f-1ea9a7a2c97a` |
+
+## 3v. OYH's own product pictures, supplied as files, and their 3D models (owner, 2026-11-26)
+
+The owner supplied 16 files in "OYH Product Pictures" (OYH's own product renders and photographs, found online by him; copies in `assets/source/owner-supplied/oyh/pictures-2026-11-26/`, gitignored) for 15 of the products whose data sheet prints no picture. `scripts/wire-oyh-range.mjs` now takes a `packshot: { file }` record beside the data sheet kind: a file with its own transparency is trimmed to the product's alpha box (columns and rows with more than a handful of opaque pixels, so stray pixels do not widen it); an opaque photograph is kept whole; PMH-6010's roll, which sits small on its grey ground in a 600 x 450 file, is a plain crop (`crop` in its record, the file's pixels). Then `scripts/build-packshots.mjs` as for every pack shot (900 square on white, cut-outs on alpha). Nothing redrawn, upscaled or retouched; `sources.txt` names each file. The second view of PMH-3041 ("PMH-3041 (second view).png", the roll part unrolled) is kept in the folder and not published: it is a render, not an application photograph, and the page takes one pack picture.
+
+| Product | File | What it is |
+|---|---|---|
+| `pmh-3040` | PMH-3040.png | Roll in printed HDPE wrapper, opaque on white |
+| `pmh-3041` | PMH-3041.png | White roll, alpha |
+| `pmh-6010` | PMH-6010.png | Roll on a grey ground, cropped to 360 x 180 |
+| `yhshield-7501` | YHShield-7501.png | Membrane roll, alpha (the generic roll render with its own label) |
+| `yhstick-9302` | YHStick-9302.png | Membrane roll, alpha (same render family, different label) |
+| `yhbituprimer-4035` | YHBituprimer-4035.png | 18 kg pail, alpha |
+| `yhbituprimer-4050` | YHBituprimer-4050.png | 18 kg pail, alpha |
+| `yhprimcoat-1010` | YHPrimCoat-1010.png | 18 kg pail, alpha |
+| `yhprimblock-1400` | YHPrimBlock-1400.png | 5 kg kit box, alpha |
+| `yhpugrout-2103` | YHPUgrout-2103.png | 20 kg drum, alpha |
+| `yhpugrout-2104` | YHPUgrout-2104.png | 13 kg drum, alpha (4000 x 2250 file with stray pixels, hence the trim rule) |
+| `tdf-g` | TDF G Series.png | Geotextile roll, opaque |
+| `yhdrainpro-201` | YHDrainPro-201.png | Drainage board roll, opaque on white |
+| `yhdrainpro-202` | YHDrainPro-202.jpg | Drainage board roll, photograph on black with OYH's Chinese print |
+| `fuda-xps` | FUDA XPS.jpg | Stack of boards, photograph |
+
+**3D models** (Higgsfield, Tripo H3.1 image to 3D, 9 credits each, from the 900 px pack shots; one failed attempt on YHShield-7501 and a first YHPUgrout-2104 from the untrimmed picture were discarded, 17 jobs, 153 credits; with the 16 scenes of 3w the day's balance went 853.5 to 677.5): raw GLBs in `assets/source/oyh-3d/`, compressed by `scripts/compress-blog-model.sh` to about 31,000 triangles, listed in `src/config/oyh-models.json`. 41 OYH products now have a model.
+
+| Model | Job |
+|---|---|
+| `pmh-3040` | `d13db994-c66e-4d84-88aa-3745add4d027` |
+| `pmh-3041` | `66eb3e88-6559-4be1-86b0-1bce68d92a44` |
+| `pmh-6010` | `c74e81aa-6900-4aa8-967c-6ad97fb01aca` |
+| `yhshield-7501` | `a22f887f-7791-48dc-9a24-597feb7ef73f` |
+| `yhstick-9302` | `84b30bdc-346b-47f0-94a9-440103f4b946` |
+| `yhbituprimer-4035` | `0adc06b3-cc43-4351-b45f-907eea67d514` |
+| `yhbituprimer-4050` | `fd352c3c-69e9-4d89-b096-7440cc1c2312` |
+| `yhprimcoat-1010` | `af7af88d-9f89-40a5-a978-331248e00ced` |
+| `yhprimblock-1400` | `a0b593e2-bf97-4bc1-a682-5145b80636e9` |
+| `yhpugrout-2103` | `23851c03-63b1-40ab-8ca3-90b7b1985908` |
+| `yhpugrout-2104` | `3f4060ad-d352-4fcb-9f3e-1e52ab9159f7` |
+| `tdf-g` | `3426b61a-47e5-4e2b-a3db-dddf6bf73cbf` |
+| `yhdrainpro-201` | `eaeedd5e-4639-4c88-951a-c3562520a6d7` |
+| `yhdrainpro-202` | `15221b51-8e2c-4e1f-a2d1-9cce9dcf67ab` |
+| `fuda-xps` | `5dd1f084-73f1-4fd6-bec9-15a8975d8354` |
+
+## 3w. OYH product scenes for the sixteen with no picture at all (Higgsfield, 2026-11-26)
+
+Owner, 2026-11-26, on the sixteen OYH products for which no picture exists anywhere: "wherever there is no picture generate it". Pack shots are never generated (3b), so these follow 3l: one illustrative application scene per product, showing the use its data sheet names, shown by the product template with the "Illustration" tag and the caption "An illustration of where it is used, not a Sahihi job", and replaced by OYH's own pack picture the day one arrives. `gpt_image_2_6`, quality high, 2k, 3:2 (2048 x 1360), 16 pictures; prompts asked for no text, logos, labels or faces. Masters `assets/source/generated/P19..P34.png` (gitignored), derivatives `public/images/scenes/<slug>.webp` by `node scripts/build-images.mjs`, alt text in `src/config/product-scenes.ts`; the Open Graph card of such a page uses the scene. No 3D model: a model of an unlabelled drum or a guessed profile would invent the pack.
+
+| ID | Product | Job id | Prompt (short) |
+|---|---|---|---|
+| P19 | `pmh-3046` | e5a7efbc-1bea-46ae-9601-c906ad108dfb | Basement side wall in an excavation, white self-adhesive sheet rolled onto the concrete, red earth |
+| P20 | `yhshield-7502` | 9f22dfbb-f771-43df-8e03-f34ec8e8132b | Flat roof, torch-on bitumen roll with the gas flame, coastal skyline |
+| P21 | `yhacgrout-2101` | 5eed01b4-b08e-423d-98ad-5aca4f04766d | Damp basement wall, grid of packers and hoses, hand pump, clear gel (curtain injection) |
+| P22 | `yhpugrout-2102` | cc3ca4de-9e94-4a66-b2f6-9275f17c4ce7 | Leaking crack with packers, pale polyurethane foam expanding out, hand-held gun |
+| P23 | `yhepgrout-2106` | 33561ae6-cc31-4af2-b21a-d566990268d3 | Car park column, fine crack with ports, clear epoxy pressed into one |
+| P24 | `yhepoxy-gr90` | a7ef177c-6506-4179-b0e0-66d89244c31d | Pump baseplate over a plinth in formwork, grey epoxy grout poured under it |
+| P25 | `yhinjehose` | c2b0ef7e-d32b-4bb9-a700-2c12709b3a62 | Injection hose clipped along a raft slab's construction joint, ends in clear tubes, tank rebar |
+| P26 | `yhswellseal` | 24246482-f894-49bb-ae83-7bcaf6fe61ab | Red swellable sealant bead around a pipe through a slab and along the kicker joint |
+| P27 | `yhswellbar` | 22e0e92f-f9ff-4ede-99b1-0966939e808e | Red swelling waterbar fixed along a tank wall kicker joint, rebar either side |
+| P28 | `yhwaterstop-epdm` | 0738e8bb-226f-4d32-ab70-c95818b2b628 | Black ribbed centre-bulb rubber waterstop in a reservoir wall expansion joint, half in formwork |
+| P29 | `yhwaterstop-pvc` | 0e845497-57d5-465a-b058-f08fd2d394c5 | Pale grey ribbed PVC waterstop along a pool's slab-to-wall joint, split formwork |
+| P30 | `yhtape-2022hd` | 371aae63-b02f-4658-b213-b59be21596ae | Hand roller pressing grey butyl tape over a window opening seam in plywood sheathing |
+| P31 | `oyh-r100` | 21db3f33-1520-4ac5-b318-3f137dccdff1 | Flowable concrete from a truck mixer chute into a pump hopper, admixture IBC and plant behind |
+| P32 | `oyh-r100h` | 8a350235-4dbe-4c24-b6a0-2b98f1d73cc5 | Self-compacting concrete through a dense column cage, pump hose above |
+| P33 | `oyh-s104c` | 84356705-31cd-400f-af00-821a47fcecdb | Slump test beside a truck mixer, cone lifted, tape measuring the drop, silos |
+| P34 | `oyh-s104s` | afb8fe52-b7bd-4770-b037-2f0e1e333b1e | Line of truck mixers on a hot highway beside a batching plant |

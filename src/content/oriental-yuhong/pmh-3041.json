@@ -1,0 +1,63 @@
+{
+  "slug": "pmh-3041",
+  "titleAsPrinted": "PMH-3041",
+  "edition": "Aug.2025",
+  "description": "The PMH-3041 High-Density Polyethylene (HDPE) Waterproofing Membrane is specifically developed for the waterproofing of underground structure side walls and roof slabs. It is applied using cold construction methods and external application techniques. This high-performance polymer waterproofing sheet can form a full bond with concrete structures. It utilizes a specially formulated high-density polyethylene sheet as the base material, combined with high-adhesion hot-melt pressure-sensitive adhesive, and is covered with a PET film for isolation and protection. The high-density polyethylene sheet's inherent strength and density effectively block plant roots, providing excellent physical root barrier properties.",
+  "whereToUse": [
+    "PMH-3041 is suitable for planted roof for underground buildings",
+    "the conventional roof",
+    "the structural side walls constructed by the external waterproofing and internal pasting method"
+  ],
+  "advantages": [
+    "Root Barrier Performance: High-density polyethylene membranes intercept plant roots due to their high strength and density, providing excellent physical root barrier effects.",
+    "Outstanding mechanical properties, high tensile strength and puncture resistance, withstand structural deformation and vibration, maintaining the integrity of root-resistant waterproof layer.",
+    "Durability and Chemical Corrosion Resistance. The excellent chemical stability of high-density polyethylene membranes gives them strong anti-aging and chemical corrosion resistance, effectively resisting mold corrosion from plants and nutrient soil.",
+    "Reliable Overlapping: The high adhesive strength of pressure-sensitive adhesive combined with the high polymer base material ensures the sealing of overlapping edges. After bonding the short and long edges, an extrusion welder is used to seal the seams, ensuring firm overlaps."
+  ],
+  "notFor": [
+    "When using this membrane on planting roofs, an additional ordinary waterproof layer is required",
+    "When applying this membrane, the substrate should meet the following conditions: solid, flat, clean, dry, and free of loose dust and oil stains",
+    "If the side wall waterproof protection layer is designed to be a brick protective wall, the brick protective wall construction should be completed within 7 days after the membrane waterproof layer is completed",
+    "If the side wall is not designed with a brick protective wall but with a polystyrene insulation layer, the polystyrene insulation layer should be applied immediately after the membrane waterproof layer is completed and has passed inspection"
+  ],
+  "standards": [
+    { "standard": "BS EN 1849-2:2019", "value": "" },
+    { "standard": "ASTM D1003-21", "value": "" },
+    { "standard": "BS EN 12311-2:2013", "value": "" },
+    { "standard": "BS EN 12310-1:2000", "value": "" },
+    { "standard": "BS EN 12317-2:2010", "value": "" },
+    { "standard": "BS EN 12691:2018 A", "value": "" },
+    { "standard": "BS EN 12730:2015 B", "value": "" },
+    { "standard": "ASTM D903-98(2017)", "value": "" },
+    { "standard": "BS EN 1928:2000", "value": "" },
+    { "standard": "BS EN 495-5:2013", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Width (m)", "value": "1.2, 2.4" },
+    { "label": "Thickness (mm)", "value": "1.2, 1.5" },
+    { "label": "Length (m)", "value": "20 or Customized" },
+    { "label": "Roll size (m2/roll)", "value": "24, 48 or Customized" },
+    { "label": "Thickness, typical (BS EN 1849-2:2019)", "value": "1.23mm" },
+    { "label": "Mass per unit area (BS EN 1849-2:2019)", "value": "1190g/m2" },
+    { "label": "Luminous transmittance (ASTM D1003-21)", "value": "60%" },
+    { "label": "Tensile force, CD (BS EN 12311-2:2013)", "value": "1108 N/50mm" },
+    { "label": "Tensile force, MD (BS EN 12311-2:2013)", "value": "1023 N/50mm" },
+    { "label": "Elongation at break, CD (BS EN 12311-2:2013)", "value": "729%" },
+    { "label": "Elongation at break, MD (BS EN 12311-2:2013)", "value": "811%" },
+    { "label": "Resistance to tearing (nail shank), CD (BS EN 12310-1:2000)", "value": "735N" },
+    { "label": "Resistance to tearing (nail shank), MD (BS EN 12310-1:2000)", "value": "828N" },
+    { "label": "Shear resistance of joints (BS EN 12317-2:2010)", "value": "805N/50mm" },
+    { "label": "Resistance to impact, hard support (BS EN 12691:2018 A)", "value": "700mm No Puncture& No Leakage" },
+    { "label": "Resistance to static loading, hard support (BS EN 12730:2015 B)", "value": "20kg No Puncture& No Leakage" },
+    { "label": "Peel adhesion to concrete (ASTM D903-98(2017))", "value": "1000N/m" },
+    { "label": "Watertightness, before chemical immersion (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Watertightness, after saturated lime 28 days (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Foldability at low temperature (BS EN 495-5:2013)", "value": "No Visible Crack or Fracture at Folded Area" },
+    { "label": "Tested on", "value": "The above data were tested by thickness 1.2mm" },
+    { "label": "Storage period", "value": "one year from the production date" }
+  ],
+  "mixing": "The long edges of two membranes overlap in an 80mm self-adhesive zone. Remove the release film and adhere the two membranes together. Ensure a good overlap by pressing firmly with a roller. After overlapping, use an extrusion welder to seal the seam.",
+  "packaging": "Roll",
+  "storage": "Avoid exposure to sunlight and rain. If necessary, cover with felt cloth. Ensure proper ventilation, and the storage temperature should not exceed 45°C."
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "yhpugrout-2103",
+  "titleAsPrinted": "YHPUgrout-2103",
+  "edition": "April. 2025",
+  "description": "YHPUgrout-2103 Polyurethane Injection Resin is a single-component, low-viscosity, water-reactive injection resin.",
+  "whereToUse": [
+    "For the sealing of leakage in residential and commercial buildings",
+    "underground tunnels, subway tunnels, highway tunnels",
+    "water conservancy and hydropower projects, mining projects",
+    "for improving the impermeability of the soil surface layer"
+  ],
+  "advantages": [
+    "Low viscosity, good injectability, and excellent adhesion to the substrate.",
+    "Foams and expands rapidly when in contact with water, with a high expansion multiple.",
+    "During free foaming, an expansion multiple of about 15 times can generally be achieved.",
+    "In the sealant, a high-strength rigid closed-cell foam is formed.",
+    "The injection resin is resistant to most organic solvents, weak acids, alkalis, and organic microorganisms.",
+    "It is packaged in a single-component form, ready to use, and the construction is simple and convenient."
+  ],
+  "notFor": [
+    "Construction should be carried out under well-ventilated conditions, and construction workers should take appropriate safety-protection measures.",
+    "Avoid contact of this product with skin.",
+    "Use the product as soon as possible after opening.",
+    "Do not add any diluent to this product under any circumstances."
+  ],
+  "standards": [
+    {
+      "standard": "ASTM C109",
+      "value": "Compressive strength ≥15 MPa"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Brown Liquid"
+    },
+    {
+      "label": "Density",
+      "value": "≥1.05g/m3"
+    },
+    {
+      "label": "Viscosity at 25 °C",
+      "value": "≈200 cps"
+    },
+    {
+      "label": "Solid contents",
+      "value": "≥85%"
+    },
+    {
+      "label": "Gel time",
+      "value": "≈350 s"
+    },
+    {
+      "label": "Expansion ratio",
+      "value": "≈10 times"
+    },
+    {
+      "label": "Compressive strength, MPa (ASTM C109)",
+      "value": "≥15"
+    },
+    {
+      "label": "Storage temperature",
+      "value": "should not exceed 40°C"
+    },
+    {
+      "label": "Shelf life",
+      "value": "9 months from the date of production"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "10kg per metal drum",
+  "storage": "The storage temperature should not exceed 40°C."
+}

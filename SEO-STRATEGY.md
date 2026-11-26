@@ -270,6 +270,59 @@ distributor that also appoints applicators.
 | `/vasa/wall-panels` | wall panels Tanzania | Film and digital panels |
 | `/oriental-yuhong/hdpe-waterproofing` | HDPE waterproofing Tanzania, HDPE membrane Tanzania | 3D layers, water path, documents |
 | `/oriental-yuhong/pmh-3080-plus` | PMH-3080 Plus | Product page |
+| `/oriental-yuhong/pmh-3040` (added 2026-11-26) | HDPE pre-applied waterproofing membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-3040-plus` (added 2026-11-26) | PMH-3040 Plus HDPE membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-3041` (added 2026-11-26) | HDPE root barrier membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-3046` (added 2026-11-26) | post-applied HDPE membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhfpopre-3210` (added 2026-11-26) | FPO pre-applied membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-6010` (added 2026-11-26) | tunnel waterproofing membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7401` (added 2026-11-26) | SBS torch-on membrane Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7402` (added 2026-11-26) | heat resistant SBS membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7403` (added 2026-11-26) | mineral granule SBS membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7501` (added 2026-11-26) | APP modified bitumen membrane Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7502` (added 2026-11-26) | APP torch-on bitumen membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhshield-7601` (added 2026-11-26) | anti-root bituminous membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhstick-9301` (added 2026-11-26) | double-sided self-adhesive bitumen membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhstick-9302` (added 2026-11-26) | high-strength film self-adhesive membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhstick-9310` (added 2026-11-26) | cross-laminated HDPE self-adhesive membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhstick-9801` (added 2026-11-26) | reinforced self-adhesive bituminous membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhbitucoat-4500` (added 2026-11-26) | bitumen waterproofing coating Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhbitucoat-4600` (added 2026-11-26) | water-based bitumen coating | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhbituprimer-4035` (added 2026-11-26) | water-based bitumen primer | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhbituprimer-4050` (added 2026-11-26) | concentrated bitumen primer | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhprimcoat-1010` (added 2026-11-26) | acrylic primer for waterproofing | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhcolorwall-5100` (added 2026-11-26) | waterproofing mastic Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhcrystal-2510` (added 2026-11-26) | crystalline waterproofing Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhcrystal-2512` (added 2026-11-26) | crystalline admixture Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhprimblock-1400` (added 2026-11-26) | moisture barrier primer Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhacgrout-2101` (added 2026-11-26) | acrylic injection resin Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhpugrout-2102` (added 2026-11-26) | hydrophilic PU injection resin | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhpugrout-2103` (added 2026-11-26) | polyurethane foam injection Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhpugrout-2104` (added 2026-11-26) | self levelling crack sealant Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhepgrout-2106` (added 2026-11-26) | epoxy resin grout for concrete cracks | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhepoxy-gr90` (added 2026-11-26) | epoxy grout for machine bases Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhinjehose` (added 2026-11-26) | injection hose for construction joints | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhswellseal` (added 2026-11-26) | swellable joint sealant | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhswellbar` (added 2026-11-26) | hydrophilic waterbar Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhwaterstop-epdm` (added 2026-11-26) | rubber waterstop Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhwaterstop-pvc` (added 2026-11-26) | flexible PVC waterstop | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/tdf-g` (added 2026-11-26) | polyester geotextile Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/tdf-hs` (added 2026-11-26) | polypropylene geotextile Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhdrainpro-201` (added 2026-11-26) | drainage board Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhdrainpro-202` (added 2026-11-26) | composite drainage board geotextile | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-s-600` (added 2026-11-26) | HDPE membrane detailing sealant | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-t-160` (added 2026-11-26) | HDPE membrane butt joint tape | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-t-c-120` (added 2026-11-26) | coating cover tape for HDPE membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-t-d80` (added 2026-11-26) | double-sided tape for HDPE membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/pmh-t-s80` (added 2026-11-26) | sand cover tape for HDPE membrane | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhprimer-1000` (added 2026-11-26) | water-based epoxy primer Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhtape-2022fl` (added 2026-11-26) | fluorocarbon butyl tape Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/yhtape-2022hd` (added 2026-11-26) | butyl tape Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/fuda-xps` (added 2026-11-26) | XPS protection board Tanzania | Product page from Sahihi's English translation of FUDA's Chinese sheet (original beside it), supplied to order |
+| `/oriental-yuhong/oyh-r100` (added 2026-11-26) | PCE superplasticizer Tanzania | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/oyh-r100h` (added 2026-11-26) | hybrid PCE superplasticizer | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/oyh-s104c` (added 2026-11-26) | slump retention PCE | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
+| `/oriental-yuhong/oyh-s104s` (added 2026-11-26) | slump retention admixture | Product page from OYH's data sheet, supplied to order; safety sheet; calculator where a rate is printed |
 | `/oriental-yuhong/sports-flooring` | sports flooring Tanzania, running track, sports court, acrylic court | Seven systems in 3D, chooser, OYH films with steps, material calculator (no prices), guides and brochure |
 | `/oriental-yuhong/sports-flooring/all-plastic-track` | running track Tanzania, polyurethane running track | System page: 3D, film, stages |
 | `/oriental-yuhong/sports-flooring/breathable-track` | breathable running track, permeable track Tanzania | System page: 3D, film, stages |

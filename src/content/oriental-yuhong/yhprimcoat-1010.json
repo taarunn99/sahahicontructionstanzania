@@ -1,0 +1,40 @@
+{
+  "slug": "yhprimcoat-1010",
+  "titleAsPrinted": "YHPrimCoat-1010",
+  "edition": "April. 2025",
+  "description": "YHPrimCoat-1010 is a single-component, low-VOC, water-based, versatile acrylic primer that enhances the performance and adhesion of coating and mortar products on substrates. It is suitable for a wide variety of substrates for external and internal floors and walls to help improve the chemical resistance, corrosion resistance, moisture resistance and salt resistance.",
+  "whereToUse": [
+    "It is suitable for use as a primer of water-based waterproofing or flooring works on various substrates, such as concrete, cement, brickwork,etc.",
+    "external and internal floors and walls"
+  ],
+  "advantages": [
+    "Easy handling and application.",
+    "Versatile primer for a wide variety of substrate conditions.",
+    "Enhance substrate strength.",
+    "Efficient penetration of substrate."
+  ],
+  "notFor": [
+    "Substrate and ambient temperatures must be between (5~35)℃.",
+    "Do not apply on wet substrates.",
+    "The substrate must be clean, dry, sound and free of rust, paint, grease, oil and laitance.",
+    "For porous substrate it may need more coats or apply a layer of mortar to seal the substrate and prevent substrate outgassing."
+  ],
+  "standards": [
+    { "standard": "BS EN ISO 3251", "value": "Solid contents" }
+  ],
+  "technicalData": [
+    { "label": "Appearance", "value": "Grey liquid" },
+    { "label": "Solid contents / % (BS EN ISO 3251)", "value": "≈10%" },
+    { "label": "Shelf life", "value": "12 months" },
+    { "label": "Application", "value": "Apply the primer to the absorbent surface with a nap roller." },
+    { "label": "Maximum wait time", "value": "The maximum wait time from initial application is 24 h." },
+    { "label": "Storage temperature", "value": "The storage temperatures should be 5-35℃." },
+    { "label": "Cleaning", "value": "Clean equipment immediately with water." }
+  ],
+  "consumption": [
+    { "quote": "Normally apply one coat at a rate of approximately 0.1-0.2kg/m2/coat." }
+  ],
+  "mixing": null,
+  "packaging": "18kg in plastic pail",
+  "storage": "Under normal storage and transportation conditions, the shelf life is 12 months."
+}

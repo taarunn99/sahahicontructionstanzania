@@ -1,0 +1,53 @@
+{
+  "slug": "yhswellbar",
+  "titleAsPrinted": "YHSwellbar",
+  "edition": "Feb. 2025",
+  "description": "YHSwellbar is a hydrophilic rubber sealing strip that swells when in contact with water.",
+  "whereToUse": [
+    "Construction joints in water retaining or excluding structures such as water tanks, swimming pools, pumping chambers, reservoirs, tunnels, basement, culverts, cable ducts etc.",
+    "New-old concrete joints",
+    "Pipe and steel work penetrations through concrete floors and walls",
+    "Joints between floor slabs and pile caps"
+  ],
+  "advantages": [
+    "Easy to install by adhesive bonding or mechanical fixation",
+    "Solves detailing problems in conjunction with other kind of waterstops",
+    "Swelling properties unaffected by long term wet/dry cycling",
+    "Tolerant of salts in concrete and groundwater",
+    "Sustains effective seal in wet conditions",
+    "Long-term reliability tested",
+    "Provides effective combination of waterstops maintaining network continuity",
+    "No welding required"
+  ],
+  "notFor": [
+    "Do not use it for movement/expansion joints",
+    "It is essential that both the hydrophilic waterstop & adhesive are kept dry prior to pouring concrete, otherwise expansion of the waterstop will take place",
+    "Concrete surfaces must be clean and free of all contaminants. Remove all concrete spatter and nibs",
+    "In a totally dry state YHSwellbar shrinks to its original dimension, but will expand again when coming in contact with water",
+    "If it is to be fixed around small diameter pipes use additional mechanical fixing with tie wire or a sleeve"
+  ],
+  "standards": [
+    { "standard": "ASTM D 2240", "value": "Shore A hardness 45±5" },
+    { "standard": "ASTM D 412", "value": "Tensile strength ≥3.5 MPa, elongation ≥450 %" },
+    { "standard": "ASTM D 471", "value": "Expansion volume rate ≥400 %" },
+    { "standard": "ASTM D 471 Modified", "value": "Volume change in saline water 8% salt ≥160 %" }
+  ],
+  "technicalData": [
+    { "label": "Color", "value": "Red" },
+    { "label": "Width / mm", "value": "10-50" },
+    { "label": "Thickness / mm", "value": "10-50" },
+    { "label": "Service temperature / °C", "value": "-20" },
+    { "label": "Shore A hardness (ASTM D 2240)", "value": "45±5" },
+    { "label": "Tensile strength / MPa (ASTM D 412)", "value": "≥3.5" },
+    { "label": "Elongation / % (ASTM D 412)", "value": "≥450" },
+    { "label": "Expansion volume rate / % (ASTM D 471)", "value": "≥400" },
+    { "label": "Volume change in saline water 8% salt (ASTM D 471 Modified)", "value": "≥160" },
+    { "label": "Recommended minimum compressive strength of the concrete substrate", "value": "20 N/mm²" },
+    { "label": "Concrete cover in all directions", "value": "at least 75 mm" },
+    { "label": "Storage temperature", "value": "10 °C -35 °C" }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "10 m × 10 rolls per box",
+  "storage": "YHSwellbar shall be stored in its sealed container under dry and shaded place in a temperature from 10 °C -35 °C"
+}

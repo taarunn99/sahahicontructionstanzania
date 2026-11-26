@@ -21,6 +21,7 @@ import {
   oyhProducts,
   oyhTds,
 } from "@/config/oriental-yuhong";
+import { oyhFamilies, oyhFamilyOf, oyhStock } from "@/config/oyh-range";
 import { packshot } from "@/config/packshots";
 import { DocumentList } from "@/components/sections/document-list";
 import { PosterWall } from "@/components/sections/oyh/poster-wall";
@@ -149,6 +150,18 @@ export default function OrientalYuhongPage() {
     oyhProducts.map((item) => [item.slug, item]),
   );
   const photos = oyhProducts.filter((item) => oyhInUse[item.slug]);
+  const heldCount = oyhProducts.filter(
+    (item) => oyhStock(item.slug) === "held",
+  ).length;
+  const position = Object.fromEntries(
+    oyhProducts.map((item, index) => [item.slug, index + 1]),
+  );
+  const families = oyhFamilies
+    .map((family) => ({
+      ...family,
+      items: oyhProducts.filter((item) => oyhFamilyOf[item.slug] === family.id),
+    }))
+    .filter((family) => family.items.length > 0);
 
   return (
     <main className="brand-oriental-yuhong theme-light bg-background text-foreground flex-1">
@@ -305,65 +318,94 @@ export default function OrientalYuhongPage() {
         </Container>
       </section>
 
-      {/* ---- The products: one card each, with OYH's own pack picture ----- */}
-      <section className="py-16 sm:py-24">
+      {/* ---- The products: grouped by family, one card each ---------------- */}
+      <section id="range" className="scroll-mt-24 py-16 sm:py-24">
         <Container>
-          <p className="label-sh text-muted">The range we stock</p>
+          <p className="label-sh text-muted">The range</p>
           <SplitHeading
             as="h2"
             className="font-display text-phi-3 mt-5 tracking-tight"
           >
-            {oyhProducts.length} products, one page each.
+            {`${oyhProducts.length} products, one page each.`}
           </SplitHeading>
-          <ul className="mt-12 grid gap-4 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
-            {oyhProducts.map((item, index) => {
-              const pack = packshot("oriental-yuhong", item.slug);
-              return (
-                <li key={item.slug}>
-                  <Link
-                    href={productHref(item)}
-                    className="group border-deep/15 flex h-full flex-col overflow-hidden rounded-lg border bg-white transition-transform duration-500 hover:-translate-y-1"
-                  >
-                    <span className="relative block aspect-[4/3]">
-                      {pack && (
-                        <Image
-                          src={pack.src}
-                          alt={`${item.name} pack`}
-                          fill
-                          sizes="(min-width: 80rem) 28vw, (min-width: 40rem) 46vw, 100vw"
-                          className="object-contain p-7 transition-transform duration-700 group-hover:scale-105"
-                        />
-                      )}
-                    </span>
-                    <span className="border-deep/15 flex flex-1 flex-col border-t p-6 sm:p-7">
-                      <span className="spec-sh text-muted flex justify-between gap-4">
-                        <span>{pad(index + 1)}</span>
-                        <span>{item.packs.join(" · ")}</span>
-                      </span>
-                      <span className="label-sh text-muted mt-6 leading-relaxed">
-                        {item.type}
-                      </span>
-                      <span className="font-display text-brand mt-2 text-2xl leading-tight uppercase">
-                        {item.name}
-                      </span>
-                      <span className="mt-3 leading-relaxed">
-                        {item.summary}
-                      </span>
-                      <span className="spec-sh mt-auto flex items-center justify-between gap-4 pt-7">
-                        <span>Data sheet PDF</span>
-                        <span
-                          aria-hidden
-                          className="inline-block transition-transform duration-500 group-hover:translate-x-2"
-                        >
-                          &rarr;
+          <p className="mt-5 max-w-2xl leading-relaxed">
+            {heldCount} are held in Dar es Salaam; the rest are supplied to
+            order. Every page carries OYH&apos;s own data sheet.
+          </p>
+          <nav aria-label="Families" className="mt-8 flex flex-wrap gap-2.5">
+            {families.map((family) => (
+              <a
+                key={family.id}
+                href={`#${family.id}`}
+                className="chip-sh border-deep bg-chalk inline-flex min-h-11 items-center gap-2 rounded-full border px-5 text-sm"
+              >
+                {family.label}
+                <span className="text-muted">{family.items.length}</span>
+              </a>
+            ))}
+          </nav>
+          {families.map((family) => (
+            <div
+              key={family.id}
+              id={family.id}
+              className="border-deep/15 mt-16 scroll-mt-28 border-t pt-10"
+            >
+              <h3 className="font-display text-brand text-2xl leading-tight sm:text-3xl">
+                {family.label}
+              </h3>
+              <p className="mt-3 max-w-2xl leading-relaxed">{family.blurb}</p>
+              <ul className="mt-8 grid gap-4 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
+                {family.items.map((item) => {
+                  const pack = packshot("oriental-yuhong", item.slug);
+                  const held = oyhStock(item.slug) === "held";
+                  return (
+                    <li key={item.slug}>
+                      <Link
+                        href={productHref(item)}
+                        className="group border-deep/15 flex h-full flex-col overflow-hidden rounded-lg border bg-white transition-transform duration-500 hover:-translate-y-1"
+                      >
+                        <span className="relative block aspect-[4/3]">
+                          {pack && (
+                            <Image
+                              src={pack.src}
+                              alt={`${item.name} pack`}
+                              fill
+                              sizes="(min-width: 80rem) 28vw, (min-width: 40rem) 46vw, 100vw"
+                              className="object-contain p-7 transition-transform duration-700 group-hover:scale-105"
+                            />
+                          )}
                         </span>
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+                        <span className="border-deep/15 flex flex-1 flex-col border-t p-6 sm:p-7">
+                          <span className="spec-sh text-muted flex justify-between gap-4">
+                            <span>{pad(position[item.slug])}</span>
+                            <span>{held ? "Held in Dar" : "To order"}</span>
+                          </span>
+                          <span className="label-sh text-muted mt-6 leading-relaxed">
+                            {item.type}
+                          </span>
+                          <span className="font-display text-brand mt-2 text-2xl leading-tight uppercase">
+                            {item.name}
+                          </span>
+                          <span className="mt-3 leading-relaxed">
+                            {item.summary}
+                          </span>
+                          <span className="spec-sh mt-auto flex items-center justify-between gap-4 pt-7">
+                            <span>{item.packs.join(" · ")}</span>
+                            <span
+                              aria-hidden
+                              className="inline-block transition-transform duration-500 group-hover:translate-x-2"
+                            >
+                              &rarr;
+                            </span>
+                          </span>
+                        </span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
         </Container>
       </section>
 

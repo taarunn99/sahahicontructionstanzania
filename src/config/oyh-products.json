@@ -1,0 +1,788 @@
+[
+  {
+    "slug": "pmh-3040",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-3040",
+    "sourceName": "PMH-3040 (OYH data sheet)",
+    "type": "HDPE pre-applied waterproofing membrane",
+    "summary": "PMH-3040 Pre-Applied High Density Polyethylene (HDPE) Waterproofing Membrane is a composite sheet comprised of thick HDPE film, pressure sensitive adhesive and weather resistant protective coating.",
+    "packs": [
+      "Roll, 1.2 or 2.4 m wide, 30m (can be customized), 36m2 (can be customized)"
+    ],
+    "colours": [
+      "White"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-3040-plus",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-3040 Plus",
+    "sourceName": "PMH-3040 Plus (OYH data sheet)",
+    "type": "HDPE pre-applied waterproofing membrane, dual adhesive seams",
+    "summary": "PMH-3040 Plus is a pre-applied high density polyethylene (HDPE) waterproofing membrane.",
+    "packs": [
+      "Roll, 1.2 or 2.4 m wide, 30m (can be customized), 36 m2/roll (can be customized)"
+    ],
+    "colours": [
+      "White"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-3041",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-3041",
+    "sourceName": "PMH-3041 (OYH data sheet)",
+    "type": "HDPE post-applied root barrier waterproofing membrane",
+    "summary": "The PMH-3041 High-Density Polyethylene (HDPE) Waterproofing Membrane is specifically developed for the waterproofing of underground structure side walls and roof slabs.",
+    "packs": [
+      "Roll, 1.2 or 2.4 m wide, 20 m or Customized, 24, 48 or Customized m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-3046",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-3046",
+    "sourceName": "PMH-3046 (OYH data sheet)",
+    "type": "HDPE post-applied self-adhesive waterproofing membrane",
+    "summary": "PMH-3046 is a high strength HDPE post-applied self-adhesive waterproofing membrane, designed for underground structure side walls and roof slabs, working together with PMH 3040/3040PLUS, PMH 3080/3080PLUS to form an integrated system for below-grade waterproofing.",
+    "packs": [
+      "Roll 1.0m×25m, 20kg"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhfpopre-3210",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHFPOpre-3210",
+    "sourceName": "YHFPOpre-3210 (OYH data sheet)",
+    "type": "FPO pre-applied waterproofing membrane",
+    "summary": "It is designed to bond with cast-in-place concrete, installed using the pre-applied method, and its lap joints are sealed by hot-air welding.",
+    "packs": [
+      "Roll, 1.2/2.4 m wide, 1.5 mm, 20 m, 24/48 m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-6010",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-6010",
+    "sourceName": "PMH-6010 (OYH data sheet)",
+    "type": "HDPE semi-transparent pre-applied tunnel waterproofing membrane",
+    "summary": "PMH-6010 is designed for dim light, wet, dusty and vibration construction condition, suitable for various tunnels and underground space waterproofing projects.",
+    "packs": [
+      "Roll, 1.2 or 2.4 m wide, 20 m or Customized, 24, 48 or Customized m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7401",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7401",
+    "sourceName": "YHShield-7401 (OYH data sheet)",
+    "type": "SBS torch-on bituminous membrane",
+    "summary": "YHShield-7401 is a high-performance flexible SBS elastomeric bituminous waterproofing membrane reinforced with a strong, resilient, non-woven polyester fabric.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll, 3 or 4 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7402",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7402",
+    "sourceName": "YHShield-7402 (OYH data sheet)",
+    "type": "SBS torch-on bituminous membrane",
+    "summary": "YHShield-7402 is a high-performance flexible SBS elastomeric bituminous waterproofing membrane reinforced with a strong, resilient, non-woven polyester fabric.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll, 3 or 4 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7403",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7403",
+    "sourceName": "YHShield-7403 (OYH data sheet)",
+    "type": "SBS torch-on bituminous membrane, mineral granule face",
+    "summary": "YHShield-7403 is a high-performance flexible SBS elastomeric bituminous waterproofing membrane reinforced with a strong, resilient, non-woven polyester fabric.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll: PE or sand face 3 or 4 mm; mineral granule (BL) face 3.8, 4.0 or 4.8 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7501",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7501",
+    "sourceName": "YHShield-7501 (OYH data sheet)",
+    "type": "APP torch-on bituminous membrane",
+    "summary": "YHShield-7501 is a high-performance, APP-modified bituminous waterproofing membrane manufactured from premium bitumen modified with selected polymers, and reinforced with a strong, resilient, non-woven spun-bonded polyester fabric.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll: PE or sand face 3 or 4 mm; mineral face M (BL) 3.8, 4.0 or 4.8 mm; M (GL) and M (HL) 4.0, 4.2 or 5.0 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7502",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7502",
+    "sourceName": "YHShield-7502 (OYH data sheet)",
+    "type": "APP torch-on bituminous membrane",
+    "summary": "YHShield-7502 is a high-performance, APP-modified bituminous waterproofing membrane manufactured from premium bitumen modified with selected polymers, and reinforced with a strong, resilient, non-woven spun-bonded polyester fabric.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll, 3 or 4 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhshield-7601",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHShield-7601",
+    "sourceName": "YHShield-7601 (OYH data sheet)",
+    "type": "root-resistant SBS torch-on membrane",
+    "summary": "YHShield-7601 is a torch-applied, root-resistant bituminous waterproofing membrane incorporating a chemical root inhibitor.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m²/roll, 4 mm"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhstick-9301",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHStick-9301",
+    "sourceName": "YHStick-9301 (OYH data sheet)",
+    "type": "double-side or single-side self-adhesive bituminous membrane",
+    "summary": "YHStick-9301 is a self-adhesive, fully bonded, post-applied, bituminous waterproofing sheet membrane in thicknesses of 1.5mm and 2.0mm.",
+    "packs": [
+      "Roll, 1 m x 20 m, 20 m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhstick-9302",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHStick-9302",
+    "sourceName": "YHStick-9302 (OYH data sheet)",
+    "type": "self-adhesive bituminous membrane, high-strength film",
+    "summary": "It is comprises of a high-strength film pre-coated with SBS-modified bitumen compound, with a release film or release foil on the upper and lower surfaces.",
+    "packs": [
+      "Roll, 1 m x 20 m, 20 m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhstick-9310",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHStick-9310",
+    "sourceName": "YHStick-9310 (OYH data sheet)",
+    "type": "cross-laminated HDPE self-adhesive bituminous membrane",
+    "summary": "YHStick-9310 is a self-adhesive, fully bonded, post-applied, bituminous waterproofing sheet membrane in thicknesses of 1.5mm and 2.0mm.",
+    "packs": [
+      "Roll, 1 m x 20 m, 20 m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhstick-9801",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHStick-9801",
+    "sourceName": "YHStick-9801 (OYH data sheet)",
+    "type": "reinforced self-adhesive bituminous membrane, polyester",
+    "summary": "YHStick-9801 is a reinforced self-adhesive, fully bonded, post-applied, bituminous waterproofing membrane.",
+    "packs": [
+      "Roll, 1 m x 10 m, 10 m2/roll"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhbitucoat-4500",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHBitucoat-4500",
+    "sourceName": "YHBitucoat-4500 (OYH data sheet)",
+    "type": "high-strength waterborne bitumen waterproofing coating",
+    "summary": "YHBitucoat-4500 is a high-performance, self-developed emulsified asphalt coating formulated to form a highly elastic, seamless membrane with excellent crack bridging capability and low vapor permeability.",
+    "consumption": "(2.1~2.4) kg/m² for 1mm DFT",
+    "packs": [
+      "20Kg per plastic pail"
+    ],
+    "colours": [
+      "Dark brown"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhbitucoat-4600",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHBitucoat-4600",
+    "sourceName": "YHBitucoat-4600 (OYH data sheet)",
+    "type": "waterborne bitumen waterproofing coating",
+    "summary": "YHBitucoat-4600 is a high-performance, self-developed emulsified asphalt coating formulated to form a highly elastic, seamless membrane with excellent crack bridging capability and low vapor permeability.",
+    "consumption": "approximately 2kg/m2 by (2～3) coat no reinforcement and 3kg/m2 by (3～4) coat with reinforcement",
+    "packs": [
+      "20Kg per plastic pail"
+    ],
+    "colours": [
+      "Chocolate brown"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhbituprimer-4035",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHBituprimer-4035",
+    "sourceName": "YHBituprimer-4035 (OYH data sheet)",
+    "type": "water-based bitumen primer",
+    "summary": "YHBituprimer-4035 Water-based Bitumen Primer is a quick drying water based low viscosity bitumen primer.",
+    "consumption": "The theoretical dosage is (0.2-0.3)kg/m2.",
+    "packs": [
+      "18kg per plastic pail"
+    ],
+    "colours": [
+      "Black or dark brown"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhbituprimer-4050",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHBituprimer-4050",
+    "sourceName": "YHBituprimer-4050 (OYH data sheet)",
+    "type": "concentrated water-based bitumen primer",
+    "summary": "It is mainly used for Primer of waterproof membrane before construction, so as to improve the adhesion between membrane and base, and has the function of blocking water vapor penetration.",
+    "consumption": "The theoretical dosage is (0.1-0.15)kg/m2. If diluted, the dosage can be increased as appropriate.",
+    "packs": [
+      "18kg per plastic pail"
+    ],
+    "colours": [
+      "Black or dark brown"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhprimcoat-1010",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPrimCoat-1010",
+    "sourceName": "YHPrimCoat-1010 (OYH data sheet)",
+    "type": "water-based acrylic primer",
+    "summary": "YHPrimCoat-1010 is a single-component, low-VOC, water-based, versatile acrylic primer that enhances the performance and adhesion of coating and mortar products on substrates.",
+    "consumption": "approximately 0.1-0.2kg/m2/coat",
+    "packs": [
+      "18kg in plastic pail"
+    ],
+    "colours": [
+      "Grey liquid"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhcolorwall-5100",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHColorWall-5100",
+    "sourceName": "YHColorWall-5100 (OYH data sheet)",
+    "type": "waterproof white cement mastic",
+    "summary": "YHColorWall-5100 is a single-component, ready to use water resistant white cement based finishing / smoothening mastic for indoor and outdoor concrete structures.",
+    "consumption": "1.50 to 1.80 kg/m² for a 1 mm dry film thickness",
+    "packs": [
+      "20 kg per pail",
+      "20kg per bag"
+    ],
+    "colours": [
+      "White"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhcrystal-2510",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHCrystal-2510",
+    "sourceName": "YHCrystal-2510 (OYH data sheet)",
+    "type": "crystalline waterproofing coating",
+    "summary": "YHCrystal-2510 is a powdery, rigid waterproof material composed of special cement, quartz sand, and various active chemicals.",
+    "consumption": "1.4-1.6kg/ m² by 2 coats",
+    "packs": [
+      "4kg×5 bags per plastic pails"
+    ],
+    "colours": [
+      "Grey"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhcrystal-2512",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHCrystal-2512",
+    "sourceName": "YHCrystal-2512 (OYH data sheet)",
+    "type": "crystalline waterproofing admixture",
+    "summary": "YHCrystal-2512 is a powdered, rigid waterproofing material specially formulated for direct integration into concrete during mixing process.",
+    "consumption": "1% to 2% of the cement or cementitious material",
+    "packs": [
+      "4kg×5 bags per plastic pail"
+    ],
+    "colours": [
+      "Grey"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhprimblock-1400",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPrimBlock-1400",
+    "sourceName": "YHPrimBlock-1400 (OYH data sheet)",
+    "type": "epoxy-cementitious moisture barrier primer",
+    "summary": "YHPrimBlock-1400 is a three-component epoxy-cementitious system which has the capacity of sealing on damp surface to prevent blistering of resin based coatings.",
+    "consumption": "250-300 g/m2 per coat (non-absorbent), 400-500 g/m2 per coat (absorbent)",
+    "packs": [
+      "Component A 1.0kg",
+      "Component B 1.0kg",
+      "Component C 4.0kg"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhacgrout-2101",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHACgrout-2101",
+    "sourceName": "YHACgrout-2101 (OYH data sheet)",
+    "type": "polyacrylic injection resin",
+    "summary": "YHACgrout-2101 is a multi-component, low-viscosity, and flexible polyacrylic injection system designed for permanent waterproof sealing with adjustable gelling time.",
+    "packs": [
+      "10L per plastic pail (Part A, Part B)",
+      "9.7kg per bag (A1)",
+      "0.3kg per bag (A2)",
+      "9.8kg per bag (B1)",
+      "0.2kg per bag (B2)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhpugrout-2102",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPUgrout-2102",
+    "sourceName": "YHPUgrout-2102 (OYH data sheet)",
+    "type": "hydrophilic polyurethane injection resin",
+    "summary": "A single-component, low-viscosity, hydrophilic, water-reactive injection resin that forms a flexible gel to stop running water.",
+    "packs": [
+      "20kg / 7kg per metal drum"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhpugrout-2103",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPUgrout-2103",
+    "sourceName": "YHPUgrout-2103 (OYH data sheet)",
+    "type": "polyurethane foam injection resin",
+    "summary": "YHPUgrout-2103 Polyurethane Injection Resin is a single-component, low-viscosity, water-reactive injection resin.",
+    "packs": [
+      "10kg per metal drum"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhpugrout-2104",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPUgrout-2104",
+    "sourceName": "YHPUgrout-2104 (OYH data sheet)",
+    "type": "self-leveling polyurethane crack sealant",
+    "summary": "YHPUgrout-2104 is a single component, self-leveling, premium grade polyurethane sealant for permanently sealing horizontal cracks.",
+    "packs": [
+      "13kg per pail"
+    ],
+    "colours": [
+      "Grey"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhepgrout-2106",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHEPgrout-2106",
+    "sourceName": "YHEPgrout-2106 (OYH data sheet)",
+    "type": "epoxy injection grout for concrete cracks",
+    "summary": "A solvent-free, two-component, low-viscosity epoxy grout specially designed for injection into voids and cracks in concrete to deliver long-term sealing and reinforcement of concrete structures.",
+    "packs": [
+      "Component A: 10 kg / 10 L per drum",
+      "Component B: 10 kg / 10 L per drum"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhepoxy-gr90",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHEpoxy-GR90",
+    "sourceName": "YHEpoxy-GR90 (OYH data sheet)",
+    "type": "three-component epoxy grout for machine bases",
+    "summary": "A three-component, solvent-free epoxy resin grout designed for grouting, bedding and structural support of machine bases, base plates, bridge bearings, presses and heavy-duty equipment subject to static and dynamic loads.",
+    "packs": [
+      "Part A 3 kg metal pail",
+      "Part B 1 kg square metal pail",
+      "Part C 20 kg valve bag"
+    ],
+    "colours": [
+      "Concrete Gray"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhinjehose",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHInjehose",
+    "sourceName": "YHInjehose (OYH data sheet)",
+    "type": "re-injectable injection hose for construction joints",
+    "summary": "A re-injectable hose for sealing various construction and connection joints in watertight concrete structures.",
+    "consumption": "200 m of hose per Combi-pack",
+    "packs": [
+      "Combi-pack: 200 m YHinjehose, 10 m PVC-hose (inlet), 10 m PVC-hose (outlet), accessories, 1 can of glue, 1 roll of tape, ×800 fastening clips"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhswellseal",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHSwellSeal",
+    "sourceName": "YHSwellSeal (OYH data sheet)",
+    "type": "hydrophilic swellable joint sealant",
+    "summary": "YHSwellSeal is a 1-part polyurethane hydrophilic sealant which swells in contact with water to seal all types of construction joints and penetrations in concrete structures.",
+    "packs": [
+      "600ml per cartridge"
+    ],
+    "colours": [
+      "Red"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhswellbar",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHSwellbar",
+    "sourceName": "YHSwellbar (OYH data sheet)",
+    "type": "swellable joint sealing waterbar",
+    "summary": "YHSwellbar is a hydrophilic rubber sealing strip that swells when in contact with water.",
+    "packs": [
+      "10 m × 10 rolls per box"
+    ],
+    "colours": [
+      "Red"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhwaterstop-epdm",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHWaterstop Rubber Series",
+    "sourceName": "YHWaterstop Rubber Series (OYH data sheet)",
+    "type": "rubber waterstop",
+    "summary": "YHWaterstop rubber series are made from natural rubber or EPDM rubber, with various accelerators and fillers added.",
+    "packs": [
+      "S-R-Z-300*8: 20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)",
+      "B-R-Z-300*8: 20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)",
+      "S-R-T-300*8: 20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)",
+      "B-R-T-320*8: 20-35m (Length), 320,350,400mm(width),6,8,10mm (±10%, Thickness)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhwaterstop-pvc",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHWaterstop PVC Series",
+    "sourceName": "YHWaterstop PVC Series (OYH data sheet)",
+    "type": "flexible PVC waterstop",
+    "summary": "YHWaterstop series are constructed from flexible thermoplastic PVC. They are designed to stop the migration of water through construction joints in concrete structures.",
+    "packs": [
+      "YHWaterstop-V150: 20m (Length), 3-5mm (±10%, Thickness)",
+      "YHWaterstop-V200: 20m (Length), 3-5mm (±10%, Thickness)",
+      "YHWaterstop-V250: 20m (Length), 3-5mm (±10%, Thickness)",
+      "YHWaterstop-V320: 15m (Length), 3-8mm (±10%, Thickness)",
+      "YHWaterstop-O150: 20m (Length), 3-5mm (±1mm, Thickness)",
+      "YHWaterstop-O200: 20m (Length), 3-5mm (±1mm, Thickness)",
+      "YHWaterstop-O250: 20m (Length), 3-5mm (±1mm, Thickness)",
+      "YHWaterstop-O320: 15m (Length), 3-8mm (±1mm, Thickness)",
+      "YHWaterstop-A250: 20m (Length), 3-5mm (±1mm, Thickness)",
+      "YHWaterstop-D250: 20m (Length), 3-5mm (±1mm, Thickness)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "tdf-g",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "TDF G Series",
+    "sourceName": "TDF G Series (OYH data sheet)",
+    "type": "polyester nonwoven geotextile, G100 to G800",
+    "summary": "TDF G Series geotextiles are needle-punched continuous filament geotextiles and made of 100% virgin polyester with excellent aging resistance.",
+    "packs": [
+      "Roll, width ≤7 m, length customizable"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "tdf-hs",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "TDF HS Series",
+    "sourceName": "TDF HS Series (OYH data sheet)",
+    "type": "polypropylene nonwoven geotextile, HS100 to HS1000",
+    "summary": "TDF HS Series geotextiles are needle-punched continuous filament geotextiles and made of 100% virgin polypropylene with UV resistance.",
+    "packs": [
+      "Roll, width ≤6 m (HS100 to HS300) or ≤5.7 m (HS400 to HS1000), length customizable"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhdrainpro-201",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHDrainPro-201",
+    "sourceName": "YHDrainPro-201 (OYH data sheet)",
+    "type": "HDPE studded drainage and protection board",
+    "summary": "YHDrainPro-201 Plastic Drainage Board(PBD) is a high-performance drainage and protection layer manufactured from high-density polyethylene (HDPE) through a continuous thermoforming process.",
+    "packs": [
+      "Roll, 2750 mm wide, 12 m long or customized"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhdrainpro-202",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHDrainPro-202",
+    "sourceName": "YHDrainPro-202 (OYH data sheet)",
+    "type": "composite drainage board with geotextile",
+    "summary": "The composite drainage board is an extruded and moulded high-density polyethylene (HDPE) panel, with a concave-convex surface.",
+    "packs": [
+      "Roll, 2.0-3.0 m wide, 20 m long"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-s-600",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-S-600",
+    "sourceName": "PMH-S-600 (OYH data sheet)",
+    "type": "HDPE detailing sealant",
+    "summary": "PMH-S-600 is a single component moisture curing silane-modified polyether (Modified Silicone) sealant.",
+    "packs": [
+      "600ml Sausage (Aluminum Packing)"
+    ],
+    "colours": [
+      "White"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-t-160",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-T-160",
+    "sourceName": "PMH-T-160 (OYH data sheet)",
+    "type": "butt joint tape for HDPE membrane",
+    "summary": "The PMH-T-160 butt joint tape is a single-sided adhesive tape.",
+    "packs": [
+      "4 rolls per box",
+      "160mm (W) x 20m (L) x 1.0mm (Thickness)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-t-c-120",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-T-C120",
+    "sourceName": "PMH-T-C120 (OYH data sheet)",
+    "type": "coating cover tape for HDPE membrane",
+    "summary": "PMH-T-C120 coating cover tape is a specially formulated single-sided pressure sensitive tape.",
+    "packs": [
+      "8 rolls per box",
+      "120mm(W) x 50m (L) x 0.35mm thick"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-t-d80",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-T-D80",
+    "sourceName": "PMH-T-D80 (OYH data sheet)",
+    "type": "double-sided tape for HDPE membrane",
+    "summary": "PMH-T-D80 double-sided tape is a specially formulated sticky, PET film enforced pressure sensitive tape.",
+    "packs": [
+      "12 rolls per box",
+      "80mm (W) x 50m (L) x 0.4mm (Thickness)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "pmh-t-s80",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "PMH-T-S80",
+    "sourceName": "PMH-T-S80 (OYH data sheet)",
+    "type": "sand cover tape for HDPE membrane",
+    "summary": "PMH-T-S80 sand cover tape is made by using the cross-laminated film as the carrier, coating the pressure sensitive adhesive on the upper and lower surfaces, and top side covering weather resistant particles.",
+    "packs": [
+      "8 rolls per box",
+      "80mm (W) x 15m (L) x 0.8mm (Thickness)"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhprimer-1000",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHPrimer-1000",
+    "sourceName": "YHPrimer-1000 (OYH data sheet)",
+    "type": "two-component water-based epoxy primer",
+    "summary": "YHPrimer-1000 is a two-component, water-based, rigid epoxy primer with both penetrative sealing and surface-leveling effects.",
+    "consumption": "approximately 0.15-0.25kg/m²; 120-200 m² per set at 1:1 dilution, 180-300 at 1:2, 240-400 at 1:3",
+    "packs": [
+      "Part A: 10 kg/pail",
+      "Part B: 6 kg/pail"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhtape-2022fl",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHTape-2022FL",
+    "sourceName": "YHTape-2022FL (OYH data sheet)",
+    "type": "fluorocarbon film butyl tape",
+    "summary": "YHTape-2022FL Fluorocarbon film butyl tape is a weather-resistant, self-adhesive waterproof sealing tape.",
+    "packs": [
+      "Width 80 mm, 100 mm, or 330 mm",
+      "Thickness 0.8 mm, 1.0 mm",
+      "Length 10 m, 20 m"
+    ],
+    "colours": [
+      "White"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "yhtape-2022hd",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "YHTape-2022HD",
+    "sourceName": "YHTape-2022HD (OYH data sheet)",
+    "type": "HDPE film butyl tape",
+    "summary": "YHTape-2022HD Butyl tape is a self-adhesive sealing waterproof tape composed of High Density Polyethylene (HDPE) film surface layer, and a highly aggressive butyl pressure-sensitive adhesive on the bottom side.",
+    "packs": [
+      "Width 10 cm or other customized size",
+      "Thickness 1.2 ± 0.1 mm",
+      "Length 10 m or other customized size"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "fuda-xps",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "FUDA XPS",
+    "sourceName": "FUDA XPS (OYH data sheet)",
+    "type": "extruded polystyrene (XPS) protection and insulation board",
+    "summary": "Extruded polystyrene foam board for thermal insulation (XPS), the protective board in OYH's below-grade system, made from polystyrene resin with blowing agent and flame retardant by an extrusion process.",
+    "packs": [
+      "Board, 1200 mm x 600 mm or 2400 mm x 600 mm, 20 mm to 100 mm thick (can be customised)"
+    ],
+    "colours": [
+      "Lemon yellow"
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "oyh-r100",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "OYH R-100",
+    "sourceName": "OYH R-100 (OYH data sheet)",
+    "type": "high range water reducing PCE superplasticizer",
+    "summary": "OYH R-100 is a new-generation, environmentally friendly polycarboxylate ether (PCE) superplasticizer.",
+    "consumption": "0.25%-0.85% by weight of cementitious materials",
+    "packs": [
+      "Upon your request, flexible tanks, 1000 L IBCs, are available."
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "oyh-r100h",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "OYH R-100H",
+    "sourceName": "OYH R-100H (OYH data sheet)",
+    "type": "hybrid PCE superplasticizer",
+    "summary": "OYH R-100H combines outstanding water-reducing capability with superior slump retention performance.",
+    "consumption": "0.25%-0.85% by weight of cementitious materials",
+    "packs": [
+      "Upon your request, flexible tanks, 1000 L IBCs, are available."
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "oyh-s104c",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "OYH S-104C",
+    "sourceName": "OYH S-104C (OYH data sheet)",
+    "type": "medium slump retention PCE",
+    "summary": "OYH S-104C is a medium-efficiency polycarboxylate ether (PCE) base material specifically designed for concrete slump retention applications.",
+    "consumption": "OYH-S104C (50%) : water-reduction PCEs = 2:8 ~ 3:7",
+    "packs": [
+      "Upon your request, flexible tanks, 1000 L IBCs, are available."
+    ],
+    "ref": "OYH-TDS"
+  },
+  {
+    "slug": "oyh-s104s",
+    "brand": "oriental-yuhong",
+    "line": "oriental-yuhong",
+    "name": "OYH S-104S",
+    "sourceName": "OYH S-104S (OYH data sheet)",
+    "type": "super slump retention PCE",
+    "summary": "OYH S-104S is a high-performance polycarboxylate ether (PCE) polymer, specifically designed to provide outstanding slump retention performance.",
+    "consumption": "approximately 30%-50% of the total slump-retention system",
+    "packs": [
+      "Upon your request, flexible tanks, 1000 L IBCs, are available."
+    ],
+    "ref": "OYH-TDS"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "slug": "yhfpopre-3210",
+  "titleAsPrinted": "YHFPOpre-3210",
+  "edition": "May. 2025",
+  "description": "OYH FPO pre-applied waterproofing membrane is a waterproof membrane composed of a Flexible polyolefin (FPO) sheet as the main material, a pressure-sensitive adhesive layer, a granule-faced bondin layer (except in the lap joint area), and separation material where required. It is designed to bond with cast-in-place concrete, installed using the pre-applied method, and its lap joints are sealed by hot-air welding. No additional layer is required, and in some cases no protective layer is needed.",
+  "whereToUse": [
+    "Damp-proofing, waterproofing, and concrete protection in basements and other below-grade concrete structures",
+    "Precast reinforced concrete structures",
+    "Cast-in-place reinforced concrete structures on site",
+    "Existing reinforced concrete structures"
+  ],
+  "advantages": [
+    "Hot air welding: lap joints are hot-air welded, which has high peeling strength and forms a safe and reliable sealing waterproof layer",
+    "Made of thermoplastic polyolefin sheet and synthetic polymer adhesive, so it has high tensile strength, large elongation, impact resistance, tear resistance, chemical corrosion resistance, size stability under thermal aging",
+    "Excellent chemical corrosion resistance: resistance to acid, alkali, salt, algae, mold and other microbial corrosion",
+    "Strong bonding with concrete: It forms permanent bonding with post-cast concrete, which is not affected by foundation settlement and deformation",
+    "Construction can be conducted all over the year",
+    "Environmentally friendly: there is no solvent and harmful additives in the formula of thermoplastic polyolefin sheet and polymer self-adhesive layer"
+  ],
+  "notFor": [
+    "Hot-air welding should be conducted above -10℃",
+    "The welding surface must be wiped clean, without water, oil and dirt",
+    "All operators must be trained before work",
+    "personnel with spikes are strictly prohibited from entering the construction site where FPO membrane have been laid",
+    "After the construction of pre-applied FPO membrane on planar surface, it is advisable to cast the concrete within 28 days"
+  ],
+  "standards": [
+    { "standard": "EN 12311-2", "value": "" },
+    { "standard": "EN 12310-1", "value": "" },
+    { "standard": "EN 1928", "value": "" },
+    { "standard": "EN 12316-2", "value": "" },
+    { "standard": "EN 495-5", "value": "" },
+    { "standard": "EN 1110", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Width (m)", "value": "1.2/2.4" },
+    { "label": "Thickness (mm)", "value": "1.5" },
+    { "label": "Length (m)", "value": "20" },
+    { "label": "Roll size (m2/roll)", "value": "24/48" },
+    { "label": "Tensile strength (L/T), N/50mm (EN 12311-2)", "value": "800" },
+    { "label": "Elongation at break (L/T), % (EN 12311-2)", "value": "700" },
+    { "label": "Resistance to tearing (nail shank), N (EN 12310-1)", "value": "500" },
+    { "label": "Watertightness, method B: 24 hours at 60kPa (EN 1928)", "value": "Pass" },
+    { "label": "Peel resistance of joints, N/50mm (EN 12316-2)", "value": "250" },
+    { "label": "Low temperature flexibility at -40 C (EN 495-5)", "value": "No Leakage" },
+    { "label": "Heat resistance at 80 C (EN 1110)", "value": "Pass" },
+    { "label": "Shelf life", "value": "the shelf life is one year from the date of production" }
+  ],
+  "mixing": "Membrane can be directly laid on ‘not fully cured concrete’ or damp substrates without standing water, but the substrate should be smooth, solid, and free of obvious water accumulation.",
+  "packaging": "Roll",
+  "storage": "Avoid sun and rain. Pay attention to ventilation. Storage temperature should not be higher than 45 ℃."
+}

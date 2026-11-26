@@ -47,7 +47,8 @@ for (const brand of ["x-calibur", "oriental-yuhong", "cmci", "vasa"]) {
       ...(brand === "cmci" ? [content.mixing, content.storage] : []),
     ].filter(Boolean);
     const block = config.slice(config.indexOf(`"${slug}": {\n    kind`));
-    const source = /source: "([^"]+)"/.exec(block)?.[1];
+    // Prettier may wrap a long source onto the next line.
+    const source = /source:\s*"([^"]+)"/.exec(block)?.[1];
     if (config.includes(`"${slug}": {\n    kind`) && source)
       strings.push(source);
     for (const value of strings) {

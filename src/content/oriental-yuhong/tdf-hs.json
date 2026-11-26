@@ -1,0 +1,176 @@
+{
+  "slug": "tdf-hs",
+  "titleAsPrinted": "TDF HS Series Polypropylene Continuous Filament Geotextiles",
+  "edition": null,
+  "description": "TDF HS Series geotextiles are needle-punched continuous filament geotextiles and made of 100% virgin polypropylene with UV resistance. They have been widely applied in civil engineering and geotechnical engineering such as pavement, railway, landfill, construction, hydraulic, landscape, etc.",
+  "whereToUse": [
+    "Pavement construction, Reinforcing soft subgrade",
+    "Hydraulical engineering, Separation & protection",
+    "Landfill, drainage, Protecting geomembranes",
+    "Railway construction, Buffer layer",
+    "Environmental protection, Filtration & Erosion control",
+    "areas touched with alkaline interfaces such as cement, lime, and saline-alkali land"
+  ],
+  "advantages": [
+    "the fiber fineness of geotextiles can reach up to 14D which is 3 times of the spinning fineness of traditional technology",
+    "the strength, elongation and other mechanical properties of polypropylene spunbonded needle-punched geotextiles are better than staple fiber geotextiles",
+    "Polypropylene has excellent acid and alkali resistance(pH2~pH13)",
+    "High abrasion resistance and UV resistance of polypropylene, which ensures durability and operational reliability",
+    "the fabric surface is soft and not stiff, more convenient to lay and install, and fits the working surface better"
+  ],
+  "notFor": [],
+  "standards": [
+    {
+      "standard": "ISO 9864",
+      "value": "Mass per unit area"
+    },
+    {
+      "standard": "ISO 9863-1",
+      "value": "Thickness at 2 kPa"
+    },
+    {
+      "standard": "ISO 10319",
+      "value": "Tensile strength, elongation at max. load"
+    },
+    {
+      "standard": "ASTM D4632",
+      "value": "Grab strength, grab elongation"
+    },
+    {
+      "standard": "ISO 12236",
+      "value": "CBR puncture resistance"
+    },
+    {
+      "standard": "ISO 9073-4",
+      "value": "Trapezoidal tear strength"
+    },
+    {
+      "standard": "ISO 13433",
+      "value": "Cone drop test"
+    },
+    {
+      "standard": "ISO 11058",
+      "value": "Flow rate (50mm head), permittivity"
+    },
+    {
+      "standard": "ISO 12958",
+      "value": "In-plane water flow 20 kPa"
+    },
+    {
+      "standard": "ISO 12956",
+      "value": "Open size O90"
+    },
+    {
+      "standard": "ASTM D4355",
+      "value": "UV resistance after 500 hrs"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mass per unit area, g/m2, HS100 to HS1000 in order (ISO 9864)",
+      "value": "100, 200, 300, 400, 500, 600, 700, 800, 1000"
+    },
+    {
+      "label": "HS100: tensile strength, kN/m (ISO 10319)",
+      "value": "6.5"
+    },
+    {
+      "label": "HS100: CBR puncture resistance, N (ISO 12236)",
+      "value": "1200"
+    },
+    {
+      "label": "HS200: tensile strength, kN/m (ISO 10319)",
+      "value": "14"
+    },
+    {
+      "label": "HS200: CBR puncture resistance, N (ISO 12236)",
+      "value": "2200"
+    },
+    {
+      "label": "HS300: tensile strength, kN/m (ISO 10319)",
+      "value": "23"
+    },
+    {
+      "label": "HS300: CBR puncture resistance, N (ISO 12236)",
+      "value": "3500"
+    },
+    {
+      "label": "HS400: tensile strength, kN/m (ISO 10319)",
+      "value": "28"
+    },
+    {
+      "label": "HS400: CBR puncture resistance, N (ISO 12236)",
+      "value": "4500"
+    },
+    {
+      "label": "HS500: tensile strength, kN/m (ISO 10319)",
+      "value": "35"
+    },
+    {
+      "label": "HS500: CBR puncture resistance, N (ISO 12236)",
+      "value": "5500"
+    },
+    {
+      "label": "HS600: tensile strength, kN/m (ISO 10319)",
+      "value": "42"
+    },
+    {
+      "label": "HS600: CBR puncture resistance, N (ISO 12236)",
+      "value": "6500"
+    },
+    {
+      "label": "HS700: tensile strength, kN/m (ISO 10319)",
+      "value": "50"
+    },
+    {
+      "label": "HS700: CBR puncture resistance, N (ISO 12236)",
+      "value": "7600"
+    },
+    {
+      "label": "HS800: tensile strength, kN/m (ISO 10319)",
+      "value": "56"
+    },
+    {
+      "label": "HS800: CBR puncture resistance, N (ISO 12236)",
+      "value": "8700"
+    },
+    {
+      "label": "HS1000: tensile strength, kN/m (ISO 10319)",
+      "value": "65"
+    },
+    {
+      "label": "HS1000: CBR puncture resistance, N (ISO 12236)",
+      "value": "10000"
+    },
+    {
+      "label": "Elongation at max. load, %, all grades (ISO 10319)",
+      "value": "> 55"
+    },
+    {
+      "label": "Grab elongation, %, all grades (ASTM D4632)",
+      "value": "> 55"
+    },
+    {
+      "label": "UV resistance after 500 hrs, %, all grades (ASTM D4355)",
+      "value": "> 70"
+    },
+    {
+      "label": "Chemical resistance, all grades",
+      "value": "No effect in the range of pH2-13"
+    },
+    {
+      "label": "Roll width, m, maximum, HS100 to HS300",
+      "value": "≤6"
+    },
+    {
+      "label": "Roll width, m, maximum, HS400 to HS1000",
+      "value": "≤5.7"
+    },
+    {
+      "label": "Roll length, m",
+      "value": "Customizable and Optimal Load Solution"
+    }
+  ],
+  "consumption": [],
+  "storage": null
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "yhcolorwall-5100",
+  "titleAsPrinted": "YHColorWall-5100",
+  "edition": null,
+  "description": "YHColorWall-5100 is a single-component, ready to use water resistant white cement based finishing / smoothening mastic for indoor and outdoor concrete structures. This product features excellent anti-seepage, anti-mold, leveling, and decorative properties.",
+  "whereToUse": [
+    "repair and waterproofing of damaged concrete or masonry structures",
+    "new construction and maintenance of exterior walls, interior walls, elevator pits, pools, culverts, and underground garage side walls",
+    "restoring the aesthetic and functional performance of buildings"
+  ],
+  "advantages": [
+    "Excellent white look and smooth finish.",
+    "Excellent water resistant capability.",
+    "No flaking, blistering, chalking.",
+    "Excellent anti-seepage performance, with a coating anti-seepage pressure greater than 1.0MPa.",
+    "Anti-mold, effectively inhibiting mold growth.",
+    "Cured surface shows distinct anti-efflorescence effect.",
+    "Superb bonding: white cement base provides great adhesion to walls.",
+    "Can be applied on moist surface.",
+    "Anti-sagging: The material does not slip or sag during vertical construction."
+  ],
+  "notFor": [
+    "This product contains alkaline substances such as cement, which may cause skin allergies. Protective measures should be taken during use.",
+    "The construction temperature should be between 5 °C and 35 °C. Do not construct in rainy, snowy, or windy conditions above level 5. Avoid rain flush and construction on frozen substrates.",
+    "The mortar has a workable time of about 1 hour. Variations in construction temperature and humidity may affect the workable time.",
+    "Do not add water to the mortar after initial setting and reuse it.",
+    "There should not be any mildew or algae on the surface."
+  ],
+  "standards": [
+    { "standard": "BS EN 196-3:2016", "value": "Initial and final setting time" },
+    { "standard": "ASTM C109 / C109M-21", "value": "Compressive strength (28d)" },
+    { "standard": "ASTM C348 - 21", "value": "Flexural strength (28d)" },
+    { "standard": "ASTM C190", "value": "Tensile adhesion (28d)" },
+    { "standard": "ASTM D7234", "value": "Pull bond to concrete" }
+  ],
+  "technicalData": [
+    { "label": "Appearance", "value": "White powder" },
+    { "label": "Initial setting time, min (BS EN 196-3:2016)", "value": ">100" },
+    { "label": "Final setting time, min (BS EN 196-3:2016)", "value": "<250" },
+    { "label": "Compressive strength (28d), MPa (ASTM C109 / C109M-21)", "value": "≥30" },
+    { "label": "Flexural strength (28d), MPa (ASTM C348 - 21)", "value": "≥6" },
+    { "label": "Tensile adhesion (28d), MPa (ASTM C190)", "value": "≥1.2" },
+    { "label": "Pull bond to concrete, MPa (ASTM D7234)", "value": "≥1.5" },
+    { "label": "Coating anti-seepage pressure", "value": "greater than 1.0MPa" },
+    { "label": "Water-to-powder ratio", "value": "(0.18-0.20) : 1" },
+    { "label": "Workable time", "value": "about 1 hour" },
+    { "label": "Ambient air temperature", "value": "5 °C min / +40 °C max" },
+    { "label": "Relative air humidity", "value": "<85%" },
+    { "label": "Substrate temperature", "value": "≥ 3 °C above dew point, beware of condensation" },
+    { "label": "Shelf life", "value": "the shelf life is 12 months from the date of production" }
+  ],
+  "consumption": [
+    { "quote": "Material consumption is dependent on the porosity and texture of the substrate. Normally, it is about 1.50 to 1.80 kg/m² for a 1 mm dry film thickness." },
+    { "quote": "The thickness of each application should not be less than 1.0mm, and the final thickness of the plaster layer should not be less than 3mm." }
+  ],
+  "mixing": "First mix the supplied YHColorWall-5100 with a water-to-powder ratio of (0.18-0.20) : 1 & continue mixing until a homogeneous lump free paste of desired consistency is obtained.",
+  "packaging": "20 kg per pail or 20kg per bag",
+  "storage": "The Product must be stored in original, unopened and undamaged sealed packaging in dry conditions at temperatures between +5 °C and +35 °C. Protect from sunlight, rain, frost and humidity."
+}

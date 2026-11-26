@@ -85,6 +85,74 @@ export const productScenes: Record<string, Photo> = {
     "x-prime-gp2",
     "A squeegee spreading clear epoxy primer across a workshop floor, with a finished emerald green epoxy section behind",
   ),
+  // Oriental Yuhong products whose data sheet prints no picture and for which
+  // OYH has none (owner, 2026-11-26: "wherever there is no picture generate
+  // it"). Scenes of the use the sheet names, IMAGE-PROVENANCE 3w. Replaced
+  // by OYH's own pack picture the day one arrives.
+  "pmh-3046": scene(
+    "pmh-3046",
+    "A worker in a yellow vest pressing a white self-adhesive membrane onto the outside of a basement wall, in an open excavation of red earth",
+  ),
+  "yhshield-7502": scene(
+    "yhshield-7502",
+    "A worker on a flat roof torching a black bituminous membrane roll into place, a coastal city skyline across the water",
+  ),
+  "yhacgrout-2101": scene(
+    "yhacgrout-2101",
+    "A damp concrete basement wall fitted with a grid of injection packers and hoses, a hand pump on the floor pushing in a clear resin",
+  ),
+  "yhpugrout-2102": scene(
+    "yhpugrout-2102",
+    "Pale polyurethane foam expanding out of a leaking crack in a concrete wall, injected through steel packers from a hand-held gun",
+  ),
+  "yhepgrout-2106": scene(
+    "yhepgrout-2106",
+    "A gloved hand pressing clear epoxy resin into a port fixed along a fine crack in a concrete car park column",
+  ),
+  "yhepoxy-gr90": scene(
+    "yhepoxy-gr90",
+    "Grey epoxy grout poured from a bucket under the steel baseplate of a blue pump, timber formwork around the plinth",
+  ),
+  yhinjehose: scene(
+    "yhinjehose",
+    "A thin black injection hose clipped along the construction joint on a circular tank's base slab, its ends led up in clear tubes, rebar all round",
+  ),
+  yhswellseal: scene(
+    "yhswellseal",
+    "A red bead of swellable sealant gunned around a steel pipe where it passes through a concrete slab, and along the kicker joint behind",
+  ),
+  yhswellbar: scene(
+    "yhswellbar",
+    "A red swelling waterbar strip fixed along the centre of a concrete kicker joint at the foot of a tank wall, rebar on both sides",
+  ),
+  "yhwaterstop-epdm": scene(
+    "yhwaterstop-epdm",
+    "A black ribbed rubber waterstop with a centre bulb set in an expansion joint between two pours of a reservoir wall, half in the formwork",
+  ),
+  "yhwaterstop-pvc": scene(
+    "yhwaterstop-pvc",
+    "A pale grey ribbed PVC waterstop running along the joint between a pool's base slab and its wall, split formwork and rebar around it",
+  ),
+  "yhtape-2022hd": scene(
+    "yhtape-2022hd",
+    "A hand rolling a grey self-adhesive butyl tape over the seam of a window opening in a plywood-sheathed wall",
+  ),
+  "oyh-r100": scene(
+    "oyh-r100",
+    "Flowing grey concrete pouring from a truck mixer's chute into a pump hopper, a white admixture tank and a batching plant behind",
+  ),
+  "oyh-r100h": scene(
+    "oyh-r100h",
+    "Self-compacting concrete flowing through a dense reinforcing cage in open column formwork, a pump hose held above",
+  ),
+  "oyh-s104c": scene(
+    "oyh-s104c",
+    "A slump test beside a truck mixer: the steel cone lifted, the concrete sample settled, a tape measuring the drop, silos behind",
+  ),
+  "oyh-s104s": scene(
+    "oyh-s104s",
+    "A line of dusty truck mixers waiting on a hot highway beside a batching plant with tall silos, under a hazy sky",
+  ),
   // Not generated: X-Calibur's own cutaway drawing from its conductive floor
   // brochure (docs/IMAGE-PROVENANCE.md 3q), the one picture of the system.
   "x-tech-antistatic-sle": {

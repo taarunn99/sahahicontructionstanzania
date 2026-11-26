@@ -1,0 +1,107 @@
+{
+  "slug": "yhepoxy-gr90",
+  "titleAsPrinted": "YHEpoxy-GR90",
+  "edition": "May. 2026",
+  "description": "YHEpoxy-GR90 is a three-component, solvent-free, high-performance epoxy resin grout based on modified epoxy resin, selected inorganic fillers and a modified hardener.",
+  "whereToUse": [
+    "Grouting under reciprocating or rotating equipment, such as pumps, compressors and machinery",
+    "Grouting and repair of heavy-duty crane rails, conveyor tracks and industrial equipment foundations",
+    "Grouting of base plates, anchor bolts and machine foundations subject to vibration or impact",
+    "Re-profiling, repair and waterproofing of pile caps",
+    "Providing a level and durable bearing surface prior to bridge bearing installation"
+  ],
+  "advantages": [
+    "High early strength, fast curing",
+    "Corrosion resistance and chemical resistance",
+    "High compressive strength and impact resistance",
+    "Non-shrinking, low thermal expansion coefficient",
+    "Excellent creep resistance",
+    "Easy to mix and construct"
+  ],
+  "notFor": [
+    "Do not split packs or alter the prescribed mixing ratio.",
+    "Place the mixed grout from one side only to avoid air entrapment.",
+    "Do not vibrate the grout.",
+    "Protect all materials from extreme temperature."
+  ],
+  "standards": [
+    {
+      "standard": "EN 196-1",
+      "value": "Compressive and flexural strength"
+    },
+    {
+      "standard": "EN 1766",
+      "value": "Bond strength on concrete substrate"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Type",
+      "value": "Three-component"
+    },
+    {
+      "label": "Physical state",
+      "value": "A: Liquid; B: Liquid; C: Powder"
+    },
+    {
+      "label": "Colour after mixing",
+      "value": "Concrete Gray"
+    },
+    {
+      "label": "Packaging form",
+      "value": "A: metal pail; B: Square metal pail; C: Valve Bag"
+    },
+    {
+      "label": "Packaging specification",
+      "value": "A: 3 kg; B: 1 kg; C: 20 kg"
+    },
+    {
+      "label": "Mixing ratio (by weight)",
+      "value": "A:B:C = 3:1:20"
+    },
+    {
+      "label": "Pot life (workable time)",
+      "value": "≥ 40 minutes"
+    },
+    {
+      "label": "Compressive strength, MPa (EN 196-1), 1 d",
+      "value": "≥ 50"
+    },
+    {
+      "label": "Compressive strength, MPa (EN 196-1), 3 d",
+      "value": "≥ 60"
+    },
+    {
+      "label": "Compressive strength, MPa (EN 196-1), 7 d",
+      "value": "≥ 95"
+    },
+    {
+      "label": "Flexural strength, MPa (EN 196-1), 1 d",
+      "value": "≥ 10"
+    },
+    {
+      "label": "Flexural strength, MPa (EN 196-1), 3 d",
+      "value": "≥ 15"
+    },
+    {
+      "label": "Flexural strength, MPa (EN 196-1), 7 d",
+      "value": "≥ 20"
+    },
+    {
+      "label": "Bond strength on concrete substrate, MPa (EN 1766), 1, 3 and 7 d",
+      "value": "≥3 (concrete failure)"
+    },
+    {
+      "label": "Metal surfaces",
+      "value": "blast-cleaned to SSPC-SP 6 or equivalent"
+    },
+    {
+      "label": "Shelf life",
+      "value": "The shelf life is 12 months."
+    }
+  ],
+  "consumption": [],
+  "mixing": "Pour Component B completely into Component A and mix with a low-speed mixer at 200-250 rpm until a homogeneous mixture is obtained.",
+  "packaging": "A: 3 kg; B: 1 kg; C: 20 kg",
+  "storage": "Store in a cool, dry, and ventilated place, avoiding direct sunlight."
+}

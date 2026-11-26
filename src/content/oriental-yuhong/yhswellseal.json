@@ -1,0 +1,61 @@
+{
+  "slug": "yhswellseal",
+  "titleAsPrinted": "YHSwellSeal",
+  "edition": "July. 2026",
+  "description": "YHSwellSeal is a 1-part polyurethane hydrophilic sealant which swells in contact with water to seal all types of construction joints and penetrations in concrete structures. It is used to adhere the YHSwellbar profiles to the structure.",
+  "whereToUse": [
+    "Construction joints in water retaining or excluding structures such as water tanks, swimming pools, pumping chambers, reservoirs, tunnels, basement, culverts, cable ducts etc.",
+    "New-old concrete joints",
+    "Pipe and steel work penetrations through concrete floors and walls",
+    "Joints between floor slabs and pile caps"
+  ],
+  "advantages": [
+    "1-part, easy and fast to apply",
+    "Highly economical joint sealing solution",
+    "Versatile solution for joints and details",
+    "Optimized expansion rate",
+    "Permanently water resistant (wet & dry cycles)",
+    "Good adhesion to various substrates"
+  ],
+  "notFor": [
+    "Rough surfaces are susceptible to leaking",
+    "The minimum cover to the sealant on both sides shall be 8 cm for reinforced concrete and 15 cm for unreinforced concrete",
+    "Allow YHSwellSeal to harden for a minimum of 12 hours prior to concrete placement. For concrete pouring height greater than 50 cm, the YHSwellSeal shall harden for at least 24 hours before concrete placement",
+    "Protect uncured YHSwellSeal from water exposure (e.g. rain) until concrete placement is completed",
+    "Profile installation shall be completed within a maximum of 30 minutes at an ambient condition of +23 °C / 50 % r.h."
+  ],
+  "standards": [
+    { "standard": "ASTM C679", "value": "Surface drying time ≤1 h" },
+    { "standard": "ASTM C639", "value": "Sagging 0 mm" },
+    { "standard": "ASTM D412", "value": "Tensile strength ≥1.2 MPa, elongation ≥500 %" },
+    { "standard": "ASTM D2240", "value": "Hardness ≥40 Shore D" },
+    { "standard": "ASTM C794", "value": "Bond strength with concrete ≥0.8 MPa" },
+    { "standard": "ISO 11890-2", "value": "VOC ≤20 g/L" },
+    { "standard": "ISO 1817", "value": "Volume expansion rate in demineralized water" }
+  ],
+  "technicalData": [
+    { "label": "Composition", "value": "One-component polyurethane sealant" },
+    { "label": "Color", "value": "Red" },
+    { "label": "Solid content / %", "value": "≥99" },
+    { "label": "Surface drying time / h (ASTM C679)", "value": "≤1" },
+    { "label": "Curing rate (23℃, 50% Rh), 1 day", "value": "1 day: 2.0mm" },
+    { "label": "Curing rate (23℃, 50% Rh), 10 days", "value": "10 days: 10mm" },
+    { "label": "Sagging / mm, vertical surface (ASTM C639)", "value": "0" },
+    { "label": "Tensile strength / MPa (ASTM D412)", "value": "≥1.2" },
+    { "label": "Elongation / % (ASTM D412)", "value": "≥500" },
+    { "label": "Hardness, Shore D (ASTM D2240)", "value": "≥40" },
+    { "label": "Bond strength with concrete / MPa (ASTM C794)", "value": "≥0.8" },
+    { "label": "VOC / g/L (ISO 11890-2)", "value": "≤20" },
+    { "label": "Volume expansion rate in demineralized water / %, 1 day (ISO 1817)", "value": "≥100" },
+    { "label": "Volume expansion rate in demineralized water / %, 7 days (ISO 1817)", "value": "≥250" },
+    { "label": "Volume expansion rate in demineralized water / %, 30 days (ISO 1817)", "value": "≥250" },
+    { "label": "Bed under a YHSwellbar profile", "value": "narrow triangular bed (section size approx. 12 mm)" },
+    { "label": "Stand-alone bead, structure thickness < 20 cm", "value": "12 mm" },
+    { "label": "Stand-alone bead, structure thickness 20-30 cm", "value": "15 mm" },
+    { "label": "Stand-alone bead, structure thickness 30-50 cm", "value": "20 mm" }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "600ml per cartridge",
+  "storage": "12 months when stored in original, unopened container at 23℃ and 50% relative humidity"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "pmh-3040",
+  "titleAsPrinted": "PMH-3040",
+  "edition": null,
+  "description": "PMH-3040 Pre-Applied High Density Polyethylene (HDPE) Waterproofing Membrane is a composite sheet comprised of thick HDPE film, pressure sensitive adhesive and weather resistant protective coating.",
+  "whereToUse": [
+    "All underground structure",
+    "Areas in contact with earth (Slabs & Walls)",
+    "Caverns, tunnels, subways, municipal pipe corridors",
+    "Permanent and removable formwork"
+  ],
+  "advantages": [
+    "Simple and quick to install, requiring no priming or fillets",
+    "No lateral water migration",
+    "Not affected by soil settlement",
+    "Designed with fully adhered adhesive-to-adhesive watertight seams",
+    "White solar-reflective surface results in reduced temperature gain",
+    "Can be trafficked immediately after application and ready for immediate placing of steel reinforcement",
+    "Membrane is unaffected by wet jobsite conditions",
+    "Installed membrane is unaffected by freeze/thaw or wet/dry cycling",
+    "Resistant to methane and radon gases"
+  ],
+  "notFor": [
+    "If water pressure is above 10m, it is recommended to use PMH 3040 Plus",
+    "Do not lay membrane in temperature below 5°C",
+    "Substrates shall have no voids exceeding 12mm",
+    "Sharp objects are strictly forbidden to be used to consolidate the concrete during concrete pour",
+    "It is recommended that concrete be poured within 42 days after application of the membrane"
+  ],
+  "standards": [
+    { "standard": "ASTM D3767", "value": "" },
+    { "standard": "ASTM D412", "value": "" },
+    { "standard": "ASTM E154", "value": "" },
+    { "standard": "ASTM D903", "value": "" },
+    { "standard": "ASTM D5385", "value": "" },
+    { "standard": "ASTM D1876", "value": "" },
+    { "standard": "ASTM C1305", "value": "" },
+    { "standard": "ASTM E96 Method B", "value": "" },
+    { "standard": "ASTM 570", "value": "" },
+    { "standard": "ASTM D1970", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Width (m)", "value": "1.2 or 2.4" },
+    { "label": "Thickness (mm)", "value": "1.2 or 1.5" },
+    { "label": "Length (m)", "value": "30m (can be customized)" },
+    { "label": "Roll size (m2/roll)", "value": "36m2 (can be customized)" },
+    { "label": "Side lap", "value": "80mm strong adhesive lap at the edge of membrane" },
+    { "label": "Color", "value": "White" },
+    { "label": "Thickness (ASTM D3767)", "value": "1.2 mm" },
+    { "label": "Tensile strength (ASTM D412)", "value": "27.6MPa" },
+    { "label": "Elongation (ASTM D412)", "value": "500 %" },
+    { "label": "Puncture resistance (ASTM E154)", "value": "1000 N" },
+    { "label": "Peel adhesion to concrete (ASTM D903)", "value": "880 N/m" },
+    { "label": "Resistance to hydrostatic head (ASTM D5385)", "value": "71 m" },
+    { "label": "Peel strength in lap (ASTM D1876)", "value": "1000 N/m" },
+    { "label": "Crack cycling (ASTM C1305)", "value": "Passed" },
+    { "label": "Water vapour transmission, g/(m2.h) (ASTM E96 Method B)", "value": "0.0043" },
+    { "label": "Water absorption (ASTM 570)", "value": "0.5%" },
+    { "label": "Flexibility at low temperature (ASTM D1970)", "value": "-29℃" }
+  ],
+  "mixing": "The surface does not need to be dry, but standing water must be removed.",
+  "packaging": "Roll",
+  "storage": "Storage temperature shall be below 45℃ and away from direct exposure to sunlight, rain and high temperature."
+}

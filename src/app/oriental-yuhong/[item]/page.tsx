@@ -19,7 +19,15 @@ import {
   oyhProducts,
   oyhTds,
 } from "@/config/oriental-yuhong";
+import {
+  oyhDocumentNote,
+  oyhFamilyOf,
+  oyhOtherDocuments,
+  oyhSafetySheets,
+  oyhStock,
+} from "@/config/oyh-range";
 import { packshot } from "@/config/packshots";
+import { productScenes } from "@/config/product-scenes";
 import { ogBase, resolveOg } from "@/lib/seo";
 
 type Params = Promise<{ item: string }>;
@@ -84,6 +92,7 @@ export default async function OyhItemPage({ params }: { params: Params }) {
       back={{ href: "/oriental-yuhong", label: "Oriental Yuhong" }}
       position={{ number: index + 1, count }}
       image={packshot("oriental-yuhong", product.slug)}
+      scene={productScenes[product.slug] ?? null}
       model={(oyhModels as Record<string, string>)[product.slug] ?? null}
       content={oyhContent(product.slug)}
       document={oyhTds[product.slug] ?? null}
@@ -132,14 +141,23 @@ export default async function OyhItemPage({ params }: { params: Params }) {
           </section>
         ) : undefined
       }
+      stock={oyhStock(product.slug)}
+      safetySheets={oyhSafetySheets[product.slug]}
+      otherDocuments={oyhOtherDocuments[product.slug]}
+      documentNote={oyhDocumentNote[product.slug]}
       related={oyhProducts
-        .filter((other) => other !== product)
+        .filter(
+          (other) =>
+            other !== product &&
+            oyhFamilyOf[other.slug] === oyhFamilyOf[product.slug],
+        )
         .map((other) => ({
           name: other.name,
           type: other.type,
           href: productHref(other),
           detail: other.packs.join(" · "),
           image: packshot("oriental-yuhong", other.slug)?.src ?? null,
+          scene: productScenes[other.slug]?.src ?? null,
         }))}
       previous={{ name: previous.name, href: productHref(previous) }}
       next={{ name: next.name, href: productHref(next) }}

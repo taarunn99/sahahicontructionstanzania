@@ -1,0 +1,47 @@
+{
+  "slug": "yhcrystal-2512",
+  "titleAsPrinted": "YHCrystal-2512",
+  "edition": "Feb. 2025",
+  "description": "YHCrystal-2512 is a powdered, rigid waterproofing material specially formulated for direct integration into concrete during mixing process. Upon incorporation, it forms a monolithic structure with the concrete, enhancing its capability to resist high hydrostatic pressure. Additionally, the material enables self-repairs of cracks up to 0.4 mm in width, ensuring long-term durability and sustained waterproofing performance.",
+  "whereToUse": [
+    "permanent anti-seepage and waterproofing of concrete structures including basements, tunnels",
+    "sewage treatment pools, water supply pools, sewers",
+    "elevator shafts, swimming pools, chemical plants, and other concrete structures"
+  ],
+  "advantages": [
+    "Maximizes the density of cement concrete itself.",
+    "This allows for simultaneous pouring and waterproofing in a single construction step",
+    "Exhibits excellent self-healing functionality, capable of automatically repairing micro-cracks in the concrete.",
+    "The self-healing mechanism is reactivated in the presence of water",
+    "It significantly improves the workability of concrete and enhances concrete strength by 20-30%.",
+    "Reduces the slump loss in freshly mixed concrete",
+    "Minimizes concrete shrinkage and cracking",
+    "Prevents corrosion caused by harmful chemical erosive media (such as chloride ions), thereby enhancing the long-term durability of the concrete."
+  ],
+  "notFor": [
+    "Using this product requires a corresponding concrete mix ratio test.",
+    "Construction is not permitted in temperatures below 5 °C, or during rain or snow.",
+    "Protect the fresh mortar or concrete from exposure to sunlight, rain, strong winds and temperatures below 5 °C within 48 hours after application."
+  ],
+  "standards": [
+    { "standard": "BS EN 12390-8:2019", "value": "Water penetration" },
+    { "standard": "BS 1881-122: 2011+A1:2020", "value": "Water absorption" }
+  ],
+  "technicalData": [
+    { "label": "Physical state", "value": "Powder" },
+    { "label": "Colour", "value": "Grey" },
+    { "label": "Dosage", "value": "1% to 2% of the cement or cementitious material" },
+    { "label": "Water penetration, mm, control mix (BS EN 12390-8:2019)", "value": "Control Mix 27" },
+    { "label": "Water penetration, mm, admix dosage 1.0 kg / 100kg cement (BS EN 12390-8:2019)", "value": "Treated Mix 12" },
+    { "label": "Water absorption, %, control mix (BS 1881-122: 2011+A1:2020)", "value": "Control Mix 3.8" },
+    { "label": "Water absorption, %, admix dosage 1.0 kg / 100kg cement (BS 1881-122: 2011+A1:2020)", "value": "Treated Mix 0.9" },
+    { "label": "Mixing time", "value": "continue mixing for more than 5 minutes before use" },
+    { "label": "Shelf life", "value": "the shelf life is 12 months from the date of production" }
+  ],
+  "consumption": [
+    { "quote": "The admixture amount is 1% to 2% of the cement or cementitious material, and the actual amount will be determined based on the actual project requirements." }
+  ],
+  "mixing": "Wet Mixing: First, mix the calculated amount of YHCrystal-2512 with 10% to 20% of the application water to form a slurry. Then, pour the cement, aggregate, sand, and 80% to 90% of the application water into the mixing truck. Finally, add the prepared YHCrystal-2512 slurry into the mixing truck for mixing.",
+  "packaging": "4kg×5 bags per plastic pail",
+  "storage": "The Product must be stored in original, unopened and undamaged sealed packaging in dry conditions at temperatures between +5 °C and +40 °C. Protect from sunlight, rain, frost and humidity."
+}

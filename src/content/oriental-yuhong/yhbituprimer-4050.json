@@ -1,0 +1,53 @@
+{
+  "slug": "yhbituprimer-4050",
+  "titleAsPrinted": "YHBituprimer-4050",
+  "edition": "May. 2025",
+  "description": "It is mainly used for Primer of waterproof membrane before construction, so as to improve the adhesion between membrane and base, and has the function of blocking water vapor penetration.",
+  "whereToUse": [
+    "YHBituprimer-4050 is used as a primer and sealer coat prior to the application of bituminous waterproofing membranes and coatings.",
+    "Primer of waterproof membrane before construction"
+  ],
+  "advantages": [
+    "Compatible with various materials, quick-drying, and high penetration power.",
+    "The formula of super concentrated mother liquor can be diluted with water as required (not more than 1:2).",
+    "High adhesion to the substrate.",
+    "Improves the adhesion of bituminous membranes and coatings.",
+    "Cold applied, does not require heating.",
+    "Water-based product, environmentally friendly, and pollution-free.",
+    "Anti corrosive.",
+    "Conforms to ASTM D41 - Asphalt primer for roofing, damp proofing and waterproofing."
+  ],
+  "notFor": [
+    "Read the product label and Material Safety Data Sheet (MSDS) before using it.",
+    "Once opened, the product should be used on the same day. Any remaining material must be properly sealed and used as soon as possible.",
+    "The recommended construction temperature range is 5°C to 35°C. Construction is prohibited during rain, snow, or if such weather is predicted within 24 hours.",
+    "Don't add too much water to avoid affecting product performance.",
+    "Lower temperatures and/or humid conditions may extend the drying time.",
+    "Avoid long-term exposure to humid and poorly ventilated environments."
+  ],
+  "standards": [
+    { "standard": "ASTM D41", "value": "Asphalt primer for roofing, damp proofing and waterproofing" },
+    { "standard": "ASTM D 1475", "value": "Density" },
+    { "standard": "ASTM D 2939", "value": "Solid content by weight" },
+    { "standard": "ASTM D903-98(2017)", "value": "Peel adhesion to concrete" }
+  ],
+  "technicalData": [
+    { "label": "Physical state", "value": "Liquid" },
+    { "label": "Color", "value": "Black or dark brown" },
+    { "label": "Density [g/cm3] (ASTM D 1475)", "value": "0.97-0.99" },
+    { "label": "Solid content by weight [%] (ASTM D 2939)", "value": "≥50" },
+    { "label": "Peel adhesive to concrete [N/mm] (ASTM D903-98(2017))", "value": "≥1.0" },
+    { "label": "Dry time [h]", "value": "≤1" },
+    { "label": "Dilution with water", "value": "not more than 1:2" },
+    { "label": "Application", "value": "Spraying application is recommended" },
+    { "label": "Coats", "value": "Typically one single application is required; porous substrate may require two or more coats of primer to effectively seal the surface." },
+    { "label": "Membrane application", "value": "the membrane must be applied within 24 hours of the application of primer, but only once the primer is dry to the touch" },
+    { "label": "Storage temperature", "value": "between 5℃and 35℃" }
+  ],
+  "consumption": [
+    { "quote": "The theoretical dosage is (0.1-0.15)kg/m2. If diluted, the dosage can be increased as appropriate." }
+  ],
+  "mixing": null,
+  "packaging": "18kg per plastic pail",
+  "storage": "Under standard storage and transportation conditions, the product has a shelf life of 9 months from the date of production."
+}

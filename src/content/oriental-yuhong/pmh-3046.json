@@ -1,0 +1,63 @@
+{
+  "slug": "pmh-3046",
+  "titleAsPrinted": "PMH-3046",
+  "edition": "Nov. 2026",
+  "description": "PMH-3046 is a high strength HDPE post-applied self-adhesive waterproofing membrane, designed for underground structure side walls and roof slabs, working together with PMH 3040/3040PLUS, PMH 3080/3080PLUS to form an integrated system for below-grade waterproofing. The high performing HDPE film laminated with an aggressive, pressure sensitive adhesive, which can form a full bond with most of construction materials, especially concrete structures. The high strength cross-laminated HDPE film can provide good puncture resistance and tear strength.",
+  "whereToUse": [
+    "underground buildings’ structural side walls",
+    "conventional roof",
+    "Acceptable substrates are exterior-grade gypsum sheathing, plywood, OSB, precast or cast-in-place concrete, concrete block, primed steel, aluminum mill finish, anodized aluminum and galvanized metal"
+  ],
+  "advantages": [
+    "Fully bonded to structural side wall",
+    "Non-asphaltic adhesive, compatible with Pre-applied PMH series membranes",
+    "Excellent mechanical performance: high strength, elongation, tear resistance",
+    "Good sealing to concrete shrinkage cracks, bridges and movements",
+    "Water and vapor barrier to all basements",
+    "Easy apply, fast installation"
+  ],
+  "notFor": [
+    "Concrete must be cured a minimum of 14 days and must be dry before the membrane is applied",
+    "Where curing compounds are used, they must be clear resin based, without oil, wax or pigments",
+    "Excess moisture may lead to blistering of the membrane",
+    "Membrane can be applied between temperature -5℃ to 35℃"
+  ],
+  "standards": [
+    { "standard": "EN 12311-2:2013", "value": "" },
+    { "standard": "EN 12310-1:2025", "value": "" },
+    { "standard": "EN 12691:2018 method A", "value": "" },
+    { "standard": "EN 1928:2000 method B", "value": "" },
+    { "standard": "EN 12730:2001 method B", "value": "" },
+    { "standard": "EN 1296:2001", "value": "" },
+    { "standard": "EN 1847:2009", "value": "" },
+    { "standard": "EN 12317-2:2010", "value": "" },
+    { "standard": "ASTM C836", "value": "" },
+    { "standard": "ASTM E96 method B", "value": "" },
+    { "standard": "ASTM D1970", "value": "" },
+    { "standard": "ASTM D570", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Thickness", "value": "0.8mm (0.2mm film+ 0.6mm PSA)" },
+    { "label": "Roll dimensions", "value": "1.0m×25m" },
+    { "label": "Roll weight", "value": "20kg" },
+    { "label": "Laps", "value": "The membrane must be lapped a minimum of 2” (50 mm) on both sides and end laps" },
+    { "label": "Tensile strength, MPa (EN 12311-2:2013)", "value": "≥16" },
+    { "label": "Elongation at break, % (EN 12311-2:2013)", "value": "≥300" },
+    { "label": "Resistance to tear (nail shank), N (EN 12310-1:2025)", "value": "≥200" },
+    { "label": "Resistance to impact (EN 12691:2018 method A)", "value": "≥0.1kg·m, no leakage" },
+    { "label": "Watertightness (EN 1928:2000 method B)", "value": "60kPa,24h, no leakage" },
+    { "label": "Resistance to static loading (EN 12730:2001 method B)", "value": "10kg,24h, no leakage" },
+    { "label": "Water tightness against heat aging (EN 1296:2001 & EN 1928:2000 method B)", "value": "60kPa,24h, no leakage" },
+    { "label": "Water tightness against chemicals (EN 1847:2009 & EN 1928:2000 method B)", "value": "60kPa,24h, no leakage" },
+    { "label": "Joint strength, N (EN 12317-2:2010)", "value": "≥500" },
+    { "label": "Crack cycling at -26 C, 100 cycles (ASTM C836)", "value": "Unaffected" },
+    { "label": "Water vapor transmission, water method (ASTM E96 method B)", "value": "<0.1 perms" },
+    { "label": "Low temperature flexibility, -29 C (ASTM D1970)", "value": "No Cracks" },
+    { "label": "Water absorption (ASTM D570)", "value": "0.1%" },
+    { "label": "Storage period", "value": "the storage period is one year from the production date" }
+  ],
+  "mixing": "If time is critical, YHPrimer-1000 can be used to allow priming and installation of membrane on damp surfaces or green concrete.",
+  "packaging": "1.0m×25m",
+  "storage": "It should be stored in a cool, ventilated, and dry warehouse, and kept away from fire sources."
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "pmh-6010",
+  "titleAsPrinted": "PMH-6010",
+  "edition": "Mar.2025",
+  "description": "PMH-6010 HDPE Semi Transparent Pre-applied Membrane composites a HDPE film, pressure sensitive adhesive, protective coating and release liner. For 1.2m width membrane, one long edge has a reserved 80mm wide self-adhesive overlap as cold apply. For 2.4m width membrane, both long edge have 150mm wide welding strip, used for tunnel with large deformation or rough surface lining.",
+  "whereToUse": [
+    "PMH-6010 is designed for dim light, wet, dusty and vibration construction condition",
+    "suitable for various tunnels and underground space waterproofing projects",
+    "highway, railway, power, hydraulic, subway section tunnels and caverns",
+    "used for tunnel with large deformation or rough surface lining"
+  ],
+  "advantages": [
+    "Fully adhered to post-cast concrete, no water migration, significantly enhances the reliability of the waterproofing system",
+    "Lightweight and transparent material, the overlapping areas are more suitable for welding construction, convenient and efficient",
+    "Excellent durability, resistant to chemical corrosion, can achieve the same design life as the structure",
+    "Environmentally friendly, free from harmful chemicals, no pollution to water and soil"
+  ],
+  "notFor": [
+    "The laying of materials is strictly prohibited during rainy or snowy weather, or in winds of level 5 or higher",
+    "The environment temperature for cold application of self-adhesive membranes and tapes should not be lower than 5°C (this includes storage, construction, and the 24 hours following the completion of construction)",
+    "It is strictly forbidden for personnel wearing studded shoes to enter the construction site",
+    "The waterproof layer should not be damaged when pouring structural concrete, which should be completed within 15 days after the installation of the membranes",
+    "Contractors must undergo training before starting work"
+  ],
+  "standards": [
+    { "standard": "BS EN 1849-2:2019", "value": "" },
+    { "standard": "ASTM D1003-21", "value": "" },
+    { "standard": "BS EN 12311-2:2013 B", "value": "" },
+    { "standard": "BS EN 12310-1:2000", "value": "" },
+    { "standard": "BS EN 12317-2:2010", "value": "" },
+    { "standard": "BS EN 12691:2018 A", "value": "" },
+    { "standard": "BS EN 12691:2018 B", "value": "" },
+    { "standard": "BS EN 12730:2015 B", "value": "" },
+    { "standard": "ASTM D903-98(2017)", "value": "" },
+    { "standard": "BS EN 1928:2000", "value": "" },
+    { "standard": "BS EN 1931:2000 B", "value": "" },
+    { "standard": "BS EN 495-5:2013", "value": "" },
+    { "standard": "BS EN 1107-2:2001", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Width (m)", "value": "1.2, 2.4" },
+    { "label": "Thickness (mm)", "value": "≥1.5" },
+    { "label": "Length (m)", "value": "20 or Customized" },
+    { "label": "Area (m2/roll)", "value": "24, 48 or Customized" },
+    { "label": "Lap, 1.2 m width", "value": "80mm wide self-adhesive overlap" },
+    { "label": "Lap, 2.4 m width", "value": "150mm wide welding strip" },
+    { "label": "Thickness, typical (BS EN 1849-2:2019)", "value": "1.54mm" },
+    { "label": "Mass per unit area (BS EN 1849-2:2019)", "value": "1450g/m2" },
+    { "label": "Luminous transmittance (ASTM D1003-21)", "value": "60%" },
+    { "label": "Tensile strength (BS EN 12311-2:2013 B)", "value": "25N/mm2" },
+    { "label": "Elongation at break (BS EN 12311-2:2013 B)", "value": "500%" },
+    { "label": "Resistance to tearing, nail shank (BS EN 12310-1:2000)", "value": "700N" },
+    { "label": "Shear resistance of joints (BS EN 12317-2:2010)", "value": "800N/50mm" },
+    { "label": "Resistance to impact, hard support (BS EN 12691:2018 A)", "value": "700mm No Puncture& No Leakage" },
+    { "label": "Resistance to impact, soft support (BS EN 12691:2018 B)", "value": "2000mm No Puncture& No Leakage" },
+    { "label": "Resistance to static loading, hard support (BS EN 12730:2015 B)", "value": "20kg No Puncture& No Leakage" },
+    { "label": "Peel adhesion to concrete (ASTM D903-98(2017))", "value": "2000N/m" },
+    { "label": "Watertightness, before chemical immersion (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Watertightness, after 10% NaCl 28 days (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Watertightness, after saturated lime 28 days (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Watertightness, after 5-6% H2SO3 (BS EN 1928:2000)", "value": "No Leakage" },
+    { "label": "Water vapour transmission (BS EN 1931:2000 B)", "value": "0.007g/(m2.h)" },
+    { "label": "Foldability at low temperature (BS EN 495-5:2013)", "value": "No Visible Crack or Fracture at Folded Area" },
+    { "label": "Dimensional stability (BS EN 1107-2:2001)", "value": "-0.4%" },
+    { "label": "Storage period", "value": "one year from the production date" }
+  ],
+  "mixing": "When laying waterproofing membranes, sufficient loose laying allowance should be left based on the smoothness of the substrate.",
+  "packaging": "Roll",
+  "storage": "Avoid exposure to sunlight and rain. If necessary, cover with felt cloth. Ensure proper ventilation, and the storage temperature should not exceed 45°C."
+}

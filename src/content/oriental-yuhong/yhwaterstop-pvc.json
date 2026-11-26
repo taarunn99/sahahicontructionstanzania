@@ -1,0 +1,61 @@
+{
+  "slug": "yhwaterstop-pvc",
+  "titleAsPrinted": "YHWaterstop",
+  "edition": "Oct. 2025",
+  "description": "YHWaterstop series are constructed from flexible thermoplastic PVC. They are designed to stop the migration of water through construction joints in concrete structures.",
+  "whereToUse": [
+    "YHWaterstop V series is suitable for the effective sealing of concrete construction joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.",
+    "YHWaterstop O series is suitable for the effective sealing of concrete expansion joints in structures",
+    "YHWaterstop A series is suitable for the effective sealing of concrete construction joints in structures",
+    "YHWaterstop D series is suitable for the effective sealing of concrete expansion joints in structures",
+    "It is used for construction joints and movement joints where nominal movement is anticipated, such as basement or retaining walls"
+  ],
+  "advantages": [
+    "Good sealing: After concrete has hardened the sealing function starts",
+    "Easy to be welded on site",
+    "Designed rib profiles provide barriers to water migration"
+  ],
+  "notFor": [
+    "YHWaterstop V performs its function only if both sides are well embedded in the concrete",
+    "Placing of fresh concrete near the YHWaterstop V requires care, as otherwise it will be forced from its position by the pressure of the fresh concrete, i.e. the ends will fold up. To prevent this, the same concrete pressure must be present on both sides of the Waterstop",
+    "Removal of formwork in the neighborhood of YHWaterstop V must be done with care",
+    "Failures can be caused by irregularities of cut edges, insufficient heat, dust etc."
+  ],
+  "standards": [
+    { "standard": "ASTM D2240", "value": "Shore A hardness 75" },
+    { "standard": "ASTM D412", "value": "Tensile strength 12 MPa (±5%), elongation at break 300 % (±5%)" },
+    { "standard": "ASTM D624", "value": "Tear strength 54 N/mm" },
+    { "standard": "ASTM D746", "value": "Low temperature brittleness -25℃ Pass" },
+    { "standard": "ISO 188", "value": "Hot air aging (80 ℃*168h)" },
+    { "standard": "ISO 175", "value": "Alkali resistance, saturated Ca(OH)2 solution (168 h)" }
+  ],
+  "technicalData": [
+    { "label": "Appearance", "value": "Flexible PVC strip" },
+    { "label": "YHWaterstop-V150", "value": "YHWaterstop-V150: 20m (Length), 3-5mm (±10%, Thickness)" },
+    { "label": "YHWaterstop-V200", "value": "YHWaterstop-V200: 20m (Length), 3-5mm (±10%, Thickness)" },
+    { "label": "YHWaterstop-V250", "value": "YHWaterstop-V250: 20m (Length), 3-5mm (±10%, Thickness)" },
+    { "label": "YHWaterstop-V320", "value": "YHWaterstop-V320: 15m (Length), 3-8mm (±10%, Thickness)" },
+    { "label": "YHWaterstop-O150", "value": "YHWaterstop-O150: 20m (Length), 3-5mm (±1mm, Thickness)" },
+    { "label": "YHWaterstop-O200", "value": "YHWaterstop-O200: 20m (Length), 3-5mm (±1mm, Thickness)" },
+    { "label": "YHWaterstop-O250", "value": "YHWaterstop-O250: 20m (Length), 3-5mm (±1mm, Thickness)" },
+    { "label": "YHWaterstop-O320", "value": "YHWaterstop-O320: 15m (Length), 3-8mm (±1mm, Thickness)" },
+    { "label": "YHWaterstop-A250", "value": "YHWaterstop-A250: 20m (Length), 3-5mm (±1mm, Thickness)" },
+    { "label": "YHWaterstop-D250", "value": "YHWaterstop-D250: 20m (Length), 3-5mm (±1mm, Thickness)" },
+    { "label": "Shore A hardness (ASTM D2240)", "value": "75" },
+    { "label": "Tensile strength / MPa (ASTM D412)", "value": "12 (±5%)" },
+    { "label": "Elongation at break / % (ASTM D412)", "value": "300 (±5%)" },
+    { "label": "Tear strength / N/mm (ASTM D624)", "value": "54" },
+    { "label": "Low temperature brittleness (ASTM D746)", "value": "-25℃ Pass" },
+    { "label": "Hot air aging (80 ℃*168h), tensile strength retention / % (ISO 188)", "value": "99" },
+    { "label": "Hot air aging (80 ℃*168h), elongation at break retention / % (ISO 188)", "value": "84" },
+    { "label": "Alkali resistance, saturated Ca(OH)2 solution (168 h), tensile strength retention / % (ISO 175)", "value": "103" },
+    { "label": "Alkali resistance, saturated Ca(OH)2 solution (168 h), elongation at break retention / % (ISO 175)", "value": "94" },
+    { "label": "Service temperature", "value": "-35℃ to 55℃" },
+    { "label": "Site joints", "value": "electric welding knife" },
+    { "label": "Storage life", "value": "5 years" },
+    { "label": "Storage conditions", "value": "Dry, shaded place" }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "storage": "The product should be stored in ventilated places, with no exposure to sunlight, rain, or fire. The storage temperature should be between 5 °C and 30 °C. The shelf life is at least 12 months under normal transportation and storage conditions."
+}

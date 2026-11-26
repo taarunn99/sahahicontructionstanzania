@@ -1,0 +1,133 @@
+{
+  "slug": "yhdrainpro-202",
+  "titleAsPrinted": "YHDrainPro-202 Composite Plastic Drainage Board",
+  "edition": "July 2025",
+  "description": "The composite drainage board is an extruded and moulded high-density polyethylene (HDPE) panel, with a concave-convex surface. It is adhered to a layer of geotextile, which filters soil particles and prevents clogging of drainage channels, ensuring unobstructed water flow.",
+  "whereToUse": [
+    "green roofs",
+    "underground structures"
+  ],
+  "advantages": [
+    "Made from raw virgin HDPE resin, offering excellent low-temperature resistance, corrosion resistance, durability, high tensile strength, and superior compressive performance.",
+    "Nonwoven fabric made of short polypropylene fibers provides stable performance with strong acid and alkali resistance",
+    "The HDPE drainage panel and geotextile are adhered with specialized adhesive, ensuring high peel strength and stable pressure."
+  ],
+  "notFor": [
+    "The substrate must be clean, flat, and free of standing water.",
+    "Backfill immediately after installation; exposure to UV light should not exceed 14 days.",
+    "Avoid direct contact of construction machinery with the drainage board.",
+    "Mechanical equipment should only be placed when the covering soil thickness exceeds 500mm."
+  ],
+  "standards": [
+    {
+      "standard": "EN ISO 9864",
+      "value": "Mass per unit area"
+    },
+    {
+      "standard": "EN ISO 9863-1",
+      "value": "Thickness"
+    },
+    {
+      "standard": "EN ISO 10319",
+      "value": "Tensile strength, elongation at break"
+    },
+    {
+      "standard": "EN ISO 12958",
+      "value": "In-plane water flow"
+    },
+    {
+      "standard": "EN ISO 13433",
+      "value": "Cone drop test (non-woven fabric)"
+    },
+    {
+      "standard": "EN ISO 12236",
+      "value": "CBR puncture resistance (non-woven fabric)"
+    },
+    {
+      "standard": "EN ISO 11058",
+      "value": "Flow rate, 50mm head (non-woven fabric)"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Roll width (m)",
+      "value": "2.0-3.0"
+    },
+    {
+      "label": "Sheet thickness (mm)",
+      "value": "0.5,0.6,0.7,0.8, 1.0"
+    },
+    {
+      "label": "Roll length (m)",
+      "value": "20"
+    },
+    {
+      "label": "Convex height (mm)",
+      "value": "8,12,20"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: mass per unit area (EN ISO 9864)",
+      "value": "700g/m2"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: thickness (EN ISO 9863-1)",
+      "value": "8mm"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: tensile strength, CD (EN ISO 10319)",
+      "value": "10.2kN/m"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: tensile strength, MD (EN ISO 10319)",
+      "value": "10.2kN/m"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: elongation at break, CD (EN ISO 10319)",
+      "value": "55%"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: elongation at break, MD (EN ISO 10319)",
+      "value": "56%"
+    },
+    {
+      "label": "Composite board, 0.5 mm sheet: in-plane water flow capacity, 20 kPa (EN ISO 12958)",
+      "value": "1.9l/(m.s)"
+    },
+    {
+      "label": "Non-woven fabric: mass per unit area (EN ISO 9864)",
+      "value": "100g/m2"
+    },
+    {
+      "label": "Non-woven fabric: tensile strength (EN ISO 10319)",
+      "value": "6.0kN/m"
+    },
+    {
+      "label": "Non-woven fabric: elongation at break (EN ISO 10319)",
+      "value": "> 55%"
+    },
+    {
+      "label": "Non-woven fabric: cone drop test (EN ISO 13433)",
+      "value": "34mm"
+    },
+    {
+      "label": "Non-woven fabric: CBR puncture resistance (EN ISO 12236)",
+      "value": "1200N"
+    },
+    {
+      "label": "Non-woven fabric: flow rate, 50mm head (EN ISO 11058)",
+      "value": "70l/m2/s"
+    },
+    {
+      "label": "Non-woven fabric: in-plane water flow 20 kPa (EN ISO 12958)",
+      "value": "2X10-4l/m.h"
+    },
+    {
+      "label": "Non-woven fabric: open size O90",
+      "value": "0.3"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Drainage boards should be connected using double-sided adhesive tape with a bonding width of no less than 80mm. Ensure proper overlap and sealing of geotextiles and drainage boards.",
+  "packaging": "Rolled into cylindrical form, packaged with suitable materials",
+  "storage": "During storage and transportation, keep different types and specifications of products separately. Avoid exposure to sunlight or rain, ensure ventilation, and store at a temperature not exceeding 45°C. Membranes should be stored upright and kept away from acids, alkalis, oils, and organic solvents."
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "yhshield-7403",
+  "titleAsPrinted": "YHShield-7403",
+  "edition": "May. 2025",
+  "description": "YHShield-7403 is a high-performance flexible SBS elastomeric bituminous waterproofing membrane reinforced with a strong, resilient, non-woven polyester fabric. The membranes are available in a variety of thicknesses with smooth and granule surfaces, and demonstrate superior heat resistance, low-temperature flexibility, exceptional mechanical properties, and robust resistance to mechanical damage.",
+  "whereToUse": [
+    "Waterproofing and damp-proofing of basements subject to permanent water submersion and damp soils, including pile capping and foundations",
+    "Waterproofing of retaining walls",
+    "Waterproofing on flat roofs under protective layers or ballast",
+    "Waterproofing on balconies, terraces and wet rooms under screed / tiles",
+    "Exposed waterproof membrane with opaque mineral granules as upper surface isolation material is used"
+  ],
+  "advantages": [
+    "High-quality modified compounds with select grades of refined asphalt contribute to durability, flexibility, and strength",
+    "Excellent resistance to hydrostatic water",
+    "High temperature stability and low temperature flexibility",
+    "Good resistance to mechanical impact",
+    "Elongation properties and flexibility help resist thermal and structural movement, even in cold temperatures",
+    "Good dimensional stability"
+  ],
+  "notFor": [
+    "Do not carry out construction during rain, snow, or strong winds (level 5 or higher); the ambient temperature should not be below 0°C",
+    "The torch should not be rested on finished roofing",
+    "Do not overheat the membrane, and maintain the surface temperature below 200℃ during torch application",
+    "For high vertical applications, implement measures to prevent sliding and use sealant for edge sealing",
+    "CAUTION: Do not over-torch as this will expose the reinforcement in the membrane and damage the membrane"
+  ],
+  "standards": [
+    {
+      "standard": "EN 12311-1",
+      "value": ""
+    },
+    {
+      "standard": "EN 1110",
+      "value": ""
+    },
+    {
+      "standard": "EN 1109",
+      "value": ""
+    },
+    {
+      "standard": "EN 12310-1",
+      "value": ""
+    },
+    {
+      "standard": "EN 12317-1",
+      "value": ""
+    },
+    {
+      "standard": "EN 12691",
+      "value": ""
+    },
+    {
+      "standard": "EN 12730",
+      "value": ""
+    },
+    {
+      "standard": "EN 12316-1",
+      "value": ""
+    },
+    {
+      "standard": "EN 1107-1",
+      "value": ""
+    },
+    {
+      "standard": "EN 1928",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Packaging",
+      "value": "Roll"
+    },
+    {
+      "label": "Width (m)",
+      "value": "1"
+    },
+    {
+      "label": "Thickness (mm), upper surface Polyethylene film (PE)",
+      "value": "3, 4"
+    },
+    {
+      "label": "Thickness (mm), upper surface Sand (S)",
+      "value": "3, 4"
+    },
+    {
+      "label": "Thickness (mm), upper surface Mineral granules (BL)",
+      "value": "3.8±0.2, 4.0±0.2, 4.8±0.2"
+    },
+    {
+      "label": "Length (m)",
+      "value": "10"
+    },
+    {
+      "label": "Roll size (m2/roll)",
+      "value": "10"
+    },
+    {
+      "label": "Lower surface material",
+      "value": "Polyethylene film (PE)"
+    },
+    {
+      "label": "Tensile strength (L/T), N/50mm (EN 12311-1)",
+      "value": "800±20%/700±20%"
+    },
+    {
+      "label": "Elongation at break (L/T), % (EN 12311-1)",
+      "value": "40±15/45±15"
+    },
+    {
+      "label": "Heat resistance @105 °C (EN 1110)",
+      "value": "Pass"
+    },
+    {
+      "label": "Low temperature flexibility (-10 °C) (EN 1109)",
+      "value": "No crack"
+    },
+    {
+      "label": "Resistance to tearing (nail shank), N (EN 12310-1)",
+      "value": "300±30%/250±30%"
+    },
+    {
+      "label": "Shear resistance to joint, N/50mm (EN 12317-1)",
+      "value": "750±20%/700±20%"
+    },
+    {
+      "label": "Resistance to impact (soft support) @1500mm (EN 12691)",
+      "value": "Pass"
+    },
+    {
+      "label": "Resistance to static loading (Method A) @20Kg (EN 12730)",
+      "value": "Pass"
+    },
+    {
+      "label": "Peeling strength of joint, N/50mm (EN 12316-1)",
+      "value": "≥50"
+    },
+    {
+      "label": "Dimensional stability, % (EN 1107-1)",
+      "value": "±0.7"
+    },
+    {
+      "label": "Watertightness, Method B: 24 hours at 60kPa (EN 1928)",
+      "value": "Pass"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "Roll",
+  "storage": "The product should be stored in ventilated areas, protected from sunlight, rain, and fire. Avoid collisions during transportation. The recommended storage temperature range is not exceeding 50°C. The shelf life is a minimum of 12 months under normal transportation and storage conditions."
+}

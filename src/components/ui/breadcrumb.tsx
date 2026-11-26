@@ -23,10 +23,12 @@ export function Breadcrumb({ items }: { items: Crumb[] }) {
        Phones: ONE line that scrolls inside its own box. A wrapping trail
        changes its line count when the web font swaps in, which pushed the
        whole first screen down (CLS 0.26 on product pages, 2026-11-05). The
-       scroll box cannot widen the page, and its scrollbar is hidden. */
+       scroll box cannot widen the page (contain: inline-size keeps a long
+       last crumb from widening the grid column, 2026-11-26), and its
+       scrollbar is hidden. */
     <nav
       aria-label="Breadcrumb"
-      className="label-sh text-muted flex max-w-full min-w-0 [scrollbar-width:none] items-center gap-x-2 gap-y-2 py-1 leading-relaxed max-sm:overflow-x-auto max-sm:whitespace-nowrap sm:flex-wrap [&::-webkit-scrollbar]:hidden"
+      className="label-sh text-muted flex max-w-full min-w-0 [scrollbar-width:none] items-center gap-x-2 gap-y-2 py-1 leading-relaxed max-sm:[contain:inline-size] max-sm:overflow-x-auto max-sm:whitespace-nowrap sm:flex-wrap [&::-webkit-scrollbar]:hidden"
     >
       {items.map((item, i) => (
         <Fragment key={item.href}>

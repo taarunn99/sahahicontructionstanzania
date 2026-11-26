@@ -1,0 +1,58 @@
+{
+  "slug": "yhcrystal-2510",
+  "titleAsPrinted": "YHCrystal-2510",
+  "edition": "Feb. 2025",
+  "description": "YHCrystal-2510 is a powdery, rigid waterproof material composed of special cement, quartz sand, and various active chemicals. The active chemical substances in the coating penetrate the concrete through water, catalyzing the formation of water-insoluble crystals within the concrete matrix. This process fills and blocks capillary pores and micro cracks, thereby densifying the concrete and significantly enhancing its impermeability.",
+  "whereToUse": [
+    "permanent anti-seepage and waterproofing of concrete structures including basements, tunnels",
+    "sewage treatment pools, water supply pools, sewers",
+    "elevator shafts, swimming pools, chemical plants, and other concrete structures",
+    "it effectively prevents water infiltration or seepage in concrete structures or any cementitious substrate under low-pressure conditions"
+  ],
+  "advantages": [
+    "Migration of active components and crystalline formation to seal capillary network.",
+    "Easy to apply.",
+    "For positive and negative side waterproofing.",
+    "Can seal hairline cracks.",
+    "Good adhesion to concrete.",
+    "Water vapour permeable.",
+    "Highly resistant to harmful chemical erosion, enhancing the durability of the concrete.",
+    "Environmentally friendly, non-toxic, and harmless, making it safe for use in drinking water projects.",
+    "Self-repairing function, capable of quickly sealing cracks less than 0.4 mm."
+  ],
+  "notFor": [
+    "Construction is not permitted in temperatures below 5℃, or during rain or snow.",
+    "Protect the applied area from exposure to sunlight, rain, strong winds and temperatures below 5℃ within 48 hours after application.",
+    "Do not prepare an excessive amount of material at once; it must be used within 20 minutes. Do not add water or additional material during use.",
+    "Apply in multiple coats: applying too much in one coat can make curing difficult, while applying too little can cause rapid dehydration and lead to powdering.",
+    "Begin mist curing 6 hours after application to ensure proper hydration and curing of the material."
+  ],
+  "standards": [
+    { "standard": "DIN 1048 Part 5: 1991", "value": "Depth of penetration of water under 5 bar for 72hrs" },
+    { "standard": "ASTM C109", "value": "Compressive strength (28d)" },
+    { "standard": "ASTM C348", "value": "Flexural strength (28d)" }
+  ],
+  "technicalData": [
+    { "label": "Physical state", "value": "Powder" },
+    { "label": "Colour", "value": "Grey" },
+    { "label": "Depth of penetration of water under 5 bar for 72hrs, untreated (DIN 1048 Part 5: 1991)", "value": "30mm" },
+    { "label": "Depth of penetration of water under 5 bar for 72hrs, 2 layers at 1.5 kg/m2, cured 7 days (DIN 1048 Part 5: 1991)", "value": "10mm" },
+    { "label": "Compressive strength (28d), MPa (ASTM C109)", "value": "≥20" },
+    { "label": "Flexural strength (28d), MPa (ASTM C348)", "value": "≥5" },
+    { "label": "Powder to water ratio, by weight", "value": "1: (0.35-0.4)" },
+    { "label": "Use of mixed slurry", "value": "The prepared slurry should be used within 20 minutes" },
+    { "label": "Ambient air temperature", "value": "5 °C min / +40 °C max" },
+    { "label": "Relative air humidity", "value": "<85%" },
+    { "label": "Substrate temperature", "value": "≥ 3 °C above dew point, beware of condensation" },
+    { "label": "Curing", "value": "Cure by spraying water mist or covering with wet cloths for no less than 72 hours, with 7 days being ideal." },
+    { "label": "Shelf life", "value": "the shelf life is 12 months from the date of production" }
+  ],
+  "consumption": [
+    { "quote": "1.4-1.6kg/ m² by 2 coats(power weight)" },
+    { "quote": "Evenly sprinkle the powder at a dosage of 1.5 kg/m² on the surface of the concrete before it has completely set." },
+    { "quote": "Material consumption depends on the porosity and texture of the substrate." }
+  ],
+  "mixing": "Use a weight ratio of powder to water of 1: (0.35-0.4). First, pour water into a container, then add the powder. Stir quickly and uniformly with a mechanical mixer.",
+  "packaging": "4kg×5 bags per plastic pails",
+  "storage": "The Product must be stored in original, unopened and undamaged sealed packaging in dry conditions at temperatures between +5 °C and +40 °C. Protect from sunlight, rain, frost and humidity."
+}

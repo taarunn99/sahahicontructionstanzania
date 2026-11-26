@@ -1,0 +1,131 @@
+# OCR of public/tds/oriental-yuhong/yhshield-7401.pdf, corrected against the page by eye, 2026-11-26.
+
+YHShield-7401
+SBS Modified Bituminous Waterproof Membrane
+
+DESCRIPTION
+YHShield-7401 is a high-performance flexible SBS elastomeric bituminous waterproofing membrane
+reinforced with a strong, resilient, non-woven polyester fabric. The membranes are available in a variety of
+thicknesses with smooth and granule surfaces, and demonstrate superior heat resistance, low-temperature
+flexibility, exceptional mechanical properties, and robust resistance to mechanical damage.
+
+WHERE TO USE
+It is used as a waterproofing membrane for protection of various substrates in a wide range of applications,
+including:
+• Waterproofing and damp-proofing of basements subject to permanent water submersion and damp soils,
+including pile capping and foundations.
+• Waterproofing of retaining walls.
+• Waterproofing on flat roofs under protective layers or ballast.
+• Waterproofing on balconies, terraces and wet rooms under screed / tiles.
+• Exposed waterproof membrane with opaque mineral granules as upper surface isolation material is used.
+
+CHARACTERISTICS AND PACKAGING
+Items | Description
+Packaging | Roll
+Width (m) | 1
+Thickness (mm) | 3, 4
+Length (m) | 10
+Roll Size (m2/roll) | 10
+Upper Surface Material | Polyethylene film (PE),Sand (S) and Mineral granules (M)
+Lower Surface Material | Polyethylene film (PE)
+
+ADVANTAGES
+• High-quality modified compounds with select grades of refined asphalt contribute to durability, flexibility,
+and strength.
+• Excellent resistance to hydrostatic water.
+• High temperature stability and low temperature flexibility.
+• Good resistance to mechanical impact.
+
+Issue Date: May. 2025
+
+YHShield-7401
+SBS Modified Bituminous Waterproof Membrane
+Technical Data Sheet (TDS) 2/3
+
+• Elongation properties and flexibility help resist thermal and structural movement, even in cold
+temperatures, contributing to the longevity of your roofing system.
+• Good dimensional stability.
+
+PROPERTIES
+Items | Test Methods | Values
+Tensile Strength(L/T)[N/50mm] | EN 12311-1 | 800±20%/700±20%
+Elongation at break (L/T)[%] | EN 12311-1 | 30±15/35±15
+Heat resistance @90 °C | EN 1110 | Pass
+Low Temperature Flexibility @-10 °C | EN 1109 | No crack
+Resistance to Tearing(Nail Shank)[N] | EN 12310-1 | 300±30%/250±30%
+Shear Resistance to Joint[N/50mm] | EN 12317-1 | 750±20%/700±20%
+Resistance to Impact(Soft support)@1500mm | EN 12691 | Pass
+Resistance to Static Loading(Method A)@20Kg | EN 12730 | Pass
+Resistance to Peeling Strength of Joint[N/50mm] | EN 12316-1 | ≥50
+Dimensional Stability[%] | EN 1107-1 | ±0.7
+Watertightness (Method B: 24 hours at 60kPa) | EN 1928 | Pass
+Note: All values are based on test results determined under laboratory conditions and with product samples taken from original stock.
+Independent laboratory test values are available upon request.
+
+APPLICATION INSTRUCTIONS
+• Substrate preparation: The concrete substrate should be clean, dry, sound, and free of all contamination,
+such as dirt, oil, and grease. Surface defects, such as blowholes and voids, must be repaired. Filling of joints
+and surface leveling must be carried out before application.
+• Priming: Apply YHBituprimer-4035 (water-based bituminous primer) or an equivalent to a clean, smooth,
+and dry surface using a brush, roller, or spray. Allow it to dry before applying the membrane. The primer's
+low viscosity of the primer enables it to penetrate concrete pores, enhancing membrane-substrate adhesion
+between the membrane and substrate. It also binds any remaining dust particles on the concrete surface.
+While binding residual surface dust particles.
+• Detailing: Install strengthening layer at critical areas such as inside and outside corners, construction joints,
+pipe penetrations, eaves gutters, and expansion joints. Pre-cut the membrane to the required size and shape
+before application.
+• Membrane application: Unroll the membrane to release stress and position it according to the layout lines.
+Use a torch to heat the underside of the membrane and the substrate surface. When the bitumen on the
+membrane becomes shiny and molten, roll out the membrane while continuing to heat. Then, use a roller to
+press firmly and remove trapped air, ensuring a secure bond with the substrate.
+CAUTION: Do not over-torch as this will expose the reinforcement in the membrane and damage the
+membrane.
+• Overlap treatment: The overlap width of the membrane should be 100mm. Heat-seal the overlap area
+separately using the torch-applied method. At the seams between adjacent membranes, allow the modified
+bitumen to overflow slightly, with a uniform width of about 3-5mm.
+
+Issue Date: May. 2025
+
+YHShield-7401
+SBS Modified Bituminous Waterproof Membrane
+Technical Data Sheet (TDS) 3/3
+
+TRANSPORTATION AND STORAGE
+The product should be stored in ventilated areas, protected from sunlight, rain, and fire. Avoid collisions during
+transportation. The recommended storage temperature range is not exceeding 50°C. The shelf life is a
+minimum of 12 months under normal transportation and storage conditions.
+
+PRECAUTIONS
+Read the product label and Material Safety Data Sheet (MSDS) before using it. Users should acquaint
+themselves with all risks & safety regulations and conform to manufacturer's recommendations, material
+handling and storage specifications.
+• Do not carry out construction during rain, snow, or strong winds (level 5 or higher); the ambient
+temperature should not be below 0 °C.
+• Any naked flame should be kept well away from the gas cylinders. When ignited, the torch should be
+watched at all times. The torch should not be rested on finished roofing. Extreme care should be taken
+when working near combustible materials or items that might be scorched by the gas flame. All local
+authorities' safety regulations should be strictly followed.
+• Ensure even heating within the application width. The distance between the torch nozzle and the
+membrane surface should be appropriate, with uniform heating across the width until the membrane
+surface becomes shiny and black. Do not overheat the membrane, and maintain the surface temperature
+below 200°C during torch application.
+• For high vertical applications, implement measures to prevent sliding and use sealant for edge sealing.
+• Ensure complete safety and protective measures at the construction site and place fire-fighting
+equipment as required.
+• Use liquefied gas, ethanol as fuel, or hot air for welding during application.
+
+HEALTH AND SAFETY
+Please read the safety manual carefully, our security experts will be pleased to give you advises about
+safety, health and environmental issues.
+
+DISCLAIMER
+The above information and recommendations which are based on our experience are as for reference, they
+can't replace the customers' own experimental results. Since our company, our representatives or
+distributors can 't control the transportation, storage, handling and use conditions of the products, the
+economic disputes and the quality accident caused by improper use can 't be attributed to our suggestions.
+In any application, the customer shall be responsible to comply with obligations of third-party intellectual
+property rights. Without our consent, anyone shall not provide technical information to third parties.
+
+Learn more about OYH.
+
+Issue Date: May. 2025

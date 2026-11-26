@@ -1,0 +1,56 @@
+{
+  "slug": "yhwaterstop-epdm",
+  "titleAsPrinted": "YHWaterstop",
+  "edition": "Nov. 2026",
+  "description": "YHWaterstop rubber series are made from natural rubber or EPDM rubber, with various accelerators and fillers added. Manufactured via plasticization, compounding, vulcanization and forming by extrusion or compression moulding, this strip-shaped rubber product leverages rubber's high elasticity and shrinkage characteristics.",
+  "whereToUse": [
+    "They are designed to be the effective sealing of concrete expansion/movement, construction and connection joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.",
+    "Pre-embedded within construction and movement joints during concrete placement, it bonds monolithically with concrete",
+    "The internal waterstops are embedded at the middle of concrete joints for all internal construction and expansion joints",
+    "Back-mounted waterstops are attached to the outer water-facing surface as the first external waterproof barrier, mainly applied above blinding slabs and outside tunnel primary supports"
+  ],
+  "advantages": [
+    "High elasticity, abrasion, ageing and tear resistance, good deformation adaptability, wide working temperature (-45℃ ~ +60℃) and reliable waterproofing",
+    "Optimized cross-section: separate load-bearing and waterproof zones for balanced stress distribution",
+    "Designed rib profiles provide barriers to water migration",
+    "Secure installation: smooth expansion cavity for stable formwork clamping"
+  ],
+  "notFor": [
+    "Sharp aggregates and rebar ends inside concrete may cause damage",
+    "As the tear strength of rubber and plastic is only 1/3-1/5 of its tensile strength, any puncture or tear will propagate easily under minor load",
+    "Avoid prolonged direct sunlight exposure, keep rain protection, and isolate from aggressive chemicals",
+    "Prevent mechanical and rebar damage during transport and construction",
+    "Securely fix the waterstop to maintain its designed position against displacement during concrete placement",
+    "Drilling/penetration is only permitted on the edge fixing zone; the sealing body shall not be damaged",
+    "Order length shall be calculated per structural drawings. Prefabricated joints in factory are preferred"
+  ],
+  "standards": [
+    { "standard": "ASTM D2240", "value": "Shore A hardness 60±5" },
+    { "standard": "ASTM D412", "value": "Tensile strength 16 MPa (±5%), elongation at break 300 % (±5%)" },
+    { "standard": "ASTM D624", "value": "Tear strength 39 N/mm" },
+    { "standard": "ASTM D746", "value": "Low temperature brittleness -45℃ Pass" },
+    { "standard": "ISO 188", "value": "Permanent compression deformation" }
+  ],
+  "technicalData": [
+    { "label": "Material", "value": "natural rubber or EPDM rubber" },
+    { "label": "Type S-R-Z-300*8", "value": "20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)" },
+    { "label": "Type B-R-Z-300*8", "value": "20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)" },
+    { "label": "Type S-R-T-300*8", "value": "20-35m (Length), 300,350,400mm(width),6,8,10mm (±10%, Thickness)" },
+    { "label": "Type B-R-T-320*8", "value": "20-35m (Length), 320,350,400mm(width),6,8,10mm (±10%, Thickness)" },
+    { "label": "Shore A hardness (ASTM D2240)", "value": "60±5" },
+    { "label": "Tensile strength / MPa (ASTM D412)", "value": "16 (±5%)" },
+    { "label": "Elongation at break / % (ASTM D412)", "value": "300 (±5%)" },
+    { "label": "Tear strength / N/mm (ASTM D624)", "value": "39" },
+    { "label": "Low temperature brittleness (ASTM D746)", "value": "-45℃ Pass" },
+    { "label": "Permanent compression deformation / %, 70℃×24h, 25% (ISO 188)", "value": "99" },
+    { "label": "Permanent compression deformation / %, 23℃×168h, 25% (ISO 188)", "value": "84" },
+    { "label": "Service temperature", "value": "-35℃ to 55℃" },
+    { "label": "Fixing options", "value": "auxiliary rebar, special clamps, steel cable + formwork" },
+    { "label": "On-site joints", "value": "hot vulcanization / cold bonding for rubber waterstop" },
+    { "label": "Storage life", "value": "2 years" },
+    { "label": "Storage conditions", "value": "Dry, shaded place" }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "storage": "The product should be stored in ventilated places, with no exposure to sunlight, rain, or fire. The storage temperature should be between 5 °C and 30 °C. The shelf life is at least 24 months under normal transportation and storage conditions."
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "pmh-s-600",
+  "titleAsPrinted": "PMH-S-600",
+  "edition": "Feb. 2026",
+  "description": "PMH-S-600 is a single component moisture curing silane-modified polyether (Modified Silicone) sealant. It is non-toxic and odorless. It is free of isocyanates, solvent, formaldehyde and toluene. It combines the strong adhesion characteristics of polyurethane with the weather resistance of silicone, making it suitable for demanding underground waterproofing applications.",
+  "whereToUse": [
+    "Pile head penetrations and pipe through concrete walls",
+    "Interface sealing between metal components and concrete",
+    "Junctions between base slab and retaining wall"
+  ],
+  "advantages": [
+    "Good tolerance to slightly damp substrates",
+    "Low shrinkage during curing, reducing interface cracking risk",
+    "Excellent bond to concrete",
+    "Resistance to mild chemical environments",
+    "Compatible with membrane and coating waterproofing system"
+  ],
+  "notFor": [
+    "Read the product label and Material Safety Data Sheet (MSDS) before using it",
+    "Protect all materials from extreme temperature",
+    "Keep undisturbed until fully cured"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM F2524",
+      "value": "Volatile Organic Compound (VOC)"
+    },
+    {
+      "standard": "ASTM C679",
+      "value": "Tacky-free Time"
+    },
+    {
+      "standard": "ASTM C1382",
+      "value": "Tensile Modulus"
+    },
+    {
+      "standard": "ASTM C736",
+      "value": "Elastic Recovery"
+    },
+    {
+      "standard": "ASTM C1183",
+      "value": "Extrusion Rate"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Package",
+      "value": "600ml Sausage (Aluminum Packing)"
+    },
+    {
+      "label": "Color",
+      "value": "White"
+    },
+    {
+      "label": "Volatile Organic Compound (VOC), ASTM F2524",
+      "value": "≤50, g/kg"
+    },
+    {
+      "label": "Tacky-free time, ASTM C679",
+      "value": "1-2 hours"
+    },
+    {
+      "label": "Tensile modulus, ASTM C1382",
+      "value": "0.35MPa"
+    },
+    {
+      "label": "Elastic recovery, ASTM C736",
+      "value": "≥60%"
+    },
+    {
+      "label": "Extrusion rate, ASTM C1183",
+      "value": "≥150, ml/mm"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "600ml Sausage (Aluminum Packing)",
+  "storage": "Store in a dry and cool place to avoid exposure. Storage temperature 5-30°C. Warranty period - 12 months."
+}

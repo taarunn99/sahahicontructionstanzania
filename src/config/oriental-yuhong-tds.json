@@ -48,5 +48,478 @@
     "fetched": "2026-11-07",
     "source": "supplied by the owner",
     "edition": "April 2026"
+  },
+  "pmh-3040": {
+    "file": "/tds/oriental-yuhong/pmh-3040.pdf",
+    "title": "PMH-3040",
+    "pages": 5,
+    "bytes": 207451,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26"
+  },
+  "pmh-3040-plus": {
+    "file": "/tds/oriental-yuhong/pmh-3040-plus.pdf",
+    "title": "PMH-3040 Plus",
+    "pages": 5,
+    "bytes": 507471,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb.2026"
+  },
+  "pmh-3041": {
+    "file": "/tds/oriental-yuhong/pmh-3041.pdf",
+    "title": "PMH-3041",
+    "pages": 4,
+    "bytes": 860578,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Aug.2025"
+  },
+  "pmh-3046": {
+    "file": "/tds/oriental-yuhong/pmh-3046.pdf",
+    "title": "PMH-3046",
+    "pages": 3,
+    "bytes": 193157,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Nov. 2026"
+  },
+  "yhfpopre-3210": {
+    "file": "/tds/oriental-yuhong/yhfpopre-3210.pdf",
+    "title": "YHFPOpre-3210",
+    "pages": 3,
+    "bytes": 1120803,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "pmh-6010": {
+    "file": "/tds/oriental-yuhong/pmh-6010.pdf",
+    "title": "PMH-6010",
+    "pages": 4,
+    "bytes": 713122,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Mar.2025"
+  },
+  "yhshield-7401": {
+    "file": "/tds/oriental-yuhong/yhshield-7401.pdf",
+    "title": "YHShield-7401",
+    "pages": 3,
+    "bytes": 1480970,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhshield-7402": {
+    "file": "/tds/oriental-yuhong/yhshield-7402.pdf",
+    "title": "YHShield-7402",
+    "pages": 3,
+    "bytes": 1255663,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhshield-7403": {
+    "file": "/tds/oriental-yuhong/yhshield-7403.pdf",
+    "title": "YHShield-7403",
+    "pages": 3,
+    "bytes": 1555980,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhshield-7501": {
+    "file": "/tds/oriental-yuhong/yhshield-7501.pdf",
+    "title": "YHShield-7501",
+    "pages": 3,
+    "bytes": 476506,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhshield-7502": {
+    "file": "/tds/oriental-yuhong/yhshield-7502.pdf",
+    "title": "YHShield-7502",
+    "pages": 3,
+    "bytes": 204901,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhshield-7601": {
+    "file": "/tds/oriental-yuhong/yhshield-7601.pdf",
+    "title": "YHShield-7601",
+    "pages": 4,
+    "bytes": 706607,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhstick-9301": {
+    "file": "/tds/oriental-yuhong/yhstick-9301.pdf",
+    "title": "YHStick-9301",
+    "pages": 3,
+    "bytes": 499213,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhstick-9302": {
+    "file": "/tds/oriental-yuhong/yhstick-9302.pdf",
+    "title": "YHStick-9302",
+    "pages": 3,
+    "bytes": 136145,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "yhstick-9310": {
+    "file": "/tds/oriental-yuhong/yhstick-9310.pdf",
+    "title": "YHStick-9310",
+    "pages": 3,
+    "bytes": 260645,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhstick-9801": {
+    "file": "/tds/oriental-yuhong/yhstick-9801.pdf",
+    "title": "YHStick-9801",
+    "pages": 3,
+    "bytes": 320645,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhbitucoat-4500": {
+    "file": "/tds/oriental-yuhong/yhbitucoat-4500.pdf",
+    "title": "YHBitucoat-4500",
+    "pages": 4,
+    "bytes": 203335,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhbitucoat-4600": {
+    "file": "/tds/oriental-yuhong/yhbitucoat-4600.pdf",
+    "title": "YHBitucoat-4600",
+    "pages": 4,
+    "bytes": 218757,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhbituprimer-4035": {
+    "file": "/tds/oriental-yuhong/yhbituprimer-4035.pdf",
+    "title": "YHBituprimer-4035",
+    "pages": 3,
+    "bytes": 143120,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhbituprimer-4050": {
+    "file": "/tds/oriental-yuhong/yhbituprimer-4050.pdf",
+    "title": "YHBituprimer-4050",
+    "pages": 3,
+    "bytes": 603736,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2025"
+  },
+  "yhprimcoat-1010": {
+    "file": "/tds/oriental-yuhong/yhprimcoat-1010.pdf",
+    "title": "YHPrimCoat-1010",
+    "pages": 2,
+    "bytes": 122436,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "April. 2025"
+  },
+  "yhcolorwall-5100": {
+    "file": "/tds/oriental-yuhong/yhcolorwall-5100.pdf",
+    "title": "YHColorWall-5100",
+    "pages": 3,
+    "bytes": 344180,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26"
+  },
+  "yhcrystal-2510": {
+    "file": "/tds/oriental-yuhong/yhcrystal-2510.pdf",
+    "title": "YHCrystal-2510",
+    "pages": 3,
+    "bytes": 344092,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhcrystal-2512": {
+    "file": "/tds/oriental-yuhong/yhcrystal-2512.pdf",
+    "title": "YHCrystal-2512",
+    "pages": 3,
+    "bytes": 548105,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhprimblock-1400": {
+    "file": "/tds/oriental-yuhong/yhprimblock-1400.pdf",
+    "title": "YHPrimBlock-1400",
+    "pages": 3,
+    "bytes": 724021,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "April. 2025"
+  },
+  "yhacgrout-2101": {
+    "file": "/tds/oriental-yuhong/yhacgrout-2101.pdf",
+    "title": "YHACgrout-2101",
+    "pages": 3,
+    "bytes": 99840,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhpugrout-2102": {
+    "file": "/tds/oriental-yuhong/yhpugrout-2102.pdf",
+    "title": "YHPUgrout-2102",
+    "pages": 2,
+    "bytes": 129952,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "January. 2026"
+  },
+  "yhpugrout-2103": {
+    "file": "/tds/oriental-yuhong/yhpugrout-2103.pdf",
+    "title": "YHPUgrout-2103",
+    "pages": 3,
+    "bytes": 133832,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "April. 2025"
+  },
+  "yhpugrout-2104": {
+    "file": "/tds/oriental-yuhong/yhpugrout-2104.pdf",
+    "title": "YHPUgrout-2104",
+    "pages": 3,
+    "bytes": 116269,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "April. 2025"
+  },
+  "yhepgrout-2106": {
+    "file": "/tds/oriental-yuhong/yhepgrout-2106.pdf",
+    "title": "YHEPgrout-2106",
+    "pages": 3,
+    "bytes": 736511,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Jul. 2026"
+  },
+  "yhepoxy-gr90": {
+    "file": "/tds/oriental-yuhong/yhepoxy-gr90.pdf",
+    "title": "YHEpoxy-GR90",
+    "pages": 3,
+    "bytes": 848982,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "May. 2026"
+  },
+  "yhinjehose": {
+    "file": "/tds/oriental-yuhong/yhinjehose.pdf",
+    "title": "YHInjehose",
+    "pages": 3,
+    "bytes": 653004,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Oct. 2025"
+  },
+  "yhswellseal": {
+    "file": "/tds/oriental-yuhong/yhswellseal.pdf",
+    "title": "YHSwellSeal",
+    "pages": 3,
+    "bytes": 245657,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "July. 2026"
+  },
+  "yhswellbar": {
+    "file": "/tds/oriental-yuhong/yhswellbar.pdf",
+    "title": "YHSwellbar",
+    "pages": 3,
+    "bytes": 505364,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhwaterstop-epdm": {
+    "file": "/tds/oriental-yuhong/yhwaterstop-epdm.pdf",
+    "title": "YHWaterstop Rubber Series",
+    "pages": 3,
+    "bytes": 540650,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Nov. 2026"
+  },
+  "yhwaterstop-pvc": {
+    "file": "/tds/oriental-yuhong/yhwaterstop-pvc.pdf",
+    "title": "YHWaterstop PVC Series",
+    "pages": 3,
+    "bytes": 633957,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Oct. 2025"
+  },
+  "tdf-g": {
+    "file": "/tds/oriental-yuhong/tdf-g.pdf",
+    "title": "TDF G Series",
+    "pages": 2,
+    "bytes": 1668052,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26"
+  },
+  "tdf-hs": {
+    "file": "/tds/oriental-yuhong/tdf-hs.pdf",
+    "title": "TDF HS Series",
+    "pages": 2,
+    "bytes": 703459,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26"
+  },
+  "yhdrainpro-201": {
+    "file": "/tds/oriental-yuhong/yhdrainpro-201.pdf",
+    "title": "YHDrainPro-201",
+    "pages": 3,
+    "bytes": 154737,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb.2026"
+  },
+  "yhdrainpro-202": {
+    "file": "/tds/oriental-yuhong/yhdrainpro-202.pdf",
+    "title": "YHDrainPro-202",
+    "pages": 3,
+    "bytes": 149423,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "July 2025"
+  },
+  "pmh-s-600": {
+    "file": "/tds/oriental-yuhong/pmh-s-600.pdf",
+    "title": "PMH-S-600",
+    "pages": 2,
+    "bytes": 257165,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "pmh-t-160": {
+    "file": "/tds/oriental-yuhong/pmh-t-160.pdf",
+    "title": "PMH-T-160",
+    "pages": 2,
+    "bytes": 187768,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "pmh-t-c-120": {
+    "file": "/tds/oriental-yuhong/pmh-t-c-120.pdf",
+    "title": "PMH-T-C120",
+    "pages": 2,
+    "bytes": 204892,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "pmh-t-d80": {
+    "file": "/tds/oriental-yuhong/pmh-t-d80.pdf",
+    "title": "PMH-T-D80",
+    "pages": 2,
+    "bytes": 188009,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "pmh-t-s80": {
+    "file": "/tds/oriental-yuhong/pmh-t-s80.pdf",
+    "title": "PMH-T-S80",
+    "pages": 2,
+    "bytes": 241156,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2026"
+  },
+  "yhprimer-1000": {
+    "file": "/tds/oriental-yuhong/yhprimer-1000.pdf",
+    "title": "YHPrimer-1000",
+    "pages": 3,
+    "bytes": 861545,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhtape-2022fl": {
+    "file": "/tds/oriental-yuhong/yhtape-2022fl.pdf",
+    "title": "YHTape-2022FL",
+    "pages": 3,
+    "bytes": 881118,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "yhtape-2022hd": {
+    "file": "/tds/oriental-yuhong/yhtape-2022hd.pdf",
+    "title": "YHTape-2022HD",
+    "pages": 2,
+    "bytes": 625470,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "Feb. 2025"
+  },
+  "oyh-r100": {
+    "file": "/tds/oriental-yuhong/oyh-r100.pdf",
+    "title": "OYH R-100",
+    "pages": 4,
+    "bytes": 183647,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "TDS/2025/PCE. A/Ver.01"
+  },
+  "oyh-r100h": {
+    "file": "/tds/oriental-yuhong/oyh-r100h.pdf",
+    "title": "OYH R-100H",
+    "pages": 4,
+    "bytes": 178277,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "TDS/2025/PCE. A/Ver.01"
+  },
+  "oyh-s104c": {
+    "file": "/tds/oriental-yuhong/oyh-s104c.pdf",
+    "title": "OYH S-104C",
+    "pages": 4,
+    "bytes": 177087,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "TDS/2025/PCE. A/Ver.01"
+  },
+  "oyh-s104s": {
+    "file": "/tds/oriental-yuhong/oyh-s104s.pdf",
+    "title": "OYH S-104S",
+    "pages": 4,
+    "bytes": 180481,
+    "fetched": "2026-11-26",
+    "source": "supplied by the owner, OYH's folder of 2026-11-26",
+    "edition": "TDS/2025/PCE. A/Ver.01"
+  },
+  "fuda-xps": {
+    "file": "/tds/oriental-yuhong/fuda-xps.pdf",
+    "title": "FUDA XPS",
+    "pages": 2,
+    "bytes": 92148,
+    "fetched": "2026-11-26",
+    "source": "English translation by Sahihi, 2026-11-26, of the Chinese sheet in OYH's folder",
+    "edition": "English translation by Sahihi, 2026-11-26, of the Chinese sheet"
   }
 }

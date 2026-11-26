@@ -1,0 +1,106 @@
+# OCR of public/tds/oriental-yuhong/yhinjehose.pdf, corrected against the page by eye, 2026-11-26.
+YHInjehose
+Re-injectable Hose for Sealing Construction Joints
+Technical Date Sheet (TDS) 1 / 3
+DESCRIPTION
+YHInjectube is a re-injectable hose for sealing various construction and connection joints in watertight
+concrete structures. To seal the joint, YHInjectube is injected with suitable Injection materials, such as
+acrylate and microfine cement suspensions (for multiple injections) or polyurethane and epoxy resins (for
+single injection). With the integrated "valve techniques" the hose can be used to re-inject multiple times if
+necessary.
+WHERE TO USE
+YHInjectube is used to prevent water ingress through concrete joints in the following typical structures:
+Water retaining or excluding structures, water reservoirs, dams, canals, sewage treatment plants,
+tunnels, subways, retaining walls. It is suitable for many different structures and construction methods
+where additional joint security/safety is required. It can be used as a back-up system for waterstops.
+CHARACTERISTICS AND PACKAGING
+Item Description
+Appearance Inner core: PVC; Strips: Neoprene based cellular rubber; Mesh: Polyester
+Packaging Supplied as a Combi-pack in a cardboard box containing:
+200 m YHinjehose
+10 m PVC-hose (inlet)
+10 m PVC-hose (outlet)
+Accessories
+2 m connecting pipe
+4 m heat shrink sleeve
+× 50 closure plugs
+1 can of glue
+1 roll of tape
+×800 fastening clips
+Storage life 4 years
+Diameter Internal hose diameter: 8 mm
+External hose diameter: 12 mm
+Storage conditions Dry, shaded place
+Note: All accessories including inlet and outlet PVC-hose are available separately.
+ADVANTAGES
+Unique valve techniques for injection
+Multiple re-injections with injection acrylate resins or microfine cement suspensions
+One-time injectable with injection polyurethane and epoxy resins
+Easy and secure installation
+APPLICATION INSTRUCTIONS
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025
+YHInjehose
+Re-injectable Hose for Sealing Construction Joints
+Technical Date Sheet (TDS) 2 / 3
+Substrate preparation: Concrete surface must be clean and all loose materials removed before installing
+hose and placing concrete.
+Injection Procedure: Locate junction boxes which house appropriate vent ends for each designated hose
+segment. Open junction box to expose hose vent ends. The hose vent ends shall be terminated using clear
+and green non-perforated PVC hose. The color coded vent ends help identify which hose is being injected.
+For each individual hose segment, the two ends shall be terminated with a different color vent hose. For
+example, after opening a junction box and exposing the vent ends, if you select a colored vent end to inject,
+the opposite end of that hose segment should be terminated with a clear vent hose. If the applicator is
+unsure of what vent end corresponds with what hose, check by pumping clean water through each hose
+segment. Pumping clean water through the hose is highly suggested not only to identify the opposite vent
+end, but also to check for any hose blockage or damage, or excessive voids in concrete that may lead to
+excessive loss of injection resin during hose injection.
+Insert the packer wrench into the injection vent end and connect pump to the packer wrench. The pump
+hose assembly should be terminated with a sliding clutch (button head coupling). The sliding clutch will
+slide over the "button head" fitting on the sliding clutch to connect the pump to the sliding clutch.
+Prepare the injection material per the manufacturer's instructions and pour into injection hopper
+connected to the pump. Once the connection is made, start the pump and begin injecting hose until
+material flows out the opposite end (vent end). Injection can be successfully performed at injection
+pressures as low as 75 - 150 psi. However, it will be observed that most conventional pumps have a
+minimum output of approximately 300 psi. Therefore, you will find that the injection will have to be
+performed at pressures closer to 300 psi or greater. Higher injection pressures will not compromise the
+integrity of waterstop, but it is suggested to keep injection pressures below 600 psi to prevent
+cross-contamination of adjacent waterstop, when using multiple rows of hose within a single joint.
+When the injection material is observed flowing out the opposite end of the hose, stop the pump (or close
+the ball valve on the pump assembly). Close off the vent end with another packer wrench tool. Once the
+vent end is securely closed off with the packer wrench, start the pump and continue to inject the injection
+materials into the hose at a pressure between 100 and 600 psi. Slow, low-pressure injections are more
+effective than rapid, high-pressure injections. A successful injection will be indicated by the pump's
+refusal of injection resin (the piston will quit pumping) or by the sight of injection materials seeping along
+the length of the joint. At that time, hold the pressure between 500 and 600 psi for approximately 2 more
+minutes.
+Once the hose segment is successfully injected per the previously described criteria, disconnect the pump
+and hook it up to the packer wrench at the opposite hose segment end, leaving the packer wrench
+plugged into the end that was just injected. Re-inject the hose from the opposite end to ensure that the
+entire joint has been filled. In most cases, the joint will already be successfully sealed and the pump will
+refuse to inject any additional material. Use the previously described procedure/criteria for injecting and
+determining successful joint injection on this end of the hose as well.
+This procedure must be completed within the specified gel time of the material, yet still allowing time for
+vacuuming and rinsing operations before the injection materials.
+Turn off the pump, disconnect the pump hose from the packer wrench, and remove both packer wrench
+from the hose segment.
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025
+YHInjehose
+Re-injectable Hose for Sealing Construction Joints
+Technical Date Sheet (TDS) 3 / 3
+TRANSPORTATION AND STORAGE
+The product should be stored in ventilated places, with no exposure to sunlight, rain, or fire. The shelf life
+is at least 48 months under normal transportation and storage conditions.
+HEALTH AND SAFETY
+Please read the safety manual carefully, our security experts will be pleased to give you advises about safety,
+health and environmental issues.
+DISCLAIMER
+The above information and recommendations which are based on our experience are as for reference, they
+can't replace the customers' own experimental results. Since our company, our representatives or
+distributors can't control the transportation, storage, handling and use conditions of the products, the
+economic disputes and the quality accident caused by improper use can't be attributed to our suggest. In any
+application, the customer shall be responsible to comply with obligations of third-party intellectual property
+rights. Without our consent, anyone shall not provide technical information to third parties.
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025

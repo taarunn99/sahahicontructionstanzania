@@ -1,0 +1,83 @@
+# OCR of public/tds/oriental-yuhong/yhwaterstop-pvc.pdf, corrected against the page by eye, 2026-11-26.
+
+--- Page 1 ---
+YHWaterstop
+Flexible PVC Waterstop
+YUHONG
+Technical Date Sheet (TDS) 1 / 3
+DESCRIPTION
+YHWaterstop series are constructed from flexible thermoplastic PVC. They are designed to stop the migration of water through construction joints in concrete structures.
+WHERE TO USE
+YHWaterstop V series is suitable for the effective sealing of concrete construction joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.
+YHWaterstop O series is suitable for the effective sealing of concrete expansion joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.
+YHWaterstop A series is suitable for the effective sealing of concrete construction joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.
+YHWaterstop D series is suitable for the effective sealing of concrete expansion joints in structures, such as water reservoirs, sewage treatment plants, swimming pools, basements, retaining walls, lift shafts, tunnels, culverts, etc.
+CHARACTERISTICS AND PACKAGING
+Item | Data
+Appearance | Flexible PVC strip
+Packaging |
+YHWaterstop-V150: 20m (Length), 3-5mm (±10%, Thickness)
+YHWaterstop-V200: 20m (Length), 3-5mm (±10%, Thickness)
+YHWaterstop-V250: 20m (Length), 3-5mm (±10%, Thickness)
+YHWaterstop-V320: 15m (Length), 3-8mm (±10%, Thickness)
+YHWaterstop-O150: 20m (Length), 3-5mm (±1mm, Thickness)
+YHWaterstop-O200: 20m (Length), 3-5mm (±1mm, Thickness)
+YHWaterstop-O250: 20m (Length), 3-5mm (±1mm, Thickness)
+YHWaterstop-O320: 15m (Length), 3-8mm (±1mm, Thickness)
+YHWaterstop-A250: 20m (Length), 3-5mm (±1mm, Thickness)
+YHWaterstop-D250: 20m (Length), 3-5mm (±1mm, Thickness)
+Storage life | 5 years
+Storage conditions | Dry, shaded place
+ADVANTAGES
+• Good sealing: After concrete has hardened the sealing function starts.
+• Easy to be welded on site.
+• Designed rib profiles provide barriers to water migration.
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025
+
+--- Page 2 ---
+YHWaterstop
+Flexible PVC Waterstop
+Technical Date Sheet (TDS) 2 / 3
+• Various profiles for all of type applications.
+PROPERTIES
+Description | Test Methods | Typical Values
+Shore A Hardness | ASTM D2240 | 75
+Tensile Strength / MPa | ASTM D412 | 12 (±5%)
+Elongation at Break / % | ASTM D412 | 300 (±5%)
+Tear strength/ N/mm | ASTM D624 | 54
+Low temperature brittleness | ASTM D746 | -25℃ Pass
+Hot air Aging(80 ℃*168h) | Tensile strength Retention/% | ISO 188 | 99
+Hot air Aging(80 ℃*168h) | Elongation at Break Retention/ % | ISO 188 | 84
+Alkali Resistance [Saturated Ca(OH)2 Solution (168 h)] | Tensile strength Retention/% | ISO 175 | 103
+Alkali Resistance [Saturated Ca(OH)2 Solution (168 h)] | Elongation at Break Retention/ % | ISO 175 | 94
+Service temperature | | -35℃ to 55℃
+Note: The above data were tested under standard conditions (temperature 23 °C ± 2 °C, relative humidity 50% ± 10%).
+APPLICATION INSTRUCTIONS
+Fixing to formwork
+The "V" profile YHWaterstop V is fitted into the split formwork or shuttering for casting centrally into the stopends. It is used for construction joints and movement joints where nominal movement is anticipated, such as basement or retaining walls.
+Fixing to reinforcement
+Pre-punched eyelets are located in the outer flanges of the profiles. These simplify the fixing of waterstops to the steel reinforcement with tie wires to ensure the waterstops are not displaced during concreting.
+Placing concrete first stage
+YHWaterstop V performs its function only if both sides are well embedded in the concrete. Avoid formation of honey combs by vibrating carefully. The consistency of the concrete itself should be neither too plastic nor too stiff, and the aggregate must be well graded.
+Placing of fresh concrete near the YHWaterstop V requires care, as otherwise it will be forced from its position by the pressure of the fresh concrete, i.e. the ends will fold up. To prevent this, the same concrete pressure must be present on both sides of the Waterstop.
+Placing concrete second stage
+Removal of formwork in the neighborhood of YHWaterstop V must be done with care. The end of the YHWaterstop V should be thoroughly checked for honeycombing on the stop-end and repaired if necessary.
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025
+
+--- Page 3 ---
+YHWaterstop
+Flexible PVC Waterstop
+Technical Date Sheet (TDS) 3 / 3
+It must also be cleaned of all hardened concrete remnants adhering from the first concrete stage. Further procedure is similar to the first stage.
+Welding
+On site welding can be undertaken using a electric welding knife. Both ends of the joint are heated simultaneously on the faces of the welding knife until an even, molten bead of PVC appears. The joint should be held rigid until the plastic cools down and solidifies. Check for any gaps or imperfect joints. Redo the welding if necessary. Failures can be caused by irregularities of cut edges, insufficient heat, dust etc.
+TRANSPORTATION AND STORAGE
+The product should be stored in ventilated places, with no exposure to sunlight, rain, or fire. The storage temperature should be between 5 °C and 30 °C. The shelf life is at least 12 months under normal transportation and storage conditions.
+HEALTH AND SAFETY
+Please read the safety manual carefully, our security experts will be pleased to give you advises about safety, health and environmental issues.
+DISCLAIMER
+The above information and recommendations which are based on our experience are as for reference, they can't replace the customers' own experimental results. Since our company, our representatives or distributors can't control the transportation, storage, handling and use conditions of the products, the economic disputes and the quality accident caused by improper use can't be attributed to our suggest. In any application, the customer shall be responsible to comply with obligations of third-party intellectual property rights. Without our consent, anyone shall not provide technical information to third parties.
+Website: www.oyhglobal.com
+Issue Date: Oct. 2025

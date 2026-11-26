@@ -1,0 +1,66 @@
+{
+  "slug": "oyh-s104c",
+  "titleAsPrinted": "OYH S-104C",
+  "edition": "TDS/2025/PCE. A/Ver.01",
+  "description": "OYH S-104C is a medium-efficiency polycarboxylate ether (PCE) base material specifically designed for concrete slump retention applications. The product exhibits minimal initial water-reduction performance and is primarily intended to provide stable and extended slump retention for concrete systems requiring workability retention of approximately 2 hours.",
+  "whereToUse": [
+    "concrete systems requiring workability retention of approximately 2 hours",
+    "use in combination with water-reduction PCEs and Slump retention PCEs to optimize the balance between initial fluidity and long-term slump retention performance",
+    "customized concrete admixture systems designed for specific applications, including pumping agents for ready-mix concrete plants and other specialty concrete requirements"
+  ],
+  "advantages": [],
+  "notFor": [
+    "OYH S-104C must not be used together with naphthalene-based superplasticizers",
+    "all mixers, pipelines, and transit mixers previously exposed to naphthalene-based admixtures should be thoroughly cleaned, as residual contamination may adversely affect the water-reducing performance of the product"
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Light yellow transparent liquid"
+    },
+    {
+      "label": "Density",
+      "value": "1.09±0.02"
+    },
+    {
+      "label": "pH value",
+      "value": "3-7"
+    },
+    {
+      "label": "Solid content",
+      "value": "50±1"
+    },
+    {
+      "label": "Chloride ion content",
+      "value": "≤0.1"
+    },
+    {
+      "label": "Total alkalinity",
+      "value": "≤3"
+    },
+    {
+      "label": "Sodium sulfate content",
+      "value": "≤0.5"
+    },
+    {
+      "label": "Workability retention",
+      "value": "approximately 2 hours"
+    },
+    {
+      "label": "Blending ratio, OYH-S104C (50%) : water-reduction PCEs",
+      "value": "2:8 ~ 3:7"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "As a general recommendation, the blending ratio is: OYH-S104C (50%) : water-reduction PCEs = 2:8 ~ 3:7"
+    },
+    {
+      "quote": "The actual dosage and formulation should be adjusted according to the required concrete performance and job site conditions."
+    }
+  ],
+  "mixing": "The optimum blending ratio should be determined based on the characteristics of local cement, aggregates, supplementary cementitious materials, and the results of concrete trial mixes.",
+  "packaging": "Upon your request, flexible tanks, 1000 L IBCs, are available.",
+  "storage": "Minimum shelf life of 12 months, which should be avoided from direct sunlight, and is stored in undamaged, unopened, original sealed packaging in dry conditions at temperatures between 5 °C and 50 °C."
+}

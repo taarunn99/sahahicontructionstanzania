@@ -1,0 +1,56 @@
+{
+  "slug": "pmh-t-d80",
+  "titleAsPrinted": "PMH-T-D80",
+  "edition": "Feb. 2026",
+  "description": "PMH-T-D80 double-sided tape is a specially formulated sticky, PET film enforced pressure sensitive tape. It is designed for membrane terminations, detailing, patching of damaged membranes and penetrations.",
+  "whereToUse": [
+    "The product can be used for PMH 3040/3040PLUS and PMH 6010 membranes' end lap termination or repair works",
+    "membrane terminations",
+    "detailing",
+    "patching of damaged membranes and penetrations",
+    "end lap of membrane or the T-type overlapping part"
+  ],
+  "advantages": [],
+  "notFor": [
+    "It is not recommended to use the tape when temperature is lower than 5℃ as bonding strength of the tape may be affected",
+    "The temperature shall be maintained for 24 hours after the tape is installed",
+    "Make sure that substrate is clean & dry before using the tape",
+    "When applying tape on the membrane, the lapped areas shall be pressed hard to ensure a good bonding effect"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel adhesion"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Package",
+      "value": "12 rolls per box"
+    },
+    {
+      "label": "Specification",
+      "value": "80mm (W) x 50m (L) x 0.4mm (Thickness)"
+    },
+    {
+      "label": "Thickness (mm)",
+      "value": "0.4"
+    },
+    {
+      "label": "Width (mm)",
+      "value": "80"
+    },
+    {
+      "label": "Length (m)",
+      "value": "50"
+    },
+    {
+      "label": "Peel adhesion (N/mm), ASTM D1876",
+      "value": "0.8"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "12 rolls per box",
+  "storage": "Stored in well-ventilated and dry places. The temperature shall be below 45°C. Stay away from direct sunlight, rain and high temperature. Do not directly stack one roll on top of another. Separate them with release liner to prevent sticking."
+}

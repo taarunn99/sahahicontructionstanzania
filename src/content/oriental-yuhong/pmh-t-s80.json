@@ -1,0 +1,66 @@
+{
+  "slug": "pmh-t-s80",
+  "titleAsPrinted": "PMH-T-S80",
+  "edition": "Feb. 2026",
+  "description": "PMH-T-S80 sand cover tape is made by using the cross-laminated film as the carrier, coating the pressure sensitive adhesive on the upper and lower surfaces, and top side covering weather resistant particles. The bottom side of the tape after peeling off release liner, has a highly aggressive PSA which is designed to adhere to PMH 3080/PMH 3080 PLUS membrane.",
+  "whereToUse": [
+    "membrane end lap termination",
+    "minor membrane repair",
+    "angular point sealing",
+    "sealing of mechanically fastened penetration covers",
+    "It is a very important accessory to PMH 3080/PMH 3080 PLUS membrane",
+    "suitable for various underground waterproofing projects"
+  ],
+  "advantages": [],
+  "notFor": [
+    "Contractors must undergo training before starting work",
+    "During construction, it is strictly forbidden to stick the cover tape in rainy and snowy days or in winds of level 5 or higher",
+    "The environment temperature for cold application of self-adhesive membranes and tapes should not be lower than 5°C (this includes storage, construction, and the 24 hours following the completion of installation)",
+    "Prior to applying the tape to the membrane, ensure that the bonding surface is clean and free of dust, moisture, or contaminants",
+    "After overlapping, firmly roll or press along the seam to achieve continuous, uniform adhesion and ensure watertight integrity"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel adhesion"
+    },
+    {
+      "standard": "ASTM D903",
+      "value": "Bond to Concrete"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Package",
+      "value": "8 rolls per box"
+    },
+    {
+      "label": "Specification",
+      "value": "80mm (W) x 15m (L) x 0.8mm (Thickness)"
+    },
+    {
+      "label": "Thickness (mm)",
+      "value": "0.8"
+    },
+    {
+      "label": "Width (mm)",
+      "value": "80"
+    },
+    {
+      "label": "Length (m)",
+      "value": "15"
+    },
+    {
+      "label": "Peel adhesion (N/mm), ASTM D1876",
+      "value": "0.8"
+    },
+    {
+      "label": "Bond to concrete (N/mm), ASTM D903",
+      "value": "1.0"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "8 rolls per box",
+  "storage": "Do not allow contact with acids, alkalis, oils, and organic solvents. The number of stacking layers of the packing box should not exceed four. Under normal transportation and storage conditions, the storage period is one year from the production date."
+}

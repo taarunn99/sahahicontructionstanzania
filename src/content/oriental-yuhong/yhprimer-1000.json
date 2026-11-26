@@ -1,0 +1,120 @@
+{
+  "slug": "yhprimer-1000",
+  "titleAsPrinted": "YHPrimer-1000",
+  "edition": "Feb. 2025",
+  "description": "YHPrimer-1000 is a two-component, water-based, rigid epoxy primer with both penetrative sealing and surface-leveling effects. It is designed to enhance the adhesion of polyurethane waterproof coatings with substrates and block micro-voids in porous substrates to mitigate out-gassing. It can be diluted with water to a suitable viscosity according to the actual condition of the substrate.",
+  "whereToUse": [
+    "YHPrimer-1000 is suitable for concrete surfaces",
+    "compatible with moisture-cured and chemically-cured polyurethane waterproof membranes, and water-based coatings, except for two-component hot spray polyurea",
+    "designed to enhance the adhesion of polyurethane waterproofing systems on mortar, concrete, or ceramic substrates"
+  ],
+  "advantages": [
+    "Self-leveling and easy to apply",
+    "Low VOC",
+    "Excellent penetration and adhesion",
+    "Resistant to moisture vapor transmission"
+  ],
+  "notFor": [
+    "except for two-component hot spray polyurea",
+    "For damp mortar, concrete, or ceramic substrates, ensure that there is no standing water on the surface",
+    "It is not recommended to break down the kits into smaller quantities",
+    "Be aware of the out-gassing effect on porous substrates when the temperature rises",
+    "It is highly recommended to apply the next coating product within 24 hours after the primer becomes tack-free. A longer gap between the primer and the next coating product may result in deteriorated interface adhesion and failure",
+    "Do not store the product above 40°C"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D2369",
+      "value": "Solid content (by weight) ≥ 75%"
+    },
+    {
+      "standard": "ASTM D2697",
+      "value": "Volume nonvolatile matter (by volume) ≥ 74%"
+    },
+    {
+      "standard": "ASTM D7234",
+      "value": "Pull-off adhesion strength on damp concrete ≥ 2.0 MPa"
+    },
+    {
+      "standard": "ASTM E96",
+      "value": "Water vapor transmission rate < 10 g/(24h·m²)"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Mixing ratio (in weight)",
+      "value": "Part A : Part B = 5 : 3"
+    },
+    {
+      "label": "Appearance (Part A/B)",
+      "value": "Viscous liquid / Transparent viscous liquid"
+    },
+    {
+      "label": "Density (Part A/B), kg/L",
+      "value": "1.05±0.05 / 1.20±0.10"
+    },
+    {
+      "label": "Pot life (23 °C, 50% RH), minutes",
+      "value": "30-60 (No dilution)"
+    },
+    {
+      "label": "Dry time (23 °C), hours",
+      "value": "≤ 3"
+    },
+    {
+      "label": "Application temperature for substrate, °C",
+      "value": "5~55"
+    },
+    {
+      "label": "Solid content, by weight (ASTM D2369)",
+      "value": "≥ 75%"
+    },
+    {
+      "label": "Volume nonvolatile matter, by volume (ASTM D2697)",
+      "value": "≥ 74%"
+    },
+    {
+      "label": "Pull-off adhesion strength on damp concrete (ASTM D7234)",
+      "value": "≥2.0 MPa"
+    },
+    {
+      "label": "Water vapor transmission rate (ASTM E96)",
+      "value": "<10 g/(24h·m²)"
+    },
+    {
+      "label": "Dilution",
+      "value": "The primer can be diluted with 100-300% water by weight"
+    },
+    {
+      "label": "Coverage per set, m², diluted 1:1 (YHPrimer-1000 : water)",
+      "value": "120-200"
+    },
+    {
+      "label": "Coverage per set, m², diluted 1:2",
+      "value": "180-300"
+    },
+    {
+      "label": "Coverage per set, m², diluted 1:3",
+      "value": "240-400"
+    },
+    {
+      "label": "Tack-free time",
+      "value": "about 6 hours for the primer to become tack-free at 25°C (when diluted 3 times with water)"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "Considering a homogeneous substrate, the consumption rate is approximately 0.15-0.25kg/m²"
+    },
+    {
+      "quote": "The dilution rate depends on substrate conditions: the more porous substrates and higher moisture contents requires a low dilution rate. The coverage varies with the dilution rate."
+    }
+  ],
+  "mixing": "The mix ratio is 5:3 (Part A: Part B) by weight. Add Part B into Part A and mix with a low-speed mechanical mixer at low speed for at least 2 minutes.",
+  "packaging": "Part A: 10 kg/pail; Part B: 6 kg/pail",
+  "storage": "The recommended storage temperature range is 5°C to 35°C. Do not store the product above 40°C. The shelf life is 12 months under the recommended storage conditions."
+}

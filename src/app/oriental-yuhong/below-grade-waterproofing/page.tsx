@@ -11,6 +11,7 @@ import { ModelCta } from "@/components/sections/model-cta";
 import { HotspotSection } from "@/components/sections/oyh/hotspot-section";
 import { RelatedLinks } from "@/components/sections/related-links";
 import { JsonLd } from "@/components/seo/json-ld";
+import { oyhStock } from "@/config/oyh-range";
 import { LayerStack } from "@/components/three-d/layer-stack";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/ui/breadcrumb";
 import { Container } from "@/components/ui/container";
@@ -188,7 +189,11 @@ function ProductCard({ slug }: { slug: string }) {
             <Link href={item.href} className={cn(PILL, "bg-brand text-white")}>
               Its page
             </Link>
-            <span className="spec-sh text-muted">Held in Dar es Salaam</span>
+            <span className="spec-sh text-muted">
+              {oyhStock(item.href.split("/").pop() ?? "") === "held"
+                ? "Held in Dar es Salaam"
+                : "Supplied to order"}
+            </span>
           </>
         ) : (
           <>

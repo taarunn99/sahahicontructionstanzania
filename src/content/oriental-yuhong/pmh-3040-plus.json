@@ -1,0 +1,66 @@
+{
+  "slug": "pmh-3040-plus",
+  "titleAsPrinted": "PMH-3040 Plus",
+  "edition": "Feb.2026",
+  "description": "PMH-3040 Plus is a pre-applied high density polyethylene (HDPE) waterproofing membrane. It is comprised of HDPE sheet, pressure sensitive adhesive and weather resistant protective coating. It is designed with 80mm dual adhesive seams that allows a strong bond which creates a super strong adhesion and is unaffected by weather. This integral bond is specifically designed to provide a robust barrier to water, moisture and gas and prevents both the ingress and lateral migration of water.",
+  "whereToUse": [
+    "areas in contact with earth such as slabs & walls",
+    "caverns, tunnels, subways, municipal pipe corridors",
+    "all underground structures",
+    "permanent and removable formwork"
+  ],
+  "advantages": [
+    "Unaffected by ground settlement",
+    "Easy application & reduced installation time",
+    "No lateral migration of water",
+    "Can be applied to permanent formwork, allows maximum use of confined sites",
+    "High puncture resistance, trafficable immediately after application",
+    "Unaffected by wet weather",
+    "Easy roll/kick out installation reduces installation time and cost",
+    "Installed membrane is unaffected by freeze/thaw or wet/dry cycling",
+    "Chemical resistance, designed to help protect the structure from salt or sulphate attack, and is effective in most types of soils and waters",
+    "Resistant to methane and radon gases"
+  ],
+  "notFor": [
+    "Do not lay membrane in temperature below 5℃",
+    "Substrates must be regular and relatively even with no gaps or voids exceeding 12mm",
+    "Where temperatures will exceed 38°C (100° F) for more than a total of 7 days, concrete should be placed within 42 days of installation of the membrane",
+    "A sharp object is strictly forbidden to be used to consolidate the concrete during concrete pour",
+    "It is recommended that concrete be poured within 42 days after application of the membrane"
+  ],
+  "standards": [
+    { "standard": "ASTM D3767", "value": "" },
+    { "standard": "ASTM D412", "value": "" },
+    { "standard": "ASTM E154", "value": "" },
+    { "standard": "ASTM D903", "value": "" },
+    { "standard": "ASTM D5385", "value": "" },
+    { "standard": "ASTM D1876", "value": "" },
+    { "standard": "ASTM C1305", "value": "" },
+    { "standard": "ASTM E96 Method B", "value": "" },
+    { "standard": "ASTM 570", "value": "" },
+    { "standard": "ASTM D1970", "value": "" }
+  ],
+  "consumption": [],
+  "technicalData": [
+    { "label": "Thickness (mm)", "value": "1.2, 1.5" },
+    { "label": "Width (m)", "value": "1.2, 2.4" },
+    { "label": "Length (m)", "value": "30m (can be customized)" },
+    { "label": "Roll size (m2/roll)", "value": "36(can be customized)" },
+    { "label": "Color", "value": "White" },
+    { "label": "Thickness (ASTM D3767)", "value": "1.2mm" },
+    { "label": "Tensile strength (ASTM D412)", "value": "28 MPa" },
+    { "label": "Elongation (ASTM D412)", "value": "500%" },
+    { "label": "Puncture resistance (ASTM E154)", "value": "1000 N" },
+    { "label": "Peel adhesion to concrete (ASTM D903)", "value": "1800N/m" },
+    { "label": "Resistance to hydrostatic head (ASTM D5385)", "value": "71 m" },
+    { "label": "Peel strength in lap (ASTM D1876)", "value": "1800N/m" },
+    { "label": "Crack cycling at -23 C (ASTM C1305)", "value": "Passed" },
+    { "label": "Water vapor transmission, g/(m2.h) (ASTM E96 Method B)", "value": "0.0043" },
+    { "label": "Water absorption (ASTM 570)", "value": "0.5%" },
+    { "label": "Flexibility at low temperature (ASTM D1970)", "value": "-29℃" },
+    { "label": "Shelf life", "value": "12 months from production date" }
+  ],
+  "mixing": "The surface does not need to be dry, but standing water must be removed.",
+  "packaging": "Roll",
+  "storage": "Storage temperature should be below 45 ℃."
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "oyh-r100h",
+  "titleAsPrinted": "OYH R-100H",
+  "edition": "TDS/2025/PCE. A/Ver.01",
+  "description": "OYH R-100H is a new-generation, environmentally friendly polycarboxylate ether (PCE) superplasticizer. Synthesized through the polymerization of polyether macromonomers and acrylic acid, the product delivers outstanding performance characteristics, including high water-reduction efficiency, excellent slump retention, low chloride ion content, low alkali content, and superior environmental compatibility.",
+  "whereToUse": [
+    "High-performance concrete (HPC)",
+    "High-strength concrete",
+    "Flowable and highly workable concrete",
+    "Self-compacting concrete (SCC)",
+    "Concrete containing high volumes of supplementary cementitious materials",
+    "Grouting materials and self-leveling mortar systems"
+  ],
+  "advantages": [
+    "combines outstanding water-reducing capability with superior slump retention performance",
+    "Enhances concrete workability and flowability",
+    "Provides excellent water reduction performance",
+    "Improves slump retention over extended periods",
+    "Reduces the rate of hydration heat release, helping minimize thermal cracking risks",
+    "Enhances fracture toughness and long-term durability of concrete",
+    "Contributes to the production of more sustainable and environmentally friendly concrete systems"
+  ],
+  "notFor": [
+    "the product is intended for further processing and compounding and is not recommended for direct use in concrete applications without proper formulation adjustment",
+    "OYH R-100H must not be mixed with naphthalene-based superplasticizers",
+    "all mixers, pipelines, and transit mixers previously exposed to naphthalene-based admixtures should be thoroughly cleaned"
+  ],
+  "standards": [
+    {
+      "standard": "ISO14000",
+      "value": "Environmental protection management"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Light yellow transparent liquid"
+    },
+    {
+      "label": "Density",
+      "value": "1.09±0.02"
+    },
+    {
+      "label": "pH value",
+      "value": "3-7"
+    },
+    {
+      "label": "Solid content",
+      "value": "50±1"
+    },
+    {
+      "label": "Chloride ion content",
+      "value": "≤0.1"
+    },
+    {
+      "label": "Total alkalinity",
+      "value": "≤3"
+    },
+    {
+      "label": "Sodium sulfate content",
+      "value": "≤0.5"
+    },
+    {
+      "label": "Recommended dosage (by weight of cementitious materials)",
+      "value": "0.25%-0.85%"
+    },
+    {
+      "label": "Minimum mixing time",
+      "value": "120 seconds"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "The recommended dosage of OYH R-100H is 0.25%-0.85% by weight of cementitious materials."
+    },
+    {
+      "quote": "The optimum dosage should be determined through laboratory and field testing according to specific project requirements, raw materials, and mix design conditions."
+    }
+  ],
+  "mixing": "OYH R-100H may be introduced together with the mixing water or added simultaneously into the concrete mixer during batching. To ensure optimal dispersion and water-reducing performance, a minimum mixing time of 120 seconds is recommended.",
+  "packaging": "Upon your request, flexible tanks, 1000 L IBCs, are available.",
+  "storage": "Minimum shelf life of 12 months, which should be avoided from direct sunlight, and is stored in undamaged, unopened, original sealed packaging in dry conditions at temperatures between 5 °C and 50 °C."
+}

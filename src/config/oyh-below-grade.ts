@@ -899,10 +899,59 @@ export const products: Record<string, BgProduct> = {
   },
 };
 
+/**
+ * The manual's product to its page on the site, where OYH's data sheet has
+ * given it one (2026-11-26). Generic manual rows (a family, not one product)
+ * go to the family's first page. Rows with no sheet keep no link.
+ */
+export const manualPage: Record<string, string> = {
+  "pmh-3040": "pmh-3040-plus",
+  "pmh-3046": "pmh-3046",
+  "yhfpopre-3210": "yhfpopre-3210",
+  "yhprimer-1000": "yhprimer-1000",
+  "pmh-s-600": "pmh-s-600",
+  "pmh-t-160": "pmh-t-160",
+  "pmh-t-c-120": "pmh-t-c-120",
+  "pmh-t-s80": "pmh-t-s80",
+  "pmh-t-d80": "pmh-t-d80",
+  "yhtape-2022fl": "yhtape-2022fl",
+  "pmh-3041": "pmh-3041",
+  yhdrainpro: "yhdrainpro-201",
+  yhshield: "yhshield-7401",
+  yhstick: "yhstick-9301",
+  yhbituprimer: "yhbituprimer-4035",
+  yhprimcoat: "yhprimcoat-1010",
+  yhbitucoat: "yhbitucoat-4500",
+  "yhshield-anti-root": "yhshield-7601",
+  "yh-concrete-admixture": "oyh-r100",
+  "yhwaterstop-epdm": "yhwaterstop-epdm",
+  "yhwaterstop-pvc": "yhwaterstop-pvc",
+  yhswellbar: "yhswellbar",
+  yhswellseal: "yhswellseal",
+  "yhdrainpro-201": "yhdrainpro-201",
+  "yhdrainpro-202": "yhdrainpro-202",
+  "pmh-6010": "pmh-6010",
+  "tdf-hs": "tdf-hs",
+  "tdf-g": "tdf-g",
+  "yhacgrout-2101": "yhacgrout-2101",
+  "yhpugrout-2102": "yhpugrout-2102",
+  "yhpugrout-2103": "yhpugrout-2103",
+  "yhpugrout-2104": "yhpugrout-2104",
+  "yhepgrout-2106": "yhepgrout-2106",
+  yhinjehose: "yhinjehose",
+  "yhcrystal-2510": "yhcrystal-2510",
+  "yhcrystal-2512": "yhcrystal-2512",
+  "yhprimblock-1400": "yhprimblock-1400",
+  "yhcolorwall-5100": "yhcolorwall-5100",
+  "yhepoxy-gr90": "yhepoxy-gr90",
+  "yh-xps": "fuda-xps",
+};
+
 export const product = (slug: string): BgProduct => {
   const found = products[slug];
   if (!found) throw new Error(`oyh-below-grade: no product "${slug}"`);
-  return found;
+  if (found.href || !manualPage[slug]) return found;
+  return { ...found, href: `/oriental-yuhong/${manualPage[slug]}` };
 };
 
 /* ------------------------------------------------------------------ */

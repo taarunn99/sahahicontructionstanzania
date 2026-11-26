@@ -1,0 +1,49 @@
+{
+  "slug": "yhbituprimer-4035",
+  "titleAsPrinted": "YHBituprimer-4035",
+  "edition": "May. 2025",
+  "description": "YHBituprimer-4035 Water-based Bitumen Primer is a quick drying water based low viscosity bitumen primer. It is used as a primer coat on masonry and concrete substrates to improve the adhesion of bituminous membranes and coatings. YHBituprimer-4035 is low in viscosity, which allows it to penetrate into the concrete pores and improve the adhesion between the membrane and the concrete surface. In addition to that, the primer also acts as a binder and preventing moisture penetration.",
+  "whereToUse": [
+    "YHBituprimer-4035 is used as a primer and sealer coat prior to the application of bituminous waterproofing membranes and coatings.",
+    "It is used as a primer coat on masonry and concrete substrates to improve the adhesion of bituminous membranes and coatings."
+  ],
+  "advantages": [
+    "Compatible with various materials, quick-drying, and high penetration power.",
+    "High adhesion to the substrate.",
+    "Improves the adhesion of bituminous membranes and coatings.",
+    "Cold applied, does not require heating.",
+    "Water-based product, environmentally friendly, and pollution-free.",
+    "Anti corrosive.",
+    "Conforms to ASTM D41 - Asphalt primer for roofing, damp proofing and waterproofing."
+  ],
+  "notFor": [
+    "Read the product label and Material Safety Data Sheet (MSDS) before using it.",
+    "Once opened, the product should be used on the same day. Any remaining material must be properly sealed and used as soon as possible.",
+    "The recommended construction temperature range is 5°C to 35°C. Construction is prohibited during rain, snow, or if such weather is predicted within 24 hours.",
+    "Do not dilute the product with water or solvents, as this will compromise its performance.",
+    "Lower temperatures and/or humid conditions may extend the drying time.",
+    "Avoid long-term exposure to humid and poorly ventilated environments."
+  ],
+  "standards": [
+    { "standard": "ASTM D41", "value": "Asphalt primer for roofing, damp proofing and waterproofing" },
+    { "standard": "ASTM D 1475", "value": "Density" },
+    { "standard": "ASTM D 2939", "value": "Solid content by weight" }
+  ],
+  "technicalData": [
+    { "label": "Physical state", "value": "Liquid" },
+    { "label": "Color", "value": "Black or dark brown" },
+    { "label": "Density [g/cm3] (ASTM D 1475)", "value": "0.99-1.01" },
+    { "label": "Solid content by weight [%] (ASTM D 2939)", "value": "≥30" },
+    { "label": "Application", "value": "Spraying application is recommended" },
+    { "label": "Coats", "value": "Typically one single application is required; porous substrate may require two or more coats of primer to effectively seal the surface." },
+    { "label": "Membrane application", "value": "the membrane must be applied within 24 hours of the application of primer, but only once the primer is dry to the touch" },
+    { "label": "Storage temperature", "value": "between 5℃and 35℃" }
+  ],
+  "consumption": [
+    { "quote": "The theoretical dosage is (0.2-0.3)kg/m2." },
+    { "quote": "Ensure the coverage is at least 300g/m2." }
+  ],
+  "mixing": null,
+  "packaging": "18kg per plastic pail",
+  "storage": "Under standard storage and transportation conditions, the product has a shelf life of 9 months from the date of production."
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "oyh-s104s",
+  "titleAsPrinted": "OYH S-104S",
+  "edition": "TDS/2025/PCE. A/Ver.01",
+  "description": "OYH S-104S can effectively maintain concrete slump and workability for 2 to 4 hours or longer, making it particularly suitable for ready-mix concrete, long-distance transportation, hot-weather concreting, and high-performance concrete applications requiring extended retention time, when used in combination with water-reduction and slump-retention PCEs.",
+  "whereToUse": [
+    "ready-mix concrete",
+    "long-distance transportation",
+    "hot-weather concreting",
+    "High-performance concrete (HPC)",
+    "High-strength concrete",
+    "Self-compacting concrete (SCC)",
+    "Concrete containing high volumes of supplementary cementitious materials",
+    "Grouting materials and self-leveling mortar systems"
+  ],
+  "advantages": [
+    "does not significantly affect the setting time of concrete while improving slump retention performance",
+    "Enhances concrete workability and flowability",
+    "Improves slump retention over extended periods",
+    "Reduces the rate of hydration heat release, helping minimize thermal cracking risks",
+    "Enhances fracture toughness and long-term durability of concrete",
+    "Contributes to the production of more sustainable and environmentally friendly concrete systems"
+  ],
+  "notFor": [
+    "OYH S-104S must not be used together with naphthalene-based superplasticizers",
+    "all mixers, pipelines, and transit mixers previously exposed to naphthalene-based admixtures should be thoroughly cleaned, as residual contamination may adversely affect the water-reducing performance of the product"
+  ],
+  "standards": [
+    {
+      "standard": "ISO14000",
+      "value": "Environmental protection management"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Light yellow transparent liquid"
+    },
+    {
+      "label": "Density",
+      "value": "1.09±0.02"
+    },
+    {
+      "label": "pH value",
+      "value": "3-7"
+    },
+    {
+      "label": "Solid content",
+      "value": "50±1"
+    },
+    {
+      "label": "Chloride ion content",
+      "value": "≤0.1"
+    },
+    {
+      "label": "Total alkalinity",
+      "value": "≤3"
+    },
+    {
+      "label": "Sodium sulfate content",
+      "value": "≤0.5"
+    },
+    {
+      "label": "Slump and workability retention",
+      "value": "2 to 4 hours or longer"
+    },
+    {
+      "label": "Share of the slump-retention system",
+      "value": "approximately 30%-50%"
+    }
+  ],
+  "consumption": [
+    {
+      "quote": "As a general recommendation, the super slump-retaining component should account for approximately 30%-50% of the total slump-retention system."
+    }
+  ],
+  "mixing": "OYH S-104S may be added together with the mixing water during batching or introduced into the concrete mix after water addition, depending on the specific formulation and production requirements.",
+  "packaging": "Upon your request, flexible tanks, 1000 L IBCs, are available.",
+  "storage": "Minimum shelf life of 12 months, which should be avoided from direct sunlight, and is stored in undamaged, unopened, original sealed packaging in dry conditions at temperatures between 5 °C and 50 °C."
+}

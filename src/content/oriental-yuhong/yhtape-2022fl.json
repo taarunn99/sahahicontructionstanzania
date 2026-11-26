@@ -1,0 +1,100 @@
+{
+  "slug": "yhtape-2022fl",
+  "titleAsPrinted": "YHTape-2022FL",
+  "edition": "Feb. 2025",
+  "description": "YHTape-2022FL Fluorocarbon film butyl tape is a weather-resistant, self-adhesive waterproof sealing tape. It consists of a surface layer made of fluorocarbon film, backed by a highly aggressive butyl-based pressure-sensitive adhesive.",
+  "whereToUse": [
+    "Seal for the lap edge of exposed waterproofing membrane",
+    "Provide protection for the all kind of roof detailing areas",
+    "Provide protection for non-roof detailing area, such as window and door openings, corner boards, wall-to-wall tie-ins, sheathing panel seams, deck-to-wall intersections, foundation/sill capillary break",
+    "Applications include sealing cracks, terminating waterproofing systems, providing lap joints, and serving as a protective, weather-resistant layer"
+  ],
+  "advantages": [
+    "Fluorocarbon weathering film has excellent weather resistance and can be used for exposed areas for more than 15 years",
+    "Reflective surface film: The white fluorocarbon film significantly reflects solar radiation energy, capable of reducing roof temperature by about 10°C ~ 35°C in hot climates, thereby reducing cooling energy consumption",
+    "Superior adhesion: The tape bonds firmly to substrates and forms high quality laps",
+    "Heat Resistance: Specially formulated, the tape withstands prolonged exposure to temperatures up to 100℃ without degradation of the butyl adhesive",
+    "Superior flexibility at low temperature: Maintains good flexibility even at -40°C",
+    "Can heal nail shank damage with a diameter of less than 2mm"
+  ],
+  "notFor": [
+    "The base surface must be dry during construction. Construction is strictly prohibited on rainy or snowy days, as well as on windy days with wind speeds exceeding level 5",
+    "If the construction temperature is below 5°C, initial adhesion may be insufficient",
+    "The substrate surface must be thoroughly cleaned and shall be solid, flat, dry, and free of debris, dust, dirt, loose nails, or old roofing materials"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D412",
+      "value": "Tensile force, elongation at break"
+    },
+    {
+      "standard": "ASTM D903",
+      "value": "Adhesion to plywood and to steel"
+    },
+    {
+      "standard": "ASTM D1970",
+      "value": "Low temperature flexibility, thermal stability"
+    },
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel strength of lap"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "White UV-resistant film-surfaced tape"
+    },
+    {
+      "label": "Width",
+      "value": "80 mm, 100 mm, or 330 mm"
+    },
+    {
+      "label": "Thickness",
+      "value": "0.8 mm, 1.0 mm"
+    },
+    {
+      "label": "Length",
+      "value": "10 m, 20 m"
+    },
+    {
+      "label": "Tensile force, N/mm (ASTM D412)",
+      "value": "≥6"
+    },
+    {
+      "label": "Elongation at break, % (ASTM D412)",
+      "value": "≥50"
+    },
+    {
+      "label": "Adhesion to plywood at 23 °C, N/mm (ASTM D903)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Adhesion to steel at 23 °C, N/mm (ASTM D903)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Low temperature flexibility, -40 °C (ASTM D1970)",
+      "value": "No crack"
+    },
+    {
+      "label": "Thermal stability, 100 °C (ASTM D1970)",
+      "value": "Pass"
+    },
+    {
+      "label": "Peel strength of lap, N/mm (ASTM D1876)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Storage temperature",
+      "value": "between 5°C and 35°C"
+    },
+    {
+      "label": "Shelf life",
+      "value": "24 months"
+    }
+  ],
+  "consumption": [],
+  "packaging": "Width / mm 80 mm, 100 mm, or 330 mm; Thickness / mm 0.8 mm, 1.0 mm; Length / m 10 m, 20 m",
+  "storage": "The product should be stored in a cool, well-ventilated, and dry warehouse, protected from rain, sunlight, and fire sources. The storage temperature should be between 5°C and 35°C. Under normal storage and transportation conditions, the shelf life is 24 months."
+}

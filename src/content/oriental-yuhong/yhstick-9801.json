@@ -1,0 +1,126 @@
+{
+  "slug": "yhstick-9801",
+  "titleAsPrinted": "YHStick-9801",
+  "edition": "May. 2025",
+  "description": "YHStick-9801 is a reinforced self-adhesive, fully bonded, post-applied, bituminous waterproofing membrane. It is comprises of a polyester non-woven fabric pre-coated with SBS-modified bitumen compound on both side, and with a PE film, MG or Release film on the top side and with a release liner on the underside.",
+  "whereToUse": [
+    "Basements",
+    "foundation",
+    "basement slabs",
+    "basement wall",
+    "podium slabs",
+    "concealed roofs",
+    "waterproofing works where naked flames are not allowed",
+    "MG surface membrane can be used for exposed"
+  ],
+  "advantages": [
+    "Safe, easy and fast installation.",
+    "No need for special equipment and flame.",
+    "Excellent initial and long term adhesion.",
+    "Direct application on wet substrate.",
+    "Excellent mechanical resistant, such as high tensile strength, good puncture and tear, and high nail shank tear strength, good dimensional stability.",
+    "Resistant to chemical corrosion: Resistant to most soil conditions, the membrane is designed to provide effective protection against soils and groundwater.",
+    "The reinforced membrane has excellent puncture and impact resistance, and it is very effective to prevent the damage from the sharp object on the jobsite."
+  ],
+  "notFor": [
+    "The product is designed for non-exposed applications",
+    "Non-exposed the membrane must be protected with screed, reflective coating, drainage board, or protection boards to protect from UV radiation and backfilling damage",
+    "Protect all materials from extreme temperature.",
+    "Construction is strictly prohibited in rainy, snowy days and windy days above level 5.",
+    "The temperature of construction environment should not be lower than 5℃.",
+    "In case of precipitation during the construction, the protection work of the material shall be done well.",
+    "Store and transport rolls in such a manner to prevent bending of the inner core and membrane edge damages."
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D638-22",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E154",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D624",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1000-24 method A",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E96/E96M-24",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Width (m)",
+      "value": "1"
+    },
+    {
+      "label": "Thickness (mm), PE film surface",
+      "value": "3.0, 4.0"
+    },
+    {
+      "label": "Thickness (mm), M(GL) surface",
+      "value": "3.0±0.2, 3.6±0.2"
+    },
+    {
+      "label": "Thickness (mm), release film surface",
+      "value": "3.0, 4.0"
+    },
+    {
+      "label": "Length (m)",
+      "value": "10"
+    },
+    {
+      "label": "Roll size (m2/roll)",
+      "value": "10"
+    },
+    {
+      "label": "Upper surface material",
+      "value": "PE film, M(GL), Release film"
+    },
+    {
+      "label": "Lower surface material",
+      "value": "Release film"
+    },
+    {
+      "label": "Tensile strength (MD/CD) [N/mm2] (ASTM D638-22)",
+      "value": "≥3/≥3"
+    },
+    {
+      "label": "Elongation at break (MD/CD) [%] (ASTM D638-22)",
+      "value": "≥30%"
+    },
+    {
+      "label": "Puncture resistance [N] (ASTM E154)",
+      "value": "≥1000"
+    },
+    {
+      "label": "Tear strength (MD/CD) [N/mm] (ASTM D624)",
+      "value": "≥40/≥40"
+    },
+    {
+      "label": "180° peel strength to steel [N/mm] (ASTM D1000-24 method A)",
+      "value": "≥2.0"
+    },
+    {
+      "label": "Water vapor transmission [g/(m2·24h)] (ASTM E96/E96M-24)",
+      "value": "<0.3"
+    },
+    {
+      "label": "Side and end laps",
+      "value": "a minimum of 80mm"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months from the production date"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "Roll",
+  "storage": "Stored in well-ventilated and dry place. Avoid direct sunlight, rain, high temperature and fire. Storage temperature shall be below 45°C."
+}

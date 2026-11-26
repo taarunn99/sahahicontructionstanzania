@@ -1,0 +1,74 @@
+{
+  "slug": "yhinjehose",
+  "titleAsPrinted": "YHInjehose",
+  "edition": "Oct. 2025",
+  "description": "With the integrated “valve techniques” the hose can be used to re-inject multiple times if necessary.",
+  "whereToUse": [
+    "Water retaining or excluding structures, water reservoirs, dams, canals, sewage treatment plants",
+    "tunnels, subways, retaining walls",
+    "It is suitable for many different structures and construction methods where additional joint security/safety is required.",
+    "It can be used as a back-up system for waterstops."
+  ],
+  "advantages": [
+    "Unique valve techniques for injection",
+    "Multiple re-injections with injection acrylate resins or microfine cement suspensions",
+    "One-time injectable with injection polyurethane and epoxy resins",
+    "Easy and secure installation"
+  ],
+  "notFor": [
+    "Concrete surface must be clean and all loose materials removed before installing hose and placing concrete.",
+    "it is suggested to keep injection pressures below 600 psi to prevent cross-contamination of adjacent waterstop, when using multiple rows of hose within a single joint",
+    "This procedure must be completed within the specified gel time of the material"
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "Inner core: PVC; Strips: Neoprene based cellular rubber; Mesh: Polyester"
+    },
+    {
+      "label": "Diameter, internal",
+      "value": "Internal hose diameter: 8 mm"
+    },
+    {
+      "label": "Diameter, external",
+      "value": "External hose diameter: 12 mm"
+    },
+    {
+      "label": "Injection materials, multiple injections",
+      "value": "acrylate and microfine cement suspensions"
+    },
+    {
+      "label": "Injection materials, single injection",
+      "value": "polyurethane and epoxy resins"
+    },
+    {
+      "label": "Injection pressure, lowest",
+      "value": "75 - 150 psi"
+    },
+    {
+      "label": "Injection pressure, after the vent end is closed",
+      "value": "between 100 and 600 psi"
+    },
+    {
+      "label": "Hold at the end of injection",
+      "value": "hold the pressure between 500 and 600 psi for approximately 2 more minutes"
+    },
+    {
+      "label": "Storage life",
+      "value": "4 years"
+    },
+    {
+      "label": "Storage conditions",
+      "value": "Dry, shaded place"
+    },
+    {
+      "label": "Accessories",
+      "value": "All accessories including inlet and outlet PVC-hose are available separately."
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "Supplied as a Combi-pack in a cardboard box containing: 200 m YHinjehose, 10 m PVC-hose (inlet), 10 m PVC-hose (outlet), Accessories: 2 m connecting pipe, 4 m heat shrink sleeve, × 50 closure plugs, 1 can of glue, 1 roll of tape, ×800 fastening clips",
+  "storage": "The product should be stored in ventilated places, with no exposure to sunlight, rain, or fire."
+}

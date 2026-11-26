@@ -1,0 +1,106 @@
+{
+  "slug": "yhacgrout-2101",
+  "titleAsPrinted": "YHACgrout-2101",
+  "edition": "Feb. 2025",
+  "description": "YHACgrout-2101 is a multi-component, low-viscosity, and flexible polyacrylic injection system designed for permanent waterproof sealing with adjustable gelling time.",
+  "whereToUse": [
+    "It is suitable for post-construction, external injection sealing system for construction, expansion and drainage pipe joints",
+    "new sealing walls in damp or water saturated ground conditions (curtain injection)",
+    "sealing water-bearing cracks and voids",
+    "it is suitable for consolidation of soils that are not very compact"
+  ],
+  "advantages": [
+    "Permanently elastic.",
+    "Capable of reversibly absorbing (swelling) and releasing (shrinking) moisture.",
+    "Adjustable gelling times at various temperature ranges.",
+    "Green, safe, and environmentally friendly.",
+    "Very low viscosity comparable to water, high permeability and capable of filling in fine cracks.",
+    "The cured YHACgrout-2101 is insoluble in water and hydrocarbons, and resistant to acids and alkalis.",
+    "Resistant to alternating freeze and thaw exposure."
+  ],
+  "notFor": [
+    "it must also be ensured that there are no drainage systems or open pipes close to the injection areas",
+    "Prior to the use of YHACgrout-2101, check the gel time according to the local site ambient conditions.",
+    "Part A is sensitive to light and must be stored in and applied from light-proof containers.",
+    "YHACgrout-2101 must only be injected with a 2-part stainless steel injection pump with a special static mixer placed at the nozzle just before the injection point."
+  ],
+  "standards": [],
+  "technicalData": [
+    {
+      "label": "Appearance, Parts A1, A2 and B1",
+      "value": "Liquid"
+    },
+    {
+      "label": "Appearance, Part B2",
+      "value": "Powder"
+    },
+    {
+      "label": "Mixing ratio (in weight)",
+      "value": "A1 : A2 : B1 : B2 = 9.7 : 0.3 : 9.8 : 0.2"
+    },
+    {
+      "label": "Pumping ratio",
+      "value": "in the ratio of 1:1 in volume"
+    },
+    {
+      "label": "Packing size, Part A and Part B",
+      "value": "10L per plastic pail"
+    },
+    {
+      "label": "Packing size, Part A1",
+      "value": "9.7kg per bag"
+    },
+    {
+      "label": "Packing size, Part A2",
+      "value": "0.3kg per bag"
+    },
+    {
+      "label": "Packing size, Part B1",
+      "value": "9.8kg per bag"
+    },
+    {
+      "label": "Packing size, Part B2",
+      "value": "0.2kg per bag"
+    },
+    {
+      "label": "Viscosity (complete mixture)",
+      "value": "≤ 10 mPa·s"
+    },
+    {
+      "label": "Density (g/cm³)",
+      "value": "1.08"
+    },
+    {
+      "label": "pH value",
+      "value": "6-9"
+    },
+    {
+      "label": "Gel time",
+      "value": "Adjustable"
+    },
+    {
+      "label": "Curing time (23 °C)",
+      "value": "125s"
+    },
+    {
+      "label": "Application temperature",
+      "value": "+5 °C min. / +40 °C max"
+    },
+    {
+      "label": "Substrate temperature",
+      "value": "+5 °C min. / +40 °C max"
+    },
+    {
+      "label": "Recommended storage temperature",
+      "value": "5°C to 25°C"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months from date of production"
+    }
+  ],
+  "consumption": [],
+  "mixing": "Mix parts A1 and A2 immediately before use. Part B2 is dissolved in Part B1 by thoroughly stirring it for 2-3 minutes with a suitable stirrer.",
+  "packaging": "10L per plastic pail",
+  "storage": "The product should be stored in a well-ventilated, dry, and cool area, protected from sunlight, rain, frost and fire."
+}

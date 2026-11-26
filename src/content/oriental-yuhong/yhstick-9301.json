@@ -1,0 +1,167 @@
+{
+  "slug": "yhstick-9301",
+  "titleAsPrinted": "YHStick-9301",
+  "edition": "May. 2025",
+  "description": "YHStick-9301 is a self-adhesive, fully bonded, post-applied, bituminous waterproofing sheet membrane in thicknesses of 1.5mm and 2.0mm. It is available in 2 types, the single-side self-adhesive and double-side self-adhesive membrane. Single-side self-adhesive membrane: Comprises of a cross-laminated HDPE film pre-coated with SBS-modified bitumen compound, with a release liner on the underside. Double-side self-adhesive membrane: Consists of a cross-laminated HDPE film and two layers of polymer-modified bitumen adhesive with release liners on both sides.",
+  "whereToUse": [
+    "Basements",
+    "foundation",
+    "basement slabs",
+    "podium slabs",
+    "concealed roofs",
+    "waterproofing works where naked flames are not allowed"
+  ],
+  "advantages": [
+    "Safe, easy and fast installation.",
+    "No need for special equipment and flame.",
+    "Excellent initial and long term adhesion.",
+    "Direct application on wet substrate.",
+    "For single-side self-adhesive membrane: Excellent mechanical resistant, such as high tensile strength, good puncture and tear, and high nail shank tear strength, good dimensional stability.",
+    "Resistant to chemical corrosion: Resistant to most soil conditions, the membrane is designed to provide effective protection against soils and groundwater."
+  ],
+  "notFor": [
+    "The product is designed for non-exposed applications",
+    "The membrane must be protected with screed, reflective coating, drainage board, or protection boards to protect from UV radiation and backfilling damage",
+    "Protect all materials from extreme temperature.",
+    "Construction is strictly prohibited in rainy, snowy days and windy days above level 5.",
+    "The temperature of construction environment should not be lower than 5℃.",
+    "In case of precipitation during the construction, the protection work of the material shall be done well.",
+    "Store and transport rolls in such a manner to prevent bending of the inner core and membrane edge damages."
+  ],
+  "standards": [
+    {
+      "standard": "EN 12311-1",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D5147",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E154",
+      "value": ""
+    },
+    {
+      "standard": "ASTM E96/E96M-22",
+      "value": ""
+    },
+    {
+      "standard": "EN 12310-1",
+      "value": ""
+    },
+    {
+      "standard": "ASTMD903-98 (2017)",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1000",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1876-02",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D1002-10(2019)",
+      "value": ""
+    },
+    {
+      "standard": "ASTM D570-98",
+      "value": ""
+    },
+    {
+      "standard": "BS EN1928 Method: B",
+      "value": ""
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Width (m), single-side and double-side",
+      "value": "1"
+    },
+    {
+      "label": "Thickness (mm), single-side and double-side",
+      "value": "1.5, 2.0"
+    },
+    {
+      "label": "Length (m)",
+      "value": "20"
+    },
+    {
+      "label": "Roll size (m2/roll)",
+      "value": "20"
+    },
+    {
+      "label": "Upper surface material, single-side",
+      "value": "HDPE cross-laminated film"
+    },
+    {
+      "label": "Upper surface material, double-side",
+      "value": "Release film"
+    },
+    {
+      "label": "Lower surface material, both types",
+      "value": "Release film"
+    },
+    {
+      "label": "Tensile strength (MD/CD) [N/mm2] (EN 12311-1)",
+      "value": "≥4/≥4"
+    },
+    {
+      "label": "Elongation at break (MD/CD) [%] (EN 12311-1)",
+      "value": "≥300/≥300"
+    },
+    {
+      "label": "Low temperature flexibility (-10°C) (ASTM D5147)",
+      "value": "No crack"
+    },
+    {
+      "label": "Puncture resistance [N] (ASTM E154)",
+      "value": "≥180"
+    },
+    {
+      "label": "Water vapour transmission, g/(m2·24h) (ASTM E96/E96M-22)",
+      "value": "<1.0"
+    },
+    {
+      "label": "Resistance to tearing (nail shank) (MD/CD) [N] (EN 12310-1)",
+      "value": "≥150/≥150"
+    },
+    {
+      "label": "Peel adhesive to concrete [N/mm] (ASTM D903-98 (2017))",
+      "value": "≥1.2"
+    },
+    {
+      "label": "Peel adhesive to steel [N/mm] (ASTM D1000)",
+      "value": "≥1.2"
+    },
+    {
+      "label": "Joint peel adhesion [N/mm] (ASTM D1876-02)",
+      "value": "≥0.8"
+    },
+    {
+      "label": "Lap shear [N] (ASTM D1002-10(2019))",
+      "value": "≥10"
+    },
+    {
+      "label": "Water absorption [%] (ASTM D570-98)",
+      "value": "<0.1"
+    },
+    {
+      "label": "Watertightness (6bar, 24h) (BS EN1928 Method: B)",
+      "value": "No leakage"
+    },
+    {
+      "label": "Side and end laps",
+      "value": "a minimum of 80mm"
+    },
+    {
+      "label": "Shelf life",
+      "value": "12 months from the production date"
+    }
+  ],
+  "consumption": [],
+  "mixing": null,
+  "packaging": "Roll",
+  "storage": "Stored in well-ventilated and dry place. Avoid direct sunlight, rain, high temperature and fire. Storage temperature shall be below 45°C."
+}

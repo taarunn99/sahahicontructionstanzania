@@ -37,7 +37,8 @@ const SPORTS = "/oriental-yuhong/sports-flooring";
 const FIXED = {
   "/tds/oriental-yuhong/pmh-3080-method-statement.pdf":
     "/oriental-yuhong/hdpe-waterproofing",
-  "/tds/oriental-yuhong/hdpe-brochure.pdf": "/oriental-yuhong/hdpe-waterproofing",
+  "/tds/oriental-yuhong/hdpe-brochure.pdf":
+    "/oriental-yuhong/hdpe-waterproofing",
   "/tds/oriental-yuhong/below-grade-structures.pdf":
     "/oriental-yuhong/below-grade-waterproofing",
   "/tds/oriental-yuhong/sports/all-plastic-track.pdf": `${SPORTS}/all-plastic-track`,
@@ -59,6 +60,8 @@ const FIXED = {
     "/x-calibur/antistatic-conductive-flooring",
   "/tds/x-calibur/conductive-floor-systems.pdf":
     "/x-calibur/antistatic-conductive-flooring",
+  // FUDA XPS: the Chinese original beside Sahihi's English translation.
+  "/tds/oriental-yuhong/fuda-xps-zh.pdf": "/oriental-yuhong/fuda-xps",
   // The company profile is the flip book on the home page.
   "/tds/sahihi-company-profile-2026.pdf": "/",
 };
@@ -66,6 +69,12 @@ const FIXED = {
 /** A data sheet's page is the product page; Mapei pages sit under a line. */
 function pageFor(file) {
   if (FIXED[file]) return FIXED[file];
+  // OYH's safety data sheets sit beside the product's data sheet, one per
+  // part of a kit: /tds/oriental-yuhong/msds/<slug>[-part-x].pdf.
+  const msds = file.match(
+    /^\/tds\/oriental-yuhong\/msds\/(.+?)(-part-[a-z])?\.pdf$/,
+  );
+  if (msds) return `/oriental-yuhong/${msds[1]}`;
   const m = file.match(/^\/tds\/([^/]+)\/(docs\/)?([^/]+)\.pdf$/);
   if (!m) return null;
   const [, brand, docs, slug] = m;
@@ -85,7 +94,8 @@ const problems = [];
 for (const file of files) {
   const page = pageFor(file);
   if (!page) problems.push(`${file}: no page`);
-  else if (!routes.has(page)) problems.push(`${file}: page ${page} not in og-manifest`);
+  else if (!routes.has(page))
+    problems.push(`${file}: page ${page} not in og-manifest`);
   else map[file] = page;
 }
 if (problems.length) {
@@ -100,7 +110,9 @@ if (process.argv.includes("--check")) {
     current = readFileSync(OUT, "utf8");
   } catch {}
   if (current !== json) {
-    console.error(`${OUT} is stale: run node scripts/build-canonical-headers.mjs`);
+    console.error(
+      `${OUT} is stale: run node scripts/build-canonical-headers.mjs`,
+    );
     process.exit(1);
   }
   console.log(`canonical headers: ${files.length} PDFs, map current`);

@@ -1,0 +1,100 @@
+{
+  "slug": "yhtape-2022hd",
+  "titleAsPrinted": "YHTape-2022HD",
+  "edition": "Feb. 2025",
+  "description": "YHTape-2022HD Butyl tape is a self-adhesive sealing waterproof tape composed of High Density Polyethylene (HDPE) film surface layer, and a highly aggressive butyl pressure-sensitive adhesive on the bottom side. This adhesive is specifically formulated to bond securely with various substrates, such as concrete, steel, plywood or even glass, protecting critical detail areas from air, water, and wind infiltration across all climates.",
+  "whereToUse": [
+    "Sealing various kinds of material, such as concrete, plywood, steel, glass",
+    "Non-roof detailing area, such as window and door openings, corner boards, wall-to-wall tie-ins, sheathing panel seams, deck-to-wall intersections, foundation/sill capillary break",
+    "Municipal drainage and sewage treatment system, such as sanitary manhole joints, storm-water manhole joints, wet walls, and storm-water treatment & inlet structures",
+    "Buildings and substructures waterproofing, such as architectural foundation detailing areas, underground utility vaults",
+    "Applications include sealing cracks, termination for waterproofing system, lapping, all kinds of joints"
+  ],
+  "advantages": [
+    "Superior adhesion: The tape bonds firmly to substrates and forms high quality laps",
+    "Dual barrier protection: The lamination of butyl rubber and HDPE laminated film creates a continuous barrier against water, air and vapor",
+    "Heat Resistance: Specially formulated, the tape withstands prolonged exposure to temperatures up to 100 °C without degradation of the butyl adhesive",
+    "Superior flexibility at low temperature: Maintains good flexibility even at -40 °C",
+    "Watertightness around nail shank: The unique butyl rubber based adhesive as the base material has excellent sealing properties and can heal nail shank damage with a diameter of less than 2mm"
+  ],
+  "notFor": [
+    "The base surface must be dry during construction. Construction is strictly prohibited on rainy or snowy days, as well as on windy days with wind speeds exceeding level 5",
+    "If the construction temperature is below 5°C, initial adhesion may be insufficient",
+    "The substrate surface must be thoroughly cleaned and shall be solid, flat, dry, and free of debris, dust, dirt, loose nails, or old roofing materials"
+  ],
+  "standards": [
+    {
+      "standard": "ASTM D412",
+      "value": "Tensile force, elongation at break"
+    },
+    {
+      "standard": "ASTM D903",
+      "value": "Adhesion to plywood and to steel"
+    },
+    {
+      "standard": "ASTM D1970",
+      "value": "Low temperature flexibility, thermal stability"
+    },
+    {
+      "standard": "ASTM D1876",
+      "value": "Peel strength of lap"
+    }
+  ],
+  "technicalData": [
+    {
+      "label": "Appearance",
+      "value": "HDPE film-surfaced tape"
+    },
+    {
+      "label": "Width, cm",
+      "value": "10 or other customized size"
+    },
+    {
+      "label": "Thickness, mm",
+      "value": "1.2 ± 0.1"
+    },
+    {
+      "label": "Length, m",
+      "value": "10 or other customized size"
+    },
+    {
+      "label": "Tensile force, N/mm (ASTM D412)",
+      "value": "≥6"
+    },
+    {
+      "label": "Elongation at break, % (ASTM D412)",
+      "value": "≥50"
+    },
+    {
+      "label": "Adhesion to plywood at 23 °C, N/mm (ASTM D903)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Adhesion to steel at 23 °C, N/mm (ASTM D903)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Low temperature flexibility, -40 °C (ASTM D1970)",
+      "value": "No crack"
+    },
+    {
+      "label": "Thermal stability, 100 °C (ASTM D1970)",
+      "value": "Pass"
+    },
+    {
+      "label": "Peel strength of lap, N/mm (ASTM D1876)",
+      "value": "≥ 1"
+    },
+    {
+      "label": "Storage temperature",
+      "value": "between 5°C and 35°C"
+    },
+    {
+      "label": "Shelf life",
+      "value": "24 months"
+    }
+  ],
+  "consumption": [],
+  "packaging": "Width / cm 10 or other customized size; Thickness / mm 1.2 ± 0.1; Length / m 10 or other customized size",
+  "storage": "The product should be stored in a cool, well-ventilated, and dry warehouse, protected from rain, sunlight, and fire sources. The storage temperature should be between 5°C and 35°C. Under normal storage and transportation conditions, the shelf life is 24 months."
+}

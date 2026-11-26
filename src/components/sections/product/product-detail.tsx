@@ -119,6 +119,20 @@ export type ProductDetailProps = {
    * anything else words the packs as supplied to order (the SEO row's
    * stock claim, owner's word per product). */
   stock?: "held" | "order" | "enquire";
+  /** The maker's safety data sheets, unaltered PDFs (one per part of a kit);
+   * without them the row offers "Request" on WhatsApp. */
+  safetySheets?: { file: string; part: string | null; bytes: number }[];
+  /** Further documents of the product (e.g. the original-language sheet
+   * beside a translation), rows like the safety sheets. */
+  otherDocuments?: {
+    title: string;
+    note: string;
+    file: string;
+    bytes: number;
+  }[];
+  /** Replaces the "own document, unaltered" line under the downloads where
+   * the data sheet offered is not the maker's own issue (a translation). */
+  documentNote?: string;
 };
 
 const SECTION_LABEL = "label-sh text-muted";
@@ -217,6 +231,9 @@ export function ProductDetail({
   model,
   credential = null,
   stock = "held",
+  safetySheets,
+  otherDocuments,
+  documentNote,
 }: ProductDetailProps) {
   const held = stock === "held";
   const standards = (content?.standards ?? []).filter(
@@ -451,7 +468,7 @@ export function ProductDetail({
                       <p className="text-brand text-3xl leading-tight font-semibold tracking-tight uppercase">
                         {product.name}
                       </p>
-                      <p className="spec-sh text-muted">
+                      <p className="spec-sh text-muted max-w-full [overflow-wrap:anywhere] whitespace-normal">
                         {brand.name} · {product.packs.join(" · ")}
                       </p>
                     </div>
@@ -580,7 +597,9 @@ export function ProductDetail({
                     <dt className="label-sh text-muted leading-relaxed">
                       {row.label}
                     </dt>
-                    <dd className="spec-sh">{row.value}</dd>
+                    <dd className="spec-sh min-w-0 [overflow-wrap:anywhere]">
+                      {row.value}
+                    </dd>
                   </div>
                 ))}
               </dl>
@@ -668,29 +687,106 @@ export function ProductDetail({
                 </a>
               )}
             </li>
-            <li className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6">
-              <SheetIcon />
-              <div>
-                <h3 className="leading-snug font-bold">Safety data sheet</h3>
-                <p className="spec-sh text-muted mt-1">
-                  Sent by WhatsApp or email
-                </p>
-              </div>
-              <span className="border-deep/15 spec-sh hidden rounded-full border px-4 py-2 sm:inline-block">
-                English
-              </span>
-              <a
-                href={whatsappLink(`the safety data sheet for ${product.name}`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={cn(
-                  PILL,
-                  "border-deep col-span-2 justify-self-start border sm:col-span-1",
-                )}
+            {otherDocuments?.map((doc) => (
+              <li
+                key={doc.file}
+                className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6"
               >
-                Request
-              </a>
-            </li>
+                <SheetIcon />
+                <div>
+                  <h3 className="leading-snug font-bold">{doc.title}</h3>
+                  <p className="spec-sh text-muted mt-1">
+                    {doc.note} · PDF · {fileSize(doc.bytes)}
+                  </p>
+                </div>
+                <span className="border-deep/15 spec-sh hidden rounded-full border px-4 py-2 sm:inline-block">
+                  Original
+                </span>
+                <span className="col-span-2 flex flex-wrap items-center gap-x-5 gap-y-2 sm:col-span-1">
+                  <a
+                    href={doc.file}
+                    download
+                    className={cn(PILL, "border-deep border")}
+                  >
+                    Download
+                    <DownloadIcon />
+                  </a>
+                  <a
+                    href={doc.file}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="u-line py-2 text-sm"
+                  >
+                    Open
+                  </a>
+                </span>
+              </li>
+            ))}
+            {safetySheets && safetySheets.length > 0 ? (
+              safetySheets.map((sheet) => (
+                <li
+                  key={sheet.file}
+                  className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6"
+                >
+                  <SheetIcon />
+                  <div>
+                    <h3 className="leading-snug font-bold">
+                      Safety data sheet{sheet.part && `, ${sheet.part}`}
+                    </h3>
+                    <p className="spec-sh text-muted mt-1">
+                      PDF · {fileSize(sheet.bytes)}
+                    </p>
+                  </div>
+                  <span className="border-deep/15 spec-sh hidden rounded-full border px-4 py-2 sm:inline-block">
+                    English
+                  </span>
+                  <span className="col-span-2 flex flex-wrap items-center gap-x-5 gap-y-2 sm:col-span-1">
+                    <a
+                      href={sheet.file}
+                      download
+                      className={cn(PILL, "border-deep border")}
+                    >
+                      Download
+                      <DownloadIcon />
+                    </a>
+                    <a
+                      href={sheet.file}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="u-line py-2 text-sm"
+                    >
+                      Open
+                    </a>
+                  </span>
+                </li>
+              ))
+            ) : (
+              <li className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6">
+                <SheetIcon />
+                <div>
+                  <h3 className="leading-snug font-bold">Safety data sheet</h3>
+                  <p className="spec-sh text-muted mt-1">
+                    Sent by WhatsApp or email
+                  </p>
+                </div>
+                <span className="border-deep/15 spec-sh hidden rounded-full border px-4 py-2 sm:inline-block">
+                  English
+                </span>
+                <a
+                  href={whatsappLink(
+                    `the safety data sheet for ${product.name}`,
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cn(
+                    PILL,
+                    "border-deep col-span-2 justify-self-start border sm:col-span-1",
+                  )}
+                >
+                  Request
+                </a>
+              </li>
+            )}
             <li className="border-deep/10 grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-4 rounded-lg border bg-white px-5 py-4 shadow-[0_1px_3px_rgba(12,42,54,0.08)] sm:grid-cols-[auto_1fr_auto_auto] sm:px-6">
               <SheetIcon />
               <div>
@@ -710,7 +806,12 @@ export function ProductDetail({
               />
             </li>
           </ul>
-          {document && (
+          {document && documentNote && (
+            <p className="text-muted mx-auto mt-6 max-w-4xl text-sm leading-relaxed">
+              {documentNote}
+            </p>
+          )}
+          {document && !documentNote && (
             <p className="text-muted mx-auto mt-6 max-w-4xl text-sm leading-relaxed">
               {isMaker ? `${brand.name}'s` : "The manufacturer's"} own document,
               unaltered

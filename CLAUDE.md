@@ -288,6 +288,28 @@ X-Calibur. A catalogue site in the gcbuae.com design system.
   Tripo 3D hero (`scripts/compress-blog-model.sh`: Tripo now returns ~1.5 M triangles,
   simplified to ~31,000), IMAGE-PROVENANCE 3s. Posts can carry `published` in
   `src/config/blog.ts`; these say 2026-11-21.
+- 2026-11-26, OYH's data sheet folder ("OYH Docs - TDS and MSDS", 53 TDS, 55 MSDS): the
+  OYH range is now 59 products in eight families (`src/config/oyh-range.ts`), 53 of them
+  supplied to order with a standard product page each, the data sheet and safety sheets
+  as unaltered PDFs (`public/tds/oriental-yuhong/`, `.../msds/`), OYH's own pack picture
+  and application photograph where the sheet prints one, a calculator where it prints a
+  rate, and a 3D model for every distinct pack picture (26 products, `oyh-models.json`).
+  Pipeline: a reader's record per product in `assets/source/oyh-range/<slug>.json`
+  (gitignored) + `src/content/oriental-yuhong/<slug>.json` (verified against the PDF or
+  an OCR fixture in `scripts/fixtures/`) -> `scripts/wire-oyh-range.mjs` writes
+  `oyh-products.json`, the TDS manifest and generated blocks (markers) in
+  `oriental-yuhong.ts`, `seo/oyh.ts` and `product-one-liners.ts`. Product titles carry
+  their query (`titleOverride`). The OYH hub groups the range by family with jump chips;
+  the below-grade manual's cards link to the new pages (`manualPage`). FUDA-XPS's
+  page quotes Sahihi's English translation of its Chinese sheet (original beside it, owner's
+  instruction); the missing sheets and OYH's own conflicts are OPEN-QUESTIONS Q24.
+- Later on 2026-11-26, the owner's "OYH Product Pictures" folder: 15 of the 31 OYH products
+  with no picture got OYH's own picture as a pack shot (`packshot: { file }` records,
+  `assets/source/owner-supplied/oyh/pictures-2026-11-26/`, IMAGE-PROVENANCE 3v) and a 3D
+  model each (41 OYH models now). The 16 for which no picture exists anywhere carry an
+  illustrative scene (`productScenes`, "Illustration" tag, IMAGE-PROVENANCE 3w) by the
+  owner's instruction "wherever there is no picture generate it"; still no pack shot and no
+  3D for those until OYH sends a picture.
 - Eighth round, 2026-11-11:
   - **Flash sale** on the home page: blinking tab, ticker, countdown, the comic "SALE!"
     burst (`flash-sale.tsx`, `offer-band.tsx`), and the **sale page** `/sale`

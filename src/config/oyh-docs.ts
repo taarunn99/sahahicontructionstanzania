@@ -1,5 +1,6 @@
 import type { DocEntry, DocGroup } from "@/components/sections/document-list";
 import manifest from "@/config/oyh-docs.json";
+import { oyhSafetySheets } from "@/config/oyh-range";
 import tds from "@/config/oriental-yuhong-tds.json";
 import { SYSTEMS, TDS as SPORTS_TDS } from "@/config/oyh-sports-systems";
 
@@ -94,8 +95,21 @@ const sportsSystems: DocEntry[] = SYSTEMS.filter((system) => system.download)
       !courtGuides.some((guide) => guide.file === doc.file),
   );
 
+/** OYH's safety data sheets, one per part of a kit (2026-11-26). */
+const safetySheets: DocEntry[] = Object.entries(oyhSafetySheets).flatMap(
+  ([slug, files]) =>
+    files.map((doc) =>
+      entry(
+        doc.file,
+        `${sheets[slug as keyof typeof sheets]?.title ?? slug} safety data sheet${doc.part ? `, ${doc.part}` : ""}`,
+        "Material safety data sheet, as issued by OYH.",
+      ),
+    ),
+);
+
 export const oyhDocGroups: DocGroup[] = [
   { title: "Data sheets", docs: dataSheets },
+  { title: "Safety data sheets", docs: safetySheets },
   {
     title: "Manuals and guides",
     docs: [BELOW_GRADE_MANUAL, HDPE_BROCHURE, sportsBrochure, ...courtGuides],

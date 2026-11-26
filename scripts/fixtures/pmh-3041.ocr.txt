@@ -1,0 +1,100 @@
+# OCR of public/tds/oriental-yuhong/pmh-3041.pdf, corrected against the page by eye, 2026-11-26.
+PMH-3041
+High Density Polyethylene (HDPE) Post-applied Waterproof Membrane
+Technical Data Sheet (TDS) 1 / 4
+
+DESCRIPTION
+The PMH-3041 High-Density Polyethylene (HDPE) Waterproofing Membrane is specifically developed for the waterproofing of underground structure side walls and roof slabs. It is applied using cold construction methods and external application techniques. This high-performance polymer waterproofing sheet can form a full bond with concrete structures. It utilizes a specially formulated high-density polyethylene sheet as the base material, combined with high-adhesion hot-melt pressure-sensitive adhesive, and is covered with a PET film for isolation and protection. The high-density polyethylene sheet's inherent strength and density effectively block plant roots, providing excellent physical root barrier properties.
+
+WHERE TO USE
+PMH-3041 is suitable for planted roof for underground buildings. It can also be used for the conventional roof and the structural side walls constructed by the external waterproofing and internal pasting method, and its specifications can be determined according to the design structure layers.
+
+CHARACTERISTICS AND PACKAGING
+Item | Description
+Packaging | Roll
+Width (m) | 1.2, 2.4
+Thickness (mm) | 1.2, 1.5
+Length (m) | 20 or Customized
+Roll Size (m2/roll) | 24, 48 or Customized
+
+ADVANTAGES
+Root Barrier Performance: High-density polyethylene membranes intercept plant roots due to their high strength and density, providing excellent physical root barrier effects.
+Outstanding mechanical properties, high tensile strength and puncture resistance, withstand structural deformation and vibration, maintaining the integrity of root-resistant waterproof layer.
+Durability and Chemical Corrosion Resistance. The excellent chemical stability of high-density polyethylene membranes gives them strong anti-aging and chemical corrosion resistance, effectively resisting mold corrosion from plants and nutrient soil.
+Reliable Overlapping: The high adhesive strength of pressure-sensitive adhesive combined with the high polymer base material ensures the sealing of overlapping edges. After bonding the short and long edges, an extrusion welder is used to seal the seams, ensuring firm overlaps.
+
+Website: www.oyhglobal.com
+Issue Date: Aug.2025
+
+PMH-3041
+High Density Polyethylene (HDPE) Post-applied Waterproof Membrane
+Technical Data Sheet (TDS) 2 / 4
+PROPERTIES
+Description | Test Method | Typical Values
+Thickness | BS EN 1849-2:2019 | 1.23mm
+Mass per Unit Area | BS EN 1849-2:2019 | 1190g/m2
+Luminous Transmittance | ASTM D1003-21 | 60%
+Tensile Force | BS EN 12311-2:2013 | CD 1108 N/50mm
+Tensile Force | BS EN 12311-2:2013 | MD 1023 N/50mm
+Elongation at Break | BS EN 12311-2:2013 | CD 729%
+Elongation at Break | BS EN 12311-2:2013 | MD 811%
+Resistance to Tearing (Nail Shank) | BS EN 12310-1:2000 | CD 735N
+Resistance to Tearing (Nail Shank) | BS EN 12310-1:2000 | MD 828N
+Shear Resistance of Joints | BS EN 12317-2:2010 | 805N/50mm
+Resistance to Impact-Hard Support | BS EN 12691:2018 A | 700mm No Puncture& No Leakage
+Resistance to Static Loading-Hard Support | BS EN 12730:2015 B | 20kg No Puncture& No Leakage
+Peel adhesion to Concrete | ASTM D903-98(2017) | 1000N/m
+Water-tightness Before chemical immersion | BS EN 1928:2000 | No Leakage
+Water-tightness After Saturated Lime 28days | BS EN 1928:2000 | No Leakage
+Foldability at low temperature | BS EN 495-5:2013 | No Visible Crack or Fracture at Folded Area
+Note: The above data were tested by thickness 1.2mm under standard conditions (temperature 23 ℃ ± 2 ℃, relative humidity 50% ± 10%).
+
+APPLICATION INSTRUCTIONS
+Accessories: Gasket, Welding Rods
+Construction Tools: Pressing plates, Rollers, Extrusion Welders, etc.
+Construction Process:
+Substrate Preparation → Apply Primer to the Substrate → Apply Additional Waterproofing to Details → Set Guide Lines → Lay Waterproof Membranes → Vent and Press Firmly → Press and Seal Overlaps and Edges → Seal with Extrusion Welder → Quality Inspection and Approval.
+Construction Key Point:
+Website: www.oyhglobal.com
+Issue Date: Aug.2025
+
+PMH-3041
+High Density Polyethylene (HDPE) Post-applied Waterproof Membrane
+Technical Data Sheet (TDS) 3 / 4
+Construction Preparation: This includes main and auxiliary materials, system matching materials, technical plans, working conditions, and waterproofing substrate.
+Substrate Treatment: The substrate should be solid, flat, dry, and free of sand, dust, and oil stains. Irregularities and cracks should be filled with polymer mortar. Before construction, the substrate should be inspected and accepted; once it meets the requirements, it should be cleaned. If necessary, use a vacuum cleaner or high-pressure dust blower. Depending on the flatness and moisture content of the substrate, special sealing primer from Oriental Yuhong may be used.
+Detailing Nodes with Additional Waterproofing: Once the primer is dry, promptly treat the areas that require additional waterproofing according to the design requirements.
+Large Area Waterproofing on Horizontal Surfaces: After the primer is dry, mark lines and lay the membrane. Fix the starting end and gradually unroll, removing the release film simultaneously. Lay the membrane from low to high.
+Vertical Surfaces: Similar to horizontal surfaces, use the full adhesion method for both the membrane to the substrate and membrane to membrane.
+Membrane Overlapping (Long and Short Edges): The long edges of two membranes overlap in an 80mm self-adhesive zone. Remove the release film and adhere the two membranes together. Ensure a good overlap by pressing firmly with a roller. After overlapping, use an extrusion welder to seal the seam.
+Protective Isolation Layer Construction: After laying the membrane and passing inspection, take protective measures on the waterproof layer surface and construct the protective layer according to design requirements. Isolation layer materials can be plastic film, thin polystyrene board, paper gypsum, etc.
+
+TRANSPORTATION AND STORAGE
+Different types and specifications of products should be stored separately to avoid mixing.
+When storing rolled materials horizontally, the height should not exceed five layers. When storing them vertically, they should be placed in a single layer. During transportation, prevent tilting or lateral pressure.
+Avoid exposure to sunlight and rain. If necessary, cover with felt cloth. Ensure proper ventilation, and the storage temperature should not exceed 45°C.
+Do not allow contact with acids, alkalis, oils, and organic solvents.
+Under normal transportation and storage conditions, the storage period is one year from the production date.
+
+PRECAUTIONS
+When applying this membrane, the substrate should meet the following conditions: solid, flat, clean, dry, and free of loose dust and oil stains.
+When using this membrane on planting roofs, an additional ordinary waterproof layer is required. For the selection of the ordinary waterproof layer, please contact our professional technical staff.
+The long and short edges of the membrane are bonded using cold self-adhesive overlap and sealed with an extrusion welder.
+When using this membrane on side walls, please note the following points:
+Website: www.oyhglobal.com
+Issue Date: Aug.2025
+
+PMH-3041
+High Density Polyethylene (HDPE) Post-applied Waterproof Membrane
+Technical Data Sheet (TDS) 4 / 4
+A. If the side wall waterproof protection layer is designed to be a brick protective wall, the brick protective wall construction should be completed within 7 days after the membrane waterproof layer is completed.
+B. If the side wall is not designed with a brick protective wall but with a polystyrene insulation layer, the polystyrene insulation layer should be applied immediately after the membrane waterproof layer is completed and has passed inspection.
+For more detailed technical advice, please consult our professional technical expert.
+
+HEALTH AND SAFETY
+Please read the safety manual carefully, our security experts will be pleased to give you advises about safety, health and environmental issues.
+
+DISCLAIMER
+The above information and recommendations which are based on our experience are as for reference, they can't replace the customers' own experimental results. Since our company, our representatives or distributors can't control the transportation, storage, handling and use conditions of the products, the economic disputes and the quality accident caused by improper use can't be attributed to our suggest. In any application, the customer shall be responsible to comply with obligations of third-party intellectual property rights. Without our consent, anyone shall not provide technical information to third parties.
+Website: www.oyhglobal.com
+Issue Date: Aug.2025
